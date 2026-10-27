@@ -7,9 +7,11 @@ import { dirname, join } from 'node:path';
 import { periodEnd, periodStart, parseDate } from '../assets/js/util.js';
 import {
   buildDB, filterGroups, validityInfo, validityCounts, countByPref, termEnd, validate, researchStatus,
-  VALIDITY_SCOPES, DOC_CATEGORIES, FIELDS, surveySummary, zeroState,
+  VALIDITY_SCOPES, VALIDITY_SCOPE, DOC_CATEGORIES, RELATIONS, FIELDS, surveySummary, zeroState,
+  typesTables, isWorkingHoliday, levelCounts, pairKind, JAPAN_ORG_TYPE,
 } from '../assets/js/data.js';
 import { mouCSV, groupsToMous } from '../assets/js/csv.js';
+import { searchGroups, applyFacets, facetCounts, tokenCounts, parseQuery, SEARCH_FIELD } from '../assets/js/search.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const J = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
@@ -106,7 +108,7 @@ const records = [];
 for (const f of index.files) { const d = J('data/mous/' + f); for (const m of d.mous || d) records.push({ ...m, _file: f }); }
 const db = buildDB({
   config: J('data/config.json'), prefs: J('data/prefectures.json').prefectures, countries: J('data/countries.json').countries,
-  survey: J('data/survey.json'), records, stats: null, topo: null, warnings: [],
+  survey: J('data/survey.json'), records, stats: null, topo: null, warnings: [], systems: J('data/systems.json').systems,
 });
 const B = { includeNews: false };
 
@@ -200,12 +202,102 @@ for (const sc of VALIDITY_SCOPES) {
       ],
     });
     issues = validate(bad);
-    filterGroups(bad, { validity: 'all', docScope: 'all', includePlanned: true, includeNews: true, q: 'テスト' });
+    filterGroups(bad, { validity: 'all', docScope: 'all', includePlanned: true, includeNews: true });
+    searchGroups(bad, 'テスト 覚書');
     bad.mous.forEach(m => researchStatus(m));
     mouCSV(bad, bad.mous, 'テスト');
   } catch (e) { err = e; }
   eq('欠損データで処理が止まらない', err ? String(err) : null, null);
   ok('欠損・日付の誤りを点検で検出', issues.some(i => i.msg.includes('存在しない日付')) && issues.some(i => i.msg.includes('title_ja')) && issues.some(i => i.msg.includes('countries.json')));
+}
+
+// ---------- 11. 締結主体の区分（団体・企業などを国・都道府県の件数に入れない） ----------
+{
+  const orgs = db.groups.filter(g => g.level === 'organization');
+  ok('団体などの協定に都道府県コードがない', orgs.every(g => g.pref_code === null));
+  ok('都道府県の件数（地図）に団体・市区町村の協定が入らない', (() => {
+    const all = filterGroups(db, { ...B, validity: 'all', docScope: 'all' });
+    const sum = [...countByPref(all).values()].reduce((a, b) => a + b, 0);
+    return sum === all.filter(g => g.level === 'prefecture').length;
+  })());
+  eq('締結主体ごとの件数の合計＝全体', Object.values(levelCounts(db.groups)).reduce((a, b) => a + b, 0), db.groups.length);
+  eq('政府間の判定', pairKind('national_gov', 'national_ministry'), 'gov');
+  eq('自治体間の判定', pairKind('prefecture', 'subnational_gov'), 'local');
+  eq('団体間の判定', pairKind('association', 'organization'), 'private');
+  eq('官民間の判定（県×大学）', pairKind('prefecture', 'university'), 'public_private');
+  eq('公的機関間の判定', pairKind('public_body', 'national_ministry'), 'public');
+  ok('日本側の種別が区分と一致', db.mous.every(m => JAPAN_ORG_TYPE[m._orgType] && JAPAN_ORG_TYPE[m._orgType].level === m.japan_level));
+  // 団体の本部所在地を pref_code に入れると点検で誤りになる
+  const t = buildDB({
+    config: { data_as_of: '2026-10-28' }, prefs: [{ code: '13', name: '東京都' }], countries: [{ code: 'VN', ja: 'ベトナム', en: 'Viet Nam' }],
+    survey: {}, stats: null, topo: null, warnings: [],
+    records: [{ id: 'O1', title_ja: '団体の覚書', doc_type: '覚書', japan_level: 'organization', japan_org_type: 'association', japan_org: '団体', pref_code: '13', country_code: 'VN', partner_org: '協会', partner_type: 'organization', signed_date: '2021-11-23', fields: ['labor'], status: 'signed', sources: [{ id: 's1', url: 'https://example.org', checked: '2026-10-28' }] }],
+  });
+  ok('団体の協定の pref_code を点検で検出', validate(t).some(i => i.level === 'error' && i.msg.includes('本部の所在地')));
+  eq('団体の協定は都道府県に数えない', countByPref(filterGroups(t, { validity: 'all' })).size, 0);
+}
+
+// ---------- 12. サイト内検索（AND・表記ゆれ・一致した項目） ----------
+{
+  const S = q => searchGroups(db, q);
+  const keys = rs => rs.map(r => r.g.key).sort();
+  const r1 = S('宮城県 ベトナム');
+  ok('「宮城県 ベトナム」が見つかる', r1.length > 0, `${r1.length}件`);
+  ok('「宮城県 ベトナム」はすべて両方の言葉に一致（AND）', r1.every(r => r.hits.length === 2 && r.g.countries.includes('VN')));
+  ok('「宮城県 ベトナム」に宮城県×ベトナムの協力覚書を含む', r1.some(r => r.g.versions.some(v => v.id === 'JP-04-001')));
+  ok('AND検索は片方だけの検索より少ない', r1.length <= S('ベトナム').length && r1.length <= S('宮城県').length);
+  ok('「インドネシア 介護」が見つかる', S('インドネシア 介護').length > 0);
+  ok('「ベトナム 技能実習」が見つかる', S('ベトナム 技能実習').length > 0);
+  const epa = S('外務省 EPA');
+  ok('「外務省 EPA」が見つかる', epa.length > 0, `${epa.length}件`);
+  ok('「EPA」は department などの単語の一部に一致しない', epa.every(r => r.hits[1].fields.some(f => f !== 'partner_org')));
+  eq('ベトナム／Viet Nam／Vietnam は同じ結果', [keys(S('Viet Nam')), keys(S('Vietnam'))], [keys(S('ベトナム')), keys(S('ベトナム'))]);
+  eq('全角・半角、大文字・小文字をそろえる', keys(S('ＭＯＵ')), keys(S('mou')));
+  ok('MOU で覚書も探す', S('MOU').length >= S('了解覚書').length && S('MOU').length > 0);
+  eq('CLAIR／クレア／自治体国際化協会は同じ結果', [keys(S('クレア')), keys(S('自治体国際化協会'))], [keys(S('CLAIR')), keys(S('CLAIR'))]);
+  eq('NAGOMi／なごみ／外国人材共生支援全国協会は同じ結果', [keys(S('なごみ')), keys(S('外国人材共生支援全国協会'))], [keys(S('NAGOMi')), keys(S('NAGOMi'))]);
+  ok('「インド」でインドネシアだけの協定を拾わない', S('インド').every(r => r.g.countries.includes('IN') || r.hits[0].fields.some(f => !['country'].includes(f))) && !S('インド').some(r => r.g.countries.join() === 'ID' && r.hits[0].fields.every(f => ['country', 'title', 'partner_org'].includes(f)) && !/インド(?!ネシア)/.test(r.g.versions.map(v => v.title_ja + v.partner_org).join())));
+  ok('「インド」でインド工科大学の協定が見つかる', S('インド').some(r => r.g.countries.includes('IN')));
+  ok('「京都」で東京都の協定を拾わない', S('京都').every(r => !(r.g.pref_code === '13' && r.hits[0].fields.length === 1 && r.hits[0].fields[0] === 'region')));
+  ok('一致した項目を記録', r1.every(r => r.hits.every(h => h.fields.length && h.fields.every(f => SEARCH_FIELD[f]))));
+  ok('相手国の項目で一致を記録', r1.some(r => r.hits[1].fields.includes('country')));
+  eq('キーワードなしは全件', S('').length, db.groups.length);
+  eq('見つからない言葉は0件', S('存在しない言葉ゼロゼロ').length, 0);
+  // 「MOC」は Democratic の一部に一致しない
+  const t = buildDB({
+    config: { data_as_of: '2026-10-28' }, prefs: [{ code: '01', name: '北海道', short: '北海道', en: 'Hokkaido' }], countries: [{ code: 'LA', ja: 'ラオス', en: "Lao People's Democratic Republic" }],
+    survey: {}, stats: null, topo: null, warnings: [],
+    records: [{ id: 'X1', title_ja: '合意書', doc_type: '合意書', doc_category: 'other', japan_level: 'prefecture', pref_code: '01', country_code: 'LA', partner_org: '省', partner_org_en: "Ministry of the Lao People's Democratic Republic", partner_type: 'national_ministry', fields: ['labor'], sources: [] }],
+  });
+  eq('MOC は単語の一部（Democratic）に一致しない', searchGroups(t, 'MOC').length, 0);
+  eq('英語の国名でも見つかる', searchGroups(t, 'lao').length, 1);
+  // 絞り込み
+  const base = S('ベトナム');
+  const sel = { ot: [], pk: [], c: [], p: [], cat: [], vs: ['valid_confirmed'], f: [], y1: null, y2: null };
+  ok('有効性で絞り込むと、その区分だけになる', applyFacets(base, sel).every(r => r.g.validity === 'valid_confirmed'));
+  const fc = facetCounts(db, base, { ...sel, vs: [] });
+  eq('有効性の選択肢の件数の合計＝検索結果の件数', fc.vs.reduce((a, [, n]) => a + n, 0), base.length);
+  eq('締結主体の選択肢の件数の合計＝検索結果の件数', fc.ot.reduce((a, [, n]) => a + n, 0), base.length);
+  ok('絞り込んでもキーワードの条件は残る（絞り込み後⊂キーワードの結果）', applyFacets(base, { ...sel, vs: [], p: ['04'] }).every(r => base.includes(r) && r.g.pref_code === '04'));
+  ok('締結年の範囲', applyFacets(base, { ...sel, vs: [], y1: 2020, y2: 2023 }).every(r => r.g.first_year >= 2020 && r.g.first_year <= 2023));
+  const tc = tokenCounts(db, parseQuery(db, '宮城県 存在しない言葉ゼロゼロ'));
+  ok('言葉ごとの件数（0件の理由の説明）', tc[0].n > 0 && tc[1].n === 0);
+}
+
+// ---------- 13. 協定の種類のページ：すべての表に条件を当てはめ、見出しの件数＝表示する件数 ----------
+{
+  let bad = [];
+  for (const sc of VALIDITY_SCOPES) for (const cat of ['', ...DOC_CATEGORIES.map(c => c.code)]) for (const rel of ['', ...RELATIONS.map(r => r.code)]) {
+    const t = typesTables(db, { ...B, validity: sc.code, docScope: 'all' }, cat, rel);
+    const shown = [...t.wh, ...Object.values(t.byLevel).flat()];
+    if (shown.length !== t.groups.length) bad.push(`${sc.code}/${cat}/${rel}：表示 ${shown.length}・該当 ${t.groups.length}`);
+    if (new Set(shown).size !== shown.length) bad.push(`${sc.code}/${cat}/${rel}：同じ協定が2つの表に出ている`);
+    if (rel && t.wh.some(g => g.relation !== rel)) bad.push(`${sc.code}/${cat}/${rel}：ワーキング・ホリデーの表に受入れ関連度の条件が当たっていない`);
+    if (t.wh.some(g => !VALIDITY_SCOPE[sc.code].states.includes(g.validity))) bad.push(`${sc.code}/${cat}/${rel}：ワーキング・ホリデーの表に有効性の条件が当たっていない`);
+    if (cat && cat !== 'bilateral_arrangement' && t.wh.length) bad.push(`${sc.code}/${cat}/${rel}：ほかの種類なのにワーキング・ホリデーが出ている`);
+    if (t.byLevel.national.some(isWorkingHoliday)) bad.push(`${sc.code}/${cat}/${rel}：国の表にワーキング・ホリデーが重複`);
+  }
+  eq('協定の種類のページの表と件数', bad, []);
 }
 
 // ---------- 実データの点検 ----------

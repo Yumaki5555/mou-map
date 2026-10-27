@@ -737,3 +737,91 @@ a.vt:hover { box-shadow: 0 4px 14px rgba(20, 60, 40, .14); color: var(--text); }
 /* 一覧のカードが長いバッジで横にはみ出さないように */
 .mou-list > *, .lrows > * { min-width: 0; }
 .mou-card .badge, .lrow .badge { white-space: normal; }
+
+/* ---------- トップの並び替え（2026-10-28 第3次改修） ---------- */
+.mini-status { display: inline-block; font-size: .95rem; color: var(--muted); }
+.mini-status b { color: var(--text); }
+/* 入口は8つ：広い画面は4列×2段 */
+.doors { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 999px) { .doors { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .doors { grid-template-columns: 1fr 1fr; } }
+.home-sec.status { margin: 34px 0; }
+.status-head h2 .band-k { display: block; width: fit-content; margin-bottom: 4px; font-size: .9rem; }
+.explore-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.ex-search { grid-column: 1 / -1; }
+.ef-nums { list-style: none; margin: 8px 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.ef-nums li { display: grid; gap: 2px; padding: 10px 12px; border-radius: 12px; background: var(--soft); }
+.ef-nums span { font-size: .92rem; font-weight: 700; color: var(--muted); line-height: 1.4; }
+.ef-nums b { font-size: 1.6rem; line-height: 1.15; }
+.ef-nums b.imp-unk { font-size: 1.2rem; }
+.ef-nums small { font-size: .85rem; color: var(--muted); margin-left: 2px; }
+.ef-links { margin: 6px 0 12px; padding-left: 1.2em; }
+.ef-links li { margin: 4px 0; }
+/* 3分でわかる：読みやすさの調整（説明・注記の文字を少し大きく、余白を広く） */
+.s3 { padding-top: 30px; padding-bottom: 30px; }
+.s3-note { font-size: .92rem; }
+.flow3 p { font-size: .95rem; }
+@media (max-width: 899px) { .explore-2 { grid-template-columns: 1fr; } }
+@media (max-width: 640px) { .ef-nums { grid-template-columns: 1fr 1fr; } .door-d { font-size: .85rem; } }
+
+/* ---------- 締結主体・当事者の組み合わせのバッジ ---------- */
+.b-actor { background: #f5f0ff; color: #4b2d83; border-color: #dccff5; }
+.b-pair { background: #fff7e6; color: #7a4a00; border-color: #f2d9a6; }
+
+/* ---------- サイト内検索 ---------- */
+.sr-form { display: flex; gap: 8px; max-width: 760px; margin: 4px 0 8px; }
+.sr-form input { flex: 1; min-width: 0; font-size: 1.05rem; }
+.sr-hint { font-size: .95rem; margin: 0 0 6px; max-width: 60em; }
+.sr-examples { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 8px; }
+.sr-examples .chip-link { font: inherit; font-weight: 700; font-size: .92rem; cursor: pointer; min-height: 40px; padding: 4px 12px; }
+.sr-target { margin: 0 0 8px; font-size: .95rem; }
+.sr-narrow { color: #7a4a00; }
+.sr-layout { display: grid; grid-template-columns: minmax(0, 290px) minmax(0, 1fr); gap: 20px; align-items: start; }
+.sr-facets { position: sticky; top: 130px; max-height: calc(100vh - 140px); overflow: auto; padding: 4px 4px 12px 0; }
+.sr-facets > details > summary { font-weight: 700; font-size: 1.05rem; padding: 6px 0; cursor: pointer; }
+.facet { border: none; margin: 0 0 14px; padding: 0; min-width: 0; }
+.facet legend { font-weight: 700; font-size: .95rem; padding: 0; margin-bottom: 6px; }
+.facet-opts { display: flex; flex-wrap: wrap; gap: 6px; }
+.facet-opts button { display: inline-flex; align-items: center; gap: 6px; font: inherit; font-size: .9rem; font-weight: 700; min-height: 40px; padding: 4px 10px; border-radius: 10px; border: 1.5px solid var(--green-line); background: #fff; color: var(--green-dark); cursor: pointer; text-align: left; line-height: 1.35; }
+.facet-opts button:hover { border-color: var(--green); }
+.facet-opts button[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff; }
+.facet-opts button[aria-pressed="true"] .fc { background: #fff; color: var(--green-dark); }
+.facet-opts button:disabled { opacity: .45; cursor: default; }
+.facet-opts .fc { display: inline-block; min-width: 1.6em; padding: 0 6px; border-radius: 999px; background: var(--green-soft); color: var(--green-dark); font-size: .82rem; text-align: center; }
+.facet details summary { font-size: .9rem; cursor: pointer; margin: 6px 0; color: var(--green-dark); }
+.facet-year { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.facet-year select { font-size: .92rem; padding: 6px 28px 6px 8px; }
+.sr-count { margin: 0 0 2px; }
+.sr-count b { font-size: 1.5rem; }
+.sr-vc { margin: 0 0 8px; }
+.sr-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 12px; }
+.sr-tools select { font-size: .95rem; padding: 8px 30px 8px 10px; }
+.sr-hit { margin: 10px 0 0; padding: 8px 12px; border-radius: 10px; background: #fffbea; border: 1px solid #f2e2a8; font-size: .92rem; line-height: 1.6; }
+.sr-hit-k { display: inline-block; font-weight: 700; color: #7a5a00; margin-right: 6px; }
+.sr-hit ul { margin: 2px 0 0; padding-left: 1.2em; }
+.sr-snip { display: block; color: var(--muted); }
+mark { background: #ffe37a; color: inherit; padding: 0 1px; border-radius: 2px; }
+.zero { padding: 14px 16px; border-radius: 12px; margin: 8px 0 16px; }
+.zero-h { margin: 0 0 6px; font-weight: 700; font-size: 1.2rem; }
+.zero-none { background: var(--info-soft); border-left: 6px solid #6b93c4; }
+.zero-unknown { background: var(--warn-soft); border-left: 6px solid #e0a43a; }
+.zero-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+@media (max-width: 860px) {
+  .sr-layout { grid-template-columns: 1fr; }
+  .sr-facets { position: static; max-height: none; overflow: visible; padding: 10px 12px; border: 1.5px solid var(--green-line); border-radius: 12px; background: var(--soft); }
+}
+@media (max-width: 640px) { .sr-form .btn { padding: 10px 14px; } }
+/* メニューの項目が増えたので、広い画面でも1行に収める */
+.nav-inner a { padding-left: 8px; padding-right: 8px; }
+@media (min-width: 761px) and (max-width: 1199px) {
+  /* 中くらいの画面ではメニューを2段に折り返す（横にはみ出さない） */
+  .nav-inner { flex-wrap: wrap; justify-content: flex-start; }
+  .nav-inner a { min-height: 42px; padding-top: 8px; padding-bottom: 8px; }
+}
+/* 検索条件のキーワードは、別名の説明が長くなるので折り返す */
+#sr-cond .chip-plain { display: inline-block; border-radius: 14px; line-height: 1.6; }
+#sr-cond .chip-plain .small { font-weight: 400; margin-left: 4px; }
+/* 3分でわかる：図の中の小さな文字を、参考サイトの注記（14px）より小さくしない */
+.fm-side small, .who-pt small, .tier-chips small { font-size: .84rem; line-height: 1.5; }
+.fig-flow .causal { font-size: .84rem; }
+.fm-cap, .fig-fields figcaption { font-size: .86rem; }

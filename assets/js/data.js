@@ -158,7 +158,41 @@ export const SOURCE_TYPES = {
   original_text: '協定原文', press_release: '報道発表', official_page: '公式ページ', assembly_minutes: '議会資料',
   budget: '予算・決算資料', statistics: '統計', partner_official: '相手国側の公式資料', news: '報道',
 };
-export const LEVELS = { national: '国・省庁', prefecture: '都道府県', municipality: '市区町村' };
+export const LEVELS = { national: '国・省庁', prefecture: '都道府県', municipality: '市区町村', organization: '団体・企業・公的機関など' };
+// 件数を別々に数える締結主体の区分（表示の順）。団体・企業などの協定は、国・都道府県の件数に含めない
+export const LEVEL_ORDER = ['national', 'prefecture', 'municipality', 'organization'];
+export const LEVEL_SHORT = { national: '国・省庁', prefecture: '都道府県', municipality: '市区町村', organization: '団体・企業など' };
+
+// 日本側の締結主体の種別（相手側の種別 partner_type とは別に記録）
+export const JAPAN_ORG_TYPES = [
+  { code: 'national_gov', ja: '日本政府・省庁', level: 'national', desc: '日本国政府、または省庁・その部局が締結したもの' },
+  { code: 'prefecture', ja: '都道府県', level: 'prefecture', desc: '都道府県（知事部局・教育委員会・県立の学校など、県の機関を含む）' },
+  { code: 'municipality', ja: '政令指定都市・市区町村', level: 'municipality', desc: '政令指定都市・市区町村が締結したもの（都道府県の件数とは別に数える）' },
+  { code: 'public_body', ja: '公的機関・独立行政法人等', level: 'organization', desc: 'JICA・JETRO・外国人技能実習機構などの独立行政法人、政府系金融機関など（国の件数には含めない）' },
+  { code: 'company', ja: '民間企業', level: 'organization', desc: '株式会社などの民間企業' },
+  { code: 'association', ja: '財団法人・社団法人・業界団体', level: 'organization', desc: '一般財団法人・公益社団法人・協会・業界団体など' },
+  { code: 'university', ja: '大学・教育機関', level: 'organization', desc: '大学・専門学校など（都道府県立の学校が県として締結したものは「都道府県」）' },
+];
+export const JAPAN_ORG_TYPE = Object.fromEntries(JAPAN_ORG_TYPES.map(t => [t.code, t]));
+const DEFAULT_ORG_TYPE = { national: 'national_gov', prefecture: 'prefecture', municipality: 'municipality' };
+
+// 協定の当事者の組み合わせ（日本側の種別 × 相手側の種別から自動で決める）
+export const PAIR_KINDS = [
+  { code: 'gov', ja: '政府間', desc: '日本政府・省庁と、外国の政府・省庁・国際機関' },
+  { code: 'local', ja: '自治体間', desc: '日本の都道府県・市区町村と、外国の政府・省庁・州・省などの公的機関' },
+  { code: 'public', ja: '公的機関間', desc: '日本の公的機関（独立行政法人など）と、外国の政府・公的機関' },
+  { code: 'public_private', ja: '官民間', desc: '一方が政府・自治体・公的機関で、もう一方が企業・団体・大学など（国公立の大学を含む）' },
+  { code: 'private', ja: '団体間', desc: '双方が企業・団体・大学などで、政府・自治体は当事者でない' },
+];
+export const PAIR_KIND = Object.fromEntries(PAIR_KINDS.map(p => [p.code, p]));
+const FOREIGN_PUBLIC = new Set(['national_gov', 'national_ministry', 'subnational_gov', 'public_agency', 'international_org']);
+export function pairKind(orgType, partnerType) {
+  const pub = FOREIGN_PUBLIC.has(partnerType);
+  if (orgType === 'national_gov') return pub ? 'gov' : 'public_private';
+  if (orgType === 'prefecture' || orgType === 'municipality') return pub ? 'local' : 'public_private';
+  if (orgType === 'public_body') return pub ? 'public' : 'public_private';
+  return pub ? 'public_private' : 'private';
+}
 
 export const SURVEY_RESULT = {
   found: '該当あり', none_confirmed: '該当なし（確認済み）', not_found: '調査したが確認できず',
@@ -214,18 +248,23 @@ export async function loadAll() {
   if (index.systems) {
     try { systems = (await getJSON(index.systems)).systems || []; } catch (e) { warnings.push(e.message); }
   }
-  const db = buildDB({ config, prefs: prefs.prefectures, countries: countries.countries, survey, records, stats, topo, warnings });
+  let clair = null;
+  if (index.clair) {
+    try { clair = await getJSON(index.clair); } catch (e) { warnings.push(e.message); }
+  }
+  const db = buildDB({ config, prefs: prefs.prefectures, countries: countries.countries, survey, records, stats, topo, warnings, systems });
   db.excluded = excluded;
-  db.systems = systems;
-  db.systemByKey = new Map(systems.map(s => [s.key, s]));
+  db.clair = clair;
   return db;
 }
 
 // ---------- 集計の土台 ----------
-export function buildDB({ config, prefs, countries, survey, records, stats, topo, warnings }) {
+export function buildDB({ config, prefs, countries, survey, records, stats, topo, warnings, systems = [] }) {
   const db = { config, prefs, countries, survey, stats, topo, warnings };
   db.prefByCode = new Map(prefs.map(p => [p.code, p]));
   db.countryByCode = new Map(countries.map(c => [c.code, c]));
+  db.systems = systems;
+  db.systemByKey = new Map(systems.map(s => [s.key, s]));
   db.mous = records.map(normalize);
   db.mouById = new Map(db.mous.map(m => [m.id, m]));
 
@@ -246,7 +285,12 @@ export function buildDB({ config, prefs, countries, survey, records, stats, topo
       key, versions, latest, first,
       id: latest.id,
       level: latest.japan_level,
-      pref_code: latest.pref_code || null,
+      orgType: latest._orgType,
+      pairKind: latest._pairKind,
+      pref_code: latest.japan_level === 'organization' ? null : (latest.pref_code || null),
+      municipality_code: latest.municipality_code || null,
+      // 団体・企業などの協定に関連する事業が行われた地域（公式資料で確認できたもの）。締結した地域ではないので件数には使わない
+      regions: [...new Set(versions.flatMap(v => v.related_regions.map(r => r.pref_code)).filter(Boolean))],
       country_code: latest.country_code,
       // 三者間のMOUなど、相手が複数の国にまたがる場合はすべての国で検索・集計できるようにする
       countries: [...new Set(versions.flatMap(v => [v.country_code, ...(v.additional_partners || []).map(a => a.country_code)]))],
@@ -262,13 +306,6 @@ export function buildDB({ config, prefs, countries, survey, records, stats, topo
       budgets: versions.flatMap(v => (v.budgets || []).map(x => ({ ...x, _mou: v }))),
       projects: versions.flatMap(v => (v.projects || []).map(x => ({ ...x, _mou: v }))),
     };
-    g.search = norm([
-      ...versions.flatMap(v => [v.title_ja, v.title_original, v.partner_org, v.partner_org_en, v.japan_org, v.purpose, v.doc_type, (v.labor_detail || []).join(' '), v.related_systems.join(' ')]),
-      DOC_CATEGORY[g.category]?.ja,
-      ...g.countries.flatMap(c => [db.countryByCode.get(c)?.ja, db.countryByCode.get(c)?.en]),
-      ...versions.flatMap(v => (v.additional_partners || []).map(a => a.partner_org)),
-      db.prefByCode.get(g.pref_code)?.name,
-    ].join(' '));
     for (const v of versions) v._group = g;
     db.groups.push(g);
   }
@@ -348,6 +385,12 @@ function normalize(m) {
   r.numbers = Array.isArray(r.numbers) ? r.numbers : [];
   r.related_systems = arr(r.related_systems);
   r.acceptance_types = arr(r.acceptance_types);
+  r.related_regions = arr(r.related_regions).filter(x => typeof x === 'object');
+  r.other_japan_parties = arr(r.other_japan_parties);
+  r.agencies = arr(r.agencies);
+  // 日本側の種別：書かれていなければ区分（国・都道府県・市区町村）から決める。団体などは必ずデータに書く
+  r._orgType = JAPAN_ORG_TYPE[r.japan_org_type] ? r.japan_org_type : (DEFAULT_ORG_TYPE[r.japan_level] || 'association');
+  r._pairKind = pairKind(r._orgType, r.partner_type);
   r._official = r.evidence_level !== 'news_only';
   r._relation = deriveRelation(r);
   const vi = validityInfo(r);
@@ -359,11 +402,10 @@ function normalize(m) {
 }
 
 // ---------- 絞り込み ----------
-// f = { level, pref, countries:[], field, status, impact, includeNews, includePlanned, q,
+// f = { level, levels:[], orgType, pairKind, pref, countries:[], field, status, impact, includeNews, includePlanned,
 //       validity（有効性の範囲：valid / valid_unk / all）, docScope（mou / foreign / all）, category（文書の種類）, relation（受入れとの関係） }
-// validity・docScope を省略したときは、締結済みのすべての文書が対象です。
+// validity・docScope を省略したときは、締結済みのすべての文書が対象です。言葉での検索は search.js で行います。
 export function filterGroups(db, f = {}) {
-  const q = f.q ? norm(f.q) : '';
   const states = f.validity ? VALIDITY_SCOPE[f.validity]?.states : null;
   return db.groups.filter(g => {
     if (!f.includePlanned && g.planned) return false;
@@ -374,14 +416,39 @@ export function filterGroups(db, f = {}) {
     if (f.category && g.category !== f.category) return false;
     if (f.relation && g.relation !== f.relation) return false;
     if (f.level && g.level !== f.level) return false;
+    if (f.levels && !f.levels.includes(g.level)) return false;
+    if (f.orgType && g.orgType !== f.orgType) return false;
+    if (f.pairKind && g.pairKind !== f.pairKind) return false;
     if (f.pref && g.pref_code !== f.pref) return false;
     if (f.countries && f.countries.length && !f.countries.some(c => g.countries.includes(c))) return false;
     if (f.field && !g.fields.includes(f.field)) return false;
     if (f.status && g.status !== f.status) return false;
     if (f.impact && !g.impacts.some(i => i.category === f.impact)) return false;
-    if (q && !g.search.includes(q)) return false;
     return true;
   });
+}
+
+// 「協定・取決めの種類から探す」の表の分け方。1つの協定はどれか1つの表にだけ入る
+// （ワーキング・ホリデーは専用の表、それ以外は締結主体ごと）。見出しの件数＝表示する件数
+export const isWorkingHoliday = g => g.level === 'national' && g.category === 'bilateral_arrangement' && /ワーキング・ホリデー/.test(g.latest.title_ja);
+export function typesTables(db, base, cat, rel) {
+  const inCat = filterGroups(db, { ...base, category: cat || null });
+  const groups = sortGroups(rel ? inCat.filter(g => g.relation === rel) : inCat);
+  const wh = groups.filter(isWorkingHoliday);
+  const rest = groups.filter(g => !isWorkingHoliday(g));
+  const byLevel = Object.fromEntries(LEVEL_ORDER.map(lv => [lv, rest.filter(g => g.level === lv)]));
+  return { inCat, groups, wh, byLevel };
+}
+
+// 締結主体ごとの件数（国・都道府県・市区町村・団体などを足さずに並べる）
+export function levelCounts(groups) {
+  const c = Object.fromEntries(LEVEL_ORDER.map(lv => [lv, 0]));
+  for (const g of groups) c[g.level] = (c[g.level] || 0) + 1;
+  return c;
+}
+export function levelBreakdown(groups, opts = {}) {
+  const c = levelCounts(groups);
+  return LEVEL_ORDER.filter(lv => c[lv] || (opts.always || ['national', 'prefecture']).includes(lv)).map(lv => `${LEVEL_SHORT[lv]} ${c[lv]}件`).join('／');
 }
 
 const sortDate = m => m.signed_date || m.announced_date || m.effective_date;
@@ -439,6 +506,8 @@ export function surveySummary(db, groupsIn) {
     registered: signed.length,
     registeredPref: signed.filter(g => g.level === 'prefecture').length,
     registeredNat: signed.filter(g => g.level === 'national').length,
+    registeredCity: signed.filter(g => g.level === 'municipality').length,
+    registeredOrg: signed.filter(g => g.level === 'organization').length,
     planned: groups.filter(g => g.planned).length,
     docs: db.mous.length,
     determined: vc.valid_confirmed + vc.ended_confirmed + vc.signed_not_started,
@@ -621,7 +690,18 @@ export function countryName(db, code) { return db.countryByCode.get(code)?.ja ||
 export function prefName(db, code) { return db.prefByCode.get(code)?.name || ''; }
 export function japanSideName(db, m) {
   if (m.japan_level === 'national') return m.japan_org || '日本国政府';
+  if (m.japan_level === 'municipality') return m.japan_org || m.municipality_name || '市区町村名不明';
+  if (m.japan_level === 'organization') return m.japan_org || '団体名不明';
   return m.japan_org || prefName(db, m.pref_code);
+}
+// 一覧・グラフで使う短い名前（国／都道府県名／市区町村名／団体名）
+export function sideShort(db, g) {
+  const m = g.latest;
+  if (g.level === 'national') return '国';
+  if (g.level === 'prefecture') return prefName(db, g.pref_code);
+  if (g.level === 'municipality') return m.municipality_name || m.japan_org || '市区町村';
+  const abbr = (m.japan_org || '').match(/[（(]([^）)]{2,16})[）)]\s*$/);
+  return abbr ? abbr[1] : (m.japan_org || '団体').slice(0, 18);
 }
 
 // 国名検索（日本語・英語・別名）
@@ -662,9 +742,21 @@ export function validate(db) {
     if (raw.effective_date && raw.valid_until && periodStart(raw.effective_date) && periodEnd(raw.valid_until) && periodEnd(raw.valid_until) < periodStart(raw.effective_date)) add(m, 'error', '有効期限が開始日より前です');
     if (raw.signed_date && raw.effective_date && parseDate(raw.signed_date)?.precision === 'day' && parseDate(raw.effective_date)?.precision === 'day' && raw.effective_date < raw.signed_date && !raw.date_note) add(m, 'warn', '開始日が締結日より前です（遡って適用する場合は date_note に説明を）');
     if (m.validity_state === 'valid_confirmed' && !m.validity_sources.length) add(m, 'warn', '「有効確認」の根拠資料（validity_sources）がありません');
-    if (!LEVELS[m.japan_level]) add(m, 'error', 'japan_level は national / prefecture / municipality のいずれか');
+    if (!LEVELS[m.japan_level]) add(m, 'error', 'japan_level は national / prefecture / municipality / organization のいずれか');
     if ((m.japan_level === 'prefecture' || m.japan_level === 'municipality') && !db.prefByCode.has(m.pref_code)) add(m, 'error', 'pref_code が正しくありません（"01"〜"47"）');
     if (m.japan_level === 'municipality' && !/^\d{6}$/.test(m.municipality_code || '')) add(m, 'error', '市区町村のMOUには municipality_code（全国地方公共団体コード6桁）が必要です');
+    if (m.japan_level === 'municipality' && !raw.municipality_name) add(m, 'warn', '市区町村のMOUには municipality_name（市区町村名）を入れてください');
+    // 日本側の種別：団体・企業などは必ず書く。国・都道府県・市区町村は区分と食い違わないか確かめる
+    if (raw.japan_org_type && !JAPAN_ORG_TYPE[raw.japan_org_type]) add(m, 'error', `japan_org_type「${raw.japan_org_type}」が正しくありません`);
+    if (m.japan_level === 'organization' && !['public_body', 'company', 'association', 'university'].includes(raw.japan_org_type)) add(m, 'error', '団体・企業などの協定（japan_level: organization）には japan_org_type（public_body / company / association / university）が必要です');
+    if (raw.japan_org_type && JAPAN_ORG_TYPE[raw.japan_org_type] && LEVELS[m.japan_level] && JAPAN_ORG_TYPE[raw.japan_org_type].level !== m.japan_level) add(m, 'error', `japan_org_type「${raw.japan_org_type}」と japan_level「${m.japan_level}」が食い違っています`);
+    // 団体・企業の本部所在地を理由に、都道府県の件数へ入れない
+    if (m.japan_level === 'organization' && raw.pref_code) add(m, 'error', '団体・企業などの協定に pref_code を入れないでください（本部の所在地で都道府県の件数に加えないため）。事業が行われた地域は related_regions に書きます');
+    for (const r of m.related_regions) {
+      if (!db.prefByCode.has(r.pref_code)) add(m, 'error', `related_regions の pref_code「${r.pref_code}」が正しくありません`);
+      if (!(r.sources || []).length) add(m, 'error', 'related_regions（関連事業の地域）には根拠資料（sources）が必要です');
+      for (const s of r.sources || []) if (!m.sources.some(x => x.id === s)) add(m, 'error', `関連事業の地域の根拠 ${s} が sources にありません`);
+    }
     if (!db.countryByCode.has(m.country_code)) add(m, 'error', `country_code「${m.country_code}」が countries.json にありません`);
     for (const a of m.additional_partners || []) if (!db.countryByCode.has(a.country_code)) add(m, 'error', `additional_partners の country_code「${a.country_code}」が countries.json にありません`);
     if (m.signed_date && !parseDate(m.signed_date)) add(m, 'error', 'signed_date は実在する日付を YYYY-MM-DD / YYYY-MM / YYYY の形で');

@@ -46,10 +46,17 @@
   "pref-45.json",
   "pref-46.json",
   "pref-47.json",
+  "city-041009.json",
+  "city-141003.json",
+  "city-141305.json",
+  "city-221309.json",
+  "city-401005.json",
   "national.json",
-  "agreements.json"
+  "agreements.json",
+  "orgs.json"
  ],
  "stats": "data/stats/foreign_residents.json",
  "excluded": "data/excluded.json",
- "systems": "data/systems.json"
+ "systems": "data/systems.json",
+ "clair": "data/clair_check.json"
 }

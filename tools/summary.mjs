@@ -9,7 +9,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const J = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
 const records = [];
 for (const f of J('data/mous/index.json').files) { const d = J('data/mous/' + f); for (const m of d.mous || d) records.push({ ...m, _file: f }); }
-const db = buildDB({ config: J('data/config.json'), prefs: J('data/prefectures.json').prefectures, countries: J('data/countries.json').countries, survey: J('data/survey.json'), records, stats: null, topo: null, warnings: [] });
+const db = buildDB({ config: J('data/config.json'), prefs: J('data/prefectures.json').prefectures, countries: J('data/countries.json').countries, survey: J('data/survey.json'), records, stats: null, topo: null, warnings: [], systems: J('data/systems.json').systems });
 
 const row = (label, f) => {
   const c = validityCounts(filterGroups(db, { ...f, validity: 'all', includePlanned: true }));
@@ -20,6 +20,8 @@ row('都道府県・MOUのみ', { level: 'prefecture', docScope: 'mou' });
 row('都道府県・全文書', { level: 'prefecture', docScope: 'all' });
 row('国・MOUのみ', { level: 'national', docScope: 'mou' });
 row('国・全文書', { level: 'national', docScope: 'all' });
+row('市区町村・全文書', { level: 'municipality', docScope: 'all' });
+row('団体・企業など・全文書', { level: 'organization', docScope: 'all' });
 console.log('調査状況', surveySummary(db));
 const reasons = {};
 for (const m of db.mous) reasons[m._validityReason] = (reasons[m._validityReason] || 0) + 1;

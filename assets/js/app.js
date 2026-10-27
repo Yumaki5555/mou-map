@@ -4,8 +4,9 @@ import { esc, fmtDate, toast } from './util.js';
 import { mapPage } from './page-map.js';
 import {
   homePage, countryIndexPage, countryPage, fieldIndexPage, impactPage, prefPage, mouPage, nationalPage,
-  comparePage, aboutPage, dataPage, searchPage, notFound, typesPage, issuesPage, listPage,
+  comparePage, aboutPage, dataPage, notFound, typesPage, issuesPage, listPage, actorsPage,
 } from './pages.js';
+import { searchPage } from './page-search.js';
 import { setScope } from './shared.js';
 
 const app = document.getElementById('app');
@@ -20,6 +21,7 @@ const ROUTES = [
   [/^\/country\/([A-Z]{2})$/, (ctx, m) => countryPage(ctx, m[1]), null, 'country'],
   [/^\/types$/, ctx => typesPage(ctx), '協定・取決めの種類から探す', 'types'],
   [/^\/field$/, ctx => fieldIndexPage(ctx), '分野・省庁から探す', 'field'],
+  [/^\/actors$/, ctx => actorsPage(ctx), '締結主体から探す', 'actors'],
   [/^\/list$/, ctx => listPage(ctx), '有効性の区分で探す', 'list'],
   [/^\/impact$/, ctx => impactPage(ctx), '地域への影響を調べる', 'impact'],
   [/^\/pref\/(\d{2})$/, (ctx, m) => prefPage(ctx, m[1]), null, 'map'],
@@ -29,7 +31,7 @@ const ROUTES = [
   [/^\/issues$/, ctx => issuesPage(ctx), '制度の課題を考える', 'issues'],
   [/^\/about$/, ctx => aboutPage(ctx), '調査状況・出典・使い方', 'about'],
   [/^\/data$/, ctx => dataPage(ctx), 'データ', 'data'],
-  [/^\/search$/, ctx => searchPage(ctx), '検索', null],
+  [/^\/search$/, ctx => searchPage(ctx), 'サイト内検索', 'search'],
 ];
 
 function parseHash() {
@@ -67,6 +69,9 @@ function render() {
     break;
   }
   if (!matched) notFound(ctx);
+  // 検索のページ以外では、上の検索欄に前の言葉を残さない
+  const gq = document.getElementById('global-q');
+  if (gq && path !== '/search' && document.activeElement !== gq) gq.value = '';
   document.title = (title && nav !== 'home' ? `${title}｜` : '') + '日本と世界のMOU・協定マップ';
   document.querySelectorAll('[data-nav]').forEach(a => { if (a.dataset.nav === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
   setMenu(false);
@@ -116,7 +121,7 @@ document.addEventListener('click', e => {
 document.getElementById('global-search').addEventListener('submit', e => {
   e.preventDefault();
   const q = document.getElementById('global-q').value.trim();
-  if (q) go('/search', { q });
+  go('/search', q ? { q } : {});
 });
 
 // 上に戻るボタン（少し下まで読んだら表示）

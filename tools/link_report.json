@@ -1,5 +1,97 @@
 [
  {
+  "url": "https://web.archive.org/web/20230530102153/https://imm.or.jp/cms/wp-content/uploads/2023/05/News-Letter-No.003_%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2%E8%AA%BF%E5%8D%B0%E5%BC%8F-.pdf",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-079:s1"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20251216212458/https://imm.or.jp/cms/jp_news/20231019topic1/",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-079:s3"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20261013005146/https://imm.or.jp/cms/jp_news/20241205intl01/",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-080:s3"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20251216214641/https://imm.or.jp/cms/jp_news/jp_news-20231225topic1/",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-085:s1"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20260206184952/https://imm.or.jp/cms/jp_news/20240209topic1/",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-086:s1"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20261013005133/https://imm.or.jp/cms/jp_news/20241028intl01/",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-087:s1"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20260213225648/https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-089:s2",
+   "JP-ORG-090:s2",
+   "JP-ORG-091:s2",
+   "JP-ORG-092:s2",
+   "JP-ORG-093:s2",
+   "JP-ORG-094:s2"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20251012131342/https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-089:s3",
+   "JP-ORG-090:s3",
+   "JP-ORG-091:s3",
+   "JP-ORG-092:s3",
+   "JP-ORG-093:s3",
+   "JP-ORG-094:s3"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20260122230729/https://www.mofa.go.jp/mofaj/files/100957411.pdf",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-095:s1",
+   "JP-ORG-096:s1"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20260119104643/https://www.meti.go.jp/press/2025/12/20251220001/20251220001.html",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-ORG-095:s3",
+   "JP-ORG-096:s3"
+  ]
+ },
+ {
   "url": "https://web.archive.org/web/20260306022749/https://www.pref.miyagi.jp/soshiki/kokusaisei/r6miyagijobfair.html",
   "result": "要確認",
   "msg": "HTTP 429（ブラウザで開いて確かめてください）",
@@ -8,11 +100,35 @@
   ]
  },
  {
+  "url": "https://web.archive.org/web/20251017195818/https://www.pref.miyagi.jp/documents/55566/20241227press_release_cambodia.pdf",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-04-004:s4"
+  ]
+ },
+ {
   "url": "https://web.archive.org/web/20250813041945/https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/ryoritsushien/documents/siryou3-1bessi_jinnzaiikuseioboegaki.pdf",
   "result": "要確認",
   "msg": "HTTP 429（ブラウザで開いて確かめてください）",
   "used_by": [
    "JP-20-002:s3"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20240403021407/https://imm.or.jp/cms/wp-content/uploads/2023/11/News-Letter-No.007_%E3%80%90%E6%84%9B%E5%AA%9B%E7%9C%8C%E3%80%91%E3%82%B9%E3%83%AA%E3%83%A9%E3%83%B3%E3%82%AB%E5%8A%B4%E5%83%8D%E3%83%BB%E6%B5%B7%E5%A4%96%E9%9B%87%E7%94%A8%E7%9C%81%E3%81%A8%E6%8A%80%E8%83%BD%E5%AE%9F%E7%BF%92%E5%8F%97%E5%85%A5%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%92%E9%96%8B%E5%82%AC.pdf",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-38-004:s2"
+  ]
+ },
+ {
+  "url": "https://web.archive.org/web/20260121042956/https://www.pref.kagoshima.jp/ag05/sangyo-rodo/nogyo/keiei/vnua.html",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
+  "used_by": [
+   "JP-46-004:s4"
   ]
  }
 ]

@@ -1,0 +1,1324 @@
+{
+ "source": {
+  "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査　とりまとめ結果",
+  "link_text": "「外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況」(Excelファイル)",
+  "page_url": "https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/",
+  "file_url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+  "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+  "as_of": "2020-01-29",
+  "as_of_text": "（55/67自治体から回答あり 回答は令和2年1月29日現在　一部3月末時点で修正）（Excel C4セル）",
+  "file_properties": {
+   "created": "2015-06-05 18:19:34",
+   "modified": "2020-04-22 05:22:38",
+   "server_last_modified": "Mon, 07 Nov 2022 14:49:18 GMT"
+  },
+  "summary_in_file": {
+   "締結している": 14,
+   "締結予定": 3,
+   "締結していない": 38,
+   "締結（予定）先国_締結している": "ベトナム（11）、インドネシア(1)、フィリピン（1）、タイ(1)、韓国(1)、中国（１）",
+   "締結（予定）先国_締結予定": "ベトナム（2)、タイ(1)"
+  },
+  "respondents_note": "回答55団体（都道府県40・政令市15）。未回答：静岡県・三重県・京都府・広島県・徳島県・佐賀県・大分県、相模原市・大阪市・堺市・神戸市・熊本市",
+  "downloaded": "2026-10-28",
+  "note": "CLAIRは調査資料の提供元で、協定の締結当事者ではない。ページに作成日・時点の表示はなく、時点はExcel内の記載による。",
+  "checked": "2026-10-28"
+ },
+ "checked": "2026-10-28",
+ "summary": {
+  "match": 7,
+  "differs": 5,
+  "unregistered": 34,
+  "site_only": 53,
+  "added_pref": 0,
+  "added_city": 18,
+  "added_city_from_clair_rows": 13,
+  "added_city_not_in_clair": 5,
+  "unverified": 21,
+  "clair_agreement_rows": 46,
+  "clair_no_agreement_rows": 38,
+  "note": "rowsはCLAIRのExcelで協定（締結済み・予定）が書かれた行（1行＝1締結先）。『締結なし』の38団体の行はclair_rows.jsonのみに収録。unregisteredのうちsite_idsがあるものは今回新規レコードを作成した行、空のものは公式資料で確認できず未登録のまま残した行（unverified）。"
+ },
+ "rows": [
+  {
+   "row": 12,
+   "jurisdiction": "北海道",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "01",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "労働・傷病兵・社会問題省",
+    "title": null,
+    "signed": "調整中",
+    "purpose": "ベトナムから北海道に来る技術者・技能者に関する連携協力強化のため",
+    "note": "協定締結状況：締結予定 ／ 協定等の内容：調整中 ／ URL：ー ／ 日付の扱い：文字列での記載"
+   },
+   "result": "differs",
+   "site_ids": [
+    "JP-01-001"
+   ],
+   "diffs": [
+    {
+     "field": "status / signed_date",
+     "clair": "締結予定（締結（予定）年月・内容とも『調整中』）",
+     "site": "締結済み（2024-08-09）",
+     "verified": "サイトが正しい。道のページで2024年8月9日の締結（知事 鈴木直道／海外労働管理局長 トン ハイ ナム）を確認。CLAIRは2020年1月時点の予定。",
+     "url": "https://www.pref.hokkaido.lg.jp/ss/tsk/262717.html"
+    },
+    {
+     "field": "partner_org",
+     "clair": "労働・傷病兵・社会問題省",
+     "site": "労働・傷病兵・社会問題省海外労働管理局",
+     "verified": "サイトが正しい（署名機関は同省海外労働管理局。道のページ・覚書本文）。CLAIRは省名のみの記載で誤りではない。",
+     "url": "https://www.pref.hokkaido.lg.jp/ss/tsk/262717.html"
+    }
+   ],
+   "note": "CLAIRの時点で『調整中』だった覚書が、2024年に海外労働管理局と締結されたものと対応づけた（相手省・目的『技術者・技能者』が一致）。同一の構想であることを明記した公式資料はない。"
+  },
+  {
+   "row": 15,
+   "jurisdiction": "宮城県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "04",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "労働・傷病兵・社会問題省",
+    "title": null,
+    "signed": "2020-03",
+    "purpose": "外国人介護人材送り出し国と人材確保等に関する覚書を締結し，外国人介護人材と県内受入介護施設等とのマッチングを適切に行い，円滑な受入体制を構築するため。",
+    "note": "協定締結状況：締結予定 ／ 協定等の内容：介護人材の受入れ促進 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "differs",
+   "site_ids": [
+    "JP-04-001"
+   ],
+   "diffs": [
+    {
+     "field": "status / signed_date",
+     "clair": "締結予定、2020年3月（Excel上は2020-03-01）",
+     "site": "締結済み（2023-03-08）",
+     "verified": "サイトが正しい。県ページ（2026年4月8日掲載）は『令和5年3月』締結と記載し、覚書の参考和訳で2023年3月8日（宮城県）署名を確認済み。CLAIRは2020年1月時点の予定。",
+     "url": "https://www.pref.miyagi.jp/soshiki/chouju/oboegaki.html"
+    },
+    {
+     "field": "purpose",
+     "clair": "外国人介護人材の送り出し国と覚書を締結し、介護施設等とのマッチングを適切に行い受入体制を構築",
+     "site": "技能実習・特定技能・技術者の人材育成、送り出し・受け入れの促進（第1条）",
+     "verified": "どちらも県の説明と整合。県は覚書を介護人材確保対策の一環と説明しているが、覚書本文の対象は介護に限定されない（既存レコードのstatus_noteに記載済み）。",
+     "url": "https://www.pref.miyagi.jp/soshiki/chouju/oboegaki.html"
+    }
+   ],
+   "note": "2020年3月予定の覚書が延期され2023年3月に締結されたと対応づけた（相手省・介護人材確保の文脈が一致）。延期の経緯を示す公式資料は未確認。"
+  },
+  {
+   "row": 19,
+   "jurisdiction": "茨城県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "08",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "労働・傷病兵・社会問題省\nロンアン省",
+    "title": null,
+    "signed": "2019-11-26",
+    "purpose": "県内企業の深刻な人手不足の解消に向けて,特定技能外国人や技能実習生など人材の円滑な受入れを促進するため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・ベトナム人材の適正な送出し，受入れの支援\n・ベトナム人材の育成支援\n・ベトナム人材が安心して働ける環境づくりの支援\n・ベトナム人材の帰国後における就労の支援\n・文化交流の推進 ／ URL：https://www.pref.ibaraki.jp/shokorodo/rosei/rodo/gaikokujin/mou/vietnam.html ／ 日付の扱い：Excel上の日付値（日まで記載）"
+   },
+   "result": "match",
+   "site_ids": [
+    "JP-08-003",
+    "JP-08-004"
+   ],
+   "diffs": [],
+   "note": "CLAIRは労働・傷病兵・社会問題省とロンアン省を1行にまとめているが、サイトは2件に分けて登録。締結日（2019-11-26）・内容5項目・URLが一致。"
+  },
+  {
+   "row": 21,
+   "jurisdiction": "群馬県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "10",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "労働・傷病兵・社会問題省",
+    "title": "人材育成及び活用における覚書",
+    "signed": "2017-02",
+    "purpose": "県内企業の海外事業展開のバックアップを行うため、「経済交流に関する覚書」と「人材育成及び活用における覚書」を締結した。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：技能･技術者の人材育成及び活用における包括的連携 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "match",
+   "site_ids": [
+    "JP-10-002"
+   ],
+   "diffs": [],
+   "note": "CLAIRは2017年2月（年月）で一致。CLAIRの締結理由欄にある『経済交流に関する覚書』は計画投資省との覚書（JP-10-001、サイトでは2016年2月・JETRO一覧による）と見られるが、CLAIRには別行がないため照合対象外。"
+  },
+  {
+   "row": 22,
+   "jurisdiction": "埼玉県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "11",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "労働・傷病兵・社会問題省",
+    "title": null,
+    "signed": "2018-10",
+    "purpose": "ベトナムから本県への人材の送り出し、受け入れの円滑化に連携して取り組むため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：技能・技術者の活用における連携 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "differs",
+   "site_ids": [
+    "JP-11-003"
+   ],
+   "diffs": [
+    {
+     "field": "purpose / content",
+     "clair": "ベトナムから本県への人材の送り出し、受け入れの円滑化に連携して取り組むため／技能・技術者の活用における連携",
+     "site": "（ベトナムに進出した県内）企業の人材の確保と育成を支援する／セミナーの開催・情報交換の実施",
+     "verified": "どちらが覚書本文に近いかは確定できない（原文未公開）。サイトの記載は県議会の知事提案説明（平成30年12月）『進出企業の人材の確保と育成を支援するため、ベトナム労働・傷病兵・社会問題省と覚書を締結し、セミナーや情報交換を実施していく』のとおり。CLAIRの記載は県の回答だが一次資料ではないため、サイトの目的は変えず、notesにCLAIR回答を併記する提案にとどめる。",
+     "url": "https://www.pref.saitama.lg.jp/e1601/gikai-gaiyou/h3012-3.html"
+    }
+   ],
+   "note": "締結年月（2018年10月）・相手機関は一致。"
+  },
+  {
+   "row": 23,
+   "jurisdiction": "千葉県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "12",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "労働・傷病兵・社会問題省",
+    "title": null,
+    "signed": "2019-03",
+    "purpose": "介護人材をはじめとする人材の円滑な受入体制の構築のため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：人材の育成及び受入れの促進 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "match",
+   "site_ids": [
+    "JP-12-001"
+   ],
+   "diffs": [],
+   "note": "締結年月（2019年3月）・相手機関・目的（介護人材をはじめとする人材の受入）が一致。県の公式資料として知事あいさつ（令和元年5月臨時県議会）で『3月13日から16日にかけてベトナムを訪問し、同国政府と、介護分野をはじめとする人材の育成及び受入れの推進に係る覚書を締結』を確認したため、出典追加を修正提案に入れた。"
+  },
+  {
+   "row": 24,
+   "jurisdiction": "千葉県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "12",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "ドンドー日本語センター",
+    "title": null,
+    "signed": "2019-03",
+    "purpose": "介護人材の受入れ促進を目的とした千葉県留学生受入プログラムの円滑な実施のため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：千葉県留学生受入プログラムにおける日本語学校の役割 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,F"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。県の知事あいさつ（令和元年5月）で『千葉県留学生受入プログラム』について現地の日本語学校5校と事業協定を結んだことは確認できるが、学校名（ドンドー日本語センター）は県の公式資料で確認できない（CLAIR調査票のみ）。県の令和8年度委託事業の質問回答では現地日本語学校は『現在６校と協定』。"
+  },
+  {
+   "row": 25,
+   "jurisdiction": "千葉県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "12",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "YUKI（勇気）日本語センター",
+    "title": null,
+    "signed": "2019-03",
+    "purpose": "介護人材の受入れ促進を目的とした千葉県留学生受入プログラムの円滑な実施のため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：千葉県留学生受入プログラムにおける日本語学校の役割 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。県の知事あいさつ（令和元年5月）で『千葉県留学生受入プログラム』について現地の日本語学校5校と事業協定を結んだことは確認できるが、学校名（YUKI（勇気）日本語センター）は県の公式資料で確認できない（CLAIR調査票のみ）。県の令和8年度委託事業の質問回答では現地日本語学校は『現在６校と協定』。"
+  },
+  {
+   "row": 26,
+   "jurisdiction": "千葉県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "12",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "株式会社 貿易＆サービスTOKAI VIET NHAT",
+    "title": null,
+    "signed": "2019-03",
+    "purpose": "介護人材の受入れ促進を目的とした千葉県留学生受入プログラムの円滑な実施のため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：千葉県留学生受入プログラムにおける日本語学校の役割 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。県の知事あいさつ（令和元年5月）で『千葉県留学生受入プログラム』について現地の日本語学校5校と事業協定を結んだことは確認できるが、学校名（株式会社 貿易＆サービスTOKAI VIET NHAT）は県の公式資料で確認できない（CLAIR調査票のみ）。県の令和8年度委託事業の質問回答では現地日本語学校は『現在６校と協定』。"
+  },
+  {
+   "row": 27,
+   "jurisdiction": "千葉県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "12",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "Daiy VietNam JSC.日本語教育留学センターBinh Minh-日の出",
+    "title": null,
+    "signed": "2019-03",
+    "purpose": "介護人材の受入れ促進を目的とした千葉県留学生受入プログラムの円滑な実施のため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：千葉県留学生受入プログラムにおける日本語学校の役割 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。県の知事あいさつ（令和元年5月）で『千葉県留学生受入プログラム』について現地の日本語学校5校と事業協定を結んだことは確認できるが、学校名（Daiy VietNam JSC.日本語教育留学センターBinh Minh-日の出）は県の公式資料で確認できない（CLAIR調査票のみ）。県の令和8年度委託事業の質問回答では現地日本語学校は『現在６校と協定』。"
+  },
+  {
+   "row": 28,
+   "jurisdiction": "千葉県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "12",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "JIS 人材開発株式会社",
+    "title": null,
+    "signed": "2019-03",
+    "purpose": "介護人材の受入れ促進を目的とした千葉県留学生受入プログラムの円滑な実施のため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：千葉県留学生受入プログラムにおける日本語学校の役割 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "differs",
+   "site_ids": [
+    "JP-12-002"
+   ],
+   "diffs": [
+    {
+     "field": "signed_date",
+     "clair": "2019年3月（F23:F28の結合セル。Excel上は2019-03-01）",
+     "site": "2019-04（県議会調査報告書に記録された同社の説明）",
+     "verified": "どちらが正しいか確定できない。知事あいさつ（令和元年5月）は3月13〜16日の訪越を述べた後に『また、…現地の日本語学校5校と事業協定を結びました』と述べるが、協定の日付・校名は示していない。サイトの日付は変えず、date_noteにCLAIRの記載を併記する提案にとどめる。",
+     "url": "https://www.pref.chiba.lg.jp/zaisei/chijishitsu/aisatsu/r01/r1-5.html"
+    }
+   ],
+   "note": "JIS人材開発株式会社は既存レコードと対応。"
+  },
+  {
+   "row": 30,
+   "jurisdiction": "神奈川県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "14",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "労働・傷病兵・社会問題省",
+    "title": null,
+    "signed": "2019-11",
+    "purpose": "ベトナムから神奈川県への労働人材の派遣、受入れに関し、相互に協力して、その促進を図るため。なお、介護人材を確保するため、当面は、介護分野の技術者・技能者に対する支援を先行する。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：労働人材の派遣、受入れに関する相互協力 ／ URL：http://www.pref.kanagawa.jp/docs/k2w/vietnamfesta.html ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "match",
+   "site_ids": [
+    "JP-14-006",
+    "JP-14-007"
+   ],
+   "diffs": [],
+   "note": "CLAIRは2019年11月（年月）でサイトの2019-11-19と一致。内容（介護分野から先行する労働人材の派遣・受入れの相互協力）も一致。JP-14-007は2022年の更新版（同じgroup_key）。"
+  },
+  {
+   "row": 34,
+   "jurisdiction": "福井県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "18",
+   "country_code": "TH",
+   "clair": {
+    "country": "タイ",
+    "partner": "未定",
+    "title": null,
+    "signed": "2020年度",
+    "purpose": "ー",
+    "note": "協定締結状況：締結予定 ／ 協定等の内容：ー ／ URL：ー ／ 日付の扱い：文字列での記載"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。CLAIRは『締結予定（2020年度、締結先機関は未定）』。県の公式資料で福井県とタイの政府機関等との外国人材に関する協定の締結を確認できなかった（見つかったのは福井県とJICAの協力隊連携派遣の覚書（2025年2月18日、国内の協定）、県がタイ・カンチャナブリ県で日本語教育を支援してきたこと、県議会答弁（2024年2月）の『県が実施しておりますタイなどの外国人技能実習生の受入』のみ）。"
+  },
+  {
+   "row": 36,
+   "jurisdiction": "長野県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "20",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "労働・傷病兵・社会問題省",
+    "title": "人材育成に関する覚書",
+    "signed": "2019-08",
+    "purpose": "ベトナム人技能者及び技能実習生の派遣及び受け入れ実施と協力を連携して進めるため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：人材育成に関する覚書 ／ URL：https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/ryoritsushien/documents/siryou3-1bessi_jinnzaiikuseioboegaki.pdf ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "match",
+   "site_ids": [
+    "JP-20-002"
+   ],
+   "diffs": [],
+   "note": "CLAIRは2019年8月（年月）でサイトの2019-08-14と一致。CLAIRのURL（覚書PDF）は県サイトから削除済みで、サイトはインターネットアーカイブの保存版を出典にしている。"
+  },
+  {
+   "row": 39,
+   "jurisdiction": "滋賀県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "25",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "サイゴン・ハイテクパーク・トレーニングセンター（ホーチミン市）",
+    "title": "ベトナム人高度人材の育成と供給に関する覚書",
+    "signed": "2019-10-16",
+    "purpose": "ベトナム人高度人材の育成と供給を促進するため",
+    "note": "協定締結状況：締結している ／ 協定等の内容：ベトナム人高度人材の育成と供給に関する覚書 ／ URL：https://www.pref.shiga.lg.jp/kensei/koho/e-shinbun/oshirase/307592.html ／ 日付の扱い：Excel上の日付値（日まで記載）"
+   },
+   "result": "match",
+   "site_ids": [
+    "JP-25-005"
+   ],
+   "diffs": [],
+   "note": "締結日（2019-10-16）・相手機関・内容が一致。"
+  },
+  {
+   "row": 41,
+   "jurisdiction": "兵庫県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "28",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "株式会社ＪＶＳ",
+    "title": "介護技能実習生の送出等に関する契約",
+    "signed": "2018-09",
+    "purpose": "介護技能実習生の送出機関として契約を締結した。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：介護技能実習生の送出等に関する契約 ／ URL：https://web.pref.hyogo.lg.jp/press/documents/20191204_4307_1.pdf ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。CLAIRの記載は『介護技能実習生の送出機関として契約を締結』（2018年9月）。CLAIRのURL（兵庫県記者発表、2019年12月4日）は404で、契約の当事者（県か、県社会福祉協議会に2019年2月設立の監理団体か）・日付・名称を公式資料で確認できなかった。監理団体と送出機関の間の業務上の契約で、自治体の協定・覚書に当たらない可能性もある。"
+  },
+  {
+   "row": 42,
+   "jurisdiction": "兵庫県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "28",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "エスハイ株式会社",
+    "title": "介護技能実習生の送出等に関する契約",
+    "signed": "2019-11",
+    "purpose": "介護技能実習生の送出機関として契約を締結した。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：介護技能実習生の送出等に関する契約 ／ URL：https://web.pref.hyogo.lg.jp/press/documents/20191204_4307_1.pdf ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま（41行目と同じ理由）。エスハイ株式会社との契約（CLAIRでは2019年11月）を公式資料で確認できなかった。なお愛媛県とエスハイ社の覚書（JP-38-006、2024年）は別件。"
+  },
+  {
+   "row": 50,
+   "jurisdiction": "愛媛県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "38",
+   "country_code": "ID",
+   "clair": {
+    "country": "インドネシア",
+    "partner": "南ウラウェシ州",
+    "title": "日本国愛媛県とインドネシア共和国南スラウェシ州との関係強化に関する趣意確認書",
+    "signed": "2019-01-15",
+    "purpose": "同州知事から友好関係強化と人材交流促進の提案があったため",
+    "note": "協定締結状況：締結している ／ 協定等の内容：日本国愛媛県とインドネシア共和国南スラウェシ州との関係強化に関する趣意確認書 ／ URL：ー ／ 日付の扱い：Excel上の日付値（日まで記載）"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。CLAIRは『南ウラウェシ州』と表記（南スラウェシ州の誤記と見られる）。『日本国愛媛県とインドネシア共和国南スラウェシ州との関係強化に関する趣意確認書』（2019年1月15日）を県の公式資料・相手州の公式発表で確認できなかった（見つかったのは愛媛大学・南スラウェシ州・ハサヌディン大学の三者覚書の更新（2019年3月4日予定）で、県の文書ではない）。"
+  },
+  {
+   "row": 53,
+   "jurisdiction": "長崎県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "42",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "クァンナム省労働・傷病兵・社会問題局",
+    "title": null,
+    "signed": "2019-10",
+    "purpose": "県内産業人材の一翼を担う外国人材を安定的に確保するため、本県と友好交流の関係にあるクァンナム省と連携して、技能実習生等の受入を促進していくため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：技能実習生の受入促進 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "match",
+   "site_ids": [
+    "JP-42-002"
+   ],
+   "diffs": [],
+   "note": "CLAIRは2019年10月（年月）でサイトの2019-10-08と一致。相手機関・内容（技能実習生の受入促進）も一致。"
+  },
+  {
+   "row": 56,
+   "jurisdiction": "鹿児島県",
+   "jurisdiction_type": "prefecture",
+   "pref_code": "46",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "ハンズオン省",
+    "title": null,
+    "signed": "2019-10-16",
+    "purpose": "2019年４月に，ベトナム・ハイズオン省のヒエン党書記が来鹿し，知事への表敬訪問を行った際，連携協定の締結に向けて協力してくことで，合意したため。",
+    "note": "協定締結状況：締結している ／ 協定等の内容：人材の確保・育成や農業等の技術協力 ／ URL：ー ／ 日付の扱い：Excel上の日付値（日まで記載）"
+   },
+   "result": "differs",
+   "site_ids": [
+    "JP-46-003"
+   ],
+   "diffs": [
+    {
+     "field": "signed_date",
+     "clair": "2019-10-16",
+     "site": "2019-10",
+     "verified": "CLAIRが正しいと判断（サイトの修正を提案）。ベトナム政府ポータル（2019年10月17日）によると首相は10月16日に鹿児島県知事と会見し、知事は『今回の訪越中に』ハイズオン省と覚書を締結したと説明。県の訪越は10月16日〜20日（CLAIRシンガポール事務所レポート、既存の出典s2）であるため、締結日は2019年10月16日となる。",
+     "url": "https://en.baochinhphu.vn/pm-receives-governor-of-japans-kagoshima-prefecture-11136404.htm"
+    },
+    {
+     "field": "partner_org",
+     "clair": "ハンズオン省",
+     "site": "ハイズオン省",
+     "verified": "CLAIRの誤記（正しくはハイズオン省〔Hai Duong〕。ベトナム政府ポータル・既存レコードの県資料）。",
+     "url": "https://en.baochinhphu.vn/pm-receives-governor-of-japans-kagoshima-prefecture-11136404.htm"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "row": 62,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "ホーチミン市　労働局",
+    "title": null,
+    "signed": "2018-07-25",
+    "purpose": "・平成29年9月に「APEC女性と経済フォーラム」出席のため、市長がベトナムを訪問し、政府や自治体関係者との面会において「介護人材の受入れ」に関する協力を要請\n・その後、ダナン市から具体的な取組について提案があり、留学生等の受入れに関する協議を進め、介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各都市は、横浜市内で介護分野に就労する意欲のある人を送り出すことに協力する。\n・横浜市は、各都市から来られた方が介護の技術を学び、横浜市内で介護分野に就労すること ができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2018/20180731-025-27883.files/phpiev2af.pdf ／ 日付の扱い：Excel上の日付値（日まで記載）"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-001"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録（政令市は0件）。横浜市の記者発表（2018年7月31日、総務省サイト掲載の市資料に収録）で締結日・締結先を確認し、新規レコードを作成。日付はCLAIRと一致。"
+  },
+  {
+   "row": 63,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "フエ省　労働局",
+    "title": null,
+    "signed": "2018-07-26",
+    "purpose": "・平成29年9月に「APEC女性と経済フォーラム」出席のため、市長がベトナムを訪問し、政府や自治体関係者との面会において「介護人材の受入れ」に関する協力を要請\n・その後、ダナン市から具体的な取組について提案があり、留学生等の受入れに関する協議を進め、介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各都市は、横浜市内で介護分野に就労する意欲のある人を送り出すことに協力する。\n・横浜市は、各都市から来られた方が介護の技術を学び、横浜市内で介護分野に就労すること ができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2018/20180731-025-27883.files/phpiev2af.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-004"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録（政令市は0件）。横浜市の記者発表（2018年7月31日、総務省サイト掲載の市資料に収録）で締結日・締結先を確認し、新規レコードを作成。日付はCLAIRと一致。"
+  },
+  {
+   "row": 64,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "ダナン市　外務局",
+    "title": null,
+    "signed": "2018-07-27",
+    "purpose": "・平成29年9月に「APEC女性と経済フォーラム」出席のため、市長がベトナムを訪問し、政府や自治体関係者との面会において「介護人材の受入れ」に関する協力を要請\n・その後、ダナン市から具体的な取組について提案があり、留学生等の受入れに関する協議を進め、介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各都市は、横浜市内で介護分野に就労する意欲のある人を送り出すことに協力する。\n・横浜市は、各都市から来られた方が介護の技術を学び、横浜市内で介護分野に就労すること ができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2018/20180731-025-27883.files/phpiev2af.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-007"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録（政令市は0件）。横浜市の記者発表（2018年7月31日、総務省サイト掲載の市資料に収録）で締結日・締結先を確認し、新規レコードを作成。日付はCLAIRと一致。"
+  },
+  {
+   "row": 65,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "バククォアナムサイゴン短期大学",
+    "title": null,
+    "signed": "2018-07-25",
+    "purpose": "・平成29年9月に「APEC女性と経済フォーラム」出席のため、市長がベトナムを訪問し、政府や自治体関係者との面会において「介護人材の受入れ」に関する協力を要請\n・その後、ダナン市から具体的な取組について提案があり、留学生等の受入れに関する協議を進め、介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2018/20180731-025-27883.files/phpiev2af.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,G,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-002"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録（政令市は0件）。横浜市の記者発表（2018年7月31日、総務省サイト掲載の市資料に収録）で締結日・締結先を確認し、新規レコードを作成。日付はCLAIRと一致。"
+  },
+  {
+   "row": 66,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "レティリエン職業訓練校",
+    "title": null,
+    "signed": "2018-07-25",
+    "purpose": "・平成29年9月に「APEC女性と経済フォーラム」出席のため、市長がベトナムを訪問し、政府や自治体関係者との面会において「介護人材の受入れ」に関する協力を要請\n・その後、ダナン市から具体的な取組について提案があり、留学生等の受入れに関する協議を進め、介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2018/20180731-025-27883.files/phpiev2af.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-003"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録（政令市は0件）。横浜市の記者発表（2018年7月31日、総務省サイト掲載の市資料に収録）で締結日・締結先を確認し、新規レコードを作成。日付はCLAIRと一致。"
+  },
+  {
+   "row": 67,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "フエ医科短期大学",
+    "title": null,
+    "signed": "2018-07-26",
+    "purpose": "・平成29年9月に「APEC女性と経済フォーラム」出席のため、市長がベトナムを訪問し、政府や自治体関係者との面会において「介護人材の受入れ」に関する協力を要請\n・その後、ダナン市から具体的な取組について提案があり、留学生等の受入れに関する協議を進め、介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2018/20180731-025-27883.files/phpiev2af.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-005"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録（政令市は0件）。横浜市の記者発表（2018年7月31日、総務省サイト掲載の市資料に収録）で締結日・締結先を確認し、新規レコードを作成。日付はCLAIRと一致。"
+  },
+  {
+   "row": 68,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "フエ医科薬科大学",
+    "title": null,
+    "signed": "2018-07-26",
+    "purpose": "・平成29年9月に「APEC女性と経済フォーラム」出席のため、市長がベトナムを訪問し、政府や自治体関係者との面会において「介護人材の受入れ」に関する協力を要請\n・その後、ダナン市から具体的な取組について提案があり、留学生等の受入れに関する協議を進め、介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2018/20180731-025-27883.files/phpiev2af.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-006"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録（政令市は0件）。横浜市の記者発表（2018年7月31日、総務省サイト掲載の市資料に収録）で締結日・締結先を確認し、新規レコードを作成。日付はCLAIRと一致。"
+  },
+  {
+   "row": 69,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "ドンア大学",
+    "title": null,
+    "signed": "2018-07-27",
+    "purpose": "・平成29年9月に「APEC女性と経済フォーラム」出席のため、市長がベトナムを訪問し、政府や自治体関係者との面会において「介護人材の受入れ」に関する協力を要請\n・その後、ダナン市から具体的な取組について提案があり、留学生等の受入れに関する協議を進め、介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2018/20180731-025-27883.files/phpiev2af.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-008"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録（政令市は0件）。横浜市の記者発表（2018年7月31日、総務省サイト掲載の市資料に収録）で締結日・締結先を確認し、新規レコードを作成。日付はCLAIRと一致。"
+  },
+  {
+   "row": 70,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "VN",
+   "clair": {
+    "country": "ベトナム",
+    "partner": "ハイフォン医科薬科大学",
+    "title": null,
+    "signed": "2019-04-10",
+    "purpose": "取り組みを知ったハイフォン医科薬科大学から覚書（MOU）の締結について提案があり、平成31 年４月２日にハイフォン市で協議を経て、介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0412oboegaki.files/0001_20190411.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,H"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。ハイフォン医科薬科大学との覚書（2019年4月10日）は、市の記者発表（CLAIRのURL）が削除済みで、市サイトの機械翻訳版ページの検索結果抜粋でしか確認できず、開ける公式URLがない。2019年の報道では『ベトナムの3都市・5学校（現在は6学校）』とされる。"
+  },
+  {
+   "row": 71,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "山東省　民政庁",
+    "title": null,
+    "signed": "2019-08-19",
+    "purpose": "同じ漢字圏ということで日本語の取得が優位であること、また人口が多く人材の確保がしやすい等の理由から人材確保の可能性について調査を行ってきました。そこでベトナムと同じような覚え書を締結することができるか、担当者が現地に赴いて協議を進め介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各都市は、横浜市内で介護分野に就労する意欲のある人を送り出すことに協力する。\n・横浜市は、各都市から来られた方が介護の技術を学び、横浜市内で介護分野に就労することができ\nるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-009"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録。市の介護保険運営協議会の議事要旨（2019年10月31日開催）で締結と締結先の都市名を確認し、新規レコードを作成。日付・相手側の署名機関はCLAIRのみのため、date_noteにその旨を記載。"
+  },
+  {
+   "row": 72,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "臨沂市教育局",
+    "title": null,
+    "signed": "2019-08-19",
+    "purpose": "同じ漢字圏ということで日本語の取得が優位であること、また人口が多く人材の確保がしやすい等の理由から人材確保の可能性について調査を行ってきました。そこでベトナムと同じような覚え書を締結することができるか、担当者が現地に赴いて協議を進め介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各都市は、横浜市内で介護分野に就労する意欲のある人を送り出すことに協力する。\n・横浜市は、各都市から来られた方が介護の技術を学び、横浜市内で介護分野に就労することができ\nるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-010"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録。市の介護保険運営協議会の議事要旨（2019年10月31日開催）で締結と締結先の都市名を確認し、新規レコードを作成。日付・相手側の署名機関はCLAIRのみのため、date_noteにその旨を記載。"
+  },
+  {
+   "row": 73,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "瀋陽市外事弁公室",
+    "title": null,
+    "signed": "2019-08-20",
+    "purpose": "同じ漢字圏ということで日本語の取得が優位であること、また人口が多く人材の確保がしやすい等の理由から人材確保の可能性について調査を行ってきました。そこでベトナムと同じような覚え書を締結することができるか、担当者が現地に赴いて協議を進め介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各都市は、横浜市内で介護分野に就労する意欲のある人を送り出すことに協力する。\n・横浜市は、各都市から来られた方が介護の技術を学び、横浜市内で介護分野に就労することができ\nるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141003-011"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録。市の介護保険運営協議会の議事要旨（2019年10月31日開催）で締結と締結先の都市名を確認し、新規レコードを作成。日付・相手側の署名機関はCLAIRのみのため、date_noteにその旨を記載。"
+  },
+  {
+   "row": 74,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "臨沂衛生学校",
+    "title": null,
+    "signed": "2019-08-19",
+    "purpose": "同じ漢字圏ということで日本語の取得が優位であること、また人口が多く人材の確保がしやすい等の理由から人材確保の可能性について調査を行ってきました。そこでベトナムと同じような覚え書を締結することができるか、担当者が現地に赴いて協議を進め介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,G,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。市の介護保険運営協議会の議事要旨で中国の『5学校』と覚書を締結したことは確認できるが、学校名は市の公式資料で確認できない（CLAIR調査票のみ。記者発表は削除済み）。"
+  },
+  {
+   "row": 75,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "山東医学高等専科学校",
+    "title": null,
+    "signed": "2019-08-19",
+    "purpose": "同じ漢字圏ということで日本語の取得が優位であること、また人口が多く人材の確保がしやすい等の理由から人材確保の可能性について調査を行ってきました。そこでベトナムと同じような覚え書を締結することができるか、担当者が現地に赴いて協議を進め介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。市の介護保険運営協議会の議事要旨で中国の『5学校』と覚書を締結したことは確認できるが、学校名は市の公式資料で確認できない（CLAIR調査票のみ。記者発表は削除済み）。"
+  },
+  {
+   "row": 76,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "臨沂職業学院",
+    "title": null,
+    "signed": "2019-08-19",
+    "purpose": "同じ漢字圏ということで日本語の取得が優位であること、また人口が多く人材の確保がしやすい等の理由から人材確保の可能性について調査を行ってきました。そこでベトナムと同じような覚え書を締結することができるか、担当者が現地に赴いて協議を進め介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。市の介護保険運営協議会の議事要旨で中国の『5学校』と覚書を締結したことは確認できるが、学校名は市の公式資料で確認できない（CLAIR調査票のみ。記者発表は削除済み）。"
+  },
+  {
+   "row": 77,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "瀋陽医学院",
+    "title": null,
+    "signed": "2019-08-20",
+    "purpose": "同じ漢字圏ということで日本語の取得が優位であること、また人口が多く人材の確保がしやすい等の理由から人材確保の可能性について調査を行ってきました。そこでベトナムと同じような覚え書を締結することができるか、担当者が現地に赴いて協議を進め介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。市の介護保険運営協議会の議事要旨で中国の『5学校』と覚書を締結したことは確認できるが、学校名は市の公式資料で確認できない（CLAIR調査票のみ。記者発表は削除済み）。"
+  },
+  {
+   "row": 78,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "遼寧医薬職業学院",
+    "title": null,
+    "signed": "2019-08-20",
+    "purpose": "同じ漢字圏ということで日本語の取得が優位であること、また人口が多く人材の確保がしやすい等の理由から人材確保の可能性について調査を行ってきました。そこでベトナムと同じような覚え書を締結することができるか、担当者が現地に赴いて協議を進め介護分野における覚書（MOU）の締結が実現",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。市の介護保険運営協議会の議事要旨で中国の『5学校』と覚書を締結したことは確認できるが、学校名は市の公式資料で確認できない（CLAIR調査票のみ。記者発表は削除済み）。"
+  },
+  {
+   "row": 79,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "荷澤医学専科学校",
+    "title": null,
+    "signed": "2019-12-16",
+    "purpose": "覚書を締結した山東省からの紹介",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/santoushogakkou.files/0001_20191209.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,H"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。2019年12月16日の覚書（CLAIRでは山東省からの紹介）を市の公式資料で確認できなかった（CLAIRのURLの記者発表は削除済み）。"
+  },
+  {
+   "row": 80,
+   "jurisdiction": "横浜市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "country_code": "CN",
+   "clair": {
+    "country": "中国",
+    "partner": "山東青年政治学院",
+    "title": null,
+    "signed": "2019-12-16",
+    "purpose": "覚書を締結した山東省からの紹介",
+    "note": "協定締結状況：締結している ／ 協定等の内容：・各学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する。\n・横浜市は、各学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する。 ／ URL：https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/santoushogakkou.files/0001_20191209.pdf ／ 日付の扱い：Excel上の日付値（日まで記載） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。2019年12月16日の覚書（CLAIRでは山東省からの紹介）を市の公式資料で確認できなかった（CLAIRのURLの記者発表は削除済み）。"
+  },
+  {
+   "row": 81,
+   "jurisdiction": "川崎市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141305",
+   "country_code": "PH",
+   "clair": {
+    "country": "フィリピン",
+    "partner": "マカティ大学",
+    "title": null,
+    "signed": "2019-05",
+    "purpose": "インターンシッププログラムを進めるにあたり、適していると判断したため",
+    "note": "協定締結状況：締結している ／ 協定等の内容：インターンシッププログラムにおける協力関係について ／ URL：http://www.city.kawasaki.jp/templates/press/350/0000111528.html ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。市資料（2019年12月）はMOU締結先として『バギオ大学を含むフィリピンの３大学』とだけ記載し、マカティ大学は第2期インターンシップ生（8名予定）の所属大学として出てくるのみ。締結先であることを明記した公式資料がなく、CLAIRのURL（市の記者発表）は404。締結先である可能性は高いが、確認できたものだけを登録する方針のため保留。"
+  },
+  {
+   "row": 82,
+   "jurisdiction": "川崎市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141305",
+   "country_code": "PH",
+   "clair": {
+    "country": "フィリピン",
+    "partner": "バギオ大学",
+    "title": null,
+    "signed": "2019-05",
+    "purpose": "インターンシッププログラムを進めるにあたり、適していると判断したため",
+    "note": "協定締結状況：締結している ／ 協定等の内容：インターンシッププログラムにおける協力関係について ／ URL：http://www.city.kawasaki.jp/templates/press/350/0000111528.html ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-141305-001"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録。市資料（2019年12月）の『バギオ大学を含むフィリピンの３大学と覚書（MOU）を締結』で締結を確認し、新規レコードを作成。締結年月（2019年5月）はCLAIRのみのため、date_noteにその旨を記載。"
+  },
+  {
+   "row": 83,
+   "jurisdiction": "川崎市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "14",
+   "municipality_code": "141305",
+   "country_code": "PH",
+   "clair": {
+    "country": "フィリピン",
+    "partner": "パシッグ大学",
+    "title": null,
+    "signed": "2019-05",
+    "purpose": "インターンシッププログラムを進めるにあたり、適していると判断したため",
+    "note": "協定締結状況：締結している ／ 協定等の内容：インターンシッププログラムにおける協力関係について ／ URL：http://www.city.kawasaki.jp/templates/press/350/0000111528.html ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,F,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。『パシッグ大学』は市の公式資料に校名がなく、CLAIR調査票のみ（正式名称も未確認）。"
+  },
+  {
+   "row": 91,
+   "jurisdiction": "北九州市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "40",
+   "municipality_code": "401005",
+   "country_code": "TH",
+   "clair": {
+    "country": "タイ",
+    "partner": "Panyapiwat Institute of Management",
+    "title": null,
+    "signed": "2018-06",
+    "purpose": "相互の関係の強化と教育や研究などの活動分野における学術交流と文化交流の進展及び産業振興を図るため",
+    "note": "協定締結状況：締結している ／ 協定等の内容：共同研究、文化交流プログラム、インターンシッププログラム等の協力 ／ URL：https://www.city.kitakyushu.lg.jp/files/000806541.pdf ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない）"
+   },
+   "result": "unregistered",
+   "site_ids": [
+    "JP-CITY-401005-001"
+   ],
+   "diffs": [],
+   "note": "既存データに未登録。市資料（タイの大学と連携した国際インターンシップ事業、令和8年1月の受入れ案内）で『市と大学が連携（覚書）』と平成30年度からの事業実施を確認し、新規レコードを作成。締結年月（2018年6月）はCLAIRのみのため、date_noteにその旨を記載。"
+  },
+  {
+   "row": 92,
+   "jurisdiction": "北九州市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "40",
+   "municipality_code": "401005",
+   "country_code": "KR",
+   "clair": {
+    "country": "韓国",
+    "partner": "仁済大学校",
+    "title": null,
+    "signed": "2017-07",
+    "purpose": "日本企業への就職を希望する韓国の大学生と市内企業とのマッチング支援のため",
+    "note": "協定締結状況：締結している ／ 協定等の内容：人材活用協力 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。仁済大学校との人材活用協力（韓国の大学生と市内企業のマッチング支援）を市の公式資料・相手大学の公式発表で確認できなかった（CLAIRのURLの市資料は404。市の資料で見つかったのは2017年7月の『韓国人材活用セミナー』のみ）。"
+  },
+  {
+   "row": 93,
+   "jurisdiction": "北九州市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "40",
+   "municipality_code": "401005",
+   "country_code": "KR",
+   "clair": {
+    "country": "韓国",
+    "partner": "朝鮮理工大学校",
+    "title": null,
+    "signed": "2017-11",
+    "purpose": "日本企業への就職を希望する韓国の大学生と市内企業とのマッチング支援のため",
+    "note": "協定締結状況：締結している ／ 協定等の内容：人材活用協力 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。朝鮮理工大学校との人材活用協力（韓国の大学生と市内企業のマッチング支援）を市の公式資料・相手大学の公式発表で確認できなかった（CLAIRのURLの市資料は404。市の資料で見つかったのは2017年7月の『韓国人材活用セミナー』のみ）。"
+  },
+  {
+   "row": 94,
+   "jurisdiction": "北九州市",
+   "jurisdiction_type": "designated_city",
+   "pref_code": "40",
+   "municipality_code": "401005",
+   "country_code": "KR",
+   "clair": {
+    "country": "韓国",
+    "partner": "釜山外国語大学校",
+    "title": null,
+    "signed": "2018-01",
+    "purpose": "日本企業への就職を希望する韓国の大学生と市内企業とのマッチング支援のため",
+    "note": "協定締結状況：締結している ／ 協定等の内容：人材活用協力 ／ URL：ー ／ 日付の扱い：見出しは『締結（予定）年月』。Excel上は日付値で日が1日のため、年月のみの記載と解釈（1日締結の可能性も否定できない） ／ 結合セルから補った列：A,B,C,D,G,H,I"
+   },
+   "result": "unregistered",
+   "site_ids": [],
+   "diffs": [],
+   "note": "未登録のまま。釜山外国語大学校との人材活用協力（韓国の大学生と市内企業のマッチング支援）を市の公式資料・相手大学の公式発表で確認できなかった（CLAIRのURLの市資料は404。市の資料で見つかったのは2017年7月の『韓国人材活用セミナー』のみ）。"
+  }
+ ],
+ "site_only": [
+  {
+   "id": "JP-01-002",
+   "title": "日本国北海道とインド共和国インド工科大学ボンベイ校との人材交流に関する覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2026-06-25）。"
+  },
+  {
+   "id": "JP-04-002",
+   "title": "現地送出機関との連携協定（宮城県・PT OS SELNAJAYA）",
+   "reason": "締結予定の記録（署名未確認）。CLAIR一覧の時点（2020年1月）より後の発表。"
+  },
+  {
+   "id": "JP-04-003",
+   "title": "インドネシア共和国労働省事務総局と日本国宮城県との間の日本へのインドネシア人技能実習生・特定技能労働者・技術者の送り出し・受け入れ推進に関する協力覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2023-07-28）。"
+  },
+  {
+   "id": "JP-04-004",
+   "title": "カンボジア人材の送り出し及び受け入れの推進に関する覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-12-27）。"
+  },
+  {
+   "id": "JP-04-005",
+   "title": "インドネシア人材の育成・送出し・受入れに関する覚書（宮城県・インドネシア共和国移住労働者保護省）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-08）。"
+  },
+  {
+   "id": "JP-06-001",
+   "title": "協力に関する覚書（山形県・国立大学法人山形大学・新モンゴル学園）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-09-03）。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。"
+  },
+  {
+   "id": "JP-08-006",
+   "title": "人材の育成・送出し・受入れ促進に関する協力覚書（茨城県と新モンゴル学園）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2022-02-09）。"
+  },
+  {
+   "id": "JP-15-013",
+   "title": "交流協力に関する覚書（MOU）（新潟県・タインホア省）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2023-11-21）。"
+  },
+  {
+   "id": "JP-15-014",
+   "title": "交流協力に関する覚書（MOU）（新潟県・ビンロン省）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2023-11-24）。"
+  },
+  {
+   "id": "JP-16-007",
+   "title": "日本国富山県とインド共和国アンドラプラデシュ州の交流・協力に関する覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-12-21）。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。JP-16-003の更新・後継（元の協定もCLAIR時点より後）。"
+  },
+  {
+   "id": "JP-17-001",
+   "title": "石川県・石川県自動車販売店協会・ベトナムハイフォン社による自動車整備人材確保にかかる３者協定",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-05）。"
+  },
+  {
+   "id": "JP-19-005",
+   "title": "山梨県とネパール労働・雇用・社会保障省との人材育成に関する覚書（知事記者会見の項目名による表記・正式名称未確認）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-09-05）。"
+  },
+  {
+   "id": "JP-19-007",
+   "title": "山梨県とタイニン省との国際交流協力に係る覚書（県ページの見出しによる表記・正式名称未確認）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2026-05-08）。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。"
+  },
+  {
+   "id": "JP-19-008",
+   "title": "人材の育成・送り出し・受け入れの促進に関する協力覚書（山梨県・ガルゴティアス大学）（知事会見での表現・正式名称未確認）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2026-08-20）。"
+  },
+  {
+   "id": "JP-19-009",
+   "title": "人材の育成・送り出し・受け入れの促進に関する協力覚書（山梨県・ウッタル・プラデーシュ州政府）（知事会見での表現・正式名称未確認）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2026-08-21）。"
+  },
+  {
+   "id": "JP-19-012",
+   "title": "山梨県とラオカイ省との新たな協力覚書（検討中・名称未定）",
+   "reason": "締結予定の記録（署名未確認）。CLAIR一覧の時点（2020年1月）より後の発表。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。JP-19-002の更新・後継（元の協定もCLAIR時点より後）。"
+  },
+  {
+   "id": "JP-22-005",
+   "title": "静岡県とグジャラート大学との経済産業分野での協力に関する覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-12）。静岡県はCLAIR調査に未回答。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。"
+  },
+  {
+   "id": "JP-24-019",
+   "title": "インドネシア共和国保健省と三重県との間の介護福祉士・看護師としての就労に向けた介護・看護分野の人材育成に関する覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-07-30）。三重県はCLAIR調査に未回答。"
+  },
+  {
+   "id": "JP-24-020",
+   "title": "日本国三重県とベトナム社会主義共和国労働・傷病兵・社会問題省海外労働管理局とのベトナムから三重県への労働者の送出し・受入れの推進に関する覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-01-15）。三重県はCLAIR調査に未回答。"
+  },
+  {
+   "id": "JP-24-021",
+   "title": "三重県とハノイ工科大学による覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-01-15）。三重県はCLAIR調査に未回答。"
+  },
+  {
+   "id": "JP-24-023",
+   "title": "覚書修正確認書 インドネシア共和国保健省と三重県との間の介護福祉士・看護師としての就労に向けた介護・看護分野の人材育成に関する覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-05-06）。三重県はCLAIR調査に未回答。JP-24-019の更新・後継（元の協定もCLAIR時点より後）。"
+  },
+  {
+   "id": "JP-24-024",
+   "title": "日本国三重県とインドネシア共和国労働省との間のインドネシア人技能実習生の送出し・受入れ推進に関する協力覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-05-07）。三重県はCLAIR調査に未回答。"
+  },
+  {
+   "id": "JP-24-025",
+   "title": "三重県とインドネシア送出し機関連盟「Asosiasi Penyelenggara Pemagangan Indonesia」との間のインドネシア人労働者及びインドネシア人技能実習生の送出し・受入れ推進に関する協力覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-05-07）。三重県はCLAIR調査に未回答。"
+  },
+  {
+   "id": "JP-24-026",
+   "title": "インドネシア共和国移住労働者保護省/移住労働者保護庁と日本国三重県との間のインドネシア人「特定技能」労働者の育成・送出し・受入れに関する協力覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-08-24）。三重県はCLAIR調査に未回答。"
+  },
+  {
+   "id": "JP-25-006",
+   "title": "滋賀県・一般社団法人滋賀経済産業協会・ハノイ工科大学の3者覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2021-11-12）。"
+  },
+  {
+   "id": "JP-27-003",
+   "title": "大阪府福祉部とベトナム社会主義共和国ドンア大学との介護分野における覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2023-08-23）。"
+  },
+  {
+   "id": "JP-27-004",
+   "title": "日本国大阪府とインド共和国ガイダンス タミル・ナドゥ州産業投資促進商業省の間における経済交流の促進にかかる覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-07-23）。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。"
+  },
+  {
+   "id": "JP-29-004",
+   "title": "奈良県とフエ市の友好交流協力関係の樹立に関する合意覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-06-04）。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。"
+  },
+  {
+   "id": "JP-30-014",
+   "title": "ベトナムから和歌山県への人材の送出し・受入れに係る覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2023-07-28）。"
+  },
+  {
+   "id": "JP-35-004",
+   "title": "産業人材の送り出しと受入れの協力に関する合意議事録（山口県・ビンズン省）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-12-18）。"
+  },
+  {
+   "id": "JP-35-005",
+   "title": "山口県とインドネシア共和国労働省との技能実習生の送出し・受入れ促進に関する協力覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2026-08-27）。"
+  },
+  {
+   "id": "JP-37-001",
+   "title": "ハノイ工科大学との覚書（香川県・香川県外国人材受入促進協議会・ハノイ工科大学）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-08-28）。"
+  },
+  {
+   "id": "JP-37-002",
+   "title": "香川県、香川県外国人材受入促進協議会、サイセス専門学校による覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-07-29）。"
+  },
+  {
+   "id": "JP-37-003",
+   "title": "香川県、香川県外国人材受入促進協議会、ミンダナオ大学の三者による覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-07-30）。"
+  },
+  {
+   "id": "JP-37-004",
+   "title": "インドネシア共和国労働省と香川県との間の協力覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2026-01-23）。"
+  },
+  {
+   "id": "JP-37-005",
+   "title": "インドネシア共和国移住労働者保護省と香川県との間の協力覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2026-01-23）。"
+  },
+  {
+   "id": "JP-38-004",
+   "title": "日本国愛媛県とスリランカ民主社会主義共和国労働・海外雇用省との間の農業分野等における協力に関する覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2023-06-07）。"
+  },
+  {
+   "id": "JP-38-005",
+   "title": "経済協力に関する覚書（愛媛県・タミルナドゥ州）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-01）。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。"
+  },
+  {
+   "id": "JP-38-006",
+   "title": "愛媛県とエスハイ社との覚書（ベトナムからの人材受入れ「愛媛モデル」構築に向けた覚書）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-10）。"
+  },
+  {
+   "id": "JP-38-007",
+   "title": "経済協力に関する覚書（愛媛県・ビンロン省）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2026-01）。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。JP-38-001の更新・後継（元の協定もCLAIR時点より後）。"
+  },
+  {
+   "id": "JP-38-009",
+   "title": "日本国愛媛県とインドネシア共和国労働省との間のインドネシア人技能実習生の送出し・受入れ促進に関する協力覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2026-01-15）。"
+  },
+  {
+   "id": "JP-39-022",
+   "title": "林業振興の連携と協力に関する協定書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2022-03-14）。"
+  },
+  {
+   "id": "JP-39-023",
+   "title": "ベトナム社会主義共和国ラムドン省と日本国高知県との人材の送り出しと受入れに関する覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2023-08-13）。"
+  },
+  {
+   "id": "JP-39-025",
+   "title": "インド共和国タミル・ナド州政府産業局ガイダンスと日本国高知県商工労働部との覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-01-08）。主な分野が労働以外（経済・交流等）で、外国人材確保を主目的とする協定を尋ねたCLAIR調査の範囲外の可能性。"
+  },
+  {
+   "id": "JP-39-026",
+   "title": "インド共和国ナガランド州政府ナガランド投資開発機関（IDAN）との人材交流に関する覚書（MOU）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2025-07-07）。"
+  },
+  {
+   "id": "JP-42-003",
+   "title": "長崎県福祉保健部とドンア短期大学（ダナン市）との人材育成・採用に関する覚書（報道表現）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2020-11-20）。"
+  },
+  {
+   "id": "JP-45-001",
+   "title": "人材の確保・育成に係る連携合意（宮崎県とベトナム国立農業大学）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2022-10）。"
+  },
+  {
+   "id": "JP-45-002",
+   "title": "本県農政水産部とベトナム国立農業大学投資開発サービス有限責任会社との農業分野における特定技能人材の確保・育成に係る覚書",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2024-12-13）。"
+  },
+  {
+   "id": "JP-46-004",
+   "title": "鹿児島県とベトナム国立農業大学との連携協定（ベトナム人材の確保・育成に係る連携協定）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在・一部3月末修正）より後の締結（2023-07-13）。"
+  },
+  {
+   "id": "JP-08-010",
+   "title": "人材の育成・送出し・受入れ促進に関する協力覚書（茨城県・ともだち日本語学校）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在）より後の締結（2023-11-20）。照合の中で未登録に気づき、県の資料提供で確認して追加。"
+  },
+  {
+   "id": "JP-08-011",
+   "title": "人材の育成・送出し・受入れ促進に関する協力覚書（茨城県・アジサイ日本語学校）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在）より後の締結（2023-11-20）。照合の中で未登録に気づき、県の資料提供で確認して追加。"
+  },
+  {
+   "id": "JP-08-012",
+   "title": "人材の育成・送出し・受入れ促進に関する協力覚書（茨城県・H.M.EDUCATION SERVICE）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在）より後の締結（2023-11-20）。照合の中で未登録に気づき、県の資料提供で確認して追加。"
+  },
+  {
+   "id": "JP-08-013",
+   "title": "人材の育成・送出し・受入れ促進に関する協力覚書（茨城県・ドンズーハノイ日本語センター）",
+   "reason": "CLAIR一覧の時点（2020年1月29日現在）より後の締結（2023-11-20）。照合の中で未登録に気づき、県の資料提供で確認して追加。"
+  }
+ ]
+}

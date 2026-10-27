@@ -3,7 +3,7 @@ import { toCSV, downloadBlob, toast } from './util.js';
 import { scopeLabel } from './shared.js';
 import {
   FIELD, STATUS, IMPACT, STAGE, CAUSALITY, PARTNER_TYPES, LEGAL, EVIDENCE, ORIGINAL, PAYERS, BUDGET_KIND, LEVELS,
-  VALIDITY, DOC_CATEGORY, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES, VALIDITY_REASONS,
+  VALIDITY, DOC_CATEGORY, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES, VALIDITY_REASONS, JAPAN_ORG_TYPE, PAIR_KIND,
   countryName, prefName, termEnd,
 } from './data.js';
 
@@ -16,7 +16,13 @@ const HEADERS = [
   ['文書の種類（補足）', m => m.doc_type_note],
   ['日本側の区分', m => LEVELS[m.japan_level]],
   ['日本側機関', m => m.japan_org],
-  ['都道府県', m => prefName(m._db, m.pref_code)],
+  ['日本側の組織種別', m => JAPAN_ORG_TYPE[m._orgType]?.ja],
+  ['当事者の組み合わせ', m => PAIR_KIND[m._pairKind]?.ja],
+  ['都道府県', m => m.japan_level === 'organization' ? '' : prefName(m._db, m.pref_code)],
+  ['市区町村コード', m => m.municipality_code],
+  ['市区町村', m => m.municipality_name],
+  ['関連事業の地域（締結した地域ではない）', m => (m.related_regions || []).map(r => `${prefName(m._db, r.pref_code)}${r.text ? '：' + r.text : ''}`).join(' / ')],
+  ['署名・交換の場', m => m.ceremony_note],
   ['署名者（日本側）', m => m.japan_signatory],
   ['日本側のその他の署名者', m => (m.other_japan_parties || []).join(' / ')],
   ['相手国コード', m => m.country_code],

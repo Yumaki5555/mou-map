@@ -3,6 +3,7 @@ import { esc, fmtDate, fmtYen, fmtNum, today } from './util.js';
 import {
   FIELD, STATUS, IMPACTS, STAGES, CAUSALITY, PARTNER_TYPES, LEGAL, EVIDENCE, PAYERS, BUDGET_KIND, SOURCE_TYPES,
   VALIDITY, VALIDITIES, VALIDITY_SCOPE, VALIDITY_REASONS, DOC_CATEGORY, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES, RESEARCH_STATES, AUTO_RENEWAL,
+  JAPAN_ORG_TYPE, PAIR_KIND, LEVEL_ORDER, LEVEL_SHORT,
   countryName, prefName, japanSideName, residentChange, sswCount, validityCounts, validityInfo, termEnd, researchStatus,
 } from './data.js';
 
@@ -57,21 +58,22 @@ export function validityTiles(groups, opts = {}) {
   const lv = l => groups.filter(g => g.level === l);
   const c = validityCounts(groups);
   c.planned += opts.planned || 0;
-  const cp = opts.split ? validityCounts(lv('prefecture')) : null;
-  const cn = opts.split ? validityCounts(lv('national')) : null;
+  // split：締結主体ごとに分けて表示（都道府県・国は常に、市区町村・団体などは登録があるときだけ）
+  const lvs = opts.split ? LEVEL_ORDER.filter(l => ['prefecture', 'national'].includes(l) || lv(l).length).sort((a, b) => (a === 'prefecture' ? -1 : b === 'prefecture' ? 1 : 0)) : [];
+  const per = Object.fromEntries(lvs.map(l => [l, validityCounts(lv(l))]));
   const on = opts.scope ? new Set(VALIDITY_SCOPE[opts.scope].states) : null;
   const tile = code => {
     const tag = opts.link ? 'a' : 'div';
     const href = opts.link ? ` href="${opts.link(code)}"` : '';
     const nums = opts.split
-      ? `<span class="vt-split"><span>都道府県 <b>${cp[code]}</b>件</span><span>国・省庁 <b>${cn[code]}</b>件</span></span>`
+      ? `<span class="vt-split">${lvs.map(l => `<span>${esc(LEVEL_SHORT[l])} <b>${per[l][code]}</b>件</span>`).join('')}</span>`
       : `<span class="vt-n">${c[code]}<small>件</small></span>`;
     return `<${tag} class="vt vt-${code}${on && on.has(code) ? ' is-on' : ''}"${href}>
       <span class="vt-k">${esc(VALIDITY[code].ja)}${on && on.has(code) ? '<span class="vt-on">表示中</span>' : ''}</span>${nums}
       ${opts.desc === false ? '' : `<span class="vt-d">${esc(VT_DESC[code])}</span>`}</${tag}>`;
   };
   const codes = VT_ORDER.filter(code => code !== 'planned' || c.planned || opts.split);
-  const total = opts.split ? `都道府県 <b>${cp.signed_total}</b>件／国・省庁 <b>${cn.signed_total}</b>件` : `<b>${c.signed_total}</b>件`;
+  const total = opts.split ? lvs.map(l => `${esc(LEVEL_SHORT[l])} <b>${per[l].signed_total}</b>件`).join('／') : `<b>${c.signed_total}</b>件`;
   return `<div class="vtiles${opts.split ? ' vtiles-split' : ''}" role="list" aria-label="協定の有効性の内訳">${codes.map(code => `<div role="listitem">${tile(code)}</div>`).join('')}</div>
   <p class="vt-total">締結済み累計：${total}<span class="small muted">（有効確認＋終了確認＋有効性未確認＋開始前。締結予定は含みません。同じ協定の更新・再締結は1件）</span></p>
   ${opts.note === false ? '' : '<p class="small muted" style="margin:2px 0 0">「有効性未確認」は、今も有効かどうかを公式資料で確かめられていないもので、終了したという意味ではありません。</p>'}`;
@@ -173,13 +175,22 @@ export function mouCard(db, g, opts = {}) {
       <span>${esc(signed)}</span>
       ${validityBadge(g.validity)} ${g.category !== 'mou_moc' ? categoryBadge(g.category) : ''} ${statusBadge(g.status)} ${fieldBadges(g.fields)}
       <span class="badge b-doc">${esc(m.doc_type)}</span>
+      ${opts.showActor || !['national', 'prefecture'].includes(g.level) ? actorBadges(g) : ''}
       <span class="badge b-level">相手：${esc(PARTNER_TYPES[m.partner_type] || '種別不明')}</span>
       ${renewals} ${evidenceBadge(m)}
     </div>
     ${m.purpose ? `<p class="purpose">${esc(m.purpose)}</p>` : ''}
     ${(m.numbers || []).length ? `<p class="small" style="margin:6px 0 0"><b>人数の記載：</b>${m.numbers.slice(0, 3).map(n => `${esc(NUMBER_KIND[n.kind]?.ja || n.kind)} ${n.value == null ? '未確認' : esc(Number(n.value).toLocaleString('ja-JP') + (n.unit || '人'))}`).join('／')}${m.numbers.length > 3 ? ' ほか' : ''}（<a href="#/mou/${encodeURIComponent(m.id)}">数字の意味</a>）</p>` : ''}
     ${impactCats.length ? `<p class="small muted" style="margin:6px 0 0">地域への影響の記録：${impactCats.map(c => esc(IMPACTS.find(i => i.code === c)?.ja || c)).join('、')}</p>` : ''}
+    ${g.level === 'organization' ? '<p class="small muted" style="margin:6px 0 0">団体・企業などが締結した協定です。日本政府・都道府県が締結した件数には含めていません。</p>' : ''}
+    ${opts.extra || ''}
   </article>`;
+}
+
+// 日本側の締結主体の種別と、当事者の組み合わせ（政府間・自治体間・官民間・団体間など）
+export function actorBadges(g) {
+  const t = JAPAN_ORG_TYPE[g.orgType], p = PAIR_KIND[g.pairKind];
+  return `${t ? `<span class="badge b-actor" title="${esc(t.desc)}">日本側：${esc(t.ja)}</span>` : ''} ${p ? `<span class="badge b-pair" title="${esc(p.desc)}">${esc(p.ja)}</span>` : ''}`;
 }
 
 export function mouList(db, groups, opts = {}) {

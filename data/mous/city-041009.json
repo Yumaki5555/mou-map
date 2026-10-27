@@ -1,0 +1,97 @@
+{
+ "note": "仙台市（041009）が締結したMOU。都道府県の件数とは別に数えます。",
+ "mous": [
+  {
+   "id": "JP-CITY-041009-001",
+   "group_key": "C041009:041009-TH-ThaiAsawalert-labor",
+   "renewal_of": null,
+   "title_ja": "タイ王国タイアサワラート人材派遣株式会社と日本国仙台市との介護分野における協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "municipality",
+   "japan_org": "仙台市",
+   "japan_org_type": "municipality",
+   "pref_code": "04",
+   "municipality_code": "041009",
+   "municipality_name": "仙台市",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "タイアサワラート人材派遣株式会社（バンコク。日本向け技能実習生の送出し機関）",
+   "partner_org_en": "",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2025-11-04",
+   "announced_date": "",
+   "date_note": "市ページに『令和7年11月4日（火曜日）』締結、締結場所は同社本社（タイ王国バンコク都）と記載。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護"
+   ],
+   "purpose": "介護事業者における外国人介護人材の採用ルートの複線化（市ページ）",
+   "content": [
+    "タイアサワラート人材派遣株式会社は、仙台市内の介護事業所で働くことを希望する者を仙台市に送り出す（市ページ）",
+    "仙台市は、外国人材の受入れに係る支援事業を通じた市内介護分野での就業支援を行う（市ページ）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "市は令和8年度から『タイ介護人材受入伴走支援事業』（タイ人材とのマッチング機会、現地視察、採用・受入れの伴走支援、補助）を実施（市ページ）。この事業と覚書の関係は市ページに明記がない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "タイアサワラート人材派遣株式会社と覚書を締結しました",
+     "publisher": "仙台市（健康福祉局介護保険課）",
+     "url": "https://www.city.sendai.jp/kaigojinzaikakuho/atpmou.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "2025年12月23日更新。正式名称・締結日・場所・内容"
+    },
+    {
+     "id": "s2",
+     "title": "タイ介護人材受入伴走支援事業 参加事業者を募集します！",
+     "publisher": "仙台市",
+     "url": "https://www.city.sendai.jp/kaigojinzaikakuho/thaibansousien.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "2026年7月24日更新"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "CLAIR調査（2020年、仙台市は『締結なし』と回答）の後に締結されたもの。署名者・英語名・有効期間は市ページに記載なし。原文未公開。",
+   "related_systems": [],
+   "acceptance_types": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "市ページで締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す資料もない。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文・有効期間条項は未確認。"
+  }
+ ]
+}

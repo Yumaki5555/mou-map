@@ -1,0 +1,217 @@
+{
+ "note": "川崎市（141305）が締結したMOU。都道府県の件数とは別に数えます。",
+ "mous": [
+  {
+   "id": "JP-CITY-141305-001",
+   "group_key": "C141305:141305-PH-UBaguio-labor",
+   "renewal_of": null,
+   "title_ja": "インターンシッププログラムにおける協力に関する覚書（川崎市・バギオ大学）（市資料・CLAIR調査票の表現・正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "市資料では『覚書（MOU）』",
+   "doc_category": "mou_moc",
+   "japan_level": "municipality",
+   "japan_org": "川崎市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141305",
+   "municipality_name": "川崎市",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PH",
+   "partner_org": "バギオ大学",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2019-05",
+   "announced_date": "",
+   "date_note": "締結年月はCLAIR調査票（Excel 82行目、川崎市の回答。マカティ大学・パシッグ大学と同じ結合セル）による。市の公式資料では、2019年12月時点で『バギオ大学を含むフィリピンの３大学と覚書（MOU）を締結』と確認できるが、締結日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "インターンシップ",
+    "技能実習"
+   ],
+   "purpose": "福祉人材不足の解消のため、フィリピンの学生をインターンシップ生として市内の福祉施設等で就労体験してもらい、将来的に再入国して市内の福祉施設等で長期間勤務してもらう事業（川崎市外国人介護人材雇用支援事業）での協力（市の募集案内・参考資料）",
+   "content": [
+    "バギオ大学を含むフィリピンの３大学と覚書（MOU）を締結し、協力体制のもとでインターンシップ事業を実施（市資料）",
+    "（CLAIR調査票の内容欄）インターンシッププログラムにおける協力関係について"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "第１期（令和元年10月15日〜令和2年1月14日）にバギオ大学の学生6名を市内3法人で受け入れ（市資料）。インターンシップ終了後は技能実習の在留資格での再入国を想定（市の募集案内）。その後の同大学からの受入れは未確認。事業は株式会社シグマスタッフ（川崎市国際介護人材サポートセンター）に委託。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "（別紙）インターンシップ第１期の実施概要について",
+     "publisher": "川崎市（健康福祉局高齢者事業推進課）",
+     "url": "https://www.city.kawasaki.jp/350/cmsfiles/contents/0000112/112826/03_sannkou.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "『バギオ大学を含むフィリピンの３大学と覚書（MOU）を締結し、協力体制のもとで事業実施』の記載（2019年12月の募集の参考資料）"
+    },
+    {
+     "id": "s2",
+     "title": "外国人介護人材雇用支援事業における第２期インターンシップ生の受入れ法人の募集について（事務連絡、令和元年12月6日）",
+     "publisher": "川崎市（健康福祉局高齢者事業推進課）",
+     "url": "https://www.city.kawasaki.jp/350/cmsfiles/contents/0000112/112826/01_bosyuuannai.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "事業の目的、第2期（マカティ大学の学生8名予定）、技能実習での再入国の想定"
+    },
+    {
+     "id": "s3",
+     "title": "【募集終了】外国人介護人材雇用支援事業における第2期インターンシップ生の受入れ法人の募集について",
+     "publisher": "川崎市",
+     "url": "https://www.city.kawasaki.jp/350/page/0000112826.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "2019年12月6日公開"
+    },
+    {
+     "id": "s4",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 82行目（川崎市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "フィリピンの3大学のうち市の公式資料で校名を確認できたのはバギオ大学のみ。英語名・署名者・原文は未確認。",
+   "related_systems": [
+    "TITP"
+   ],
+   "acceptance_types": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "市資料（2019年）で覚書の締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す公式資料も見つからない。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "2024年の市資料の受入スキーム図には『フィリピン共和国またはベトナム国の看護課程大学』とあるが、バギオ大学との覚書の継続は明記されていない。"
+  },
+  {
+   "id": "JP-CITY-141305-002",
+   "group_key": "C141305:141305-VN-ThaiNguyenMed-labor",
+   "renewal_of": null,
+   "title_ja": "インターンシップ受入事業に関する覚書（川崎市・国立タイグエン医療短期大学）（市資料の表現・正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "市資料では『インターンシップ受入事業に関する覚書』",
+   "doc_category": "mou_moc",
+   "japan_level": "municipality",
+   "japan_org": "川崎市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141305",
+   "municipality_name": "川崎市",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "国立タイグエン医療短期大学（市の募集ページの表記。別紙の協定先欄は『国立ダイグエン医療短期大学』）",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2023-05",
+   "announced_date": "",
+   "date_note": "市資料（2024年8月16日）に『2023年5月、川崎市は新たにベトナム国の大学とインターンシップ受入事業に関する覚書を締結』、募集ページに『令和5年度にベトナムの大学と覚書を締結』と記載。日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "インターンシップ",
+    "特定技能"
+   ],
+   "purpose": "外国人介護人材雇用支援事業の一環として、ベトナムの看護課程の大学生をインターンシップ生として市内の介護事業者で受け入れ、卒業後に『特定技能』として再入国・就労につなげる（市資料）",
+   "content": [
+    "川崎市とベトナムの大学がインターンシップ受入事業に関する覚書を締結（市資料の受入スキーム図）",
+    "インターンシップは大学が認可を受けたカリキュラムの一環として行い、大学の推薦を受けた学生のみが参加（在留資格は特定活動9号）（市資料）",
+    "インターンシップ終了・卒業後、『特定技能』として再入国（市資料の受入スキーム図）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2024年2月にベトナムからのインターンシップ第1期生を受入れ（市資料の写真説明）。第2期は2025年2月17日〜6月30日に看護学生6〜8名の受入れを予定し、受入法人を募集（2024年8月）。事業は株式会社シグマスタッフ（川崎市国際介護人材サポートセンター）に委託。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "川崎市外国人介護人材雇用支援事業における海外インターンシップ事業について（2024年8月16日）",
+     "publisher": "川崎市",
+     "url": "https://www.city.kawasaki.jp/350/cmsfiles/contents/0000168/168782/02_bessi.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "受入スキーム図、2023年5月の覚書締結、協定先（国立ダイグエン医療短期大学）"
+    },
+    {
+     "id": "s2",
+     "title": "外国人介護人材雇用支援事業におけるインターンシップ生受入法人の募集について",
+     "publisher": "川崎市（健康福祉局）",
+     "url": "https://www.city.kawasaki.jp/350/page/0000168782.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "2024年8月27日公開。対象は国立タイグエン医療短期大学の看護学生"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "大学名の表記が資料により『タイグエン』『ダイグエン』と異なり、別紙の紹介文は『TNU-UMP』（タイグエン大学医薬大学）の概要を記載しているため、署名機関が短期大学か大学かは未確認。英語名・署名者・原文は未確認。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "市資料（2024年）で覚書の締結と事業の実施は確認できるが、有効期間・更新の記載がなく、事業が続いているというだけでは有効確認にならない。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文・有効期間条項は未確認。"
+  }
+ ]
+}

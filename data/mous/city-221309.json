@@ -1,0 +1,107 @@
+{
+ "note": "浜松市（221309）が締結したMOU。都道府県の件数とは別に数えます。",
+ "mous": [
+  {
+   "id": "JP-CITY-221309-001",
+   "group_key": "C221309:221309-IN-IITH-labor",
+   "renewal_of": null,
+   "title_ja": "覚書（浜松市・インド工科大学ハイデラバード校）（正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "municipality",
+   "japan_org": "浜松市",
+   "japan_org_type": "municipality",
+   "pref_code": "22",
+   "municipality_code": "221309",
+   "municipality_name": "浜松市",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "インド工科大学ハイデラバード校（IITH）",
+   "partner_org_en": "Indian Institute of Technology Hyderabad",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2024-12",
+   "announced_date": "",
+   "date_note": "市の報道発表（2025年6月11日・同年10月28日）は『昨年12月』『令和6年12月』に締結と記載。日は未確認。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "高度人材"
+   ],
+   "purpose": "双方の人的・経済的交流の促進に協力して取り組むため（市の報道発表）",
+   "content": [
+    "双方の人的・経済的交流の促進に協力して取り組む（市の報道発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "副市長のインド出張（2025年10月29日〜11月3日）で、覚書を締結したIITHとのマッチングイベント『Hamamatsu Day』を開催予定（市の報道発表）。IITHの教授による高校での出前講座（2025年6月）・特別授業（令和8年度）も実施。所管は産業部労働政策課。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インド工科大学ハイデラバード校 片岡教授による出前講座の開催について（報道発表、令和7年6月11日）",
+     "publisher": "浜松市（産業部労働政策課）",
+     "url": "https://www.city.hamamatsu.shizuoka.jp/documents/167833/1103.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "『昨年12月に双方の人的・経済的交流の促進に協力して取り組むため、覚書を締結』"
+    },
+    {
+     "id": "s2",
+     "title": "内藤副市長の海外出張について（報道発表、令和7年10月28日）",
+     "publisher": "浜松市（労働政策課）",
+     "url": "https://www.city.hamamatsu.shizuoka.jp/documents/170204/2802.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "『令和6年12月に覚書を締結したインド工科大学ハイデラバード校とのマッチングイベント「Hamamatsu Day」の開催』"
+    },
+    {
+     "id": "s3",
+     "title": "令和8年度 インド工科大学ハイデラバード校 片岡教授による「インドの魅力に触れる特別授業」の開催について",
+     "publisher": "浜松市",
+     "url": "https://www.city.hamamatsu.shizuoka.jp/shise/koho/koho/hodohappyo/2026/6/0502.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2026年6月5日"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "CLAIR調査（2020年、浜松市は『締結なし』と回答）の後に締結されたもの。同じ2024年12月にNext Bharat Ventures（インド）とも覚書を締結しているが（市の報道発表）、内容を確認できないため別記録にしていない。署名者・原文・有効期間は未確認。",
+   "related_systems": [],
+   "acceptance_types": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "市の報道発表（2025〜2026年）で覚書に基づく交流の継続は確認できるが、有効期間・更新の記載がなく、事業が続いているというだけでは有効確認にならない。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文・有効期間条項は未確認。"
+  }
+ ]
+}

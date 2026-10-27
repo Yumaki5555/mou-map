@@ -1,8 +1,8 @@
-// トップページ（題名・登録状況・2つの入口・まず3分でわかる・詳しく調べる・制度の課題を考える）と「制度の課題を考える」ページ
+// トップページ（題名・2つの入口・まず3分でわかる・地図と検索・登録状況・地域への影響と比較・制度の課題と出典）と「制度の課題を考える」ページ
 import { esc, fmtDate, fmtNum, fmtYenShort } from './util.js';
 import {
   FIELDS, DOC_CATEGORIES, VALIDITY_SCOPE,
-  filterGroups, residentChange, countryName, prefName, surveySummary,
+  filterGroups, residentChange, countryName, prefName, surveySummary, validityCounts, levelCounts,
 } from './data.js';
 import { JapanMap, swatchStyle } from './map.js';
 import { legendHTML, validityTiles } from './components.js';
@@ -25,15 +25,14 @@ const ym = d => fmtDate(d).replace(/\d+日$/, '');
 export function homePage(ctx) {
   const { db, app } = ctx;
   const asOf = fmtDate(db.config.data_as_of);
+  // 並び：①題名と短い説明 → ②2つの入口 → ③まず3分でわかる → ④地図・逆引き・検索 → ⑤登録件数と有効性 → ⑥地域への影響・比較 → ⑦制度の課題・出典・調査状況
   app.innerHTML = `
     <section class="hero2">
       <h1>日本と世界のMOU・協定マップ</h1>
       <p class="catch"><span>どの国と、何を約束した？</span> <span>私たちの地域に何が起こる？</span></p>
-      <p class="hero-desc">日本政府や都道府県が海外と結んだ覚書・協定を、地図と公式資料から調べられます。外国人材の受入れや地域への影響も確認できます。</p>
-      <p class="asof">掲載内容：<b>${esc(asOf)}時点</b>　<a href="#/about">調査範囲・ご利用にあたって</a></p>
+      <p class="hero-desc">日本政府や都道府県などが海外と結んだ覚書・協定を、地図と公式資料から調べられます。外国人材の受入れや地域への影響も確認できます。</p>
+      <p class="asof">掲載内容：<b>${esc(asOf)}時点</b>　${miniStatus(db)}</p>
     </section>
-
-    ${statusHTML(db)}
 
     <div class="gates">
       <a class="gate-a" href="#/?to=sanpun" data-jump="sanpun">
@@ -44,14 +43,16 @@ export function homePage(ctx) {
         <span class="gate-go" aria-hidden="true">↓ このページで読む</span>
       </a>
       <nav class="gate-b" aria-labelledby="gate-b-h">
-        <p class="gate-k" id="gate-b-h">詳しく調べたい方はこちら</p>
+        <p class="gate-k" id="gate-b-h">詳しく調べる</p>
         <ul class="doors">
           ${door(1, '#/map', ILL.japan, '日本地図', '都道府県ごとの登録件数')}
           ${door(2, '#/country', ILL.globe, '相手国', '国名から逆引き')}
-          ${door(3, '#/types', ILL.doc, '協定の種類', 'MOU・EPA・取決め')}
-          ${door(4, '#/field', ILL.gov, '分野・省庁', '外国人材・経済・教育など')}
-          ${door(5, '#/impact', ILL.house, '地域への影響', '受入れ・予算・事業')}
-          ${door(6, '#/compare', ILL.chart, '比較', 'グラフで比べる')}
+          ${door(3, '#/search', ILL.search, 'キーワード検索', '「宮城県 ベトナム」など')}
+          ${door(4, '#/types', ILL.doc, '協定の種類', 'MOU・EPA・取決め')}
+          ${door(5, '#/actors', ILL.hands, '締結主体', '国・自治体・団体・企業')}
+          ${door(6, '#/field', ILL.gov, '分野・省庁', '外国人材・経済・教育など')}
+          ${door(7, '#/impact', ILL.house, '地域への影響', '受入れ・予算・事業')}
+          ${door(8, '#/compare', ILL.chart, '比較', 'グラフで比べる')}
         </ul>
       </nav>
     </div>
@@ -59,21 +60,26 @@ export function homePage(ctx) {
     ${sanpunHTML(db)}
 
     <section class="home-sec" id="explore" aria-labelledby="explore-h">
-      <div class="band"><span class="band-k">詳しく調べる</span><h2 id="explore-h">地図と相手国から調べる</h2></div>
+      <div class="band"><span class="band-k">詳しく調べる</span><h2 id="explore-h">地図・相手国・キーワードで調べる</h2></div>
       ${exploreHTML(db)}
     </section>
 
+    ${statusHTML(db)}
+
+    <section class="home-sec" id="effects" aria-labelledby="effects-h">
+      <div class="band"><span class="band-k">地域への影響・比較</span><h2 id="effects-h">約束のあと、地域で何が行われた？</h2></div>
+      ${effectsHTML(db)}
+    </section>
+
     <section class="home-sec" id="kadai" aria-labelledby="kadai-h">
-      <div class="band"><span class="band-k">最後に</span><h2 id="kadai-h">制度の課題を考える（6つの問い）</h2></div>
+      <div class="band"><span class="band-k">制度の課題・出典</span><h2 id="kadai-h">制度の課題を考える（6つの問い）</h2></div>
       <p>制度を知ったうえで、次に何を確かめればよいか。6つの問いと、確かめるためのページをまとめました。答えを決めつけず、資料を見てご自身で考えるための入口です。</p>
       ${issuesList(db, { compact: true })}
       <p><a class="btn btn-outline" href="#/issues">「制度の課題を考える」のページを開く</a></p>
-    </section>
-
-    <section class="home-sec" id="more" aria-labelledby="more-h">
-      <h2 id="more-h">調査状況・データ</h2>
+      <h3 id="more-h">出典・調査状況・データ</h3>
       <div class="more-links">
         <a class="more-link" href="#/about"><b>調査状況・出典</b><span>どこまで調べたか、何がまだ調べられていないか、有効性の判定のしかた</span></a>
+        <a class="more-link" href="#/about?to=ab-clair"><b>CLAIRの一覧との照合</b><span>自治体国際化協会の「協定等締結状況」と登録データを1件ずつ照らし合わせた結果</span></a>
         <a class="more-link" href="#/data"><b>データダウンロード（CSV）</b><span>登録したすべての協定を表計算ソフトで開ける形で保存</span></a>
       </div>
     </section>`;
@@ -86,30 +92,72 @@ function door(n, href, ill, title, desc) {
   return `<li><a class="door" href="${href}"><span class="door-n" aria-hidden="true">${n}</span><span class="illu">${ill}</span><b>${esc(title)}</b><span class="door-d">${esc(desc)}</span></a></li>`;
 }
 
+// 題名の下の1行：有効・終了・未確認の件数（最初の画面を圧迫しないよう、詳しい内訳は下の「登録状況」に置く）
+function miniStatus(db) {
+  const c = validityCounts(filterGroups(db, { ...baseFilter(), validity: 'all' }));
+  return `<span class="mini-status">登録した${settings.docScope === 'mou' ? 'MOU' : '協定'}：有効確認 <b>${c.valid_confirmed}</b>件・終了確認 <b>${c.ended_confirmed}</b>件・有効性未確認 <b>${c.unconfirmed}</b>件
+    （<a href="#/?to=status" data-jump="status">内訳を見る</a>）</span>`;
+}
+
 // ================= 登録状況（5区分の件数と調査の範囲） =================
 function statusHTML(db) {
   const groups = filterGroups(db, { ...baseFilter(), validity: 'all', includePlanned: true });
   const s = surveySummary(db, groups);
   const docLabel = settings.docScope === 'mou' ? 'MOU・MOC（覚書）' : settings.docScope === 'foreign' ? '外国人受入れに関する国際文書' : 'MOU以外を含む登録文書';
-  return `<section class="status" id="status" aria-labelledby="status-h">
-    <div class="status-head">
-      <h2 id="status-h">登録した協定は、いま何件有効？</h2>
-      <p class="status-asof">${esc(fmtDate(db.config.data_as_of))}時点</p>
-    </div>
-    <p class="status-lead">このサイトに登録した${esc(docLabel)}を、今も有効かどうかで5つに分けました。国と都道府県は分けて数えています。<b>登録した件数で、全国の総数ではありません。</b>区分を押すと一覧が開きます。</p>
+  const others = [s.registeredCity ? `市区町村 ${s.registeredCity}` : '', s.registeredOrg ? `団体・企業など ${s.registeredOrg}` : ''].filter(Boolean).join('・');
+  return `<section class="home-sec status" id="status" aria-labelledby="status-h">
+    <div class="status-head"><h2 id="status-h"><span class="band-k">登録件数と有効性</span>登録した協定は、いま何件有効？</h2><p class="status-asof">${esc(fmtDate(db.config.data_as_of))}時点</p></div>
+    <p class="status-lead">このサイトに登録した${esc(docLabel)}を、今も有効かどうかで5つに分けました。国・都道府県・市区町村・団体などは分けて数えています。<b>登録した件数で、全国の総数ではありません。</b>区分を押すと一覧が開きます。</p>
     ${validityTiles(groups, { split: true, link: code => `#/list?s=${code}`, scope: settings.validity, note: false })}
     ${scopeBarHTML()}
     <dl class="facts">
       <div><dt>調査済みの都道府県</dt><dd><b>${s.stage1Done}</b> / ${s.prefs}<small>外国人材・労働の協定。ほかの分野は公式一覧を確認した${s.stage2Listed}都道府県と一部のみ</small></dd></div>
       <div><dt>要再調査の都道府県</dt><dd><b>${s.recheck}</b><small>${s.recheck ? esc(s.recheckNames.join('、')) : 'なし'}</small></dd></div>
       <div><dt>調査済みの協定分野</dt><dd><b>外国人材・労働</b><small>経済・教育・観光などは一部。国は外国人材の受入れに関係するもののみ</small></dd></div>
-      <div><dt>登録済みの協定</dt><dd><b>${s.registered}</b>件<small>都道府県 ${s.registeredPref}・国 ${s.registeredNat}（締結予定 ${s.planned}件は除く）</small></dd></div>
+      <div><dt>登録済みの協定</dt><dd><b>${s.registered}</b>件<small>都道府県 ${s.registeredPref}・国 ${s.registeredNat}${others ? `・${others}` : ''}（締結予定 ${s.planned}件は除く）</small></dd></div>
       <div><dt>有効性を確認済み</dt><dd><b>${s.determined}</b>件<small>有効確認 ${s.valid}・終了確認 ${s.ended}・開始前 ${s.notStarted}</small></dd></div>
       <div><dt>有効性が未確認</dt><dd><b>${s.unconfirmed}</b>件<small>今も有効か確かめられていないもの</small></dd></div>
       <div><dt>最終データ更新日</dt><dd><b class="fd-date">${esc(fmtDate(s.lastUpdated))}</b></dd></div>
     </dl>
     <p class="small"><a href="#/about">調査の範囲と、有効性の判定のしかたを詳しく見る</a></p>
   </section>`;
+}
+
+// ================= 地域への影響・比較（トップの中の入口） =================
+function effectsHTML(db) {
+  const all = filterGroups(db, baseFilter());
+  const real = i => !i._auto;
+  const ACTUAL = ['actual_entry', 'actual_employed', 'current_residents'];
+  const accept = all.filter(g => g.impacts.some(i => real(i) && i.category === 'population' && i.stage !== 'agreed') || g.versions.some(v => v.numbers.some(n => ACTUAL.includes(n.kind)))).length;
+  const budget = all.filter(g => g.budgets.length).length;
+  const proj = all.filter(g => g.projects.length || g.impacts.some(i => real(i) && i.stage === 'implemented')).length;
+  const comm = all.filter(g => g.impacts.some(i => real(i) && i.category === 'community' && i.stage !== 'agreed')).length;
+  const n = x => x ? `<b>${x}</b><small>件の協定で記録</small>` : '<b class="imp-unk">未確認</b>';
+  return `<div class="explore explore-2">
+    <section class="ex-card" aria-labelledby="ef-i-h">
+      <h3 id="ef-i-h">地域への影響を調べる</h3>
+      <p class="small">「合意したこと」「実際に行われたこと」「地域で確認された変化」を分けて記録しています。</p>
+      <ul class="ef-nums">
+        <li><span>外国人の受入れ人数の実績</span>${n(accept)}</li>
+        <li><span>関連予算・実際の支出</span>${n(budget)}</li>
+        <li><span>実施された事業</span>${n(proj)}</li>
+        <li><span>住民への説明・議会審議</span>${n(comm)}</li>
+      </ul>
+      <p class="small muted">いまの数え方（${esc(scopeLabel())}）。記録がないことは「影響がない」「0人・0円」という意味ではありません。</p>
+      <p><a class="btn" href="#/impact">地域への影響のページを開く</a></p>
+    </section>
+    <section class="ex-card" aria-labelledby="ef-c-h">
+      <h3 id="ef-c-h">グラフで比べる</h3>
+      <ul class="ef-links">
+        <li><a href="#/compare?to=c1-sec">都道府県ごとの締結件数</a></li>
+        <li><a href="#/compare?to=c2-sec">相手国・地域別の締結件数</a></li>
+        <li><a href="#/compare?to=c4-sec">年ごとの締結件数の推移</a></li>
+        <li><a href="#/compare?to=c7-sec">協定の有効性の内訳</a></li>
+        <li><a href="#/compare?to=c6-sec">確認できた関連予算の比較</a></li>
+      </ul>
+      <p><a class="btn btn-outline" href="#/compare">比較グラフのページを開く</a></p>
+    </section>
+  </div>`;
 }
 
 // ================= まず3分でわかる =================
@@ -165,7 +213,8 @@ function step2(db) {
         </li>`).join('')}
       </ul>
     </figure>`;
-  const desc = `<p>国（省庁）は外国の政府と、都道府県は外国の省庁・州・大学などと結んでいます。<b>国の協定は全国が対象なので、都道府県の件数とは分けて数えています。</b></p>`;
+  const desc = `<p>国（省庁）は外国の政府と、都道府県は外国の省庁・州・大学などと結んでいます。<b>国の協定は全国が対象なので、都道府県の件数とは分けて数えています。</b></p>
+    <p>市（政令指定都市など）や、団体・企業が海外と結んだ協定もあります。これらも国・都道府県の件数には入れず、別に数えています（<a href="#/actors">締結主体から探す</a>）。</p>`;
   return stepShell(2, 'step2', '国も都道府県も、海外とMOUを結んでいる', '相手は外国の政府だけでなく、州や大学のこともあります。', fig, desc,
     '例はいずれも登録した協定（名前を押すと詳しいページが開きます）。');
 }
@@ -248,7 +297,18 @@ function exploreHTML(db) {
   const cats = DOC_CATEGORIES.map(c => ({ c, n: catsAll.filter(g => g.category === c.code).length }));
   const all = filterGroups(db, baseFilter());
   const fieldsN = FIELDS.map(f => ({ f, n: all.filter(g => g.fields.includes(f.code)).length }));
+  const lc = levelCounts(all);
   return `<div class="explore">
+    <section class="ex-card ex-search" aria-labelledby="ex-s-h">
+      <h3 id="ex-s-h">キーワードで探す</h3>
+      <form class="sr-form" id="home-search" role="search">
+        <label class="visually-hidden" for="home-q">検索する言葉</label>
+        <input type="search" id="home-q" placeholder="例：宮城県 ベトナム" autocomplete="off">
+        <button class="btn" type="submit">検索</button>
+      </form>
+      <p class="small">言葉をスペースで区切ると、すべてを含む協定を探します。協定名だけでなく、本文・締結機関・署名者・担当省庁・制度・事業・予算・出典からも探せます。
+        例：${['宮城県 ベトナム', 'インドネシア 介護', 'ベトナム 技能実習', '外務省 EPA', 'NAGOMi VAMAS'].map(x => `<a href="#/search?q=${encodeURIComponent(x)}">${esc(x)}</a>`).join('、')}</p>
+    </section>
     <section class="ex-card ex-map" id="ex-map" aria-labelledby="ex-map-h">
       <h3 id="ex-map-h">日本地図：登録済み協定の分布</h3>
       ${scopeNoteHTML()}
@@ -257,7 +317,8 @@ function exploreHTML(db) {
         <div>
           <p class="big-num">都道府県 <b>${pref.length}</b>件<small>（${new Set(pref.map(g => g.pref_code)).size}都道府県）</small></p>
           <p class="big-num">国・省庁 <b>${nat.length}</b>件<small>（全国が対象。都道府県とは別に数える）</small></p>
-          <p class="small muted">数え方：${esc(scopeLabel())}（<a href="#/?to=status" data-jump="status">上の「いま何件有効？」で変更</a>）。地図は登録済み協定の分布で、全国の実際の総数ではありません。</p>
+          ${lc.municipality || lc.organization ? `<p class="small">このほか${lc.municipality ? `市区町村 <b>${lc.municipality}</b>件` : ''}${lc.municipality && lc.organization ? '・' : ''}${lc.organization ? `団体・企業など <b>${lc.organization}</b>件` : ''}（<a href="#/actors">締結主体から探す</a>。都道府県の件数には含めない）</p>` : ''}
+          <p class="small muted">数え方：${esc(scopeLabel())}（<a href="#/?to=status" data-jump="status">下の「いま何件有効？」で変更</a>）。地図は登録済み協定の分布で、全国の実際の総数ではありません。</p>
           <p><a class="btn" href="#/map">大きな地図で詳しく見る</a></p>
         </div>
       </div>
@@ -286,6 +347,11 @@ function drawExplore(ctx) {
   map.update({ fill: model.fill, label: c => model.counts.get(c) ? String(model.counts.get(c)) : null, tip: c => `<b>${esc(db.prefByCode.get(c).name)}</b><br>${esc(model.tipLine(c))}`, selected: null });
   app.querySelector('#mini-legend').innerHTML = legendHTML(model.legendTitle, model.legend.map(l => ({ label: l.label, style: swatchStyle(l.fill) })));
   bindSuggest(app.querySelector('#home-cq'), app.querySelector('#home-cs'), db, c => ctx.go('/country/' + c.code));
+  app.querySelector('#home-search').addEventListener('submit', e => {
+    e.preventDefault();
+    const q = app.querySelector('#home-q').value.trim();
+    ctx.go('/search', q ? { q } : {});
+  });
 }
 
 // ================= 制度の課題を考える =================

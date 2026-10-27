@@ -1,0 +1,4912 @@
+{
+ "note": "団体・企業・公的機関など（国・都道府県・市区町村以外）が締結した協定。国・都道府県の件数には含めません。日本側の種別は japan_org_type、事業が行われた地域は related_regions に書きます（本部の所在地で pref_code を入れない）。",
+ "mous": [
+  {
+   "id": "JP-ORG-001",
+   "group_key": "ORG:NAGOMI-VN-VAMAS",
+   "renewal_of": null,
+   "title_ja": "日本国一般財団法人外国人材共生支援全国協会（NAGOMi）とベトナム国海外労働者派遣協会（VAMAS）との協力覚書",
+   "title_original": "BIÊN BẢN GHI NHỚ HỢP TÁC giữa HIỆP HỘI XUẤT KHẨU LAO ĐỘNG VIỆT NAM (VAMAS) và HIỆP HỘI TOÀN QUỐC VỀ HỖ TRỢ CÙNG PHÁT TRIỂN NHÂN LỰC NƯỚC NGOÀI NHẬT BẢN (NAGOMi)",
+   "doc_type": "協力覚書",
+   "doc_type_note": "日本語版・ベトナム語版を各2部作成（英語版なし）。ベトナム語版の題名は「Biên bản ghi nhớ hợp tác」、VAMASの記事は「MOC」と表記。外務省の一覧でも「英語名称なし」。",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "一般財団法人外国人材共生支援全国協会（NAGOMi）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "代表理事・会長 武部勤",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム海外労働者派遣協会（VAMAS）（署名者は副会長）",
+   "partner_org_en": "Vietnam Association of Manpower Supply (VAMAS) (signed by Vice Chairman Vu Cong Binh)",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "ceremony_note": "2021年11月23日、東京都内のホテルで署名（ベトナム労働・傷病兵・社会問題省のグエン・バー・ホアン副大臣が出席し祝辞）。翌24日、日越首脳会談の後に首相官邸で岸田文雄首相・ファム・ミン・チン首相の立会いのもと、NAGOMiの梅田邦夫副会長とVAMASのヴー・コン・ビン副会長が交換。日本政府は交換に立ち会ったが協定の当事者ではない（外務省『首脳会談後交換文書』一覧10番）。",
+   "signed_date": "2021-11-23",
+   "announced_date": "2021-11-23",
+   "date_note": "署名日・場所は原文末尾（日本語版「2021年11月23日に東京において署名」、ベトナム語版も同じ）とNAGOMiの発表による。首相官邸での交換は2021年11月24日（NAGOMi発表・外務省一覧）。VAMASの記事（2021-11-30更新）は23日の署名を両首相の立会いのもとと書いているが、NAGOMiの発表では両首相の立会いは24日の交換式。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能"
+   ],
+   "purpose": "ベトナム人技能実習生や労働者の日本への送出し・受入れプログラムを健全にするため、ベトナム人技能実習生と労働者の送出し・受入れプログラムを促進するための協力を行うこと（前文）",
+   "content": [
+    "NAGOMiとVAMASは、両者の理念・目的・活動・成果を、適切な形式と措置で各協会の会員に紹介する（第1条）",
+    "VAMASは会員に海外労働者派遣の行動規範（CoC）を引き続き実施する（第2条）",
+    "VAMASは会員に日越の法令遵守を働きかける（平等な選定、適切な訓練、規定どおりのサービス手数料、実習生・労働者への適時・妥当なサポート。過剰な接待、監理団体・受入機関からの諸経費の減免を不正に決める裏契約、偽造書類の使用などを行わない）。ブローカーができるだけ介在しない人材確保・募集の仕組みの構築にも取り組む（第2条）",
+    "技能実習生に、日本語（日本語能力試験N5以上）と日本の生活習慣・文化の事前教育、日本の労働条件の実態に即した説明を行う（第2条）",
+    "VAMASはNAGOMiと連携して、日本での技能実習制度・特定技能制度を適正にするためのキャンペーン等を展開する（第2条）",
+    "NAGOMiは「悪質なブローカー・実習実施者・団体による人権侵害から技能実習生・特定技能労働者を守り、健全な就労システムを定着させる」ため、政府・関係省庁・地方自治体・経済団体への政策提言と要請を続ける（自民党の議員懇話会との勉強会・提言、不法行為撲滅キャンペーンの実施を記載）（第3条）",
+    "両者は政府・関係機関と緊密に連携し、協力状況の評価と将来の協力活動の協議のため定期的に交流し、制度に関する調査・研究、情報交換・発信、両国の好事例の共有と正しい理解の普及に取り組む（第4条）"
+   ],
+   "validity": "署名日から有効。両当事者が終了することに合意した時点で無効（有効期間の定めなし）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "valid_until_note": "原文に有効期限の定めなし（両当事者が終了に合意するまで有効）",
+   "renewal_terms": "更新の条項なし（期間の定めがなく、両当事者の終了合意で終了）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "原文（日本語版・ベトナム語版の署名済み文書）に法的拘束力の有無の記載なし。末尾の「全4部の有効性は同等」は言語版どうしの効力が同じという意味。",
+   "status": "unknown",
+   "status_note": "締結後、2022年2月に技能実習生らの入国再開を求める署名活動でNAGOMiとVAMASが連携（NAGOMi発表）、2022年7月にVAMAS副会長が来日してNAGOMi会長らと懇談、2022年8月にNAGOMi会長が訪越時にVAMAS会長らと人材交流協力を確認。それ以降、覚書に基づく事業・交流はNAGOMi・VAMASの公開サイトで確認できず、現在の実施状況は不明。",
+   "projects": [
+    {
+     "name": "技能実習生らの早期入国再開を求める署名活動での連携",
+     "fiscal_year": "2021",
+     "detail": "NAGOMiの電子署名（岸田首相への要請用）に呼応し、VAMASも日本政府に入国許可を求める署名活動を実施。2022年2月15日現在でVAMAS 27,317人、NAGOMi 4,772人、計32,089人。NAGOMiの発表は前年11月の協力覚書の交換に触れたうえで「今回の署名活動も連携しました」と記載（覚書に基づく事業と明記はしていない）。",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "name": "VAMAS副会長の来日・NAGOMi会長らとの懇談",
+     "fiscal_year": "2022",
+     "detail": "2022年7月4日、VAMASのヴー・コン・ビン副会長がNAGOMiの武部会長らと技能実習生ら外国人材との共生について意見交換。記事は覚書を交わしたことに触れているが、覚書に基づく交流かどうかは書かれていない。",
+     "sources": [
+      "s8"
+     ]
+    },
+    {
+     "name": "NAGOMi会長の訪越時の昼食会",
+     "fiscal_year": "2022",
+     "detail": "2022年7月28日〜8月4日の訪越中、MOLISAのグエン・バ・ホアン副大臣、VAMASのゾアン・マウ・ジエップ会長らとの昼食会で両国間の人材交流協力を確認（覚書への言及なし）。",
+     "sources": [
+      "s9"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム海外労働者派遣協会(VAMAS)との協力覚書署名式（2021年11月23日）",
+     "publisher": "一般財団法人外国人材共生支援全国協会（NAGOMi）",
+     "url": "https://nagomi-asia.or.jp/news/%e3%83%99%e3%83%88%e3%83%8a%e3%83%a0%e6%b5%b7%e5%a4%96%e5%8a%b4%e5%83%8d%e8%80%85%e6%b4%be%e9%81%a3%e5%8d%94%e4%bc%9avamas%e3%81%a8%e5%8d%94%e5%8a%9b%e8%a6%9a%e6%9b%b8%e3%81%ae%e7%bd%b2%e5%90%8d/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "ニュース一覧 https://nagomi-asia.or.jp/news/page/18/ に掲載。署名日・場所（東京都内のホテル）、署名者、出席者（MOLISA副大臣）、24日の交換式の予定、覚書の日本語版・ベトナム語版PDFへのリンクを確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書（日本語・署名済み）",
+     "publisher": "一般財団法人外国人材共生支援全国協会（NAGOMi）",
+     "url": "https://nagomi-asia.or.jp/wp-content/uploads/pdf/proposal/署名済み日本語.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "スキャン画像のPDF（3ページ）。前文・第1〜4条・有効期間（署名日から有効、両当事者の終了合意で無効）・署名欄（VAMAS副会長ヴ・コン・ビン、NAGOMi代表理事会長 武部勤）を画像で確認。"
+    },
+    {
+     "id": "s3",
+     "title": "Biên bản ghi nhớ hợp tác（ベトナム語・署名済み）",
+     "publisher": "一般財団法人外国人材共生支援全国協会（NAGOMi）",
+     "url": "https://nagomi-asia.or.jp/wp-content/uploads/pdf/proposal/署名済みVN語.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "スキャン画像のPDF（4ページ）。日本語版と同じ構成・同じ有効期間条項（có hiệu lực kể từ ngày ký và chấm dứt khi các Bên có thỏa thuận）。第3条のキャンペーン期間は日本語版が「2022年5月末まで」、ベトナム語版が「2022年3月まで」と異なる。"
+    },
+    {
+     "id": "s4",
+     "title": "首相官邸で日越両首脳が立ち会いVAMASとの協力覚書交換式（2021年11月24日）",
+     "publisher": "一般財団法人外国人材共生支援全国協会（NAGOMi）",
+     "url": "https://nagomi-asia.or.jp/news/%e9%a6%96%e7%9b%b8%e5%ae%98%e9%82%b8%e3%81%a7vamas%e3%81%a8%e3%81%ae%e5%8d%94%e5%8a%9b%e8%a6%9a%e6%9b%b8%e4%ba%a4%e6%8f%9b%e5%bc%8f/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "日越首脳会談の後、首相官邸で両首相の立会いのもと、梅田邦夫副会長とVAMASのヴー・コン・ビン副会長が交換。同日計10件の文書が交換されたと記載。"
+    },
+    {
+     "id": "s5",
+     "title": "首脳会談後交換文書（令和3年11月24日、外務省南東アジア第一課）",
+     "publisher": "外務省",
+     "url": "https://warp.ndl.go.jp/web/20241003201843/https://www.mofa.go.jp/mofaj/files/100263709.pdf",
+     "archived_from": "https://www.mofa.go.jp/mofaj/files/100263709.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "外務省のPDFは調査環境からHTTP 403で開けなかったため、国立国会図書館WARPの保存版（2024-10-03保存）にリンク。保存版がインターネットアーカイブの保存版（2021-11-25・2024-10-05）と同一ファイルであることを確認。一覧10番：日本側「外国人材共生支援全国協会（NAGOMi）」、ベトナム側「海外労働者派遣協会（VAMAS）」、文書名「ベトナムの海外労働者派遣協会（VAMAS）と日本の一般財団法人外国人材共生支援全国協会（NAGOMi）との協力覚書」（英語名称なし）。"
+    },
+    {
+     "id": "s6",
+     "title": "Biên bản ghi nhớ hợp tác giữa VAMAS và NAGOMi（2021-11-30更新）",
+     "publisher": "ベトナム海外労働者派遣協会（VAMAS）",
+     "url": "https://vamas.com.vn/bien-ban-ghi-nho-hop-tac-giua-vamas-va-nagomi_t221c655n44850",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "相手側の公式発表。2021年11月23日に東京で、会長の委任により副会長ヴー・コン・ビンが署名と記載し、覚書の全文（ベトナム語）を掲載。署名が両首相の立会いのもとで行われたと書いている点はNAGOMi発表（立会いは24日の交換式）と食い違う。"
+    },
+    {
+     "id": "s7",
+     "title": "入国再開要請署名 ベトナム海外労働者派遣協会と連携（2022年2月16日）",
+     "publisher": "一般財団法人外国人材共生支援全国協会（NAGOMi）",
+     "url": "https://nagomi-asia.or.jp/news/%e6%8a%80%e8%83%bd%e5%ae%9f%e7%bf%92%e7%94%9f%e3%82%89%e5%85%a5%e5%9b%bd%e5%86%8d%e9%96%8b%e8%a6%81%e8%ab%8b%e3%81%ae%e7%bd%b2%e5%90%8d3%e4%b8%872%e5%8d%83%e4%ba%ba2%e6%9c%8815%e6%97%a5%e7%8f%be/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": ""
+    },
+    {
+     "id": "s8",
+     "title": "VAMAS副会長が来日、NAGOMi会長らと懇談（2022年7月5日）",
+     "publisher": "一般財団法人外国人材共生支援全国協会（NAGOMi）",
+     "url": "https://nagomi-asia.or.jp/news/vamas%e5%89%af%e4%bc%9a%e9%95%b7%e3%81%8c%e6%9d%a5%e6%97%a5%e3%80%81nagomi%e4%bc%9a%e9%95%b7%e3%82%89%e3%81%a8%e6%87%87%e8%ab%87/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": ""
+    },
+    {
+     "id": "s9",
+     "title": "武部会長が訪越し、フエ国会議長らと会談（2022年8月8日）",
+     "publisher": "一般財団法人外国人材共生支援全国協会（NAGOMi）",
+     "url": "https://nagomi-asia.or.jp/news/%e6%ad%a6%e9%83%a8%e4%bc%9a%e9%95%b7%e3%81%8c%e8%a8%aa%e8%b6%8a%e3%81%97%e3%80%81%e3%83%95%e3%82%a8%e5%9b%bd%e4%bc%9a%e8%ad%b0%e9%95%b7%e3%82%89%e3%81%a8%e4%bc%9a%e8%ab%87/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": ""
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "日本側の締結主体は一般財団法人外国人材共生支援全国協会（NAGOMi）で、日本政府は当事者ではない（政府は首相官邸での交換に立ち会い、外務省の『首脳会談後交換文書』一覧に掲載されただけ）。VAMAS側の署名者は副会長ヴー・コン・ビン（VAMASの記事では会長の委任による署名）。NAGOMiの記事では相手側出席者の名前の表記に揺れがある（ヴ・コン・ビン／ヴー・コン・ビン／ブー・コン・ビン）。ベトナム共産党機関紙ニャンザン（2021-11-27）も、グエン・バー・ホアン副大臣が署名式に立ち会ったと報道（報道のため出典には入れていない）。",
+   "related_systems": [
+    "TITP",
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [],
+   "research": {
+    "budget": "not_found",
+    "numbers": "not_found"
+   },
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文は署名日から有効で、両当事者が終了に合意した時点で無効になると定めるだけで、有効期限の定めがない。終了合意の情報は見つからないが、現在も効力があると明示する最近の公式資料もない（NAGOMiの公開記事で最後にVAMASとの協力に触れるのは2022年8月、VAMASのサイトでNAGOMiに触れる記事は2021年11月のみ）ため、有効性未確認とした。",
+   "validity_sources": [
+    "s2",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": "2021-11-23",
+   "term_text": "署名日（2021-11-23、東京）から有効。両当事者が終了することに合意した時点で無効とする（第4条の後の末尾条項。ベトナム語版も同旨）。有効期限の定めなし",
+   "renewal_text": "更新の条項なし（期間の定めがない）",
+   "auto_renewal": "not_stated",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "NAGOMiの公開記事324件（WordPressの公開API経由。ニュース一覧1〜23ページの227件を含む全件）を『覚書・MOU・協定・締結・署名・VAMAS』などで検索し、VAMAS関連記事を通読。VAMASのサイトは2021〜2025年の記事（ID 44830〜44970）を確認し、NAGOMiに触れるのは覚書の記事（2021-11-30）だけ。終了・更新・見直しの資料は見つからない。ベトナム労働・傷病兵・社会問題省（MOLISA）・海外労働管理局（DOLAB）のサイトは調査環境から接続できず（タイムアウト）、その発表は未確認。NAGOMiの会員専用ページ（年次報告・セミナー等）は非公開のため未確認。"
+  },
+  {
+   "id": "JP-ORG-051",
+   "group_key": "ORG:JITCO-IN-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とインド技能開発・起業促進省訓練局（DGT）との討議議事録（R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）。1996年のR/D（相手は労働省雇用訓練局DGET）の改訂版",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "技能開発・起業促進省（MSDE）訓練局（DGT）",
+   "partner_org_en": "Directorate General of Training (DGT), Ministry of Skill Development and Entrepreneurship (MSDE)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2015-11-30",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2015年11月掲載）による署名日。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習制度の円滑な実施を促進するため、送出し国政府機関との間で相互に協力することを確認する（JITCOによるR/Dの説明）",
+   "content": [
+    "1996年に労働省雇用訓練局（DGET）と締結したR/Dを、2009年の入管法改正の内容を反映して改訂したもの（JITCO発表）",
+    "インドから技能実習制度を通じた人材育成に高い期待が寄せられているとJITCOは説明（条文は非公開）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドとの討議議事録（R/D）の締結について（2015年11月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3587/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "署名日（2015年11月30日）、相手（MSDE訓練局）、1996年のDGETとのR/Dの改訂である旨を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "インド政府窓口との新R/D（討議議事録）の締結について（2018年02月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3567/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2018年の新R/Dの記事で本R/Dを『旧R/D』（インド側署名者はMSDE）と記載。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "記事の写真説明に、インド技能開発・起業促進省訓練局のアガルワル局長、同省ナンダン次官、JITCO常務理事・国際部長 都筑健介の名があるが、署名者かどうかは書かれていない。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "ended_confirmed",
+   "validity_basis": "2018年2月22日にインド側の窓口を全国技能開発公社（NSDC）に替えた新R/Dが締結され、JITCOの記事は本R/Dを『旧R/D』と呼んでいる。JITCOの現在の一覧はNSDCとの新R/Dだけを掲載しており、本R/Dは新R/D（JP-ORG-052）に引き継がれた。",
+   "validity_sources": [
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": "2018-02-22",
+   "end_reason": "2018年2月22日の新R/D（相手：NSDC、JP-ORG-052）に引き継ぎ。JITCO発表は本R/Dを『旧R/D』と記載",
+   "successor_id": "JP-ORG-052",
+   "validity_research_note": "旧R/Dの失効日を明記した資料はなく、ended_date は新R/Dの締結日とした。"
+  },
+  {
+   "id": "JP-ORG-052",
+   "group_key": "ORG:JITCO-IN-RD",
+   "renewal_of": "JP-ORG-051",
+   "title_ja": "国際人材協力機構（JITCO）とインド全国技能開発公社（NSDC）との討議議事録（新R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "全国技能開発公社（NSDC）（技能開発・起業促進省（MSDE）直轄の機関で、技能実習制度の管理一般を委託された機関：JITCOの説明）",
+   "partner_org_en": "National Skill Development Corporation (NSDC)",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2018-02-22",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2018年2月掲載）による（デリーで締結）。JITCOの一覧の『R/D直近改定日』も2018.2.22。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習法と日印の技能実習に関する二国間協力覚書（2017年10月17日）という新しい枠組みの下、技能実習生の送出し事業及び受入れ事業の促進と円滑化を図ること（JITCO発表）",
+   "content": [
+    "JITCOが新技能実習制度の下でベトナム・カンボジアに続き3番目に締結した新R/D（JITCO発表）",
+    "旧R/Dの署名者はMSDEだったが、インド側の意向により、MSDE直轄で本制度の管理一般を委託されたNSDCと調印（JITCO発表）",
+    "（JITCOの今後の取組として）送出機関情報の提供、監理団体と送出機関との交流促進、インド側のルール・手続の案内、問題の未然防止等（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "締結後、2019年11月のセミナー・ビジネスマッチングと政府窓口との協議、2021年3月・2024年2月のNSDC等との協議がJITCOの一覧に掲載されている。R/Dに基づく事業と明記した資料は確認していない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "インド政府窓口との新R/D（討議議事録）の締結について（2018年02月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3567/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "締結日（2018年2月22日、デリー）、相手（NSDC）、目的を確認。"
+    },
+    {
+     "id": "s3",
+     "title": "現地でインド政府窓口と協議しました（2024年02月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/32324/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2024年2月にNSDC・MSDE・インド外務省と協議。インド外務省側の発言として、2018年にJITCOとR/Dを締結しておりJITCOとの関係を重視している旨を記載。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にインドのR/D（直近改定日2018.2.22）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "2024年2月の協議記事でインド外務省はR/D締結に触れているが、現在の効力を明示するものではない。原文非公開。"
+  },
+  {
+   "id": "JP-ORG-053",
+   "group_key": "ORG:JITCO-ID-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とインドネシア労働省訓練・生産性開発総局との討議議事録（R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "労働省（MOM）訓練・生産性開発総局（JITCO一覧の表記。2011年の記事では労働移住省（MOM&T）訓練・生産性開発総局）",
+   "partner_org_en": "Directorate General of Training and Productivity Development, Ministry of Manpower (MOM)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2010-03-08",
+   "announced_date": "",
+   "date_note": "締結日はJITCOの一覧の『R/D直近改定日』（2010.3.8）による。個別の締結記事は見つからない。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習制度の円滑な実施を促進するため、送出し国政府機関との間で相互に協力することを確認する（JITCOによるR/Dの説明）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "JITCOの一覧に2011年〜2022年1月の定期協議・ジョイントセミナー等の記事が掲載されている。R/Dに基づく事業と明記した資料は確認していない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "インドネシア労働移住省との定期協議及びジョイントセミナーの開催について（2011年11月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3943/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2011年11月14日に労働移住省訓練・生産性開発総局と定期協議。締結当時の省名の確認に使用。"
+    },
+    {
+     "id": "s3",
+     "title": "インドネシア労働省との協議の実施（2022年01月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/22697/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "一覧に掲載された最新の協議記事。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "2010年の旧制度（2010年7月施行の入管法改正）前後の時期のR/D。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にインドネシアのR/D（直近改定日2010.3.8）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-054",
+   "group_key": "ORG:JITCO-UZ-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とウズベキスタン雇用・労働関係省との討議議事録（R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）。記事本文の表記は『協議議事録（R/D）』",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_org": "雇用・労働関係省（MEHNAT）",
+   "partner_org_en": "Ministry of Employment and Labour Relations (MEHNAT)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2022-10-14",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2022年10月掲載）による（大臣一行の来日時）。一覧の直近改定日も2022.10.14。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能"
+   ],
+   "purpose": "技能実習生及び特定技能外国人の送出し拡大に向けて、JITCOとウズベキスタン政府の協力関係を更に強固にすること（JITCO発表）",
+   "content": [
+    "来日中のフサノフ・ノジム雇用・労働関係大臣一行と協議を行い、R/Dを締結（JITCO発表）",
+    "協議でJITCOは、在京大使館をサポートし日本でのセミナー開催等に可能な限り協力すると表明（協議での発言。R/Dの条文ではない）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "ウズベキスタン 雇用・労働関係省大臣との協議実施及びR/D締結について（2022年10月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/22539/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2022年10月14日に大臣一行と協議しR/Dを締結。本文は『協議議事録（R/D: Record of Discussions）』と表記。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "日本・ウズベキスタン外交関係樹立30周年の年の締結（JITCO発表）。JITCOの送出し国の表では、二国間協力覚書の締結当時の相手は労働・人口社会保障省（MLSP）と注記。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP",
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にウズベキスタンのR/D（直近改定日2022.10.14）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-055",
+   "group_key": "ORG:JITCO-KH-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とカンボジア労働・職業訓練省との新討議議事録（新R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "KH",
+   "partner_org": "労働・職業訓練省（MLVT）",
+   "partner_org_en": "Ministry of Labour and Vocational Training (MLVT)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2017-12-25",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習法と日カンボジアの二国間協定（2017年7月11日）という新しい枠組みの下、技能実習生の送出し事業及び受入れ事業の促進と円滑化を図ること（JITCO発表）",
+   "content": [
+    "JITCOが新技能実習制度の下でベトナムに続き2番目に締結した新R/D（JITCO発表）",
+    "（JITCOの今後の取組として）送出機関情報の提供、監理団体と送出機関との交流促進、送出機関の質の向上の促進、カンボジア側のルール・手続の案内等（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "カンボジア政府窓口との新R/D（討議議事録）の締結について（2017年12月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3933/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "締結日・相手・目的を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "カンボジア政府窓口との新たなRD（討議議事録）の締結及び同政府窓口との協議等の実施について（2019年11月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/8268/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2019年11月29日に技能実習・特定技能の両制度に対応した新たなRDを締結。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "ended_confirmed",
+   "validity_basis": "2019年11月29日に同じ労働・職業訓練省との間で技能実習制度及び特定技能制度に対応した『新たなRD』が締結され（JITCO発表）、本R/Dはそれに引き継がれた。",
+   "validity_sources": [
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": "2019-11-29",
+   "end_reason": "2019年11月29日の新たなRD（JP-ORG-056）に引き継ぎ",
+   "successor_id": "JP-ORG-056",
+   "validity_research_note": "旧R/Dの失効日を明記した資料はなく、ended_date は新RDの締結日とした。"
+  },
+  {
+   "id": "JP-ORG-056",
+   "group_key": "ORG:JITCO-KH-RD",
+   "renewal_of": "JP-ORG-055",
+   "title_ja": "国際人材協力機構（JITCO）とカンボジア労働・職業訓練省との技能実習制度及び特定技能制度に対応した討議議事録（RD）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "KH",
+   "partner_org": "労働・職業訓練省（MLVT）",
+   "partner_org_en": "Ministry of Labour and Vocational Training (MLVT)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2019-11-29",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能"
+   ],
+   "purpose": "技能実習生及び特定技能外国人の送出及び受入事業の促進と円滑化を目的として、両制度における送出国との関係を構築すること（JITCO発表）",
+   "content": [
+    "日カンボジア政府間の特定技能に関する協力覚書の締結を踏まえた新たなRD（JITCO発表）",
+    "（JITCOの今後の取組として）送出機関情報の提供、日本の受入側と送出機関等との交流促進、送出機関の質の向上の促進、カンボジア側の固有のルール・手続の案内等（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "2023年3月にも同省と協議（JITCOの一覧）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "カンボジア政府窓口との新たなRD（討議議事録）の締結及び同政府窓口との協議等の実施について（2019年11月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/8268/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "理事長 八木宏幸を団長とする代表団をカンボジアへ派遣し、2019年11月29日に締結。同日協議、前日に送出機関セミナー（約110人）。"
+    },
+    {
+     "id": "s2",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s3",
+     "title": "カンボジア労働・職業訓練大臣と面談し、覚書（MoU）に調印しました（2023年12月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/30554/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年12月15日に同省と覚書（MoU）に調印。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP",
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "ended_confirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧はカンボジア（労働・職業訓練省）のR/D直近改定日を2023.12.15としており、同日に同省と調印した覚書（MoU、JP-ORG-057）が最新の改定に当たる。本RDはそれに引き継がれた。",
+   "validity_sources": [
+    "s2",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": "2023-12-15",
+   "end_reason": "2023年12月15日の覚書（MoU、JP-ORG-057）に引き継ぎ（JITCOの一覧は同日を直近改定日と記載）",
+   "successor_id": "JP-ORG-057",
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-057",
+   "group_key": "ORG:JITCO-KH-RD",
+   "renewal_of": "JP-ORG-056",
+   "title_ja": "国際人材協力機構（JITCO）とカンボジア労働・職業訓練省との覚書（MoU）",
+   "title_original": "",
+   "doc_type": "覚書（MoU）",
+   "doc_type_note": "JITCOの『R/Dの締結状況』一覧は、カンボジアのR/D直近改定日を2023.12.15と記載（本覚書をR/Dの最新の改定として扱っている）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "KH",
+   "partner_org": "労働・職業訓練省（MLVT）",
+   "partner_org_en": "Ministry of Labour and Vocational Training (MLVT)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2023-12-15",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2023年12月掲載）による。日本・ASEAN特別首脳会議の開催を機に訪日中の大臣とJITCOが面談した際に調印（JITCO発表。調印場所の記載なし）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "制度見直しに関する情報提供"
+   ],
+   "purpose": "同省と今後より協力を促進すること。日本の制度見直しにあたり、JITCOからカンボジア側に適宜情報を提供することも含む（JITCO発表）",
+   "content": [
+    "日本の制度見直しにあたりJITCOがカンボジア側に適宜情報を提供する（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "カンボジア労働・職業訓練大臣と面談し、覚書（MoU）に調印しました（2023年12月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/30554/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年12月15日、日本・ASEAN特別首脳会議の機会に訪日中のヘン・スアー労働・職業訓練大臣と面談し覚書に調印。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "面談でカンボジア側は、送出機関・訪日者・受入れ側のルール順守、訪日前の日本語教育の強化、製造業や自動車整備などへの送出し拡大の意向を表明（JITCO発表。覚書の条文ではない）。写真説明に『左から2人目：ヘン・スアー労働・職業訓練大臣』。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にカンボジアのR/D直近改定日（2023.12.15）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-058",
+   "group_key": "ORG:JITCO-LK-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とスリランカ労働・海外雇用省との新討議議事録（新R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LK",
+   "partner_org": "労働・海外雇用省（MLFE）（JITCO一覧の表記は『労働・海外雇用省（MLFE）労働・海外雇用庁（SLBFE）』）",
+   "partner_org_en": "Ministry of Labour and Foreign Employment (MLFE)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2023-02-27",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2023年3月掲載）による（コロンボで締結）。一覧の直近改定日も2023.2.27。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能"
+   ],
+   "purpose": "（R/Dの目的は記事に記載なし）技能実習生・特定技能人材の送り出しに関する協議の際に締結。協議でスリランカ側は技能実習・特定技能の両方で送り出しを強化したいと表明（JITCO発表）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "スリランカ政府窓口との新R/D締結及び協議の実施（記事見出し：スリランカ国 労働・海外雇用大臣との協議実施について、2023年03月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/24703/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年2月27日、コロンボで労働・海外雇用省と協議し新たにR/Dを締結。写真説明『新R/D締結の様子（中央はナナヤッカーラ労働・海外雇用大臣）』。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "記事は『新たに討議議事録を締結』と書くが、それ以前のR/Dの有無・日付は確認できない。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP",
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にスリランカのR/D（直近改定日2023.2.27）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-059",
+   "group_key": "ORG:JITCO-TH-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とタイ労働省雇用局との新討議議事録（新R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "労働省 雇用局（DOE）",
+   "partner_org_en": "Department of Employment (DOE), Ministry of Labour",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2020-02-03",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2020年2月掲載）による。タイ労働省雇用局一行のJITCO来訪時に締結（JITCO発表）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能"
+   ],
+   "purpose": "技能実習及び特定技能の両事業の促進と円滑化に向けた協力関係の構築（JITCO発表）",
+   "content": [
+    "タイ政府と日本政府による技能実習・特定技能の協力覚書の締結を踏まえた新R/D（JITCO発表）",
+    "（JITCOの今後の取組として）技能実習・特定技能の関係者への認定送出機関やタイ側送出し手続の情報提供、監理団体と送出機関とのマッチング支援等（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "2022年1月にタイ大使館のJITCO訪問（JITCOの一覧）。R/Dに基づく事業と明記した資料は確認していない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "タイ政府窓口との新R/D（討議議事録）の締結及び協議について（2020年02月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/8716/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2020年2月3日、来訪したタイ労働省雇用局一行との間で新たにR/Dを締結。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP",
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にタイのR/D（直近改定日2020.2.3）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-060",
+   "group_key": "ORG:JITCO-CN-SAFEA-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）と中国国家外国専家局との討議議事録（R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "国家外国専家局（専家局）",
+   "partner_org_en": "",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2010-04-26",
+   "announced_date": "",
+   "date_note": "締結日はJITCOの一覧の直近改定日（2010.4.26）と、送出し国の表の注記『旧制度においてJITCOとの間でR/Dを締結（2010.4.26）』による。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習制度の円滑な実施を促進するため、送出し国政府機関との間で相互に協力することを確認する（JITCOによるR/Dの説明）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "中国は技能実習・特定技能のいずれも政府間の二国間取決め未締結で、JITCOの表（2026年9月28日更新）は『旧制度においてJITCOとのR/Dに基づく認定送出機関数』を（8）と掲載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "送出し国・送出機関とは（3 送出政府機関名・二国間協力覚書締結日・認定送出機関数）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/send/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "JITCO更新日2026年9月28日の表。各国の政府窓口の現在の名称（締結当時の名称の注記を含む）と、中国・ペルーについて『旧制度においてJITCOとの間でR/Dを締結』との注記を確認。"
+    },
+    {
+     "id": "s3",
+     "title": "中国・国家外国専家局及び中日研修生協力機構との定期協議…（2011年06月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/4141/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2011年6月に専家局・中日研修生協力機構と定期協議。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）に中国・国家外国専家局のR/D（直近改定日2010.4.26）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "JITCOの送出し国の表（2026年9月28日更新）は旧制度のR/Dに基づく認定送出機関数を掲載しているが、R/Dの現在の効力を明示するものではない。原文非公開。"
+  },
+  {
+   "id": "JP-ORG-061",
+   "group_key": "ORG:JITCO-CN-CJTCO-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）と中日研修生協力機構との討議議事録（R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "中日研修生協力機構（中日）（2023年5月10日に中日人材協力機構へ名称変更：JITCOの表の注記）",
+   "partner_org_en": "",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2010-03-31",
+   "announced_date": "",
+   "date_note": "締結日はJITCOの一覧の直近改定日（2010.3.31）と、送出し国の表の注記『旧制度においてJITCOとの間でR/Dを締結（2010.3.31）』による。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習制度の円滑な実施を促進するため、送出し国政府機関との間で相互に協力することを確認する（JITCOによるR/Dの説明）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "JITCOの一覧に2015年〜2019年4月の中日研修生協力機構との協議記事が掲載。JITCOの表（2026年9月28日更新）は『旧制度においてJITCOとのR/Dに基づく認定送出機関数』を（99）と掲載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "送出し国・送出機関とは（3 送出政府機関名・二国間協力覚書締結日・認定送出機関数）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/send/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "JITCO更新日2026年9月28日の表。各国の政府窓口の現在の名称（締結当時の名称の注記を含む）と、中国・ペルーについて『旧制度においてJITCOとの間でR/Dを締結』との注記を確認。"
+    },
+    {
+     "id": "s3",
+     "title": "中国・国家外国専家局及び中日研修生協力機構との定期協議…（2011年06月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/4141/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2011年6月に専家局・中日研修生協力機構と定期協議。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "相手機関の性格（政府機関か団体か）は資料上未確認のため partner_type は organization とした。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）に中国・中日研修生協力機構のR/D（直近改定日2010.3.31）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "JITCOの送出し国の表（2026年9月28日更新）は旧制度のR/Dに基づく認定送出機関数を掲載しているが、R/Dの現在の効力を明示するものではない。原文非公開。"
+  },
+  {
+   "id": "JP-ORG-062",
+   "group_key": "ORG:JITCO-NP-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とネパール労働雇用・社会保障省との討議議事録（R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "NP",
+   "partner_org": "労働雇用・社会保障省（MoLESS）（JITCO一覧の現在の表記。締結当時の省名は資料上未確認）",
+   "partner_org_en": "Ministry of Labour, Employment and Social Security (MoLESS)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2010-02-02",
+   "announced_date": "",
+   "date_note": "締結日はJITCOの一覧の直近改定日（2010.2.2）による。個別の締結記事は見つからない。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習制度の円滑な実施を促進するため、送出し国政府機関との間で相互に協力することを確認する（JITCOによるR/Dの説明）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "JITCOの一覧には2014年9月・2015年2月の来訪記事のみ掲載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "ネパール労働・雇用大臣の来訪について（2015年02月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3788/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "政府窓口である労働・雇用省（MOLE）の大臣一行と意見交換。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にネパールのR/D（直近改定日2010.2.2）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-063",
+   "group_key": "ORG:JITCO-PK-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とパキスタン連邦教育・職業訓練省との新討議議事録（新R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PK",
+   "partner_org": "連邦教育・職業訓練省（MOFEPT）（JITCOの表記は『教育・職業訓練省』）",
+   "partner_org_en": "Ministry of Federal Education and Professional Training (MOFEPT)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2019-08-28",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2019年8月掲載）による（イスラマバード）。一覧の直近改定日も2019.8.28。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "（R/Dの目的は記事に記載なし）人材育成及び技能実習生等の派遣に関する協議の際に新たに締結（JITCO発表）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "協議でパキスタン側は、送出機関を当面は政府直轄のNAVTTCとNUTECHの2機関とすると説明（協議での説明）。2020年2月に『パキスタン人材フォーラム』を開催（JITCOの一覧）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "パキスタン政府窓口との新R/D締結及び協議の実施（2019年08月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/7206/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2019年8月28日、イスラマバードで同省と協議し新たにR/Dを締結。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "記事の写真説明は『新R/D調印の様子（中央がパキスタン労働大臣）』。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にパキスタンのR/D（直近改定日2019.8.28）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-064",
+   "group_key": "ORG:JITCO-BD-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とバングラデシュ海外居住者福利厚生・海外雇用省との新討議議事録（新R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "海外居住者福利厚生・海外雇用省（MoEWOE）",
+   "partner_org_en": "Ministry of Expatriates' Welfare and Overseas Employment (MoEWOE)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2018-03-27",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2018年3月掲載）による（ダッカ）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "旧制度と同様、引き続き協力関係を維持していくこと（JITCO発表）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "協議にはBMET・BOESL（政府直轄の送出機関）も出席。協議で同省は政府による管理を強めて適正実施に努めると発言（JITCO発表）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "バングラデシュ政府窓口との新R/D締結及び協議実施について（2018年03月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3778/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2018年3月27日、ダッカで同省と新たにR/Dを締結。"
+    },
+    {
+     "id": "s3",
+     "title": "バングラデシュの政府窓口と協力関係を構築しました（2023年06月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/26851/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年6月5日に改訂R/Dを締結。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "記事の写真説明に同省次官 Dr. Nomita Halder の名。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "ended_confirmed",
+   "validity_basis": "JITCOの2023年6月の記事が、2023年6月5日に同省と新たにR/Dを締結し『今回の改訂R/D』で特定技能での協力関係等を明記したと書いており、本R/Dは改訂R/D（JP-ORG-065）に引き継がれた。",
+   "validity_sources": [
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": "2023-06-05",
+   "end_reason": "2023年6月5日の改訂R/D（JP-ORG-065）に引き継ぎ",
+   "successor_id": "JP-ORG-065",
+   "validity_research_note": "JITCOの『R/Dの締結状況』一覧は2026-10-28時点でもバングラデシュの直近改定日を2018.3.27と記載しており、2023年の改訂の記事と食い違う（一覧の更新漏れの可能性。JITCOに未確認）。"
+  },
+  {
+   "id": "JP-ORG-065",
+   "group_key": "ORG:JITCO-BD-RD",
+   "renewal_of": "JP-ORG-064",
+   "title_ja": "国際人材協力機構（JITCO）とバングラデシュ海外居住者福利厚生・海外雇用省との改訂討議議事録（改訂R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）。記事は『改訂R/D』と記載",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "海外居住者福利厚生・海外雇用省（MoEWOE）",
+   "partner_org_en": "Ministry of Expatriates' Welfare and Overseas Employment (MoEWOE)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2023-06-05",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2023年6月掲載）による（ダッカ）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能"
+   ],
+   "purpose": "バングラデシュ人材を日本に広めていくため協力関係を継続すること（JITCO発表）",
+   "content": [
+    "特定技能制度での協力関係を新たに明記（JITCO発表）",
+    "人権デューデリジェンスの遵守に言及（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "バングラデシュの政府窓口と協力関係を構築しました（2023年06月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/26851/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年6月5日、ダッカで同省と協議し新たにR/D（改訂R/D）を締結。写真説明『左はサレヒーン海外居住者福利厚生・海外雇用副大臣』。"
+    },
+    {
+     "id": "s2",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP",
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの記事（2023年6月）で締結を確認したが、有効期間や現在の効力を明示する資料はなく、JITCOの一覧は本改訂を反映していない（直近改定日2018.3.27のまま）ため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-066",
+   "group_key": "ORG:JITCO-PH-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とフィリピン海外雇用庁（POEA）・海外労働福祉庁（OWWA）との討議議事録（R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "常務 都筑（JITCO発表の表記）",
+   "other_japan_parties": [],
+   "country_code": "PH",
+   "partner_org": "労働雇用省 海外雇用庁（POEA）（現在は移民労働者省（DMW）：JITCOの表の注記）",
+   "partner_org_en": "Philippine Overseas Employment Administration (POEA)",
+   "partner_type": "public_agency",
+   "additional_partners": [
+    {
+     "country_code": "PH",
+     "partner_org": "海外労働福祉庁（OWWA）（調印者はディムゾン長官）",
+     "partner_org_en": "Overseas Workers Welfare Administration (OWWA)"
+    }
+   ],
+   "ceremony_note": null,
+   "signed_date": "2011-06-02",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2011年6月掲載）による。一覧の直近改定日も2011.6.2。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習制度についての協力（2010年7月にフィリピンの政府窓口がPOEAに移管された後の協議で調印：JITCO発表）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "2013年〜2018年に政府窓口との協議記事。2023年2月に移民労働者省（DMW）大臣と意見交換（JITCOの一覧）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "フィリピン政府窓口との協議の開催について（2011年06月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/4081/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2011年6月2日にPOEAと協議し、R/Dに調印。調印者はJITCO都筑常務、POEAカオ長官、OWWAディムゾン長官。"
+    },
+    {
+     "id": "s3",
+     "title": "送出し国・送出機関とは（3 送出政府機関名・二国間協力覚書締結日・認定送出機関数）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/send/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "JITCO更新日2026年9月28日の表。各国の政府窓口の現在の名称（締結当時の名称の注記を含む）と、中国・ペルーについて『旧制度においてJITCOとの間でR/Dを締結』との注記を確認。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "協議には労働雇用省（DOLE）の担当官も出席（JITCO発表）。POEAの署名者はカオ長官（JITCO発表の表記）。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にフィリピン（POEA・OWWA）のR/D（直近改定日2011.6.2）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "POEA・OWWAは2022年の省庁再編で移民労働者省（DMW）に統合された（JITCOの表の注記）。R/Dの承継は資料上未確認。"
+  },
+  {
+   "id": "JP-ORG-067",
+   "group_key": "ORG:JITCO-PH-SAASSOC",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とフィリピンの技能実習生送出機関連合体3団体との相互協力の強化に関する改訂覚書（RoD）",
+   "title_original": "",
+   "doc_type": "改訂覚書（RoD）",
+   "doc_type_note": "記事の表記は『相互協力の強化に関する改訂覚書（RoD）』。改訂前の文書は未確認",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PH",
+   "partner_org": "APLATIP（フィリピンの技能実習生送出機関の連合体）",
+   "partner_org_en": "APLATIP",
+   "partner_type": "organization",
+   "additional_partners": [
+    {
+     "country_code": "PH",
+     "partner_org": "PRAJEC（同上の連合体）",
+     "partner_org_en": "PRAJEC"
+    },
+    {
+     "country_code": "PH",
+     "partner_org": "JEPPCA（同上の連合体）",
+     "partner_org_en": "JEPPCA"
+    }
+   ],
+   "ceremony_note": "同日、JITCOはフィリピン移民労働者省（DMW）のオプレ大臣と意見交換し、記事の写真は『調印式後に記念撮影するオプレ大臣（前列中央）とJITCOの杉浦信平専務理事（前列右）』。DMWは本覚書の当事者ではない（当事者は送出機関の連合体3団体）。",
+   "signed_date": "2023-02-07",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2023年2月掲載）による（場所の記載なし）。改訂前の覚書の締結日は資料上未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能",
+    "人権保護"
+   ],
+   "purpose": "従来からの協力関係をさらに強化すること。日本政府の技能実習生の人権保護に関するガイドラインを尊重することを確認（JITCO発表）",
+   "content": [
+    "日本政府のガイドラインにそって実習生の人権保護に力点を置いた活動を展開する方針を新たに盛り込んだ（JITCO発表）",
+    "JITCOは改訂版RoDに基づき、日本の受入企業・監理団体とともに技能実習生・特定技能外国人等の受入れ促進のための施策を実施（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "フィリピン新設の移民労働大臣と意見交換 実習生送出機関連合体と改訂覚書を締結（2023年02月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/24346/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年2月7日、送出機関の連合体3団体（APLATIP、PRAJEC、JEPPCA）と改訂覚書（RoD）を締結。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP",
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの記事（2023年2月）で締結を確認したが、有効期間や現在の効力を明示する資料はないため有効性未確認。JITCOの『R/Dの締結状況』一覧（政府機関とのR/D）には掲載されていない。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-068",
+   "group_key": "ORG:JITCO-VN-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とベトナム労働・傷病兵・社会問題省海外労働局との新討議議事録（新RD）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "労働・傷病兵・社会問題省 海外労働局（DOLAB）",
+   "partner_org_en": "Department of Overseas Labour (DOLAB), Ministry of Labour, Invalids and Social Affairs (MOLISA)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2017-09-27",
+   "announced_date": "",
+   "date_note": "JITCOの記事による（2017年11月1日発効）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習法と日越の二国間協定（2017年6月6日）という新しい枠組みの下、技能実習生の送出し及び受入れ事業の促進と円滑化を図ること（JITCO発表）",
+   "content": [
+    "JITCOが新技能実習制度の下で最初に締結した新RD（JITCO発表）",
+    "（JITCOの今後の取組として）送出機関情報の提供、監理団体と送出機関との交流促進、送出機関の質の向上の促進、ベトナム側のルール・手続の案内等（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム政府窓口との新RD（討議議事録）の締結について（2017年09月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3678/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2017年9月27日締結、2017年11月1日発効と記載。"
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム政府窓口との新たなRD（討議議事録）の締結及び同政府窓口との協議等の実施について（2019年11月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/8252/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2019年11月25日に技能実習・特定技能の両制度に対応した新たなRDを締結。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "2022年9月の記事で同省大臣は、1992年に最初に討議議事録をJITCOと結んだと述べている（1992年のR/Dは別記録にしていない）。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "ended_confirmed",
+   "validity_basis": "2019年11月25日に同じ海外労働局との間で技能実習制度及び特定技能制度に対応した『新たなRD』が締結され（JITCO発表）、本RDはそれに引き継がれた。",
+   "validity_sources": [
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": "2017-11-01",
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": "2019-11-25",
+   "end_reason": "2019年11月25日の新たなRD（JP-ORG-069）に引き継ぎ",
+   "successor_id": "JP-ORG-069",
+   "validity_research_note": "旧RDの失効日を明記した資料はなく、ended_date は新RDの締結日とした。"
+  },
+  {
+   "id": "JP-ORG-069",
+   "group_key": "ORG:JITCO-VN-RD",
+   "renewal_of": "JP-ORG-068",
+   "title_ja": "国際人材協力機構（JITCO）とベトナム労働・傷病兵・社会問題省海外労働局との技能実習制度及び特定技能制度に対応した討議議事録（RD）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "労働・傷病兵・社会問題省 海外労働局（DOLAB）（JITCOの表の現在の表記は『内務省 海外労働局（DOLAB）』）",
+   "partner_org_en": "Department of Overseas Labour (DOLAB), Ministry of Labour, Invalids and Social Affairs (MOLISA)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2019-11-25",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能"
+   ],
+   "purpose": "技能実習生及び特定技能外国人の送出及び受入事業の促進と円滑化を目的として、両制度における送出国との関係を構築すること（JITCO発表）",
+   "content": [
+    "日越政府間の特定技能に関する協力覚書の締結を踏まえた新たなRD（JITCO発表）",
+    "（JITCOの今後の取組として）送出機関情報の提供、日本の受入側と送出機関等との交流促進、送出機関の質の向上の促進、ベトナム側の固有ルール・手続の案内等（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "2022年9月にJITCOと海外労働局の共同主催で『コロナ後のベトナム人材の派遣促進について』セミナーを開催（JITCO発表。RDに基づく事業と明記はしていない）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム政府窓口との新たなRD（討議議事録）の締結及び同政府窓口との協議等の実施について（2019年11月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/8252/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "理事長 八木宏幸を団長とする代表団をベトナムへ派遣し、2019年11月25日に締結。同日MOLISA副大臣表敬・DOLABと協議、翌26日に送出機関セミナー（約300人）。"
+    },
+    {
+     "id": "s2",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s3",
+     "title": "ベトナム労働・傷病兵・社会省大臣との面談並びに同省副大臣来日セミナー開催（2022年09月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/22702/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2022年9月6日、JITCOとDOLABの共同主催でセミナー。大臣は1992年に最初の討議議事録をJITCOと結んだと発言。"
+    },
+    {
+     "id": "s4",
+     "title": "送出し国・送出機関とは（3 送出政府機関名・二国間協力覚書締結日・認定送出機関数）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/send/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "JITCO更新日2026年9月28日の表。各国の政府窓口の現在の名称（締結当時の名称の注記を含む）と、中国・ペルーについて『旧制度においてJITCOとの間でR/Dを締結』との注記を確認。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP",
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にベトナムのR/D（直近改定日2019.11.25）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "海外労働局は現在は内務省の所属（JITCOの表の表記）。省庁再編に伴うRDの承継は資料上未確認。原文非公開。"
+  },
+  {
+   "id": "JP-ORG-070",
+   "group_key": "ORG:JITCO-PE-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とペルー労働・雇用促進省との改訂討議議事録（改訂R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）。記事は『改訂R/D』と記載",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PE",
+   "partner_org": "労働・雇用促進省（MTPE）",
+   "partner_org_en": "Ministry of Labour and Employment Promotion (MTPE)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2010-04-21",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2010年4月掲載）による。一覧の直近改定日も2010.4.21。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "2010年7月施行の新しい技能実習制度への移行に伴い、MTPEとの協力関係に係る新たな討議議事録（改訂R/D）を結ぶこと（JITCO発表）",
+   "content": [
+    "協議の内容を踏まえ、ペルー側からの要望事項を盛り込んだ改訂R/Dを作成（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "JITCOの送出し国の表は、ペルーとは政府間の二国間取決め未締結で、2010年4月の協議でMTPEが認定送出機関の新規選定を行っているとの説明があり送出機関数は確認中と記載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "ペルー政府窓口との定期協議について（2010年04月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3628/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2010年4月21日にガルシア大臣との間で改訂R/Dに署名。"
+    },
+    {
+     "id": "s3",
+     "title": "送出し国・送出機関とは（3 送出政府機関名・二国間協力覚書締結日・認定送出機関数）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/send/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "JITCO更新日2026年9月28日の表。各国の政府窓口の現在の名称（締結当時の名称の注記を含む）と、中国・ペルーについて『旧制度においてJITCOとの間でR/Dを締結』との注記を確認。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "ペルー側の署名者はガルシア労働・雇用促進大臣（JITCO発表）。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にペルーのR/D（直近改定日2010.4.21）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-071",
+   "group_key": "ORG:JITCO-MM-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とミャンマー労働局との新討議議事録（新R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "MM",
+   "partner_org": "労働・雇用・社会保障省 労働局（DOL）（締結当時。JITCO一覧の現在の表記は『労働・入国管理・人口省 労働局』）",
+   "partner_org_en": "Department of Labour (DOL)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2013-05-20",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2013年5月掲載）による。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "2010年9月以降一時停止していたミャンマーからの送出し体制の再構築（JITCO発表）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "2014年4月・2017年11月・2020年1月に政府窓口と協議（JITCOの一覧）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "ミャンマー政府窓口との新R/D締結について（2013年05月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/3618/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2013年5月20日、労働・雇用・社会保障省労働局と新R/Dを締結。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "2010年7月の入管法改正を受けたR/Dの改定の働きかけ中、2010年9月にミャンマー政府が全ての認定送出機関の認定を取り消し、送出しが一時停止していた（JITCO発表）。旧R/Dは別記録にしていない。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にミャンマーのR/D（直近改定日2013.5.20）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-072",
+   "group_key": "ORG:JITCO-MN-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とモンゴル労働・社会保障省雇用政策推進調整局との討議議事録（R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "MN",
+   "partner_org": "労働・社会保障省（MLSP）雇用政策推進調整局（JITCO一覧の表記。2011年の協議記事の相手は社会福祉・労働省（MSWL））",
+   "partner_org_en": "",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2010-07-01",
+   "announced_date": "",
+   "date_note": "締結日はJITCOの一覧の直近改定日（2010.7.1）による。個別の締結記事は見つからない。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習制度の円滑な実施を促進するため、送出し国政府機関との間で相互に協力することを確認する（JITCOによるR/Dの説明）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "2011年9月・2013年7月の定期協議、2016年の大臣来訪の記事がJITCOの一覧に掲載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "モンゴル社会福祉・労働省（MSWL）との定期協議、送出し機関セミナー及び現地日系企業への訪問について（2011年09月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/4117/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "締結後の定期協議。当時の省名の確認に使用。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にモンゴルのR/D（直近改定日2010.7.1）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "締結当時の相手省名は資料上未確認（一覧の表記と2011年の記事の省名が異なる）。原文非公開。"
+  },
+  {
+   "id": "JP-ORG-073",
+   "group_key": "ORG:JITCO-LA-RD",
+   "renewal_of": null,
+   "title_ja": "国際人材協力機構（JITCO）とラオス労働・社会福祉省との新討議議事録（新R/D）",
+   "title_original": "",
+   "doc_type": "討議議事録（R/D）",
+   "doc_type_note": "英語名 Record of Discussions（R/D）。JITCOは送出し国政府機関との間で相互協力を確認する文書として締結している（JITCO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材協力機構（JITCO）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LA",
+   "partner_org": "労働・社会福祉省（MLSW）",
+   "partner_org_en": "Ministry of Labour and Social Welfare (MLSW)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2018-05-11",
+   "announced_date": "",
+   "date_note": "JITCOの記事（2018年5月掲載）による。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習法と日ラオスの二国間取決め（2017年12月9日）という新しい枠組みの下、技能実習生の送出し事業及び受入れ事業の促進と円滑化を図ること（JITCO発表）",
+   "content": [
+    "（JITCOの今後の取組として）送出機関情報の提供、監理団体と送出機関との交流促進、送出機関の質の向上の促進、ラオス側のルール・手続の案内等（JITCO発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JITCOとの討議議事録（RD）の締結及び定期協議等（1 R/Dの締結状況・2 定期協議等）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation/consultation/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "R/D締結国17件（16か国）の一覧（国名・機関名・R/D直近改定日）と、国別の協議記事の一覧。2026-10-28にWebFetchで表を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "ラオス政府窓口との新R/D（討議議事録）の締結について（2018年05月）",
+     "publisher": "公益財団法人国際人材協力機構（JITCO）",
+     "url": "https://www.jitco.or.jp/ja/regulation_skill/consultation/22707/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2018年5月11日、ラオス労働・社会福祉省と新しいR/Dを締結。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "2012年・2013年の政府窓口との協議記事がJITCOの一覧にある。旧R/Dの有無・日付は確認していない。 R/D（討議議事録）の原文・有効期間・更新条項は公開されておらず未確認。正式名称未確認（題名はJITCO発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "JITCOの『R/Dの締結状況』一覧（2026-10-28閲覧）にラオスのR/D（直近改定日2018.5.11）として掲載され、JITCOは一覧の国の政府機関と定期的に協議していると説明している。ただしR/Dの有効期間や現在の効力を明示する記載はなく、原文も公開されていないため、基準（期間内・更新の事実・現在有効との明示）のいずれにも当たらず有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開のため有効期間・更新・終了の条項は確認できない。JITCOのサイトに終了・失効の記載は見当たらない。"
+  },
+  {
+   "id": "JP-ORG-074",
+   "group_key": "ORG:JICA-ID-MOM",
+   "renewal_of": null,
+   "title_ja": "インドネシア労働省とJICAインドネシア事務所との協力覚書（日本への外国人材の送出・受入れに関する協力）",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "JICAの発表は『協力覚書』と記載。正式名称・英語名は未確認",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "独立行政法人国際協力機構（JICA）",
+   "japan_org_type": "public_body",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "JICAインドネシア事務所（署名者名は記載なし）",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "インドネシア労働省",
+   "partner_org_en": "Ministry of Manpower of the Republic of Indonesia",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": "2023年11月28日、ジャカルタで開催した第1回インドネシア・日本人材フォーラム（JICAとインドネシア労働省の共催）の開会時に、金杉憲治在インドネシア日本国大使とイダ・ファウジヤ労働大臣の立会いのもと締結。日本政府（大使館）は立ち会っただけで当事者ではない。",
+   "signed_date": "2023-11-28",
+   "announced_date": "2023-11-30",
+   "date_note": "JICAの発表（2023年11月30日掲載）は、2023年11月28日のフォーラム開会にあたり大使・大臣の立会いのもと締結したと記載。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "技能実習",
+    "日本語教育",
+    "技能訓練"
+   ],
+   "purpose": "インドネシアから日本への特定技能及び技能実習参加者の安心で安全な送出・受入に向けた取組を推進するため（JICAの発表）",
+   "content": [
+    "日本の就労情報の発信",
+    "日尼官民関係者の意見交換プラットフォームの設置",
+    "日本語教育",
+    "技能訓練などの課題に協力して取り組む"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "2024年9月5日、JICAはインドネシア労働省と共催で『インドネシア・日本人材フォーラム2024』を東京で開催し、協力覚書に基づく進捗報告を行った（JICAのページ）。",
+   "projects": [
+    {
+     "name": "第1回インドネシア・日本人材フォーラム",
+     "fiscal_year": "2023",
+     "detail": "2023年11月28日、ジャカルタ。官民関係者200名以上。観光（宿泊）・自動車整備・介護・建設の4分科会（JICAの発表）",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "name": "インドネシア・日本人材フォーラム2024",
+     "fiscal_year": "2024",
+     "detail": "2024年9月5日、JICA市ヶ谷とオンライン、約340名。協力覚書に基づく進捗報告・パネル・5分科会（JICAのページ）",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "「インドネシア・日本 人材フォーラム」を開催〜外国人材の円滑かつ適正な受入れに向けて〜",
+     "publisher": "独立行政法人国際協力機構（JICA）インドネシア事務所",
+     "url": "https://www.jica.go.jp/overseas/indonesia/information/press/2023/1525814_14499.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年11月30日掲載。フォーラム開会時に大使・大臣立会いのもと、インドネシア労働省とJICAインドネシア事務所が協力覚書を締結したこと、4つの協力課題を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "インドネシア・日本人材フォーラム2024を開催",
+     "publisher": "独立行政法人国際協力機構（JICA）",
+     "url": "https://www.jica.go.jp/information/seminar/2024/20240917.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "2024年9月5日のフォーラム。第1回フォーラムで協力覚書を締結した経緯と、覚書に基づく進捗報告を確認。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "正式名称未確認。フォーラム開会時に大使と大臣は、インドネシア政府が掲げる『今後5年間で10万人の労働者を日本に派遣する』目標への貢献に期待を表明（覚書の数値ではない）。",
+   "related_systems": [
+    "SSW",
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work",
+    "training"
+   ],
+   "numbers": [
+    {
+     "kind": "target",
+     "label": "インドネシア政府が掲げる日本への労働者派遣の目標（覚書の数値ではない）",
+     "value": 100000,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "今後5年間（2023年11月時点の発言）",
+     "definition": "フォーラム開会時に大使・大臣が言及した『今後5年間で10万人の労働者を日本に派遣する』目標",
+     "sources": [
+      "s1"
+     ],
+     "note": "インドネシア政府の目標。協力覚書が定めた数値ではない"
+    }
+   ],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はJICAの発表で確認したが、有効期間を示す資料がなく、現在も有効と明示する最近の公式資料も見つからないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "インドネシア国営ラジオRRIの記事（2026年8月26日）は、2023〜2026年のJICA・労働省のプログラムの閉会セミナーが2026年8月24日にジャカルタで開かれたと報じている（報道のため判定の根拠にしていない）。覚書の期間・終了はJICAの公式資料で未確認。"
+  },
+  {
+   "id": "JP-ORG-075",
+   "group_key": "ORG:JICA-ZZ-ILO",
+   "renewal_of": null,
+   "title_ja": "JICAとILO駐日事務所の「ビジネスと人権」に関する協力覚書（MOC）",
+   "title_original": "",
+   "doc_type": "協力覚書（MOC）",
+   "doc_type_note": "ILOの英語の発表は Memorandum of Cooperation（MOC）と記載。両機関にとって初めての『ビジネスと人権』の包括的な協力覚書（ILO発表）",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "独立行政法人国際協力機構（JICA）",
+   "japan_org_type": "public_body",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ZZ",
+   "partner_org": "国際労働機関（ILO）駐日事務所",
+   "partner_org_en": "ILO Office for Japan",
+   "partner_type": "international_org",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2023-01-06",
+   "announced_date": "2023-01-06",
+   "date_note": "ILO駐日事務所の発表（2023年1月6日）による。JICAのページは『2023年1月』に締結と記載。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "移住労働者の人権保護",
+    "ビジネスと人権",
+    "児童労働の撤廃"
+   ],
+   "purpose": "企業活動における人権侵害を防ぐ『ビジネスと人権』の促進のために協力すること（ILO駐日事務所の発表）",
+   "content": [
+    "研修や実務者協議を通じ、児童労働の撤廃や移民労働者の人権尊重をはじめとする課題に協力して取り組む（ILO発表）",
+    "研修・セミナーへの専門家の相互派遣、日本国内外の関係者を巻き込む共同キャンペーン（ILO英語発表）",
+    "年1回の実務者会合で協力計画と進捗を確認（ILO英語発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "2023年4月24日、JICA理事長がILO事務局長と会談し、本覚書に基づく移住労働者の人権保護や児童労働撤廃などでの連携深化への期待を表明（JICAのページ）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "JICAとILOが協力覚書 「ビジネスと人権」で連携へ",
+     "publisher": "国際労働機関（ILO）駐日事務所",
+     "url": "https://www.ilo.org/tokyo/newsroom/WCMS_865032/lang--ja/index.htm",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "2023年1月6日付。同日に覚書を交わしたこと、協力の内容を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "ILO and JICA sign MOC to promote Business and Human Rights",
+     "publisher": "International Labour Organization",
+     "url": "https://www.ilo.org/resource/news/ilo-and-jica-sign-moc-promote-business-and-human-rights",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "2023年1月6日付（東京発）。協力の方法と年次の実務者会合を確認。"
+    },
+    {
+     "id": "s3",
+     "title": "田中理事長が国際労働機関（ILO）のジルベール・F・ウングボ事務局長と会談",
+     "publisher": "独立行政法人国際協力機構（JICA）",
+     "url": "https://www.jica.go.jp/information/official/2023/20230426_41.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年1月にILO駐日事務所と締結した協力覚書（MOC）に基づき、移住労働者の人権保護や児童労働撤廃などでの連携深化に期待と記載。"
+    },
+    {
+     "id": "s4",
+     "title": "JICA年次報告書2023（日本と途上国の共創：外国人労働者の人権保護）",
+     "publisher": "独立行政法人国際協力機構（JICA）",
+     "url": "https://www.jica.go.jp/about/disc/report/2023/digest/partner03.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "『外国人労働者の人権保護』の項で、2023年1月にILOと協力覚書を締結したと記載。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "正式名称未確認（題名は両機関の発表の表現による）。相手はILO本部ではなく駐日事務所。署名者名は発表に記載なし。",
+   "related_systems": [],
+   "foreign_relation": "indirect",
+   "acceptance_types": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結は両機関の発表で確認したが、有効期間の記載がなく、現在も有効と明示する資料も見つからないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。2023年4月以降の覚書に基づく活動はJICAの公式資料で個別に確認していない。"
+  },
+  {
+   "id": "JP-ORG-076",
+   "group_key": "ORG:JPMIRAI-ZZ-IOM",
+   "renewal_of": null,
+   "title_ja": "外国人労働者の権利保護と多様で包摂的な共生社会の実現のための覚書（国連IOM・JP-MIRAI）",
+   "title_original": "",
+   "doc_type": "覚書（MOU）",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "一般社団法人JP-MIRAI（JP-MIRAI）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ZZ",
+   "partner_org": "国際移住機関（国連IOM）（署名式にはナッケン駐日代表が出席）",
+   "partner_org_en": "International Organization for Migration (IOM)",
+   "partner_type": "international_org",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2025-08-07",
+   "announced_date": "2025-08-18",
+   "date_note": "JP-MIRAIの発表（2025年8月18日掲載）による。東京都内で署名。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "外国人労働者の権利保護",
+    "公正で倫理的なリクルート"
+   ],
+   "purpose": "外国人労働者、その出身国、受入国である日本のコミュニティの三者に利益をもたらす多様で包摂的な共生社会を実現すること（JP-MIRAIの発表）",
+   "content": [
+    "外国人労働者のエンパワーメントと公正で倫理的なリクルートの促進",
+    "多様なステークホルダーの学び合いと市民参加",
+    "共同調査研究"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "国連IOMとJP-MIRAIが「外国人労働者の権利保護と多様で包摂的な共生社会の実現のための覚書」を締結",
+     "publisher": "一般社団法人JP-MIRAI（JP-MIRAI）",
+     "url": "https://jp-mirai.org/news-ja/20250818/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2025年8月18日掲載。2025年8月7日に覚書（MOU）に署名したこと、協力分野、署名式での発言を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "UN-IOM and JP-MIRAI signed a “Memorandum of Understanding for the Protection of the Rights of Foreign Workers and the Realization of a Diverse and Inclusive Coexisting Society”",
+     "publisher": "一般社団法人JP-MIRAI（JP-MIRAI）",
+     "url": "https://jp-mirai.org/from-the-secretariat/un-iom-and-jp-mirai-signed-a-memorandum-of-understanding-for-the-protection-of-the-rights-of-foreign-workers-and-the-realization-of-a-diverse-and-inclusive-coexisting-society/?lang=en",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "同じ発表の英語版。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "写真説明に国連IOMナッケン駐日代表とJP-MIRAI矢吹代表理事。JP-MIRAIは外国人労働者の受入れに関わる企業・団体等のプラットフォーム（JICAが事務局を務めた時期がある）で、現在は一般社団法人。",
+   "related_systems": [],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はJP-MIRAIの発表で確認したが、有効期間の記載がなく、現在も有効と明示する資料もないため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。"
+  },
+  {
+   "id": "JP-ORG-077",
+   "group_key": "ORG:JPMIRAI-ID-KADIN",
+   "renewal_of": null,
+   "title_ja": "インドネシア人移住労働者の日本への労働移動に関する覚書（JP-MIRAI・インドネシア商工会議所）",
+   "title_original": "",
+   "doc_type": "覚書（MOU）",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "一般社団法人JP-MIRAI（JP-MIRAI）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "インドネシア商工会議所（KADIN Indonesia）",
+   "partner_org_en": "KADIN Indonesia",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2025-12-16",
+   "announced_date": "2025-12-25",
+   "date_note": "JP-MIRAIの発表（2025年12月25日掲載）による。署名場所の記載なし。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "移住労働者の権利保護",
+    "公正で倫理的なリクルート",
+    "特定技能"
+   ],
+   "purpose": "インドネシア人移住労働者の日本への労働移動に関する連携（JP-MIRAIの発表）。日本への移住労働者の権利保護に取り組む（同）",
+   "content": [
+    "情報共有および啓発活動の支援（JP-MIRAIポータル等）",
+    "公正かつ倫理的なリクルートの推進（IJ-FERI）",
+    "対話および協働の促進",
+    "共同イベント、セミナー、ワークショップの開催"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドネシア商工会議所（KADIN）及びインドネシア労働サービス会社協会（APJATI）と覚書（MOU）を締結",
+     "publisher": "一般社団法人JP-MIRAI（JP-MIRAI）",
+     "url": "https://jp-mirai.org/news-ja/20251225/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2025年12月25日掲載。KADINとは12月16日、APJATIとは12月17日に覚書（MOU）を締結したこと、連携活動を確認。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "KADIN移住労働担当副会長は、インドネシア政府の『SMK Go Global』（職業高校生50万人を海外に送り出すプログラム）に関し、ブローカーが介入しない取組としてJP-MIRAIのFERIを一緒に推進したいと発言（JP-MIRAI発表）。KADINは移住労働者保護省（KP2MI）と連携協定を結んでいる（同）。 正式名称未確認（題名は発表の表現による）。",
+   "related_systems": [],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はJP-MIRAIの発表で確認したが、有効期間の記載がなく、現在も有効と明示する資料もないため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。"
+  },
+  {
+   "id": "JP-ORG-078",
+   "group_key": "ORG:JPMIRAI-ID-APJATI",
+   "renewal_of": null,
+   "title_ja": "JP-MIRAIとインドネシア労働サービス会社協会（APJATI）との連携覚書",
+   "title_original": "",
+   "doc_type": "覚書（MOU）",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "一般社団法人JP-MIRAI（JP-MIRAI）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "インドネシア労働サービス会社協会（APJATI）（移住労働者の送出機関P3MIの団体。約200社が参加）",
+   "partner_org_en": "APJATI",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2025-12-17",
+   "announced_date": "2025-12-25",
+   "date_note": "JP-MIRAIの発表（2025年12月25日掲載）による。署名場所の記載なし。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "移住労働者の権利保護",
+    "公正で倫理的なリクルート",
+    "特定技能"
+   ],
+   "purpose": "インドネシア人移住労働者の日本への労働移動に関する連携（JP-MIRAIの発表）。日本への移住労働者の権利保護に取り組む（同）",
+   "content": [
+    "具体的な連携活動はKADINとの覚書と同様（情報共有・啓発、公正かつ倫理的なリクルート（IJ-FERI）の推進、対話・協働、共同イベント等）（JP-MIRAI発表）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドネシア商工会議所（KADIN）及びインドネシア労働サービス会社協会（APJATI）と覚書（MOU）を締結",
+     "publisher": "一般社団法人JP-MIRAI（JP-MIRAI）",
+     "url": "https://jp-mirai.org/news-ja/20251225/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2025年12月25日掲載。KADINとは12月16日、APJATIとは12月17日に覚書（MOU）を締結したこと、連携活動を確認。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "署名式に先立ち、会員の送出機関（P3MI）25社にJP-MIRAIの活動（ポータル、アシスト、FERI）を説明。APJATIの会員のうち38社が日本への送出しに強い関心を有する（JP-MIRAI発表）。インドネシアでは技能実習生は法律上『移住労働者』と位置付けられておらず、送出しもP3MIではなく労働省のライセンスを持つ機関が行う（同）。 正式名称未確認（題名は発表の表現による）。",
+   "related_systems": [],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はJP-MIRAIの発表で確認したが、有効期間の記載がなく、現在も有効と明示する資料もないため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。"
+  },
+  {
+   "id": "JP-ORG-079",
+   "group_key": "ORG:IMJ-ID-MOM",
+   "renewal_of": null,
+   "title_ja": "インドネシア技能実習生派遣・受入れ事業に関する基本協定（MoU）（インドネシア労働省・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "基本協定（MoU）",
+   "doc_type_note": "ニュースレターは『新たな基本協定（MoU）』『協定書』と表記",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "インドネシア労働省",
+   "partner_org_en": "Ministry of Manpower of the Republic of Indonesia",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": "調印式にはイダ・ファウジヤ労働大臣が出席（写真説明：左からブディ・ハルタワン総局長、イダ・ファウジヤ労働大臣、アイム・ジャパン金森仁会長）。",
+   "signed_date": "2023-05-03",
+   "announced_date": "2023-05-09",
+   "date_note": "アイム・ジャパンのニュースレター（2023年5月9日）による（東京で締結）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "インドネシアへの経済協力とさらなる人材育成の促進に加え、相互利益供与の原則に基づき双方で技能実習事業を推進すること（アイム・ジャパンの発表）",
+   "content": [
+    "インドネシアへの経済協力とさらなる人材育成の促進",
+    "相互利益供与の原則に基づき双方で技能実習事業を推進",
+    "（会長の説明）本協定によりインドネシア出国前の技能実習生の個人負担（健康診断料、パスポート・査証代など）が事実上無料となる"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "アイム・ジャパンの『送出国政府との協定』のページ（保存版2026-02-06）は、協定に基づき送出国の担当省庁が候補生の選考・入国前講習を行うと記載。2023年9月には労働省主催で日本向け技能実習生の壮行会が開かれた。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "News Letter No.003 インドネシア共和国労働省と技能実習生派遣・受入れ事業に関する新たな基本協定を締結しました（2023年5月9日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20230530102153/https://imm.or.jp/cms/wp-content/uploads/2023/05/News-Letter-No.003_%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2%E8%AA%BF%E5%8D%B0%E5%BC%8F-.pdf",
+     "archived_from": "https://imm.or.jp/cms/wp-content/uploads/2023/05/News-Letter-No.003_%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2%E8%AA%BF%E5%8D%B0%E5%BC%8F-.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年5月3日、ベルサール秋葉原（東京）で労働省と新たな基本協定（MoU）を締結したこと、合意内容、労働大臣の発言（1992年12月に初めての協定を締結）を確認。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    },
+    {
+     "id": "s2",
+     "title": "送出国政府との協定（アイム・ジャパンの技能実習プログラム）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260206194928/https://imm.or.jp/program/gov.html",
+     "archived_from": "https://imm.or.jp/program/gov.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-06）。インドネシア（1992年）・タイ（1999年）・ベトナム（2005年）・バングラデシュ（2017年）・スリランカ（2017年）の各政府と『外国人技能実習生派遣・受け入れに関する協定書』を締結し、協定に基づき送出国の担当省庁が候補生の選考・入国前講習を実施すると記載。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    },
+    {
+     "id": "s3",
+     "title": "インドネシア共和国労働省主催の「日本向け技能実習生2,000名壮行会」がジャカルタで盛大に開催されました（2023年9月28日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20251216212458/https://imm.or.jp/cms/jp_news/20231019topic1/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20231019topic1/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年9月21日、労働省主催の壮行会（アイム・ジャパンの実習生を含む約2,000名）。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "1992年12月に最初の協定を締結し、1993年5月に第1回の研修生を派遣（労働大臣の発言・アイム・ジャパンのページ）。それ以前の版は別記録にしていない。正式名称未確認（題名は発表の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "アイム・ジャパンの『送出国政府との協定』のページ（保存版2026-02-06）は、各政府と協定を結び政府直接派遣の技能実習生を受け入れていると現在形で記載するが、協定の有効期間・版（改定の有無）は書かれておらず、ページは2026-10-28時点で閲覧できない（メンテナンス中）ため、基準どおり有効性未確認とした。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "協定書の原文・有効期間は非公開で未確認。上記ページを根拠C（締結機関の現在の一覧）とみなすかは判断を保留（保存版で、版や期間の記載がないため）。"
+  },
+  {
+   "id": "JP-ORG-080",
+   "group_key": "ORG:IMJ-TH-TITP",
+   "renewal_of": null,
+   "title_ja": "外国人技能実習生派遣・受け入れに関する協定書（タイ政府・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "協定書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "タイ王国政府（技能実習生派遣・受入事業はタイ労働省とアイム・ジャパンの共同プログラム：アイム・ジャパンの説明）",
+   "partner_org_en": "Government of the Kingdom of Thailand",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "1999",
+   "announced_date": "",
+   "date_note": "締結年はアイム・ジャパンの『送出国政府との協定』のページ（1999年協定締結、2000年第1次研修生来日）による。月日・署名者は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "タイ政府主導による外国人技能実習生派遣事業にアイム・ジャパンが協力すること（アイム・ジャパンの説明）",
+   "content": [
+    "協定に基づき送出国の担当省庁が技能実習の応募者から候補生を選び、日本語・日本の文化・習慣・働き方などの入国前講習（4か月以上）を実施（アイム・ジャパンの説明）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "2024年12月、タイ労働省所管の訓練校で入国前講習を修了した実習生が日本へ出発（アイム・ジャパンの記事）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "送出国政府との協定（アイム・ジャパンの技能実習プログラム）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260206194928/https://imm.or.jp/program/gov.html",
+     "archived_from": "https://imm.or.jp/program/gov.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-06）。インドネシア（1992年）・タイ（1999年）・ベトナム（2005年）・バングラデシュ（2017年）・スリランカ（2017年）の各政府と『外国人技能実習生派遣・受け入れに関する協定書』を締結し、協定に基づき送出国の担当省庁が候補生の選考・入国前講習を実施すると記載。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    },
+    {
+     "id": "s2",
+     "title": "タイ王国労働省と「政府派遣の特定技能事業に関する覚書」を取り交わしました（2023年12月1日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260118173937/https://imm.or.jp/cms/jp_news/20231130topic1/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20231130topic1/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "会長が労働大臣を表敬し、タイ技能実習生派遣・受入事業（労働省とアイム・ジャパンの共同プログラム）について意見交換したと記載。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    },
+    {
+     "id": "s3",
+     "title": "【タイ】コラート県知事、日本入国直前の実習生を激励（2024年12月5日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20261013005146/https://imm.or.jp/cms/jp_news/20241205intl01/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20241205intl01/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2024年12月、タイ労働省所管の訓練校で4か月の入国前講習を修了した実習生7名が日本へ出発。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "協定の相手はページ上『各政府』とのみ記載。正式名称未確認（ページの『外国人技能実習生派遣・受け入れに関する協定書』の表現による）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "アイム・ジャパンの『送出国政府との協定』のページ（保存版2026-02-06）は、各政府と協定を結び政府直接派遣の技能実習生を受け入れていると現在形で記載するが、協定の有効期間・版（改定の有無）は書かれておらず、ページは2026-10-28時点で閲覧できない（メンテナンス中）ため、基準どおり有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "協定書の原文・有効期間は非公開で未確認。上記ページを根拠C（締結機関の現在の一覧）とみなすかは判断を保留（保存版で、版や期間の記載がないため）。"
+  },
+  {
+   "id": "JP-ORG-081",
+   "group_key": "ORG:IMJ-VN-TITP",
+   "renewal_of": null,
+   "title_ja": "外国人技能実習生派遣・受け入れに関する協定書（ベトナム政府・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "協定書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム政府（相手省庁は資料上未確認。2024年4月の協議の相手は労働・傷病兵・社会問題省・海外労働管理局・海外労働センター）",
+   "partner_org_en": "Government of Viet Nam",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2005",
+   "announced_date": "",
+   "date_note": "締結年はアイム・ジャパンの『送出国政府との協定』のページ（2005年協定締結、2006年第1次研修生来日）による。月日・署名者は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "ベトナム政府主導による外国人技能実習生派遣事業にアイム・ジャパンが協力すること（アイム・ジャパンの説明）",
+   "content": [
+    "協定に基づき送出国の担当省庁が候補生を選び、入国前講習を実施（アイム・ジャパンの説明）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "2024年4月にベトナム労働・傷病兵・社会問題省副大臣らと政府派遣の技能実習生受入れ等について協議（アイム・ジャパンの記事）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "送出国政府との協定（アイム・ジャパンの技能実習プログラム）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260206194928/https://imm.or.jp/program/gov.html",
+     "archived_from": "https://imm.or.jp/program/gov.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-06）。インドネシア（1992年）・タイ（1999年）・ベトナム（2005年）・バングラデシュ（2017年）・スリランカ（2017年）の各政府と『外国人技能実習生派遣・受け入れに関する協定書』を締結し、協定に基づき送出国の担当省庁が候補生の選考・入国前講習を実施すると記載。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム労働・傷病兵・社会省副大臣と技能実習生受入れ等に関する協議を行いました（2024年5月14日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260408090211/https://imm.or.jp/cms/jp_news/20240514intl01/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20240514intl01/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2024年4月24日、ハノイでMOLISA・DOLAB・COLABと政府派遣の技能実習生受入れ等に関する協議。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "正式名称未確認。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "アイム・ジャパンの『送出国政府との協定』のページ（保存版2026-02-06）は、各政府と協定を結び政府直接派遣の技能実習生を受け入れていると現在形で記載するが、協定の有効期間・版（改定の有無）は書かれておらず、ページは2026-10-28時点で閲覧できない（メンテナンス中）ため、基準どおり有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "協定書の原文・有効期間は非公開で未確認。上記ページを根拠C（締結機関の現在の一覧）とみなすかは判断を保留（保存版で、版や期間の記載がないため）。"
+  },
+  {
+   "id": "JP-ORG-082",
+   "group_key": "ORG:IMJ-BD-TITP",
+   "renewal_of": null,
+   "title_ja": "外国人技能実習生派遣・受け入れに関する協定書（バングラデシュ政府・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "協定書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "バングラデシュ政府（相手省庁は資料上未確認。以後の覚書の相手は海外居住者福利厚生・海外雇用省 人材雇用・訓練局（BMET））",
+   "partner_org_en": "Government of the People's Republic of Bangladesh",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2017",
+   "announced_date": "",
+   "date_note": "締結年はアイム・ジャパンの『送出国政府との協定』のページ（2017年協定締結・第1次技能実習生来日）による。月日・署名者は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "バングラデシュ政府主導による外国人技能実習生派遣事業にアイム・ジャパンが協力すること（アイム・ジャパンの説明）",
+   "content": [
+    "協定に基づき送出国の担当省庁が候補生を選び、入国前講習を実施（アイム・ジャパンの説明）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "2025年1月時点でナラヤンガンジ訓練校で技能実習生の入国前講習が行われている（アイム・ジャパンの記事）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "送出国政府との協定（アイム・ジャパンの技能実習プログラム）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260206194928/https://imm.or.jp/program/gov.html",
+     "archived_from": "https://imm.or.jp/program/gov.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-06）。インドネシア（1992年）・タイ（1999年）・ベトナム（2005年）・バングラデシュ（2017年）・スリランカ（2017年）の各政府と『外国人技能実習生派遣・受け入れに関する協定書』を締結し、協定に基づき送出国の担当省庁が候補生の選考・入国前講習を実施すると記載。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    },
+    {
+     "id": "s2",
+     "title": "【バングラデシュ】訪問団レポート～人材育成と経済発展の架け橋を目指して～（2025年3月28日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20261013005213/https://imm.or.jp/cms/jp_news/20250328intl01/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20250328intl01/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2025年1月、技能実習生の入国前講習を行うナラヤンガンジ訓練校とBMET等を訪問。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "正式名称未確認。2024年2月7日に人材雇用・訓練局と『リクルート実務協定改正覚書』（JP-ORG-086）を取り交わしている（本協定との関係は資料上未確認）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "アイム・ジャパンの『送出国政府との協定』のページ（保存版2026-02-06）は、各政府と協定を結び政府直接派遣の技能実習生を受け入れていると現在形で記載するが、協定の有効期間・版（改定の有無）は書かれておらず、ページは2026-10-28時点で閲覧できない（メンテナンス中）ため、基準どおり有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "協定書の原文・有効期間は非公開で未確認。上記ページを根拠C（締結機関の現在の一覧）とみなすかは判断を保留（保存版で、版や期間の記載がないため）。"
+  },
+  {
+   "id": "JP-ORG-083",
+   "group_key": "ORG:IMJ-LK-TITP",
+   "renewal_of": null,
+   "title_ja": "外国人技能実習生派遣・受け入れに関する協定書（スリランカ政府・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "協定書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LK",
+   "partner_org": "スリランカ政府（相手省庁は資料上未確認。2023年の合意書の相手は海外雇用局（SLBFE））",
+   "partner_org_en": "Government of the Democratic Socialist Republic of Sri Lanka",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "ceremony_note": null,
+   "signed_date": "2017",
+   "announced_date": "",
+   "date_note": "締結年はアイム・ジャパンの『送出国政府との協定』のページ（2017年協定締結、2018年第1次技能実習生来日）による。月日・署名者は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "スリランカ政府主導による外国人技能実習生派遣事業にアイム・ジャパンが協力すること（アイム・ジャパンの説明）",
+   "content": [
+    "協定に基づき送出国の担当省庁が候補生を選び、入国前講習を実施（アイム・ジャパンの説明）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "2025年1月、スリランカ海外雇用局の主催で技能実習生25名（建設・機械加工・農業・溶接など）の出発壮行会（アイム・ジャパンの記事）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "送出国政府との協定（アイム・ジャパンの技能実習プログラム）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260206194928/https://imm.or.jp/program/gov.html",
+     "archived_from": "https://imm.or.jp/program/gov.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-06）。インドネシア（1992年）・タイ（1999年）・ベトナム（2005年）・バングラデシュ（2017年）・スリランカ（2017年）の各政府と『外国人技能実習生派遣・受け入れに関する協定書』を締結し、協定に基づき送出国の担当省庁が候補生の選考・入国前講習を実施すると記載。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    },
+    {
+     "id": "s2",
+     "title": "【スリランカ】技能実習生・特定技能外国人の出発壮行会を開催しました（2025年1月22日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20261013005102/https://imm.or.jp/cms/jp_news/20250122intl01/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20250122intl01/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2025年1月8日、スリランカ海外雇用局の主催で、アイム・ジャパンの技能実習生25名と特定技能外国人8名の出発壮行会。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "正式名称未確認。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "アイム・ジャパンの『送出国政府との協定』のページ（保存版2026-02-06）は、各政府と協定を結び政府直接派遣の技能実習生を受け入れていると現在形で記載するが、協定の有効期間・版（改定の有無）は書かれておらず、ページは2026-10-28時点で閲覧できない（メンテナンス中）ため、基準どおり有効性未確認とした。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "協定書の原文・有効期間は非公開で未確認。上記ページを根拠C（締結機関の現在の一覧）とみなすかは判断を保留（保存版で、版や期間の記載がないため）。"
+  },
+  {
+   "id": "JP-ORG-084",
+   "group_key": "ORG:IMJ-TH-SSW",
+   "renewal_of": null,
+   "title_ja": "政府派遣の特定技能事業に関する覚書（タイ労働省・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "タイ労働省",
+   "partner_org_en": "Ministry of Labour, Kingdom of Thailand",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": "調印式にはソムチャイ雇用局長のほか、後見役としてパイロート事務次官ら労働省幹部が同席（アイム・ジャパン発表）。",
+   "signed_date": "2023-11-24",
+   "announced_date": "2023-12-01",
+   "date_note": "アイム・ジャパンの記事（2023年12月1日）による（タイで取り交わし）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "技能実習修了予定者および修了帰国生のキャリア形成拡大の機会となる特定技能制度への移行を可能にし、日本の製造・建設・サービス業種での更なる雇用創出につなげること（アイム・ジャパンの発表）",
+   "content": [
+    "政府派遣の特定技能事業の実施（アイム・ジャパンの発表。条文は非公開）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "タイ王国労働省と「政府派遣の特定技能事業に関する覚書」を取り交わしました（2023年12月1日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260118173937/https://imm.or.jp/cms/jp_news/20231130topic1/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20231130topic1/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年11月24日、タイで労働省と『特定技能事業に関する覚書』を取り交わしたこと、調印式の出席者（ソムチャイ雇用局長、パイロート事務次官ら）を確認。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "記事本文の表記は『特定技能事業に関する覚書』、見出しは『政府派遣の特定技能事業に関する覚書』。11月21日には会長がピパット労働大臣を表敬。",
+   "related_systems": [
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はアイム・ジャパンの発表で確認したが、有効期間の記載がなく、現在も有効と明示する資料もない（サイトはメンテナンス中で保存版のみ）ため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。"
+  },
+  {
+   "id": "JP-ORG-085",
+   "group_key": "ORG:IMJ-BD-SSW",
+   "renewal_of": null,
+   "title_ja": "政府派遣の特定技能事業に関する覚書（バングラデシュ海外居住者福利厚生・海外雇用省人材雇用・訓練局・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "海外居住者福利厚生・海外雇用省 人材雇用・訓練局（BMET）",
+   "partner_org_en": "Bureau of Manpower, Employment and Training (BMET)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": "調印式には人材雇用・訓練局長のほか、後見役として海外居住者福利厚生・海外雇用省の事務次官らが同席（アイム・ジャパン発表）。",
+   "signed_date": "2023-12-21",
+   "announced_date": "2023-12-28",
+   "date_note": "アイム・ジャパンの記事（2023年12月28日）による（バングラデシュで取り交わし）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "政府派遣の特定技能人材として若者を派遣し、技能実習修了予定者および修了帰国生のキャリア形成を拡大し特定技能制度への移行を可能にすること（アイム・ジャパンの発表）",
+   "content": [
+    "政府派遣の特定技能事業の実施（アイム・ジャパンの発表。条文は非公開）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "バングラデシュ人民共和国 海外居住者福利厚生・海外労働省 人材雇用・訓練局と政府派遣の「特定技能事業に関する覚書」を取り交わしました（2023年12月28日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20251216214641/https://imm.or.jp/cms/jp_news/jp_news-20231225topic1/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/jp_news-20231225topic1/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年12月21日、バングラデシュで人材雇用・訓練局と覚書を取り交わしたこと、出席者（サレ・アハメド・ムザホル局長、アハメド・ムニルス・サレヒン事務次官）を確認。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "相手機関の英語名は資料では略称BMETのみ（2024年10月の記事）。",
+   "related_systems": [
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はアイム・ジャパンの発表で確認したが、有効期間の記載がなく、現在も有効と明示する資料もない（サイトはメンテナンス中で保存版のみ）ため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。"
+  },
+  {
+   "id": "JP-ORG-086",
+   "group_key": "ORG:IMJ-BD-RECRUIT",
+   "renewal_of": null,
+   "title_ja": "リクルート実務協定改正覚書（バングラデシュ海外居住者福利厚生・海外雇用省人材雇用・訓練局・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "改正覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "海外居住者福利厚生・海外雇用省 人材雇用・訓練局（BMET）",
+   "partner_org_en": "Bureau of Manpower, Employment and Training (BMET)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": "調印式にはサレ・アハメド・ムジャフォル人材雇用・訓練局長、駐日バングラデシュ大使館労働部の一等書記官が同席（アイム・ジャパン発表）。",
+   "signed_date": "2024-02-07",
+   "announced_date": "2024-02-14",
+   "date_note": "アイム・ジャパンの記事（2024年2月14日）による（アイム・ジャパン会議室で取り交わし）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習候補生の学歴要件を広げ、より多くの若い世代が技能実習に参加できるようにすること（アイム・ジャパンの発表）",
+   "content": [
+    "技能実習候補生の学歴要件を、従来の工業高等学校または同等の学校の卒業生に加え、中等教育の卒業生で成績優秀かつ政府承認の職業経験または職業訓練の修了生にも広げる"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "バングラデシュ人民共和国 海外居住者福利厚生・海外労働省 人材雇用・訓練局と「リクルート実務協定改正覚書」を取り交わしました（2024年2月14日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260206184952/https://imm.or.jp/cms/jp_news/20240209topic1/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20240209topic1/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2024年2月7日、アイム・ジャパン会議室（東京）で取り交わしたこと、改正内容（学歴要件の拡大）を確認。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "改正の対象である『リクルート実務協定』の締結日・内容は資料上未確認（2017年の協定書との関係も未確認）。",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はアイム・ジャパンの発表で確認したが、有効期間の記載がなく、現在も有効と明示する資料もないため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。改正前の協定の記録は作っていない。"
+  },
+  {
+   "id": "JP-ORG-087",
+   "group_key": "ORG:IMJ-BD-NARAYANGANJ",
+   "renewal_of": null,
+   "title_ja": "バングラデシュ人民共和国 技能実習生派遣・受入れ事業におけるナラヤンゴンジ訓練校使用に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "海外居住者福利厚生・海外雇用省 人材雇用・訓練局（BMET）",
+   "partner_org_en": "Bureau of Manpower, Employment and Training (BMET)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "ceremony_note": "調印式はBMETのサレー・アハメド・ムジャフォル訓練局長、エムデイ・サラ・ウッデイン訓練局部長の臨席のもと実施（アイム・ジャパン発表）。",
+   "signed_date": "2024-10-08",
+   "announced_date": "2024-10-28",
+   "date_note": "アイム・ジャパンの記事（2024年10月28日）による（場所の記載なし）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生派遣・受入れ事業でナラヤンゴンジ訓練校を使用すること（アイム・ジャパンの発表）",
+   "content": [
+    "新設のナラヤンゴンジ訓練校を技能実習候補生の訓練に使用（バングラデシュの訓練校は3校に）",
+    "同校は最大160名を収容可能"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "2025年1月時点で同訓練校で入国前講習が行われている（アイム・ジャパンの記事）。",
+   "projects": [
+    {
+     "name": "ナラヤンガンジ訓練校での入国前講習",
+     "fiscal_year": "2024",
+     "detail": "2025年1月の訪問団が授業を見学（アイム・ジャパンの記事）",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "【バングラデシュ】新訓練校「ナラヤンゴンジ訓練校」使用に関する覚書を取り交わしました（2024年10月28日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20261013005133/https://imm.or.jp/cms/jp_news/20241028intl01/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20241028intl01/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2024年10月8日、人材雇用・訓練局（BMET）と覚書を取り交わしたこと、訓練校の収容人数を確認。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    },
+    {
+     "id": "s2",
+     "title": "【バングラデシュ】訪問団レポート～人材育成と経済発展の架け橋を目指して～（2025年3月28日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20261013005213/https://imm.or.jp/cms/jp_news/20250328intl01/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20250328intl01/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2025年1月、ナラヤンガンジ訓練校で技能実習生の入国前講習の授業を見学。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "",
+   "related_systems": [
+    "TITP"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はアイム・ジャパンの発表で確認したが、有効期間の記載がなく、現在も有効と明示する資料もないため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。"
+  },
+  {
+   "id": "JP-ORG-088",
+   "group_key": "ORG:IMJ-LK-SSW",
+   "renewal_of": null,
+   "title_ja": "スリランカ民主社会主義共和国特定技能事業に関する合意書（スリランカ海外雇用局・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "合意書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LK",
+   "partner_org": "スリランカ海外雇用局（SLBFE）",
+   "partner_org_en": "Sri Lanka Bureau of Foreign Employment (SLBFE)",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "ceremony_note": "調印式にはマヌーシャ労働・海外雇用大臣、ジャガット担当大臣、事務次官、海外雇用局会長らが同席（アイム・ジャパン発表）。",
+   "signed_date": "2023-10-11",
+   "announced_date": "2023-10-19",
+   "date_note": "アイム・ジャパンの記事（2023年10月19日）による（スリランカ労働・海外雇用省で締結）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "アイム・ジャパンの特定技能プログラムを通して政府派遣の特定技能人材を派遣し、技能実習に加えて外国人材雇用を拡大すること（アイム・ジャパンの発表）",
+   "content": [
+    "政府派遣の特定技能人材の派遣（アイム・ジャパンの発表。条文は非公開）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "2025年1月、海外雇用局の主催でアイム・ジャパンの特定技能外国人8名（介護・建設）の出発壮行会が開かれた（アイム・ジャパンの記事。合意書に基づくと明記はしていない）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "スリランカ海外雇用局と「政府派遣の特定技能事業に関する合意書」を締結しました（2023年10月19日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20260118164219/https://imm.or.jp/cms/jp_news/20231030topic1/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20231030topic1/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2023年10月11日、スリランカ労働・海外雇用省で海外雇用局と合意書を締結したこと、出席者（マヌーシャ大臣ほか）を確認。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    },
+    {
+     "id": "s2",
+     "title": "【スリランカ】技能実習生・特定技能外国人の出発壮行会を開催しました（2025年1月22日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20261013005102/https://imm.or.jp/cms/jp_news/20250122intl01/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20250122intl01/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2025年1月8日、海外雇用局の主催で技能実習生25名と特定技能外国人8名（介護・建設）の出発壮行会。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "記事の見出しは『政府派遣の特定技能事業に関する合意書』、本文は『スリランカ民主社会主義共和国特定技能事業に関する合意書』。",
+   "related_systems": [
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はアイム・ジャパンの発表で確認したが、有効期間の記載がなく、現在も有効と明示する資料もないため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。"
+  },
+  {
+   "id": "JP-ORG-089",
+   "group_key": "ORG:INDOBOX-IN-JACEEX",
+   "renewal_of": null,
+   "title_ja": "日本向け特定技能者の日本語教育・訓練・人材育成に関する三者覚書（Indobox・京進・Jaceex Venture）",
+   "title_original": "",
+   "doc_type": "三者覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "Indobox株式会社",
+   "japan_org_type": "company",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "株式会社京進"
+   ],
+   "country_code": "IN",
+   "partner_org": "Jaceex Venture LLP",
+   "partner_org_en": "Jaceex Venture LLP",
+   "partner_type": "company",
+   "additional_partners": [],
+   "ceremony_note": "2025年8月29日の日印経済フォーラム（経済産業省・ジェトロ・経団連・日印経済委員会・駐日インド大使館の主催）の『民間企業による覚書等発表式』で、石破総理・モディ首相の前で発表された170件の一つ。日本政府は当事者ではない（外務省・経産省の一覧に掲載されただけ）。",
+   "signed_date": null,
+   "announced_date": "2025-08-29",
+   "date_note": "一覧は2025年8月29日の日印経済フォーラムで発表された覚書等で、経産省は『2023年以降に締結された』と説明。個別の締結日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "日本語教育",
+    "人材育成"
+   ],
+   "purpose": "日本向け特定技能者の日本語教育・訓練・人材育成（一覧の件名による）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "今次機会に発表された日印の企業間の覚書一覧（日・インド覚書等リスト）",
+     "publisher": "外務省（経済産業省の同名資料と同じリスト）",
+     "url": "https://web.archive.org/web/20260309205421/https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "archived_from": "https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "外務省のPDFは調査環境からHTTP 403で開けなかったため、インターネットアーカイブの保存版（2026-03-09）にリンク。日本側・インド側の組織名と覚書等案件名称の一覧。経産省も同じリストを https://www.meti.go.jp/files/900018087.pdf で公開（調査環境から取得できず）。"
+    },
+    {
+     "id": "s2",
+     "title": "日印首脳会談及びワーキング・ディナー（令和7年8月29日）",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260213225648/https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "archived_from": "https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-13）。ページ末尾に『今次機会に発表された日印の企業間の覚書一覧（PDF）』へのリンク。"
+    },
+    {
+     "id": "s3",
+     "title": "日印経済フォーラムを開催しました",
+     "publisher": "経済産業省",
+     "url": "https://web.archive.org/web/20251012131342/https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "archived_from": "https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "経産省のページは調査環境（WebFetch）からHTTP 403のため保存版（2025-10-12）にリンク。2025年8月29日の日印経済フォーラムで、石破総理及びモディ首相の前で『2023年以降に締結された170件の覚書等』を発表したと記載。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "一覧の表記は、日本側『Indobox株式会社』、インド側欄に『Jaceex Venture LLP / 株式会社京進 3社協定』。 正式名称・内容は一覧の件名による（原文・各社の発表は未確認）。",
+   "related_systems": [
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "外務省・経産省の一覧で締結（2023年以降）を確認したが、文書の有効期間や現在の効力を示す資料がないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "一覧の注記では、政府機関間以外の文書は各企業・団体の間で作成されたもので、政府は名称や内容の正しさを保証しない。"
+  },
+  {
+   "id": "JP-ORG-090",
+   "group_key": "ORG:INDOBOX-IN-QUANTUMPULSE",
+   "renewal_of": null,
+   "title_ja": "インド人材の日本での就労支援に関する協力覚書（Indobox・QuantumPulse Technologies）",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "Indobox株式会社",
+   "japan_org_type": "company",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "QuantumPulse Technologies Private Limited",
+   "partner_org_en": "QuantumPulse Technologies Private Limited",
+   "partner_type": "company",
+   "additional_partners": [],
+   "ceremony_note": "2025年8月29日の日印経済フォーラム（経済産業省・ジェトロ・経団連・日印経済委員会・駐日インド大使館の主催）の『民間企業による覚書等発表式』で、石破総理・モディ首相の前で発表された170件の一つ。日本政府は当事者ではない（外務省・経産省の一覧に掲載されただけ）。",
+   "signed_date": null,
+   "announced_date": "2025-08-29",
+   "date_note": "一覧は2025年8月29日の日印経済フォーラムで発表された覚書等で、経産省は『2023年以降に締結された』と説明。個別の締結日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "インド人材の日本での就労支援"
+   ],
+   "purpose": "インド人材の日本での就労支援（一覧の件名による）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "今次機会に発表された日印の企業間の覚書一覧（日・インド覚書等リスト）",
+     "publisher": "外務省（経済産業省の同名資料と同じリスト）",
+     "url": "https://web.archive.org/web/20260309205421/https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "archived_from": "https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "外務省のPDFは調査環境からHTTP 403で開けなかったため、インターネットアーカイブの保存版（2026-03-09）にリンク。日本側・インド側の組織名と覚書等案件名称の一覧。経産省も同じリストを https://www.meti.go.jp/files/900018087.pdf で公開（調査環境から取得できず）。"
+    },
+    {
+     "id": "s2",
+     "title": "日印首脳会談及びワーキング・ディナー（令和7年8月29日）",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260213225648/https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "archived_from": "https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-13）。ページ末尾に『今次機会に発表された日印の企業間の覚書一覧（PDF）』へのリンク。"
+    },
+    {
+     "id": "s3",
+     "title": "日印経済フォーラムを開催しました",
+     "publisher": "経済産業省",
+     "url": "https://web.archive.org/web/20251012131342/https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "archived_from": "https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "経産省のページは調査環境（WebFetch）からHTTP 403のため保存版（2025-10-12）にリンク。2025年8月29日の日印経済フォーラムで、石破総理及びモディ首相の前で『2023年以降に締結された170件の覚書等』を発表したと記載。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "正式名称・内容は一覧の件名による（原文・各社の発表は未確認）。",
+   "related_systems": [],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "外務省・経産省の一覧で締結（2023年以降）を確認したが、文書の有効期間や現在の効力を示す資料がないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "一覧の注記では、政府機関間以外の文書は各企業・団体の間で作成されたもので、政府は名称や内容の正しさを保証しない。"
+  },
+  {
+   "id": "JP-ORG-091",
+   "group_key": "ORG:PERSOLGW-IN-NSDCI",
+   "renewal_of": null,
+   "title_ja": "特定技能外国人材の送り出しにおける合意書（PERSOL Global Workforce・NSDC International）",
+   "title_original": "",
+   "doc_type": "合意書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "PERSOL Global Workforce株式会社",
+   "japan_org_type": "company",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "NSDC International Limited（NSDCI。インド国家技能開発公社（NSDC）の子会社）",
+   "partner_org_en": "NSDC International Limited",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "ceremony_note": "2025年8月29日の日印経済フォーラム（経済産業省・ジェトロ・経団連・日印経済委員会・駐日インド大使館の主催）の『民間企業による覚書等発表式』で、石破総理・モディ首相の前で発表された170件の一つ。日本政府は当事者ではない（外務省・経産省の一覧に掲載されただけ）。",
+   "signed_date": null,
+   "announced_date": "2025-08-29",
+   "date_note": "一覧は2025年8月29日の日印経済フォーラムで発表された覚書等で、経産省は『2023年以降に締結された』と説明。個別の締結日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "送出し"
+   ],
+   "purpose": "特定技能外国人材の送り出し（一覧の件名による）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "今次機会に発表された日印の企業間の覚書一覧（日・インド覚書等リスト）",
+     "publisher": "外務省（経済産業省の同名資料と同じリスト）",
+     "url": "https://web.archive.org/web/20260309205421/https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "archived_from": "https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "外務省のPDFは調査環境からHTTP 403で開けなかったため、インターネットアーカイブの保存版（2026-03-09）にリンク。日本側・インド側の組織名と覚書等案件名称の一覧。経産省も同じリストを https://www.meti.go.jp/files/900018087.pdf で公開（調査環境から取得できず）。"
+    },
+    {
+     "id": "s2",
+     "title": "日印首脳会談及びワーキング・ディナー（令和7年8月29日）",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260213225648/https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "archived_from": "https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-13）。ページ末尾に『今次機会に発表された日印の企業間の覚書一覧（PDF）』へのリンク。"
+    },
+    {
+     "id": "s3",
+     "title": "日印経済フォーラムを開催しました",
+     "publisher": "経済産業省",
+     "url": "https://web.archive.org/web/20251012131342/https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "archived_from": "https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "経産省のページは調査環境（WebFetch）からHTTP 403のため保存版（2025-10-12）にリンク。2025年8月29日の日印経済フォーラムで、石破総理及びモディ首相の前で『2023年以降に締結された170件の覚書等』を発表したと記載。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "NSDCIをSOMPOケアの発表は『インド政府系機関』と記載しているため partner_type は public_agency とした。 正式名称・内容は一覧の件名による（原文・各社の発表は未確認）。",
+   "related_systems": [
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "外務省・経産省の一覧で締結（2023年以降）を確認したが、文書の有効期間や現在の効力を示す資料がないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "一覧の注記では、政府機関間以外の文書は各企業・団体の間で作成されたもので、政府は名称や内容の正しさを保証しない。"
+  },
+  {
+   "id": "JP-ORG-092",
+   "group_key": "ORG:SOMPOCARE-IN-NSDCI",
+   "renewal_of": null,
+   "title_ja": "インド介護人材の教育プログラム提供と日本への受入に関する覚書（SOMPOケア・NSDC International）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "SOMPOケア株式会社",
+   "japan_org_type": "company",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "NSDC International Limited（NSDCI。インド国家技能開発公社（NSDC）の子会社）",
+   "partner_org_en": "NSDC International Limited",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "ceremony_note": "2025年8月29日の日印経済フォーラム（経済産業省・ジェトロ・経団連・日印経済委員会・駐日インド大使館の主催）の『民間企業による覚書等発表式』で、石破総理・モディ首相の前で発表された170件の一つ。日本政府は当事者ではない（外務省・経産省の一覧に掲載されただけ）。",
+   "signed_date": null,
+   "announced_date": "2025-08-29",
+   "date_note": "一覧は2025年8月29日の日印経済フォーラムで発表された覚書等で、経産省は『2023年以降に締結された』と説明。個別の締結日は未確認。 SOMPOケアの発表では協業開始は2024年8月1日。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "介護",
+    "日本語教育"
+   ],
+   "purpose": "インド介護人材への教育プログラムの提供と日本への受入れ（一覧の件名による）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "SOMPOケアの発表（2024年8月）によると、NSDCIの教育センター内に介護専用の研修室を設置して研修を開始し、修了者は特定技能として同社の介護施設に配属される予定。",
+   "projects": [
+    {
+     "name": "NSDCI教育センター内の介護専用研修室",
+     "fiscal_year": "2024",
+     "detail": "2024年8月2日開校。約20名収容。日本語の基礎はNSDCI、日本式介護等はSOMPOケアの教育プログラム（SOMPOケアの発表）",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "今次機会に発表された日印の企業間の覚書一覧（日・インド覚書等リスト）",
+     "publisher": "外務省（経済産業省の同名資料と同じリスト）",
+     "url": "https://web.archive.org/web/20260309205421/https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "archived_from": "https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "外務省のPDFは調査環境からHTTP 403で開けなかったため、インターネットアーカイブの保存版（2026-03-09）にリンク。日本側・インド側の組織名と覚書等案件名称の一覧。経産省も同じリストを https://www.meti.go.jp/files/900018087.pdf で公開（調査環境から取得できず）。"
+    },
+    {
+     "id": "s2",
+     "title": "日印首脳会談及びワーキング・ディナー（令和7年8月29日）",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260213225648/https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "archived_from": "https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-13）。ページ末尾に『今次機会に発表された日印の企業間の覚書一覧（PDF）』へのリンク。"
+    },
+    {
+     "id": "s3",
+     "title": "日印経済フォーラムを開催しました",
+     "publisher": "経済産業省",
+     "url": "https://web.archive.org/web/20251012131342/https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "archived_from": "https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "経産省のページは調査環境（WebFetch）からHTTP 403のため保存版（2025-10-12）にリンク。2025年8月29日の日印経済フォーラムで、石破総理及びモディ首相の前で『2023年以降に締結された170件の覚書等』を発表したと記載。"
+    },
+    {
+     "id": "s4",
+     "title": "SOMPOケアとインド政府系機関NSDCIの協業による インドでの教育研修施設開設に関するお知らせ",
+     "publisher": "SOMPOケア株式会社（共同通信PRワイヤー配信）",
+     "url": "https://kyodonewsprwire.jp/release/202408094829",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2024年8月9日配信。NSDCIとの協業を2024年8月1日に開始、グレーター・ノイダ地区のNSDCI教育センター内に約20名収容の介護専用研修室を設置（8月2日開校式）、約9か月の学習後に特定技能として同社の介護施設に配属と記載。写真説明に『最終合意書締結』。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "一覧の件名は『…受入に関する覚書締結』。SOMPOケアの2024年8月の発表は『協業』と書き、写真説明に『最終合意書締結』とある（一覧の覚書と同じ文書かは未確認）。 正式名称・内容は一覧の件名による（原文・各社の発表は未確認）。",
+   "related_systems": [
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "外務省・経産省の一覧で締結（2023年以降）を確認したが、文書の有効期間や現在の効力を示す資料がないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "一覧の注記では、政府機関間以外の文書は各企業・団体の間で作成されたもので、政府は名称や内容の正しさを保証しない。"
+  },
+  {
+   "id": "JP-ORG-093",
+   "group_key": "ORG:ASEANONE-IN-ASSAM",
+   "renewal_of": null,
+   "title_ja": "アッサム州政府アッサム技能開発局とアセアン・ワン株式会社との間における、日本への就労を目的とした日本語学校設立に向けた協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "アセアン・ワン株式会社",
+   "japan_org_type": "company",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "インド・アッサム州政府（アッサム技能開発局）",
+   "partner_org_en": "Government of Assam",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "ceremony_note": "2025年8月29日の日印経済フォーラム（経済産業省・ジェトロ・経団連・日印経済委員会・駐日インド大使館の主催）の『民間企業による覚書等発表式』で、石破総理・モディ首相の前で発表された170件の一つ。日本政府は当事者ではない（外務省・経産省の一覧に掲載されただけ）。",
+   "signed_date": null,
+   "announced_date": "2025-08-29",
+   "date_note": "一覧は2025年8月29日の日印経済フォーラムで発表された覚書等で、経産省は『2023年以降に締結された』と説明。個別の締結日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "日本語教育",
+    "日本への就労"
+   ],
+   "purpose": "日本への就労を目的とした日本語学校の設立に向けた協力（一覧の件名による）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "今次機会に発表された日印の企業間の覚書一覧（日・インド覚書等リスト）",
+     "publisher": "外務省（経済産業省の同名資料と同じリスト）",
+     "url": "https://web.archive.org/web/20260309205421/https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "archived_from": "https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "外務省のPDFは調査環境からHTTP 403で開けなかったため、インターネットアーカイブの保存版（2026-03-09）にリンク。日本側・インド側の組織名と覚書等案件名称の一覧。経産省も同じリストを https://www.meti.go.jp/files/900018087.pdf で公開（調査環境から取得できず）。"
+    },
+    {
+     "id": "s2",
+     "title": "日印首脳会談及びワーキング・ディナー（令和7年8月29日）",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260213225648/https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "archived_from": "https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-13）。ページ末尾に『今次機会に発表された日印の企業間の覚書一覧（PDF）』へのリンク。"
+    },
+    {
+     "id": "s3",
+     "title": "日印経済フォーラムを開催しました",
+     "publisher": "経済産業省",
+     "url": "https://web.archive.org/web/20251012131342/https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "archived_from": "https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "経産省のページは調査環境（WebFetch）からHTTP 403のため保存版（2025-10-12）にリンク。2025年8月29日の日印経済フォーラムで、石破総理及びモディ首相の前で『2023年以降に締結された170件の覚書等』を発表したと記載。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "正式名称・内容は一覧の件名による（原文・各社の発表は未確認）。",
+   "related_systems": [],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "外務省・経産省の一覧で締結（2023年以降）を確認したが、文書の有効期間や現在の効力を示す資料がないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "一覧の注記では、政府機関間以外の文書は各企業・団体の間で作成されたもので、政府は名称や内容の正しさを保証しない。"
+  },
+  {
+   "id": "JP-ORG-094",
+   "group_key": "ORG:MITSUBISHICORP-IN-TVSMOBILITY",
+   "renewal_of": null,
+   "title_ja": "TMMEEP（TVS Mobility Mitsubishi Employee Exchange Program）日印人材交流事業に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "三菱商事株式会社",
+   "japan_org_type": "company",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "TVS Mobility Private Limited",
+   "partner_org_en": "TVS Mobility Private Limited",
+   "partner_type": "company",
+   "additional_partners": [],
+   "ceremony_note": "2025年8月29日の日印経済フォーラム（経済産業省・ジェトロ・経団連・日印経済委員会・駐日インド大使館の主催）の『民間企業による覚書等発表式』で、石破総理・モディ首相の前で発表された170件の一つ。日本政府は当事者ではない（外務省・経産省の一覧に掲載されただけ）。",
+   "signed_date": null,
+   "announced_date": "2025-08-29",
+   "date_note": "一覧は2025年8月29日の日印経済フォーラムで発表された覚書等で、経産省は『2023年以降に締結された』と説明。個別の締結日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "企業間の人材交流（社員交流プログラム）"
+   ],
+   "purpose": "三菱商事とTVS Mobilityの社員交流プログラム（日印人材交流事業）（一覧の件名による）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "今次機会に発表された日印の企業間の覚書一覧（日・インド覚書等リスト）",
+     "publisher": "外務省（経済産業省の同名資料と同じリスト）",
+     "url": "https://web.archive.org/web/20260309205421/https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "archived_from": "https://www.mofa.go.jp/mofaj/files/100897551.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "外務省のPDFは調査環境からHTTP 403で開けなかったため、インターネットアーカイブの保存版（2026-03-09）にリンク。日本側・インド側の組織名と覚書等案件名称の一覧。経産省も同じリストを https://www.meti.go.jp/files/900018087.pdf で公開（調査環境から取得できず）。"
+    },
+    {
+     "id": "s2",
+     "title": "日印首脳会談及びワーキング・ディナー（令和7年8月29日）",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260213225648/https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "archived_from": "https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02363.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-02-13）。ページ末尾に『今次機会に発表された日印の企業間の覚書一覧（PDF）』へのリンク。"
+    },
+    {
+     "id": "s3",
+     "title": "日印経済フォーラムを開催しました",
+     "publisher": "経済産業省",
+     "url": "https://web.archive.org/web/20251012131342/https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "archived_from": "https://www.meti.go.jp/press/2025/08/20250829005/20250829005.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "経産省のページは調査環境（WebFetch）からHTTP 403のため保存版（2025-10-12）にリンク。2025年8月29日の日印経済フォーラムで、石破総理及びモディ首相の前で『2023年以降に締結された170件の覚書等』を発表したと記載。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "交流の方向・人数・在留資格は資料上未確認。 正式名称・内容は一覧の件名による（原文・各社の発表は未確認）。",
+   "related_systems": [],
+   "foreign_relation": "indirect",
+   "acceptance_types": [
+    "two_way"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "外務省・経産省の一覧で締結（2023年以降）を確認したが、文書の有効期間や現在の効力を示す資料がないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "一覧の注記では、政府機関間以外の文書は各企業・団体の間で作成されたもので、政府は名称や内容の正しさを保証しない。"
+  },
+  {
+   "id": "JP-ORG-095",
+   "group_key": "ORG:KMLAB-UZ-MIGRATION",
+   "renewal_of": null,
+   "title_ja": "雇用・貧困削減分野における日本企業への就業支援に関する覚書（ナレッジマネジメント・ラボ・ウズベキスタン移民庁）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "一般社団法人ナレッジマネジメント・ラボ",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_org": "内閣付属移民庁（外務省の一覧の表記は『内閣府付属移民庁』、件名では『ウズベキスタン移民庁』）",
+   "partner_org_en": "",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "ceremony_note": "2025年12月20日の『中央アジア＋日本』対話・首脳会合／ビジネスフォーラムの文書披露セッションで、高市総理と中央アジア各国大統領の前で発表された覚書等の一つ。日本政府は当事者ではない（外務省・経産省の一覧に掲載されただけ）。",
+   "signed_date": "2025",
+   "announced_date": "2025-12-20",
+   "date_note": "経産省は、発表した158件を『2025年1月以降に締結された』覚書等と説明しており、締結年を2025年とした。月日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "日本企業への就業支援",
+    "雇用・貧困削減"
+   ],
+   "purpose": "雇用・貧困削減分野における日本企業への就業支援（一覧の件名による）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日本・ウズベキスタン 協力文書・案件リスト（ウズベキスタンとの成果文書リスト）",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260122230729/https://www.mofa.go.jp/mofaj/files/100957411.pdf",
+     "archived_from": "https://www.mofa.go.jp/mofaj/files/100957411.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "外務省のPDFは調査環境からHTTP 403で開けなかったため、インターネットアーカイブの保存版（2026-01-22）にリンク。日本側・ウズベキスタン側の組織名と文書・案件名を掲載。経産省の『中央アジア＋日本 ビジネスフォーラム覚書等リスト』（https://www.meti.go.jp/files/900018747.pdf 、curlで取得し同じ記載を確認）にも同じ件名がある。"
+    },
+    {
+     "id": "s2",
+     "title": "「中央アジア＋日本」対話・首脳会合",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260506075042/https://www.mofa.go.jp/mofaj/erp/ca_c/pageit_000001_02664.html",
+     "archived_from": "https://www.mofa.go.jp/mofaj/erp/ca_c/pageit_000001_02664.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-05-06）。2025年12月20日に首脳会合を開催し、官民合わせて150件以上の文書が署名・披露されたと記載。（参考1）今次会合の機会に署名された文書に、ウズベキスタンとの成果文書リストを掲載。"
+    },
+    {
+     "id": "s3",
+     "title": "「中央アジア＋日本」ビジネスフォーラムを開催しました",
+     "publisher": "経済産業省",
+     "url": "https://web.archive.org/web/20260119104643/https://www.meti.go.jp/press/2025/12/20251220001/20251220001.html",
+     "archived_from": "https://www.meti.go.jp/press/2025/12/20251220001/20251220001.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "経産省のページは調査環境（WebFetch）からHTTP 403のため保存版（2026-01-19）にリンク。文書披露セッションで『2025年1月以降に締結された158件の覚書等』を発表したと記載。同リストの注記は『ビジネスフォーラムを機に署名が行われたことが確認された文書』を取りまとめたものとする。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "正式名称・内容は一覧の件名による（原文・当事者の発表は未確認）。相手機関の正式な日本語名・英語名は資料上未確認。",
+   "related_systems": [],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "外務省・経産省の一覧で2025年の締結を確認したが、文書の有効期間や現在の効力を示す資料がないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "経産省の一覧の注記では、政府機関間以外の文書は各企業・団体の間で作成されたもので、政府は名称や内容の正しさを保証しない。"
+  },
+  {
+   "id": "JP-ORG-096",
+   "group_key": "ORG:ORIONCOMPUTER-UZ-MIGRATION",
+   "renewal_of": null,
+   "title_ja": "ウズベキスタン移民庁とオリオンコンピュータ株式会社による労働者派遣および雇用支援に関する基本合意書",
+   "title_original": "",
+   "doc_type": "基本合意書",
+   "doc_type_note": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "オリオンコンピュータ株式会社",
+   "japan_org_type": "company",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_org": "内閣付属移民庁（外務省の一覧の表記は『内閣府付属移民庁』、件名では『ウズベキスタン移民庁』）",
+   "partner_org_en": "",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "ceremony_note": "2025年12月20日の『中央アジア＋日本』対話・首脳会合／ビジネスフォーラムの文書披露セッションで、高市総理と中央アジア各国大統領の前で発表された覚書等の一つ。日本政府は当事者ではない（外務省・経産省の一覧に掲載されただけ）。",
+   "signed_date": "2025",
+   "announced_date": "2025-12-20",
+   "date_note": "経産省は、発表した158件を『2025年1月以降に締結された』覚書等と説明しており、締結年を2025年とした。月日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "労働者派遣",
+    "雇用支援"
+   ],
+   "purpose": "ウズベキスタンからの労働者派遣および雇用支援（一覧の件名による）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日本・ウズベキスタン 協力文書・案件リスト（ウズベキスタンとの成果文書リスト）",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260122230729/https://www.mofa.go.jp/mofaj/files/100957411.pdf",
+     "archived_from": "https://www.mofa.go.jp/mofaj/files/100957411.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "外務省のPDFは調査環境からHTTP 403で開けなかったため、インターネットアーカイブの保存版（2026-01-22）にリンク。日本側・ウズベキスタン側の組織名と文書・案件名を掲載。経産省の『中央アジア＋日本 ビジネスフォーラム覚書等リスト』（https://www.meti.go.jp/files/900018747.pdf 、curlで取得し同じ記載を確認）にも同じ件名がある。"
+    },
+    {
+     "id": "s2",
+     "title": "「中央アジア＋日本」対話・首脳会合",
+     "publisher": "外務省",
+     "url": "https://web.archive.org/web/20260506075042/https://www.mofa.go.jp/mofaj/erp/ca_c/pageit_000001_02664.html",
+     "archived_from": "https://www.mofa.go.jp/mofaj/erp/ca_c/pageit_000001_02664.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "保存版（2026-05-06）。2025年12月20日に首脳会合を開催し、官民合わせて150件以上の文書が署名・披露されたと記載。（参考1）今次会合の機会に署名された文書に、ウズベキスタンとの成果文書リストを掲載。"
+    },
+    {
+     "id": "s3",
+     "title": "「中央アジア＋日本」ビジネスフォーラムを開催しました",
+     "publisher": "経済産業省",
+     "url": "https://web.archive.org/web/20260119104643/https://www.meti.go.jp/press/2025/12/20251220001/20251220001.html",
+     "archived_from": "https://www.meti.go.jp/press/2025/12/20251220001/20251220001.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "経産省のページは調査環境（WebFetch）からHTTP 403のため保存版（2026-01-19）にリンク。文書披露セッションで『2025年1月以降に締結された158件の覚書等』を発表したと記載。同リストの注記は『ビジネスフォーラムを機に署名が行われたことが確認された文書』を取りまとめたものとする。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "正式名称・内容は一覧の件名による（原文・当事者の発表は未確認）。相手機関の正式な日本語名・英語名は資料上未確認。 オリオンコンピュータは同じ機会にカシュカダリヤ州カルシ市職業技能センターとも『人材育成および教育交流に関する覚書』を結んでいる（内容が外国人材の送出し・受入れか不明のため未登録）。",
+   "related_systems": [],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "外務省・経産省の一覧で2025年の締結を確認したが、文書の有効期間や現在の効力を示す資料がないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "経産省の一覧の注記では、政府機関間以外の文書は各企業・団体の間で作成されたもので、政府は名称や内容の正しさを保証しない。"
+  }
+ ]
+}

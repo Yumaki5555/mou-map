@@ -176,9 +176,9 @@
    "partner_org_en": "Hai Duong Province (now Hai Phong City)",
    "partner_type": "subnational_gov",
    "additional_partners": [],
-   "signed_date": "2019-10",
+   "signed_date": "2019-10-16",
    "announced_date": "",
-   "date_note": "2019年10月16日～20日の知事訪越中、ハノイの『2019 Vietnam Business Summit』の場で締結式（CLAIRレポート）。正確な日付は未確認。署名者は締結式写真の説明『締結式で握手する三反園知事とグエン・マイン・ヒエン議長』から記載。",
+   "date_note": "2019年10月16日（知事訪越の初日）、ハノイの『2019 Vietnam Business Summit』の場で締結式（CLAIRシンガポール事務所レポート）。同日に首相と会見した知事が『今回の訪越中に覚書を締結』と説明（ベトナム政府ポータル、2019年10月17日）。CLAIR調査票（鹿児島県の回答、令和2年1月29日現在）も2019年10月16日。署名者は締結式写真の説明『締結式で握手する三反園知事とグエン・マイン・ヒエン議長』から記載。",
    "fields": [
     "labor",
     "agri",
@@ -332,10 +332,19 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "『令和元年に連携協定を締結したベトナム北部のハイズオン省』と記載"
+    },
+    {
+     "id": "s5",
+     "title": "PM receives Governor of Japan's Kagoshima prefecture（2019年10月17日）",
+     "publisher": "ベトナム政府ポータル（Government News）",
+     "url": "https://en.baochinhphu.vn/pm-receives-governor-of-japans-kagoshima-prefecture-11136404.htm",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "10月16日の首相会見で、訪越中にハイズオン省と人材育成・農業技術分野の覚書を締結したと説明"
     }
    ],
    "survey_stage": 1,
-   "last_checked": "2026-10-27",
+   "last_checked": "2026-10-28",
    "notes": "ハイズオン省は2025年7月の省・市再編でハイフォン市となった（県資料）。",
    "validity_state": "unconfirmed",
    "validity_basis": "県資料（2026-03公開）に連携協定（令和元年10月）と協定に基づく交流が記載されているが、有効期間・効力の明記がなく、交流が続いているというだけでは有効確認にならない。",

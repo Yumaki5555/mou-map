@@ -73,6 +73,9 @@ export function computeMapModel(db, st) {
   if (st.mode === 'status') base.status = st.status;
   const prefGroups = (st.mode === 'country' && !st.countries.length) ? [] : filterGroups(db, { ...base, level: 'prefecture' });
   const natGroups = (st.mode === 'country' && !st.countries.length) ? [] : filterGroups(db, { ...base, level: 'national' });
+  // 市区町村・団体などの協定は、都道府県の色・件数に入れず別に数える
+  const cityGroups = (st.mode === 'country' && !st.countries.length) ? [] : filterGroups(db, { ...base, level: 'municipality' });
+  const orgGroups = (st.mode === 'country' && !st.countries.length) ? [] : filterGroups(db, { ...base, level: 'organization' });
   const counts = countByPref(prefGroups);
   // いまの数え方では0件だが、範囲を広げると締結済みの協定がある県（「0件」や「該当なし」と区別する）
   const wider = (st.mode === 'country' && !st.countries.length) ? new Map() : countByPref(filterGroups(db, { ...base, validity: 'all', docScope: 'all', level: 'prefecture' }));
@@ -134,7 +137,7 @@ export function computeMapModel(db, st) {
   }
   return finish({ fill, legend, legendTitle, tipLine, title, counts, byPref, prefGroups, natGroups });
 
-  function finish(o) { return { ...o, zero, wider }; }
+  function finish(o) { return { cityGroups, orgGroups, ...o, zero, wider }; }
 }
 
 export function mapPage(ctx) {
@@ -257,7 +260,10 @@ function refresh(ctx) {
   const sel = root.querySelector('#sel-box');
   if (st.pref) {
     const pn = db.prefByCode.get(st.pref).name;
-    sel.innerHTML = `<div class="sel-box"><span class="sel-k">選択中</span><b>${esc(pn)}</b><span>${esc(model.tipLine(st.pref))}</span>
+    const nCity = model.cityGroups.filter(g => g.pref_code === st.pref).length;
+    const nRel = model.orgGroups.filter(g => g.regions.includes(st.pref)).length;
+    const extra = [nCity ? `県内の市区町村が締結 ${nCity}件` : '', nRel ? `この地域に関連する事業（団体などの協定）${nRel}件` : ''].filter(Boolean).join('／');
+    sel.innerHTML = `<div class="sel-box"><span class="sel-k">選択中</span><b>${esc(pn)}</b><span>${esc(pn)}が締結：${esc(model.tipLine(st.pref))}${extra ? `<br><span class="small">別に数えるもの：${esc(extra)}</span>` : ''}</span>
       <a class="btn btn-small btn-outline" href="#/pref/${st.pref}">${esc(pn)}のページ</a>
       <button type="button" class="btn btn-small btn-outline" data-rm-p2>選択を解除</button></div>`;
     sel.querySelector('[data-rm-p2]').addEventListener('click', () => go({ pref: null }));
@@ -268,7 +274,10 @@ function refresh(ctx) {
   // 全国枠（国・省庁）
   root.querySelector('#national-box').innerHTML = `<div class="small" style="font-weight:700">全国が対象：国・省庁が締結した協定</div>
     <div><span class="n">${model.natGroups.length}</span> 件 <span class="small muted">（同じ条件で数えた件数。都道府県の件数とは別）</span></div>
-    <a href="#/national">国・省庁の協定の一覧を見る</a>`;
+    <a href="#/national">国・省庁の協定の一覧を見る</a>
+    ${model.cityGroups.length || model.orgGroups.length ? `<div class="small" style="margin-top:8px;font-weight:700">地図の色に含めないもの</div>
+    <div class="small">${model.cityGroups.length ? `市区町村が締結：<b>${model.cityGroups.length}</b>件` : ''}${model.cityGroups.length && model.orgGroups.length ? '／' : ''}${model.orgGroups.length ? `団体・企業などが締結：<b>${model.orgGroups.length}</b>件` : ''}<br><span class="muted">都道府県が締結したものではないため別に数えます</span></div>
+    <a href="#/actors">締結主体から探す</a>` : ''}`;
 
   // 操作結果（地図の下）
   const chips = [`<span class="chip chip-plain">表示：${esc(MODES.find(m => m.code === st.mode).ja)}</span>`];
@@ -309,6 +318,11 @@ function refresh(ctx) {
       <p><a class="btn btn-outline btn-small" href="#/pref/${st.pref}">${esc(pn)}の詳しいページへ</a></p>`;
     if (!shown.length) html += `<p>${esc(pn)}：${esc(ZERO_STATES[model.zero(st.pref)].ja)}。${esc(ZERO_STATES[model.zero(st.pref)].desc)}。${model.zero(st.pref) === 'scope_zero' ? `<a href="#/pref/${st.pref}">${esc(pn)}のページ</a>で、有効性未確認・終了したものを含めて見られます。` : ''}</p>`;
     else html += mouList(db, sorted);
+    const cities = model.cityGroups.filter(g => g.pref_code === st.pref);
+    const related = model.orgGroups.filter(g => g.regions.includes(st.pref));
+    if (cities.length) html += `<h3>${esc(pn)}内の市区町村が締結した協定（${cities.length}件、県の件数とは別）</h3>${mouList(db, sortGroups(cities), { h: 'h4' })}`;
+    if (related.length) html += `<h3>${esc(pn)}に関連する事業（団体・企業などの協定、${related.length}件）</h3>
+      <p class="small">${esc(pn)}が締結した協定ではなく、関連する事業が${esc(pn)}で行われたと公式資料で確認できたものです。${esc(pn)}の件数には含めていません。</p>${mouList(db, sortGroups(related), { h: 'h4' })}`;
   } else if (!(st.mode === 'country' && !st.countries.length)) {
     html += `<h2>該当する都道府県の協定（${shown.length}件）</h2>${mouList(db, sorted)}`;
   }
