@@ -1,136 +1,32 @@
 [
  {
-  "url": "https://www.mhlw.go.jp/stf/houdou/0000045845.html",
-  "status": 404,
-  "msg": "Not Found",
-  "used_by": [
-   "JP-NAT-001:s2"
-  ]
- },
- {
-  "url": "https://www.mhlw.go.jp/stf/houdou/0000126140.html",
-  "status": 404,
-  "msg": "Not Found",
-  "used_by": [
-   "JP-NAT-002:s2"
-  ]
- },
- {
-  "url": "https://www.mhlw.go.jp/stf/houdou/0000205186.html",
-  "status": 404,
-  "msg": "Not Found",
-  "used_by": [
-   "JP-NAT-045:s1"
-  ]
- },
- {
-  "url": "https://www.pref.miyagi.jp/soshiki/kokusaisei/r6miyagijobfair.html",
-  "status": 404,
-  "msg": "Not Found",
+  "url": "https://web.archive.org/web/20260306022749/https://www.pref.miyagi.jp/soshiki/kokusaisei/r6miyagijobfair.html",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
   "used_by": [
    "JP-04-003:s9"
   ]
  },
  {
-  "url": "https://www.pref.miyagi.jp/documents/55566/20241227press_release_cambodia.pdf",
-  "status": 404,
-  "msg": "Not Found",
-  "used_by": [
-   "JP-04-004:s4"
-  ]
- },
- {
-  "url": "https://mataram.antaranews.com/berita/480785/indonesia-miyagi-strengthen-cooperation-on-migrant-workers",
-  "status": "ERR",
-  "msg": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.",
-  "used_by": [
-   "JP-04-005:s4"
-  ]
- },
- {
-  "url": "https://en.qdnd.vn/social-affairs/news/vietnam-japan-promote-human-resource-development-cooperation-503842",
-  "status": 302,
-  "msg": "The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Temporarily",
-  "used_by": [
-   "JP-12-001:s4"
-  ]
- },
- {
-  "url": "https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/ryoritsushien/documents/siryou3-1bessi_jinnzaiikuseioboegaki.pdf",
-  "status": 404,
-  "msg": "Not Found",
+  "url": "https://web.archive.org/web/20250813041945/https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/ryoritsushien/documents/siryou3-1bessi_jinnzaiikuseioboegaki.pdf",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
   "used_by": [
    "JP-20-002:s3"
   ]
  },
  {
-  "url": "https://www.pref.osaka.lg.jp/documents/39548/hodo-48584_7.pdf",
-  "status": 404,
-  "msg": "Not Found",
+  "url": "https://web.archive.org/web/20241012213028/https://www.pref.osaka.lg.jp/hodo/fumin/o090040/prs_48584.html",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
   "used_by": [
    "JP-27-003:s1"
   ]
  },
  {
-  "url": "https://www.pref.nara.jp/secure/317551/陝西省との覚書.pdf",
-  "status": "ERR",
-  "msg": "'ascii' codec can't encode characters in position 19-25: ordinal not in range(128)",
-  "used_by": [
-   "JP-29-001:s1"
-  ]
- },
- {
-  "url": "https://www.pref.nara.jp/secure/317601/フートー省との覚書.pdf",
-  "status": "ERR",
-  "msg": "'ascii' codec can't encode characters in position 19-27: ordinal not in range(128)",
-  "used_by": [
-   "JP-29-002:s1"
-  ]
- },
- {
-  "url": "https://www.pref.nara.jp/secure/216719/資料２.pdf",
-  "status": "ERR",
-  "msg": "'ascii' codec can't encode characters in position 19-21: ordinal not in range(128)",
-  "used_by": [
-   "JP-29-003:s1"
-  ]
- },
- {
-  "url": "https://www.pref.nara.jp/secure/323601/houdousiryou.pdf",
-  "status": "ERR",
-  "msg": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>",
-  "used_by": [
-   "JP-29-004:s1"
-  ]
- },
- {
-  "url": "https://imm.or.jp/cms/wp-content/uploads/2023/11/News-Letter-No.007_【愛媛県】スリランカ労働・海外雇用省と技能実習受入れに関するビジネスミーティングを開催.pdf",
-  "status": "ERR",
-  "msg": "'ascii' codec can't encode characters in position 55-97: ordinal not in range(128)",
-  "used_by": [
-   "JP-38-004:s2"
-  ]
- },
- {
-  "url": "https://www.pref.nagasaki.jp/shared/uploads/2022/08/1661129637.pdf",
-  "status": 404,
-  "msg": "Not Found",
-  "used_by": [
-   "JP-42-002:s1"
-  ]
- },
- {
-  "url": "https://en.qdnd.vn/foreign-affairs/bilateral-relations/japan-s-prefecture-supports-vietnamese-workers-students-522678",
-  "status": 302,
-  "msg": "The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Temporarily",
-  "used_by": [
-   "JP-42-002:s2"
-  ]
- },
- {
-  "url": "https://www.pref.kagoshima.jp/ag05/sangyo-rodo/nogyo/keiei/vnua.html",
-  "status": 404,
-  "msg": "Not Found",
+  "url": "https://web.archive.org/web/20260121042956/https://www.pref.kagoshima.jp/ag05/sangyo-rodo/nogyo/keiei/vnua.html",
+  "result": "要確認",
+  "msg": "HTTP 429（ブラウザで開いて確かめてください）",
   "used_by": [
    "JP-46-004:s4"
   ]

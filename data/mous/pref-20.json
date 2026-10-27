@@ -139,17 +139,16 @@
      "id": "s3",
      "title": "ベトナム社会主義共和国労働・傷病兵・社会問題省と日本国長野県との人材育成に関する覚書（会議資料別紙）",
      "publisher": "長野県",
-     "url": "https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/ryoritsushien/documents/siryou3-1bessi_jinnzaiikuseioboegaki.pdf",
+     "url": "https://web.archive.org/web/20250813041945/https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/ryoritsushien/documents/siryou3-1bessi_jinnzaiikuseioboegaki.pdf",
      "type": "original_text",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得）。2026-10-27時点でURLは「ページが見つかりません」",
-     "link_status": "not_found",
-     "link_checked": "2026-10-27"
+     "note": "長野県のサイトから削除済み。インターネットアーカイブの保存版（2025-08-13保存）で覚書本文（第1〜4条、2019年8月14日署名、海外労働管理局長と長野県知事の署名）を確認。",
+     "archived_from": "https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/ryoritsushien/documents/siryou3-1bessi_jinnzaiikuseioboegaki.pdf"
     }
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "覚書本文の和文がかつて県サイトに掲載されていたが、確認時点では削除済みのため有効期間・法的拘束力は未確認。2024年12月の県議会海外調査報告書に長野県とホーチミン市との覚書に関する記述があるとの検索結果があったが、未確認のため記録していない。"
+   "notes": "覚書本文の和文は県サイトから削除済みのため、インターネットアーカイブの保存版を出典s3に記載。有効期間・法的拘束力は未確認。2024年12月の県議会海外調査報告書に長野県とホーチミン市との覚書に関する記述があるとの検索結果があったが、未確認のため記録していない。"
   }
  ]
 }

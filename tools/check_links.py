@@ -53,6 +53,10 @@ def collect():
                 urls.setdefault(s["url"], []).append(f"{m['id']}:{s['id']}")
         if not (isinstance(data, dict) and "mous" in data):
             walk(data, name, False)
+    # 画面の文章に直接書いてあるリンク（地図の出典など）
+    for f in [os.path.join(ROOT, "index.html")] + glob.glob(os.path.join(ROOT, "assets", "js", "*.js")):
+        for u in re.findall(r'href="(https?://[^"$]+)"', open(f, encoding="utf-8").read()):
+            urls.setdefault(u, []).append(os.path.relpath(f, ROOT).replace("\\", "/"))
     return urls
 
 
@@ -106,11 +110,15 @@ def check(url, retry=2):
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     urls = collect()
-    bad = []
+    # インターネットアーカイブは一度に多く開くと断られるため、1件ずつ間をあけて確認する
+    slow = [u for u in urls if "web.archive.org" in u]
+    results = []
     with concurrent.futures.ThreadPoolExecutor(8) as ex:
-        for url, result, msg in ex.map(check, urls):
-            if result != "OK":
-                bad.append({"url": url, "result": result, "msg": msg, "used_by": urls[url]})
+        results += ex.map(check, [u for u in urls if u not in slow])
+    for u in slow:
+        results.append(check(u))
+        time.sleep(3)
+    bad = [{"url": url, "result": result, "msg": msg, "used_by": urls[url]} for url, result, msg in results if result != "OK"]
     broken = [b for b in bad if b["result"] == "リンク切れ"]
     print(f"確認したURL：{len(urls)}件　リンク切れ：{len(broken)}件　要確認：{len(bad) - len(broken)}件")
     for b in bad:

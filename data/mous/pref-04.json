@@ -347,14 +347,13 @@
     },
     {
      "id": "s9",
-     "title": "令和6年度インドネシア共和国でのジョブフェア開催業務の企画提案を募集します",
+     "title": "令和6年度インドネシア共和国でのジョブフェア開催業務の企画提案を募集します（2024年5月2日掲載）",
      "publisher": "宮城県",
-     "url": "https://www.pref.miyagi.jp/soshiki/kokusaisei/r6miyagijobfair.html",
+     "url": "https://web.archive.org/web/20260306022749/https://www.pref.miyagi.jp/soshiki/kokusaisei/r6miyagijobfair.html",
      "type": "official_page",
      "checked": "2026-10-27",
-     "note": "2026-10-27時点でHTTP 404。検索結果の抜粋で確認（本文未取得）",
-     "link_status": "not_found",
-     "link_checked": "2026-10-27"
+     "note": "宮城県のサイトから削除済み。インターネットアーカイブの保存版（2026-03-06保存）で題名・本文を確認（インドネシア共和国労働省との協力覚書（令和5年7月）にもとづく事業。業務委託候補者は東洋ワーク株式会社）。",
+     "archived_from": "https://www.pref.miyagi.jp/soshiki/kokusaisei/r6miyagijobfair.html"
     },
     {
      "id": "s10",
@@ -460,14 +459,13 @@
     },
     {
      "id": "s4",
-     "title": "カンボジア王国訪問結果（20241227press_release_cambodia）",
+     "title": "カンボジア労働職業訓練省との覚書の締結等について（令和6年12月27日記者発表）",
      "publisher": "宮城県",
-     "url": "https://www.pref.miyagi.jp/documents/55566/20241227press_release_cambodia.pdf",
+     "url": "https://web.archive.org/web/20251017195818/https://www.pref.miyagi.jp/documents/55566/20241227press_release_cambodia.pdf",
      "type": "press_release",
      "checked": "2026-10-27",
-     "note": "2026-10-27時点でHTTP 404。検索結果の抜粋で確認（本文未取得）",
-     "link_status": "not_found",
-     "link_checked": "2026-10-27"
+     "note": "宮城県のサイトから削除済み。インターネットアーカイブの保存版（2025-10-17保存）で本文を確認（2024年12月27日、プノンペンの労働職業訓練省で「カンボジア人材の送り出し及び受け入れの推進に関する覚書」を締結。同日にフン・マネット首相を表敬）。",
+     "archived_from": "https://www.pref.miyagi.jp/documents/55566/20241227press_release_cambodia.pdf"
     }
    ],
    "survey_stage": 1,
@@ -565,9 +563,7 @@
      "url": "https://mataram.antaranews.com/berita/480785/indonesia-miyagi-strengthen-cooperation-on-migrant-workers",
      "type": "news",
      "checked": "2026-10-27",
-     "note": "2025年8月20日のカルディン大臣と村井知事の会談を報道。覚書署名への言及はなし",
-     "link_status": "error",
-     "link_checked": "2026-10-27"
+     "note": "2025年8月20日のカルディン大臣と村井知事の会談を報道。覚書署名への言及はなし"
     }
    ],
    "survey_stage": 1,

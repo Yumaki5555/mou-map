@@ -164,14 +164,22 @@
    "sources": [
     {
      "id": "s1",
-     "title": "hodo-48584_7（大阪府報道発表資料の添付PDF。覚書本文とみられる）",
+     "title": "大阪府福祉部とベトナム社会主義共和国ドンア大学との介護分野における協力に関する覚書（MOU）を締結しました（報道発表、2023年8月23日）",
      "publisher": "大阪府",
-     "url": "https://www.pref.osaka.lg.jp/documents/39548/hodo-48584_7.pdf",
+     "url": "https://web.archive.org/web/20241012213028/https://www.pref.osaka.lg.jp/hodo/fumin/o090040/prs_48584.html",
      "type": "press_release",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得）。2026-10-27時点でURLは404（ページが見つかりません）。",
-     "link_status": "not_found",
-     "link_checked": "2026-10-27"
+     "note": "報道発表ページと添付の覚書本文PDF（hodo-48584_7.pdf）は大阪府のサイトから削除済みで、PDFの保存版はない。報道発表ページのインターネットアーカイブ保存版（2024-10-12保存）で題名・本文を確認。",
+     "archived_from": "https://www.pref.osaka.lg.jp/hodo/fumin/o090040/prs_48584.html"
+    },
+    {
+     "id": "s2",
+     "title": "令和8年度外国人介護人材マッチング支援業務委託仕様書",
+     "publisher": "大阪府（福祉部）",
+     "url": "https://www.pref.osaka.lg.jp/documents/126841/04_r8siyousyo.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "「大阪府と覚書を締結しているベトナムのドンア大学の学生」が対象との記載を確認（覚書が現在も続いていることが分かる）。"
     }
    ],
    "survey_stage": 1,
