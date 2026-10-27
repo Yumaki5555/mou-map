@@ -1,0 +1,278 @@
+{
+ "note": "奈良県のMOU",
+ "mous": [
+  {
+   "id": "JP-29-001",
+   "group_key": "29:29-CN-Shaanxi-general",
+   "renewal_of": null,
+   "title_ja": "奈良県と陝西省との友好県省関係の発展に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "名称は検索結果抜粋の表現（本文未取得）",
+   "japan_level": "prefecture",
+   "japan_org": "奈良県",
+   "pref_code": "29",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "陝西省",
+   "partner_org_en": "Shaanxi Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2009-04-16",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "other",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "",
+   "content": [
+    "窓口は奈良県国際観光課と陝西省の友好協会部署（抜粋）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "その後陝西省とは友好提携を締結（抜粋）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "陝西省との覚書（PDF）",
+     "publisher": "奈良県",
+     "url": "https://www.pref.nara.jp/secure/317551/陝西省との覚書.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得、県サイトの証明書期限切れ）。",
+     "link_status": "error",
+     "link_checked": "2026-10-27"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "友好提携前段の覚書。"
+  },
+  {
+   "id": "JP-29-002",
+   "group_key": "29:29-VN-PhuTho-general",
+   "renewal_of": null,
+   "title_ja": "奈良県とフートー省との友好県省関係の発展に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "名称は検索結果抜粋の表現（本文未取得）",
+   "japan_level": "prefecture",
+   "japan_org": "奈良県",
+   "pref_code": "29",
+   "japan_signatory": "知事",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "フートー省人民委員会",
+   "partner_org_en": "Phu Tho Provincial People's Committee",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2014-01-22",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "other",
+    "education",
+    "economy",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "",
+   "content": [
+    "教育・経済・文化観光の3分野で交流と協力を進める（抜粋）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "フートー省との覚書（PDF）",
+     "publisher": "奈良県",
+     "url": "https://www.pref.nara.jp/secure/317601/フートー省との覚書.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得、県サイトの証明書期限切れ）。",
+     "link_status": "error",
+     "link_checked": "2026-10-27"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "友好関係の発展を目的とする覚書。"
+  },
+  {
+   "id": "JP-29-003",
+   "group_key": "29:29-CN-Tsinghua-education",
+   "renewal_of": null,
+   "title_ja": "奈良県と清華大学との包括交流に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "奈良県",
+   "pref_code": "29",
+   "japan_signatory": "知事 荒井正吾",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "清華大学",
+   "partner_org_en": "Tsinghua University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2019-08-21",
+   "announced_date": "",
+   "date_note": "相手側署名者は邱勇学長（抜粋）。",
+   "fields": [
+    "education",
+    "tourism",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "",
+   "content": [
+    "学術研究、教育の推進、文化・芸術の振興、産業の振興、人材の交流及び育成など（抜粋）"
+   ],
+   "validity": "署名当日から効力を生じる（抜粋）。期間は未確認。",
+   "validity_type": "fixed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2022年9月24日～12月4日に清華大学芸術博物館で『日中交流二千年 アジアをつなぐ美と精神』展を奈良県・清華大学友好提携事業として開催（抜粋）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "資料２（奈良県と清華大学の覚書関係資料）",
+     "publisher": "奈良県",
+     "url": "https://www.pref.nara.jp/secure/216719/資料２.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得、県サイトの証明書期限切れ）。",
+     "link_status": "error",
+     "link_checked": "2026-10-27"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "和歌山県も清華大学と包括交流に関する覚書を締結（G4-30-15）。"
+  },
+  {
+   "id": "JP-29-004",
+   "group_key": "29:29-VN-Hue-general",
+   "renewal_of": null,
+   "title_ja": "奈良県とフエ市の友好交流協力関係の樹立に関する合意覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "正式名称は県報道資料の抜粋の表現（本文未取得）",
+   "japan_level": "prefecture",
+   "japan_org": "奈良県",
+   "pref_code": "29",
+   "japan_signatory": "知事 山下真",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "フエ市人民委員会",
+   "partner_org_en": "Hue City People's Committee",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2025-06-04",
+   "announced_date": "",
+   "date_note": "第14回東アジア地方政府会合（フエ市、2025年6月5日～7日）に合わせて締結。相手側署名者はグエン・ヴァン・フォン人民委員会委員長。",
+   "fields": [
+    "other",
+    "labor",
+    "education",
+    "tourism",
+    "agri",
+    "economy"
+   ],
+   "labor_detail": [
+    "労働と雇用（協力分野として明記）",
+    "人材交流",
+    "高度人材（知事発言：まずは高度人材分野で具体化）"
+   ],
+   "purpose": "友好交流協力関係の樹立（名称より）。",
+   "content": [
+    "文化交流、観光、文化財保存、人材交流、労働と雇用、農業、教育、貿易・投資等の分野での協力関係の推進"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "具体的な交流内容は事務局間で調整中と県資料抜粋に記載。2026年度に次世代養成事業としてフエ市への青年派遣を募集（検索結果抜粋）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "employment",
+     "stage": "agreed",
+     "text": "協力分野に『人材交流』『労働と雇用』を含むことで合意（県報道資料の抜粋）",
+     "value": null,
+     "unit": "",
+     "fiscal_year": "2025",
+     "causality": "n/a",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "フエ市との覚書締結に関する報道資料",
+     "publisher": "奈良県",
+     "url": "https://www.pref.nara.jp/secure/323601/houdousiryou.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）。県サイトのSSL証明書期限切れのため取得不可。題名は抜粋からの要約。",
+     "link_status": "error",
+     "link_checked": "2026-10-27"
+    },
+    {
+     "id": "s2",
+     "title": "Huế, Japan's Nara prefecture cooperate to promote cultural heritage values",
+     "publisher": "Viet Nam News",
+     "url": "https://vietnamnews.vn/life-style/1718952/hue-japan-s-nara-prefecture-cooperate-to-promote-cultural-heritage-values.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）。フエ市人民委員会委員長と山下知事がMoUに署名と報道。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "総合的な友好交流協力の覚書で、外国人材受入れの具体的手続きは確認できず。県は別途、ホーチミン市工科大学の学生を県内企業で約8週間受け入れる『ベトナム大学生インターン招聘事業』を実施（2026年度：受入企業10社・学生10名、パソナに委託、検索結果抜粋）。知事は同様のインターンシップ制度をフエ大学とも進める考えを表明（抜粋）。"
+  }
+ ]
+}

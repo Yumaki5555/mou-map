@@ -1,0 +1,211 @@
+{
+ "note": "長崎県のMOU",
+ "mous": [
+  {
+   "id": "JP-42-001",
+   "group_key": "42:42-VN-QuangNam-economy",
+   "renewal_of": null,
+   "title_ja": "長崎県とクァンナム省の協力に関する覚書（報道表現、2018年）",
+   "title_original": "",
+   "doc_type": "MOU",
+   "doc_type_note": "報道で MoU と表記。正式名称未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "長崎県",
+   "pref_code": "42",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "クァンナム省",
+   "partner_org_en": "Quang Nam Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2018-08-19",
+   "announced_date": "",
+   "date_note": "報道（2018年8月29日付）で『8月19日、ホイアンの日本文化デー期間中に署名』。",
+   "fields": [
+    "economy",
+    "agri",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "直行便就航と、工業・農業・水産・貿易・観光分野の協力強化（報道）。",
+   "content": [
+    "直行便の就航（報道）",
+    "工業、農業、水産、貿易、観光分野の協力強化（報道）",
+    "観光に資する人材育成・管理・遺産保全の推進（報道）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "news_only",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Nagasaki, Quảng Nam to launch direct flights (2018-08-29)",
+     "publisher": "Viet Nam News",
+     "url": "https://vietnamnews.vn/economy/464735/nagasaki-quang-nam-to-launch-direct-flights.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "署名者名の記載なし"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）として記録。日本側公式資料未確認。"
+  },
+  {
+   "id": "JP-42-002",
+   "group_key": "42:42-VN-QuangNam-labor",
+   "renewal_of": null,
+   "title_ja": "人的資源交換に関する覚書（長崎県とクァンナム省）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県資料（検索結果の抜粋）では『クァンナム省及び長崎県により締結された人的資源交換覚書』と表記。英語報道では memorandum of understanding on personnel cooperation。正式名称未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "長崎県",
+   "pref_code": "42",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "クァンナム省",
+   "partner_org_en": "Quang Nam Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2019-10-08",
+   "announced_date": "",
+   "date_note": "県資料（検索結果の抜粋）に『2019年10月8日、長崎県にて』締結と記載。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "看護",
+    "介護"
+   ],
+   "purpose": "クァンナム省の技能実習生や労働者の長崎県への派遣を促進し、人財の質の向上及びクァンナム省の経済発展並びに長崎県の経済の促進に寄与する（県資料の検索結果抜粋）。",
+   "content": [
+    "クァンナム省の技能実習生や労働者の長崎県への派遣の促進",
+    "（実施面・県資料の検索結果抜粋）クァンナム省労働傷病兵社会局が、派遣に向けた相談対応・労働者の選抜・訓練の拠点としてSULECO海外実習生技術者派遣サービス株式会社に業務を委託することで合意",
+    "（同）クァンナム医科短期大学と協力し、看護・介護職を含む人材を長崎県へ送る取組に言及"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "県資料（2022年8月）でベトナムとのMOU締結を県の取組として紹介していた（検索結果の抜粋）。2023年8月に大石知事がクアンナム省人民委員長らと意見交換（JETRO記事）。受入実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "長崎県資料（2022年8月掲載PDF、外国人材関係セミナー資料とみられる）",
+     "publisher": "長崎県",
+     "url": "https://www.pref.nagasaki.jp/shared/uploads/2022/08/1661129637.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）。県サイトのリニューアルにより2026-10-27時点で404",
+     "link_status": "not_found",
+     "link_checked": "2026-10-27"
+    },
+    {
+     "id": "s2",
+     "title": "Japan's prefecture supports Vietnamese workers, students",
+     "publisher": "Quan Doi Nhan Dan（ベトナム人民軍機関紙）",
+     "url": "https://en.qdnd.vn/foreign-affairs/bilateral-relations/japan-s-prefecture-supports-vietnamese-workers-students-522678",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）。『In October 2019, the Japanese prefecture and the Central province of Quang Nam signed a memorandum of understanding on personnel cooperation』"
+    },
+    {
+     "id": "s3",
+     "title": "日本の地方自治体とベトナムの関係が深化（2024年5月20日）",
+     "publisher": "日本貿易振興機構（JETRO）",
+     "url": "https://www.jetro.go.jp/biz/areareports/2024/bfd2f8042432b332.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "2023年8月の大石知事のクアンナム省訪問・意見交換を記載（覚書の記載はなし）"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "一次資料の本文を取得できていない（県PDFが404）。県の現行サイトでの再確認が必要。長崎県とクァンナム省は2017年に友好交流関係を樹立（外務省資料の検索結果抜粋、除外）。"
+  },
+  {
+   "id": "JP-42-003",
+   "group_key": "42:42-VN-DongACollege-labor",
+   "renewal_of": null,
+   "title_ja": "長崎県福祉保健部とドンア短期大学（ダナン市）との人材育成・採用に関する覚書（報道表現）",
+   "title_original": "Memorandum of Understanding on human resources training and recruitment",
+   "doc_type": "MOU",
+   "doc_type_note": "ベトナム報道の表現。正式名称未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "長崎県（福祉保健部）",
+   "pref_code": "42",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ドンア短期大学（ダナン市）",
+   "partner_org_en": "Dong A College (Da Nang)",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2020-11-20",
+   "announced_date": "",
+   "date_note": "報道（2020年11月21日付）で『11月20日にオンライン式典で署名』。",
+   "fields": [
+    "labor",
+    "medical"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生"
+   ],
+   "purpose": "ベトナム中部の学生を2021年から医療・介護サービス分野で働き学ぶ人材として受け入れる（報道）。",
+   "content": [
+    "長崎県は2021年からベトナム中部の1年生を医療・介護サービス分野での就労・就学のため受け入れる（報道）",
+    "学生には語学授業、宿泊先、日本での長期雇用の可能性を提供（報道）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "県側の公式発表・受入実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "news_only",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Nagasaki begins manpower drive in central Việt Nam (2020-11-21)",
+     "publisher": "Viet Nam News",
+     "url": "https://vietnamnews.vn/society/809662/nagasaki-begins-manpower-drive-in-central-viet-nam.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "署名主体を『Nagasaki's Healthcare and Social Welfare Bureau』と記載。発表者は同局長（報道表記 Nakata Katsumi、漢字表記未確認）"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "日本側公式資料は見つからなかった。県福祉保健部が署名主体とされているが、個人署名者は報道に記載なし。"
+  }
+ ]
+}

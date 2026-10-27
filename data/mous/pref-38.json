@@ -1,0 +1,725 @@
+{
+ "note": "愛媛県のMOU",
+ "mous": [
+  {
+   "id": "JP-38-001",
+   "group_key": "38:38-VN-BenTre-VinhLong-economy",
+   "renewal_of": null,
+   "title_ja": "ベトナム社会主義共和国ベンチェ省人民委員会及び日本国愛媛県間 経済協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛媛県",
+   "pref_code": "38",
+   "japan_signatory": "知事 中村時広",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベンチェ省人民委員会（代表者：Tran Ngoc Tam 省人民委員会委員長）",
+   "partner_org_en": "",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2022-08-01",
+   "announced_date": "",
+   "date_note": "原文『本日、2022年８月１日、ベンチェ省人民委員会にて』",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "持続的な経済協力関係の構築・強化を通じて、お互いの経済発展促進を図る（原文第1条）。",
+   "content": [
+    "相互の経済発展及び地域間交流を支援するために、貿易・産業・投資・技術・人材育成の発展に協力する",
+    "相互の緊密化と、地域や企業の発展のために、情報交換を促進し、事業機会を創出することに努める",
+    "ビジネス交流会・商談会・技術発表会・会議・セミナー・シンポジウム等の開催に対して協力する",
+    "農林水産物の加工産業や気候変動対策等のSDGs関連事業などのお互いの関心の高い分野における取組を優先して推進する",
+    "窓口：ベンチェ省は投資起業促進センター、愛媛県は産業政策課"
+   ],
+   "validity": "この覚書は両者の署名をもって有効となり、有効期間は３年間とする（原文第4条4）",
+   "validity_type": "fixed",
+   "valid_until": "2025-07-31",
+   "valid_until_note": "締結日（2022-08-01）と有効期間（3年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "自動更新の記載なし。いずれかが書面で終了を通知した場合、通知書の受領日から30日目に終了（原文第4条4）",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "原文第4条1『この覚書は、いずれかの当事者に法的義務を生じさせるものではなく、拘束力のある約束となるものでもない。』",
+   "status": "unknown",
+   "status_note": "規定上の有効期間は3年（2025年8月まで）。2026年1月に合併後のビンロン省と技能実習生等の項目を加えた覚書を締結（G5-38-05）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "愛媛県とベトナムベンチェ省人民委員会との「経済協力に関する覚書」の締結",
+     "publisher": "愛媛県 産業政策課",
+     "url": "https://www.pref.ehime.jp/page/8966.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "更新2022-11-24。締結式はベンチェ省人民委員会庁舎"
+    },
+    {
+     "id": "s2",
+     "title": "ベンチェ省人民委員会及び愛媛県との経済協力に関する覚書（日本語版）",
+     "publisher": "愛媛県",
+     "url": "https://www.pref.ehime.jp/uploaded/attachment/49758.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）として記録。内容に『人材育成』を含むが外国人材受入れの条項はない。"
+  },
+  {
+   "id": "JP-38-002",
+   "group_key": "38:38-ID-Gorontalo-env",
+   "renewal_of": null,
+   "title_ja": "ゴロンタロ州との脱炭素社会実現に向けた連携協力に関する覚書（予定）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛媛県",
+   "pref_code": "38",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "ゴロンタロ州",
+   "partner_org_en": "",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "2022-12-27",
+   "date_note": "2023年1月18〜20日のゴロンタロ州訪問で締結予定と記者発表。締結済みを示す県資料は今回未確認",
+   "fields": [
+    "disaster_env"
+   ],
+   "labor_detail": [],
+   "purpose": "",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "planned",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドネシア経済交流ミッション派遣のお知らせ（令和4年12月27日）",
+     "publisher": "愛媛県 産業政策課",
+     "url": "https://www.pref.ehime.jp/uploaded/attachment/49645.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。"
+  },
+  {
+   "id": "JP-38-003",
+   "group_key": "38:38-ID-KADIN-economy",
+   "renewal_of": null,
+   "title_ja": "経済交流に関する覚書（愛媛県・愛媛県商工会議所連合会・インドネシア商工会議所）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛媛県",
+   "pref_code": "38",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "愛媛県商工会議所連合会"
+   ],
+   "country_code": "ID",
+   "partner_org": "インドネシア商工会議所（KADIN）",
+   "partner_org_en": "KADIN",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "signed_date": "2023-01",
+   "announced_date": "",
+   "date_note": "県の募集要領に『令和５年１月に…３者で「経済交流に関する覚書」を締結』",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "県内企業のインドネシアにおける販路開拓の重層的な支援体制構築（県の募集要領）。",
+   "content": [
+    "覚書に基づき、県内企業とKADIN会員企業とのビジネスマッチング商談会並びに会員企業等との交流などを実施"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "expired",
+   "status_note": "知事会見（2026-01-22）で『3年前に締結した覚書の期限が来たため』2026年1月に再締結と説明（G5-38-08）。",
+   "projects": [
+    {
+     "name": "インドネシア商工会議所との連携による愛媛県企業とインドネシア企業とのビジネスマッチング支援事業",
+     "fiscal_year": "",
+     "detail": "ジャカルタに支援拠点を設置し商談支援等を委託",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドネシア商工会議所との連携による愛媛県企業とインドネシア企業とのビジネスマッチング支援事業に係るサポート業務募集要領",
+     "publisher": "愛媛県",
+     "url": "https://www.pref.ehime.jp/uploaded/attachment/50098.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "令和7年度1月知事定例記者会見（令和8年1月22日）の要旨について",
+     "publisher": "愛媛県 広報広聴課",
+     "url": "https://www.pref.ehime.jp/page/133892.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "ベトナム・インドネシア経済交流ミッション（2026年1月11〜17日）の報告"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。原文未確認。"
+  },
+  {
+   "id": "JP-38-004",
+   "group_key": "38:38-LK-MOLFE-agri-labor",
+   "renewal_of": null,
+   "title_ja": "日本国愛媛県とスリランカ民主社会主義共和国労働・海外雇用省との間の農業分野等における協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛媛県",
+   "pref_code": "38",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LK",
+   "partner_org": "労働・海外雇用省",
+   "partner_org_en": "Ministry of Labour and Foreign Employment",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2023-06",
+   "announced_date": "",
+   "date_note": "県の記者発表（2023-09-04）で『今年の6月に県庁で締結しましたスリランカとの覚書』。IM Japanのニュースレター（検索結果の抜粋、本文未取得）では2023年6月7日に同省事務次官らが知事を訪問し締結",
+   "fields": [
+    "labor",
+    "agri"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能",
+    "農業"
+   ],
+   "purpose": "覚書を基に農業分野における技能実習生等の受け入れ拡大に向けた取り組みを推進し、同国農業の発展に向けた人材育成とともに、県内農業の労働力補完を図る（県記者発表の説明）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "県農林水産部資料で『スリランカ人材受入モデル確立』の成果として覚書締結と受入実績を記載。県国際交流協会の令和7年度事業計画にも関連事業を記載。",
+   "projects": [
+    {
+     "name": "スリランカ人材受入モデル確立（既受入先・監理団体との協議、スリランカ農業人材受入拡大研修会、スリランカ農業人材受入連絡協議会の設立、サポート体制整備）",
+     "fiscal_year": "",
+     "detail": "研修会にJAや農業者など22名が参加。県国際交流協会で相談活動・交流会を実施",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "name": "スリランカ農業人材活用促進事業（愛媛県国際交流協会）",
+     "fiscal_year": "2025",
+     "detail": "県農林水産部が実施する人材及び技術交流への移行に向けたバックアップ等",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "budgets": [
+    {
+     "fiscal_year": "不明",
+     "kind": "unknown",
+     "amount_yen": 625000,
+     "original_text": "スリランカ農業人材活用促進事業費：625千円",
+     "payer": "prefecture",
+     "item": "スリランカ農業人材活用促進事業費",
+     "relation": "MOU関連事業の事業費（当初・決算の別、年度は資料上未確認。資料の記載から令和5年度の取組とみられる）",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "スリランカから2名の技能実習生を受入れ（県農林水産部資料の成果欄、覚書締結と併記）",
+     "value": 2,
+     "unit": "人",
+     "fiscal_year": "",
+     "causality": "unconfirmed",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "スリランカから4名の特定技能外国人を受入れ（同上）",
+     "value": 4,
+     "unit": "人",
+     "fiscal_year": "",
+     "causality": "unconfirmed",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "令和5年度9月補正予算案等に関する記者発表の要旨について",
+     "publisher": "愛媛県 財政課",
+     "url": "https://www.pref.ehime.jp/page/8781.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "記者発表2023-09-04"
+    },
+    {
+     "id": "s2",
+     "title": "News Letter No.007【愛媛県】スリランカ労働・海外雇用省と技能実習受入れに関するビジネスミーティングを開催",
+     "publisher": "公益財団法人国際人材協力機構（IM Japan）",
+     "url": "https://imm.or.jp/cms/wp-content/uploads/2023/11/News-Letter-No.007_【愛媛県】スリランカ労働・海外雇用省と技能実習受入れに関するビジネスミーティングを開催.pdf",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得、2026-10-27時点でHTTP 503）。正式名称・相手省名・日付はこの抜粋による",
+     "link_status": "error",
+     "link_checked": "2026-10-27"
+    },
+    {
+     "id": "s3",
+     "title": "えひめ農業 基本施策(1)③ 外国人材受入や労働力確保に向けた支援（取組・成果）",
+     "publisher": "愛媛県（農林水産部）",
+     "url": "https://www.pref.ehime.jp/uploaded/attachment/128195.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "掲載ページ名は未確認"
+    },
+    {
+     "id": "s4",
+     "title": "公益財団法人愛媛県国際交流協会 令和７年度事業計画書",
+     "publisher": "公益財団法人愛媛県国際交流協会（県サイト掲載）",
+     "url": "https://www.pref.ehime.jp/uploaded/attachment/166556.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『令和５年度の県とスリランカ政府との農業分野等における協力に関する覚書の締結に繋がった』と記載"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "県の一次資料で相手を『スリランカ政府』『スリランカ』と記載。正式名称・相手省はIM Japan資料（抜粋）によるため要確認。署名者は未確認（IM Japan抜粋では知事を訪問して締結）。受入人数は覚書の成果と明記されたものではない。原文未確認。"
+  },
+  {
+   "id": "JP-38-005",
+   "group_key": "38:38-IN-TamilNadu-economy",
+   "renewal_of": null,
+   "title_ja": "経済協力に関する覚書（愛媛県・タミルナドゥ州）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛媛県",
+   "pref_code": "38",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "タミルナドゥ州（署名機関・署名者は未確認）",
+   "partner_org_en": "",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2024-01",
+   "announced_date": "",
+   "date_note": "県の記者配布資料（2023-12-21）の日程表では2024年1月22日10:00『タミルナドゥ州との覚書締結』（予定）。JETRO（2024-02-01）はミッション（1月21〜26日）で締結と報道。県の2025-01-23記者発表で締結済みと言及",
+   "fields": [
+    "economy",
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "高度人材（ITエンジニア）",
+    "留学生・研究者"
+   ],
+   "purpose": "愛媛県内企業のビジネス機会創出や人材交流を目的とした経済協力に関する覚書（県記者配布資料）。",
+   "content": [
+    "技能実習生や製造業に関わるITエンジニアなどの教育・受け入れ",
+    "大学など工業系高等教育機関の留学生・研究者の人材交流や共同研究などの促進（以上JETRO報道による）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インド経済交流ミッション派遣について（記者配布資料、令和5年12月21日）",
+     "publisher": "愛媛県 経済労働部産業政策課",
+     "url": "https://www.pref.ehime.jp/uploaded/attachment/117544.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "締結予定の段階の資料"
+    },
+    {
+     "id": "s2",
+     "title": "愛媛県とタミル・ナドゥ州の人材交流、ミッション団が州立大学など訪問（ビジネス短信）",
+     "publisher": "日本貿易振興機構（JETRO）",
+     "url": "https://www.jetro.go.jp/biznews/2024/02/f5c558264b164f66.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "2024-02-01"
+    },
+    {
+     "id": "s3",
+     "title": "インド経済交流ミッションの記者発表の要旨について",
+     "publisher": "愛媛県 産業政策課",
+     "url": "https://www.pref.ehime.jp/page/99887.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "記者発表2025-01-23。『経済協力に関する覚書を締結いたしましたタミルナドゥ州』"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "締結の正確な日付・署名者は県資料で未確認。原文未確認。同ミッションでデリーにおいて県外国人技能実習生受入組合協議会とインド国家技能開発公社（NSDC）が『技能実習生受入に関する協定書』を締結（知事は立会のみ。除外）。"
+  },
+  {
+   "id": "JP-38-006",
+   "group_key": "38:38-VN-Esuhai-labor",
+   "renewal_of": null,
+   "title_ja": "愛媛県とエスハイ社との覚書（ベトナムからの人材受入れ「愛媛モデル」構築に向けた覚書）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛媛県",
+   "pref_code": "38",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "エスハイ株式会社（ベトナムの人材送り出し機関）",
+   "partner_org_en": "",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2024-10",
+   "announced_date": "",
+   "date_note": "2024-09-27の記者発表で9月30日〜10月2日のベンチェ省副委員長等の来県中に締結予定と説明。検索結果抜粋の県実施要領では10月1日10:40に調印式予定（本文未取得）。2026-01-22知事会見で『令和6年10月に締結済みの覚書』と言及",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習（監理団体を通じたマッチング）"
+   ],
+   "purpose": "ベトナムからの適正・円滑な人材受け入れを目指す『愛媛モデル』の構築に向けて（知事記者発表）。",
+   "content": [
+    "ベンチェ省の職業訓練学校や短期大学で海外就労を希望する学生に愛媛県で働く魅力を伝えるプロモーション",
+    "ベンチェ省とエスハイ社が日本語教育とキャリア教育を実施",
+    "県内の優良な監理団体を通じて県内企業とマッチング（以上、記者発表で説明された『愛媛モデル』の内容）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "2026年1月のミッションでエスハイ社を訪問・意見交換。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム・ベンチェ省人民委員会副委員長等の来県及び人材受入に向けた覚書締結に関する記者発表の要旨について",
+     "publisher": "愛媛県 多文化共生推進課",
+     "url": "https://www.pref.ehime.jp/page/89573.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "記者発表2024-09-27、更新2024-10-01"
+    },
+    {
+     "id": "s2",
+     "title": "令和7年度1月知事定例記者会見（令和8年1月22日）の要旨について",
+     "publisher": "愛媛県 広報広聴課",
+     "url": "https://www.pref.ehime.jp/page/133892.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "ベトナム・インドネシア経済交流ミッション（2026年1月11〜17日）の報告"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称・署名者は未確認。ベンチェ省副委員長の立会いのもと締結予定と説明。記者発表では、2023年6月にベンチェ省人民委員会委員長が『1000人愛媛県に送り出しをする』と提案したと紹介（覚書上の目標かは不明）。原文未確認。"
+  },
+  {
+   "id": "JP-38-007",
+   "group_key": "38:38-VN-BenTre-VinhLong-economy",
+   "renewal_of": "JP-38-001",
+   "title_ja": "経済協力に関する覚書（愛媛県・ビンロン省）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛媛県",
+   "pref_code": "38",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ビンロン省（人民委員会）",
+   "partner_org_en": "",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2026-01",
+   "announced_date": "",
+   "date_note": "2026年1月11〜17日のベトナム・インドネシア経済交流ミッション中に締結（知事会見2026-01-22）。正確な日付は未確認",
+   "fields": [
+    "economy",
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "ベンチェ省（合併によりビンロン省）との既存の覚書に、技能実習生等の人材教育・受け入れ促進の項目を追加して締結（知事会見）。",
+   "content": [
+    "既存の経済協力の項目に加え、技能実習生等の人材教育・受け入れ促進の項目を追加（知事会見の説明）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "令和7年度1月知事定例記者会見（令和8年1月22日）の要旨について",
+     "publisher": "愛媛県 広報広聴課",
+     "url": "https://www.pref.ehime.jp/page/133892.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "ベトナム・インドネシア経済交流ミッション（2026年1月11〜17日）の報告"
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム・インドネシア経済交流ミッションの記者発表の要旨について",
+     "publisher": "愛媛県 産業政策課",
+     "url": "https://www.pref.ehime.jp/page/132231.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "記者発表2025-12-25（締結予定の段階）"
+    },
+    {
+     "id": "s3",
+     "title": "令和7年度 愛媛県議会国際交流促進議員連盟 ベトナム視察報告書（令和8年2月11日〜15日）",
+     "publisher": "愛媛県議会国際交流促進議員連盟（県サイト掲載）",
+     "url": "https://www.pref.ehime.jp/uploaded/attachment/178240.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『愛媛県とベトナムビンロン省との経済協力に関する覚書を軸にした、ビジネス機会の創出・人材受入促進への取り組み』と記載"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "ビンロン省は旧ベンチェ省等が合併して新設された省（県の説明）。2022年のベンチェ省との覚書（G5-38-06）の後継として扱い renewal_of を設定。正式名称・署名者・原文は未確認。"
+  },
+  {
+   "id": "JP-38-008",
+   "group_key": "38:38-ID-KADIN-economy",
+   "renewal_of": "JP-38-003",
+   "title_ja": "経済交流に関する覚書（再締結）（愛媛県・愛媛県商工会議所連合会・インドネシア商工会議所）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛媛県",
+   "pref_code": "38",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "愛媛県商工会議所連合会"
+   ],
+   "country_code": "ID",
+   "partner_org": "インドネシア商工会議所（KADIN）",
+   "partner_org_en": "KADIN",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "signed_date": "2026-01",
+   "announced_date": "",
+   "date_note": "2026年1月11〜17日のミッション中（ジャカルタ）に再締結（知事会見2026-01-22）。正確な日付は未確認",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "両会員企業間のビジネスマッチング等を引き続き行うことを確認（知事会見）。",
+   "content": [],
+   "validity": "未確認（知事会見で『3年前に締結した覚書の期限が来たため再締結』と説明）",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "令和7年度1月知事定例記者会見（令和8年1月22日）の要旨について",
+     "publisher": "愛媛県 広報広聴課",
+     "url": "https://www.pref.ehime.jp/page/133892.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "ベトナム・インドネシア経済交流ミッション（2026年1月11〜17日）の報告"
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム・インドネシア経済交流ミッションの記者発表の要旨について",
+     "publisher": "愛媛県 産業政策課",
+     "url": "https://www.pref.ehime.jp/page/132231.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "記者発表2025-12-25（締結予定の段階）"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。正式名称は再締結前と同じと推定されるが未確認。"
+  },
+  {
+   "id": "JP-38-009",
+   "group_key": "38:38-ID-MoM-labor",
+   "renewal_of": null,
+   "title_ja": "日本国愛媛県とインドネシア共和国労働省との間のインドネシア人技能実習生の送出し・受入れ促進に関する協力覚書",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛媛県",
+   "pref_code": "38",
+   "japan_signatory": "知事",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "インドネシア共和国労働省（署名者：クリス事務次官）",
+   "partner_org_en": "Ministry of Manpower",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2026-01-15",
+   "announced_date": "",
+   "date_note": "県発表『現地時間の2026年1月15日（木）午後』、県がインドネシア労働省を訪問して締結。ヤシエルリ労働大臣が立会い",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "インドネシア共和国の経済発展に資する人材育成及び県内企業への外国人材の安定的な受入れを支援する（県発表）。",
+   "content": [
+    "インドネシア共和国及び日本国の法令を遵守しつつ、両国の資源や強みを活用し、愛媛県への技能実習生の育成、送出し・受入れをより効果的に促進していくことを確認（締結式での確認事項）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "県発表によれば、2026年10月14日に同省海外技能実習育成部長が県を表敬訪問（検索結果の抜粋による）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドネシア労働省との技能実習生の送出し・受入れ促進に関する協力覚書の締結について",
+     "publisher": "愛媛県 多文化共生推進課",
+     "url": "https://www.pref.ehime.jp/page/132094.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "更新2026-01-15"
+    },
+    {
+     "id": "s2",
+     "title": "令和7年度1月知事定例記者会見（令和8年1月22日）の要旨について",
+     "publisher": "愛媛県 広報広聴課",
+     "url": "https://www.pref.ehime.jp/page/133892.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "ベトナム・インドネシア経済交流ミッション（2026年1月11〜17日）の報告"
+    },
+    {
+     "id": "s3",
+     "title": "ベトナム・インドネシア経済交流ミッションの記者発表の要旨について",
+     "publisher": "愛媛県 産業政策課",
+     "url": "https://www.pref.ehime.jp/page/132231.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "記者発表2025-12-25（締結予定の段階）"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "知事会見によれば、技能実習生の受入れ促進に限定した内容としてはインドネシア政府との間で初めての協力覚書で、都道府県としては全国3番目、西日本では初めて。有効期間・原文は未確認。"
+  }
+ ]
+}

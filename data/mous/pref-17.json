@@ -1,0 +1,215 @@
+{
+ "note": "石川県のMOU",
+ "mous": [
+  {
+   "id": "JP-17-001",
+   "group_key": "17:17-VN-Haiphong-automechanic",
+   "renewal_of": null,
+   "title_ja": "石川県・石川県自動車販売店協会・ベトナムハイフォン社による自動車整備人材確保にかかる３者協定",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "県発表の表現は「連携協定（３者協定）」。正式名称・文書の法的性格は未確認",
+   "japan_level": "prefecture",
+   "japan_org": "石川県",
+   "pref_code": "17",
+   "japan_signatory": "知事 馳浩",
+   "other_japan_parties": [
+    "石川県自動車販売店協会（会長 小杉雄二）"
+   ],
+   "country_code": "VN",
+   "partner_org": "ハイフォン投資貿易建設株式会社（ハイフォン社）",
+   "partner_org_en": "",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2025-05",
+   "announced_date": "2025-05-22",
+   "date_note": "2025-05-22の県発表で締結式を2025年5月23日（石川県自動車販売店協会創立70周年記念式典内）と予告。締結済みであることは2025年9月10日の知事議案説明で確認したが、式典後の締結発表は未確認のため年月までとした。相手側締結者は代表取締役グエン・スアン・トゥエン",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "自動車整備"
+   ],
+   "purpose": "県内の自動車整備人材の確保が困難となっていることから、日本への技能実習生の送り出し実績のあるハイフォン社等と連携し、優秀な自動車整備人材の確保を図る（県発表）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "知事議案説明（2025年9月10日）で「連携協定に基づき、先月から七名のベトナムからの受入れが開始」。知事会見（2026年3月26日）で「系列の大学で日本語と自動車整備の資格を取って、我が国で働いていただいております」",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "3者連携協定に基づき、2025年8月からベトナムから7名の受入れが開始された（2025年9月10日 知事議案説明）",
+     "value": 7,
+     "unit": "人",
+     "fiscal_year": "2025",
+     "causality": "stated_by_gov",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "石川県・石川県自動車販売店協会・ベトナムハイフォン社による自動車整備人材確保にかかる３者協定締結について（2025年5月22日）",
+     "publisher": "石川県",
+     "url": "https://www.pref.ishikawa.lg.jp/kisya/r7/documents/0522_15_roudoukikaku.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "締結式の事前発表"
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム・ハイフォン投資貿易建設株式会社トゥエン代表取締役の知事表敬について（2025年3月18日）",
+     "publisher": "石川県",
+     "url": "https://www.pref.ishikawa.lg.jp/kisya/r6-1/documents/0318_10_roudoukikaku.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "協定締結に向け準備中との記載"
+    },
+    {
+     "id": "s3",
+     "title": "令和7年第3回石川県議会定例会 知事議案説明要旨（2025年9月10日）",
+     "publisher": "石川県",
+     "url": "https://www.pref.ishikawa.lg.jp/chiji/gikai/giannsetumeiyousi.html",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "知事記者会見の要旨（2026年3月26日）",
+     "publisher": "石川県",
+     "url": "https://www.pref.ishikawa.lg.jp/chiji/kisya/r8_3_26/1.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "県の外国人材確保で、知事は「外国の送り出し機関、業界団体と連携して外国人人材の受け入れ促進に取り組む初のケース」と説明（2025年5月22日知事会見、検索結果の抜粋で確認・本文未取得）。"
+  },
+  {
+   "id": "JP-17-002",
+   "group_key": "17:17-TH-MOI-economy",
+   "renewal_of": null,
+   "title_ja": "石川県とタイ工業省との覚書（正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "石川県",
+   "pref_code": "17",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "工業省",
+   "partner_org_en": "Ministry of Industry",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "date_note": "締結日は未確認",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "経済分野における連携促進（県プランの記載）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "県国際化推進プラン2026の施策に「タイ工業省との覚書に基づく経済分野における連携促進」と記載",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "石川県国際化推進プラン2026（国際化推進協議会資料）",
+     "publisher": "石川県",
+     "url": "https://www.pref.ishikawa.lg.jp/kokusai/kyogikai/documents/r8-1_kaigishiryou.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "施策一覧に「タイ工業省との覚書に基づく経済分野における連携促進」「米国・マンスフィールド財団との交流合意書に基づく…研修の受入れ」と記載"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。"
+  },
+  {
+   "id": "JP-17-003",
+   "group_key": "17:17-US-Mansfield-exchange",
+   "renewal_of": null,
+   "title_ja": "石川県と米国・マンスフィールド財団との交流合意書（正式名称未確認）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "県プランの表現は「交流合意書」",
+   "japan_level": "prefecture",
+   "japan_org": "石川県",
+   "pref_code": "17",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "US",
+   "partner_org": "マンスフィールド財団",
+   "partner_org_en": "The Maureen and Mike Mansfield Foundation",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "date_note": "締結日は未確認",
+   "fields": [
+    "education",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "米国連邦政府職員の日本語・日本文化研修の受入れ（県プランの記載）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "県国際化推進プラン2026に施策として記載",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "石川県国際化推進プラン2026（国際化推進協議会資料）",
+     "publisher": "石川県",
+     "url": "https://www.pref.ishikawa.lg.jp/kokusai/kyogikai/documents/r8-1_kaigishiryou.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "施策一覧に「タイ工業省との覚書に基づく経済分野における連携促進」「米国・マンスフィールド財団との交流合意書に基づく…研修の受入れ」と記載"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。partner_org_en は一般的な英語名で、資料上の表記ではない。"
+  }
+ ]
+}

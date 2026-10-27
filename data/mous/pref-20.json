@@ -1,0 +1,155 @@
+{
+ "note": "長野県のMOU",
+ "mous": [
+  {
+   "id": "JP-20-001",
+   "group_key": "20:20-AT-BMLFUW-tech",
+   "renewal_of": null,
+   "title_ja": "長野県とオーストリア農林環境水資源管理省との技術交流等に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "長野県",
+   "pref_code": "20",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "AT",
+   "partner_org": "農林環境水資源管理省",
+   "partner_org_en": "",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2015",
+   "announced_date": "",
+   "date_note": "資料ファイル名（h27oboegaki）と検索結果の抜粋から2015年（平成27年）と判断。月日は未確認",
+   "fields": [
+    "agri",
+    "disaster_env"
+   ],
+   "labor_detail": [],
+   "purpose": "農林業や自然エネルギー等の技術交流（検索結果の抜粋による）。",
+   "content": [],
+   "validity": "未確認（2018年に有効期限を無期限に延長する旨の通知があったとの検索結果の抜粋あり）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "長野県とオーストリア農林環境水資源管理省との技術交流等に関する覚書",
+     "publisher": "長野県",
+     "url": "https://www.pref.nagano.lg.jp/rinsei/sangyo/ringyo/shisaku/documents/h27oboegaki.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）"
+    },
+    {
+     "id": "s2",
+     "title": "覚書の有効期限延長に関する書簡（sinsyo-ou）",
+     "publisher": "長野県",
+     "url": "https://www.pref.nagano.lg.jp/rinsei/sangyo/ringyo/shisaku/documents/sinsyo-ou.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。"
+  },
+  {
+   "id": "JP-20-002",
+   "group_key": "20:20-VN-MOLISA-HRD",
+   "renewal_of": null,
+   "title_ja": "ベトナム社会主義共和国労働・傷病兵・社会問題省と日本国長野県との人材育成に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "長野県",
+   "pref_code": "20",
+   "japan_signatory": "知事 阿部守一",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "労働・傷病兵・社会問題省（海外労働管理局）",
+   "partner_org_en": "Ministry of Labour, Invalids and Social Affairs",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-08-14",
+   "announced_date": "",
+   "date_note": "県の介護人材ページに「令和元年8月14日…ベトナム政府と観光・介護分野における人材育成に関する覚書を締結」。覚書本文（検索結果の抜粋）では2019年8月14日に同省で英語文により作成、ベトナム側署名者は海外労働管理局長トン・ハイ・ナム",
+   "fields": [
+    "labor",
+    "tourism",
+    "medical"
+   ],
+   "labor_detail": [
+    "介護",
+    "観光",
+    "技能実習"
+   ],
+   "purpose": "双方の法律に基づき観光や介護における人材育成に関する協力を促進する（覚書本文の抜粋）。",
+   "content": [
+    "観光と介護における人材育成に関する協力の促進",
+    "ベトナム人技能者と技能実習生の派遣・受入れへの協力",
+    "実施担当：ベトナム側は海外労働（管理）局、長野県側は観光部（観光人材）と健康福祉部（介護人材）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "知事会見（2019年8月23日）で、覚書締結を受け2020年2月にベトナムで県内観光事業者と現地の若者の採用面接会を予定と発言（実施結果は未確認）",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "外国人介護人材の確保に関する取組について",
+     "publisher": "長野県",
+     "url": "https://www.pref.nagano.lg.jp/kaigo-shien/gaikokuzin.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "ページ更新日2026年10月9日"
+    },
+    {
+     "id": "s2",
+     "title": "知事会見 2019年8月23日",
+     "publisher": "長野県",
+     "url": "https://www.pref.nagano.lg.jp/koho/kensei/koho/chijikaiken/2019/20190823.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "ベトナム社会主義共和国労働・傷病兵・社会問題省と日本国長野県との人材育成に関する覚書（会議資料別紙）",
+     "publisher": "長野県",
+     "url": "https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/ryoritsushien/documents/siryou3-1bessi_jinnzaiikuseioboegaki.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）。2026-10-27時点でURLは「ページが見つかりません」",
+     "link_status": "not_found",
+     "link_checked": "2026-10-27"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "覚書本文の和文がかつて県サイトに掲載されていたが、確認時点では削除済みのため有効期間・法的拘束力は未確認。2024年12月の県議会海外調査報告書に長野県とホーチミン市との覚書に関する記述があるとの検索結果があったが、未確認のため記録していない。"
+  }
+ ]
+}

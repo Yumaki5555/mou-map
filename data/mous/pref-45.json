@@ -1,0 +1,313 @@
+{
+ "note": "宮崎県のMOU",
+ "mous": [
+  {
+   "id": "JP-45-001",
+   "group_key": "45:45-VN-VNUA-labor",
+   "renewal_of": null,
+   "title_ja": "人材の確保・育成に係る連携合意（宮崎県とベトナム国立農業大学）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "県資料では「連携合意」「連携合意書」と表記。正式名称未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "宮崎県",
+   "pref_code": "45",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム国立農業大学",
+   "partner_org_en": "Vietnam National University of Agriculture (VNUA)",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2022-10",
+   "announced_date": "",
+   "date_note": "県資料・CLAIR記事とも『令和4年10月（2022年10月）に締結』とのみ記載。日付未確認。",
+   "fields": [
+    "labor",
+    "agri",
+    "education"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能",
+    "高度人材",
+    "農業"
+   ],
+   "purpose": "宮崎県とベトナム国立農業大学との人材の確保・育成に係る連携（県資料の表現）。",
+   "content": [
+    "県資料の連携図による：宮崎授業を受講した技能実習生等の送り出し、卒業生の高度人材（特定技能等）での送り出し",
+    "県側：受け入れる県内の農業経営体等の紹介や協力者情報の提供、雇用ニーズ・受入れ環境の情報提供",
+    "大学側：就労希望等・教育内容の情報提供、大学内の高度人材の育成",
+    "産業・技術・雇用に関する情報交換、各種情報の共有"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文未公開・未確認。",
+   "status": "in_progress",
+   "status_note": "この合意に基づき2024年12月にVNUA-IDSと覚書を締結（G6-45-02）。JICA等の協力の下で『農業人材開発プロジェクト』を実施中（CLAIR記事、2025年12月）。",
+   "projects": [
+    {
+     "name": "農業人材開発プロジェクト（本県での技能実習後にベトナムで農業・農業関係企業で働くことを促す取組、ベトナム国・JICAの協力）",
+     "fiscal_year": "",
+     "detail": "連携合意の取り組みの1つとして実施（CLAIR記事）",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "name": "宮崎授業（来日前に宮崎の農業・文化・方言等を学ぶ事前授業）のベトナムでの実施体制構築（自治体国際協力促進事業（モデル事業）の助成）",
+     "fiscal_year": "2024",
+     "detail": "教材制作と、VNUA附属送出機関（VNUA-IDS）で本県農業分野の技能実習予定の候補生5人を対象に県職員が授業を実施",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "2024年度、VNUA-IDSで本県農業分野の技能実習予定候補生5人に宮崎授業を実施（CLAIR記事）",
+     "value": 5,
+     "unit": "人",
+     "fiscal_year": "2024",
+     "causality": "stated_by_gov",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム国立農業大学と宮崎県との人材の確保・育成に係る連携について（2024年12月）",
+     "publisher": "宮崎県 担い手農地対策課",
+     "url": "https://www.pref.miyazaki.lg.jp/documents/94123/94123_20241204112809-1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "連携図。『宮崎県とベトナム国立農業大学との人材の確保・育成に係る連携合意書の締結』と記載"
+    },
+    {
+     "id": "s2",
+     "title": "本県農政水産部とベトナム国立農業大学投資開発サービス有限責任会社との農業分野における特定技能人材の確保・育成に係る覚書の締結について（令和6年12月9日）",
+     "publisher": "宮崎県 担い手農地対策課",
+     "url": "https://www.pref.miyazaki.lg.jp/documents/94123/94123_20241209080540-1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『令和４年１０月に締結した本県とベトナム国立農業大学の連携合意』と記載"
+    },
+    {
+     "id": "s3",
+     "title": "現場レポート 宮崎県における「農業分野のベトナム人技能実習体制整備」について（自治体国際化フォーラム Vol.434, 2025年12月）",
+     "publisher": "一般財団法人自治体国際化協会（執筆：宮崎県農政水産部 担い手農地対策課）",
+     "url": "https://www.clair.or.jp/j/forum/forum/pdf_434/09_keizaikouryu.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "宮崎県職員の寄稿"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称・署名者・署名日は未確認。"
+  },
+  {
+   "id": "JP-45-002",
+   "group_key": "45:45-VN-VNUA-IDS-labor",
+   "renewal_of": null,
+   "title_ja": "本県農政水産部とベトナム国立農業大学投資開発サービス有限責任会社との農業分野における特定技能人材の確保・育成に係る覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県資料の件名から。CLAIR記事では『農業分野の特定技能人材の確保・育成に関する覚書』と表記。正式名称未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "宮崎県（農政水産部）",
+   "pref_code": "45",
+   "japan_signatory": "農政水産部長 殿所大明",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム国立農業大学投資開発サービス有限責任会社（VNUA-IDS）",
+   "partner_org_en": "VNUA Investment and Development Services Limited",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2024-12-13",
+   "announced_date": "2024-12-09",
+   "date_note": "2024-12-09付の県資料で締結式を『令和6年12月13日16時～17時（日本時間）、ベトナム国立農業大学（ハノイ市）』と予告。締結の事実は2025年11月の県議会特別委員会資料とCLAIR記事（『2024年12月に…覚書を締結しました』）で確認。署名者は締結式出席者（県資料）から記載。",
+   "fields": [
+    "labor",
+    "agri"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "農業"
+   ],
+   "purpose": "本県農業分野における特定技能人材受入れ体制強化を目的に、令和4年10月に締結した本県とベトナム国立農業大学の連携合意に基づき、本県農業分野の特定技能人材の確保・育成を目的とした覚書を締結するもの（県資料）。",
+   "content": [
+    "ベトナム国内における人材確保に関すること",
+    "在留資格『特定技能（農業分野）』の取得に向けた学習支援に関すること",
+    "宮崎県内に就労する人材への入国前教育（宮崎授業：宮崎県の農業、方言、文化等を事前学習する取組）に関すること",
+    "宮崎県内への就労支援に関すること",
+    "入国後のサポートに関すること"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "覚書原文は未公開・未確認。",
+   "status": "in_progress",
+   "status_note": "県議会特別委員会資料（令和7年11月）で送出国との関係構築の取組として本覚書締結を報告。締結後の取組（案）は『当面は農業分野が先行して対応し、状況を確認しながら他の産業への展開を検討』。",
+   "projects": [
+    {
+     "name": "宮崎授業（入国前の事前学習）",
+     "fiscal_year": "2024-2025",
+     "detail": "県職員等が入国前に宮崎県の農業・文化・方言・生活環境等の事前学習を実施。教材は5か国語対応。ベトナムでの実施状況：合計3回15名（R6:2回13名、R7:1回2名）。※本覚書に基づく実施かどうかは資料上明記なし",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "observed",
+     "text": "本県農業分野の特定技能人材 R5:446人、R6:582人（覚書締結の理由として県資料に記載。締結前の数値）",
+     "value": 582,
+     "unit": "人",
+     "fiscal_year": "2024",
+     "causality": "n/a",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "observed",
+     "text": "本県農業の外国人労働者は令和6年10月末時点で194事業所・1,172人（宮崎労働局調べ、県資料）",
+     "value": 1172,
+     "unit": "人",
+     "fiscal_year": "2024",
+     "causality": "unconfirmed",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "宮崎授業をベトナムで合計3回15名に実施（R6:2回13名、R7:1回2名）",
+     "value": 15,
+     "unit": "人",
+     "fiscal_year": "2024-2025",
+     "causality": "unconfirmed",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "本県農政水産部とベトナム国立農業大学投資開発サービス有限責任会社との農業分野における特定技能人材の確保・育成に係る覚書の締結について（令和6年12月9日）",
+     "publisher": "宮崎県 担い手農地対策課",
+     "url": "https://www.pref.miyazaki.lg.jp/documents/94123/94123_20241209080540-1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "締結前の県資料（締結式の予告を含む）"
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム国立農業大学と宮崎県との人材の確保・育成に係る連携について（2024年12月）",
+     "publisher": "宮崎県 担い手農地対策課",
+     "url": "https://www.pref.miyazaki.lg.jp/documents/94123/94123_20241204112809-1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "連携図。『今回の覚書に関連する部分』を図示"
+    },
+    {
+     "id": "s3",
+     "title": "外国人材確保・雇用対策特別委員会資料（令和7年11月5日、農政水産部）",
+     "publisher": "宮崎県 農政水産部",
+     "url": "https://www.pref.miyazaki.lg.jp/documents/98090/98090_20251117104415-1.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "県議会特別委員会への執行部説明資料。『ベトナム国立農業大学附属送出機関と「特定技能人材の確保・育成に関する覚書」締結』と記載"
+    },
+    {
+     "id": "s4",
+     "title": "現場レポート 宮崎県における「農業分野のベトナム人技能実習体制整備」について（自治体国際化フォーラム Vol.434, 2025年12月）",
+     "publisher": "一般財団法人自治体国際化協会（執筆：宮崎県職員）",
+     "url": "https://www.clair.or.jp/j/forum/forum/pdf_434/09_keizaikouryu.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『本県農政水産部は2024年12月にVNUA－IDSと「農業分野の特定技能人材の確保・育成に関する覚書」を締結しました』"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "相手方は大学内に設置された送出機関（有限責任会社）であり、政府機関ではない。県資料では相手方署名者を『ヴ・ゴック・フエン 取締役会長（ベトナム国立農業大学副学長）』と記載。"
+  },
+  {
+   "id": "JP-45-003",
+   "group_key": "45:45-VN-NamDinh-unknown",
+   "renewal_of": null,
+   "title_ja": "宮崎県とナムディン省との連携合意（名称未確認）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "JETRO記事で『連携合意締結済み』と記載されているのみ。名称・形式未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "宮崎県",
+   "pref_code": "45",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ナムディン省",
+   "partner_org_en": "Nam Dinh Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "date_note": "2023年7月の知事訪問時点で『連携合意締結済み』（JETRO記事）。締結日不明。",
+   "fields": [
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "未確認（2023年7月の知事のベトナム訪問で、取組状況のフォローアップのため同省を訪問したとJETRO記事に記載）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "news_only",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日本の地方自治体とベトナムの関係が深化（2024年5月20日）",
+     "publisher": "日本貿易振興機構（JETRO）",
+     "url": "https://www.jetro.go.jp/biz/areareports/2024/bfd2f8042432b332.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "表1に『ナムディン省（連携合意締結済み）を訪問』（2023年7月、宮崎県）と記載"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "宮崎県の2023年知事ベトナム訪問関係の県PDFは検索で見つかったが現在404で本文未確認。分野は人材関係の可能性があるが未確認のため other とした。要追加確認。"
+  }
+ ]
+}

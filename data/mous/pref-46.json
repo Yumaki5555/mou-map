@@ -1,0 +1,547 @@
+{
+ "note": "鹿児島県のMOU",
+ "mous": [
+  {
+   "id": "JP-46-001",
+   "group_key": "46:46-CN-Tsinghua-education",
+   "renewal_of": null,
+   "title_ja": "鹿児島県と清華大学との包括交流に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県資料では『ＭＯＵ（包括協定）』とも表記。",
+   "japan_level": "prefecture",
+   "japan_org": "鹿児島県",
+   "pref_code": "46",
+   "japan_signatory": "知事",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "清華大学",
+   "partner_org_en": "Tsinghua University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2013-08-29",
+   "announced_date": "",
+   "date_note": "清華大学（北京市）で知事と学長の署名により締結（県資料）。",
+   "fields": [
+    "education",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "今後の双方の総合的かつ持続的な交流を促進するため（県資料）。",
+   "content": [
+    "未来に向けて手を携える真の友情を構築するため、人材と情報の交流を促進する",
+    "双方の青少年学生交流を積極的に促進する",
+    "双方の人材育成や学術・技術交流を促進するため、あらゆる人材交流の機会の創出に努める",
+    "双方の教育・産業分野における協力を促進し、幅広い人的ネットワークの構築や双方の連携強化に努める"
+   ],
+   "validity": "5年間（県資料による。原文未確認）",
+   "validity_type": "fixed",
+   "valid_until": null,
+   "renewal_terms": "5年ごとに更新（県資料：H30.8.29付、R5.12.20付で更新、内容変更なし）",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "青少年交流（清華大学学生等の受入：平成26年度～）等を実施。",
+   "projects": [
+    {
+     "name": "清華大学学生等の受入（県内大学生との学生交流）",
+     "fiscal_year": "2014-",
+     "detail": "令和2～4年度は新型コロナの影響等により中止",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "かごしまの国際交流（令和7年12月）",
+     "publisher": "鹿児島県",
+     "url": "https://www.pref.kagoshima.jp/af09/kyoiku-bunka/kokusai/koryu/documents/30957_20260316202615-1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『（５）中国・清華大学との交流』"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "清華大学と海外の地方自治体によるMOU締結は本県が初めて（県資料）。"
+  },
+  {
+   "id": "JP-46-002",
+   "group_key": "46:46-CN-Tsinghua-education",
+   "renewal_of": "JP-46-001",
+   "title_ja": "鹿児島県と清華大学との包括交流に関する覚書（1期目更新）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "更新",
+   "japan_level": "prefecture",
+   "japan_org": "鹿児島県",
+   "pref_code": "46",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "清華大学",
+   "partner_org_en": "Tsinghua University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2018-08-29",
+   "announced_date": "",
+   "date_note": "県資料に『１期目のＭＯＵ更新：平成30（2018）年８月29日付』",
+   "fields": [
+    "education",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "2013年MOUの更新（内容変更なし）。",
+   "content": [
+    "内容は2013年MOUから変更なし（県資料）"
+   ],
+   "validity": "5年間（県資料による）",
+   "validity_type": "fixed",
+   "valid_until": null,
+   "renewal_terms": "同上",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "completed",
+   "status_note": "2023年12月20日付で再更新されたため、この期は終了と判断。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "かごしまの国際交流（令和7年12月）",
+     "publisher": "鹿児島県",
+     "url": "https://www.pref.kagoshima.jp/af09/kyoiku-bunka/kokusai/koryu/documents/30957_20260316202615-1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": ""
+  },
+  {
+   "id": "JP-46-003",
+   "group_key": "46:46-VN-HaiDuong-labor",
+   "renewal_of": null,
+   "title_ja": "人材の育成及び受入れ、技術協力等に関する覚書（鹿児島県とハイズオン省）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "CLAIRシンガポール事務所レポートの表記。県の『かごしまの国際交流』では『連携協定』（相互交流や人材育成・確保、科学技術協力、経済・観光協力に関する連携協定）と表記。正式名称未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "鹿児島県",
+   "pref_code": "46",
+   "japan_signatory": "知事 三反園訓",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ハイズオン省（2025年7月の省・市再編によりハイフォン市）",
+   "partner_org_en": "Hai Duong Province (now Hai Phong City)",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2019-10",
+   "announced_date": "",
+   "date_note": "2019年10月16日～20日の知事訪越中、ハノイの『2019 Vietnam Business Summit』の場で締結式（CLAIRレポート）。正確な日付は未確認。署名者は締結式写真の説明『締結式で握手する三反園知事とグエン・マイン・ヒエン議長』から記載。",
+   "fields": [
+    "labor",
+    "agri",
+    "economy",
+    "tourism"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "介護"
+   ],
+   "purpose": "お互いの連携・協力を促進するため、相互交流や人材育成・確保、科学技術協力、経済・観光協力に関する連携協定を締結し、人材、農業、観光等の分野での交流を行っている（県資料）。",
+   "content": [
+    "相互交流",
+    "人材育成・確保",
+    "科学技術協力",
+    "経済・観光協力"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文未確認。",
+   "status": "in_progress",
+   "status_note": "県資料（令和7年12月）に協定に基づく交流の継続を記載。日本の自治体として同省と初の覚書締結（CLAIRレポート）。",
+   "projects": [
+    {
+     "name": "ベトナム人材受入・交流促進事業",
+     "fiscal_year": "2020",
+     "detail": "ハイズオン省との連携協定等に基づき、外国人材の安定的な受入れを図るとともに、農業分野等の専門家派遣や相互交流を行う。主な実績：ハイズオン省等からの人材受入・相互交流→R3年度に延期",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "name": "介護施設等外国人留学生支援事業",
+     "fiscal_year": "2020",
+     "detail": "ハイズオン省と連携し、介護福祉士資格の取得を目指す外国人留学生の受入れを促進するため、介護施設が就労を希望する留学生に対して給付する学費等の一部を助成",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "name": "知事とタン党書記とのオンライン会談（農業分野の科学技術協力など具体的交流内容の意見交換）",
+     "fiscal_year": "2021",
+     "detail": "令和3年8月23日",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "name": "ハイズオン省へ農業専門家（農政部技術職員）を派遣",
+     "fiscal_year": "2022",
+     "detail": "令和5年2月14～16日、ニンジン栽培技術・青果物鮮度保持技術について講義・情報提供",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "name": "鹿児島県訪問団をハイズオン省へ派遣（ベトナム人材の育成・確保に関する相互の取組を協議）",
+     "fiscal_year": "2023",
+     "detail": "令和5年7月10日～14日",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "name": "県内監理団体とハイズオン省送り出し機関とのマッチング",
+     "fiscal_year": "2023",
+     "detail": "令和6年3月8日、ハイズオン省人材の本県への送り出しを促進するため実施",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "budgets": [
+    {
+     "fiscal_year": "2020",
+     "kind": "planned",
+     "amount_yen": 4226000,
+     "original_text": "4,226（千円、３補後）",
+     "payer": "prefecture",
+     "item": "ベトナム人材受入・交流促進事業",
+     "relation": "MOU関連事業の予算額（第3次補正後）。MOU自体の予算ではない",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "fiscal_year": "2020",
+     "kind": "planned",
+     "amount_yen": 3452000,
+     "original_text": "3,452（千円、３補後）",
+     "payer": "prefecture",
+     "item": "介護施設等外国人留学生支援事業",
+     "relation": "ハイズオン省と連携する事業の予算額（第3次補正後）。MOU自体の予算ではない",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "impacts": [
+    {
+     "category": "welfare",
+     "stage": "implemented",
+     "text": "介護施設等外国人留学生支援事業（2020年度）：新型コロナの影響でベトナムからの留学生受入れが困難となったため県内在住外国人を対象に募集し、留学生4名と3介護施設のマッチングが成立",
+     "value": 4,
+     "unit": "人",
+     "fiscal_year": "2020",
+     "causality": "unconfirmed",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "かごしまの国際交流（令和7年12月）",
+     "publisher": "鹿児島県",
+     "url": "https://www.pref.kagoshima.jp/af09/kyoiku-bunka/kokusai/koryu/documents/30957_20260316202615-1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『（７）ベトナムハイフォン市（旧ハイズオン省）との交流』"
+    },
+    {
+     "id": "s2",
+     "title": "100名超の鹿児島県訪問団が訪越～オールかごしまで連携を強化～（2019年10月）",
+     "publisher": "一般財団法人自治体国際化協会 シンガポール事務所（鹿児島県派遣職員執筆）",
+     "url": "https://www.clair.org.sg/j/wp-content/uploads/2019/11/201910-VN_Kagoshima-Pref.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『人材の育成及び受入れ、技術協力等に関する覚書』の締結式を記載"
+    },
+    {
+     "id": "s3",
+     "title": "鹿児島県 外国人材・国際関係事業の予算額・主な実績一覧（令和2年度、県資料）",
+     "publisher": "鹿児島県",
+     "url": "https://www.pref.kagoshima.jp/af21/r02/documents/84750_20231031092904-1.pdf",
+     "type": "budget",
+     "checked": "2026-10-27",
+     "note": "資料の正式題名は未確認（表のみ）。予算額は『(３補後)』と表記"
+    },
+    {
+     "id": "s4",
+     "title": "7月10日（月曜日）ベトナム政府ファム・ミン・チン首相と会談を行いました",
+     "publisher": "鹿児島県（知事のうごき）",
+     "url": "https://www.pref.kagoshima.jp/chiji/ugoki/2307/230710.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『令和元年に連携協定を締結したベトナム北部のハイズオン省』と記載"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "ハイズオン省は2025年7月の省・市再編でハイフォン市となった（県資料）。"
+  },
+  {
+   "id": "JP-46-004",
+   "group_key": "46:46-VN-VNUA-labor",
+   "renewal_of": null,
+   "title_ja": "鹿児島県とベトナム国立農業大学との連携協定（ベトナム人材の確保・育成に係る連携協定）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "県の表記は『連携協定』。正式名称未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "鹿児島県",
+   "pref_code": "46",
+   "japan_signatory": "知事 塩田康一",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム国立農業大学",
+   "partner_org_en": "Vietnam National University of Agriculture (VNUA)",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2023-07-13",
+   "announced_date": "",
+   "date_note": "知事のうごきページの一覧に『7月13日（木曜日）ベトナム国立農業大学と連携協定を締結しました』、県農政部ページ（検索結果の抜粋）に『令和5年7月13日に…連携協定を締結』。知事は2025年1月の挨拶で『令和5年7月に私もベトナムを訪問し、本県と同大学との連携協定を締結し』と述べており、署名者は知事と判断。",
+   "fields": [
+    "labor",
+    "agri"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "農業"
+   ],
+   "purpose": "ベトナム人材の確保・育成に係る連携（県農政部ページの表現、検索結果の抜粋）。外国人材の受入れに関する連携協定（知事のうごき）。",
+   "content": [
+    "（運用の仕組み・県農政部ページの検索結果抜粋による）県内農業法人等からの技能実習生の受入れ希望を県が取りまとめ、大学に提出",
+    "大学が候補者を選び、日本語や農業などの入国前研修（5か月）を実施。県も鹿児島の歴史・文化・方言・生活環境等の研修を実施",
+    "対象は耕種農業と畜産農業"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文未確認。",
+   "status": "in_progress",
+   "status_note": "2025年1月23日に協定に基づく技能実習生の歓迎セレモニーを開催。",
+   "projects": [
+    {
+     "name": "連携協定に基づく農業分野のベトナム人技能実習生の受入れ",
+     "fiscal_year": "2024",
+     "detail": "技能実習生9人が2024年6月から日本語研修、10月から鹿児島の文化・生活環境・農業概要等の研修を受講し、最も早い人は2024年12月から受入れ農家で実習開始",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "連携協定に基づく技能実習生9人を受入れ（2025年1月23日に歓迎セレモニー、最も早い人は2024年12月から受入れ農家で実習）",
+     "value": 9,
+     "unit": "人",
+     "fiscal_year": "2024",
+     "causality": "stated_by_gov",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "1月23日（木曜日）鹿児島県とベトナム国立農業大学との連携協定に基づく技能実習生歓迎セレモニーを開催しました",
+     "publisher": "鹿児島県（知事のうごき）",
+     "url": "https://www.pref.kagoshima.jp/chiji/ugoki/2501/2305.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "7月10日（月曜日）ベトナム政府ファム・ミン・チン首相と会談を行いました",
+     "publisher": "鹿児島県（知事のうごき）",
+     "url": "https://www.pref.kagoshima.jp/chiji/ugoki/2307/230710.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "訪問目的として『ベトナム国立農業大学との外国人材の受入れに関する連携協定の締結』を記載"
+    },
+    {
+     "id": "s3",
+     "title": "7月13日（木曜日）ベトナムの航空会社を訪問しました",
+     "publisher": "鹿児島県（知事のうごき）",
+     "url": "https://www.pref.kagoshima.jp/chiji/ugoki/2307/230713.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "ページ内一覧に『7月13日（木曜日）ベトナム国立農業大学と連携協定を締結しました』の見出しがある（記事本体は未取得）"
+    },
+    {
+     "id": "s4",
+     "title": "ベトナム国立農業大学（VNUA）との連携による技能実習生の受入れ（県農政部 経営技術課ページ）",
+     "publisher": "鹿児島県",
+     "url": "https://www.pref.kagoshima.jp/ag05/sangyo-rodo/nogyo/keiei/vnua.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）。2026-10-27時点で404。題名は内容から付けた仮題",
+     "link_status": "not_found",
+     "link_checked": "2026-10-27"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "同じ大学と宮崎県も2022年10月に連携合意を結んでいる（G6-45-01）。"
+  },
+  {
+   "id": "JP-46-005",
+   "group_key": "46:46-CN-Tsinghua-education",
+   "renewal_of": "JP-46-001",
+   "title_ja": "鹿児島県と清華大学との包括交流に関する覚書（2期目更新）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "更新",
+   "japan_level": "prefecture",
+   "japan_org": "鹿児島県",
+   "pref_code": "46",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "清華大学",
+   "partner_org_en": "Tsinghua University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2023-12-20",
+   "announced_date": "",
+   "date_note": "県資料に『２期目のＭＯＵ更新：令和５（2023）年12月20日付』",
+   "fields": [
+    "education",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "2013年MOUの更新（内容変更なし）。",
+   "content": [
+    "内容は2013年MOUから変更なし（県資料）"
+   ],
+   "validity": "5年間（県資料による）",
+   "validity_type": "fixed",
+   "valid_until": "2028-12-19",
+   "valid_until_note": "県資料の「5年間」と締結日から計算した目安",
+   "renewal_terms": "同上",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "かごしまの国際交流（令和7年12月）",
+     "publisher": "鹿児島県",
+     "url": "https://www.pref.kagoshima.jp/af09/kyoiku-bunka/kokusai/koryu/documents/30957_20260316202615-1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": ""
+  },
+  {
+   "id": "JP-46-006",
+   "group_key": "46:46-TW-Pingtung-exchange",
+   "renewal_of": null,
+   "title_ja": "鹿児島県と屏東県との交流協定",
+   "title_original": "",
+   "doc_type": "MOU",
+   "doc_type_note": "県資料で『「鹿児島県と屏東県との交流協定」（ＭＯＵ）』と表記。交流目的の文書だが名称にMOUを含むため記録。",
+   "japan_level": "prefecture",
+   "japan_org": "鹿児島県",
+   "pref_code": "46",
+   "japan_signatory": "知事 塩田康一",
+   "other_japan_parties": [],
+   "country_code": "TW",
+   "partner_org": "屏東県",
+   "partner_org_en": "Pingtung County",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2024-01-22",
+   "announced_date": "",
+   "date_note": "県資料の経緯に『令和６年１月 鹿児島県知事が屏東県を訪問，ＭＯＵ締結』。",
+   "fields": [
+    "tourism",
+    "economy",
+    "education"
+   ],
+   "labor_detail": [],
+   "purpose": "屏東県と青少年、芸術・文化、観光、経済などの幅広い分野での交流を促進（県資料）。",
+   "content": [
+    "青少年交流、芸術文化交流等に関する協力",
+    "観光セミナーやイベント等の観光ＰＲ事業に関する協力",
+    "相互の地における物産展や商談会に関する協力"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "令和7年10月『世界在屏東』に県PRブースを出展等。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "かごしまの国際交流（令和7年12月）",
+     "publisher": "鹿児島県",
+     "url": "https://www.pref.kagoshima.jp/af09/kyoiku-bunka/kokusai/koryu/documents/30957_20260316202615-1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『（６）台湾・屏東県との交流』"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "署名者は県資料の『鹿児島県知事が屏東県を訪問，ＭＯＵ締結』から記載（2024年1月時点の知事）。"
+  }
+ ]
+}

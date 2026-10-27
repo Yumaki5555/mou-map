@@ -1,0 +1,556 @@
+{
+ "note": "宮城県のMOU",
+ "mous": [
+  {
+   "id": "JP-04-001",
+   "group_key": "04:04-VN-MOLISA-labor",
+   "renewal_of": null,
+   "title_ja": "ベトナム社会主義共和国労働・傷病兵・社会問題省と日本国宮城県との間の日本へのベトナム人技能実習生・特定技能労働者・技術者の送り出し・受け入れ推進に関する協力覚書",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "宮城県",
+   "pref_code": "04",
+   "japan_signatory": "知事 村井嘉浩",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "労働・傷病兵・社会問題省（署名者は海外労働局長）",
+   "partner_org_en": "Ministry of Labour, Invalids and Social Affairs (signed by Director of Department of Overseas Labour)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2023-03-08",
+   "announced_date": "",
+   "date_note": "参考和訳によると英語で2通作成し、2023年2月3日にハノイで、2023年3月8日に宮城県で署名。県ページは「令和5年3月」締結と記載。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能",
+    "技術者"
+   ],
+   "purpose": "両国の法令を遵守しつつ、両国の資源及び強みを活用し、宮城県において技能実習または労働を行うベトナム人労働者の人材育成、送り出し・受け入れプログラムをより効果的に促進すること（第1条）",
+   "content": [
+    "両者は宮城県におけるベトナム人労働者の人材育成、送り出し・受け入れの過程における支援に同意（第2条1）",
+    "宮城県は相談窓口を設置し、安全・安心な生活・労働環境を整備するための支援を行う（第2条2）",
+    "両者は国際交流、ジョブフェア、会議等を通して送り出し・受け入れに関する交流と協力活動を推進（第2条3）",
+    "宮城県は県内のベトナム人労働者に日本語学習支援を行う（第2条4）",
+    "両者は帰国したベトナム人労働者の再就職支援のため情報交換（第2条5）",
+    "毎年定期的に情報交換し、問題に適切な解決策を提案（第3条）",
+    "窓口はベトナム側が海外労働局、宮城県側が経済商工観光部および保健福祉部（第4条）",
+    "2年に1度、履行状況を検討・評価する会議を開催（第6条1）"
+   ],
+   "validity": "調印日から5年間有効（第5条）",
+   "validity_type": "fixed",
+   "valid_until": "2028-03-07",
+   "valid_until_note": "締結日（2023-03-08）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "いずれかが満了日の少なくとも3か月前までに終了希望を通知しない限り、1年ごとに自動更新（第5条）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "「法的拘束力がない」との明記はなし。第6条4で「両国の国際法上の権利及び義務を変更するものではない」と記載（参考和訳で確認）。",
+   "status": "signed",
+   "status_note": "県は介護人材確保対策緊急アクションプラン（外国人介護人材の確保・養成・定着）の一環として締結と説明（県ページ）。覚書の対象は介護に限定されない。覚書に基づく具体事業は今回未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "外国政府との協力覚書の締結について",
+     "publisher": "宮城県（長寿社会政策課）",
+     "url": "https://www.pref.miyagi.jp/soshiki/chouju/oboegaki.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書（参考・日本語）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/63707/04_wayaku.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFをダウンロードして本文を確認"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書（サイン済・英語）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/63707/03_20230308oboegaki.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "画像PDFのため本文は参考和訳で確認"
+    },
+    {
+     "id": "s4",
+     "title": "ベトナム社会主義共和国におけるトップセールスについて（令和4年9月6日記者発表）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/63707/01_20220906kisha.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "署名者：海外労働局長 トン・ハイ・ナム／宮城県知事 村井嘉浩。なお同局は北海道のページでは「現内務省海外労働管理局」と注記されている。"
+  },
+  {
+   "id": "JP-04-002",
+   "group_key": "04:04-ID-OSSELNAJAYA-labor",
+   "renewal_of": null,
+   "title_ja": "現地送出機関との連携協定（宮城県・PT OS SELNAJAYA）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "名称は「連携協定」（締結予定の発表のみ）",
+   "japan_level": "prefecture",
+   "japan_org": "宮城県",
+   "pref_code": "04",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "PT OS SELNAJAYA（現地送出機関）",
+   "partner_org_en": "PT OS SELNAJAYA",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "2023-07-21",
+   "date_note": "令和5年7月27日に同社本社で連携協定締結式を行う予定と事前発表。締結の事実は未確認。",
+   "fields": [
+    "labor",
+    "medical"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能",
+    "介護"
+   ],
+   "purpose": "介護人材をはじめとする技能実習生や特定技能外国人の育成と日本への送出しを行っている現地機関と連携協定を締結するもの（記者発表）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "planned",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドネシア共和国との人材確保に関する覚書締結及び宮城県PRイベント＆ジョブフェアの開催等について（令和5年7月21日記者発表）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/63707/05_20230725kisha.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "相手方代表は代表取締役社長 宮島賢（発表資料）。"
+  },
+  {
+   "id": "JP-04-003",
+   "group_key": "04:04-ID-MOM-labor",
+   "renewal_of": null,
+   "title_ja": "インドネシア共和国労働省事務総局と日本国宮城県との間の日本へのインドネシア人技能実習生・特定技能労働者・技術者の送り出し・受け入れ推進に関する協力覚書",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "宮城県",
+   "pref_code": "04",
+   "japan_signatory": "知事 村井嘉浩",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "労働省（事務総局）",
+   "partner_org_en": "Secretariat General, Ministry of Manpower",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2023-07-28",
+   "announced_date": "2023-07-21",
+   "date_note": "原文末尾「2023年7月28日にインドネシア共和国ジャカルタで署名」。事前の記者発表資料は令和5年7月21日付。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能",
+    "技術者"
+   ],
+   "purpose": "両国の法令を遵守しつつ両国の資源及び強みを活用し、宮城県において技能実習又は労働を行うインドネシア人労働者の人材育成、送り出し・受け入れプログラムをより効果的に促進すること（第1条）",
+   "content": [
+    "両者は人材育成、送り出し・受け入れの過程における支援に同意（第2条1）",
+    "宮城県は県内で働く意向のある優秀なインドネシア人労働者のために日本語学習プログラムの提供を検討し、インドネシア側は実施を支援するよう努める（第2条2）",
+    "両政府間の協力覚書等の下、宮城県で働く人材の派遣促進のため認定派遣団体及び受入団体のリストを共有（第2条3）",
+    "宮城県は相談窓口を設置し安全・安心な生活・労働環境の整備を支援（第2条4）",
+    "国際交流、ジョブフェア、会議等を通じた交流と協力活動を推進（第2条5）",
+    "宮城県は県内のインドネシア人労働者に日本語学習支援（第2条6）",
+    "帰国者の再就職支援のため情報交換（第2条7）",
+    "両政府間の協力覚書（特定技能・技能実習）を考慮して履行し、疑義が生じた場合はそれらが優先（前文・第3条1）",
+    "窓口はインドネシア側が労働省協力局、宮城県側が経済商工観光部及び保健福祉部（第4条）"
+   ],
+   "validity": "調印日から5年間有効（第5条）",
+   "validity_type": "fixed",
+   "valid_until": "2028-07-27",
+   "valid_until_note": "締結日（2023-07-28）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "いずれかが満了日の少なくとも3か月前までに更新を申し出た場合、両者協議の上更新できる（自動更新ではない）（第5条）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "「法的拘束力がない」との明記はなし。第6条3で「両国の国際法上の権利及び義務を変更するものではない」と記載。インドネシア語・日本語・英語で作成、解釈に相違がある場合は英文が優先。",
+   "status": "in_progress",
+   "status_note": "県は覚書に基づき令和6年9月にジャカルタで「みやぎジョブフェア」を開催、令和8年度もインドネシアでジョブキャラバンを実施予定（県資料）。",
+   "projects": [
+    {
+     "name": "みやぎフェア in インドネシア（PRイベント＆ジョブフェア）",
+     "fiscal_year": "2023",
+     "detail": "令和5年7月29日、ジャカルタ。県内企業5社が参加（事前発表）",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "name": "みやぎジョブフェア in インドネシア",
+     "fiscal_year": "2024",
+     "detail": "令和6年9月6日・7日、ジャカルタ。県内企業46社（ほかオブザーバー2団体）、求職者等750人程度、送り出し機関等30団体程度（9月4日時点の予定）。県は「協力覚書に基づき」開催と説明",
+     "sources": [
+      "s5",
+      "s6"
+     ]
+    },
+    {
+     "name": "インドネシア人材みやぎジョブフェア2025",
+     "fiscal_year": "2025",
+     "detail": "令和7年8月20日、夢メッセみやぎ。県内企業140社（求人約571人分）、監理団体等43団体、送出し機関等30団体（8月5日時点）",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "name": "令和8年度インドネシア共和国でのジョブキャラバン開催業務",
+     "fiscal_year": "2026",
+     "detail": "協力覚書に基づき令和9年1月中旬にジャカルタで実施予定（3泊5日、県内企業等20社程度）。仕様書（案）による",
+     "sources": [
+      "s8"
+     ]
+    }
+   ],
+   "budgets": [
+    {
+     "fiscal_year": "2024",
+     "kind": "planned",
+     "amount_yen": 19952900,
+     "original_text": "委託上限額 19,952,900円",
+     "payer": "prefecture",
+     "item": "令和6年度インドネシア共和国でのジョブフェア開催業務（委託）",
+     "relation": "MOU関連事業の委託上限額（MOU自体の予算ではない）",
+     "sources": [
+      "s9"
+     ]
+    }
+   ],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "外国政府との協力覚書の締結について",
+     "publisher": "宮城県（長寿社会政策課）",
+     "url": "https://www.pref.miyagi.jp/soshiki/chouju/oboegaki.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書（サイン済・日本語）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/63707/07_20230728moc.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "画像PDFを画像化して目視で確認"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書（サイン済・英語）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/63707/20230728ehp.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "画像PDF。内容は日本語版で確認"
+    },
+    {
+     "id": "s4",
+     "title": "インドネシア共和国との人材確保に関する覚書締結及び宮城県PRイベント＆ジョブフェアの開催等について（令和5年7月21日記者発表）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/63707/05_20230725kisha.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "旧URL https://www.pref.miyagi.jp/documents/37493/05_20230725kisha.pdf は2026-10-27時点でHTTP 404"
+    },
+    {
+     "id": "s5",
+     "title": "みやぎジョブフェアin インドネシアの開催について（令和6年5月7日記者発表）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/52055/press0502.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s6",
+     "title": "みやぎジョブフェアin インドネシアの開催について（令和6年9月4日記者発表）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/53972/kisyahappyousiryou.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s7",
+     "title": "「インドネシア人材みやぎジョブフェア2025」の開催について（令和7年8月6日記者発表）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/61143/kisyahappyousiryou2.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s8",
+     "title": "令和8年度インドネシア共和国でのジョブキャラバン開催業務に係る仕様書（案）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/66957/shiyousyo.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s9",
+     "title": "令和6年度インドネシア共和国でのジョブフェア開催業務の企画提案を募集します",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/soshiki/kokusaisei/r6miyagijobfair.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "2026-10-27時点でHTTP 404。検索結果の抜粋で確認（本文未取得）",
+     "link_status": "not_found",
+     "link_checked": "2026-10-27"
+    },
+    {
+     "id": "s10",
+     "title": "Indonesia-Jepang Teken MoC Bidang Ketenagakerjaan",
+     "publisher": "NU Online",
+     "url": "https://www.nu.or.id/ketenagakerjaan/indonesia-jepang-teken-moc-bidang-ketenagakerjaan-y660z",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "署名者：宮城県知事 村井嘉浩／インドネシア共和国労働省事務次官 アンワル・サヌシ（イダ・ファウジヤ労働大臣が立会い：NU Online報道）。県は「インドネシア労働省と人材育成に関する覚書を締結した初めての日本の自治体」と説明。有効期間は5年のため2028年7月に満了予定（原文の規定からの計算）。"
+  },
+  {
+   "id": "JP-04-004",
+   "group_key": "04:04-KH-MLVT-labor",
+   "renewal_of": null,
+   "title_ja": "カンボジア人材の送り出し及び受け入れの推進に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "宮城県",
+   "pref_code": "04",
+   "japan_signatory": "知事 村井嘉浩",
+   "other_japan_parties": [],
+   "country_code": "KH",
+   "partner_org": "労働職業訓練省",
+   "partner_org_en": "Ministry of Labour and Vocational Training",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2024-12-27",
+   "announced_date": "2024-12-23",
+   "date_note": "令和6年12月23日の記者発表で12月27日に締結予定と公表。県の結果発表（20241227press_release_cambodia.pdf、現在404）の検索抜粋と令和7年1月8日の知事記者会見で締結を確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [],
+   "purpose": "県内企業における外国人材確保のため、カンボジア人材の送り出し及び受け入れを推進する（記者発表資料）",
+   "content": [
+    "知事は会見で「政府がお墨付きをしているような送り出し機関としっかりと連携を取りたい。そのためにまずは政府と覚書を結ぶ」と説明（条文は未確認）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "令和7年12月19日に「みやぎのカンボジアセミナー2025」を開催（カンボジア労働職業訓練省等が講演）。県チラシは「昨年度、覚書を締結しました」と記載。",
+   "projects": [
+    {
+     "name": "みやぎのカンボジアセミナー2025",
+     "fiscal_year": "2025",
+     "detail": "2025年12月19日、仙台市。カンボジア労働職業訓練省、送出機関・監理団体、受入企業等が講演（チラシ）",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "カンボジア労働職業訓練省との覚書の締結について（令和6年12月23日記者発表）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/55495/kisyahappyousiryou2.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "知事記者会見（令和7年1月8日）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/site/chiji-kaiken/kk-250108.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "みやぎのカンボジアセミナー2025（チラシ）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/62853/seminar.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "カンボジア王国訪問結果（20241227press_release_cambodia）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/55566/20241227press_release_cambodia.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "2026-10-27時点でHTTP 404。検索結果の抜粋で確認（本文未取得）",
+     "link_status": "not_found",
+     "link_checked": "2026-10-27"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "県発表では「日本の自治体としては初の事例」。正式名称は県発表の表現（検索抜粋）で、原文未確認。フン・マネット首相を表敬。"
+  },
+  {
+   "id": "JP-04-005",
+   "group_key": "04:04-ID-KP2MI-labor",
+   "renewal_of": null,
+   "title_ja": "インドネシア人材の育成・送出し・受入れに関する覚書（宮城県・インドネシア共和国移住労働者保護省）",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "宮城県",
+   "pref_code": "04",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "移住労働者保護省及び移住労働者保護庁",
+   "partner_org_en": "Ministry of Protection of Indonesian Migrant Workers (KP2MI) and Agency for the Protection of Indonesian Migrant Workers (BP2MI)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2025-08",
+   "announced_date": "2025-08-19",
+   "date_note": "令和7年8月19日の記者発表で8月20日のジョブフェア開会式内で締結予定と公表。令和8年度事業の仕様書（案）で「令和7年8月に…移住労働者保護省及び…移住労働者保護庁と協力覚書を締結した」と記載。締結日（20日）は事前発表による。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "宮城県における産業人材の確保を図るため、特定技能制度に基づき宮城県で就労するインドネシア人材の育成、送出し及び受入れを促進すること（記者発表資料の「締結内容のポイント」）",
+   "content": [
+    "インドネシア側：送出し機関等が実施する日本語教育や技能講習の充実に向けた支援",
+    "インドネシア側：日本の就労・社会文化について出国前に理解を深めるオリエンテーションの開催",
+    "宮城県側：県内で就労予定のインドネシア人に対して出国前に行う日本語講座の支援",
+    "宮城県側：ジョブフェア等を通じて宮城県で働くインドネシア人材の受入を促進"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "令和8年度ジョブキャラバン（令和9年1月予定）の仕様書（案）が本覚書と2023年の労働省との覚書に基づくと説明。",
+   "projects": [
+    {
+     "name": "令和8年度インドネシア共和国でのジョブキャラバン開催業務",
+     "fiscal_year": "2026",
+     "detail": "仕様書（案）による",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドネシア共和国移住労働者保護省との覚書の締結及び「インドネシア人材受入促進に向けた意見交換会」の開催について",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/soshiki/kokusaisei/gaikokujinzai/indonesiafair20250820.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "PR資料（令和7年8月19日記者発表資料）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/61343/pr.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "令和8年度インドネシア共和国でのジョブキャラバン開催業務に係る仕様書（案）",
+     "publisher": "宮城県",
+     "url": "https://www.pref.miyagi.jp/documents/66957/shiyousyo.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "Indonesia, Miyagi strengthen cooperation on migrant workers",
+     "publisher": "ANTARA News Mataram",
+     "url": "https://mataram.antaranews.com/berita/480785/indonesia-miyagi-strengthen-cooperation-on-migrant-workers",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "2025年8月20日のカルディン大臣と村井知事の会談を報道。覚書署名への言及はなし",
+     "link_status": "error",
+     "link_checked": "2026-10-27"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "締結経緯：インドネシアの令和7年1月の省庁再編で海外移住労働が労働省から移住労働者保護省に移管されたため、従来の労働省に加え同省とも締結（記者発表）。県は「日本の自治体としては宮城県が第一号となる見込み」と説明。出席予定者はアブドゥル・カディル・カルディン大臣ほか。正式名称・署名者・有効期間は原文未確認。"
+  }
+ ]
+}

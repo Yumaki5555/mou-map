@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本と世界のMOUマップ｜海外との約束と地域への影響</title>
+<meta name="description" content="日本政府・省庁・47都道府県が海外の国・機関と結んだMOU（覚書）を、日本地図・相手国・分野・地域への影響から調べられる情報サイト。公開された一次資料と統計で確認できる範囲だけを掲載しています。">
+<meta property="og:title" content="日本と世界のMOUマップ">
+<meta property="og:description" content="どの国と、何を約束した？ 私たちの地域に何が起こる？">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f7a4a'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#app">本文へ移動</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span class="brand-text">
+        <span class="brand-title">日本と世界のMOUマップ</span>
+        <span class="brand-sub">どの国と、何を約束した？ 私たちの地域に何が起こる？</span>
+      </span>
+    </a>
+    <form class="header-search" role="search" id="global-search">
+      <label class="visually-hidden" for="global-q">サイト内を検索</label>
+      <input id="global-q" type="search" placeholder="県名・国名・協定名で検索" autocomplete="off">
+      <button class="btn btn-small" type="submit">検索</button>
+    </form>
+  </div>
+  <nav class="site-nav" aria-label="メインメニュー">
+    <div class="wrap nav-inner">
+      <a href="#/map" data-nav="map">日本地図</a>
+      <a href="#/country" data-nav="country">相手国</a>
+      <a href="#/field" data-nav="field">分野</a>
+      <a href="#/impact" data-nav="impact">地域への影響</a>
+      <a href="#/national" data-nav="national">国・省庁</a>
+      <a href="#/compare" data-nav="compare">比較グラフ</a>
+      <a href="#/about" data-nav="about">調査状況・使い方</a>
+      <a href="#/data" data-nav="data">データ</a>
+    </div>
+  </nav>
+</header>
+
+<main id="app" class="wrap" tabindex="-1">
+  <p class="loading">データを読み込んでいます…</p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p id="footer-updated"></p>
+    <p>このサイトは、公開された公式資料で確認できた範囲の情報を整理したものです。政治的な評価は行っていません。数字は「確認できたもの」のみで、不明な値を0として扱っていません。</p>
+    <p>地図：「国土数値情報（行政区域データ）」（国土交通省）<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_0.html" target="_blank" rel="noopener">https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_0.html</a> をもとに、スマートニュース メディア研究所が簡略化したデータ（<a href="https://github.com/smartnews-smri/japan-topography" target="_blank" rel="noopener">japan-topography</a>）を加工して作成。</p>
+    <p><a href="#/about">調査範囲・方法・注意点</a> ／ <a href="#/data">データのダウンロード</a></p>
+  </div>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/vendor/d3.min.js"></script>
+<script src="assets/vendor/topojson-client.min.js"></script>
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

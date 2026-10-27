@@ -1,0 +1,219 @@
+{
+ "note": "香川県のMOU",
+ "mous": [
+  {
+   "id": "JP-37-001",
+   "group_key": "37:37-VN-HUST-labor",
+   "renewal_of": null,
+   "title_ja": "ハノイ工科大学との覚書（香川県・香川県外国人材受入促進協議会・ハノイ工科大学）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "香川県",
+   "pref_code": "37",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "香川県外国人材受入促進協議会"
+   ],
+   "country_code": "VN",
+   "partner_org": "ハノイ工科大学",
+   "partner_org_en": "Hanoi University of Science and Technology",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2024-08-28",
+   "announced_date": "2024-09-02",
+   "date_note": "2024年9月2日の知事記者会見で『8月28日（水）』にハノイ工科大学で締結と報告",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "高度人材"
+   ],
+   "purpose": "県内の人材不足を踏まえ、高度なエンジニアを中心としたハノイ工科大学の卒業生に来県してもらうため、高度外国人材の香川県への受入れ促進を図る（知事記者会見の説明）。",
+   "content": [
+    "本県が主催する日本語教育の講座をハノイ工科大学に設ける",
+    "香川県や県内企業の魅力発信を行う講座をハノイ工科大学に設ける"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "知事会見では担当は労働政策課。講座の人数・開講時期は会見で言及なし。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事記者会見 令和6年9月2日（月曜日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijiteirei/2024/20240902.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "ベトナム訪問（8月26〜30日、知事に代わり大山副知事が訪問）の報告"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称未確認（会見での表現『ハノイ工科大学との覚書』）。署名者は未確認（知事は台風接近のため訪問を取りやめ、大山副知事が訪問）。原文未確認。同訪問で8月29日にハイフォン市と交流協定を締結（知事は友好提携と『実質同じ』と説明しているため除外）。"
+  },
+  {
+   "id": "JP-37-002",
+   "group_key": "37:37-PH-Saises-labor",
+   "renewal_of": null,
+   "title_ja": "香川県、香川県外国人材受入促進協議会、サイセス専門学校による覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "香川県",
+   "pref_code": "37",
+   "japan_signatory": "知事",
+   "other_japan_parties": [
+    "香川県外国人材受入促進協議会"
+   ],
+   "country_code": "PH",
+   "partner_org": "サイセス専門学校（マニラ）（署名者：アムルリナ・V・レデスマ学長）",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2025-07-29",
+   "announced_date": "2025-08-18",
+   "date_note": "知事週間スケジュールで7月29日14時（現地時間）に調印式。8月18日の知事会見で学長と直接調印したと報告（個別の日付言及なし）",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "（在留資格の別は資料に記載なし）"
+   ],
+   "purpose": "今後、香川県に優秀な人材がフィリピンからたくさん来てもらえるようにするため（知事記者会見の説明）。",
+   "content": [
+    "日本語教育や、県内の状況、県内の企業・介護施設の紹介を行う（サイセス専門学校では10月から6か月間の予定）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2025年8月18日会見時点で10月開始予定と説明。実施結果は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事週間スケジュール（2025年7月28日～2025年8月3日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/hisho/schedule/2025/20250728.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "知事記者会見 令和7年8月18日（月曜日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijiteirei/2025/20250818.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "フィリピン訪問（7月28〜31日）の報告"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称はスケジュール上の表記。サイセス専門学校の英語名は未確認。知事が学長と直接調印したと会見で説明。原文未確認。"
+  },
+  {
+   "id": "JP-37-003",
+   "group_key": "37:37-PH-Mindanao-labor",
+   "renewal_of": null,
+   "title_ja": "香川県、香川県外国人材受入促進協議会、ミンダナオ大学の三者による覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "香川県",
+   "pref_code": "37",
+   "japan_signatory": "知事",
+   "other_japan_parties": [
+    "香川県外国人材受入促進協議会"
+   ],
+   "country_code": "PH",
+   "partner_org": "ミンダナオ大学（ダバオ市）（署名者：ギレルモ・P・トーレス・ジュニア学長）",
+   "partner_org_en": "University of Mindanao",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2025-07-30",
+   "announced_date": "2025-08-18",
+   "date_note": "知事週間スケジュールで7月30日14時30分（現地時間）に三者による覚書調印式。8月18日の知事会見で学長と知事が直接調印と報告",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "（在留資格の別は資料に記載なし）"
+   ],
+   "purpose": "今後、香川県に優秀な人材がフィリピンからたくさん来てもらえるようにするため（知事記者会見の説明）。",
+   "content": [
+    "日本語教育や、県内の状況、県内の企業・介護施設の紹介を行う（ミンダナオ大学では2025年8月から6か月間の予定）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2025年8月18日会見で『今月から』開始と説明。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事週間スケジュール（2025年7月28日～2025年8月3日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/hisho/schedule/2025/20250728.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "知事記者会見 令和7年8月18日（月曜日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijiteirei/2025/20250818.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "フィリピン訪問（7月28〜31日）の報告"
+    },
+    {
+     "id": "s3",
+     "title": "知事記者会見 令和7年7月14日（月曜日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijiteirei/2025/20250714.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "7月14日会見（検索抜粋）では、製造業や宿泊・外食などを専攻した卒業生が対象で、卒業生を採用する県内企業への一部支援も行う方針と説明。英語名は一般的名称で、覚書上の表記は未確認。原文未確認。"
+  }
+ ]
+}

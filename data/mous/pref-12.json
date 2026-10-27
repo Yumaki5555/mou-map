@@ -1,0 +1,222 @@
+{
+ "note": "千葉県のMOU",
+ "mous": [
+  {
+   "id": "JP-12-001",
+   "group_key": "12:12-VN-MOLISA-labor",
+   "renewal_of": null,
+   "title_ja": "千葉県とベトナム労働・傷病兵・社会問題省との人材育成・受入れに関する覚書（正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "千葉県",
+   "pref_code": "12",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "労働・傷病兵・社会問題省",
+   "partner_org_en": "Ministry of Labour, Invalids and Social Affairs",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-03",
+   "announced_date": "",
+   "date_note": "県議会報告書は「平成31年3月」。ベトナム紙の検索抜粋では2019年3月中旬（3月14日の首相会談の翌日頃）とされるが未確認",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "技能実習",
+    "技術者"
+   ],
+   "purpose": "外国人介護人材の確保（県議会報告書の記載）。人材育成・受入れ（JETRO一覧）。",
+   "content": [
+    "（ベトナム紙の検索抜粋による）技術者・技能者・技能実習生・留学生の交流の枠組みを設ける"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "覚書締結後、令和元年度からベトナムを対象とする「千葉県留学生受入プログラム」（介護）を実施",
+   "projects": [
+    {
+     "name": "千葉県留学生受入プログラム",
+     "fiscal_year": "2019",
+     "detail": "ベトナムの日本語学校→県内日本語学校→介護福祉士養成施設を経て在留資格「介護」で県内介護施設への就労を目指す留学生のマッチングと学費・居住費支援（県が一部補助）。第1期生（令和元年度）～第6期生（令和6年度）",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "千葉県留学生受入プログラムの第1期生から第3期生が県内介護施設に就職済み（県ページ）",
+     "value": null,
+     "unit": "人",
+     "fiscal_year": "2025",
+     "causality": "unconfirmed",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "assembly",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "令和5年度千葉県議会 台湾・ベトナム行政調査報告書（令和6年2月）",
+     "publisher": "千葉県議会",
+     "url": "https://www.pref.chiba.lg.jp/gikai/kaiginogaiyou/documents/r5-1tyousahoukokusyo.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "「本県は外国人介護人材を確保するため、平成31年3月にベトナムと覚書を締結し」と記載"
+    },
+    {
+     "id": "s2",
+     "title": "千葉県留学生受入プログラムについて",
+     "publisher": "千葉県健康福祉部健康福祉指導課",
+     "url": "https://www.pref.chiba.lg.jp/kenshidou/jinzai/ryugakusei.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "JETRO 地域・分析レポート「日本の地方自治体とベトナム、交流が多様化」(2020年3月30日) 表3",
+     "publisher": "日本貿易振興機構（JETRO）",
+     "url": "https://www.jetro.go.jp/biz/areareports/2020/dd2a2e3f91713f1a.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "JETROの調査レポート（自治体HP等に基づく一覧）。県の一次資料ではない。表3に2019年3月 千葉県－労働・傷病兵・社会問題省「人材の育成・受入れ」と掲載"
+    },
+    {
+     "id": "s4",
+     "title": "Vietnam, Japan promote human resource development cooperation (2019年3月16日)",
+     "publisher": "Quan Doi Nhan Dan（ベトナム人民軍機関紙）",
+     "url": "https://en.qdnd.vn/social-affairs/news/vietnam-japan-promote-human-resource-development-cooperation-503842",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）。労働・傷病兵・社会問題省と千葉県が人材育成に関する覚書に署名、ドアン・マウ・ジェップ副大臣と森田知事の写真説明があるとされる"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "県の公式発表（締結時のプレスリリース）は未発見（Web検索上限に達したため追加確認できず）。相手省庁名はJETRO一覧とベトナム紙による。プログラムのページ（令和7年4月現在）には「介護施設就職143名」等の人数表示があるが、項目と数値の対応が不明確なため数値は記録していない。ベトナム労働・傷病兵・社会問題省は2025年3月の省庁再編で内務省に統合されたとの情報がある（他県ページの検索結果抜粋による。本調査では未確認）。"
+  },
+  {
+   "id": "JP-12-002",
+   "group_key": "12:12-VN-JIS-labor",
+   "renewal_of": null,
+   "title_ja": "千葉県留学生受入プログラムに関する千葉県とJIS人材開発株式会社（ベトナム）との協定（名称未確認）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "協定。県は現地日本語学校5校と同プログラムに関する協定を結んでいるとされる（他4校は未特定）",
+   "japan_level": "prefecture",
+   "japan_org": "千葉県",
+   "pref_code": "12",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "JIS人材開発株式会社（ハノイ本社。日本語学校運営・人材送出し）",
+   "partner_org_en": "",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2019-04",
+   "announced_date": "",
+   "date_note": "同社社長らの説明による（県議会調査報告書）",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "在留資格「介護」"
+   ],
+   "purpose": "千葉県留学生受入プログラム（外国人介護人材の確保）への参加。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2020年10月以降、同社の学生が順次来日",
+   "projects": [
+    {
+     "name": "千葉県留学生受入プログラム",
+     "fiscal_year": "2019",
+     "detail": "同社運営の日本語学校が参加。同プログラム参加者の約8割を同社学生が占めると同社が説明",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "2020年10月に1期生9名が日本に入国（同社説明）",
+     "value": 9,
+     "unit": "人",
+     "fiscal_year": "2020",
+     "causality": "unconfirmed",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "2022年4月に2期生24名・3期生26名、計50名が日本に入国（同社説明）",
+     "value": 50,
+     "unit": "人",
+     "fiscal_year": "2022",
+     "causality": "unconfirmed",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "2023年4月に4期生28名が日本に入国。これまでの合計約130名（同社説明、2023年11月時点）",
+     "value": 28,
+     "unit": "人",
+     "fiscal_year": "2023",
+     "causality": "unconfirmed",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "assembly",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "令和5年度千葉県議会 台湾・ベトナム行政調査報告書（JIS人材開発株式会社の調査記録）",
+     "publisher": "千葉県議会",
+     "url": "https://www.pref.chiba.lg.jp/gikai/kaiginogaiyou/documents/r5-2tyousahoukokusyo.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "同社の説明として「2019年4月に千葉県との協定を締結」「千葉県は5校の日本語学校と本プログラムに関する協定を結んでいる」と記載"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "外国の民間企業との協定。県の一次資料（協定書・発表）は未確認。人数は同社の説明を県議会報告書が記録したもの。"
+  }
+ ]
+}

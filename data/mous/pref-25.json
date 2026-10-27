@@ -1,0 +1,476 @@
+{
+ "note": "滋賀県のMOU",
+ "mous": [
+  {
+   "id": "JP-25-001",
+   "group_key": "25:25-VN-SHTP-economy",
+   "renewal_of": null,
+   "title_ja": "連携と協力に関する覚書（滋賀県商工観光労働部・サイゴン・ハイテク・パーク）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "本文中では『本協定』とも表記",
+   "japan_level": "prefecture",
+   "japan_org": "滋賀県（商工観光労働部）",
+   "pref_code": "25",
+   "japan_signatory": "商工観光労働部長 羽泉博史",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ホーチミン市サイゴン・ハイテク・パーク",
+   "partner_org_en": "Saigon Hi-Tech Park",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "signed_date": "2014-09-05",
+   "announced_date": "",
+   "date_note": "立会人：ホーチミン市人民委員会副委員長。",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "相互に連携・協力することにより、双方の資源を有効に活用し、課題解決に向けた取組を推進するとともに、滋賀県内に事業所を有する企業・団体等ならびにSHTPおよび関係の企業・団体等の発展に寄与すること。",
+   "content": [
+    "企業・団体等の紹介とマッチング機会の提供",
+    "企業の共同研究等に対する支援",
+    "説明会、商談会、展示会等の開催および出展支援",
+    "情報の提供、意見交換の場の設定"
+   ],
+   "validity": "2014年9月5日から2016年3月31日まで。",
+   "validity_type": "fixed",
+   "valid_until": null,
+   "renewal_terms": "有効期間満了の2か月前までに解除の意思表示がない場合は、更に1年間継続更新、以降も同様。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "連携と協力に関する覚書（原文PDF）",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/documents/6400/1005758.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム・ホーチミン市との経済交流",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/fa00/6400.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": ""
+  },
+  {
+   "id": "JP-25-002",
+   "group_key": "25:25-VN-HCMC-economy",
+   "renewal_of": null,
+   "title_ja": "経済・産業分野の協力に関する覚書（ベトナム社会主義共和国ホーチミン市人民委員会および日本国滋賀県）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "滋賀県",
+   "pref_code": "25",
+   "japan_signatory": "知事 三日月大造",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ホーチミン市人民委員会",
+   "partner_org_en": "Ho Chi Minh City People's Committee",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2014-11-13",
+   "announced_date": "",
+   "date_note": "ホーチミン市で署名。",
+   "fields": [
+    "economy",
+    "education",
+    "tourism",
+    "disaster_env"
+   ],
+   "labor_detail": [],
+   "purpose": "経済・産業分野についての協力関係を築き、双方互いの発展に貢献し、『アジアにおける平和と繁栄のための広範な戦略的パートナーシップ』を深めること。",
+   "content": [
+    "経済・産業分野における協力関係を築き、それぞれの権限と管轄において協力関係を構築し展開する",
+    "裾野産業、ハイテク産業、科学技術分野の教育・訓練、研究開発、貿易、人材、観光、環境等の分野における取組を協力して推進する",
+    "両県市の企業に対し円滑な投資・貿易・ビジネス環境を整備し、情報公開・情報共有できる条件を整える",
+    "サイゴン・ハイテク・パークと滋賀県商工観光労働部との連携と協力に関心を寄せ、サポートする",
+    "窓口はホーチミン市商工局と滋賀県商工観光労働部"
+   ],
+   "validity": "締結日から5年間有効。",
+   "validity_type": "fixed",
+   "valid_until": "2019-11-12",
+   "valid_until_note": "締結日（2014-11-13）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "有効期間満了の3か月前までに解除に関する書面による意思表示がない場合は、さらに同様の期間で継続更新。",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "原文第5項『本覚書により双方へ強制義務が発生することはない』。",
+   "status": "unknown",
+   "status_note": "県ページに2014年11月～2019年10月の経済ミッション派遣・視察団受入等の交流実績を掲載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "経済・産業分野の協力に関する覚書（原文PDF）",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/documents/6400/1005756.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム・ホーチミン市との経済交流",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/fa00/6400.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "協力分野の一つに「人材」が挙げられているが、外国人材の受入れ・送出しを主題とする覚書ではないため、このサイトでは「外国人材・労働」に分類していない。"
+  },
+  {
+   "id": "JP-25-003",
+   "group_key": "25:25-VN-QuangNinh-env",
+   "renewal_of": null,
+   "title_ja": "ベトナム国クアンニン省と滋賀県の環境・経済分野の協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "滋賀県",
+   "pref_code": "25",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "クアンニン省",
+   "partner_org_en": "Quang Ninh Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2017-10-20",
+   "announced_date": "2017-10-25",
+   "date_note": "県報道発表（提供日2017年10月25日）に締結日『平成29年10月20日』と記載。",
+   "fields": [
+    "disaster_env",
+    "economy",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "クアンニン省における環境保全と経済発展の両立に貢献するとともに県内の産学官民で取組む水環境ビジネスを一層推進するため。",
+   "content": [
+    "環境保全と経済発展の両立",
+    "環境保全に係る財政制度の構築",
+    "環境保全に係る市民との連携",
+    "琵琶湖環境科学研究センターをモデルとしたハロン大学に属する研究機関の設立",
+    "双方の大学・研究機関の連携",
+    "滋賀の企業が有する先進技術の活用",
+    "保全に配慮した観光開発",
+    "汚水処理施設の整備による汚濁負荷削減"
+   ],
+   "validity": "平成29年10月20日～平成31年10月30日（県発表）。",
+   "validity_type": "fixed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "期間満了後の更新の有無は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム国クアンニン省と環境・経済分野の協力に関する覚書を締結（報道発表）",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/kensei/koho/e-shinbun/oshirase/101657.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "題名は取得内容からの要約。"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称未確認。"
+  },
+  {
+   "id": "JP-25-004",
+   "group_key": "25:25-VN-SHTPRL-env",
+   "renewal_of": null,
+   "title_ja": "ホーチミン市サイゴン・ハイテク・パーク研究所と滋賀県商工観光労働部商工政策課との間の研究開発に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "滋賀県（商工観光労働部商工政策課）",
+   "pref_code": "25",
+   "japan_signatory": "商工観光労働部商工政策課長 望月敬之",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ホーチミン市サイゴン・ハイテク・パーク研究所",
+   "partner_org_en": "Saigon Hi-Tech Park Research Laboratories",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "signed_date": "2018-12-14",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "disaster_env",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "お互いの協力関係を促進するため、IoTに基づく排水監視システム、排水処理技術および関連分野を対象に、環境保全に係る研究開発を促進する。",
+   "content": [
+    "IoTに基づく排水監視システム、排水処理技術等を対象に環境保全に係る研究開発を促進",
+    "研究員および専門家の交流を促進",
+    "研究開発の経費や分担は相互の協議で決定",
+    "知的財産権の保護に協力"
+   ],
+   "validity": "署名日から3年間効力を有する。",
+   "validity_type": "fixed",
+   "valid_until": "2021-12-13",
+   "valid_until_note": "締結日（2018-12-14）と有効期間（3年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "失効日の6か月前までに終了の書面通知がない限り1年間延長、以降も同様。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "研究開発に関する覚書（原文PDF）",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/documents/6400/5143757.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム・ホーチミン市との経済交流",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/fa00/6400.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": ""
+  },
+  {
+   "id": "JP-25-005",
+   "group_key": "25:25-VN-SHTPTC-labor",
+   "renewal_of": null,
+   "title_ja": "ホーチミン市サイゴン・ハイテク・パーク・トレーニングセンターと滋賀県商工観光労働部商工政策課との間のベトナム人高度人材の育成と供給に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "日本側の署名者は県の課（商工観光労働部商工政策課）",
+   "japan_level": "prefecture",
+   "japan_org": "滋賀県（商工観光労働部商工政策課）",
+   "pref_code": "25",
+   "japan_signatory": "商工観光労働部商工政策課長 望月敬之",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ホーチミン市サイゴン・ハイテク・パーク・トレーニングセンター",
+   "partner_org_en": "Saigon Hi-Tech Park Training Center",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "signed_date": "2019-10-16",
+   "announced_date": "",
+   "date_note": "原文の署名日付は October 16, 2019（英語・ベトナム語・日本語で作成、英語優先）。",
+   "fields": [
+    "labor",
+    "economy"
+   ],
+   "labor_detail": [
+    "高度人材"
+   ],
+   "purpose": "お互いの協力関係を促進するため、産業分野を対象に、滋賀県に対するベトナム人高度人材の育成と供給に係る協力を推進する。",
+   "content": [
+    "両者は、産業分野を対象に、滋賀県に対するベトナム人高度人材の育成と供給に係る協力を推進する",
+    "前記の協力を推進するため、各々の関係当局者や専門家の交流を促進する",
+    "覚書の枠内で行う活動に必要な経費やその分担は、両者の協議を通じて決定する",
+    "日越両国の法令を遵守し、協力して個人情報や企業の機密情報を保護する",
+    "ホーチミン市人民委員会と滋賀県、サイゴン・ハイテク・パークと商工観光労働部の間で交わされた二つの覚書を尊重する"
+   ],
+   "validity": "署名日から3年間効力を有する。",
+   "validity_type": "fixed",
+   "valid_until": "2022-10-15",
+   "valid_until_note": "締結日（2019-10-16）と有効期間（3年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "いずれかが失効日の6か月前までに終了の書面通知をしない限り、有効期限の終了日から1年間延長され、以降も同様。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "原文（日本語版）に法的拘束力に関する条項なし。",
+   "status": "unknown",
+   "status_note": "覚書に基づく具体的事業は確認できず。県ページには2018年10月・2019年10月にトレーニングセンター視察団が来県と記載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "employment",
+     "stage": "agreed",
+     "text": "滋賀県向けのベトナム人高度人材の育成と供給に係る協力を推進することで合意（原文第1項）",
+     "value": null,
+     "unit": "",
+     "fiscal_year": "",
+     "causality": "n/a",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム人高度人材の育成と供給に関する覚書（原文PDF）",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/documents/6400/5143785.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "県ページ掲載の日本語版。"
+    },
+    {
+     "id": "s2",
+     "title": "ベトナム・ホーチミン市との経済交流",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/fa00/6400.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "2014年の2つの覚書（G4-25-03、G4-25-04）に基づく関連覚書。"
+  },
+  {
+   "id": "JP-25-006",
+   "group_key": "25:25-VN-HUST-labor",
+   "renewal_of": null,
+   "title_ja": "滋賀県・一般社団法人滋賀経済産業協会・ハノイ工科大学の3者覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "正式名称未確認（県発表では『覚書を取り交わしました』）",
+   "japan_level": "prefecture",
+   "japan_org": "滋賀県",
+   "pref_code": "25",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "一般社団法人滋賀経済産業協会"
+   ],
+   "country_code": "VN",
+   "partner_org": "ハノイ工科大学",
+   "partner_org_en": "Hanoi University of Science and Technology",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2021-11-12",
+   "announced_date": "",
+   "date_note": "県報道発表（2026年）に『令和3年11月12日』と記載。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "高度人材",
+    "大学生・卒業生の県内企業就職"
+   ],
+   "purpose": "ベトナムの理系人材に滋賀県で活躍いただくことを促進するため（県発表の表現）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "覚書に基づき、日本語講座の提供、ジョブフェア出展、学生の県内企業等での短期就業体験を実施（県発表）。2026年度も現地ジョブフェア、オンライン交流会・面接会、長期インターンシップを実施中。",
+   "projects": [
+    {
+     "name": "ハノイ工科大学での日本語講座提供・ジョブフェア出展・短期就業体験",
+     "fiscal_year": "",
+     "detail": "2021年の3者覚書締結以降の取組として県が記載。",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "name": "ハノイ工科大学生の県内企業での長期インターンシップ（受入企業募集）",
+     "fiscal_year": "2026",
+     "detail": "募集企業数5社。受入れは令和8年7月以降、30日から80日間以内、令和9年2月末日までに終了。",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "name": "ハノイ工科大学生との交流・マッチング（現地ジョブフェア、オンライン交流会・面接会、小規模面接会）",
+     "fiscal_year": "2026",
+     "detail": "2026年11月2日～3日にハノイ市内でミッション団派遣予定。",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム ハノイ工科大学生との交流・マッチング機会を提供します!<ジョブフェア、オンライン交流会・面接会の参加企業募集>",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/fe00/press-release/29248.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "提供日2026年7月10日"
+    },
+    {
+     "id": "s2",
+     "title": "ハノイ工科大学生の長期インターンシップ受入企業募集（報道発表）",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/fe00/press-release/24035.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "提供日2026年4月27日。題名は取得内容からの要約。"
+    },
+    {
+     "id": "s3",
+     "title": "滋賀県と株式会社イトーキが高度外国人財の獲得・定着に向けた相互連携に関する覚書を締結",
+     "publisher": "滋賀県",
+     "url": "https://www.pref.shiga.lg.jp/ippan/shigotosangyou/shigoto/338769.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "3者覚書の経緯と取組を記載。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "2024年7月9日に県は株式会社イトーキと高度外国人財の獲得・定着に向けた覚書（国内企業との覚書のため対象外）を締結し、イトーキはハノイ工科大学生10名のインターンシップ（2024年7月15日～8月16日）を受け入れ、県は4日間のプログラムを提供。"
+  }
+ ]
+}

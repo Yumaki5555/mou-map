@@ -1,0 +1,136 @@
+{
+ "note": "兵庫県のMOU",
+ "mous": [
+  {
+   "id": "JP-28-001",
+   "group_key": "28:28-VN-HCMC-economy",
+   "renewal_of": null,
+   "title_ja": "友好・経済交流に関する覚書（兵庫県・ホーチミン市）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県は『友好・姉妹提携』ページ（個別分野ごとの交流の友好提携）に掲載",
+   "japan_level": "prefecture",
+   "japan_org": "兵庫県",
+   "pref_code": "28",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ホーチミン市",
+   "partner_org_en": "Ho Chi Minh City",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2007-10-27",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "economy",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "両県市間の友好交流、貿易・投資促進などの経済交流を推進するため（県ページの表現）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2017年から『兵庫県・ホーチミン市経済促進会議』を開催。2023年12月に第5回会議を開催し、知事がホーチミン市人民委員長を表敬訪問（外国人材受入れ等の意見交換を含む出張）。",
+   "projects": [
+    {
+     "name": "兵庫県・ホーチミン市経済促進会議",
+     "fiscal_year": "2023",
+     "detail": "第5回会議を令和5年12月に開催。同出張で現地の労働市場や県内企業の人材受入れ課題について意見交換、現地学生との意見交換会を実施。",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム社会主義共和国 ホーチミン市の概要",
+     "publisher": "兵庫県",
+     "url": "https://web.pref.hyogo.lg.jp/sr13/ie13_000000062.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "経済・人材交流に向けたベトナムでのトッププロモーションについて(令和5年12月)",
+     "publisher": "兵庫県",
+     "url": "https://web.pref.hyogo.lg.jp/sr13/r5vietnam_promotion.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "覚書締結の記載なし。"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "友好交流を含む覚書。外国人材を対象とする条項は確認できず。"
+  },
+  {
+   "id": "JP-28-002",
+   "group_key": "28:28-IN-Gujarat-general",
+   "renewal_of": null,
+   "title_ja": "兵庫県とインド・グジャラート州との相互協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県は『友好・姉妹提携』ページ（個別分野ごとの交流の友好提携）に掲載",
+   "japan_level": "prefecture",
+   "japan_org": "兵庫県",
+   "pref_code": "28",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "グジャラート州",
+   "partner_org_en": "State of Gujarat",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2016-11-12",
+   "announced_date": "",
+   "date_note": "安倍首相とモディ首相が立会人として臨席（県ページ）。",
+   "fields": [
+    "economy",
+    "disaster_env",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "締結後の取組として友好代表団・経済交流団の相互派遣、防災担当者の研修受入れ、青少年交流を県ページに記載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インド グジャラート州の概要（兵庫県の友好提携）",
+     "publisher": "兵庫県",
+     "url": "https://web.pref.hyogo.lg.jp/sr13/ie13_000000065.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "題名は取得内容からの要約。"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,4967 @@
+{
+ "note": "国・省庁のMOU",
+ "mous": [
+  {
+   "id": "JP-NAT-001",
+   "group_key": "NAT:NAT-VN-MHLW-labor-welfare",
+   "renewal_of": null,
+   "title_ja": "労働・社会福祉分野の協力覚書（厚生労働省とベトナム労働傷病兵社会問題省）",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "",
+   "japan_level": "national",
+   "japan_org": "厚生労働省",
+   "pref_code": null,
+   "japan_signatory": "厚生労働大臣（田村大臣）",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム社会主義共和国労働傷病兵社会問題省",
+   "partner_org_en": "Ministry of Labour, Invalids and Social Affairs",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2014-05-13",
+   "announced_date": "",
+   "date_note": "2014年5月13日、厚生労働省大臣室で署名（フォトレポート）。",
+   "fields": [
+    "labor",
+    "medical"
+   ],
+   "labor_detail": [
+    "労働行政協力（外国人材受入れ制度とは別）",
+    "社会福祉"
+   ],
+   "purpose": "覚書に記載された労働・社会福祉分野で、厚生労働省とベトナム労働傷病兵社会問題省との間で相互に協力すること（フォトレポートの記載）。",
+   "content": [
+    "労働・社会福祉分野における両省間の相互協力（具体的な協力分野の一覧は報道発表本文を取得できず未確認。検索結果の抜粋には労働安全衛生、労使関係、職業訓練・国家技能検定、社会保険・失業保険、高齢化に対応する社会福祉制度、両省所管施設間の協力等の記載があった）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文未確認。",
+   "status": "unknown",
+   "status_note": "署名は確認。その後の実施状況・有効性は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "田村厚生労働大臣がベトナム社会主義共和国 ホア労働傷病兵社会問題副大臣と労働・社会福祉分野の協力覚書に署名（フォトレポート）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/photo/2014/05/ph0513-02.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "本文を取得して確認（Shift_JIS）。署名者はグェン・タイン・ホア労働傷病兵社会問題副大臣。意見交換でEPAに基づくベトナム人看護師・介護福祉士候補者第一陣の受入れにも言及。"
+    },
+    {
+     "id": "s2",
+     "title": "ベトナムとの労働・社会福祉分野の協力覚書に関する報道発表",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/houdou/0000045845.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得。2026-10-27にアクセスした際はページが見つからず404）。",
+     "link_status": "not_found",
+     "link_checked": "2026-10-27"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称未確認（フォトレポートの表現を記載）。外国人材の受入れ制度（技能実習・特定技能）に関するMOCではなく、労働行政全般の協力覚書。ベトナム側署名者は副大臣。"
+  },
+  {
+   "id": "JP-NAT-002",
+   "group_key": "NAT:NAT-MN-MHLW-labor",
+   "renewal_of": null,
+   "title_ja": "日本国厚生労働省とモンゴル国労働省との間の労働分野における協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "英文で2通作成（本文の記載）。厚労省掲載の日本語文書で確認",
+   "japan_level": "national",
+   "japan_org": "厚生労働省",
+   "pref_code": null,
+   "japan_signatory": "厚生労働大臣（塩崎大臣。検索結果の抜粋による）",
+   "other_japan_parties": [],
+   "country_code": "MN",
+   "partner_org": "モンゴル国労働省",
+   "partner_org_en": "",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2016-06-02",
+   "announced_date": "",
+   "date_note": "本文に「2016年6月2日に東京において署名された」と記載。報道発表（検索結果の抜粋）では首相官邸で安倍総理大臣とエンフボルド国家大会議議長の立ち会いのもと塩崎厚生労働大臣とバヤルサイハン労働大臣が署名。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "職業訓練・技能開発",
+    "労働行政協力（外国人材受入れ制度とは別）"
+   ],
+   "purpose": "友好関係を強化し、相互に関心を有する労働分野における協力を共に進める。",
+   "content": [
+    "雇用に繋がる技能開発、職業訓練",
+    "双方の関心分野における両省所管の施設間の協力促進",
+    "両省の決定による他の協力分野",
+    "連絡窓口：日本側は厚生労働省大臣官房国際課、モンゴル側は労働省大臣官房公務管理課"
+   ],
+   "validity": "署名の日から開始し5年間",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "自動的に引き続き5年間延長。一方が終了を希望する日の6か月前までに書面で通知することで終了できる",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "本文に「本覚書は、拘束力を持たない文書として英文で２通作成され」と明記。",
+   "status": "unknown",
+   "status_note": "署名は確認。その後の実施状況は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日本国厚生労働省とモンゴル国労働省との間の労働分野における協力に関する覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/file/04-Houdouhappyou-10501000-Daijinkanboukokusaika-Kokusaika/0000045843_4.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文確認（日本語文書。正文は英文）。"
+    },
+    {
+     "id": "s2",
+     "title": "モンゴル国労働省との労働分野における協力覚書に関する報道発表",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/houdou/0000126140.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得。2026-10-27にアクセスした際は404）。署名者・署名場所の情報はこの抜粋による。",
+     "link_status": "not_found",
+     "link_checked": "2026-10-27"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "外国人材の受入れ制度に関するMOCではなく、労働分野（技能開発・職業訓練等）の協力覚書。"
+  },
+  {
+   "id": "JP-NAT-003",
+   "group_key": "NAT:NAT-SA-MHLW-labor",
+   "renewal_of": null,
+   "title_ja": "日本国厚生労働省とサウジアラビア王国労働・社会発展省との間の労働分野における協力覚書",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "",
+   "japan_level": "national",
+   "japan_org": "厚生労働省",
+   "pref_code": null,
+   "japan_signatory": "厚生労働大臣（塩崎大臣）",
+   "other_japan_parties": [],
+   "country_code": "SA",
+   "partner_org": "サウジアラビア王国労働・社会発展省",
+   "partner_org_en": "",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2017-03-14",
+   "announced_date": "",
+   "date_note": "2017年3月14日、厚生労働大臣室で署名式（フォトレポート）。相手側署名者はガフィース労働・社会発展大臣。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "労働監督・労働安全衛生",
+    "雇用サービス",
+    "職業訓練",
+    "労働行政協力（外国人材受入れ制度とは別）"
+   ],
+   "purpose": "労働分野において厚生労働省とサウジアラビア王国労働・社会発展省との間で協力を進めることを確認（フォトレポートの記載）。",
+   "content": [
+    "労働監督、労働安全衛生",
+    "労働市場整備のための雇用サービス",
+    "若年者の分野における労働者の訓練と評価",
+    "双方が決定したその他の協力分野"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文未確認。",
+   "status": "unknown",
+   "status_note": "署名は確認。その後の実施状況は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日本国厚生労働省とサウジアラビア王国保健省及び労働・社会発展省との協力に関する覚書の署名式（フォトレポート）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/photo/2017/03/ph0314-01.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "本文を取得して確認。同日に保健省との医療・保健分野の協力覚書にも署名（そちらは労働分野でないため記録対象外）。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "外国人材の受入れ制度に関するMOCではなく、労働行政全般の協力覚書。報道発表（https://www.mhlw.go.jp/stf/houdou/0000154983.html）は2026-10-27時点で404のため未参照。"
+  },
+  {
+   "id": "JP-NAT-004",
+   "group_key": "NAT:NAT-VN-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省及び厚生労働省とベトナム労働・傷病兵・社会問題省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF LABOUR, INVALIDS AND SOCIAL AFFAIRS OF VIET NAM",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム社会主義共和国労働・傷病兵・社会問題省",
+   "partner_org_en": "Ministry of Labour, Invalids and Social Affairs of Viet Nam",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2017-06-06",
+   "announced_date": "",
+   "date_note": "2017年6月6日東京で署名。協力は2017年11月1日から（第7項。厚労省ページも「2017年11月1日から発効」）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "2017年11月1日から5年間（第7項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "期限の60日前までに終了の意図を通知しない限り自動的に5年延長。5年経過前の終了は90日前までに書面通知。終了はMOCの枠組みで実施中の活動に影響しない（第7項）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（ベトナム国籍、1号イ〜3号ロの合計）：189,756人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 189756,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "ベトナムとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180849.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001493178.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001201026.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。厚労省ページには「別添３の新様式（英語ベトナム語併記）」も掲載（本調査では未読）。"
+  },
+  {
+   "id": "JP-NAT-005",
+   "group_key": "NAT:NAT-KH-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省・外務省・厚生労働省とカンボジア王国労働職業訓練省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF LABOUR AND VOCATIONAL TRAINING OF CAMBODIA",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "KH",
+   "partner_org": "カンボジア王国労働職業訓練省",
+   "partner_org_en": "Ministry of Labour and Vocational Training of Cambodia",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2017-07-11",
+   "announced_date": "",
+   "date_note": "2017年7月11日東京で署名。協力は2017年11月1日から（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可事務・技能実習計画の認定事務を適切に行う",
+    "日本側：監理団体・実習実施者に対して許認可の取消や改善命令を行った場合は、その結果をカンボジア側に通知する",
+    "カンボジア側：覚書の基準に基づき送出機関の認定事務を適切に行う",
+    "カンボジア側：日本側から不適切な送出機関の情報が提供された場合は調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について定期的な意見交換を行う（定期会合・情報共有。外国人技能実習機構と在日カンボジア大使館の連絡）"
+   ],
+   "validity": "2017年11月1日から5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（カンボジア国籍、1号イ〜3号ロの合計）：14,182人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 14182,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "カンボジアとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180848.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001493391.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001493399.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-006",
+   "group_key": "NAT:NAT-IN-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省・外務省・厚生労働省とインド技能開発・起業促進省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF SKILL DEVELOPMENT AND ENTREPRENEURSHIP OF THE GOVERNMENT OF INDIA",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "インド技能開発・起業促進省",
+   "partner_org_en": "Ministry of Skill Development and Entrepreneurship of the Government of India",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2017-10-17",
+   "announced_date": "",
+   "date_note": "2017年10月17日東京で署名。協力は、各省が協力開始の意思を通知し、後の通知の受領日から30日目に開始（第VIII項）。実際の開始日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "後の通知受領日から30日目より5年間（第VIII項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（インド国籍、1号イ〜3号ロの合計）：1,358人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 1358,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "インドとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180655.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001405869.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001405878.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-007",
+   "group_key": "NAT:NAT-PH-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とフィリピン共和国労働雇用省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOR AND WELFARE OF JAPAN AND THE DEPARTMENT OF LABOR AND EMPLOYMENT OF THE REPUBLIC OF THE PHILIPPINES",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PH",
+   "partner_org": "フィリピン共和国労働雇用省",
+   "partner_org_en": "Department of Labor and Employment of the Republic of the Philippines",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2017-11-21",
+   "announced_date": "",
+   "date_note": "2017年11月21日東京で署名。協力は同日開始（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "2017年11月21日から5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（フィリピン国籍、1号イ〜3号ロの合計）：42,289人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 42289,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "フィリピンとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000185430.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001405939.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001405950.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-008",
+   "group_key": "NAT:NAT-LA-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とラオス人民民主共和国労働・社会福祉省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOR AND WELFARE OF JAPAN AND THE MINISTRY OF LABOR AND SOCIAL WELFARE OF LAO PEOPLE’S DEMOCRATIC REPUBLIC",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LA",
+   "partner_org": "ラオス人民民主共和国労働・社会福祉省",
+   "partner_org_en": "Ministry of Labor and Social Welfare of Lao People's Democratic Republic",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2017-12-09",
+   "announced_date": "",
+   "date_note": "2017年11月28日東京、2017年12月9日ビエンチャンで署名（後の署名日を記録。厚労省ページは「2017年12月9日…作成しました」）。協力は後の通知受領日から30日目に開始（第8項）。実際の開始日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "後の通知受領日から30日目より5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（ラオス国籍、1号イ〜3号ロの合計）：1,827人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 1827,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "ラオスとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188931.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001406393.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001406398.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-009",
+   "group_key": "NAT:NAT-MN-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とモンゴル国労働・社会保障省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOR AND WELFARE OF JAPAN AND THE MINISTRY OF LABOR AND SOCIAL PROTECTION OF MONGOLIA",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "MN",
+   "partner_org": "モンゴル国労働・社会保障省",
+   "partner_org_en": "Ministry of Labor and Social Protection of Mongolia",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2017-12-21",
+   "announced_date": "",
+   "date_note": "2017年12月21日東京で署名。協力は同日開始（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "2017年12月21日から5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（モンゴル国籍、1号イ〜3号ロの合計）：1,815人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 1815,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "モンゴルとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188516.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001416630.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001414862.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。2026年2月11日、在モンゴル日本国大使館とモンゴル外務省との口上書交換により、モンゴルの関係規定に沿うよう別添1_1二等を修正（厚労省ページ）。"
+  },
+  {
+   "id": "JP-NAT-010",
+   "group_key": "NAT:NAT-BD-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とバングラデシュ国海外移住者福利厚生・海外雇用省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOR AND WELFARE OF JAPAN AND THE MINISTRY OF EXPATRIATES’ WELFARE & OVERSEAS EMPLOYMENT OF BANGLADESH",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "バングラデシュ海外移住者福利厚生・海外雇用省",
+   "partner_org_en": "Ministry of Expatriates' Welfare & Overseas Employment of Bangladesh",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2018-01-29",
+   "announced_date": "",
+   "date_note": "2018年1月29日東京で署名。協力は署名日に開始（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "署名日から5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（バングラデシュ国籍、1号イ〜3号ロの合計）：2,198人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 2198,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "バングラデシュとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000192642.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001417417.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001417418.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-011",
+   "group_key": "NAT:NAT-LK-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とスリランカ国海外雇用省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOR AND WELFARE OF JAPAN AND THE MINISTRY OF FOREIGN EMPLOYMENT OF SRI LANKA",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LK",
+   "partner_org": "スリランカ海外雇用省",
+   "partner_org_en": "Ministry of Foreign Employment of Sri Lanka",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2018-02-01",
+   "announced_date": "",
+   "date_note": "2017年12月21日東京、2018年2月1日コロンボで署名（後の署名日を記録）。協力は後の署名日に開始（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "開始日（2018年2月1日）から5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（スリランカ国籍、1号イ〜3号ロの合計）：2,870人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 2870,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "スリランカとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000195323.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001417633.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001417637.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-012",
+   "group_key": "NAT:NAT-MM-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とミャンマー労働・入国管理・人口省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF LABOUR, IMMIGRATION AND POPULATION OF MYANMAR",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "MM",
+   "partner_org": "ミャンマー労働・入国管理・人口省",
+   "partner_org_en": "Ministry of Labour, Immigration and Population of Myanmar",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2018-04-19",
+   "announced_date": "",
+   "date_note": "2018年3月19日東京、2018年4月19日ネーピードーで署名（後の署名日を記録）。協力は2018年4月19日開始（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "2018年4月19日から5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（ミャンマー国籍、1号イ〜3号ロの合計）：35,669人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 35669,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "ミャンマーとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000205716.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001417802.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001417804.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-013",
+   "group_key": "NAT:NAT-BT-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とブータン労働人材省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF LABOUR AND HUMAN RESOURCES OF BHUTAN",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BT",
+   "partner_org": "ブータン王国労働人材省（2023年の組織改編後は産業・商業・雇用省と読み替え）",
+   "partner_org_en": "Ministry of Labour and Human Resources of Bhutan",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2018-10-03",
+   "announced_date": "",
+   "date_note": "2018年10月3日東京で署名。協力は署名日に開始（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "署名日から5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（ブータン国籍、1号イ〜3号ロの合計）：4人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 4,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "ブータンとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188516_00004.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001401715.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001401700.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    },
+    {
+     "id": "s6",
+     "title": "ブータンとの技能実習に関する二国間取決めの変更等について（令和5年11月3日 出入国在留管理庁・厚生労働省）",
+     "publisher": "出入国在留管理庁・厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001401707.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。2023年11月3日、ブータン王国の組織改編等に伴い協力覚書を変更することに両国間で同意（出入国在留管理庁・厚生労働省のお知らせ：「労働人材省」を「産業・商業・雇用省」に、担当課を「産業・商業・雇用省雇用サービス課」に読み替え、民間の認定送出機関への移行に伴い「ブータンの省の約束八」を削除。日本側の変更なし）。"
+  },
+  {
+   "id": "JP-NAT-014",
+   "group_key": "NAT:NAT-UZ-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とウズベキスタン共和国雇用・労働関係省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF EMPLOYMENT AND LABOUR RELATIONS OF THE REPUBLIC OF UZBEKISTAN",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_org": "ウズベキスタン共和国雇用・労働関係省",
+   "partner_org_en": "Ministry of Employment and Labour Relations of the Republic of Uzbekistan",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-01-15",
+   "announced_date": "",
+   "date_note": "2019年1月15日東京で署名。協力は署名日に開始（第9項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "署名日から5年間（第9項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（ウズベキスタン国籍、1号イ〜3号ロの合計）：266人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 266,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "ウズベキスタンとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188516_00007.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001419345.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001419353.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。在留外国人統計ではウズベキスタンは「ヨーロッパ」区分に計上されている。"
+  },
+  {
+   "id": "JP-NAT-015",
+   "group_key": "NAT:NAT-PK-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とパキスタン・イスラム共和国教育・職業訓練省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF FEDERAL EDUCATION AND PROFESSIONAL TRAINING OF THE ISLAMIC REPUBLIC OF PAKISTAN",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PK",
+   "partner_org": "パキスタン・イスラム共和国教育・職業訓練省",
+   "partner_org_en": "Ministry of Federal Education and Professional Training of the Islamic Republic of Pakistan",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-02-26",
+   "announced_date": "",
+   "date_note": "2019年2月26日東京で署名。協力は署名日に開始（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "開始日（署名日）から5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（パキスタン国籍、1号イ〜3号ロの合計）：219人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 219,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "パキスタンとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188516_00009.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001422587.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001422592.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。和文仮訳の表記は「教育・職業訓練省」、英文は Ministry of Federal Education and Professional Training。"
+  },
+  {
+   "id": "JP-NAT-016",
+   "group_key": "NAT:NAT-PH-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とフィリピン共和国労働雇用省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための基本的連携枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE DEPARTMENT OF LABOR AND EMPLOYMENT OF THE REPUBLIC OF THE PHILIPPINES ON THE BASIC PARTNERSHIP FRAMEWORK FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PH",
+   "partner_org": "フィリピン共和国労働雇用省",
+   "partner_org_en": "Department of Labor and Employment of the Republic of the Philippines",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-03-19",
+   "announced_date": "",
+   "date_note": "2019年3月19日東京で署名。協力は2019年4月1日開始（第6項）。ISA一覧の掲載順は1番目（協力覚書公表順）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "相手国側による送出機関の認定・公表と日本側への情報提供、日本側による認定送出機関情報の公表、受入機関への改善命令の相手国への通知及び登録支援機関リストの共有",
+    "合同委員会を設立し定期又は随時に協議",
+    "両国の省庁がそれぞれの国の法令に従い特定技能外国人の福祉を促進し権利を保護（第4項(6)）",
+    "フィリピン側連絡窓口：海外雇用庁（POEA）事前雇用サービス室、在日フィリピン海外労働事務所（POLO）、海外労働者国民再統合センター（NRCO）"
+   ],
+   "validity": "記載なし（2019年4月1日開始とのみ記載。期間の定めなし）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "記載なし（制度運用開始2年後の見直しを踏まえ必要に応じ見直し、両国の書面同意で修正・補足）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。記載なし（2019年4月1日開始とのみ記載。期間の定めなし）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（フィリピン国籍）：37,859人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 37859,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（フィリピン国籍）：771人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 771,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004025.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004026.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。"
+  },
+  {
+   "id": "JP-NAT-017",
+   "group_key": "NAT:NAT-KH-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とカンボジア労働職業訓練省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR AND VOCATIONAL TRAINING OF THE KINGDOM OF CAMBODIA ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "KH",
+   "partner_org": "カンボジア労働職業訓練省",
+   "partner_org_en": "Ministry of Labour and Vocational Training of the Kingdom of Cambodia",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-03-25",
+   "announced_date": "",
+   "date_note": "2019年3月25日東京で署名（第10項）。開始日の明記なし。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "相手国側による送出機関の認定と日本側による認定送出機関情報・認定取消情報の公表、日本側による改善命令等の相手国への通知及び登録支援機関リストの共有",
+    "日本側が分野ごとに受入れを一時停止する場合の在留中の者・配偶者等への適切な対応、在留が認められない場合の臨時旅券発給等による円滑な帰国への協力（カンボジア側）"
+   ],
+   "validity": "記載なし（期間・開始日の定めなし）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "記載なし（制度見直しを踏まえ必要に応じ見直し、書面同意で修正・補足）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。記載なし（期間・開始日の定めなし）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（カンボジア国籍）：9,594人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 9594,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（カンボジア国籍）：222人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 222,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004214.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004215.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。"
+  },
+  {
+   "id": "JP-NAT-018",
+   "group_key": "NAT:NAT-NP-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とネパール国政府労働・雇用・社会保障省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR, EMPLOYMENT AND SOCIAL SECURITY OF THE GOVERNMENT OF NEPAL ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "NP",
+   "partner_org": "ネパール国政府労働・雇用・社会保障省",
+   "partner_org_en": "Ministry of Labour, Employment and Social Security of the Government of Nepal",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-03-25",
+   "announced_date": "",
+   "date_note": "2019年3月20日東京、2019年3月25日カトマンズで署名（後の署名日を記録）。協力は2019年4月1日開始。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "合同委員会を設立し協議",
+    "ネパール側は海外雇用局の下に採用プロセス全体を管理し試験実施を促進する部署を指定",
+    "日本側が分野ごとに受入れを一時停止する場合の対応、在留が認められない場合の臨時旅券発給等による帰国への協力（ネパール側）"
+   ],
+   "validity": "2019年4月1日から5年間（第7項）。ISA一覧に「MOCの継続期間を2024年4月1日から5年間更新済み」と記載",
+   "validity_type": "fixed",
+   "valid_until": "2029-03-31",
+   "valid_until_note": "出入国在留管理庁の一覧の「2024年4月1日から5年間更新済み」による目安",
+   "renewal_terms": "継続期間は双方の同意により更新される（第7項）。2024年4月1日から5年間更新済み（ISA一覧の注記。更新文書は一覧に掲載なし）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。2019年4月1日から5年間（第7項）。ISA一覧に「MOCの継続期間を2024年4月1日から5年間更新済み」と記載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（ネパール国籍）：15,374人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 15374,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（ネパール国籍）：272人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 272,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004221.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004222.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。更新（2024年4月1日から5年間）はISA一覧の注記で確認。更新に係る署名文書は一覧に掲載されておらず未確認のため別レコードにしていない。"
+  },
+  {
+   "id": "JP-NAT-019",
+   "group_key": "NAT:NAT-TH-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とタイ王国労働省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF LABOUR OF THE KINGDOM OF THAILAND",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "タイ王国労働省",
+   "partner_org_en": "Ministry of Labour of the Kingdom of Thailand",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-03-27",
+   "announced_date": "",
+   "date_note": "2019年3月27日東京で署名。協力は署名日から開始（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "署名日から5年間（第8項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（タイ国籍、1号イ〜3号ロの合計）：11,672人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 11672,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "タイとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188516_00010.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001422914.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001422915.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。英文別添：タイ側は2019年3月27日から送出機関の認定手続を開始し、日本側は2020年2月1日からリスト掲載の認定送出機関が送り出す技能実習生のみを受け入れる旨の記載あり。"
+  },
+  {
+   "id": "JP-NAT-020",
+   "group_key": "NAT:NAT-MM-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とミャンマー連邦共和国労働・入国管理・人口省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR, IMMIGRATION AND POPULATION OF THE REPUBLIC OF THE UNION OF MYANMAR ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "法務省入国管理局長、外務省領事局長、厚生労働省職業安定局長、警察庁組織犯罪対策部長（英文署名欄の役職表記。氏名は原文テキストから確認できず）",
+   "other_japan_parties": [],
+   "country_code": "MM",
+   "partner_org": "ミャンマー連邦共和国労働・入国管理・人口省",
+   "partner_org_en": "Ministry of Labour, Immigration and Population of the Republic of the Union of Myanmar",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-03-28",
+   "announced_date": "",
+   "date_note": "2019年3月26日東京、2019年3月28日ネーピードーで署名（後の署名日を記録）。協力は2019年4月1日開始。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "相手国側による送出機関の認定・公表と情報提供、日本側による認定送出機関情報の公表・改善命令等の通知",
+    "日本側は署名後、ミャンマーで実施する技能試験・日本語試験の手続について情報提供",
+    "日本側が分野ごとに受入れを一時停止する場合の対応",
+    "解釈・実施上の相違や紛争は省庁間の友好的協議で解決"
+   ],
+   "validity": "2019年4月1日から5年（第10項）。2024年に5年間の延長を確認（別レコード参照）",
+   "validity_type": "fixed",
+   "valid_until": "2024-03-31",
+   "valid_until_note": "2019年4月1日から5年（その後の延長は別の記録を参照）",
+   "renewal_terms": "両国の省庁間の同意により順次それぞれ最大5年延長可。終了希望日の90日前までの書面通告で終了。終了は既存協力の継続実施に影響しない（英文）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。2019年4月1日から5年（第10項）。2024年に5年間の延長を確認（別レコード参照）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（ミャンマー国籍）：52,993人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 52993,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（ミャンマー国籍）：448人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 448,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004217.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004216.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。ミャンマー側署名欄は労働・入国管理・人口省労働局長（Director-General, Department of Labour）。"
+  },
+  {
+   "id": "JP-NAT-021",
+   "group_key": "NAT:NAT-MN-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とモンゴル国労働・社会保障省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR AND SOCIAL PROTECTION OF MONGOLIA ON A BASIC FRAMEWORK FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "MN",
+   "partner_org": "モンゴル国労働・社会保障省",
+   "partner_org_en": "Ministry of Labour and Social Protection of Mongolia",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-04-17",
+   "announced_date": "",
+   "date_note": "2019年4月17日東京で署名。協力は署名の日から開始（第10項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "モンゴル国内の唯一の送出機関であるGOLWSと受入機関の契約、試験合格者のGOLWSへの登録を求めること（モンゴル側）",
+    "技能試験・日本語試験（JLPT、JFT-Basic、介護日本語評価試験）の適正実施と日程の情報提供（日本側）",
+    "日本側による改善命令等の通知・登録支援機関情報の共有",
+    "日本側が分野ごとに受入れを一時停止する場合の対応"
+   ],
+   "validity": "記載なし（署名日から開始。期間の定めなし）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "記載なし。いずれか一方が終了希望日の90日前までに書面で通告することにより終了（第9項）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。記載なし（署名日から開始。期間の定めなし）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（モンゴル国籍）：1,243人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 1243,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（モンゴル国籍）：23人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 23,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004254.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004253.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。"
+  },
+  {
+   "id": "JP-NAT-022",
+   "group_key": "NAT:NAT-VN-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省，外務省，厚生労働省及び警察庁とベトナム国労働・傷病兵・社会問題省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR, INVALIDS AND SOCIAL AFFAIRS OF VIET NAM ON A BASIC FRAMEWORK FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム国労働・傷病兵・社会問題省",
+   "partner_org_en": "Ministry of Labour, Invalids and Social Affairs of Viet Nam",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-05-20",
+   "announced_date": "",
+   "date_note": "2019年5月16日東京、2019年5月20日ハノイで署名（後の署名日を記録）。協力は署名日から（第9項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "ベトナム側は特定技能外国人表（推薦者表、添付1・2）を作成し、海外労働部（DOLAB）等が承認",
+    "2024年3月25日、別添1「特定技能外国人表」の変更に両国間で同意（変更後様式をISA一覧に掲載）"
+   ],
+   "validity": "署名日から5年（第9項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "有効期限の60日前までに終了の意向が示されない限り自動的に5年間延長。5年を待たずに終了する場合は終了日の90日前までに書面通告（第9項）。自動延長が行われたかは公式資料で未確認",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。署名日から5年（第9項）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（ベトナム国籍）：163,154人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 163154,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（ベトナム国籍）：13,761人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 13761,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004304.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004427.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    },
+    {
+     "id": "s6",
+     "title": "別添1「特定技能外国人表」変更後様式（英文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001417675.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "2024年3月25日に変更に同意（ISA一覧の注記）。"
+    },
+    {
+     "id": "s7",
+     "title": "別添1「特定技能外国人表」変更後様式（和文仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001417676.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。"
+  },
+  {
+   "id": "JP-NAT-023",
+   "group_key": "NAT:NAT-LK-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とスリランカ国通信・海外雇用・スポーツ省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF TELECOMMUNICATION, FOREIGN EMPLOYMENT AND SPORTS OF SRI LANKA ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LK",
+   "partner_org": "スリランカ国通信・海外雇用・スポーツ省",
+   "partner_org_en": "Ministry of Telecommunication, Foreign Employment and Sports of Sri Lanka",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-06-19",
+   "announced_date": "",
+   "date_note": "2019年6月19日東京で署名（第8項）。開始日の明記なし。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "試験等の実施に関しスリランカ海外雇用局（SLBFE）を含む関係省庁が協力",
+    "日本側が分野ごとに受入れを一時停止する場合の対応、在留が認められない場合の臨時旅券発給等による帰国への協力（スリランカ側）"
+   ],
+   "validity": "記載なし（期間・開始日の定めなし）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "記載なし（制度見直しを踏まえ必要に応じ見直し、書面同意で修正・補足）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。記載なし（期間・開始日の定めなし）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（スリランカ国籍）：4,920人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 4920,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（スリランカ国籍）：61人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 61,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004293.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004294.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。"
+  },
+  {
+   "id": "JP-NAT-024",
+   "group_key": "NAT:NAT-ID-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国政府とインドネシア国政府との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE GOVERNMENT OF JAPAN AND THE GOVERNMENT OF THE REPUBLIC OF INDONESIA ON A BASIC FRAMEWORK FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（在インドネシア日本国大使が署名）",
+   "pref_code": null,
+   "japan_signatory": "特命全権大使 石井正文（日本国政府のために）",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "インドネシア国政府（労働大臣が署名）",
+   "partner_org_en": "Government of the Republic of Indonesia",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2019-06-25",
+   "announced_date": "",
+   "date_note": "2019年6月25日ジャカルタで署名（英語・日本語・インドネシア語の3言語。解釈に相違がある場合は英語本文による）。署名の日から開始。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "少なくとも年1回、MoC及びその実施の見直しのため会合（第10項）",
+    "技能実習2号を良好に修了した者を除き、SSW候補者は技能水準と日本語能力を試験等で証明すること（第9項(4)）",
+    "2021年9月10日に在インドネシア日本国大使館とインドネシア外務省との口上書交換により第8項(6)の文言を修正（技能実習修了者の移行過程で付与する在留資格を「特定技能」から「特定活動」に修正）"
+   ],
+   "validity": "5年間（署名日から開始。第12項）。ISA一覧に「MOCの継続期間を2026年6月25日から6か月間更新済み」と記載",
+   "validity_type": "fixed",
+   "valid_until": "2026-12-24",
+   "valid_until_note": "出入国在留管理庁の一覧の「2026年6月25日から6か月間更新済み」による目安",
+   "renewal_terms": "外交上の経路を通じた書面による同意により延長可。一方の政府は書面通報によりいつでも終了でき、終了日は通報で示された日から60日後（第12項）。2024年6月25日以降2026年6月25日までの継続の経緯は公式資料で未確認",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。5年間（署名日から開始。第12項）。ISA一覧に「MOCの継続期間を2026年6月25日から6か月間更新済み」と記載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（インドネシア国籍）：107,242人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 107242,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（インドネシア国籍）：1,125人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 1125,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004301.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（正文の一つ）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004302.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    },
+    {
+     "id": "s6",
+     "title": "協力覚書 インドネシア語",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004303.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "ISA一覧に掲載のリンク。本文は未読（英文・日本語で確認）。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは日本語正文による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。署名者：日本側 石井正文 特命全権大使、インドネシア側 ムハンマド・ハニフ・ダキリ労働大臣（原文署名欄）。日本語本文は正文の一つ（ISA一覧では「和文」と表記、インドネシア語版PDFも掲載）。2026年6月25日からの6か月間更新は、確認日（2026-10-27）時点ではその期間内だが、その後の扱いは未確認。"
+  },
+  {
+   "id": "JP-NAT-025",
+   "group_key": "NAT:NAT-ID-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国政府とインドネシア共和国政府との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE GOVERNMENT OF JAPAN AND THE GOVERNMENT OF THE REPUBLIC OF INDONESIA",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（在インドネシア日本国大使が署名）",
+   "pref_code": null,
+   "japan_signatory": "特命全権大使 石井正文（日本国政府のために）",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "インドネシア共和国政府（労働大臣が署名）",
+   "partner_org_en": "Government of the Republic of Indonesia",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2019-06-25",
+   "announced_date": "",
+   "date_note": "2019年6月25日ジャカルタで署名（英語・日本語・インドネシア語。解釈に相違がある場合は英語本文による）。署名日に開始（第IX項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "5年間（署名日に開始。第IX項）。2024年6月25日から3年間更新（厚労省ページ）",
+   "validity_type": "fixed",
+   "valid_until": "2027-06-24",
+   "valid_until_note": "厚生労働省のページの「2024年6月25日から3年間更新」による目安",
+   "renewal_terms": "相互の書面同意によりさらに5年間延長可。いずれの政府も希望終了日の90日前までの書面通報でいつでも終了可（第IX項）。2024年6月21日、在インドネシア日本国大使館とインドネシア外務省との口上書交換により継続期間を2024年6月25日から3年間更新（厚労省ページ）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（インドネシア国籍、1号イ〜3号ロの合計）：124,967人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 124967,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "インドネシアとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188516_00011.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001423079.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001423084.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    },
+    {
+     "id": "s6",
+     "title": "技能実習に関する協力覚書（インドネシア語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001423080.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "厚労省ページ掲載のリンク。本文は未読（英文・日本語で確認）。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。署名者：日本側 石井正文 特命全権大使、インドネシア側 ムハンマド・ハニフ・ダキリ労働大臣（英文署名欄）。"
+  },
+  {
+   "id": "JP-NAT-026",
+   "group_key": "NAT:NAT-BD-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とバングラデシュ人民共和国海外居住者福利厚生・海外雇用省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF EXPATRIATES’ WELFARE & OVERSEAS EMPLOYMENT OF THE PEOPLE’S REPUBLIC OF BANGLADESH ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "バングラデシュ人民共和国海外居住者福利厚生・海外雇用省",
+   "partner_org_en": "Ministry of Expatriates' Welfare & Overseas Employment of the People's Republic of Bangladesh",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-08-27",
+   "announced_date": "",
+   "date_note": "2019年8月27日東京で署名。協力は署名の日から開始（第8項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "日本側が分野ごとに受入れを一時停止する場合の対応、在留が認められない場合の臨時旅券発給等による帰国への協力（バングラデシュ側）",
+    "別文書「MEWOEと日本側の約束」（日付記載なし）：MEWOEによる送出機関の認定・公表・情報提供・不適切機関の調査及び認定取消、日本側による認定送出機関情報の公表・改善命令の通報・登録支援機関一覧の共有"
+   ],
+   "validity": "記載なし（署名日から開始。期間の定めなし）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "記載なし（制度見直しを踏まえ必要に応じ見直し、書面同意で修正・補足）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。記載なし（署名日から開始。期間の定めなし）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（バングラデシュ国籍）：1,189人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 1189,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（バングラデシュ国籍）：27人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 27,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004388.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004389.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    },
+    {
+     "id": "s6",
+     "title": "MEWOE(バングラデシュ海外居住者福利厚生・海外雇用省）と日本側の約束（英文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001380403.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "日付・署名欄の記載なし。PDFを取得し確認。"
+    },
+    {
+     "id": "s7",
+     "title": "MEWOEと日本側の約束（和文仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001380404.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "日付・署名欄の記載なし。PDFを取得し確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。"
+  },
+  {
+   "id": "JP-NAT-027",
+   "group_key": "NAT:NAT-UZ-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とウズベキスタン共和国雇用・労働関係省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF EMPLOYMENT AND LABOUR RELATIONS OF THE REPUBLIC OF UZBEKISTAN ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_org": "ウズベキスタン共和国雇用・労働関係省",
+   "partner_org_en": "Ministry of Employment and Labour Relations of the Republic of Uzbekistan",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-12-17",
+   "announced_date": "",
+   "date_note": "2019年12月17日東京で署名。署名の日から開始（第7項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "日本側が分野ごとに受入れを一時停止する場合の対応、在留が認められない場合の臨時旅券発給等による帰国への協力（ウズベキスタン側）"
+   ],
+   "validity": "署名の日から5年間（第7項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "失効日の60日前までに終了の意図を通知しない限り自動的に5年間延長。5年経過前の終了は終了日の90日前までに書面通知（第7項）。自動延長が行われたかは公式資料で未確認",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。署名の日から5年間（第7項）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（ウズベキスタン国籍）：123人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 123,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（ウズベキスタン国籍）：2人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 2,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004575.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004576.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。特定技能統計の第4表ではウズベキスタンは「ヨーロッパ」区分に計上されている。"
+  },
+  {
+   "id": "JP-NAT-028",
+   "group_key": "NAT:NAT-PK-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とパキスタン在外パキスタン人・人材育成省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF OVERSEAS PAKISTANIS & HUMAN RESOURCE DEVELOPMENT OF PAKISTAN ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PK",
+   "partner_org": "パキスタン在外パキスタン人・人材育成省",
+   "partner_org_en": "Ministry of Overseas Pakistanis & Human Resource Development of Pakistan",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2019-12-23",
+   "announced_date": "",
+   "date_note": "2019年12月23日イスラマバードで署名（第9項）。開始日の明記なし。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "日本側が分野ごとに受入れを一時停止する場合の対応、在留が認められない場合の臨時旅券発給等による帰国への協力（パキスタン側）",
+    "適用・解釈に関する相違・紛争は省庁間の協議・交渉で友好的に解決",
+    "別文書「MOP＋HRDPと日本側の約束」（日付記載なし）：移住者・海外雇用局（BEOE）による送出機関の認定・公表・情報提供・認定取消、日本側による認定送出機関情報の公表等"
+   ],
+   "validity": "記載なし（期間・開始日の定めなし）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "記載なし（制度見直しを踏まえ必要に応じ見直し、書面同意で修正・補足）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。記載なし（期間・開始日の定めなし）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（パキスタン国籍）：13人（令和8年6月末現在、速報値。全国籍計425,961人）。特定技能2号は同第4表に記載なし（同表注2：受入れのある国籍・地域のみ記載）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 13,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004988.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004989.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    },
+    {
+     "id": "s6",
+     "title": "MOP＋HRDP（在外パキスタン人・人材育成省）と日本側の約束（英文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001406894.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "日付・署名欄の記載なし。PDFを取得し確認。"
+    },
+    {
+     "id": "s7",
+     "title": "MOP＋HRDPと日本側の約束（和文仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001406895.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "日付・署名欄の記載なし。PDFを取得し確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。"
+  },
+  {
+   "id": "JP-NAT-029",
+   "group_key": "NAT:NAT-TH-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省，外務省，厚生労働省及び警察庁とタイ王国労働省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR OF THE KINGDOM OF THAILAND ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "タイ王国労働省",
+   "partner_org_en": "Ministry of Labour of the Kingdom of Thailand",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2020-02-04",
+   "announced_date": "",
+   "date_note": "2020年2月4日東京で署名。署名の日から開始（第9項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "日本側：日本人と同等以上の賃金の確保、外国人であることを理由とする差別がないことの確保等",
+    "タイ側：雇用局・認可民間採用事業者等を通じてのみ送出し、試験実施計画の審査・承認、技能実習2号修了者の特定技能1号への変更時に在京タイ大使館労働事務所で雇用契約書を承認",
+    "別添：特定技能1号の受入れ14分野を列記"
+   ],
+   "validity": "開始の日から5年間（第9項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "終了の日の60日前までに延長しない旨の書面通告がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通告（第9項）。自動延長が行われたかは公式資料で未確認",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。開始の日から5年間（第9項）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（タイ国籍）：6,983人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 6983,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（タイ国籍）：133人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 133,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004990.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/930004991.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。"
+  },
+  {
+   "id": "JP-NAT-030",
+   "group_key": "NAT:NAT-IN-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国政府とインド政府との間の「特定技能」に係る制度の適正な運用のための連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE GOVERNMENT OF JAPAN AND THE GOVERNMENT OF REPUBLIC OF INDIA ON A BASIC FRAMEWORK FOR PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO \"SPECIFIED SKILLED WORKER\"",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（在インド日本国大使が署名）",
+   "pref_code": null,
+   "japan_signatory": "特命全権大使 鈴木哲（日本国政府のために）",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "インド政府（外務次官が署名）",
+   "partner_org_en": "Government of Republic of India",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2021-01-18",
+   "announced_date": "",
+   "date_note": "2021年1月18日ニュー・デリーで署名。署名日から開始（第9項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "日本側が分野ごとに受入れを一時停止する場合の対応、合法的な在留の条件を満たさなくなった場合の臨時旅券発給等による帰国への協力（インド政府外務省）",
+    "解釈・適用に関する紛争は第三者や裁判所に頼らず両国政府間の交渉・協議で友好的に解決"
+   ],
+   "validity": "署名日から10年間（第9項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "終了希望日の90日前までに書面で通告しない限り同じ期間自動的に更新。早期終了の場合も、別段の承諾がない限り既に日本に滞在している者は影響を受けない（第9項）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。署名日から10年間（第9項）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（インド国籍）：987人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 987,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（インド国籍）：14人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 14,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001338903.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001338905.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。署名者：日本側 Satoshi Suzuki 特命全権大使、インド側 Harsh Vardhan Shringla 外務次官（Foreign Secretary）（英文原文の署名欄）。"
+  },
+  {
+   "id": "JP-NAT-031",
+   "group_key": "NAT:NAT-MY-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とマレーシア国政府との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE GOVERNMENT OF MALAYSIA ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "MY",
+   "partner_org": "マレーシア国政府（人的資源省に代表される）",
+   "partner_org_en": "Government of Malaysia",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2022-05-26",
+   "announced_date": "",
+   "date_note": "2022年5月26日東京で署名（第7項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "合同委員会での協議",
+    "日本側が分野ごとに受入れを一時停止する場合の対応、在留が認められない場合の臨時旅券発給等による帰国への協力（マレーシア政府）"
+   ],
+   "validity": "署名の日から5年（第7項）",
+   "validity_type": "fixed",
+   "valid_until": "2027-05-25",
+   "valid_until_note": "締結日（2022-05-26）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "継続期間は双方の合意により更新。終了希望日の90日前までの書面通告で終了。終了は既存の協力の継続的な実施に影響しない（第7項）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。署名の日から5年（第7項）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（マレーシア国籍）：58人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 58,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（マレーシア国籍）：4人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 4,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001373337.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001373341.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。相手方は「マレーシア国政府（人的資源省に代表される）」。"
+  },
+  {
+   "id": "JP-NAT-032",
+   "group_key": "NAT:NAT-LA-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とラオス人民民主共和国労働社会福祉省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR AND SOCIAL WELFARE OF THE LAO PEOPLE’S DEMOCRATIC REPUBLIC ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LA",
+   "partner_org": "ラオス人民民主共和国労働社会福祉省",
+   "partner_org_en": "Ministry of Labour and Social Welfare of the Lao People's Democratic Republic",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2022-07-28",
+   "announced_date": "",
+   "date_note": "2022年7月28日ビエンチャンで署名。署名の日から開始（第10項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "相手国側による送出機関の認定・公表・情報提供・認定取消、日本側による認定送出機関情報の公表・改善命令の通報・登録支援機関一覧の共有",
+    "日本側が分野ごとに受入れを一時停止する場合の対応"
+   ],
+   "validity": "記載なし（署名日から開始。期間の定めなし）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "記載なし（制度見直しを踏まえ必要に応じ見直し、書面同意で修正・補足）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。記載なし（署名日から開始。期間の定めなし）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（ラオス国籍）：599人（令和8年6月末現在、速報値。全国籍計425,961人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 599,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能2号在留外国人数（ラオス国籍）：3人（令和8年6月末現在、速報値。全国籍計18,295人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 3,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001377520.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001377521.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。"
+  },
+  {
+   "id": "JP-NAT-033",
+   "group_key": "NAT:NAT-KG-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とキルギス共和国労働・社会保障・移民省との間の在留資格「特定技能」を有する外国人材に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR, SOCIAL SECURITY AND MIGRATION OF THE KYRGYZ REPUBLIC ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "KG",
+   "partner_org": "キルギス共和国労働・社会保障・移民省",
+   "partner_org_en": "Ministry of Labour, Social Security and Migration of the Kyrgyz Republic",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2023-07-06",
+   "announced_date": "",
+   "date_note": "2023年6月28日東京、2023年7月6日ビシュケクで署名（後の署名日を記録）。後の署名の日から開始（第10項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "相手国側による送出機関の認定・公表・情報提供・認定取消、日本側による認定送出機関情報の公表・改善命令の通報等",
+    "日本側が分野ごとに受入れを一時停止する場合の対応、在留が認められない場合の臨時旅券発給等による帰国への協力（キルギス側）",
+    "解釈・実施上の紛争は相互の協議・交渉で友好的に解決"
+   ],
+   "validity": "期間の定めなし（後の署名日から開始）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "一方から終了を希望する旨の通告があった日の6か月後に終了（第10項）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。期間の定めなし（後の署名日から開始）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（キルギス国籍）：28人（令和8年6月末現在、速報値。全国籍計425,961人）。特定技能2号は同第4表に記載なし（同表注2：受入れのある国籍・地域のみ記載）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 28,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001399175.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001399176.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。特定技能統計の第4表ではキルギスは「ヨーロッパ」区分に計上されている。"
+  },
+  {
+   "id": "JP-NAT-034",
+   "group_key": "NAT:NAT-NP-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とネパール国労働・雇用・社会保障省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF LABOUR, EMPLOYMENT AND SOCIAL SECURITY OF NEPAL",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "NP",
+   "partner_org": "ネパール国労働・雇用・社会保障省",
+   "partner_org_en": "Ministry of Labour, Employment and Social Security of Nepal",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2024-01-01",
+   "announced_date": "",
+   "date_note": "2023年12月6日東京、2024年1月1日カトマンズで署名（後の署名日を記録）。協力は後の署名日に開始（第9項。厚労省ページも「2024年1月1日から発効」）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "後の署名日（2024年1月1日）から5年間（第9項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（ネパール国籍、1号イ〜3号ロの合計）：4,477人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 4477,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "ネパールとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180849_00001.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001423239.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001423244.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-035",
+   "group_key": "NAT:NAT-MM-SSW-MOC",
+   "renewal_of": "JP-NAT-020",
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とミャンマー連邦共和国労働省との間の在留資格「特定技能」を有する外国人に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書（延長確認文書）",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR OF THE REPUBLIC OF THE UNION OF MYANMAR ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "2019年署名の協力覚書第10項に基づき協力の5年間延長を確認する文書（ISA一覧では「同意文書」と表記）。表題は協力覚書と同名。",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "MM",
+   "partner_org": "ミャンマー連邦共和国労働省",
+   "partner_org_en": "Ministry of Labour of the Republic of the Union of Myanmar",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2024-03-29",
+   "announced_date": "",
+   "date_note": "2024年3月14日東京、2024年3月29日ネーピードーで署名（後の署名日を記録）。ISA一覧の注記：MOCの継続期間を2024年4月1日から5年間更新済み。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "2019年3月28日にネーピードーで署名された協力覚書の第10項に基づき、特定技能制度の運用に関する両国間の協力の枠組みが5年間延長されることを確認する。",
+   "content": [
+    "2019年署名の協力覚書に基づく協力の枠組みを5年間延長することの確認"
+   ],
+   "validity": "5年間の延長（ISA一覧の注記では2024年4月1日から5年間）",
+   "validity_type": "fixed",
+   "valid_until": "2029-03-31",
+   "valid_until_note": "出入国在留管理庁の一覧の注記（2024年4月1日から5年間）による目安",
+   "renewal_terms": "元の協力覚書第10項（両国省庁間の同意により順次最大5年延長可）による",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文・和文（仮訳）を確認したが法的拘束力に関する記載なし。",
+   "status": "signed",
+   "status_note": "延長確認文書は署名済み。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "ミャンマー欄の注記「MOCの継続期間を２０２４年４月１日から５年間更新済み」と同意文書リンクを確認。"
+    },
+    {
+     "id": "s2",
+     "title": "同意文書（英文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001417205.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し確認。"
+    },
+    {
+     "id": "s3",
+     "title": "同意文書（和文仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001417206.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "相手方の省名が2019年の「労働・入国管理・人口省」から「労働省」に変わっている（文書上の表記）。受入れ人数は元レコード（G7-NAT-04）に記録。"
+  },
+  {
+   "id": "JP-NAT-036",
+   "group_key": "NAT:NAT-TJ-SSW-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省及び警察庁とタジキスタン共和国労働・移民・雇用省との間の在留資格「特定技能」を有する外国人材に係る制度の適正な運用のための情報連携の基本的枠組みに関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR, MIGRATION AND EMPLOYMENT OF POPULATION OF THE REPUBLIC OF TAJIKISTAN ON A BASIC FRAMEWORK FOR INFORMATION PARTNERSHIP FOR PROPER OPERATION OF THE SYSTEM PERTAINING TO FOREIGN HUMAN RESOURCES WITH THE STATUS OF RESIDENCE OF “SPECIFIED SKILLED WORKER”",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TJ",
+   "partner_org": "タジキスタン共和国労働・移民・雇用省",
+   "partner_org_en": "Ministry of Labour, Migration and Employment of Population of the Republic of Tajikistan",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2024-08-08",
+   "announced_date": "",
+   "date_note": "2024年8月5日東京、2024年8月8日ドゥシャンベで署名（後の署名日を記録）。開始は、タジキスタン側から開始に必要な国内手続完了の書面通知を外交ルートで受領した日（第10項）。実際の開始日は未確認。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "特定技能外国人の円滑かつ適正な送出し・受入れの確保（悪質な仲介機関の排除等）並びに送出し・受入れ及び日本での在留に関する問題の解決のため、両国間の情報連携・協力の基本的枠組みを定める（目的条項の趣旨。文言は国により異なる）。",
+   "content": [
+    "特定技能外国人の送出し・受入れに関する両国間の情報連携・協力の枠組み（両国の連絡窓口の指定を含む）",
+    "悪質な仲介機関の行為（保証金の徴収等による財産管理、違約金契約、暴行・脅迫等の人権侵害、偽造文書の行使、算出根拠を示さない費用徴収等）に関する情報の共有",
+    "技能試験・日本語試験の実施への協力と、別人受験・合格証の偽造等の不正行為に関する情報の速やかな共有",
+    "制度運用（制度の変更、仲介機関の適正化、試験、在留管理等）に関する両国間の協議",
+    "相手国側による送出機関の認定・公表・情報提供・認定取消、日本側による認定送出機関情報の公表・改善命令の通報等",
+    "日本側が分野ごとに受入れを一時停止する場合の対応、在留が認められない場合の臨時旅券発給等による帰国への協力（タジキスタン側）",
+    "解釈・実施上の紛争は相互の協議・交渉で友好的に解決"
+   ],
+   "validity": "期間の定めなし（タジキスタン側の国内手続完了通知の受領日に開始）",
+   "validity_type": "indefinite",
+   "valid_until": null,
+   "renewal_terms": "いずれかが終了を希望する意向を他方に伝えた日から6か月後に終了（第10項）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文（仮訳）の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み。期間の定めなし（タジキスタン側の国内手続完了通知の受領日に開始）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "特定技能1号在留外国人数（タジキスタン国籍）：2人（令和8年6月末現在、速報値。全国籍計425,961人）。特定技能2号は同第4表に記載なし（同表注2：受入れのある国籍・地域のみ記載）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。",
+     "value": 2,
+     "unit": "人",
+     "fiscal_year": "2026-06",
+     "causality": "unconfirmed",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "特定技能に関する二国間の協力覚書",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri05_00021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "相手国一覧・原文PDF・更新等の注記を確認。ページに署名日の記載はなく、署名日・署名地は原文で確認。"
+    },
+    {
+     "id": "s2",
+     "title": "協力覚書 英文（原文）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001423074.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "協力覚書 和文（仮訳）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001423075.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能1号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001471817.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。公表ページ：https://www.moj.go.jp/isa/applications/ssw/nyuukokukanri07_00215.html"
+    },
+    {
+     "id": "s5",
+     "title": "特定技能在留外国人数（令和8年6月末）詳細版 第4表 国籍・地域別 特定産業分野別 特定技能2号在留外国人数",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/content/001459480.xlsx",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "速報値。注2：受入れのある国籍・地域のみ記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは和文仮訳による。ISA一覧掲載の17か国すべての英文原文と和文PDFを全文テキスト化して確認した。条文構成は国ごとに異なる（送出機関の認定に関する条項、合同委員会、受入れ一時停止時の対応、期間・終了条項の有無などが国により違う）。特定技能統計の第4表ではタジキスタンは「ヨーロッパ」区分に計上されている。"
+  },
+  {
+   "id": "JP-NAT-037",
+   "group_key": "NAT:NAT-TL-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省と東ティモール職業訓練雇用担当国務長官府との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE SECRETARIAT OF STATE FOR VOCATIONAL TRAINING AND EMPLOYMENT OF TIMOR-LESTE",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TL",
+   "partner_org": "東ティモール職業訓練雇用担当国務長官府",
+   "partner_org_en": "Secretariat of State for Vocational Training and Employment of Timor-Leste",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2024-10-08",
+   "announced_date": "",
+   "date_note": "2024年9月9日東京、2024年10月8日ディリで署名（後の署名日を記録）。協力は後の署名日に開始（第9項。厚労省ページも「2024年10月8日から発効」）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可・技能実習計画の認定を行う",
+    "日本側：相手国側が認定した送出機関及び認定を取り消した送出機関を日本で公表し、認定送出機関からの技能実習生のみを受け入れる",
+    "日本側：監理団体・実習実施者に対して許認可の取消しや改善命令を行った場合は、その結果を相手国側に通知する",
+    "相手国側：協力覚書の認定基準に基づき送出機関の認定を適切に行う（制度の趣旨を理解した者の選定、帰国者への就職あっせん等の支援、保証金の徴収・違約金契約をしないこと、技能実習生に対する人権侵害をしないこと等）",
+    "相手国側：送出機関の認定を取り消したときは日本側に通知し、日本側から不適切な送出機関の通知を受けたときは調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について意見交換を行う"
+   ],
+   "validity": "後の署名日（2024年10月8日）から5年間（第9項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（東ティモール国籍、1号イ〜3号ロの合計）：61人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 61,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "東ティモールとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188516_00012.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001595110.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001595116.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-038",
+   "group_key": "NAT:NAT-FJ-TITP-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省とフィジー雇用・生産性・労使関係省との間の技能実習制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE TECHNICAL INTERN TRAINING PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS AND THE MINISTRY OF HEALTH, LABOUR AND WELFARE OF JAPAN AND THE MINISTRY OF EMPLOYMENT, PRODUCTIVITY AND WORKPLACE RELATIONS OF THE REPUBLIC OF FIJI",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。厚生労働省は「二国間取決め（協力覚書）」と表記",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "FJ",
+   "partner_org": "フィジー雇用・生産性・労使関係省",
+   "partner_org_en": "Ministry of Employment, Productivity and Workplace Relations of the Republic of Fiji",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2025-11-13",
+   "announced_date": "",
+   "date_note": "2025年11月13日東京で署名。協力は署名日に開始（第9項。厚労省ページも「2025年11月13日から発効」）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "技能実習生の送出しや受入れに関する約束を定めることにより、技能実習制度を通じて日本から相手国への技能等の移転を適正かつ円滑に行い、国際協力を推進すること（厚生労働省の国別ページの説明）。",
+   "content": [
+    "日本側：技能実習法の基準に基づき監理団体の許可事務・技能実習計画の認定事務を適切に行う",
+    "日本側：監理団体の許可取消や技能実習計画の認定取消等の行政処分を行った場合はフィジー側に情報を提供する",
+    "日本側：フィジー側から不適切な監理団体・実習実施者の情報が提供された場合は調査・対処し結果を通知する",
+    "フィジー側：覚書の基準に基づき送出機関の認定事務を適切に行い、認定取消等の処分について日本側に情報を提供する",
+    "フィジー側：日本側から不適切な送出機関の情報が提供された場合は調査・対処し結果を通知する",
+    "共通：技能実習制度の運用について定期的な意見交換を行う"
+   ],
+   "validity": "署名日から5年間（第9項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "60日前までに延長を望まない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（英文原文）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（和文仮訳も確認）。",
+   "status": "signed",
+   "status_note": "協力覚書は署名済み（厚生労働省の二国間取決め一覧に掲載中）。育成就労制度（2027年4月施行予定）への移行後の扱いは未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "population",
+     "stage": "implemented",
+     "text": "在留資格「技能実習」の在留外国人数（フィジー国籍、1号イ〜3号ロの合計）：2人（令和7年12月末現在。全国籍計456,618人）。MOCは制度運用の枠組みであり、人数はMOCの効果とは限らない（MOCとの因果関係は未確認）。なお令和8年6月末の技能実習総数は457,509人（出入国在留管理庁 令和8年10月16日発表）だが、国籍別内訳は確認日時点で取得できなかった。",
+     "value": 2,
+     "unit": "人",
+     "fiscal_year": "2025-12",
+     "causality": "unconfirmed",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "技能実習に関する二国間取決め（協力覚書）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "17か国の一覧を確認。一覧に署名日の記載はない。"
+    },
+    {
+     "id": "s2",
+     "title": "フィジーとの協力覚書",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188516_00013.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "署名日・署名省庁・ポイント・原文リンクを確認。"
+    },
+    {
+     "id": "s3",
+     "title": "技能実習に関する協力覚書（英語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001423563.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "技能実習に関する協力覚書（仮訳：日本語）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001423565.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s5",
+     "title": "在留外国人統計（令和7年12月末）第1表 国籍・地域別 在留資格別 在留外国人（表番号25-12-01-1）",
+     "publisher": "出入国在留管理庁（e-Stat）",
+     "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040472260&fileKind=0",
+     "type": "statistics",
+     "checked": "2026-10-27",
+     "note": "Excelを取得し「技能実習合計」行を確認。e-Stat一覧：https://www.e-stat.go.jp/SG1/estat/List.do?lid=000001486479"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "和文タイトルは厚労省掲載の日本語版PDF（多くは仮訳）による。内容欄は厚労省国別ページ「ポイント」の要約（国により項目・表現に差異あり）。厚労省一覧の17か国すべての英文・日本語PDFを取得し、署名日・期間・終了条項を英文原文で確認した。"
+  },
+  {
+   "id": "JP-NAT-039",
+   "group_key": "NAT:NAT-TH-ESD-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省、警察庁とタイ王国労働省との間の育成就労制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE EMPLOYMENT FOR SKILL DEVELOPMENT PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR OF THE KINGDOM OF THAILAND",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。育成就労制度（Employment for Skill Development Program）に関する二国間取決め",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "タイ王国労働省",
+   "partner_org_en": "Ministry of Labour of the Kingdom of Thailand",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2026-06-02",
+   "announced_date": "2026-06-04",
+   "date_note": "2026年5月20日東京、2026年6月2日バンコクで署名（後の署名日を記録）。出入国在留管理庁は令和8年6月4日の報道発表で「6月2日に…作成しました」と発表。協力は最後の署名日に開始（第13項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "育成就労"
+   ],
+   "purpose": "両者の間で育成就労外国人の送出し及び受入れに関する約束を定めることにより、二国間の協力のもと、育成就労外国人を保護し育成就労制度を適正に推進すること（第1項）。",
+   "content": [
+    "日本側：育成就労法に基づく監理支援機関の許可・育成就労計画の認定（許可・認定の基準を別添に記載。技能実習制度で許可・認定を取り消された者を含め、取消し後5年間は許可・認定を受けられない旨を記載）",
+    "相手国側：別添の認定基準に基づく送出機関の認定（ブローカーの介入による手数料徴収等を許さないこと、技能実習に関連するものを含む過去の不正行為がないこと等の基準を含む）",
+    "連絡窓口：日本側は外国人育成就労機構（ESDO）国際部（育成就労法施行までは外国人技能実習機構（OTIT）国際部）。覚書の修正・補足・終了の窓口は出入国在留管理庁在留管理支援部在留管理課及び厚生労働省人材開発統括官付海外人材育成担当参事官室",
+    "育成就労外国人の失踪・不法残留者の送還等の問題について協議し、外交ルートも通じて友好的に解決",
+    "日本側は育成就労産業分野ごとの受入れ見込数を決定・公表し基本的に上限として扱い、超過した場合は当該分野の育成就労計画の認定を一時停止しうる（事前に書面で相手国に通知）（第12項）"
+   ],
+   "validity": "後の署名日から5年間（第13項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "後の署名日から5年間継続し、60日前までに延長しない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（第13項）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文仮訳の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（同時期のスリランカとのMOCには非拘束の明記あり）。",
+   "status": "signed",
+   "status_note": "署名済み。育成就労制度は令和9年（2027年）4月施行予定で、確認日時点で同制度による受入れは始まっていない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "育成就労に関する二国間取決め（協力覚書（ＭＯＣ））",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648_00012.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "6か国（ウズベキスタン、スリランカ、タイ、バングラデシュ、東ティモール、ラオス）の英文・和文仮訳PDFを掲載。ページに署名日の記載なし。"
+    },
+    {
+     "id": "s2",
+     "title": "育成就労制度に関する協力覚書（英文）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001708004.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "育成就労制度に関する協力覚書（和文仮訳）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001708005.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s4",
+     "title": "タイ王国との育成就労制度に関する協力覚書について（報道発表）",
+     "publisher": "出入国在留管理庁",
+     "url": "https://www.moj.go.jp/isa/01_00642.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "令和8年6月4日。育成就労制度に関する初めての協力覚書と説明。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "同国との技能実習MOC・特定技能MOCとは別文書（group_keyを分けた）。育成就労の受入れ実績は制度開始前のため記録なし。"
+  },
+  {
+   "id": "JP-NAT-040",
+   "group_key": "NAT:NAT-UZ-ESD-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省、警察庁とウズベキスタン共和国内閣府附属移民庁との間の育成就労制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE EMPLOYMENT FOR SKILL DEVELOPMENT PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MIGRATION AGENCY UNDER THE CABINET OF MINISTERS OF THE REPUBLIC OF UZBEKISTAN",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。育成就労制度（Employment for Skill Development Program）に関する二国間取決め",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_org": "ウズベキスタン共和国内閣府附属移民庁",
+   "partner_org_en": "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2026-06-29",
+   "announced_date": "",
+   "date_note": "2026年5月20日東京、2026年6月29日タシケントで署名（後の署名日を記録）。協力は後の署名日に開始（第13項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "育成就労"
+   ],
+   "purpose": "両者の間で育成就労外国人の送出し及び受入れに関する約束を定めることにより、二国間の協力のもと、育成就労外国人を保護し育成就労制度を適正に推進すること（第1項）。",
+   "content": [
+    "日本側：育成就労法に基づく監理支援機関の許可・育成就労計画の認定（許可・認定の基準を別添に記載。技能実習制度で許可・認定を取り消された者を含め、取消し後5年間は許可・認定を受けられない旨を記載）",
+    "相手国側：別添の認定基準に基づく送出機関の認定（ブローカーの介入による手数料徴収等を許さないこと、技能実習に関連するものを含む過去の不正行為がないこと等の基準を含む）",
+    "連絡窓口：日本側は外国人育成就労機構（ESDO）国際部（育成就労法施行までは外国人技能実習機構（OTIT）国際部）。覚書の修正・補足・終了の窓口は出入国在留管理庁在留管理支援部在留管理課及び厚生労働省人材開発統括官付海外人材育成担当参事官室",
+    "育成就労外国人の失踪・不法残留者の送還等の問題について協議し、外交ルートも通じて友好的に解決",
+    "日本側は育成就労産業分野ごとの受入れ見込数を決定・公表し基本的に上限として扱い、超過した場合は当該分野の育成就労計画の認定を一時停止しうる（事前に書面で相手国に通知）（第12項）"
+   ],
+   "validity": "後の署名日から5年間（第13項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "後の署名日から5年間継続し、60日前までに延長しない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（第13項）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文仮訳の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（同時期のスリランカとのMOCには非拘束の明記あり）。",
+   "status": "signed",
+   "status_note": "署名済み。育成就労制度は令和9年（2027年）4月施行予定で、確認日時点で同制度による受入れは始まっていない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "育成就労に関する二国間取決め（協力覚書（ＭＯＣ））",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648_00012.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "6か国（ウズベキスタン、スリランカ、タイ、バングラデシュ、東ティモール、ラオス）の英文・和文仮訳PDFを掲載。ページに署名日の記載なし。"
+    },
+    {
+     "id": "s2",
+     "title": "育成就労制度に関する協力覚書（英文）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001716816.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "育成就労制度に関する協力覚書（和文仮訳）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001716817.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "同国との技能実習MOC・特定技能MOCとは別文書（group_keyを分けた）。育成就労の受入れ実績は制度開始前のため記録なし。"
+  },
+  {
+   "id": "JP-NAT-041",
+   "group_key": "NAT:NAT-LK-ESD-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省、警察庁とスリランカ民主社会主義共和国外務・海外雇用・観光省との間の育成就労制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE EMPLOYMENT FOR SKILL DEVELOPMENT PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF FOREIGN AFFAIRS, FOREIGN EMPLOYMENT AND TOURISM IN SRI LANKA",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。育成就労制度（Employment for Skill Development Program）に関する二国間取決め",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LK",
+   "partner_org": "スリランカ民主社会主義共和国外務・海外雇用・観光省",
+   "partner_org_en": "Ministry of Foreign Affairs, Foreign Employment and Tourism in Sri Lanka",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2026-07-23",
+   "announced_date": "",
+   "date_note": "2026年5月20日東京、2026年7月23日コロンボで署名（後の署名日を記録）。協力は後の署名日に開始（第13項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "育成就労"
+   ],
+   "purpose": "両者の間で育成就労外国人の送出し及び受入れに関する約束を定めることにより、二国間の協力のもと、育成就労外国人を保護し育成就労制度を適正に推進すること（第1項）。",
+   "content": [
+    "日本側：育成就労法に基づく監理支援機関の許可・育成就労計画の認定（許可・認定の基準を別添に記載。技能実習制度で許可・認定を取り消された者を含め、取消し後5年間は許可・認定を受けられない旨を記載）",
+    "相手国側：別添の認定基準に基づく送出機関の認定（ブローカーの介入による手数料徴収等を許さないこと、技能実習に関連するものを含む過去の不正行為がないこと等の基準を含む）",
+    "連絡窓口：日本側は外国人育成就労機構（ESDO）国際部（育成就労法施行までは外国人技能実習機構（OTIT）国際部）。覚書の修正・補足・終了の窓口は出入国在留管理庁在留管理支援部在留管理課及び厚生労働省人材開発統括官付海外人材育成担当参事官室",
+    "育成就労外国人の失踪・不法残留者の送還等の問題について協議し、外交ルートも通じて友好的に解決",
+    "日本側は育成就労産業分野ごとの受入れ見込数を決定・公表し基本的に上限として扱い、超過した場合は当該分野の育成就労計画の認定を一時停止しうる（事前に書面で相手国に通知）（第12項）"
+   ],
+   "validity": "後の署名日から5年間（第13項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "後の署名日から5年間継続し、60日前までに延長しない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（第13項）。",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "第1項（目的）に「本覚書は、国際法に基づく法的拘束力のある義務を生じるものではなく、各国の法令に従って実施されるものとする」（英文：It does not create legally binding obligations under international law）と明記。",
+   "status": "signed",
+   "status_note": "署名済み。育成就労制度は令和9年（2027年）4月施行予定で、確認日時点で同制度による受入れは始まっていない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "育成就労に関する二国間取決め（協力覚書（ＭＯＣ））",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648_00012.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "6か国（ウズベキスタン、スリランカ、タイ、バングラデシュ、東ティモール、ラオス）の英文・和文仮訳PDFを掲載。ページに署名日の記載なし。"
+    },
+    {
+     "id": "s2",
+     "title": "育成就労制度に関する協力覚書（英文）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001729760.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "育成就労制度に関する協力覚書（和文仮訳）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001729762.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "同国との技能実習MOC・特定技能MOCとは別文書（group_keyを分けた）。育成就労の受入れ実績は制度開始前のため記録なし。"
+  },
+  {
+   "id": "JP-NAT-042",
+   "group_key": "NAT:NAT-LA-ESD-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省、警察庁とラオス人民民主共和国労働社会福祉省との間の育成就労制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE EMPLOYMENT FOR SKILL DEVELOPMENT PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF LABOUR AND SOCIAL WELFARE OF LAO PEOPLE’S DEMOCRATIC REPUBLIC",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。育成就労制度（Employment for Skill Development Program）に関する二国間取決め",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LA",
+   "partner_org": "ラオス人民民主共和国労働社会福祉省",
+   "partner_org_en": "Ministry of Labour and Social Welfare of Lao People's Democratic Republic",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2026-08-31",
+   "announced_date": "",
+   "date_note": "2026年8月5日東京、2026年8月31日ビエンチャンで署名（後の署名日を記録）。協力は後の署名日に開始（第13項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "育成就労"
+   ],
+   "purpose": "両者の間で育成就労外国人の送出し及び受入れに関する約束を定めることにより、二国間の協力のもと、育成就労外国人を保護し育成就労制度を適正に推進すること（第1項）。",
+   "content": [
+    "日本側：育成就労法に基づく監理支援機関の許可・育成就労計画の認定（許可・認定の基準を別添に記載。技能実習制度で許可・認定を取り消された者を含め、取消し後5年間は許可・認定を受けられない旨を記載）",
+    "相手国側：別添の認定基準に基づく送出機関の認定（ブローカーの介入による手数料徴収等を許さないこと、技能実習に関連するものを含む過去の不正行為がないこと等の基準を含む）",
+    "連絡窓口：日本側は外国人育成就労機構（ESDO）国際部（育成就労法施行までは外国人技能実習機構（OTIT）国際部）。覚書の修正・補足・終了の窓口は出入国在留管理庁在留管理支援部在留管理課及び厚生労働省人材開発統括官付海外人材育成担当参事官室",
+    "育成就労外国人の失踪・不法残留者の送還等の問題について協議し、外交ルートも通じて友好的に解決",
+    "日本側は育成就労産業分野ごとの受入れ見込数を決定・公表し基本的に上限として扱い、超過した場合は当該分野の育成就労計画の認定を一時停止しうる（事前に書面で相手国に通知）（第12項）"
+   ],
+   "validity": "後の署名日から5年間（第13項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "後の署名日から5年間継続し、60日前までに延長しない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（第13項）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文仮訳の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（同時期のスリランカとのMOCには非拘束の明記あり）。",
+   "status": "signed",
+   "status_note": "署名済み。育成就労制度は令和9年（2027年）4月施行予定で、確認日時点で同制度による受入れは始まっていない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "育成就労に関する二国間取決め（協力覚書（ＭＯＣ））",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648_00012.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "6か国（ウズベキスタン、スリランカ、タイ、バングラデシュ、東ティモール、ラオス）の英文・和文仮訳PDFを掲載。ページに署名日の記載なし。"
+    },
+    {
+     "id": "s2",
+     "title": "育成就労制度に関する協力覚書（英文）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001744392.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "育成就労制度に関する協力覚書（和文仮訳）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001744393.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "同国との技能実習MOC・特定技能MOCとは別文書（group_keyを分けた）。育成就労の受入れ実績は制度開始前のため記録なし。"
+  },
+  {
+   "id": "JP-NAT-043",
+   "group_key": "NAT:NAT-TL-ESD-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省、警察庁と東ティモール民主共和国職業訓練雇用担当国務長官府との間の育成就労制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE EMPLOYMENT FOR SKILL DEVELOPMENT PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE SECRETARIAT OF STATE FOR VOCATIONAL TRAINING AND EMPLOYMENT OF THE DEMOCRATIC REPUBLIC OF TIMOR-LESTE",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。育成就労制度（Employment for Skill Development Program）に関する二国間取決め",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TL",
+   "partner_org": "東ティモール民主共和国職業訓練雇用担当国務長官府",
+   "partner_org_en": "Secretariat of State for Vocational Training and Employment of the Democratic Republic of Timor-Leste",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2026-10-13",
+   "announced_date": "",
+   "date_note": "2026年7月21日東京、2026年10月13日ディリで署名（後の署名日を記録）。協力は後の署名日に開始（第13項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "育成就労"
+   ],
+   "purpose": "両者の間で育成就労外国人の送出し及び受入れに関する約束を定めることにより、二国間の協力のもと、育成就労外国人を保護し育成就労制度を適正に推進すること（第1項）。",
+   "content": [
+    "日本側：育成就労法に基づく監理支援機関の許可・育成就労計画の認定（許可・認定の基準を別添に記載。技能実習制度で許可・認定を取り消された者を含め、取消し後5年間は許可・認定を受けられない旨を記載）",
+    "相手国側：別添の認定基準に基づく送出機関の認定（ブローカーの介入による手数料徴収等を許さないこと、技能実習に関連するものを含む過去の不正行為がないこと等の基準を含む）",
+    "連絡窓口：日本側は外国人育成就労機構（ESDO）国際部（育成就労法施行までは外国人技能実習機構（OTIT）国際部）。覚書の修正・補足・終了の窓口は出入国在留管理庁在留管理支援部在留管理課及び厚生労働省人材開発統括官付海外人材育成担当参事官室",
+    "育成就労外国人の失踪・不法残留者の送還等の問題について協議し、外交ルートも通じて友好的に解決",
+    "日本側は育成就労産業分野ごとの受入れ見込数を決定・公表し基本的に上限として扱い、超過した場合は当該分野の育成就労計画の認定を一時停止しうる（事前に書面で相手国に通知）（第12項）"
+   ],
+   "validity": "後の署名日から5年間（第13項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "後の署名日から5年間継続し、60日前までに延長しない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（第13項）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文仮訳の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（同時期のスリランカとのMOCには非拘束の明記あり）。",
+   "status": "signed",
+   "status_note": "署名済み。育成就労制度は令和9年（2027年）4月施行予定で、確認日時点で同制度による受入れは始まっていない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "育成就労に関する二国間取決め（協力覚書（ＭＯＣ））",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648_00012.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "6か国（ウズベキスタン、スリランカ、タイ、バングラデシュ、東ティモール、ラオス）の英文・和文仮訳PDFを掲載。ページに署名日の記載なし。"
+    },
+    {
+     "id": "s2",
+     "title": "育成就労制度に関する協力覚書（英文）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001758668.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "育成就労制度に関する協力覚書（和文仮訳）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001758675.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "同国との技能実習MOC・特定技能MOCとは別文書（group_keyを分けた）。育成就労の受入れ実績は制度開始前のため記録なし。"
+  },
+  {
+   "id": "JP-NAT-044",
+   "group_key": "NAT:NAT-BD-ESD-MOC",
+   "renewal_of": null,
+   "title_ja": "日本国法務省、外務省、厚生労働省、警察庁とバングラデシュ人民共和国との間の育成就労制度に関する協力覚書",
+   "title_original": "MEMORANDUM OF COOPERATION ON THE EMPLOYMENT FOR SKILL DEVELOPMENT PROGRAM BETWEEN THE MINISTRY OF JUSTICE, THE MINISTRY OF FOREIGN AFFAIRS, THE MINISTRY OF HEALTH, LABOUR AND WELFARE AND THE NATIONAL POLICE AGENCY OF JAPAN AND THE MINISTRY OF EXPATRIATES’ WELFARE AND OVERSEAS EMPLOYMENT OF BANGLADESH",
+   "doc_type": "協力覚書",
+   "doc_type_note": "英文名 Memorandum of Cooperation（MOC）。育成就労制度（Employment for Skill Development Program）に関する二国間取決め",
+   "japan_level": "national",
+   "japan_org": "日本国政府（法務省・外務省・厚生労働省・警察庁）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "バングラデシュ人民共和国海外移住者福利厚生・海外雇用省",
+   "partner_org_en": "Ministry of Expatriates' Welfare and Overseas Employment of Bangladesh",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2026-10-17",
+   "announced_date": "",
+   "date_note": "2026年9月16日東京、2026年10月17日ダッカで署名（後の署名日を記録）。協力は後の署名日に開始（第13項）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "育成就労"
+   ],
+   "purpose": "両者の間で育成就労外国人の送出し及び受入れに関する約束を定めることにより、二国間の協力のもと、育成就労外国人を保護し育成就労制度を適正に推進すること（第1項）。",
+   "content": [
+    "日本側：育成就労法に基づく監理支援機関の許可・育成就労計画の認定（許可・認定の基準を別添に記載。技能実習制度で許可・認定を取り消された者を含め、取消し後5年間は許可・認定を受けられない旨を記載）",
+    "相手国側：別添の認定基準に基づく送出機関の認定（ブローカーの介入による手数料徴収等を許さないこと、技能実習に関連するものを含む過去の不正行為がないこと等の基準を含む）",
+    "連絡窓口：日本側は外国人育成就労機構（ESDO）国際部（育成就労法施行までは外国人技能実習機構（OTIT）国際部）。覚書の修正・補足・終了の窓口は出入国在留管理庁在留管理支援部在留管理課及び厚生労働省人材開発統括官付海外人材育成担当参事官室",
+    "育成就労外国人の失踪・不法残留者の送還等の問題について協議し、外交ルートも通じて友好的に解決",
+    "日本側は育成就労産業分野ごとの受入れ見込数を決定・公表し基本的に上限として扱い、超過した場合は当該分野の育成就労計画の認定を一時停止しうる（事前に書面で相手国に通知）（第12項）"
+   ],
+   "validity": "後の署名日から5年間（第13項）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "後の署名日から5年間継続し、60日前までに延長しない旨の書面通知がない限り自動的に5年間延長。5年経過前の終了は終了希望日の90日前までに書面通知（第13項）。",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "英文原文・和文仮訳の全文をテキスト化して検索したが、法的拘束力の有無に関する明示の条項は見当たらない（同時期のスリランカとのMOCには非拘束の明記あり）。",
+   "status": "signed",
+   "status_note": "署名済み。育成就労制度は令和9年（2027年）4月施行予定で、確認日時点で同制度による受入れは始まっていない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "育成就労に関する二国間取決め（協力覚書（ＭＯＣ））",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648_00012.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "6か国（ウズベキスタン、スリランカ、タイ、バングラデシュ、東ティモール、ラオス）の英文・和文仮訳PDFを掲載。ページに署名日の記載なし。"
+    },
+    {
+     "id": "s2",
+     "title": "育成就労制度に関する協力覚書（英文）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001761015.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    },
+    {
+     "id": "s3",
+     "title": "育成就労制度に関する協力覚書（和文仮訳）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/11800000/001761016.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFを取得し全文テキスト化して確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "同国との技能実習MOC・特定技能MOCとは別文書（group_keyを分けた）。育成就労の受入れ実績は制度開始前のため記録なし。"
+  },
+  {
+   "id": "JP-NAT-045",
+   "group_key": "NAT:NAT-US-MHLW-labor",
+   "renewal_of": null,
+   "title_ja": "日本国厚生労働省及び米国労働省間の労働分野における協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "公式発表では「交換」と表現",
+   "japan_level": "national",
+   "japan_org": "厚生労働省",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "US",
+   "partner_org": "米国労働省",
+   "partner_org_en": "U.S. Department of Labor",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "date_note": "厚労省報道発表（検索結果の抜粋）によれば2018年5月4日に米国労働省で覚書の交換が行われた。署名日そのものは未確認のため signed_date は null。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "労働行政協力（外国人材受入れ制度とは別）"
+   ],
+   "purpose": "労働分野における厚生労働省と米国労働省との協力（検索結果の抜粋による）。",
+   "content": [
+    "見習い制の促進等を通じた技能ギャップの解消",
+    "仕事の未来のための労働市場政策及びプログラムの強化",
+    "女性の労働力参加促進",
+    "労働市場ニーズ及び高齢労働者の雇用機会に関する調査等（以上、報道発表の検索結果抜粋による）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文未確認。",
+   "status": "unknown",
+   "status_note": "交換の事実は検索結果の抜粋のみで確認。実施状況は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "米国労働省との労働分野における協力覚書を交換（報道発表 2018年5月）",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/houdou/0000205186.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得。2026-10-27にアクセスした際は404）。",
+     "link_status": "not_found",
+     "link_checked": "2026-10-27"
+    },
+    {
+     "id": "s2",
+     "title": "米国労働省と協力覚書締結 厚労省",
+     "publisher": "労働新聞社",
+     "url": "https://www.rodo.co.jp/news/46280/",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "検索結果の抜粋で確認（本文未取得）。抜粋に「即日発効し、有効期間は5年。さらに5年を限度に延長できる」との記載。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-27",
+   "notes": "公式発表本文を取得できなかったため、内容は検索結果の抜粋に依拠。外国人材の受入れ制度に関するMOCではない。"
+  }
+ ]
+}

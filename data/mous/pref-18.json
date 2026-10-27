@@ -1,0 +1,68 @@
+{
+ "note": "福井県のMOU",
+ "mous": [
+  {
+   "id": "JP-18-001",
+   "group_key": "18:18-IAEA-nuclear-HRD",
+   "renewal_of": null,
+   "title_ja": "原子力発電、原子力安全および原子力科学・応用分野における協力のための覚書（Practical Arrangements）",
+   "title_original": "Practical Arrangements",
+   "doc_type": "覚書",
+   "doc_type_note": "県資料の表記は「覚書（Practical Arrangements）」",
+   "japan_level": "prefecture",
+   "japan_org": "福井県",
+   "pref_code": "18",
+   "japan_signatory": "知事 西川一誠",
+   "other_japan_parties": [],
+   "country_code": "ZZ",
+   "partner_org": "国際原子力機関（IAEA）",
+   "partner_org_en": "International Atomic Energy Agency",
+   "partner_type": "international_org",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "date_note": "資料本文に日付の記載なし（掲載フォルダ名は pa20131007）。相手側署名者はIAEA事務局長 天野之弥",
+   "fields": [
+    "education",
+    "disaster_env",
+    "medical"
+   ],
+   "labor_detail": [],
+   "purpose": "福井県の原子力発電・放射線利用施設や専門人材を活かし、世界の原子力の平和的で安全な利用のために必要となる人材を支援・育成する。",
+   "content": [
+    "IAEA主催の研修や国際会議の開催",
+    "IAEAの制度等による研修生・研究者の受入れ",
+    "IAEA主催研修への県内講師の派遣",
+    "人材育成用教材等の共同開発",
+    "IAEA共同研究プロジェクトへの県内研究者の参画"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "福井県と国際原子力機関（IAEA）との覚書の締結",
+     "publisher": "福井県",
+     "url": "https://www.pref.fukui.lg.jp/doc/dengen/kyoten/pa20131007_d/fil/001.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。country_code は国際機関のため空欄。"
+  }
+ ]
+}

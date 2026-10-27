@@ -1,0 +1,120 @@
+{
+ "note": "広島県のMOU",
+ "mous": [
+  {
+   "id": "JP-34-001",
+   "group_key": "34:34-VN-HaNam-env",
+   "renewal_of": null,
+   "title_ja": "ハナム省との環境関連分野における協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "広島県",
+   "pref_code": "34",
+   "japan_signatory": "知事（写真キャプション『湯崎知事』）",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ハナム省人民委員会（マイ・ティエン・ズン委員長）",
+   "partner_org_en": "",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2013-11-15",
+   "announced_date": "2013-12-09",
+   "date_note": "平成25年11月15日、広島県庁で締結（掲載日2013-12-09）",
+   "fields": [
+    "disaster_env",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "環境関連分野の経済交流強化を目指す（県ページ）。",
+   "content": [
+    "ハナム省が計画する水関連プロジェクト（浄水場・排水処理場の新設等）を具体化のモデルと位置づける",
+    "ハナム省は広島県を最優先の協力者と位置づけ、広島県は企業等と連携し技術面等で最大限協力する",
+    "この取組を契機に、より幅広い経済交流の活発化に向けて協議を進める"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム国ハナム省と「環境関連分野における協力に関する覚書」を締結",
+     "publisher": "広島県 商工労働局環境・エネルギー産業課",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/77/hanam-oboegaki.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "覚書PDFが添付されているが本文は未確認"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。署名者の知事名は写真キャプションの『湯崎知事』による。"
+  },
+  {
+   "id": "JP-34-002",
+   "group_key": "34:34-MX-Guanajuato-economy",
+   "renewal_of": null,
+   "title_ja": "経済交流に関する覚書（広島県・グアナファト州）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "広島県",
+   "pref_code": "34",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "MX",
+   "partner_org": "グアナファト州",
+   "partner_org_en": "",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "date_note": "締結日は資料に記載なし（2014年11月6日の友好提携より前）",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "広島県国際化関係資料（2025年版）第３ 国際交流の状況",
+     "publisher": "広島県 国際課",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/659398.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『広島県とグアナファト州は、「経済交流に関する覚書」に基づく交流関係を深めてきたが、更なる経済交流の促進に向け、2014年11月６日、友好提携を締結した』"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。締結日・署名者・原文は未確認。"
+  }
+ ]
+}

@@ -1,0 +1,760 @@
+{
+ "note": "code は ISO 3166-1 alpha-2（ZZ＝国際機関、XX＝資料に相手の国・地域の記載がないもの）。aliases は検索で使う別名（日本語・英語）。新しい国を追加するときは1行追加してください。",
+ "countries": [
+  {
+   "code": "VN",
+   "ja": "ベトナム",
+   "en": "Viet Nam",
+   "region": "東南アジア",
+   "aliases": [
+    "Vietnam",
+    "ヴィエトナム",
+    "ベトナム社会主義共和国"
+   ]
+  },
+  {
+   "code": "ID",
+   "ja": "インドネシア",
+   "en": "Indonesia",
+   "region": "東南アジア",
+   "aliases": [
+    "インドネシア共和国"
+   ]
+  },
+  {
+   "code": "PH",
+   "ja": "フィリピン",
+   "en": "Philippines",
+   "region": "東南アジア",
+   "aliases": [
+    "フィリピン共和国",
+    "Pilipinas"
+   ]
+  },
+  {
+   "code": "TH",
+   "ja": "タイ",
+   "en": "Thailand",
+   "region": "東南アジア",
+   "aliases": [
+    "タイ王国"
+   ]
+  },
+  {
+   "code": "MM",
+   "ja": "ミャンマー",
+   "en": "Myanmar",
+   "region": "東南アジア",
+   "aliases": [
+    "ビルマ",
+    "Burma",
+    "ミャンマー連邦共和国"
+   ]
+  },
+  {
+   "code": "KH",
+   "ja": "カンボジア",
+   "en": "Cambodia",
+   "region": "東南アジア",
+   "aliases": [
+    "カンボジア王国"
+   ]
+  },
+  {
+   "code": "LA",
+   "ja": "ラオス",
+   "en": "Lao PDR",
+   "region": "東南アジア",
+   "aliases": [
+    "Laos",
+    "ラオス人民民主共和国"
+   ]
+  },
+  {
+   "code": "MY",
+   "ja": "マレーシア",
+   "en": "Malaysia",
+   "region": "東南アジア",
+   "aliases": []
+  },
+  {
+   "code": "SG",
+   "ja": "シンガポール",
+   "en": "Singapore",
+   "region": "東南アジア",
+   "aliases": []
+  },
+  {
+   "code": "BN",
+   "ja": "ブルネイ",
+   "en": "Brunei Darussalam",
+   "region": "東南アジア",
+   "aliases": [
+    "Brunei"
+   ]
+  },
+  {
+   "code": "TL",
+   "ja": "東ティモール",
+   "en": "Timor-Leste",
+   "region": "東南アジア",
+   "aliases": [
+    "East Timor"
+   ]
+  },
+  {
+   "code": "MN",
+   "ja": "モンゴル",
+   "en": "Mongolia",
+   "region": "東アジア",
+   "aliases": [
+    "モンゴル国"
+   ]
+  },
+  {
+   "code": "CN",
+   "ja": "中国",
+   "en": "China",
+   "region": "東アジア",
+   "aliases": [
+    "中華人民共和国",
+    "People's Republic of China"
+   ]
+  },
+  {
+   "code": "KR",
+   "ja": "韓国",
+   "en": "Republic of Korea",
+   "region": "東アジア",
+   "aliases": [
+    "大韓民国",
+    "South Korea",
+    "Korea"
+   ]
+  },
+  {
+   "code": "TW",
+   "ja": "台湾",
+   "en": "Taiwan",
+   "region": "東アジア",
+   "aliases": []
+  },
+  {
+   "code": "HK",
+   "ja": "香港",
+   "en": "Hong Kong",
+   "region": "東アジア",
+   "aliases": [
+    "中国香港"
+   ]
+  },
+  {
+   "code": "MO",
+   "ja": "マカオ",
+   "en": "Macao",
+   "region": "東アジア",
+   "aliases": [
+    "Macau"
+   ]
+  },
+  {
+   "code": "IN",
+   "ja": "インド",
+   "en": "India",
+   "region": "南アジア",
+   "aliases": [
+    "インド共和国",
+    "Bharat"
+   ]
+  },
+  {
+   "code": "NP",
+   "ja": "ネパール",
+   "en": "Nepal",
+   "region": "南アジア",
+   "aliases": [
+    "ネパール連邦民主共和国"
+   ]
+  },
+  {
+   "code": "LK",
+   "ja": "スリランカ",
+   "en": "Sri Lanka",
+   "region": "南アジア",
+   "aliases": [
+    "スリランカ民主社会主義共和国"
+   ]
+  },
+  {
+   "code": "BD",
+   "ja": "バングラデシュ",
+   "en": "Bangladesh",
+   "region": "南アジア",
+   "aliases": [
+    "バングラデシュ人民共和国"
+   ]
+  },
+  {
+   "code": "PK",
+   "ja": "パキスタン",
+   "en": "Pakistan",
+   "region": "南アジア",
+   "aliases": [
+    "パキスタン・イスラム共和国"
+   ]
+  },
+  {
+   "code": "BT",
+   "ja": "ブータン",
+   "en": "Bhutan",
+   "region": "南アジア",
+   "aliases": []
+  },
+  {
+   "code": "MV",
+   "ja": "モルディブ",
+   "en": "Maldives",
+   "region": "南アジア",
+   "aliases": []
+  },
+  {
+   "code": "UZ",
+   "ja": "ウズベキスタン",
+   "en": "Uzbekistan",
+   "region": "中央アジア",
+   "aliases": [
+    "ウズベキスタン共和国"
+   ]
+  },
+  {
+   "code": "KG",
+   "ja": "キルギス",
+   "en": "Kyrgyz Republic",
+   "region": "中央アジア",
+   "aliases": [
+    "Kyrgyzstan",
+    "キルギス共和国",
+    "キルギスタン"
+   ]
+  },
+  {
+   "code": "TJ",
+   "ja": "タジキスタン",
+   "en": "Tajikistan",
+   "region": "中央アジア",
+   "aliases": [
+    "タジキスタン共和国"
+   ]
+  },
+  {
+   "code": "KZ",
+   "ja": "カザフスタン",
+   "en": "Kazakhstan",
+   "region": "中央アジア",
+   "aliases": [
+    "カザフスタン共和国"
+   ]
+  },
+  {
+   "code": "TM",
+   "ja": "トルクメニスタン",
+   "en": "Turkmenistan",
+   "region": "中央アジア",
+   "aliases": []
+  },
+  {
+   "code": "TR",
+   "ja": "トルコ",
+   "en": "Türkiye",
+   "region": "中東",
+   "aliases": [
+    "Turkey",
+    "トルコ共和国",
+    "テュルキエ"
+   ]
+  },
+  {
+   "code": "AE",
+   "ja": "アラブ首長国連邦",
+   "en": "United Arab Emirates",
+   "region": "中東",
+   "aliases": [
+    "UAE"
+   ]
+  },
+  {
+   "code": "SA",
+   "ja": "サウジアラビア",
+   "en": "Saudi Arabia",
+   "region": "中東",
+   "aliases": []
+  },
+  {
+   "code": "QA",
+   "ja": "カタール",
+   "en": "Qatar",
+   "region": "中東",
+   "aliases": []
+  },
+  {
+   "code": "IL",
+   "ja": "イスラエル",
+   "en": "Israel",
+   "region": "中東",
+   "aliases": []
+  },
+  {
+   "code": "JO",
+   "ja": "ヨルダン",
+   "en": "Jordan",
+   "region": "中東",
+   "aliases": []
+  },
+  {
+   "code": "IR",
+   "ja": "イラン",
+   "en": "Iran",
+   "region": "中東",
+   "aliases": []
+  },
+  {
+   "code": "EG",
+   "ja": "エジプト",
+   "en": "Egypt",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "KE",
+   "ja": "ケニア",
+   "en": "Kenya",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "NG",
+   "ja": "ナイジェリア",
+   "en": "Nigeria",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "ZA",
+   "ja": "南アフリカ",
+   "en": "South Africa",
+   "region": "アフリカ",
+   "aliases": [
+    "南アフリカ共和国"
+   ]
+  },
+  {
+   "code": "GH",
+   "ja": "ガーナ",
+   "en": "Ghana",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "RW",
+   "ja": "ルワンダ",
+   "en": "Rwanda",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "ET",
+   "ja": "エチオピア",
+   "en": "Ethiopia",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "TZ",
+   "ja": "タンザニア",
+   "en": "Tanzania",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "MA",
+   "ja": "モロッコ",
+   "en": "Morocco",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "SN",
+   "ja": "セネガル",
+   "en": "Senegal",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "UG",
+   "ja": "ウガンダ",
+   "en": "Uganda",
+   "region": "アフリカ",
+   "aliases": []
+  },
+  {
+   "code": "US",
+   "ja": "アメリカ合衆国",
+   "en": "United States",
+   "region": "北米",
+   "aliases": [
+    "アメリカ",
+    "米国",
+    "USA",
+    "United States of America"
+   ]
+  },
+  {
+   "code": "CA",
+   "ja": "カナダ",
+   "en": "Canada",
+   "region": "北米",
+   "aliases": []
+  },
+  {
+   "code": "MX",
+   "ja": "メキシコ",
+   "en": "Mexico",
+   "region": "中南米",
+   "aliases": []
+  },
+  {
+   "code": "BR",
+   "ja": "ブラジル",
+   "en": "Brazil",
+   "region": "中南米",
+   "aliases": [
+    "ブラジル連邦共和国"
+   ]
+  },
+  {
+   "code": "PE",
+   "ja": "ペルー",
+   "en": "Peru",
+   "region": "中南米",
+   "aliases": []
+  },
+  {
+   "code": "AR",
+   "ja": "アルゼンチン",
+   "en": "Argentina",
+   "region": "中南米",
+   "aliases": []
+  },
+  {
+   "code": "CL",
+   "ja": "チリ",
+   "en": "Chile",
+   "region": "中南米",
+   "aliases": []
+  },
+  {
+   "code": "CO",
+   "ja": "コロンビア",
+   "en": "Colombia",
+   "region": "中南米",
+   "aliases": []
+  },
+  {
+   "code": "PY",
+   "ja": "パラグアイ",
+   "en": "Paraguay",
+   "region": "中南米",
+   "aliases": []
+  },
+  {
+   "code": "BO",
+   "ja": "ボリビア",
+   "en": "Bolivia",
+   "region": "中南米",
+   "aliases": []
+  },
+  {
+   "code": "CU",
+   "ja": "キューバ",
+   "en": "Cuba",
+   "region": "中南米",
+   "aliases": []
+  },
+  {
+   "code": "AU",
+   "ja": "オーストラリア",
+   "en": "Australia",
+   "region": "オセアニア",
+   "aliases": [
+    "豪州",
+    "豪"
+   ]
+  },
+  {
+   "code": "NZ",
+   "ja": "ニュージーランド",
+   "en": "New Zealand",
+   "region": "オセアニア",
+   "aliases": []
+  },
+  {
+   "code": "FJ",
+   "ja": "フィジー",
+   "en": "Fiji",
+   "region": "オセアニア",
+   "aliases": []
+  },
+  {
+   "code": "PG",
+   "ja": "パプアニューギニア",
+   "en": "Papua New Guinea",
+   "region": "オセアニア",
+   "aliases": []
+  },
+  {
+   "code": "PW",
+   "ja": "パラオ",
+   "en": "Palau",
+   "region": "オセアニア",
+   "aliases": []
+  },
+  {
+   "code": "GB",
+   "ja": "英国",
+   "en": "United Kingdom",
+   "region": "欧州",
+   "aliases": [
+    "イギリス",
+    "UK",
+    "グレートブリテン"
+   ]
+  },
+  {
+   "code": "FR",
+   "ja": "フランス",
+   "en": "France",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "DE",
+   "ja": "ドイツ",
+   "en": "Germany",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "IT",
+   "ja": "イタリア",
+   "en": "Italy",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "ES",
+   "ja": "スペイン",
+   "en": "Spain",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "PT",
+   "ja": "ポルトガル",
+   "en": "Portugal",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "NL",
+   "ja": "オランダ",
+   "en": "Netherlands",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "BE",
+   "ja": "ベルギー",
+   "en": "Belgium",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "CH",
+   "ja": "スイス",
+   "en": "Switzerland",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "AT",
+   "ja": "オーストリア",
+   "en": "Austria",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "DK",
+   "ja": "デンマーク",
+   "en": "Denmark",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "SE",
+   "ja": "スウェーデン",
+   "en": "Sweden",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "NO",
+   "ja": "ノルウェー",
+   "en": "Norway",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "FI",
+   "ja": "フィンランド",
+   "en": "Finland",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "IE",
+   "ja": "アイルランド",
+   "en": "Ireland",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "PL",
+   "ja": "ポーランド",
+   "en": "Poland",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "CZ",
+   "ja": "チェコ",
+   "en": "Czech Republic",
+   "region": "欧州",
+   "aliases": [
+    "Czechia"
+   ]
+  },
+  {
+   "code": "HU",
+   "ja": "ハンガリー",
+   "en": "Hungary",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "RO",
+   "ja": "ルーマニア",
+   "en": "Romania",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "GR",
+   "ja": "ギリシャ",
+   "en": "Greece",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "UA",
+   "ja": "ウクライナ",
+   "en": "Ukraine",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "RU",
+   "ja": "ロシア",
+   "en": "Russian Federation",
+   "region": "欧州",
+   "aliases": [
+    "Russia",
+    "ロシア連邦"
+   ]
+  },
+  {
+   "code": "LT",
+   "ja": "リトアニア",
+   "en": "Lithuania",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "EE",
+   "ja": "エストニア",
+   "en": "Estonia",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "LV",
+   "ja": "ラトビア",
+   "en": "Latvia",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "SK",
+   "ja": "スロバキア",
+   "en": "Slovakia",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "SI",
+   "ja": "スロベニア",
+   "en": "Slovenia",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "HR",
+   "ja": "クロアチア",
+   "en": "Croatia",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "RS",
+   "ja": "セルビア",
+   "en": "Serbia",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "BG",
+   "ja": "ブルガリア",
+   "en": "Bulgaria",
+   "region": "欧州",
+   "aliases": []
+  },
+  {
+   "code": "ZZ",
+   "ja": "国際機関",
+   "en": "International organizations",
+   "region": "国際機関",
+   "aliases": [
+    "IAEA",
+    "国際原子力機関",
+    "国連",
+    "United Nations"
+   ]
+  },
+  {
+   "code": "XX",
+   "ja": "国・地域の記載なし",
+   "en": "Not specified",
+   "region": "その他",
+   "aliases": []
+  }
+ ]
+}

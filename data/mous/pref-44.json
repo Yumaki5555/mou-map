@@ -1,0 +1,188 @@
+{
+ "note": "大分県のMOU",
+ "mous": [
+  {
+   "id": "JP-44-001",
+   "group_key": "44:44-GB-Wales-exchange",
+   "renewal_of": null,
+   "title_ja": "友好と相互協力に関する覚書（大分県とウェールズ政府）",
+   "title_original": "",
+   "doc_type": "MOU",
+   "doc_type_note": "県資料で『友好と相互協力に関する覚書（MOU）』と表記。友好目的だが名称が覚書のため記録。",
+   "japan_level": "prefecture",
+   "japan_org": "大分県",
+   "pref_code": "44",
+   "japan_signatory": "知事 広瀬勝貞",
+   "other_japan_parties": [],
+   "country_code": "GB",
+   "partner_org": "ウェールズ政府",
+   "partner_org_en": "Welsh Government",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2022-03-01",
+   "announced_date": "",
+   "date_note": "締結式はオンラインと対面のハイブリッド。ウェールズ側はマーク・ドレイクフォード主席大臣がオンライン出席（県資料の写真説明に主席大臣と広瀬知事）。",
+   "fields": [
+    "tourism",
+    "education"
+   ],
+   "labor_detail": [],
+   "purpose": "今後の友好関係の更なる強化（県資料）。ラグビーワールドカップ2019を契機とした交流を背景に、ウェールズ側の提案により締結。",
+   "content": [
+    "①芸術文化、②スポーツ、③教育・学術、④観光、⑤飲食の5項目を主要分野と定め、今後の更なる関係発展を約束"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2023年3月に締結1周年記念セレモニー（大分県立美術館とウェールズ国立博物館の交流等）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "What's up, OITA! VOL.108（2022年3月発行）RWC2019のレガシー ウェールズとMOU締結",
+     "publisher": "大分県",
+     "url": "https://www.pref.oita.jp/uploaded/attachment/2145365.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "県人会員・留学生OB向け広報誌"
+    },
+    {
+     "id": "s2",
+     "title": "What's up, OITA! VOL.120（2023年3月発行）大分県×英国ウェールズ政府 友好交流MOU締結一周年記念セレモニー",
+     "publisher": "大分県",
+     "url": "https://www.pref.oita.jp/uploaded/attachment/2190315.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『「友好と相互協力に関する覚書」（MOU）を令和4年3月1日に締結しました』"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": ""
+  },
+  {
+   "id": "JP-44-002",
+   "group_key": "44:44-US-SonomaTourism-tourism",
+   "renewal_of": null,
+   "title_ja": "大分県観光局とソノマカウンティツーリズムとの友好と相互協力に関する覚書（ＭＯＵ）",
+   "title_original": "",
+   "doc_type": "MOU",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "大分県（観光局）",
+   "pref_code": "44",
+   "japan_signatory": "大分県観光局長 渡辺修武（予定）",
+   "other_japan_parties": [],
+   "country_code": "US",
+   "partner_org": "ソノマカウンティツーリズム（ソノマ郡の公式観光地管理組織）",
+   "partner_org_en": "Sonoma County Tourism",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "2024-11-05",
+   "date_note": "2024-11-05付県発表で締結式を2024年11月19日9時（現地）、カリフォルニア州ソノマ郡サンタローザで予定。締結の実施は確認できる資料が見つからなかった。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "持続可能な観光地域づくりを主として関係を発展させる（県発表）。",
+   "content": [
+    "持続可能な観光地域づくりに関わる人的交流",
+    "自然・温泉・文化・芸術・食（ガストロノミー）など双方の観光資源の調査研究",
+    "観光資源の相互の情報発信及び誘客の協力"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "planned",
+   "status_note": "締結予定（締結済み未確認）",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "お知らせ「令和６年大分県米国プロモーション」について（令和６年１１月５日、国際政策課）",
+     "publisher": "大分県",
+     "url": "https://www.pref.oita.jp/uploaded/attachment/2227740.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "別紙『大分県観光局とソノマカウンティツーリズムとの友好と相互協力に関する覚書（ＭＯＵ）の締結について』"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "相手側署名者（予定）：CEO クラウディア・ヴェッキオ。"
+  },
+  {
+   "id": "JP-44-003",
+   "group_key": "44:44-TW-KaohsiungEdu-education",
+   "renewal_of": null,
+   "title_ja": "教育交流に関する覚書（MOU）（大分県教育委員会と高雄市教育局）",
+   "title_original": "",
+   "doc_type": "MOU",
+   "doc_type_note": "台湾側発表の表現。正式名称未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "大分県教育委員会",
+   "pref_code": "44",
+   "japan_signatory": "教育長 山田雅文",
+   "other_japan_parties": [],
+   "country_code": "TW",
+   "partner_org": "高雄市政府教育局",
+   "partner_org_en": "Kaohsiung City Government Education Bureau",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2026-09-29",
+   "announced_date": "2026-10-01",
+   "date_note": "台湾側記事（2026年10月1日付Taiwan Today掲載）で9月29日締結。",
+   "fields": [
+    "education"
+   ],
+   "labor_detail": [],
+   "purpose": "長年の教育交流をさらに発展させ、学校間の相互訪問・教育旅行・姉妹校交流を教育行政レベルでの協力へ格上げ（台湾側記事）。",
+   "content": [
+    "今後の重点分野：生徒交流、教員の専門性向上、学校間の連携、国際教育"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "partner_official",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "高雄市教育局と大分県教育委員会、教育交流のMOU締結",
+     "publisher": "台北駐日経済文化代表処（Taiwan Today転載）",
+     "url": "https://www.roc-taiwan.org/jp_ja/post/118684.html",
+     "type": "partner_official",
+     "checked": "2026-10-27",
+     "note": "高雄市教育局 呉立森局長、大分県教育委員会 山田雅文教育長が署名"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "大分県側の公式発表は未確認。"
+  }
+ ]
+}

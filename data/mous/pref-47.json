@@ -1,0 +1,221 @@
+{
+ "note": "沖縄県のMOU",
+ "mous": [
+  {
+   "id": "JP-47-001",
+   "group_key": "47:47-CN-FujianCommerce-economy",
+   "renewal_of": null,
+   "title_ja": "経済交流促進に係る覚書（沖縄県商工労働部と福建省商務庁）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県資料の表現。正式名称未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "沖縄県（商工労働部）",
+   "pref_code": "47",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "福建省商務庁",
+   "partner_org_en": "Department of Commerce of Fujian Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2016-12",
+   "announced_date": "",
+   "date_note": "県資料に『2016年12月、県商工労働部と福建省商務庁が経済交流促進に係る覚書を締結』。",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "経済交流の連携強化（県資料）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "沖縄県の国際交流（資料編）1（2023年版業務概要）",
+     "publisher": "沖縄県",
+     "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/028/475/r4gaiyousiryou1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "福建省（友好県省、1997年9月締結）の項"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "沖縄県と福建省の友好県省締結（1997年）は除外。"
+  },
+  {
+   "id": "JP-47-002",
+   "group_key": "47:47-US-Hawaii-energy",
+   "renewal_of": null,
+   "title_ja": "ハワイ州と沖縄県のクリーンエネルギー協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県資料の表記。",
+   "japan_level": "prefecture",
+   "japan_org": "沖縄県",
+   "pref_code": "47",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "US",
+   "partner_org": "ハワイ州",
+   "partner_org_en": "State of Hawaii",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2021-05",
+   "announced_date": "",
+   "date_note": "県資料に『令和３年５月に締結した』とのみ記載。",
+   "fields": [
+    "disaster_env"
+   ],
+   "labor_detail": [],
+   "purpose": "ハワイ州と再生可能エネルギーをはじめとするクリーンなエネルギー導入拡大に係る情報交換や技術交流等を行う（県資料の事業内容）。",
+   "content": [
+    "再生可能エネルギーをはじめとするクリーンなエネルギー導入拡大に係る情報交換や技術交流"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "覚書に基づく事業として県の国際交流資料に掲載。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "沖縄県の国際交流（資料編）1（2023年版業務概要）",
+     "publisher": "沖縄県",
+     "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/028/475/r4gaiyousiryou1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "署名者・正確な日付は未確認。"
+  },
+  {
+   "id": "JP-47-003",
+   "group_key": "47:47-PW-Palau-exchange",
+   "renewal_of": null,
+   "title_ja": "沖縄県とパラオ共和国との友好関係の強化に関する覚書（MOU）",
+   "title_original": "Memorandum of Understanding on strengthening friendly relations between the Republic of Palau and Okinawa Prefecture of Japan",
+   "doc_type": "MOU",
+   "doc_type_note": "友好目的だが名称が覚書（MOU）のため記録。",
+   "japan_level": "prefecture",
+   "japan_org": "沖縄県",
+   "pref_code": "47",
+   "japan_signatory": "知事 玉城デニー",
+   "other_japan_parties": [],
+   "country_code": "PW",
+   "partner_org": "パラオ共和国（署名：国務大臣 グスタフ・N・アイタロー）",
+   "partner_org_en": "Republic of Palau",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2022-08-26",
+   "announced_date": "",
+   "date_note": "原文：2022年8月26日に那覇及びコロールにて和文英文の原本2通に署名。締結式はオンライン。",
+   "fields": [
+    "other",
+    "agri"
+   ],
+   "labor_detail": [],
+   "purpose": "双方の歴史的・文化的な絆を基礎とした友好関係を強化し、アジア太平洋地域の平和と繁栄に向けて未来志向の取組を広げていく（原文）。",
+   "content": [
+    "双方が有する技術・人材・資源等を積極的に活用し、島嶼地域の共通課題の解決に向けて協働する（原文）",
+    "協働分野は双方協議の上、別途定めることとし、合意に至った分野については個別ワーキングチームを設置して具体的な取組を開始する（原文）"
+   ],
+   "validity": "記載なし",
+   "validity_type": "not_stated",
+   "valid_until": null,
+   "renewal_terms": "記載なし（終了条項：少なくとも90日以前に相手方に書面で通知すれば効力を終了できる）",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "原文：『本覚書は、上の基本原則に基づく拘束力の伴わない基本合意であり、双方責任者による協議を経て正式な合意に至らない限り、本覚書によって法的義務や費用負担を課されることはない。』",
+   "status": "in_progress",
+   "status_note": "2026年3月27日のパラオ農業・漁業・環境大臣来沖時に知事が『MOUに基づき更なる交流促進、相互発展に繋げたい』と発言（県ページ）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "沖縄県とパラオ共和国との友好関係の強化に関する覚書（MOU）和文",
+     "publisher": "沖縄県",
+     "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/011/217/palau_okinawamou_japanese.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "Memorandum of Understanding on strengthening friendly relations between the Republic of Palau and Okinawa Prefecture of Japan（英文）",
+     "publisher": "沖縄県",
+     "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/011/217/palau_okinawamou_english.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "沖縄県とパラオ共和国との友好関係の強化に関する覚書（MOU）締結",
+     "publisher": "沖縄県（水産関係ページ）",
+     "url": "https://www.pref.okinawa.jp/site/norin/suisan/mou.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "現行サイトの同内容ページへ転送される"
+    },
+    {
+     "id": "s4",
+     "title": "令和4年8月26日 沖縄県とパラオ共和国との友好関係の強化に関する覚書(MOU)締結式（知事メッセージ）",
+     "publisher": "沖縄県",
+     "url": "https://www.pref.okinawa.jp/kensei/kencho/1001519/1001521/1001536/1001525.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s5",
+     "title": "令和7年度 大使館・外国自治体との面談（地域外交）",
+     "publisher": "沖縄県",
+     "url": "https://www.pref.okinawa.jp/bunkakoryu/koryu/1009802/1036136/1036908.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s6",
+     "title": "沖縄県の国際交流（資料編）1（2023年版業務概要）",
+     "publisher": "沖縄県",
+     "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/028/475/r4gaiyousiryou1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "水産関係事業の記載：パラオEEZ海域は本県マグロはえ縄漁船の重要な漁場で、パラオとの友好関係強化を明確化するためにMOU締結を進める（締結前の記載）"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "2023年1月に知事がパラオを訪問し、農水産業・インフラ整備・人材交流を進めるワーキングチーム設置で合意したとの報道あり（琉球新報、検索結果の抜粋のみ・本文未取得のため projects には入れていない）。"
+  }
+ ]
+}

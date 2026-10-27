@@ -1,0 +1,455 @@
+{
+ "note": "調査の中で見つかったが、MOUの対象外として登録しなかったものの例",
+ "items": [
+  {
+   "pref": "宮城県",
+   "title": "地域産業の担い手確保・育成支援に関する覚書（宮城県・一般社団法人宮城県専修学校各種学校連合会、2025年6月9日）",
+   "reason": "国内機関同士の覚書のため除外",
+   "url": "https://www.pref.miyagi.jp/documents/59969/kisyahappyousiryou.pdf"
+  },
+  {
+   "pref": "北海道",
+   "title": "アルバータ州・黒竜江省・マサチューセッツ州・サハリン州・釜山広域市・慶尚南道・ソウル特別市との提携",
+   "reason": "姉妹・友好提携のため除外",
+   "url": "https://www.pref.hokkaido.lg.jp/ss/tkk/databook/0401.html"
+  },
+  {
+   "pref": "青森県",
+   "title": "台中市との友好交流協定（2016年12月14日）、済州特別自治道・メーン州・リグーリア州・ハバロフスク地方・サンタカタリーナ州との提携",
+   "reason": "姉妹・友好提携のため除外",
+   "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/files/2.1kenoyobisichosonnoshimaitoshitouteikeijjyokyoR6.pdf"
+  },
+  {
+   "pref": "青森県",
+   "title": "青森県・大連市友好経済交流委員会協定書（2004年12月24日）",
+   "reason": "県が姉妹都市等提携として一覧に掲載している友好経済交流協定のため除外（経済協力文書として扱う余地あり）",
+   "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/files/2.2.1aomoriken8DalianR6.pdf"
+  },
+  {
+   "pref": "岩手県",
+   "title": "雲南省との友好交流協力協定（2013年11月）",
+   "reason": "友好提携型の協定のため除外",
+   "url": "https://www.pref.iwate.jp/area/dbps_data/_material_/_files/000/000/045/610/01unnansyo.pdf"
+  },
+  {
+   "pref": "秋田県",
+   "title": "甘粛省との友好協定（1982年8月5日）",
+   "reason": "姉妹・友好提携のため除外",
+   "url": "https://www.pref.akita.lg.jp/pages/archive/785"
+  },
+  {
+   "pref": "山形県",
+   "title": "コロラド州・パプア州・ハワイ州との姉妹県州盟約、黒龍江省との友好交流",
+   "reason": "姉妹・友好提携のため除外",
+   "url": "https://www.pref.yamagata.jp/020040/20260915.html"
+  },
+  {
+   "pref": "福島県",
+   "title": "ニュージーランドとの交流の合意（1996年10月24日）",
+   "reason": "締結書を交わしていない（県資料）ため除外",
+   "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/736450.pdf"
+  },
+  {
+   "pref": "新潟県",
+   "title": "黒龍江省との友好県省提携議定書（1983年8月5日）",
+   "reason": "姉妹・友好提携のため除外",
+   "url": "https://www.pref.niigata.lg.jp/uploaded/attachment/489382.pdf"
+  },
+  {
+   "pref": "茨城県",
+   "title": "日本国茨城県・ベトナム社会主義共和国ロンアン省との相互協力に関する共同声明（2023年7月28日）",
+   "reason": "共同声明のため除外",
+   "url": "https://www.pref.ibaraki.jp/somu/hodo/hodo/pressrelease/hodohappyoushiryou/2203/documents/230728betonamu.pdf"
+  },
+  {
+   "pref": "茨城県",
+   "title": "JICA筑波センターと茨城県の外国人材の育成・送出し・受入れ等に関する覚書（2020年12月）",
+   "reason": "国内機関同士の覚書のため除外（検索結果の抜粋で確認）",
+   "url": ""
+  },
+  {
+   "pref": "栃木県",
+   "title": "栃木県とヴォークリューズ県との交流協力に関する協定書（2008年10月）",
+   "reason": "友好交流関係の協定書のため除外",
+   "url": "https://www.pref.tochigi.lg.jp/f04/life/kokusai/kouryuu/vaucluse.html"
+  },
+  {
+   "pref": "栃木県",
+   "title": "栃木県観光物産協会と高雄市観光協会の観光交流に関する覚書（2018年）",
+   "reason": "県が署名者でないため除外",
+   "url": "https://www.pref.tochigi.lg.jp/f04/life/kokusai/kouryuu/taiwan.html"
+  },
+  {
+   "pref": "群馬県",
+   "title": "一般社団法人在日ネパール人サーザ福祉協会との覚書",
+   "reason": "国内団体との覚書のため除外（検索結果のタイトルのみ確認）",
+   "url": ""
+  },
+  {
+   "pref": "群馬県",
+   "title": "群馬県・FPTソフトウェア・FPT大学の3者連携の合意（2025年10月）",
+   "reason": "覚書等の文書締結の明記がないため除外",
+   "url": "https://www.pref.gunma.jp/site/chiji/727901.html"
+  },
+  {
+   "pref": "東京都",
+   "title": "共同コミュニケ（ソウル2015、パリ2017、バンコク、ブリュッセル、ヘルシンキ、ベルリン2024、ローマ）および東京都とパリ市による共同宣言（2021）",
+   "reason": "共同コミュニケ・共同宣言のため除外",
+   "url": "https://www.seisakukikaku.metro.tokyo.lg.jp/diplomacy/city-to-city-diplomacy/agreement"
+  },
+  {
+   "pref": "東京都",
+   "title": "姉妹友好都市12都市との提携文書",
+   "reason": "姉妹友好提携のため除外",
+   "url": "https://www.seisakukikaku.metro.tokyo.lg.jp/diplomacy/city-to-city-diplomacy"
+  },
+  {
+   "pref": "神奈川県",
+   "title": "友好提携8地域（メリーランド州、遼寧省、バーデン＝ヴュルテンベルク州、京畿道、オデーサ州、ペナン州、ヴェストラ・ヨータランド県、ゴールドコースト市）",
+   "reason": "姉妹友好提携のため除外",
+   "url": "https://www.pref.kanagawa.jp/docs/k2w/cnt/f41011/index.html"
+  },
+  {
+   "pref": "山梨県",
+   "title": "山梨県とクアンビン省（現クアンチ省）との姉妹提携に関する協定書（2023年9月19日）",
+   "reason": "姉妹友好提携のため除外",
+   "url": "https://www.pref.yamanashi.jp/chiji/katsudo/230919_vietnam.html"
+  },
+  {
+   "pref": "山梨県",
+   "title": "姉妹友好地域（アイオワ州、ミナス・ジェライス州、四川省、忠清北道、ソーヌ・エ・ロアール県）",
+   "reason": "姉妹友好提携のため除外",
+   "url": "https://www.pref.yamanashi.jp/kokusai/sistercityrelationship/top.html"
+  },
+  {
+   "pref": "山梨県",
+   "title": "日印友好交流促進知事ネットワーク設立の調印（2026年）",
+   "reason": "国内の知事ネットワークのため除外",
+   "url": "https://www.pref.yamanashi.jp/kokusai/india_japan.html"
+  },
+  {
+   "pref": "三重県",
+   "title": "三重県国際展開支援窓口の運営業務協力に関する覚書（2017年）",
+   "reason": "国内機関（県内金融機関・ジェトロ三重等）同士の覚書のため除外",
+   "url": "https://www.pref.mie.lg.jp/TOPICS/m0030300052.htm"
+  },
+  {
+   "pref": "石川県",
+   "title": "関西外国語大学との就職支援協定（2025年5月30日）",
+   "reason": "国内大学との協定のため除外",
+   "url": "https://www.pref.ishikawa.lg.jp/kisya/r7/documents/0528_10_roudoukikaku.pdf"
+  },
+  {
+   "pref": "岐阜県",
+   "title": "名古屋出入国在留管理局との外国人材受入れ・共生に関する連携協定（2019年）",
+   "reason": "国内機関同士の協定のため除外",
+   "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/144840.pdf"
+  },
+  {
+   "pref": "岐阜県",
+   "title": "岐阜大学との若者のライフデザイン及びキャリアの形成に係る連携事業に関する覚書（2025年6月）",
+   "reason": "国内大学との覚書のため除外",
+   "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/449566.pdf"
+  },
+  {
+   "pref": "福井県",
+   "title": "ふくい高度外国人材等活躍応援事業に関する連携協定",
+   "reason": "県と国内の有料職業紹介事業者との協定のため除外",
+   "url": "https://www.pref.fukui.lg.jp/doc/rousei/kigyoushien/koudozinzaiouen_d/fil/00.pdf"
+  },
+  {
+   "pref": "愛知県",
+   "title": "ビクトリア州（1980年）・江蘇省（1980年）・広東省（2019年）との友好提携",
+   "reason": "友好提携のため除外（広東省は2013年11月25日の相互協力覚書から発展）",
+   "url": "https://www.pref.aichi.jp/soshiki/kokusai/partners.html"
+  },
+  {
+   "pref": "静岡県",
+   "title": "インド・グジャラート州との友好協定（2024年12月）",
+   "reason": "友好提携の協定のため除外",
+   "url": "https://fmc.pref.shizuoka.jp/fujinokuni/article/article-33/"
+  },
+  {
+   "pref": "静岡県",
+   "title": "モンゴル・ドルノゴビ県との両県の相互協力に関する覚書（2010年11月19日）",
+   "reason": "県が友好協定締結先として扱う友好提携に相当するため除外（名称は覚書）",
+   "url": "https://www.pref.shizuoka.jp/kankosports/kokusaikoryu/kaigaikoryu/1045997/1040648/index.html"
+  },
+  {
+   "pref": "滋賀県",
+   "title": "滋賀県と株式会社イトーキの産業ひとづくり推進における相互連携に関する覚書（2024年7月9日、高度外国人財）",
+   "reason": "国内企業との覚書のため除外",
+   "url": "https://www.pref.shiga.lg.jp/ippan/shigotosangyou/shigoto/338769.html"
+  },
+  {
+   "pref": "京都府",
+   "title": "日本国京都府と大韓民国財団法人大徳研究開発特区支援本部との交流宣言（2009）",
+   "reason": "交流宣言のため除外",
+   "url": "https://www.pref.kyoto.jp/hisho/kokusai/bunyabetsukoryu.html"
+  },
+  {
+   "pref": "京都府",
+   "title": "日本国京都府とペルー共和国クスコ県の間における宣言（2017）",
+   "reason": "宣言のため除外",
+   "url": "https://www.pref.kyoto.jp/hisho/kokusai/bunyabetsukoryu.html"
+  },
+  {
+   "pref": "京都府",
+   "title": "けいはんな学研都市とDalianハイテク産業ゾーンとのスマートシティ交流に関する覚書（2017-09-28）",
+   "reason": "府の一覧に掲載されているが日本側名義が『けいはんな学研都市』で府の署名が確認できないため除外",
+   "url": "https://www.pref.kyoto.jp/hisho/kokusai/bunyabetsukoryu.html"
+  },
+  {
+   "pref": "大阪府",
+   "title": "株式会社レオパレス21と外国人材の受入促進に係る連携・協力に関する協定",
+   "reason": "国内企業との協定のため除外（府報道発表は検索結果で確認、本文未取得）",
+   "url": ""
+  },
+  {
+   "pref": "兵庫県",
+   "title": "旧ハナム省『経済交流に関する共同声明』(2016)、カントー市・旧ロンアン省『相互協力に関する共同声明』(2017)、ドンナイ省『協力に関する共同声明』(2013)",
+   "reason": "共同声明（県の友好提携ページ掲載）のため除外",
+   "url": "https://web.pref.hyogo.lg.jp/sr13/ie12_000000003.html"
+  },
+  {
+   "pref": "兵庫県",
+   "title": "特定技能外国人介護人材の確保・育成に関する県内社会福祉法人等との連携協定",
+   "reason": "国内法人との協定のため除外（送出し国の政府・公的機関等と提携する法人が要件）",
+   "url": ""
+  },
+  {
+   "pref": "和歌山県",
+   "title": "インドネシア商業省『経済交流を目的とした共同声明』(2016)、インドネシア工業省『産業振興及び技術交流に関する共同声明』(2017)",
+   "reason": "共同声明のため除外",
+   "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941.html"
+  },
+  {
+   "pref": "和歌山県",
+   "title": "和歌山県レスリング協会とマハラシュトラ州スポーツ青少年活動総局の覚書（2023年2月）",
+   "reason": "県は署名者でない（民間団体の覚書）ため除外",
+   "url": "https://www.pref.wakayama.lg.jp/chiji/press/04/2/d00212589_d/fil/230209_2.pdf"
+  },
+  {
+   "pref": "鳥取県",
+   "title": "ジャマイカ・ウェストモアランド県『姉妹提携に関する協力覚書』(2016)",
+   "reason": "姉妹提携そのものの文書のため除外",
+   "url": "https://www.pref.tottori.lg.jp/253922.htm"
+  },
+  {
+   "pref": "鳥取県",
+   "title": "鳥取市国際経済発展協議会とハノイ市友好団体連合の覚書（令和元年4月）",
+   "reason": "県は署名者でない（鳥取市の協議会）ため除外",
+   "url": "https://www.pref.tottori.lg.jp/secure/1359909/R5houkokusho_Vietnam.pdf"
+  },
+  {
+   "pref": "島根県",
+   "title": "慶尚北道との姉妹提携(1989)、寧夏回族自治区との友好提携(1993)、吉林省との友好県省提携協定書(2018)",
+   "reason": "姉妹・友好提携の協定のため除外",
+   "url": "https://www.pref.shimane.lg.jp/life/international/kouryu/kokusai/data/kokusaikano_genjo.data/zenbun.pdf"
+  },
+  {
+   "pref": "高知県",
+   "title": "高知港・スービック港湾の姉妹港提携に関する覚書（スービック港湾都市開発庁長官（フィリピン）、1998-02-17）",
+   "reason": "姉妹港・友好港提携の覚書のため、姉妹・友好提携に準じて除外（県の協定書・覚書一覧には掲載あり）",
+   "url": "https://www.pref.kochi.lg.jp/doc/2025032200059/file_contents/file_2025330094030_11.pdf"
+  },
+  {
+   "pref": "高知県",
+   "title": "高知港・青島港友好交流事業覚書（青島港港務局長（中国）、1998-04-04）",
+   "reason": "姉妹港・友好港提携の覚書のため、姉妹・友好提携に準じて除外（県の協定書・覚書一覧には掲載あり）",
+   "url": "https://www.pref.kochi.lg.jp/doc/2025032200059/file_contents/file_2025330094030_11.pdf"
+  },
+  {
+   "pref": "高知県",
+   "title": "高知港・タンジュンペラ港の姉妹港提携に関する覚書（インドネシア第３港湾（株）タンジュンペラ港支局長、1998-05-12）",
+   "reason": "姉妹港・友好港提携の覚書のため、姉妹・友好提携に準じて除外（県の協定書・覚書一覧には掲載あり）",
+   "url": "https://www.pref.kochi.lg.jp/doc/2025032200059/file_contents/file_2025330094030_11.pdf"
+  },
+  {
+   "pref": "高知県",
+   "title": "高知港・コロンボ港の友好交流事業覚書（スリランカ港湾庁総裁、1998-04-04）",
+   "reason": "姉妹港・友好港提携の覚書のため、姉妹・友好提携に準じて除外（県の協定書・覚書一覧には掲載あり）",
+   "url": "https://www.pref.kochi.lg.jp/doc/2025032200059/file_contents/file_2025330094030_11.pdf"
+  },
+  {
+   "pref": "高知県",
+   "title": "高知港・木浦新港の姉妹港提携に関する覚書（木浦新港株式会社代表理事社長（韓国）、2007-09-03）",
+   "reason": "姉妹港・友好港提携の覚書のため、姉妹・友好提携に準じて除外（県の協定書・覚書一覧には掲載あり）",
+   "url": "https://www.pref.kochi.lg.jp/doc/2025032200059/file_contents/file_2025330094030_11.pdf"
+  },
+  {
+   "pref": "高知県",
+   "title": "高知県と株式会社レオパレス21との技能実習・特定技能の外国人材の受入促進に係る連携・協力に関する協定書（2025年6月27日締結式）",
+   "reason": "国内企業との協定のため対象外",
+   "url": "https://www.pref.kochi.lg.jp/press1/2025061800046/files/file_20256231113045_1.pdf"
+  },
+  {
+   "pref": "香川県",
+   "title": "香川県中小企業団体中央会とフィリピン日本人材雇用コンサルタント協会（JEPPCA）による覚書（2025年7月29日調印式）",
+   "reason": "県は署名者ではない（同日の調印式で県等とサイセス専門学校の覚書と並行して締結）",
+   "url": "https://www.pref.kagawa.lg.jp/hisho/schedule/2025/20250728.html"
+  },
+  {
+   "pref": "香川県",
+   "title": "香川県とベトナム・ハイフォン市との交流協定（2024年8月29日）",
+   "reason": "知事が友好提携と『実質同じ』と説明しており、友好提携に準じて除外",
+   "url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijiteirei/2024/20240902.html"
+  },
+  {
+   "pref": "愛媛県",
+   "title": "県外国人技能実習生受入組合協議会とインド国家技能開発公社（NSDC）との技能実習生受入に関する協定書（2024年1月、デリー）",
+   "reason": "県は署名者ではない（知事が立会）",
+   "url": "https://www.pref.ehime.jp/uploaded/attachment/117544.pdf"
+  },
+  {
+   "pref": "山口県",
+   "title": "山東省（友好協定1982）、慶尚南道（1987）、ナバラ州（2003）、ハワイ州（2022）との姉妹提携",
+   "reason": "姉妹・友好提携のため除外",
+   "url": "https://www.pref.yamaguchi.lg.jp/soshiki/95/17521.html"
+  },
+  {
+   "pref": "広島県",
+   "title": "外国人材の活躍促進に向けた業務連携に関する協定（株式会社広島銀行、令和元年6月12日）",
+   "reason": "国内企業との協定のため対象外",
+   "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/355124.pdf"
+  },
+  {
+   "pref": "広島県",
+   "title": "四川省（1984）、ハワイ州（1997）、グアナファト州（2014）との友好提携",
+   "reason": "姉妹・友好提携のため除外",
+   "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/659398.pdf"
+  },
+  {
+   "pref": "岡山県",
+   "title": "江西省（平成4年）、南オーストラリア州（平成5年）、インド・マハーラーシュトラ州地域（平成18年）、慶尚南道（平成21年）、ハワイ州（令和8年）との友好交流",
+   "reason": "友好提携のため除外",
+   "url": "https://www.pref.okayama.jp/page/1041328.html"
+  },
+  {
+   "pref": "福岡県",
+   "title": "インド・デリー準州との友好提携の覚書（令和8年3月末に期限、更新に向けた首相招聘を2025年度事業に計上）",
+   "reason": "友好提携（2007年3月締結）に関する覚書のため姉妹・友好提携に準じて除外",
+   "url": "https://www.pref.fukuoka.lg.jp/uploaded/life/796631_62720105_misc.pdf"
+  },
+  {
+   "pref": "福岡県",
+   "title": "ハワイ州、江蘇省、バンコク都、デリー準州、ハノイ市との姉妹・友好提携、韓国南岸地域との交流",
+   "reason": "姉妹・友好提携のため除外",
+   "url": "https://www.pref.fukuoka.lg.jp/uploaded/life/796631_62720095_misc.pdf"
+  },
+  {
+   "pref": "佐賀県",
+   "title": "佐賀県と全羅南道の友好交流協定（平成23年1月25日）",
+   "reason": "友好提携協定のため除外",
+   "url": "https://www.pref.saga.lg.jp/kiji003118538/3_118538_up_q2yg6zwm.pdf"
+  },
+  {
+   "pref": "佐賀県",
+   "title": "佐賀県と遼寧省の友好協力パートナーシップの確立に関する協定（平成23年10月25日）",
+   "reason": "友好提携の性格の協定のため除外",
+   "url": "https://www.pref.saga.lg.jp/kiji003118538/3_118538_up_q2yg6zwm.pdf"
+  },
+  {
+   "pref": "佐賀県",
+   "title": "佐賀県と貴州省の友好交流に関する合意書（平成24年2月13日）",
+   "reason": "友好交流の合意書のため除外",
+   "url": "https://www.pref.saga.lg.jp/kiji003118538/3_118538_up_q2yg6zwm.pdf"
+  },
+  {
+   "pref": "長崎県",
+   "title": "長崎県とクァンナム省の友好交流関係樹立（2017年）",
+   "reason": "友好交流関係のため除外（外務省資料の検索結果抜粋で確認）",
+   "url": ""
+  },
+  {
+   "pref": "熊本県",
+   "title": "熊本県・熊本市・高雄市の友好交流協定（2017年）",
+   "reason": "友好交流協定のため除外（検索結果抜粋で確認）",
+   "url": ""
+  },
+  {
+   "pref": "熊本県",
+   "title": "熊本県内経済団体5団体と台湾の経済団体2団体の業務協力MOU（2023年6月）",
+   "reason": "県が署名者でないため除外（熊本日日新聞の検索結果抜粋）",
+   "url": ""
+  },
+  {
+   "pref": "大分県",
+   "title": "別府市旅館ホテル組合連合会とホーチミン市3大学の人材確保の連携・協力に関する覚書（2023年10月）",
+   "reason": "県が署名者でないため除外",
+   "url": "https://www.jetro.go.jp/biz/areareports/2024/bfd2f8042432b332.html"
+  },
+  {
+   "pref": "宮崎県",
+   "title": "宮崎県と台中市の友好交流協定（令和6年12月12日）・桃園市の友好交流協定（平成29年10月5日）・新竹県の交流協定（平成29年2月21日）",
+   "reason": "友好・交流提携協定のため除外（県資料の検索結果抜粋で確認）",
+   "url": ""
+  },
+  {
+   "pref": "宮崎県",
+   "title": "中華民国三三企業交流會と宮崎県商工会議所連合会の業務協力覚書（2025年2月）",
+   "reason": "県が署名者でないため除外（検索結果抜粋）",
+   "url": ""
+  },
+  {
+   "pref": "鹿児島県",
+   "title": "鹿児島県と英国ロンドン・カムデン区及びマンチェスター市との友好協定（2018年7月）",
+   "reason": "友好協定のため除外",
+   "url": "https://www.pref.kagoshima.jp/af09/kyoiku-bunka/kokusai/koryu/documents/30957_20260316202615-1.pdf"
+  },
+  {
+   "pref": "鹿児島県",
+   "title": "鹿児島県とジョージア州の姉妹関係盟約に関する協定（1966年）及び確認書（2019年8月）",
+   "reason": "姉妹提携関係の文書のため除外",
+   "url": "https://www.pref.kagoshima.jp/af09/kyoiku-bunka/kokusai/koryu/documents/30957_20260316202615-1.pdf"
+  },
+  {
+   "pref": "鹿児島県",
+   "title": "鹿児島県・江蘇省交流協議会協定書（1998年8月）",
+   "reason": "友好交流の協議会設置文書のため除外",
+   "url": "https://www.pref.kagoshima.jp/af09/kyoiku-bunka/kokusai/koryu/documents/30957_20260316202615-1.pdf"
+  },
+  {
+   "pref": "沖縄県",
+   "title": "沖縄県と福建省の友好県省締結（1997年9月）",
+   "reason": "友好提携のため除外",
+   "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/028/475/r4gaiyousiryou1.pdf"
+  },
+  {
+   "pref": "",
+   "title": "経済連携協定（EPA）本体（日インドネシア・日フィリピンEPA等）及び日ベトナム間の看護師・介護福祉士候補者受入れに関する国際約束",
+   "reason": "条約（EPA本体）・国際約束のため対象外（共通ルール）。EPAに基づく看護師・介護福祉士候補者の受入れはMOCレコードに含めていない",
+   "url": ""
+  },
+  {
+   "pref": "",
+   "title": "日本国厚生労働省とアメリカ合衆国保健福祉省との間の協力覚書（2017年）",
+   "reason": "保健・医療分野の協力覚書で外国人材・労働分野ではないため除外",
+   "url": "https://www.mhlw.go.jp/file/04-Houdouhappyou-10501000-Daijinkanboukokusaika-Kokusaika/0000164082.pdf"
+  },
+  {
+   "pref": "",
+   "title": "日本国厚生労働省とサウジアラビア王国保健省との間の医療・保健分野における協力覚書（2017年3月14日）",
+   "reason": "保健・医療分野のため除外（同日署名の労働分野の覚書は記録）",
+   "url": "https://www.mhlw.go.jp/photo/2017/03/ph0314-01.html"
+  },
+  {
+   "pref": "",
+   "title": "日本国厚生労働省とリビア国保健省との間の協力覚書（仮訳。署名日欄が空欄の文書）",
+   "reason": "保健・医療分野で、かつ公表文書上署名日が未記載のため除外",
+   "url": "https://www.mhlw.go.jp/content/10501000/001744340.pdf"
+  },
+  {
+   "pref": "",
+   "title": "国土交通省とベトナム天然資源・環境省との土地、水資源、気象、地理空間情報分野における協力に係る覚書（2018年）",
+   "reason": "労働・外国人材分野ではないため除外（ベトナム関連の検索で確認）",
+   "url": "https://www.mlit.go.jp/report/press/sogo07_hh_000494.html"
+  },
+  {
+   "pref": "",
+   "title": "厚生労働省「覚書等」ページ掲載の覚書（特定技能外国人の情報連携に関する出入国在留管理庁との覚書等）",
+   "reason": "国内機関同士の覚書のため対象外（外国政府との覚書は同ページに掲載なし）",
+   "url": "https://www.mhlw.go.jp/stf/newpage_19921.html"
+  }
+ ]
+}

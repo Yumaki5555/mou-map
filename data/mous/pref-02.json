@@ -1,0 +1,206 @@
+{
+ "note": "青森県のMOU",
+ "mous": [
+  {
+   "id": "JP-02-001",
+   "group_key": "02:02-CN-DUT-tech",
+   "renewal_of": null,
+   "title_ja": "青森県・大連理工大学技術交流協定",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "名称は「協定」",
+   "japan_level": "prefecture",
+   "japan_org": "青森県",
+   "pref_code": "02",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "大連理工大学",
+   "partner_org_en": "Dalian University of Technology",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2005-05",
+   "announced_date": "",
+   "date_note": "県資料の大連市との交流年表「平成17年5月 大連理工大学と『青森県・大連理工大学技術交流協定』を締結（大連市）」による",
+   "fields": [
+    "education",
+    "disaster_env"
+   ],
+   "labor_detail": [],
+   "purpose": "技術交流（条文未確認）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "青森県…大連市（中国）",
+     "publisher": "青森県",
+     "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/files/2.2.1aomoriken8DalianR6.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "現在も有効かは未確認。法的拘束力の有無も未確認。"
+  },
+  {
+   "id": "JP-02-002",
+   "group_key": "02:02-TW-Tainan-exchange",
+   "renewal_of": null,
+   "title_ja": "友好交流に関する覚書（青森県・弘前市・台南市）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "青森県",
+   "pref_code": "02",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "弘前市"
+   ],
+   "country_code": "TW",
+   "partner_org": "台南市",
+   "partner_org_en": "Tainan City",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2017-12-04",
+   "announced_date": "",
+   "date_note": "県資料の「提携年月日 平成29年12月4日（友好交流に関する覚書締結の日）」による",
+   "fields": [
+    "tourism",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "友好交流（県資料に目的条文の記載なし）",
+   "content": [
+    "県資料には文化交流（八家將とねぷた）、知事・市長の相互訪問等の交流実績が記載されている（覚書の条文は未確認）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "令和6年12月に知事が台南市を訪問し市長と懇談（県資料）",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "青森県の国際交流の概要",
+     "publisher": "青森県",
+     "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/kokusaikouryu-gaiyo.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "県及び市町村の姉妹都市等提携状況（R6）",
+     "publisher": "青森県",
+     "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/files/2.1kenoyobisichosonnoshimaitoshitouteikeijjyokyoR6.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "弘前市、青森県…台南市（台湾）",
+     "publisher": "青森県",
+     "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/files/2.2.1aomoriken2tainanR6.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称未確認。県は「姉妹都市等」の一覧に掲載しているが名称が覚書のため記録。"
+  },
+  {
+   "id": "JP-02-003",
+   "group_key": "02:02-TW-Kaohsiung-exchange",
+   "renewal_of": null,
+   "title_ja": "国際交流促進に関する覚書（青森県・むつ市・高雄市）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "青森県",
+   "pref_code": "02",
+   "japan_signatory": "知事",
+   "other_japan_parties": [
+    "むつ市"
+   ],
+   "country_code": "TW",
+   "partner_org": "高雄市",
+   "partner_org_en": "Kaohsiung City",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2024-12-16",
+   "announced_date": "",
+   "date_note": "県資料の「提携年月日 令和6年12月16日（国際交流促進覚書締結の日）」。知事・むつ市長が高雄市を訪問し3者で締結。",
+   "fields": [
+    "other",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "国際交流の促進（条文未確認）。県資料では、むつ市長と高雄市副市長が経済交流推進の方向性を確認した経緯を記載。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "青森県の国際交流の概要",
+     "publisher": "青森県",
+     "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/kokusaikouryu-gaiyo.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "むつ市、青森県…高雄市（台湾）",
+     "publisher": "青森県",
+     "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/files/2.2.1aomoriken9TakaoR6.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称未確認。県資料は「知事、むつ市長が高雄市を訪問し、3者による国際交流促進に関する覚書締結」とのみ記載（知事の氏名・署名者は原文未確認）。"
+  }
+ ]
+}

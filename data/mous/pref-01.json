@@ -1,0 +1,202 @@
+{
+ "note": "北海道のMOU",
+ "mous": [
+  {
+   "id": "JP-01-001",
+   "group_key": "01:01-VN-DOLAB-labor",
+   "renewal_of": null,
+   "title_ja": "ベトナム社会主義共和国労働・傷病兵・社会問題省海外労働管理局と日本国北海道との人材育成の協力促進に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "北海道",
+   "pref_code": "01",
+   "japan_signatory": "知事 鈴木直道",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "労働・傷病兵・社会問題省海外労働管理局（道のページでは「現内務省海外労働管理局」と注記）",
+   "partner_org_en": "Department of Overseas Labour, Ministry of Labour, Invalids and Social Affairs",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2024-08-09",
+   "announced_date": "",
+   "date_note": "原文（仮訳）によると北海道側は2024年7月4日に北海道で、ベトナム側は2024年8月9日にハノイで署名。道のページは締結日を2024年8月9日と記載。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能",
+    "技術者・技能者"
+   ],
+   "purpose": "「技能実習制度」やそれに類似する制度、「特定技能制度」及び「技術者・技能者」の発展に貢献するため、双方がより効果的に協力し共同で努力すること（第1条）。道のページでは「ベトナムからの技術者・技能者の送出し・受入れを促進するため」と説明。",
+   "content": [
+    "双方は、ベトナムから北海道への技能実習生、特定技能者及び技術者・技能者の送出し及び受入れを、両国の法律及び双方の機能・任務に従って支援する（第2条1）",
+    "北海道は、これらの人材の安全・安心な就労環境づくりを支援する（第2条2）",
+    "北海道は、積雪や寒冷な気象条件の影響を受ける職域で安定的に就労できる環境づくりに努める（第2条3）",
+    "双方は派遣・受入れに関する有益な情報を共有し、送出し・受入れで生じる問題の解決に努める（第3条）",
+    "窓口はベトナム側が海外労働管理局日本・東南アジア担当課、北海道側が総合政策部国際局（第4条）",
+    "協力活動の費用は各自負担（第5条）"
+   ],
+   "validity": "署名日から5年間有効（第6条）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "有効期限の6か月前までに双方いずれかから書面で終了の意図が表明されない場合、自動的に1年間延長（第6条）",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "第7条3「双方を法的に拘束するものではない」と明記（仮訳）。原本は英語。",
+   "status": "in_progress",
+   "status_note": "道の「各国・地域の人材に関する取組」ページでベトナムの主な取組として本覚書とベトナム人材紹介機関マッチング交流会（終了）が掲載されている。",
+   "projects": [
+    {
+     "name": "ベトナム人材紹介機関マッチング交流会（終了）",
+     "fiscal_year": "",
+     "detail": "道の各国・地域の人材に関する取組ページにベトナム関連の取組として掲載（開催日・実績は未確認）",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "name": "今年度道が主催するインド・ベトナムでの現地イベント",
+     "fiscal_year": "2026",
+     "detail": "令和8年9月1日の高度外国人材活用戦略セミナーで説明されたと道のページに記載（詳細未確認）",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "北海道とベトナム社会主義共和国 労働・傷病兵・社会問題省海外労働管理局との人材育成の協力促進に関する覚書の締結",
+     "publisher": "北海道",
+     "url": "https://www.pref.hokkaido.lg.jp/ss/tsk/262717.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "覚書本文（仮訳）",
+     "publisher": "北海道",
+     "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/6/7/2/_/MOU%E6%9C%AC%E6%96%87(%E5%92%8C%E8%A8%B3).pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "PDFをダウンロードして本文を確認"
+    },
+    {
+     "id": "s3",
+     "title": "覚書本文（英語・署名版）",
+     "publisher": "北海道",
+     "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/7/6/7/1/_/MOU%E6%9C%AC%E6%96%87(%E8%8B%B1%E8%AA%9E).pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "画像PDFのため本文テキストは仮訳で確認"
+    },
+    {
+     "id": "s4",
+     "title": "各国・地域の人材に関する取組",
+     "publisher": "北海道",
+     "url": "https://www.pref.hokkaido.lg.jp/ss/tsk/255732.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s5",
+     "title": "外国人材受入・定着促進事業",
+     "publisher": "北海道",
+     "url": "https://www.pref.hokkaido.lg.jp/ss/tsk/193932.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "ベトナム側の署名者はトン・ハイ・ナム海外労働管理局長。"
+  },
+  {
+   "id": "JP-01-002",
+   "group_key": "01:01-IN-IITB-labor",
+   "renewal_of": null,
+   "title_ja": "日本国北海道とインド共和国インド工科大学ボンベイ校との人材交流に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "北海道",
+   "pref_code": "01",
+   "japan_signatory": "知事 鈴木直道",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "インド工科大学ボンベイ校",
+   "partner_org_en": "Indian Institute of Technology Bombay",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2026-06-25",
+   "announced_date": "",
+   "date_note": "原文署名欄に北海道・ムンバイとも2026.6.25と手書き記入。道のページではオンラインでの締結式と記載。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "高度人材",
+    "インターンシップ",
+    "就職支援"
+   ],
+   "purpose": "相互補完的な人材の育成・交流の促進を通じた発展と成長に貢献するため、より効果的に協力し、双方の強みを最大限に生かし共同で努力すること（第1条）。前文で2025年8月の「日印人材交流・協力アクションプラン」への貢献に言及。",
+   "content": [
+    "IITボンベイ校の学生（大学生・大学院生）を対象に北海道内企業に関する就職関連イベントを開催するため相互に協力（第2条1）",
+    "学生に日本の文化・習慣や北海道について学ぶ機会を提供するため相互に協力（第2条2）",
+    "学生と道内企業とのインターンシップのマッチングを支援するため相互に協力（第2条3）",
+    "北海道は来道後の就労・生活環境づくりや地域住民との交流を支援（第2条4）",
+    "北海道は道内企業が必要とする人材の量的ニーズを定期的に提示（第2条5）",
+    "IITボンベイ校は北海道が学生を支援するために必要な情報の提供に協力（第2条6）",
+    "費用は各自負担（第4条）"
+   ],
+   "validity": "署名日から5年間有効（第5条）",
+   "validity_type": "fixed",
+   "valid_until": "2031-06-24",
+   "valid_until_note": "締結日（2026-06-25）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "有効期限の6か月前までに両者の協議の上、5年間延長でき、以降も同様（第5条）",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "第6条「法的拘束力を持つ文書ではなく、いずれの当事者にとっても遵守すべき義務を伴うものではない」",
+   "status": "signed",
+   "status_note": "締結から約4か月。具体的事業の実施状況は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "北海道とインド工科大学ボンベイ校との人材交流に関する覚書の締結",
+     "publisher": "北海道",
+     "url": "https://www.pref.hokkaido.lg.jp/ss/tsk/262705.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "覚書本文（日本語・署名版）",
+     "publisher": "北海道",
+     "url": "https://www.pref.hokkaido.lg.jp/fs/1/3/1/6/9/9/8/3/_/%E5%8C%97%E6%B5%B7%E9%81%93%E3%81%A8%E3%82%A4%E3%83%B3%E3%83%89%E5%B7%A5%E7%A7%91%E5%A4%A7%E5%AD%A6%E3%83%9C%E3%83%B3%E3%83%99%E3%82%A4%E6%A0%A1%E3%81%A8%E3%81%AE%E4%BA%BA%E6%9D%90%E4%BA%A4%E6%B5%81%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%A6%9A%E6%9B%B8(%E6%97%A5%E6%9C%AC%E8%AA%9E).pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "画像PDFを画像化して目視で確認"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "署名者：北海道知事 鈴木直道／IITボンベイ校長 シリーシュ・B・ケダレ。道議会日印友好議員連盟会長も出席（道のページ）。"
+  }
+ ]
+}
