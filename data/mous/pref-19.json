@@ -73,7 +73,7 @@
    "id": "JP-19-002",
    "group_key": "19:19-VN-YenBai-economy",
    "renewal_of": null,
-   "title_ja": "山梨県とイェンバイ省（現ラオカイ省）との覚書（MOU、正式名称未確認）",
+   "title_ja": "山梨県とイェンバイ省（現ラオカイ省）との国際交流協力に係る覚書（県発表の表記・正式名称未確認）",
    "title_original": "",
    "doc_type": "MOU",
    "doc_type_note": "",
@@ -133,17 +133,35 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "再調査で確認した資料",
+     "publisher": "",
+     "url": "https://www.pref.yamanashi.jp/chiji/katsudo/240905_vietnam.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
+    },
+    {
+     "id": "s4",
+     "title": "再調査で確認した資料",
+     "publisher": "",
+     "url": "https://www.pref.yamanashi.jp/chiji/dekigoto/0609/0905.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "協力分野に「人材」を含むが、外国人材の受入れ・技能実習・特定技能に関する具体的記載はなく、労働分野の覚書かどうかは未確認のため fields に labor を入れていない（要確認）。署名者・原文未確認。"
+   "notes": "協力5分野（環境・エネルギー、農業などの技術／人材／青少年／観光／貿易投資）に『人材』を含む。締結式で知事は『技術交流や人材交流、青少年交流、観光交流』を進めると説明し、2024年5月の事前協議では『人材受入』が5分野の一つとして意見交換された（県ページ）。ただし覚書の内容として外国人材の受入れ・送出しを定めていることは公式資料で確認できないため fields に labor は加えない（2026-10-28再確認）。締結式は甲府市内、来県団長はタ・ヴァン・ロン省党委員会副書記、署名者は未確認。（2026-10-27の再調査で、公式資料にもとづき正式名称を修正・追加）"
   },
   {
    "id": "JP-19-003",
    "group_key": "19:19-IN-UttarPradesh-other",
    "renewal_of": null,
-   "title_ja": "山梨県とウッタル・プラデーシュ州との覚書（MOU／基本合意書、正式名称未確認）",
+   "title_ja": "山梨県とウッタル・プラデーシュ州との互恵関係の構築に向けた基本合意書（県発表の表記・正式名称未確認）",
    "title_original": "",
    "doc_type": "MOU",
    "doc_type_note": "",
@@ -159,7 +177,7 @@
    "additional_partners": [],
    "signed_date": "2024-12",
    "announced_date": "",
-   "date_note": "画像ファイル名からは2024年12月24日と推測されるが本文に日付の明記なし",
+   "date_note": "県ページは『令和6年12月締結』（訪問期間12月21日〜28日）とのみ記載。インドPTI配信記事（2024年12月24日、ラクナウ発12月23日付）は12月23日（月）に州首席次官マノジ・クマール・シンと県の知事政策局長（石寺氏）が文書を交換し、分野は産業協力・観光・職業教育と報道（報道のみ・公式資料では未確認のため signed_date は変更しない）。",
    "fields": [
     "other"
    ],
@@ -206,11 +224,29 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "再調査で確認した資料",
+     "publisher": "",
+     "url": "https://www.pref.yamanashi.jp/chiji/katsudo/241221_india.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
+    },
+    {
+     "id": "s5",
+     "title": "再調査で確認した資料",
+     "publisher": "",
+     "url": "https://www.theweek.in/wire-updates/national/2024/12/24/des99-up-ld-adityanath-japan.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "紹介ページは「2024（令和6）年12月締結」とし「MOU」と表示された画像を掲載。別ページ（日印首脳…お墨付き、2026年7月8日）は「基本合意書」と表記。協力分野は未記載。2026年8月に県内企業等の訪問団派遣予定（人材確保が目標の一つとされる）。"
+   "notes": "紹介ページは「2024（令和6）年12月締結」とし「MOU」と表示された画像を掲載。別ページ（日印首脳…お墨付き、2026年7月8日）は「基本合意書」と表記。協力分野は未記載。2026年8月に県内企業等の訪問団派遣予定（人材確保が目標の一つとされる）。（2026-10-27の再調査で、公式資料にもとづき正式名称・日付の補足を修正・追加）"
   },
   {
    "id": "JP-19-004",
@@ -283,6 +319,578 @@
    "survey_stage": 2,
    "last_checked": "2026-10-27",
    "notes": "署名者・原文未確認。"
+  },
+  {
+   "id": "JP-19-005",
+   "group_key": "19:19-NP-MOLESS-labor",
+   "renewal_of": null,
+   "title_ja": "山梨県とネパール労働・雇用・社会保障省との人材育成に関する覚書（知事記者会見の項目名による表記・正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "山梨県",
+   "pref_code": "19",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "NP",
+   "partner_org": "労働・雇用・社会保障省",
+   "partner_org_en": "Ministry of Labour, Employment and Social Security (MOLESS)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2024-09-05",
+   "announced_date": "2024-09-20",
+   "date_note": "2024年9月20日の知事定例記者会見で『今月5日…本県からネパールへ職員を派遣し、正式に覚書を取り交わした』と発言（取り交わし日）。同年5月に同省と協力して進めることで合意。署名者・署名日の明記は未確認。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "送り出し・受入れ（在留資格は未特定）",
+    "来日前の日本語習得"
+   ],
+   "purpose": "ネパールでの人材育成と、日本への人材の送り出しに関して、双方が協力して進める（知事発言）。",
+   "content": [
+    "ネパールでの人材育成と日本への人材の送り出しに関し、双方が協力して進める（2024年5月に合意、9月5日に覚書を取り交わし）",
+    "知事は『日本の地方自治体としては初めて』と発言",
+    "県の方針として、今後この覚書を基に現地の日本語学校などと連携し、県の求める人材を育成する独自のプログラムと実施体制を作る（知事発言。覚書本文の条項かは未確認）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "覚書に基づく具体的事業・受入実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事定例記者会見（令和6年9月20日）『ネパールとの人材育成に関する覚書締結について』",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/chiji/kaiken/0609/0920.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "会見録。覚書の正式名称・署名者の記載なし"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "外国人材（送り出し・受入れ）の覚書。ネパール側の発表・覚書本文は未確認。県公式の『戦略的互恵関係地域』一覧には掲載されていない。"
+  },
+  {
+   "id": "JP-19-006",
+   "group_key": "19:19-US-SantaBarbara-exchange",
+   "renewal_of": null,
+   "title_ja": "山梨県とサンタバーバラ郡との友好協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "山梨県",
+   "pref_code": "19",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "US",
+   "partner_org": "サンタバーバラ郡",
+   "partner_org_en": "County of Santa Barbara",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2026-03-17",
+   "announced_date": "",
+   "date_note": "県庁で覚書締結式（県ページ）。",
+   "fields": [
+    "economy",
+    "tourism",
+    "agri",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "友好と協力の枠組みを定め、交流や共同活動を通じて相互理解、地域の活性化、持続可能な発展を促進する（県ページ）。",
+   "content": [
+    "経済・観光、食やワイン関連産業、人材交流など幅広い分野での交流・協力（県ページ）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "広域的な国際連携への第一歩です ～山梨県とサンタバーバラ郡との友好協力に関する覚書締結式～（知事の動き）",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/chiji/dekigoto/0803/0317.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階。『人材交流』は一般的な交流の表現で、外国人材の受入れの記載はない。署名者は県ページに明記なし（サンタバーバラ郡CEOモナ・ミヤサト氏が出席）。"
+  },
+  {
+   "id": "JP-19-007",
+   "group_key": "19:19-VN-TayNinh-exchange",
+   "renewal_of": null,
+   "title_ja": "山梨県とタイニン省との国際交流協力に係る覚書（県ページの見出しによる表記・正式名称未確認）",
+   "title_original": "Memorandum of Understanding on international exchange and cooperation（越側報道の英語表現）",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "山梨県",
+   "pref_code": "19",
+   "japan_signatory": "知事 長崎幸太郎",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "タイニン省（人民委員会）",
+   "partner_org_en": "Tay Ninh Province People's Committee",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2026-05-08",
+   "announced_date": "2026-05-15",
+   "date_note": "締結日はベトナム通信社配信記事（QDND英語版、2026年5月8日）による。県ページは訪問期間（5月7日〜12日）中とのみ記載。5月15日の知事定例記者会見で報告。",
+   "fields": [
+    "disaster_env",
+    "agri",
+    "labor",
+    "tourism",
+    "economy"
+   ],
+   "labor_detail": [
+    "労働人材（分野名のみ）",
+    "職業訓練（越側報道）"
+   ],
+   "purpose": "エネルギー、農業、労働人材、文化観光、貿易投資の各分野で今後具体的な取組を進めることを確認（知事会見）。",
+   "content": [
+    "エネルギー、農業、労働人材、文化・観光、貿易投資の5分野で具体的な取組を進める（県ページ・知事会見）",
+    "実務者調査団を早期に相互派遣することで合意（知事会見）",
+    "越側報道：再生可能エネルギー・グリーン水素、スマート農業、農産物の市場アクセス、職業訓練、文化交流、観光、企業連携での協力強化"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "締結直後。具体的事業は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム社会主義共和国レ・ミン・フン首相との会談等（令和8年5月7日〜12日）",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/chiji/katsudo/20260507_vietnam.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『タイニン省との国際交流協力に係る覚書締結』の項"
+    },
+    {
+     "id": "s2",
+     "title": "知事定例記者会見（令和8年5月15日）",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/chiji/kaiken/0805/0515.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "『今般覚書を締結いたしました、タイニン省』『エネルギー、あるいは農業、労働人材、文化観光、貿易投資の各分野で…』"
+    },
+    {
+     "id": "s3",
+     "title": "Tay Ninh, Japan's Yamanashi strengthen cooperation in energy, high-tech agriculture（VNA配信、2026年5月8日）",
+     "publisher": "Quan Doi Nhan Dan（ベトナム人民軍機関紙）",
+     "url": "https://en.qdnd.vn/foreign-affairs/bilateral-relations/tay-ninh-japan-s-yamanashi-strengthen-cooperation-in-energy-high-tech-agriculture-590715",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "署名者（レ・ヴァン・ハン省人民委員長と長崎知事）・署名日5月8日"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "協力分野に『労働人材』を含むため第1段階の対象として記録（主分野はエネルギー）。2025年11月20日にタイニン省書記が来県し実務者協議で合意、2026年1月に県の訪問団がタイニン省を訪れMOU締結に向けて協議（越側報道）。"
+  },
+  {
+   "id": "JP-19-008",
+   "group_key": "19:19-IN-Galgotias-labor",
+   "renewal_of": null,
+   "title_ja": "人材の育成・送り出し・受け入れの促進に関する協力覚書（山梨県・ガルゴティアス大学）（知事会見での表現・正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "山梨県",
+   "pref_code": "19",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "ガルゴティアス大学（ウッタル・プラデーシュ州ノイダ地区の私立大学）",
+   "partner_org_en": "Galgotias University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2026-08-20",
+   "announced_date": "2026-09-02",
+   "date_note": "知事定例記者会見（2026年9月2日）で『まず8月20日、ノイダという町におきまして２本締結』のうちの1本と報告。",
+   "fields": [
+    "labor",
+    "education",
+    "medical"
+   ],
+   "labor_detail": [
+    "介護",
+    "日本語教育",
+    "インターンシップ",
+    "合同就職面接会",
+    "高度人材"
+   ],
+   "purpose": "人材の育成・送り出し・受け入れの促進（覚書名）。高度人材の確保と介護人材の育成での連携。",
+   "content": [
+    "日本語教育、インターンシップ、合同就職面接会をともに進める基盤を整えた（知事会見）",
+    "介護人材における連携も決定（知事会見）",
+    "送り出し前の現地での研修に、日本語教育だけでなく生活習慣と介護の基礎技能を含めることで合意（知事会見・県の訪問レポート）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "具体的事業は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事定例記者会見（令和8年9月2日）",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/chiji/kaiken/0809/0902.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "山梨県・山梨県議会 インド訪問レポート（山梨日日新聞 2026年9月25日 全面広告PDF）",
+     "publisher": "山梨県・山梨県議会",
+     "url": "https://www.pref.yamanashi.jp/documents/127793/r8india_report_yamanashishinpou0925.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『ガルゴティアス大学と、高度人材交流に関する協力文書を締結』『介護人材の育成についても連携が決まった』"
+    },
+    {
+     "id": "s3",
+     "title": "県広報誌『ふれあい』vol.90（2026秋）特集",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/documents/3548/fureaiyoko_vol90.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『県は高度理系人材の交流に関するMOU（基本合意書）を交わしました』と表記"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "文書名の表記が資料により異なる（知事会見：人材の育成・送り出し・受け入れの促進に関する協力覚書／訪問レポート：高度人材交流に関する協力文書／広報誌：高度理系人材の交流に関するMOU（基本合意書））。相手は大学（政府機関ではない）。同日、山梨大学とガルゴティアス大学がグリーン水素分野の意向表明書を締結（県は署名者でないため除外）。"
+  },
+  {
+   "id": "JP-19-009",
+   "group_key": "19:19-IN-UttarPradesh-labor",
+   "renewal_of": null,
+   "title_ja": "人材の育成・送り出し・受け入れの促進に関する協力覚書（山梨県・ウッタル・プラデーシュ州政府）（知事会見での表現・正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "山梨県",
+   "pref_code": "19",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "ウッタル・プラデーシュ州政府",
+   "partner_org_en": "Government of Uttar Pradesh",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2026-08-21",
+   "announced_date": "2026-09-02",
+   "date_note": "知事定例記者会見（2026年9月2日）で『翌8月21日、…州都ラクナウにおいて、3本締結』と報告。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "日本語教育",
+    "インターンシップ",
+    "合同就職面接会"
+   ],
+   "purpose": "人材の育成・送り出し・受け入れの促進（覚書名）。州政府が覚書で人材の育成と送り出しを担うことを約束（知事会見）。",
+   "content": [
+    "州政府が人材の育成と送り出しを担う（知事会見）",
+    "州との覚書とガルゴティアス大学との覚書により、日本語教育、インターンシップ、合同就職面接会をともに進める基盤を整えた（知事会見）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "州側の窓口はインベストUPに決定（知事会見）。具体的事業は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事定例記者会見（令和8年9月2日）",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/chiji/kaiken/0809/0902.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "協力文書5本の名称・相手方・締結日を説明"
+    },
+    {
+     "id": "s2",
+     "title": "山梨県・山梨県議会 インド訪問レポート（山梨日日新聞 2026年9月25日 全面広告PDF）",
+     "publisher": "山梨県・山梨県議会",
+     "url": "https://www.pref.yamanashi.jp/documents/127793/r8india_report_yamanashishinpou0925.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『今回締結した６つの協力文書』等"
+    },
+    {
+     "id": "s3",
+     "title": "UP, Yamanashi Sign Four MoUs; INR 600 Cr MSME Fund（2026年8月24日）",
+     "publisher": "Entrepreneur India",
+     "url": "https://india.entrepreneur.com/business-news/up-yamanashi-sign-four-mous-inr-600-cr-msme-fund",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "州労働局と『Yamanashi representatives』の覚書が日本語能力と日本での就労に向けた訓練を扱うと報道"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "インド側報道では州労働局（Labour Department）が当事者とされ、日本語能力の育成と日本での雇用に向けた労働者訓練が目的と報じられているが、本覚書と同一かは未確認。2024年12月の基本合意書（JP-19-003）に基づく取組の一つ。"
+  },
+  {
+   "id": "JP-19-010",
+   "group_key": "19:19-IN-UPNEDA-hydrogen",
+   "renewal_of": null,
+   "title_ja": "グリーン水素分野の協力に関する覚書（山梨県・ウッタル・プラデーシュ州新・再生可能エネルギー開発庁・インベストUP）（知事会見での表現・正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "山梨県",
+   "pref_code": "19",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "ウッタル・プラデーシュ州 新・再生可能エネルギー開発庁、インベストUP",
+   "partner_org_en": "Uttar Pradesh New and Renewable Energy Development Agency (UPNEDA); Invest UP",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "signed_date": "2026-08-21",
+   "announced_date": "2026-09-02",
+   "date_note": "知事定例記者会見でラクナウでの3本のうちの1本と報告。",
+   "fields": [
+    "disaster_env",
+    "economy",
+    "education"
+   ],
+   "labor_detail": [],
+   "purpose": "グリーン水素の生産・利用の拡大、市場の育成、人材の育成に協力して取り組む（知事会見）。",
+   "content": [
+    "グリーン水素の生産・利用の拡大、市場の育成、人材の育成での協力（知事会見）",
+    "県が民間企業と共同開発したP2Gシステムの州内でのパイロット・プロジェクト実現に向け協議（広報誌・訪問レポート）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事定例記者会見（令和8年9月2日）",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/chiji/kaiken/0809/0902.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "県広報誌『ふれあい』vol.90（2026秋）特集",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/documents/3548/fureaiyoko_vol90.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "エネルギー大臣との面談を経て『基本合意書を締結』と表記"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（環境・エネルギー）。広報誌では『基本合意書』と表記。"
+  },
+  {
+   "id": "JP-19-011",
+   "group_key": "19:19-IN-UttarPradesh-tourism",
+   "renewal_of": null,
+   "title_ja": "観光分野における交流促進に関する覚書（山梨県・ウッタル・プラデーシュ州政府）（知事会見での表現・正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "山梨県",
+   "pref_code": "19",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "ウッタル・プラデーシュ州政府",
+   "partner_org_en": "Government of Uttar Pradesh",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2026-08-21",
+   "announced_date": "2026-09-02",
+   "date_note": "知事定例記者会見でラクナウでの3本のうちの1本と報告。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "本県とウッタル・プラデーシュ州が相互に送客を進める（知事会見）。",
+   "content": [
+    "相互の送客を進めることで合意（知事会見）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事定例記者会見（令和8年9月2日）",
+     "publisher": "山梨県",
+     "url": "https://www.pref.yamanashi.jp/chiji/kaiken/0809/0902.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（観光）。"
+  },
+  {
+   "id": "JP-19-012",
+   "group_key": "19:19-VN-YenBai-economy",
+   "renewal_of": "JP-19-002",
+   "title_ja": "山梨県とラオカイ省との新たな協力覚書（検討中・名称未定）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "山梨県",
+   "pref_code": "19",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ラオカイ省（旧イェンバイ省と合併）",
+   "partner_org_en": "Lao Cai Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "date_note": "2025年11月25日の会談でラオカイ省側が新MOU締結と3〜5年の行動計画作成を提案（2026年4月の水素会議での署名を想定）。2026年10月20日の会談時点でも『新たな協力覚書の締結を検討する』段階で、締結は確認できない。",
+   "fields": [
+    "agri",
+    "tourism",
+    "labor",
+    "disaster_env",
+    "economy"
+   ],
+   "labor_detail": [
+    "日本語・職業訓練（ラオカイ省側の要望）"
+   ],
+   "purpose": "2024年9月の覚書を引き継ぎ、新たな状況に合う内容を加えた新覚書の締結を検討（越側報道）。",
+   "content": [
+    "ラオカイ省側は、日本で短期就労するラオカイ省の労働者向けに、日本語研修センターの開設や現地大学等との協力による日本語・職業訓練を山梨県に要望（2025年11月の会談、越側報道）",
+    "2026年10月20日の会談では、科学技術、グリーン水素、農業、観光、文化、人的交流・労働などが協力分野として挙がった（越側報道）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "planned",
+   "status_note": "締結未確認（検討段階）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "news_only",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Lào Cai - Yamanashi thúc đẩy hợp tác địa phương trên nhiều lĩnh vực（2025年11月26日）",
+     "publisher": "Báo Lào Cai（ラオカイ省党委員会機関紙）",
+     "url": "https://baolaocai.vn/lao-cai-yamanashi-thuc-day-hop-tac-dia-phuong-tren-nhieu-linh-vuc-post887582.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "Tỉnh Lào Cai (Việt Nam) và tỉnh Yamanashi (Nhật Bản) thúc đẩy hợp tác trong giai đoạn mới（2026年10月20日）",
+     "publisher": "Báo Lào Cai",
+     "url": "https://baolaocai.vn/tinh-lao-cai-viet-nam-va-tinh-yamanashi-nhat-ban-thuc-day-hop-tac-trong-giai-doan-moi-post912436.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "山梨県側の公式発表は未確認。"
   }
  ]
 }

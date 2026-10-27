@@ -280,7 +280,7 @@ export function prefPage(ctx, code) {
     ${residentsTable(db, code, countries)}
     <h2>調査の記録</h2>
     <details><summary>${esc(p.name)}をどう調べたか</summary>
-      <p><b>第1段階（外国人材・労働）：</b>${esc(SURVEY_RESULT[s1])}（確認日：${esc(fmtDate(sv.stage1?.checked, '—'))}）${sv.stage1?.note ? `<br>${esc(sv.stage1.note)}` : ''}</p>
+      <p><b>第1段階（外国人材・労働）：</b>${esc(SURVEY_RESULT[s1])}（確認日：${esc(fmtDate(sv.stage1?.checked, '—'))}${sv.stage1?.resurveyed ? '・再調査済み' : ''}${sv.stage1?.recheck ? '・要再調査' : ''}）${sv.stage1?.note ? `<br>${esc(sv.stage1.note)}` : ''}</p>
       ${(sv.stage1?.searched || []).length ? `<p class="small">調べた資料・方法：</p><ul class="small">${sv.stage1.searched.map(s => `<li>${linkify(s)}</li>`).join('')}</ul>` : ''}
       <p><b>第2段階（その他の分野）：</b>${esc(SURVEY_RESULT[s2])}${sv.stage2?.list_url ? `（<a href="${esc(sv.stage2.list_url)}" target="_blank" rel="noopener">確認した一覧</a>）` : ''}${sv.stage2?.note ? `<br>${esc(sv.stage2.note)}` : ''}</p>
     </details>
@@ -298,7 +298,11 @@ export function prefPage(ctx, code) {
 }
 
 function linkify(s) {
-  return esc(s).replace(/(https?:\/\/[^\s）)」]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+  // URLに使える半角文字だけをリンクにする（直後の「、」「（」などの日本語を含めない）
+  return esc(s).replace(/https?:\/\/[\w\-.~:/?#[\]@!$&*+,;=%]+/g, u => {
+    const url = u.replace(/[.,;:]+$/, '');
+    return `<a href="${url}" target="_blank" rel="noopener">${url}</a>${u.slice(url.length)}`;
+  });
 }
 
 function prefMouBlock(db, g) {
@@ -316,7 +320,7 @@ function prefMouBlock(db, g) {
       ['法的拘束力', `${esc(LEGAL[m.legal_binding])}${m.legal_binding_note ? `<br><span class="small">${esc(m.legal_binding_note)}</span>` : ''}`],
       ['関連事業の進み具合', `${statusBadge(g.status)} ${esc(m.status_note || '')}`],
       ['予算・支出', g.budgets.length ? g.budgets.map(b => `${esc(fyLabel(b.fiscal_year))} ${esc(b.item || '')}：${esc(fmtYen(b.amount_yen))}`).join('<br>') : '未確認（0円ではありません）'],
-      ['公式資料・原文', m.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>`).join('<br>')],
+      ['公式資料・原文', m.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>${s.archived_from ? '<span class="small muted">（元のページが開けないため保存版）</span>' : ''}`).join('<br>')],
     ])}
     <p><a href="#/mou/${encodeURIComponent(m.id)}">地域への影響・予算などをすべて見る →</a></p>
   </details>`;

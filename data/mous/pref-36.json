@@ -1,0 +1,810 @@
+{
+ "note": "徳島県のMOU",
+ "mous": [
+  {
+   "id": "JP-36-001",
+   "group_key": "36:36-DE-Niedersachsen-unesco",
+   "renewal_of": null,
+   "title_ja": "ユネスコ『世界の遺産』共同申請協定（徳島県・鳴門市・ニーダーザクセン州・リューネブルク市）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "協定（県資料の表記は『ユネスコ「世界の遺産」共同申請協定・調印式』）",
+   "japan_level": "prefecture",
+   "japan_org": "徳島県",
+   "pref_code": "36",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "鳴門市"
+   ],
+   "country_code": "DE",
+   "partner_org": "ニーダーザクセン州、リューネブルク市",
+   "partner_org_en": "State of Lower Saxony; City of Lüneburg",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2017",
+   "announced_date": "",
+   "date_note": "県作成『友好交流の歩み』の年表に2017年とあるのみ。月日は未確認。",
+   "fields": [
+    "tourism",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "両県・州の『友好の礎』である板東俘虜収容所における交流の歴史について、4者でユネスコへの共同申請を行う（県資料の表現）。",
+   "content": [
+    "ニーダーザクセン州と徳島県、リューネブルク市と鳴門市の4者がユネスコ『世界の遺産』共同申請協定に調印"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "徳島県とドイツ・ニーダーザクセン州友好交流の歩み（PDF）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/file/attachment/984142.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "年表の2017年の欄"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "文書の正式名称・署名者・月日は未確認（年表の記載のみ）。"
+  },
+  {
+   "id": "JP-36-002",
+   "group_key": "36:36-TH-BOI-economy",
+   "renewal_of": null,
+   "title_ja": "徳島県とタイ投資委員会（BOI）との産業連携覚書（MOU）",
+   "title_original": "",
+   "doc_type": "MOU",
+   "doc_type_note": "県の発表では『産業連携覚書(MOU)』『産業連携に関する覚書』",
+   "japan_level": "prefecture",
+   "japan_org": "徳島県",
+   "pref_code": "36",
+   "japan_signatory": "知事 後藤田正純",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "タイ投資委員会（BOI）",
+   "partner_org_en": "Thailand Board of Investment",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "signed_date": "2024-10-30",
+   "announced_date": "2024-11-08",
+   "date_note": "締結式は2024年10月30日バンコク（現地9:40）。2024年11月8日の知事定例記者会見で報告。相手方はナリット長官。",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "経済交流がさらに活性化するよう、タイ政府と連携する（県の発表）。",
+   "content": [
+    "幅広い分野の起業支援、ビジネスや投資施策・機会に関する情報共有などについて連携する（2024年11月8日 知事記者会見）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "知事は2024年10月18日の記者会見で『法的拘束力はないけれども覚書を交わす』と説明（原文は未確認）。",
+   "status": "signed",
+   "status_note": "県の当初予算（R7・R8）に『海外政府機関とのMOUを活かした商談会』『MOUを締結した海外政府機関等と連携』した海外展開支援が計上（予算は二重計上を避けて R1-36-02 に記載）。BOIとの個別事業は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "タイ投資委員会(BOI)との産業連携覚書(MOU)締結式（写真で見る知事の動き）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/activity-topics/7245071/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "令和6年11月8日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7246056/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "知事記者会見の記録"
+    },
+    {
+     "id": "s3",
+     "title": "令和6年10月18日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7245256/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "締結前の予告と、法的拘束力についての知事の説明"
+    },
+    {
+     "id": "s4",
+     "title": "活動記録（2024年11月第1週）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/record/7245098/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s5",
+     "title": "徳島県、タイ政府の2機関とMOU締結（ビジネス短信 2024年11月11日）",
+     "publisher": "日本貿易振興機構（ジェトロ）",
+     "url": "https://www.jetro.go.jp/biznews/2024/11/4c3fb06fd11ee6c9.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称は未確認。同じ訪問で翌日にタイ工業省産業振興局（DIPROM）ともMOUを締結（R1-36-02）。"
+  },
+  {
+   "id": "JP-36-003",
+   "group_key": "36:36-TH-DIPROM-economy",
+   "renewal_of": null,
+   "title_ja": "徳島県とタイ王国工業省産業振興局（DIPROM）との産業連携覚書（MOU）",
+   "title_original": "",
+   "doc_type": "MOU",
+   "doc_type_note": "県の発表では『産業連携覚書(MOU)』。アジアデスクのページでは『産業連携協定（MOU）』",
+   "japan_level": "prefecture",
+   "japan_org": "徳島県",
+   "pref_code": "36",
+   "japan_signatory": "知事 後藤田正純",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "タイ王国工業省産業振興局（DIPROM）",
+   "partner_org_en": "Department of Industrial Promotion, Ministry of Industry",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2024-10-31",
+   "announced_date": "2024-11-08",
+   "date_note": "締結式は2024年10月31日バンコク（現地8:30）。ナーティヤ局長と署名、エーカナート工業大臣が臨席。",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "人材交流やビジネス交流、産業クラスター連携など経済分野で緊密な関係の確立に向けて、本県とDIPROMが連携する（知事記者会見）。",
+   "content": [
+    "人材交流、ビジネス交流、産業クラスター連携など経済分野での連携（2024年11月8日 知事記者会見）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "知事は2024年10月18日の記者会見でタイ政府機関とのMOUについて『法的拘束力はないけれども覚書を交わす』と説明（原文は未確認）。",
+   "status": "in_progress",
+   "status_note": "MOUに基づき、DIPROM内に『徳島県アジアデスク』を開設し、県職員が駐在。",
+   "projects": [
+    {
+     "name": "徳島県アジアデスク（タイ王国工業省産業振興局内）",
+     "fiscal_year": "2025",
+     "detail": "令和6年10月31日締結のMOUに基づきDIPROM内（ジャパンデスク）に開設。県内企業の海外ビジネス展開の支援、海外の政府機関・大学・企業等との連携促進。対象はタイを含む東南アジア・南アジア諸国。知事は2025年11月7日の会見で『今年度からうちの県のスタッフが1人常駐』と説明。",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   ],
+   "budgets": [
+    {
+     "fiscal_year": "2025",
+     "kind": "planned",
+     "amount_yen": 62441000,
+     "original_text": "62,441千円",
+     "payer": "prefecture",
+     "item": "海外進出ワンストップ相談支援事業",
+     "relation": "『ジェトロや上海事務所、MOUを締結した海外政府機関等と連携し』海外支援体制を構築する事業の当初予算（MOU自体の予算ではない。BOI・DIPROM両MOUに共通する事業のため、二重計上を避けて本レコードにのみ記載）",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "fiscal_year": "2025",
+     "kind": "planned",
+     "amount_yen": 42914000,
+     "original_text": "42,914千円",
+     "payer": "prefecture",
+     "item": "「ワンチーム徳島」戦略的プロモーション事業（海外）",
+     "relation": "『海外政府機関とのMOUを活かした商談会の開催』等を含む事業の当初予算（MOU自体の予算ではない。BOI・DIPROM共通）",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "fiscal_year": "2026",
+     "kind": "planned",
+     "amount_yen": 66381000,
+     "original_text": "66,381千円",
+     "payer": "prefecture",
+     "item": "海外進出ワンストップ相談支援事業",
+     "relation": "『ジェトロやＭＯＵを締結した海外政府機関等と連携し』海外でのワンストップ支援体制を構築・強化する事業の当初予算（MOU自体の予算ではない。BOI・DIPROM共通）",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "fiscal_year": "2026",
+     "kind": "planned",
+     "amount_yen": 42672000,
+     "original_text": "42,672千円",
+     "payer": "prefecture",
+     "item": "「ワンチーム徳島」戦略的プロモーション事業（海外）",
+     "relation": "『海外政府機関とのMOUを活かした商談会の開催』等を含む事業の当初予算（MOU自体の予算ではない。BOI・DIPROM共通）",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "タイ王国工業省産業振興局(DIPROM)との産業連携覚書(MOU)締結式（写真で見る知事の動き）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/activity-topics/7245085/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "令和6年11月8日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7246056/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "徳島県アジアデスク（タイ王国工業省産業振興局内）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/jigyoshanokata/sangyo/shokogyo/7315289/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "令和7年11月7日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7309140/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s5",
+     "title": "令和７年度当初予算（案）の主な事業 参考資料",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/file/attachment/972860.pdf",
+     "type": "budget",
+     "checked": "2026-10-27",
+     "note": "経済産業部（p.46付近）"
+    },
+    {
+     "id": "s6",
+     "title": "令和8年度当初予算（案）の主な事業",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/file/attachment/1035144.pdf",
+     "type": "budget",
+     "checked": "2026-10-27",
+     "note": "経済産業部（p.91付近）"
+    },
+    {
+     "id": "s7",
+     "title": "令和6年10月18日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7245256/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称は未確認。内容に『人材交流』を含むが、外国人材の受入れ（特定技能等）に関する記述は確認できないため、labor には含めていない。"
+  },
+  {
+   "id": "JP-36-004",
+   "group_key": "36:36-KR-Jeju-friendship",
+   "renewal_of": null,
+   "title_ja": "友好交流に関する覚書（徳島県・済州特別自治道）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "徳島県",
+   "pref_code": "36",
+   "japan_signatory": "知事 後藤田正純",
+   "other_japan_parties": [],
+   "country_code": "KR",
+   "partner_org": "済州特別自治道",
+   "partner_org_en": "Jeju Special Self-Governing Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2025-01-25",
+   "announced_date": "2025-01-24",
+   "date_note": "2025年1月24日の定例記者会見で翌25日の締結を予告。県の発表（2025年1月27日掲載）で1月25日の調印を確認。相手方は呉怜勳（オ・ヨンフン）知事。",
+   "fields": [
+    "other",
+    "disaster_env",
+    "tourism",
+    "agri",
+    "education"
+   ],
+   "labor_detail": [],
+   "purpose": "地域間の国際交流を通じて国家間の協力を推進する『地方外交』の理念に基づき、両地域の共同繁栄と今後の友好都市締結を目指す（県の発表）。",
+   "content": [
+    "水素、再生可能エネルギー、環境分野の交流によるカーボンニュートラルの実現",
+    "観光及び農林水産業分野における双方の地域特性や特徴、強みを生かした交流の推進",
+    "スポーツ・文化を含む青少年交流を通じた若者の相互理解の向上と国際化"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "completed",
+   "status_note": "2025年11月3日に『友好協力都市協定書』を締結し関係を格上げ（姉妹・友好提携型のため本調査の対象外、excluded_examples に記載）。覚書の効力の扱いは未確認。",
+   "projects": [
+    {
+     "name": "徳島－済州チャーター便（済州ミッション団の派遣）",
+     "fiscal_year": "2025",
+     "detail": "知事は2025年8月8日の会見で『オ・ヨンフン知事とのMOUに基づいて』11月1日〜4日に徳島阿波おどり空港－済州国際空港のチャーター便運航が決定したと報告。",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "徳島県と韓国・済州特別自治道との「友好交流に関する覚書」締結について",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/kokusaikoryu/7302461/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "済州特別自治道との「友好交流に関する覚書」調印式（写真で見る知事の動き）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/activity-topics/7300994/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "令和7年1月24日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7301820/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "令和7年8月8日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7307026/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s5",
+     "title": "令和7年10月10日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7308153/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "MOUから友好交流都市への格上げの説明"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "名称が『覚書』のため、友好交流目的でも記録（SCHEMA.md の規定による）。"
+  },
+  {
+   "id": "JP-36-005",
+   "group_key": "36:36-TH-Phuket-exchange",
+   "renewal_of": null,
+   "title_ja": "交流推進を目的とする覚書（徳島県・プーケット県）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "徳島県",
+   "pref_code": "36",
+   "japan_signatory": "知事 後藤田正純",
+   "other_japan_parties": [],
+   "country_code": "TH",
+   "partner_org": "プーケット県",
+   "partner_org_en": "Phuket Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2025-05-13",
+   "announced_date": "2025-05-16",
+   "date_note": "プーケット県のソポン・スワンナラット知事を代表とする訪問団の来県時（2025年5月12〜14日）に締結。県の発表は2025年5月16日掲載。",
+   "fields": [
+    "other",
+    "economy",
+    "tourism",
+    "disaster_env"
+   ],
+   "labor_detail": [],
+   "purpose": "両県の交流推進を目的に、経済、文化、防災など様々な分野で相互に協力する（県の発表）。",
+   "content": [
+    "両県の交流推進を目的に、経済、文化、防災など様々な分野で相互に協力することを明記"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "知事は2025年12月の会見で、プーケット県とは『今だに交流を続けている』と発言。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "徳島県とタイ王国・プーケット県との「交流推進を目的とする覚書」締結について",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/kokusaikoryu/7304142/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "タイ王国・プーケット県との「交流推進を目的とする覚書」調印式（写真で見る知事の動き）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/activity-topics/7304043/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "令和7年5月9日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7304628/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "締結予告"
+    },
+    {
+     "id": "s4",
+     "title": "令和7年12月19日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7310003/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "『今だに交流を続けている』との発言"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": ""
+  },
+  {
+   "id": "JP-36-006",
+   "group_key": "36:36-KR-Myongji-education",
+   "renewal_of": null,
+   "title_ja": "交流協力に関する協定書（徳島県・明知大学校）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "協定書（知事の活動記録では『交流協力に関する協定書』）",
+   "japan_level": "prefecture",
+   "japan_org": "徳島県",
+   "pref_code": "36",
+   "japan_signatory": "知事 後藤田正純",
+   "other_japan_parties": [],
+   "country_code": "KR",
+   "partner_org": "明知大学校",
+   "partner_org_en": "Myongji University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2026-03-24",
+   "announced_date": "2026-03-27",
+   "date_note": "知事の活動記録の日付（2026年3月24日、知事が同大学を訪問して締結）。知事は4月17日の会見で『3月25日に…明知大学と韓国外国語大学』と発言しており、日付に1日の食い違いがある。",
+   "fields": [
+    "education",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "学生交流や文化・観光をはじめ様々な連携に向けた協定（知事の活動記録）。",
+   "content": [
+    "学生交流や文化・観光をはじめ様々な連携"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2026年4月に同大学の学生団（約50人弱）が来県。夏には同大学の招きで徳島の高校生が『ソウル文化体験プログラム』に参加。",
+   "projects": [
+    {
+     "name": "明知大学校の学生団の来県、徳島の高校生の『ソウル文化体験プログラム』参加",
+     "fiscal_year": "2026",
+     "detail": "2026年4月17日・8月6日の知事記者会見による。",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "明知大学校との「交流協力に関する協定書」締結式（写真で見る知事の動き）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/activity-topics/7312050/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "令和8年3月27日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7312623/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "令和8年4月17日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7313184/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "令和8年8月6日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7316201/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "外国の大学との協力文書（非条約文書）として記録。"
+  },
+  {
+   "id": "JP-36-007",
+   "group_key": "36:36-KR-HUFS-education",
+   "renewal_of": null,
+   "title_ja": "相互協力に関する業務協定書（徳島県・韓国外国語大学校）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "業務協定書",
+   "japan_level": "prefecture",
+   "japan_org": "徳島県",
+   "pref_code": "36",
+   "japan_signatory": "知事 後藤田正純",
+   "other_japan_parties": [],
+   "country_code": "KR",
+   "partner_org": "韓国外国語大学校",
+   "partner_org_en": "Hankuk University of Foreign Studies",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2026-03-25",
+   "announced_date": "2026-03-27",
+   "date_note": "知事の活動記録の日付。カン・ギフン総長と締結。",
+   "fields": [
+    "education",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "若者の交流促進に向けた協定（知事の活動記録）。",
+   "content": [
+    "若者の交流促進（締結時に知事が学生に本県の魅力を紹介する講演を実施）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2026年4月以降、同大学学生との親善交流会（知事の活動記録）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "韓国外国語大学校との「相互協力に関する業務協定書」締結式 および 講演（写真で見る知事の動き）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/activity-topics/7312164/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "令和8年3月27日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7312623/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "令和8年4月17日 定例記者会見 フルテキスト版",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/press-record/7313184/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "外国の大学との協力文書（非条約文書）として記録。"
+  },
+  {
+   "id": "JP-36-008",
+   "group_key": "36:36-KR-Hongik-education",
+   "renewal_of": null,
+   "title_ja": "業務協約書（徳島県・弘益大学校美術大学）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "業務協約書（活動記録の本文では『交流協定』）",
+   "japan_level": "prefecture",
+   "japan_org": "徳島県",
+   "pref_code": "36",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "KR",
+   "partner_org": "弘益大学校美術大学",
+   "partner_org_en": "Hongik University College of Fine Arts",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2026-06-01",
+   "announced_date": "",
+   "date_note": "知事の活動記録（締結式）の日付。締結場所は未確認。",
+   "fields": [
+    "education",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "学術・文化など多方面の交流を促進し、日韓の若者の未来を拓く（知事の活動記録）。",
+   "content": [
+    "学術・文化など多方面の交流の促進"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "締結後、同大学の学生との親善交流会（知事の活動記録）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "弘益大学校美術大学との「業務協約書」締結式 および 誠信女子大学校との「相互協力に関する業務協定書」締結式（写真で見る知事の動き）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/activity-topics/7313858/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "県側の署名者は記載なし（知事の活動記録への掲載のため知事が出席したとみられるが未確認）。"
+  },
+  {
+   "id": "JP-36-009",
+   "group_key": "36:36-KR-Sungshin-education",
+   "renewal_of": null,
+   "title_ja": "相互協力に関する業務協定書（徳島県・誠信女子大学校）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "業務協定書（活動記録の本文では『交流協定』）",
+   "japan_level": "prefecture",
+   "japan_org": "徳島県",
+   "pref_code": "36",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "KR",
+   "partner_org": "誠信女子大学校",
+   "partner_org_en": "Sungshin Women's University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2026-06-01",
+   "announced_date": "",
+   "date_note": "知事の活動記録（締結式）の日付。締結場所は未確認。",
+   "fields": [
+    "education",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "学術・文化など多方面の交流を促進し、日韓の若者の未来を拓く（知事の活動記録）。",
+   "content": [
+    "学術・文化など多方面の交流の促進"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "締結後、同大学の学生との親善交流会（知事の活動記録）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "弘益大学校美術大学との「業務協約書」締結式 および 誠信女子大学校との「相互協力に関する業務協定書」締結式（写真で見る知事の動き）",
+     "publisher": "徳島県",
+     "url": "https://www.pref.tokushima.lg.jp/governor/activity-topics/7313858/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "県側の署名者は記載なし。"
+  }
+ ]
+}

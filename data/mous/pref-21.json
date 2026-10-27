@@ -1,0 +1,432 @@
+{
+ "note": "岐阜県のMOU",
+ "mous": [
+  {
+   "id": "JP-21-001",
+   "group_key": "21:21-DE-BadenWuerttemberg-energy",
+   "renewal_of": null,
+   "title_ja": "エネルギー及び森林・林業に関する覚書（岐阜県・バーデン＝ヴュルテンベルク州）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "岐阜県",
+   "pref_code": "21",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "DE",
+   "partner_org": "バーデン＝ヴュルテンベルク州",
+   "partner_org_en": "State of Baden-Württemberg",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2013-05",
+   "announced_date": "",
+   "date_note": "県の『各国・地域との交流』ページ『2013年5月にエネルギー及び森林・林業に関する覚書を締結』",
+   "fields": [
+    "disaster_env",
+    "agri",
+    "education"
+   ],
+   "labor_detail": [],
+   "purpose": "エネルギー及び森林・林業に関する協力（県ページの表現）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "覚書締結を契機に、学術交流やエネルギー関連の共同研究を行っている（県ページ）",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "各国・地域との交流（2025年11月20日更新）",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/page/8229.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。正式名称未確認（県ページの表現）。"
+  },
+  {
+   "id": "JP-21-002",
+   "group_key": "21:21-VN-NgheAn-exchange",
+   "renewal_of": null,
+   "title_ja": "友好交流に関する覚書（岐阜県・ゲアン省）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県の『各国・地域との交流』ページは『2015年11月に友好提携を締結』と表記",
+   "japan_level": "prefecture",
+   "japan_org": "岐阜県",
+   "pref_code": "21",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ゲアン省",
+   "partner_org_en": "Nghe An Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2015-11",
+   "announced_date": "",
+   "date_note": "県の予算要求資料（平成28年度）『県とゲアン省（ベトナム）は、友好交流に関する覚書を締結（平成27年11月）』",
+   "fields": [
+    "tourism",
+    "agri",
+    "economy",
+    "education",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "観光、農業、投資、教育（訓練）、文化・スポーツの分野での友好交流を進める（県の予算要求資料）。",
+   "content": [
+    "観光、農業、投資、教育（訓練）、文化・スポーツの分野での友好交流を進めていくことで合意（県資料の要約）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "覚書を受け、CLAIRの助成を活用してゲアン省関係者を招へいし農業分野の技術協力・研究を実施する事業を予算要求（平成28年度）。県ページは農業、経済、教育、観光などの分野で交流を進めていると記載",
+   "projects": [
+    {
+     "name": "自治体国際協力促進事業（モデル事業）",
+     "fiscal_year": "2016",
+     "detail": "ゲアン省関係者を本県に招へいし、農業分野における技術協力、研究を実施（予算要求資料）",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "budgets": [
+    {
+     "fiscal_year": "2016",
+     "kind": "planned",
+     "amount_yen": 3000000,
+     "original_text": "３，０００千円（前年度予算額：３，０００千円）",
+     "payer": "prefecture",
+     "item": "自治体国際協力促進事業（モデル事業）費",
+     "relation": "MOU関連事業の当初予算要求資料の事業費（覚書自体の予算ではない。査定後の決定額は未確認。CLAIR助成を活用）",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "各国・地域との交流（2025年11月20日更新）",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/page/8229.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "予算要求資料 平成28年度当初予算 自治体国際協力促進事業（モデル事業）費",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/97051.doc",
+     "type": "budget",
+     "checked": "2026-10-27",
+     "note": "Word文書をダウンロードして本文を確認。同内容の査定時点版 https://www.pref.gifu.lg.jp/uploaded/attachment/99094.doc もあり"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。正式名称未確認（県の予算資料の表現）。同じ資料の別箇所は『友好協力に関する覚書』とも表記。"
+  },
+  {
+   "id": "JP-21-003",
+   "group_key": "21:21-VN-ThuaThienHue-exchange",
+   "renewal_of": null,
+   "title_ja": "友好協力に関する覚書（岐阜県・トゥアティエン＝フエ省）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県の『各国・地域との交流』ページは『2016年11月に友好提携を締結』と表記",
+   "japan_level": "prefecture",
+   "japan_org": "岐阜県",
+   "pref_code": "21",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "トゥアティエン＝フエ省（現フエ市）",
+   "partner_org_en": "Thua Thien Hue Province (now Hue City)",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2016-11",
+   "announced_date": "",
+   "date_note": "県の予算要求資料（平成30・31年度）『県とトゥアティエン＝フエ省（ベトナム）は、友好協力に関する覚書を締結（平成28年11月）』",
+   "fields": [
+    "tourism",
+    "education",
+    "economy",
+    "agri"
+   ],
+   "labor_detail": [],
+   "purpose": "観光、文化価値保全、教育、貿易、農業分野において意見交換し、協力を進める（県の予算要求資料）。",
+   "content": [
+    "観光、文化価値保全、教育、貿易、農業分野において意見交換し、協力を進めていくことで合意（県資料の要約）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "平成29年3月に県職員が同省を訪問し『文化財を通じた観光振興』の技術協力を進めることで合意。双方の関係者によるワーキンググループを設置（予算要求資料）。県ページは観光、経済などの分野で交流を進めていると記載",
+   "projects": [
+    {
+     "name": "自治体国際協力促進事業（モデル事業）",
+     "fiscal_year": "2018",
+     "detail": "同省関係者を本県に招へいし、文化財活用を通じた観光振興分野における技術協力、研究を実施（CLAIR助成を活用）",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "name": "自治体国際協力促進事業（モデル事業）",
+     "fiscal_year": "2019",
+     "detail": "観光誘客に向けたまちづくりや観光PR、文化財の保全・継承に関する人材交流。高山市（2018年7月にフエ市と友好協力関係に関する覚書を締結）とも連携",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "budgets": [
+    {
+     "fiscal_year": "2018",
+     "kind": "planned",
+     "amount_yen": 3000000,
+     "original_text": "3,000千円（前年度予算額：3,000千円）",
+     "payer": "prefecture",
+     "item": "自治体国際協力促進事業（モデル事業）費",
+     "relation": "MOU関連事業の当初予算要求資料の事業費（覚書自体の予算ではない。決定額は未確認）",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "fiscal_year": "2019",
+     "kind": "planned",
+     "amount_yen": 2709000,
+     "original_text": "2,709千円（前年度予算額： 3,000千円）",
+     "payer": "prefecture",
+     "item": "自治体国際協力促進事業（モデル事業）費",
+     "relation": "MOU関連事業の当初予算要求資料の事業費（覚書自体の予算ではない。決定額は未確認）",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "各国・地域との交流（2025年11月20日更新）",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/page/8229.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "予算要求資料 平成30年度当初予算 自治体国際協力促進事業（モデル事業）費",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/124825.doc",
+     "type": "budget",
+     "checked": "2026-10-27",
+     "note": "Word文書をダウンロードして本文を確認"
+    },
+    {
+     "id": "s3",
+     "title": "予算要求資料 平成31年度当初予算 自治体国際協力促進事業（モデル事業）費",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/139313.doc",
+     "type": "budget",
+     "checked": "2026-10-27",
+     "note": "Word文書をダウンロードして本文を確認"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。正式名称未確認（県の予算資料の表現）。"
+  },
+  {
+   "id": "JP-21-004",
+   "group_key": "21:21-CN-Jiangxi-30th",
+   "renewal_of": null,
+   "title_ja": "岐阜県・江西省友好提携30周年に際しての覚書（正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "岐阜県",
+   "pref_code": "21",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "江西省",
+   "partner_org_en": "Jiangxi Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "2018-10-30",
+   "date_note": "県発表（平成30年10月30日）で、11月7日〜14日の知事訪問中に江西省で『省長との面談及び覚書締結式』を行う予定と発表。締結の結果は未確認",
+   "fields": [
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "友好交流のさらなる深化（県発表）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "planned",
+   "status_note": "締結予定の発表のみ確認",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "中国・香港・ベトナムにおける友好交流の深化と「飛騨・美濃じまん海外戦略プロジェクト」の推進（平成30年10月30日発表）",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/127523.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。江西省は友好提携先（1988年）。"
+  },
+  {
+   "id": "JP-21-005",
+   "group_key": "21:21-PL-Silesia-exchange",
+   "renewal_of": null,
+   "title_ja": "岐阜県とシロンスク県の協力と友好関係の発展に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "岐阜県",
+   "pref_code": "21",
+   "japan_signatory": "知事 古田肇",
+   "other_japan_parties": [],
+   "country_code": "PL",
+   "partner_org": "シロンスク県",
+   "partner_org_en": "Silesian Voivodeship",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2023-08-30",
+   "announced_date": "",
+   "date_note": "県議会の議員派遣報告書（令和6年3月4日）に、8月30日（水）にシロンスク県議会議事堂（カトヴィツェ）で両県知事による友好覚書調印式が行われたと記載。県の交流ページは『2023年8月に締結』",
+   "fields": [
+    "economy",
+    "tourism",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "『経済、観光、スポーツ、文化』の4分野を軸とした交流を進める（県発表資料）。",
+   "content": [
+    "経済、観光、スポーツ、文化の4分野を軸とした交流（県発表資料の要約。条文は未確認）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "覚書に基づき交流事業を実施（県発表資料）",
+   "projects": [
+    {
+     "name": "ポーランド国立民族合唱舞踊団『シロンスク』岐阜県公演・シロンスク県パネル展",
+     "fiscal_year": "2023",
+     "detail": "2023年11月。県発表資料は覚書に基づく交流事業と明記",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "name": "シロンスク県パネル展・ポーランド物産フェア",
+     "fiscal_year": "2025",
+     "detail": "2025年11月、万博国際交流プログラムの一環。県発表資料は覚書に基づく交流と明記",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "各国・地域との交流（2025年11月20日更新）",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/page/8229.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "議員派遣報告書（令和6年3月4日）ポーランド・ハンガリー",
+     "publisher": "岐阜県議会",
+     "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/386533.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "調印式の日付・出席者を確認"
+    },
+    {
+     "id": "s3",
+     "title": "ポーランド・シロンスク県との交流事業を行います（令和5年10月31日発表）",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/374144.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "ポーランド・シロンスク県交流事業を実施します（令和7年10月29日発表）",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/470728.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。シロンスク県側の署名者は報告書の表記で『ヤコブ・ヘウストフスキ シロンスク県知事』。恵那市長らも調印式に出席（署名者かどうかは不明）。"
+  }
+ ]
+}

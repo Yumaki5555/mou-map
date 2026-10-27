@@ -182,42 +182,62 @@
    "id": "JP-27-004",
    "group_key": "27:27-IN-GuidanceTN-economy",
    "renewal_of": null,
-   "title_ja": "経済交流の促進にかかる覚書（大阪府とガイダンス・タミル・ナドゥ州産業投資促進商業省）",
-   "title_original": "",
+   "title_ja": "日本国大阪府とインド共和国ガイダンス タミル・ナドゥ州産業投資促進商業省の間における経済交流の促進にかかる覚書",
+   "title_original": "Memorandum of Understanding on Promotion of Economic Exchanges between Osaka Prefectural Government, Japan and Guidance, Industries, Investment Promotion and Commerce Department, Government of Tamil Nadu, Republic of India",
    "doc_type": "覚書",
    "doc_type_note": "",
    "japan_level": "prefecture",
    "japan_org": "大阪府",
    "pref_code": "27",
-   "japan_signatory": "",
+   "japan_signatory": "商工労働部成長産業振興室長 前田真一",
    "other_japan_parties": [],
    "country_code": "IN",
-   "partner_org": "ガイダンス タミル・ナドゥ（タミル・ナドゥ州産業投資促進商業省）",
-   "partner_org_en": "Guidance Tamil Nadu",
+   "partner_org": "ガイダンス タミル・ナドゥ（タミル・ナドゥ州政府産業投資促進商業省）（署名者：MD & CEO Vishnu Venugopalan, IAS）",
+   "partner_org_en": "Guidance, Industries, Investment Promotion and Commerce Department, Government of Tamil Nadu (Guidance Tamil Nadu)",
    "partner_type": "public_agency",
    "additional_partners": [],
    "signed_date": "2024-07-23",
    "announced_date": "",
-   "date_note": "",
+   "date_note": "覚書末尾に『タミル・ナドゥ州において、2024年7月23日に署名』と記載。府は令和6年度海外トッププロモーション事業（2024年7月18〜26日、山口副知事が団長）で同州を訪問し締結。",
    "fields": [
-    "economy"
+    "economy",
+    "labor"
    ],
    "labor_detail": [],
-   "purpose": "",
-   "content": [],
-   "validity": "未確認",
-   "validity_type": "unconfirmed",
-   "valid_until": null,
-   "renewal_terms": "未確認",
-   "legal_binding": "unconfirmed",
-   "legal_binding_note": "",
-   "status": "unknown",
-   "status_note": "",
-   "projects": [],
+   "purpose": "お互いを尊重し、誠意を持って経済交流を推進し、相互理解と友好関係を深めることにより、双方地域の経済的発展をめざす。貿易、投資、人材分野において、主に中小企業を対象に具体的な交流を広く推進する（覚書前文）。",
+   "content": [
+    "双方の経済政策・産業動向の情報を互いに示し、企業等に提供して、貿易・投資・人材交流の促進に努める",
+    "政府機関・経済団体・企業による経済訪問団の受入れにあたり、施設に関する情報を提供するよう努める",
+    "企業が行う視察、見本市への出展、商談会、投資関連調査等が円滑に進むよう情報提供に努める",
+    "企業による相互の投資を促す環境整備に努め、進出企業の業務が円滑に続くよう関連支援機関の情報提供に努める",
+    "費用は原則として各自負担。調整・情報交換の窓口は、ガイダンス タミル・ナドゥ州産業投資促進商業省と府商工労働部成長産業振興室国際ビジネス・スタートアップ支援課"
+   ],
+   "validity": "署名された日から3年間（2024年7月23日署名）",
+   "validity_type": "fixed",
+   "valid_until": "2027-07-22",
+   "renewal_terms": "最初の3年間の有効期限が終了する3か月前に、書面による通知により双方の同意があれば、さらに3年間延長できる（自動更新ではない）",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "『双方に対し法的に拘束力を有するものではなく』と明記（英文正本：not intended to be legally binding on the Participants）。",
+   "status": "in_progress",
+   "status_note": "府は同州と連携して府内企業のインドへのビジネス展開支援に取り組んでいると説明（2025年7月14日報道発表）。2026年1〜2月の府代表団のインド訪問でもガイダンス・タミル・ナドゥを訪問し意見交換。覚書に基づく人材の受入人数などの実績は未確認。",
+   "projects": [
+    {
+     "name": "インドへの進出に対する支援・協力に関する協定書の締結（府・大阪産業局・住友商事・Mahindra Industrial Park Chennai Limited）",
+     "fiscal_year": "2025",
+     "detail": "2025年7月14日。府報道発表で『同州との覚書締結を契機として』締結と説明（別の記録として登録）",
+     "sources": []
+    },
+    {
+     "name": "インド（チェンナイ・グワハティ）へのプロモーション",
+     "fiscal_year": "2025",
+     "detail": "2026年1月31日〜2月8日、成長産業振興室長を団長に府内企業6社が訪問。ガイダンス・タミル・ナドゥと意見交換し、チェンナイ工科大学（企業6社、377名参加）とNihon Edutech（企業5社、45名参加）でジョブフェアを開催。府は2024年7月の覚書締結などの取組みを踏まえたものと説明（覚書に基づく事業との明記はない）。出典：府『トッププロモーション（2025年度概要）』",
+     "sources": []
+    }
+   ],
    "budgets": [],
    "impacts": [],
-   "original_text": "unconfirmed",
-   "evidence_level": "official_list",
+   "original_text": "public",
+   "evidence_level": "original_text",
    "sources": [
     {
      "id": "s1",
@@ -227,11 +247,66 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "インド ガイダンス タミル・ナドゥ州との覚書について",
+     "publisher": "大阪府（商工労働部 成長産業振興室 国際ビジネス・スタートアップ支援課）",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/india_mou.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
+    },
+    {
+     "id": "s3",
+     "title": "覚書（英語：正文）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/89593/mou_en.docx",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
+    },
+    {
+     "id": "s4",
+     "title": "覚書（日本語：参考）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/89593/mou_jp.docx",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
+    },
+    {
+     "id": "s5",
+     "title": "トッププロモーション（2024年度概要）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/india_kikokugo_.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
+    },
+    {
+     "id": "s6",
+     "title": "「インドへの進出に対する支援・協力に関する協定書」の締結について",
+     "publisher": "大阪府（商工労働部 成長産業振興室 国際ビジネス・スタートアップ支援課）",
+     "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o110030/prs_51067.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
+    },
+    {
+     "id": "s7",
+     "title": "トッププロモーション（2025年度概要）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/businessmission_r7.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
     }
    ],
-   "survey_stage": 2,
+   "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "（2026-10-27の再調査で、公式資料にもとづき正式名称・原語の名称・署名者・相手機関・日付の補足・分野・調査段階・目的・合意内容・有効期間・更新条件・validity_type・valid_until・valid_until_note・法的拘束力・原文・確認の根拠・実施状況・関連事業を修正・追加）",
+   "valid_until_note": "締結日（2024-07-23）と有効期間（3年）から計算した目安。双方が書面で同意すればさらに3年間延長できる。"
   },
   {
    "id": "JP-27-005",
@@ -455,6 +530,244 @@
    "survey_stage": 2,
    "last_checked": "2026-10-27",
    "notes": ""
+  },
+  {
+   "id": "JP-27-009",
+   "group_key": "27:27-PH-FPIP-economy",
+   "renewal_of": null,
+   "title_ja": "大阪企業のフィリピン進出支援に関する覚書（大阪府・ファーストフィリピン工業団地）",
+   "title_original": "Memorandum of Understanding between Osaka Prefectural Government, Japan and First Philippine Industrial Park",
+   "doc_type": "MOU",
+   "doc_type_note": "原文は英語。日本語名は府ページの表記。",
+   "japan_level": "prefecture",
+   "japan_org": "大阪府",
+   "pref_code": "27",
+   "japan_signatory": "副知事（署名欄の表記：HIROSHI UEDA, Vice Governor）",
+   "other_japan_parties": [],
+   "country_code": "PH",
+   "partner_org": "ファーストフィリピン工業団地（FPIP）（署名者：FERDINAND EDWIN S. COSETENG 社長）",
+   "partner_org_en": "First Philippine Industrial Park (FPIP)",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2016-01-13",
+   "announced_date": "",
+   "date_note": "覚書末尾に『2016年1月13日、パシッグ市（フィリピン）で署名』と記載。府の海外トッププロモーション一覧に『2015年度：フィリピン（2016年1月）』の記載あり。",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "大阪府内の中小企業がFPIPの工業団地に製造業などで投資するのを促すため、大阪/フィリピン・ビジネス支援プログラム（O/PH BSP）を実施する（第1条）。",
+   "content": [
+    "双方は、フィリピン貿易投資センター大阪（PTIC Osaka）とも協力し、府内中小企業のFPIP工業団地への進出を促すセミナー、企業訪問などを行う（第2条）",
+    "府は、海外進出を検討する府内中小企業に、FPIPとその子会社・関連会社を適地として推薦する（第3条）",
+    "FPIPは、府内中小企業向けの施設（中小企業専用パークの可能性を含む）、特別な立上げ優遇措置、日本語ができる職員を置く中小企業ビジネスデスクを提供・設置する（第3条）"
+   ],
+   "validity": "署名日から2年間（第4条）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "満了の6か月前までにいずれかが終了の意思を示さない限り、自動的に同期間更新される（第4条）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "原文（英文）に法的拘束力の有無の記載なし。",
+   "status": "signed",
+   "status_note": "府ページ（2026-10-27確認）で、府内企業向けの支援内容（貸工場スペースの優先提供、1年間の管理費免除）を案内中。利用実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "大阪府の海外工業団地進出支援について",
+     "publisher": "大阪府（商工労働部 成長産業振興室 国際ビジネス・スタートアップ支援課）",
+     "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/industrialpark/index.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『大阪府はファーストフィリピン工業団地と、大阪企業のフィリピン進出支援に関する覚書を締結しています』"
+    },
+    {
+     "id": "s2",
+     "title": "大阪企業のフィリピン進出支援に関する覚書（PDF）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/35444/fpip20mou.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "署名済みの英文原文"
+    },
+    {
+     "id": "s3",
+     "title": "海外での大阪産業プロモーション・販路開拓支援",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/index.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "トッププロモーション一覧に『2015年度：フィリピン（2016年1月）』"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "経済分野（第2段階）。前文に『フィリピン経済区庁（PEZA）と大阪府の間の覚書に従い』とあり、府とPEZAの覚書が別に存在するとみられるが、府の公式資料で名称・締結日を確認できなかったため記録していない。府の『海外関係機関等との連携』一覧（直近5年分のみ掲載）には載っていない。"
+  },
+  {
+   "id": "JP-27-010",
+   "group_key": "27:27-VN-ThangLongIP-economy",
+   "renewal_of": null,
+   "title_ja": "住友商事ベトナム工業団地への進出・入居に対する支援・協力に関する協定書",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "正式名称上は『協定書』。大阪府・公益財団法人大阪産業局・住友商事株式会社と、ベトナムの工業団地運営会社2社の5者。",
+   "japan_level": "prefecture",
+   "japan_org": "大阪府",
+   "pref_code": "27",
+   "japan_signatory": "商工労働部長 馬場広由己",
+   "other_japan_parties": [
+    "住友商事株式会社",
+    "公益財団法人大阪産業局"
+   ],
+   "country_code": "VN",
+   "partner_org": "Thang Long Industrial Park II Corporation（第二タンロン工業団地、フンイエン省）及び Thang Long Industrial Park (Vinh Phuc) Corporation（第三タンロン工業団地、ビンフック省）",
+   "partner_org_en": "Thang Long Industrial Park II Corporation; Thang Long Industrial Park (Vinh Phuc) Corporation",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2024-03-15",
+   "announced_date": "",
+   "date_note": "協定書末尾の日付（2024年3月15日）。",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "第二・第三タンロン工業団地の貸工場で府内企業等の事業展開を促進するため、府又は大阪産業局の紹介による府内企業等の入居と入居後の操業を支援し、相互に協力する（第1条）。",
+   "content": [
+    "府又は大阪産業局が開く海外投資促進セミナー、府内企業等の貸工場視察、貸工場の建設計画・入居状況や入居希望企業の情報共有について連携・協力する（第2条）",
+    "工業団地運営会社は、府又は大阪産業局の紹介で入居する府内企業等に、入居翌日から1年間の管理費を免除し、ベトナムでの会社設立手続一式を代行する（第二タンロンは手数料US$5,000を免除、実費を除く）（第3条）"
+   ],
+   "validity": "協定成立の日から1年間（第6条）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "満了の3か月前までに書面で更新しない旨の意思表示がない限り、さらに1年間自動的に延長され、以降も同様（第6条）",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "原文に法的拘束力の有無の記載なし。",
+   "status": "signed",
+   "status_note": "府ページ（2026-10-27確認）で支援内容（1年間の管理費免除、会社設立手続の代行と手数料免除）を案内中。利用実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "大阪府の海外工業団地進出支援について",
+     "publisher": "大阪府（商工労働部 成長産業振興室 国際ビジネス・スタートアップ支援課）",
+     "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/industrialpark/index.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "住友商事ベトナム工業団地への進出・入居に対する支援・協力に関する協定書（PDF）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/35444/tang20long20mou.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "署名欄つきの協定書（日本語）"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "経済分野（第2段階）。工業団地運営会社2社の会長名は住友商事の担当部長と同じ人物（協定書の署名欄）。"
+  },
+  {
+   "id": "JP-27-011",
+   "group_key": "27:27-IN-MIPC-economy",
+   "renewal_of": null,
+   "title_ja": "インドへの進出に対する支援・協力に関する協定書",
+   "title_original": "Agreement on Mutual Support and Cooperation for Business Expansion into India",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "正式名称上は『協定書』。英語版が正本、日本語版は参考。大阪府・公益財団法人大阪産業局・住友商事株式会社と、インドの工業団地運営会社の4者。",
+   "japan_level": "prefecture",
+   "japan_org": "大阪府",
+   "pref_code": "27",
+   "japan_signatory": "商工労働部長 馬場広由己",
+   "other_japan_parties": [
+    "公益財団法人大阪産業局",
+    "住友商事株式会社"
+   ],
+   "country_code": "IN",
+   "partner_org": "Mahindra Industrial Park Chennai Limited（MIPC）（署名者：Director GOEL VIKRAM）",
+   "partner_org_en": "Mahindra Industrial Park Chennai Limited",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2025-07-14",
+   "announced_date": "2025-07-14",
+   "date_note": "協定書の日付、府報道発表（報道提供日時2025年7月14日14時）とも2025年7月14日（月曜日）。",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "府内企業等のインドへの事業展開を促進するため、府及び大阪産業局の紹介による府内企業等のインド進出をともに支援し、相互に協力する（第1条）。府は、2024年7月のタミル・ナドゥ州との覚書締結を契機として締結したと説明（報道発表）。",
+   "content": [
+    "MIPC又は住友商事が、インド進出を検討する府内企業等の相談窓口となる（第2条）",
+    "MIPCが、府・大阪産業局・府内企業等が行うタミル・ナドゥ州への視察に対応する（第2条）",
+    "府又は大阪産業局が開くインド進出セミナー等に、MIPC又は住友商事が講師を派遣する（第2条）",
+    "府又は大阪産業局は、企業の同意を得たうえで、インド進出を希望する府内企業等の情報を住友商事を通じてMIPCに提供する（第2条）",
+    "費用は原則として各自が負担する（第2条）"
+   ],
+   "validity": "協定成立の日から1年間（第4条）",
+   "validity_type": "auto_renew",
+   "valid_until": null,
+   "renewal_terms": "満了の3か月前までに書面で更新しない旨の意思表示がない限り、さらに1年間自動的に延長され、以降も同様（第4条）",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "『本協定は法的に拘束力を有するものではなく』と明記（英文正本：This Agreement is not legally binding）。",
+   "status": "signed",
+   "status_note": "府ページ（2026-10-27確認）で相談窓口（住友商事 工業団地ユニット）を案内中。利用実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "「インドへの進出に対する支援・協力に関する協定書」の締結について",
+     "publisher": "大阪府（商工労働部 成長産業振興室 国際ビジネス・スタートアップ支援課）",
+     "url": "https://www.pref.osaka.lg.jp/hodo/fumin/o110030/prs_51067.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "報道提供日時 2025年7月14日"
+    },
+    {
+     "id": "s2",
+     "title": "インドへの進出に対する支援・協力に関する協定書（英語：正文）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/35444/agreement.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "インドへの進出に対する支援・協力に関する協定書（日本語：参考）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/35444/agreement_ja.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "大阪府の海外工業団地進出支援について",
+     "publisher": "大阪府（商工労働部 成長産業振興室 国際ビジネス・スタートアップ支援課）",
+     "url": "https://www.pref.osaka.lg.jp/o110030/ritchi/industrialpark/index.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "経済分野（第2段階）。タミル・ナドゥ州との覚書（JP-27-004）を契機に締結（府報道発表）。"
   }
  ]
 }

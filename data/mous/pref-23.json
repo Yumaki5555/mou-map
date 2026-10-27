@@ -1349,6 +1349,326 @@
    "survey_stage": 2,
    "last_checked": "2026-10-27",
    "notes": "第2段階（他分野）。人材に関する記載なし。"
+  },
+  {
+   "id": "JP-23-025",
+   "group_key": "23:23-CN-Tsinghua-exchange",
+   "renewal_of": null,
+   "title_ja": "愛知県と清華大学との包括交流に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛知県",
+   "pref_code": "23",
+   "japan_signatory": "知事 大村秀章",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "清華大学",
+   "partner_org_en": "Tsinghua University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2019-09-26",
+   "announced_date": "2019-09-24",
+   "date_note": "知事会見ページ（2019年9月24日掲載）で9月26日に県庁で締結式を行うと発表。浙江大学の覚書発表（2022年6月）に『清華大学（2019年9月26日締結）』と記載され締結を確認",
+   "fields": [
+    "education",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "双方の発展に向け、人的交流をはじめとした協力の促進を図り、持続的な交流を行う。",
+   "content": [
+    "次代を担う若者同士の理解と友情を深めるため、青少年学生交流を積極的に促進",
+    "人材育成や学術・技術交流を促進するため、あらゆる人材交流の機会の創出に努める",
+    "スタートアップ支援を始めとした産業・教育分野における協力を促進し、連携強化や幅広い人的ネットワークの構築に努める"
+   ],
+   "validity": "署名した日から協力開始。5年後に見直し",
+   "validity_type": "fixed",
+   "valid_until": "2024-09-25",
+   "valid_until_note": "締結日（2019-09-26）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "期間終了前の6か月以内に双方で協議することにより継続できる",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "『本覚書は、双方相互の協力関係を推進することを目的とし、いかなる法的拘束力や義務を生み出すものではない』",
+   "status": "expired",
+   "status_note": "知事会見（2024年10月21日）で『5年が期限なので、もう一回サイン』と説明し、2024年10月に更新（R3-23-04）。県は清華大学のファンドであるTusホールディングスともスタートアップ分野で連携",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "【知事会見】中国・清華大学との包括交流に関する覚書の締結について",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/soshiki/kikaku/mou1.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "締結式の予告（署名者：知事、清華大学 邱勇 学長）"
+    },
+    {
+     "id": "s2",
+     "title": "包括交流に関する覚書（清華大学）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/uploaded/life/256328_862927_misc.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "締結式の予告に添付された覚書本文（署名欄に2019年9月26日の日付）"
+    },
+    {
+     "id": "s3",
+     "title": "【知事会見】中国・浙江大学との包括交流に関する覚書の締結について",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/soshiki/kikaku/mou3.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "参考欄で清華大学（2019年9月26日締結）と記載"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野・教育）。相手は大学。"
+  },
+  {
+   "id": "JP-23-026",
+   "group_key": "23:23-CN-SJTU-exchange",
+   "renewal_of": null,
+   "title_ja": "愛知県と上海交通大学との包括交流に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛知県",
+   "pref_code": "23",
+   "japan_signatory": "知事 大村秀章",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "上海交通大学",
+   "partner_org_en": "Shanghai Jiao Tong University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2019-11-20",
+   "announced_date": "2019-11-18",
+   "date_note": "知事会見ページ（2019年11月18日掲載）で11月20日に県庁で締結式を行うと発表。浙江大学の覚書発表（2022年6月）に『上海交通大学（2019年11月20日締結）』と記載され締結を確認",
+   "fields": [
+    "education",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "双方の発展に向け、人的交流を始めとした協力の促進を図り、持続的な交流を行う。",
+   "content": [
+    "次代を担う若者同士の理解と友情を深めるため、青少年学生交流を積極的に促進",
+    "人材育成や学術・技術交流を促進するため、企業でのインターンシップの実施など、あらゆる人材交流の機会の創出に努める",
+    "スタートアップ支援を始めとした産業・教育分野における協力を促進し、連携強化や幅広い人的ネットワークの構築に努める"
+   ],
+   "validity": "署名した日から協力開始。5年後に見直し",
+   "validity_type": "fixed",
+   "valid_until": "2024-11-19",
+   "valid_until_note": "締結日（2019-11-20）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "期間終了前の6か月以内に双方で協議することにより継続できる",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "『本覚書は、双方相互の協力関係を推進することを目的とし、いかなる法的拘束力や義務を生み出すものではない』",
+   "status": "unknown",
+   "status_note": "5年後（2024年11月）の見直し・継続の有無は未確認。2024年10月の知事会見で上海交通大学との交流に言及",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "【知事会見】中国・上海交通大学との包括交流に関する覚書の締結について",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/soshiki/kikaku/mou2.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "締結式の予告（署名者：知事、上海交通大学 黄震 副学長）"
+    },
+    {
+     "id": "s2",
+     "title": "包括交流に関する覚書（上海交通大学）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/uploaded/life/261636_896206_misc.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "締結式の予告に添付された覚書本文（署名欄に2019年11月20日の日付）"
+    },
+    {
+     "id": "s3",
+     "title": "【知事会見】中国・浙江大学との包括交流に関する覚書の締結について",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/soshiki/kikaku/mou3.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "参考欄で上海交通大学（2019年11月20日締結）と記載"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野・教育）。相手は大学。インターンシップは学生の人材交流の文脈で、外国人材の受入れの取決めではない。"
+  },
+  {
+   "id": "JP-23-027",
+   "group_key": "23:23-CN-ZJU-exchange",
+   "renewal_of": null,
+   "title_ja": "愛知県と浙江大学との包括交流に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "愛知県",
+   "pref_code": "23",
+   "japan_signatory": "知事 大村秀章",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "浙江大学",
+   "partner_org_en": "Zhejiang University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2022-06-30",
+   "announced_date": "2022-06-27",
+   "date_note": "知事会見ページ（2022年6月27日掲載）で6月30日にオンライン形式で締結式を行うと発表。2023年10月28日の県発表『知事の中国・杭州渡航中の行事結果について』に『昨年６月に「愛知県と浙江大学との包括交流に関する覚書」を締結』と記載され締結を確認",
+   "fields": [
+    "education",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "双方の発展に向け、人的交流をはじめとした協力の促進を図り、持続的な交流を行う。",
+   "content": [
+    "次代を担う若者同士の理解と友情を深めるため、青少年学生交流を積極的に促進",
+    "人材育成や学術・技術交流を促進するため、あらゆる人材交流の機会の創出に努める",
+    "スタートアップ支援を始めとした産業・教育分野における協力を促進し、連携強化や幅広い人的ネットワークの構築に努める"
+   ],
+   "validity": "署名した日から協力開始。5年後に見直し（案文による）",
+   "validity_type": "fixed",
+   "valid_until": "2027-06-29",
+   "valid_until_note": "締結日（2022-06-30）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "期間終了前の6か月以内に双方で協議することにより継続できる（案文による）",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "締結式の予告に添付された覚書（案）に『いかなる法的拘束力や義務を生み出すものではない』",
+   "status": "in_progress",
+   "status_note": "2023年10月27日、知事が浙江大学を訪問し、覚書に基づき連携を進めているスタートアップ支援の取組について意見交換。県と浙江大学の連携事業としてアイデアソンを実施（県発表）",
+   "projects": [
+    {
+     "name": "愛知県と浙江大学の連携事業（アイデアソン等のスタートアップ支援）",
+     "fiscal_year": "2023",
+     "detail": "2023年10月の知事訪問時の県発表で『覚書に基づき連携を進めているスタートアップ支援に関する取組』『連携事業であるアイデアソン』と記載",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "【知事会見】中国・浙江大学との包括交流に関する覚書の締結について",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/soshiki/kikaku/mou3.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "締結式の予告（署名者：知事、浙江大学 呉朝暉 学長）"
+    },
+    {
+     "id": "s2",
+     "title": "愛知県と浙江大学との包括交流に関する覚書（案）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/uploaded/life/408175_1807635_misc.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "表題に『（案）』とある締結前の案文"
+    },
+    {
+     "id": "s3",
+     "title": "知事の中国・杭州渡航中の行事結果について（2023年10月28日）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/uploaded/attachment/480359.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野・教育）。相手は大学。公開されている本文は案文のため、署名版の条文は未確認。"
+  },
+  {
+   "id": "JP-23-028",
+   "group_key": "23:23-CN-Tsinghua-exchange",
+   "renewal_of": "JP-23-025",
+   "title_ja": "愛知県と清華大学との包括交流に関する覚書（2024年更新、正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "2019年の覚書の更新",
+   "japan_level": "prefecture",
+   "japan_org": "愛知県",
+   "pref_code": "23",
+   "japan_signatory": "知事 大村秀章",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "清華大学",
+   "partner_org_en": "Tsinghua University",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2024-10-14",
+   "announced_date": "2024-10-10",
+   "date_note": "県発表（2024年10月10日）の渡航日程（予定）で10月14日午後に『清華大学との覚書更新』。知事会見（2024年10月21日）で、10月14日の北京での行事に続けて、清華大学で5年の期限を迎えた包括交流の覚書に『もう一回サイン』した（相手は李路明学長）と説明",
+   "fields": [
+    "education",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "スタートアップ、イノベーション、学生交流などでの交流を引き続き進める（知事会見での説明）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事の中国渡航について（2024年10月10日）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/press-release/chugoku-tokoh-2024.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "清華大学との包括交流に関する覚書の更新等のため訪問と記載"
+    },
+    {
+     "id": "s2",
+     "title": "中国渡航日程の概要（予定）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/uploaded/attachment/534002.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "知事記者会見（2024年10月21日）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/site/chiji-kaiken/20241021.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "会見録（2024年11月22日掲載）"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野・教育）。更新後の覚書本文は未確認。"
   }
  ]
 }

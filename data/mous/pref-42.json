@@ -66,23 +66,23 @@
    "id": "JP-42-002",
    "group_key": "42:42-VN-QuangNam-labor",
    "renewal_of": null,
-   "title_ja": "人的資源交換に関する覚書（長崎県とクァンナム省）",
+   "title_ja": "人材交流に関する覚書（長崎県産業労働部・クァンナム省労働・傷病兵・社会問題局）",
    "title_original": "",
    "doc_type": "覚書",
-   "doc_type_note": "県資料（検索結果の抜粋）では『クァンナム省及び長崎県により締結された人的資源交換覚書』と表記。英語報道では memorandum of understanding on personnel cooperation。正式名称未確認。",
+   "doc_type_note": "県の現行ページでは『人材交流に関する覚書』と表記。旧県資料（検索結果の抜粋、現在404）では『人的資源交換覚書』、英語報道では memorandum of understanding on personnel cooperation と表記。原文は未公開（未確認）。",
    "japan_level": "prefecture",
-   "japan_org": "長崎県",
+   "japan_org": "長崎県（産業労働部）",
    "pref_code": "42",
    "japan_signatory": "",
    "other_japan_parties": [],
    "country_code": "VN",
-   "partner_org": "クァンナム省",
-   "partner_org_en": "Quang Nam Province",
+   "partner_org": "クァンナム省労働・傷病兵・社会問題局（現ダナン市内務局）",
+   "partner_org_en": "Quang Nam Department of Labour, Invalids and Social Affairs (now Da Nang Department of Home Affairs)",
    "partner_type": "subnational_gov",
    "additional_partners": [],
    "signed_date": "2019-10-08",
    "announced_date": "",
-   "date_note": "県資料（検索結果の抜粋）に『2019年10月8日、長崎県にて』締結と記載。",
+   "date_note": "県の現行ページでは『令和元年10月』に締結。日付（10月8日）は旧県資料（検索結果の抜粋、現在404）の記載。",
    "fields": [
     "labor"
    ],
@@ -93,6 +93,7 @@
    ],
    "purpose": "クァンナム省の技能実習生や労働者の長崎県への派遣を促進し、人財の質の向上及びクァンナム省の経済発展並びに長崎県の経済の促進に寄与する（県資料の検索結果抜粋）。",
    "content": [
+    "クァンナム省人材（主に技能実習生）の長崎県への受入れについて、クァンナム省から指定を受けた送出機関（海外実習生技術者派遣サービス株式会社、略称SULECO）と連携して取り組む（県の現行ページ）",
     "クァンナム省の技能実習生や労働者の長崎県への派遣の促進",
     "（実施面・県資料の検索結果抜粋）クァンナム省労働傷病兵社会局が、派遣に向けた相談対応・労働者の選抜・訓練の拠点としてSULECO海外実習生技術者派遣サービス株式会社に業務を委託することで合意",
     "（同）クァンナム医科短期大学と協力し、看護・介護職を含む人材を長崎県へ送る取組に言及"
@@ -103,8 +104,8 @@
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
-   "status": "unknown",
-   "status_note": "県資料（2022年8月）でベトナムとのMOU締結を県の取組として紹介していた（検索結果の抜粋）。2023年8月に大石知事がクアンナム省人民委員長らと意見交換（JETRO記事）。受入実績は未確認。",
+   "status": "in_progress",
+   "status_note": "県の現行ページ（2026-10-27確認）で、覚書に基づきSULECOと連携しながら受入れに取り組んでいると記載し、県内企業・監理団体・登録支援機関向けにSULECOの活用相談を受け付けている。受入人数の実績は記載なし。2023年8月に大石知事がクァンナム省人民委員長らと意見交換（JETRO記事）。",
    "projects": [],
    "budgets": [],
    "impacts": [],
@@ -113,14 +114,13 @@
    "sources": [
     {
      "id": "s1",
-     "title": "長崎県資料（2022年8月掲載PDF、外国人材関係セミナー資料とみられる）",
+     "title": "長崎県・クァンナム省・SULECO 人財交流促進会議 資料（クァンナム省労働傷病兵社会局の発表）",
      "publisher": "長崎県",
-     "url": "https://www.pref.nagasaki.jp/shared/uploads/2022/08/1661129637.pdf",
+     "url": "https://warp.ndl.go.jp/web/20240306040047/https://www.pref.nagasaki.jp/shared/uploads/2022/08/1661129637.pdf",
      "type": "official_page",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得）。県サイトのリニューアルにより2026-10-27時点で404",
-     "link_status": "not_found",
-     "link_checked": "2026-10-27"
+     "note": "長崎県サイトのリニューアルで公開終了。国立国会図書館WARPの保存版（2024-03-06保存）で本文を確認（「2019年10月8日、長崎県にて クァンナム省及び長崎県により締結された人的資源交換覚書」の記載）。",
+     "archived_from": "https://www.pref.nagasaki.jp/shared/uploads/2022/08/1661129637.pdf"
     },
     {
      "id": "s2",
@@ -139,11 +139,20 @@
      "type": "news",
      "checked": "2026-10-27",
      "note": "2023年8月の大石知事のクアンナム省訪問・意見交換を記載（覚書の記載はなし）"
+    },
+    {
+     "id": "s4",
+     "title": "ベトナム社会主義共和国クァンナム省との人材交流に関する覚書（SULECO株式会社のご紹介）",
+     "publisher": "長崎県（未来人材課）",
+     "url": "https://www.pref.nagasaki.jp/bunrui/shigoto-sangyo/koyo-rodo/shokugyonoryokukaihatsu/httpwww-pref-nagasaki-jpsectionwakamonoindex-html/suleco/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "「令和元年10月、クァンナム省労働・傷病兵・社会局問題局（現ダナン市内務局）と『人材交流に関する覚書』を締結」との記載を確認。"
     }
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "一次資料の本文を取得できていない（県PDFが404）。県の現行サイトでの再確認が必要。長崎県とクァンナム省は2017年に友好交流関係を樹立（外務省資料の検索結果抜粋、除外）。"
+   "notes": "県の現行ページ（未来人材課）で覚書の存在・締結年月・相手部局を確認した。締結日（10月8日）は旧県資料（検索結果の抜粋、現在404）による。原文は未公開（未確認）。長崎県とクァンナム省（現ダナン市）は2017年6月に友好交流関係を締結（県ページで確認、友好交流のため除外）。（2026-10-27の再調査で、公式資料にもとづき正式名称・文書の種類・japan_org・相手機関・日付の補足・合意内容・実施状況を修正・追加）"
   },
   {
    "id": "JP-42-003",

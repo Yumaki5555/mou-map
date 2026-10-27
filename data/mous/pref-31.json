@@ -370,6 +370,454 @@
    "survey_stage": 2,
    "last_checked": "2026-10-27",
    "notes": "正式名称未確認。"
+  },
+  {
+   "id": "JP-31-007",
+   "group_key": "31:31-JM-Westmoreland-sister-prep",
+   "renewal_of": null,
+   "title_ja": "姉妹都市提携を進めるための協議覚書（鳥取県・ウェストモアランド県）",
+   "title_original": "Memorandum of Understanding on Advancing a Sister City Agreement",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "鳥取県",
+   "pref_code": "31",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "JM",
+   "partner_org": "ウェストモアランド県",
+   "partner_org_en": "Westmoreland Parish",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2015-10-08",
+   "announced_date": "",
+   "date_note": "日付は2016年の協力覚書の前文による。2015年10月に副知事を団長とする交流協議団を派遣して締結（県のジャマイカ交流ページ）。",
+   "fields": [
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "日本とカリコム諸国間で初めてとなる姉妹都市提携に向け、両県で具体的に調整を進めていくことを確認する（県のページ）。",
+   "content": [
+    "姉妹都市提携に向けて両県で具体的に調整を進めていくことを確認"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "completed",
+   "status_note": "2016年3月24日に姉妹提携に関する協力覚書（R1-31-02）を締結。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "鳥取県とジャマイカの交流",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/253488.htm",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "日本国鳥取県とジャマイカ・ウェストモアランド県の姉妹提携に関する協力覚書",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/256827.htm",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "前文に2015年10月8日の協議覚書への言及"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "署名者は未確認（副知事を団長とする交流協議団が締結）。"
+  },
+  {
+   "id": "JP-31-008",
+   "group_key": "31:31-JM-Westmoreland-sister",
+   "renewal_of": null,
+   "title_ja": "日本国鳥取県とジャマイカ・ウェストモアランド県の姉妹提携に関する協力覚書",
+   "title_original": "Sister Region Cooperation, Tottori Prefecture, Japan and Westmoreland Parish, Jamaica",
+   "doc_type": "協力覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "鳥取県",
+   "pref_code": "31",
+   "japan_signatory": "知事 平井伸治",
+   "other_japan_parties": [],
+   "country_code": "JM",
+   "partner_org": "ウェストモアランド県",
+   "partner_org_en": "Westmoreland Parish",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2016-03-24",
+   "announced_date": "",
+   "date_note": "鳥取市にて署名。相手方署名者はバーテル・モーア（原文の日本語版では『ウェストモアランド県議長』、県の交流ページでは『県知事』）。",
+   "fields": [
+    "other",
+    "tourism",
+    "education",
+    "economy",
+    "agri",
+    "disaster_env"
+   ],
+   "labor_detail": [],
+   "purpose": "日本とカリコム諸国間の地方交流として初めてとなる姉妹提携を正式に決定し、両県間の友好及び協力関係を維持、発展させる（原文）。",
+   "content": [
+    "両国の関係機関等と密接に連携し、両県間の友好及び協力関係を維持、発展させる",
+    "文化、スポーツ、青少年、教育、観光及び経済など幅広い分野で交流・協力の拡大を目指す",
+    "2020年東京オリンピック・パラリンピックでのジャマイカチームの鳥取県での事前キャンプ誘致に向け協力する",
+    "リゾートなどの観光資源、農漁業などの基幹産業、持続可能な環境関連事業など地域経済の活性化に向けた支援を行う",
+    "定期的に交流団を送る"
+   ],
+   "validity": "記載なし",
+   "validity_type": "not_stated",
+   "valid_until": null,
+   "renewal_terms": "記載なし",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "青少年の相互派遣（コロナ禍で中断後、2023年11月の協議で再開に合意）、2024年に岩美高校とLittle London High Schoolが姉妹校締結、2026年8月31日に姉妹提携10周年の記念式典。",
+   "projects": [
+    {
+     "name": "ウェストモアランド県との青少年交流・姉妹校交流",
+     "fiscal_year": "2024",
+     "detail": "2024年に岩美高校とウェストモアランド県Little London High Schoolが姉妹校締結（県のジャマイカ交流ページ）。",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日本国鳥取県とジャマイカ・ウェストモアランド県の姉妹提携に関する協力覚書",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/256827.htm",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "日本語・英語の本文"
+    },
+    {
+     "id": "s2",
+     "title": "鳥取県とジャマイカの交流",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/253488.htm",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s3",
+     "title": "国・地域別の国際交流の方針・方向性",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/253922.htm",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "知事定例記者会見（2026年8月26日）",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/330082.htm",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "10周年記念式典の予告"
+    },
+    {
+     "id": "s5",
+     "title": "地域県土警察常任委員会資料（令和5年11月30日）",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/secure/1342571/32chiiki_houkoku231130.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "2023年11月14日のウェストモアランド県との協議（青少年交流の再開に大筋合意）"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "姉妹提携の成立文書だが、正式名称が『協力覚書』のため記録（SCHEMA.md の規定による）。"
+  },
+  {
+   "id": "JP-31-009",
+   "group_key": "31:31-RU-Primorsky-econ2017",
+   "renewal_of": null,
+   "title_ja": "日本国鳥取県知事とロシア連邦沿海地方知事との協力に関する会談における議事録",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "署名された会談議事録。県のページは『経済協力に関する覚書を署名（地方政府間1件、民間企業間4件）』と紹介",
+   "japan_level": "prefecture",
+   "japan_org": "鳥取県",
+   "pref_code": "31",
+   "japan_signatory": "知事 平井伸治",
+   "other_japan_parties": [],
+   "country_code": "RU",
+   "partner_org": "沿海地方",
+   "partner_org_en": "Primorsky Krai",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2017-04-10",
+   "announced_date": "",
+   "date_note": "倉吉市で開催の『北東アジア地域国際交流・協力地方政府サミット』の際、両知事の会談で署名。相手方はミクルシェフスキー沿海地方知事。",
+   "fields": [
+    "economy",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "鳥取県版『ロシア中小企業・人的交流分野における協力プラットフォーム』の取組の一環としての経済協力（県のページ）。",
+   "content": [
+    "経済、貿易、人的交流等の協力促進"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "鳥取県と沿海地方の間での覚書の締結について",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/265946.htm",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "同じ機会に県内企業とロシア企業の間で民間の覚書4件（廃棄物処理、紙おむつ処理機器、廃ガラス処理、旅行商品造成）が署名されたが、県は署名者ではないため記録しない。"
+  },
+  {
+   "id": "JP-31-010",
+   "group_key": "31:31-TW-Tigerair-charter",
+   "renewal_of": null,
+   "title_ja": "鳥取県とタイガーエア台湾との覚書（チャーター便就航等）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "鳥取県",
+   "pref_code": "31",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TW",
+   "partner_org": "タイガーエア台湾",
+   "partner_org_en": "Tigerair Taiwan",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2023-09-12",
+   "announced_date": "2023-09-14",
+   "date_note": "陳漢銘董事長の来県時に締結（地域県土警察常任委員会資料 2023年9月20日）。2023年9月14日の知事定例記者会見で報告。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "将来的な定期便を見据え、チャーター便を就航すること等（県議会委員会資料）。",
+   "content": [
+    "将来的な定期便に向け、チャーター便を就航することなど"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "知事は会見で、将来の定期便に向けたロングチャーターを年明けにも行う話が出たと説明。その後の実施状況は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "地域県土警察常任委員会資料（令和5年9月20日）『台湾トップセールス及びタイガーエア台湾との覚書締結』",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/secure/1334688/42kagayaku_houkoku20230920.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "県執行部が県議会委員会に提出した報告資料（p.5）"
+    },
+    {
+     "id": "s2",
+     "title": "知事定例記者会見（2023年9月14日）",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/312953.htm",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称・県側の署名者は未確認。相手は外国企業（航空会社）。"
+  },
+  {
+   "id": "JP-31-011",
+   "group_key": "31:31-JM-JAAA-camp2025",
+   "renewal_of": null,
+   "title_ja": "2025世界陸上東京大会におけるジャマイカ選手団の事前キャンプ鳥取実施に係る覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "鳥取県",
+   "pref_code": "31",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "鳥取陸上競技協会"
+   ],
+   "country_code": "JM",
+   "partner_org": "ジャマイカ陸上競技連盟",
+   "partner_org_en": "Jamaica Athletics Administrative Association",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "signed_date": "2023-11-15",
+   "announced_date": "2023-11-30",
+   "date_note": "現地時間2023年11月15日、キングストンのジャマイカ陸連事務所で締結式。県議会委員会への報告は2023年11月30日。列席者は浜崎晋一 鳥取陸上競技協会会長（県議会議長）、ガース・ゲイル ジャマイカ陸連会長ほか。",
+   "fields": [
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "2025世界陸上東京大会に出場するジャマイカ代表選手団の鳥取県での事前キャンプ実施（委員会資料）。",
+   "content": [
+    "鳥取県、鳥取陸上競技協会、ジャマイカ陸上競技連盟の三者は、2025世界陸上東京大会に出場するジャマイカ代表選手団の本県での事前キャンプ実施に向け準備を進める",
+    "鳥取県民と代表選手団との交流を推進する",
+    "三者が今後緊密に連携し、事前キャンプ実施に係る具体的な協定締結に向け努める"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "completed",
+   "status_note": "県政だより2025年9月号で『今回10年ぶりの事前キャンプが実現しました』と記載。具体的な協定は2024年5月30日に締結式を予定と発表（planned R1-31-P2）。",
+   "projects": [
+    {
+     "name": "東京2025世界陸上 ジャマイカ代表選手団事前キャンプ（鳥取市）",
+     "fiscal_year": "2025",
+     "detail": "大会（2025年9月13日開幕）直前に鳥取で最終調整。公開練習・サイン会等。",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "地域県土警察常任委員会資料（令和5年11月30日）『ジャマイカ選手団のキャンプ実施に係る覚書締結及び同国との交流協議について』",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/secure/1342571/32chiiki_houkoku231130.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "スポーツ課・交流推進課の報告資料（p.19）"
+    },
+    {
+     "id": "s2",
+     "title": "特集＜世界陸上ジャマイカ代表事前キャンプ＞（とっとり県政だより2025年9月号）",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/324512.htm",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "県側の署名者は資料に明記なし。スポーツ（事前キャンプ）分野。"
+  },
+  {
+   "id": "JP-31-012",
+   "group_key": "31:31-TW-dementia-program",
+   "renewal_of": null,
+   "title_ja": "『とっとり方式認知症予防プログラム』の台湾普及に関する覚書（4者）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "鳥取県",
+   "pref_code": "31",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "鳥取大学 浦上克哉教授"
+   ],
+   "country_code": "TW",
+   "partner_org": "財団法人中華経済研究院、台湾高齢産業創新発展協会",
+   "partner_org_en": "Chung-Hua Institution for Economic Research; ほか1団体（英語名未確認）",
+   "partner_type": "organization",
+   "additional_partners": [],
+   "signed_date": "2025-09-04",
+   "announced_date": "2025-09-02",
+   "date_note": "2025年9月2日の知事定例記者会見の資料に『覚書を締結（９月４日）』と記載（会見時点では予定）。締結後の報告は確認できていない。",
+   "fields": [
+    "medical"
+   ],
+   "labor_detail": [],
+   "purpose": "台湾のシンクタンク等が『とっとり方式認知症予防プログラム』の効果等を評価し、台湾での普及を希望（国外初）。プログラムの普及に向けて覚書を締結（会見資料）。",
+   "content": [
+    "とっとり方式認知症予防プログラムの台湾での普及"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "planned",
+   "status_note": "締結日を予告した会見資料のみ確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "令和7年9月2日 鳥取県知事定例記者会見（資料）",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/secure/1387355/250902.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "p.7"
+    },
+    {
+     "id": "s2",
+     "title": "知事定例記者会見（2025年9月2日）",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/322470.htm",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "4者＝鳥取県、鳥取大学浦上教授、財団法人中華経済研究院、台湾高齢産業創新発展協会。"
   }
  ]
 }

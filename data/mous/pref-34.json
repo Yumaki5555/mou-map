@@ -65,21 +65,21 @@
    "id": "JP-34-002",
    "group_key": "34:34-MX-Guanajuato-economy",
    "renewal_of": null,
-   "title_ja": "経済交流に関する覚書（広島県・グアナファト州）",
+   "title_ja": "広島県とグアナファト州との経済交流に関する覚書",
    "title_original": "",
    "doc_type": "覚書",
    "doc_type_note": "",
    "japan_level": "prefecture",
    "japan_org": "広島県",
    "pref_code": "34",
-   "japan_signatory": "",
+   "japan_signatory": "知事 湯崎英彦",
    "other_japan_parties": [],
    "country_code": "MX",
    "partner_org": "グアナファト州",
    "partner_org_en": "",
    "partner_type": "subnational_gov",
    "additional_partners": [],
-   "signed_date": null,
+   "signed_date": "2013-11-19",
    "announced_date": "",
    "date_note": "締結日は資料に記載なし（2014年11月6日の友好提携より前）",
    "fields": [
@@ -99,7 +99,7 @@
    "projects": [],
    "budgets": [],
    "impacts": [],
-   "original_text": "unconfirmed",
+   "original_text": "public",
    "evidence_level": "official_list",
    "sources": [
     {
@@ -110,11 +110,551 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "『広島県とグアナファト州は、「経済交流に関する覚書」に基づく交流関係を深めてきたが、更なる経済交流の促進に向け、2014年11月６日、友好提携を締結した』"
+    },
+    {
+     "id": "s2",
+     "title": "再調査で確認した資料",
+     "publisher": "",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/76/mexico-guanajuato.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
+    },
+    {
+     "id": "s3",
+     "title": "再調査で確認した資料",
+     "publisher": "",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/life/819358_7865135_misc.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。締結日・署名者・原文は未確認。"
+   "notes": "第2段階（他分野）。締結日・署名者・原文は未確認。（2026-10-27の再調査で、公式資料にもとづき締結日・正式名称・署名者・原文を修正・追加）"
+  },
+  {
+   "id": "JP-34-003",
+   "group_key": "34:34-CH-Zug-economy",
+   "renewal_of": null,
+   "title_ja": "経済交流協定（広島県・ツーク州）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "県の一覧では『経済交流協定』（文書の正式名称・種類は未確認）",
+   "japan_level": "prefecture",
+   "japan_org": "広島県",
+   "pref_code": "34",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CH",
+   "partner_org": "ツーク州",
+   "partner_org_en": "Canton of Zug",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2003-07-23",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "ツーク州および広島県内の企業のための新規事業展開を目的とした情報交換等（県の一覧）。",
+   "content": [
+    "ツーク州および広島県内の企業のための新規事業展開を目的とした情報交換",
+    "それぞれの地域への関心を示している企業を支援するための協力"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "県内投資促進課 海外進出支援グループ（経済交流協定一覧）",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/76/kaigaishinshutsushien.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "掲載日2026年10月26日"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称は未確認。"
+  },
+  {
+   "id": "JP-34-004",
+   "group_key": "34:34-IN-TamilNadu-economy",
+   "renewal_of": null,
+   "title_ja": "経済交流に関する覚書（広島県・タミル・ナドゥ州）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県資料では『2010年11月に締結した覚書』、県の一覧では『経済交流協定』",
+   "japan_level": "prefecture",
+   "japan_org": "広島県",
+   "pref_code": "34",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "タミル・ナドゥ州",
+   "partner_org_en": "State of Tamil Nadu",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2010-11-08",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "タミル・ナドゥ州との経済交流の推進（県資料）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "2023年11月30日に改定・再締結（R1-34-03）。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "県内投資促進課 海外進出支援グループ（経済交流協定一覧）",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/76/kaigaishinshutsushien.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "インド訪問の結果について（令和6年2月6日 県内投資促進課）",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/562902.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "県議会委員会への報告資料"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "当初の覚書の正式名称・署名者・内容は未確認。"
+  },
+  {
+   "id": "JP-34-005",
+   "group_key": "34:34-CN-Sichuan-economy",
+   "renewal_of": null,
+   "title_ja": "日本国広島県と中華人民共和国四川省との経済等分野における友好交流を強化することに関する協議書",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "協議書（県のページでは『経済交流協定』『経済分野の交流強化にかかる協定書』）",
+   "japan_level": "prefecture",
+   "japan_org": "広島県",
+   "pref_code": "34",
+   "japan_signatory": "知事 湯崎英彦",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "四川省人民政府",
+   "partner_org_en": "Sichuan Provincial People's Government",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2011-08-23",
+   "announced_date": "2011-08-23",
+   "date_note": "四川省成都市（錦江賓館）で調印。相手方署名者は蒋巨峰 四川省人民政府省長。",
+   "fields": [
+    "economy",
+    "disaster_env",
+    "tourism",
+    "education"
+   ],
+   "labor_detail": [],
+   "purpose": "1984年の友好提携以来の交流を土台とし、両県省の経済発展と共栄に努めるため、経済分野を中心に交流と協力をより強化する（原文）。",
+   "content": [
+    "貿易分野の交流を推進し、双方の企業の双方向の投資と貿易での協力強化を奨励・支援する",
+    "広島県が四川省内に県内企業の進出支援窓口を設置する際、四川省は相応のサポートと必要なサービスを提供する",
+    "環境保護分野の交流（特に人材育成と技術交流）と、環境保護関連の企業間協力プロジェクトを奨励・支援する",
+    "観光交流と協力、情報共有、観光市場の開拓",
+    "人材育成に尽力し、産業人材及び留学生等の人的交流を促進する",
+    "知的財産権の保護分野で必要な取組を行う",
+    "連絡窓口：広島県商工労働局、四川省人民政府外事弁公室"
+   ],
+   "validity": "記載なし（双方の代表が署名をした日から効力を生ずる）",
+   "validity_type": "not_stated",
+   "valid_until": null,
+   "renewal_terms": "必要に応じて双方が協議を行い、合意のもと改訂できる",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "県は2012年から広島・四川経済交流事務所を設置（県のページ）。国際化関係資料2025年版の『海外ビジネス展開支援事業』に『経済交流協定等を活用した支援』『広島・四川経済交流事務所の運営等』と記載。",
+   "projects": [
+    {
+     "name": "広島・四川経済交流事務所の運営",
+     "fiscal_year": "2025",
+     "detail": "2012年設置。県内企業の現地進出や販路拡大を支援。",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "中国四川省と経済交流協定を締結しました",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/76/economicagreement.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "四川省との経済交流協定書（日本語）PDF",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/life/819349_7865095_misc.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "署名入り原文の画像"
+    },
+    {
+     "id": "s3",
+     "title": "県内投資促進課 海外進出支援グループ（経済交流協定一覧）",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/76/kaigaishinshutsushien.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "広島県国際化関係資料 令和7（2025）年版",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/659397.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "1984年の友好提携（除外）とは別の経済分野の文書。『人材育成（産業人材，留学生等）』の人的交流を含むが、外国人材の受入れ（就労）を定めたものではないため labor には含めていない。"
+  },
+  {
+   "id": "JP-34-006",
+   "group_key": "34:34-US-Hawaii-economy",
+   "renewal_of": null,
+   "title_ja": "経済交流協定（広島県・ハワイ州）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "県の一覧では『経済交流協定』（文書の正式名称・種類は未確認）",
+   "japan_level": "prefecture",
+   "japan_org": "広島県",
+   "pref_code": "34",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "US",
+   "partner_org": "ハワイ州",
+   "partner_org_en": "State of Hawaii",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2012-08-21",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "economy",
+    "disaster_env",
+    "tourism",
+    "education"
+   ],
+   "labor_detail": [],
+   "purpose": "相互交流の促進と、再生可能エネルギー・環境浄化、観光、教育分野での交流強化（県の一覧）。",
+   "content": [
+    "相互交流の促進と訪問団への支援",
+    "再生可能エネルギーおよび環境浄化分野での交流強化",
+    "観光分野での交流強化",
+    "教育分野での交流強化"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "県内投資促進課 海外進出支援グループ（経済交流協定一覧）",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/76/kaigaishinshutsushien.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "1997年の友好提携（除外）とは別の文書。正式名称は未確認。"
+  },
+  {
+   "id": "JP-34-007",
+   "group_key": "34:34-IN-TamilNadu-economy",
+   "renewal_of": "JP-34-004",
+   "title_ja": "経済交流に関する覚書（広島県・タミル・ナドゥ州）〔2023年改定・再締結〕",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "",
+   "japan_level": "prefecture",
+   "japan_org": "広島県",
+   "pref_code": "34",
+   "japan_signatory": "広島県商工労働局の代表者（氏名未確認）",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "タミル・ナドゥ州工業省ガイダンス・タミル・ナドゥ（投資誘致機関）",
+   "partner_org_en": "Guidance Tamil Nadu",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "signed_date": "2023-11-30",
+   "announced_date": "",
+   "date_note": "チェンナイ市内のホテルで締結式。広島県議会インド訪問団（中本議長ほか6名）、玉井副知事、タミル・ナドゥ州ラジャ工業大臣、在チェンナイ日本総領事が立ち会い、広島県商工労働局とタミル・ナドゥ州工業省ガイダンス（投資誘致機関）の代表者が署名。",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "2010年11月に締結した覚書を改定し、広島県とタミル・ナドゥ州との間の人材交流、双方向での企業進出や投資を促進する（県資料）。",
+   "content": [
+    "タミル・ナドゥ州及び広島県への投資に関するキャンペーンを共同で促進",
+    "タミル・ナドゥ州及び広島県における投資機会の発掘のためのミッション派遣を共同で促進",
+    "タミル・ナドゥ州及び広島県の投資家が政府から必要な認可を得るためのサービスの提供",
+    "タミル・ナドゥ州と広島県の人的交流を促進するための方策を検討する"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "再締結を契機に、2024年3月14日に住友商事・MIPCと県内企業のインド進出支援協定を締結（R1-34-07）、インドビジネスセミナーを開催。",
+   "projects": [
+    {
+     "name": "インドビジネスセミナー（第1回〜第3回）",
+     "fiscal_year": "2024",
+     "detail": "県内企業対象。2024年8月20日の県資料の備考で、覚書再締結と並ぶインド関係の取組として記載。",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インド訪問の結果について（令和6年2月6日 県内投資促進課）",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/562902.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "県議会委員会への報告資料"
+    },
+    {
+     "id": "s2",
+     "title": "県内投資促進課 海外進出支援グループ（経済交流協定一覧）",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/soshiki/76/kaigaishinshutsushien.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "内容4項目"
+    },
+    {
+     "id": "s3",
+     "title": "インドビジネスセミナーの開催について（令和6年8月20日 県内投資促進課）",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/588895.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "『人材交流』『人的交流』を含むが、外国人材の受入れ（就労）に関する具体的な記述は確認できないため labor には含めていない。正式名称は未確認。"
+  },
+  {
+   "id": "JP-34-008",
+   "group_key": "34:34-IN-MIPC-business",
+   "renewal_of": null,
+   "title_ja": "県内企業のインド進出に対する支援・協力に関する協定",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "協定",
+   "japan_level": "prefecture",
+   "japan_org": "広島県",
+   "pref_code": "34",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "住友商事株式会社"
+   ],
+   "country_code": "IN",
+   "partner_org": "Mahindra Industrial Park Chennai Limited（MIPC）",
+   "partner_org_en": "Mahindra Industrial Park Chennai Limited",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2024-03-14",
+   "announced_date": "",
+   "date_note": "",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "タミル・ナドゥ州との覚書再締結を契機に、県内企業のインドへの更なる進出支援を県として行う（県資料）。",
+   "content": [
+    "住友商事株式会社、及び現地に工業団地を有し開発・運営を行うMIPCと、県内企業のインド進出に係る支援・協力"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドビジネスセミナーの開催について（令和6年8月20日 県内投資促進課）",
+     "publisher": "広島県",
+     "url": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/588895.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "備考（1）②"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "国内企業（住友商事）と外国企業（MIPC）を含む三者の協定。署名者は未確認。"
+  },
+  {
+   "id": "JP-34-009",
+   "group_key": "34:34-VN-KhanhHoa-coop",
+   "renewal_of": null,
+   "title_ja": "経済、観光、教育、人材協力などの分野における協力を検討するための覚書（広島県・カインホア省）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "ベトナム側の資料では Memorandum of Cooperation",
+   "japan_level": "prefecture",
+   "japan_org": "広島県",
+   "pref_code": "34",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "カインホア省（人民委員会）",
+   "partner_org_en": "Khanh Hoa Province (Provincial People's Committee)",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2024-06-25",
+   "announced_date": "2024-06-25",
+   "date_note": "県議会議長ブログ（6月25日付）に、グエン・タン・トゥアン カインホア省人民委員会委員長の訪問団が来広し、知事との会談で覚書が締結されたとある。ベトナム側（駐日大使館、カインホア省政府）は『2024年6月に署名』と記載。",
+   "fields": [
+    "economy",
+    "tourism",
+    "education",
+    "medical"
+   ],
+   "labor_detail": [],
+   "purpose": "両県・省の間で経済、観光、教育、人材協力などの分野における協力を検討する（県議会議長ブログ）。",
+   "content": [
+    "経済、観光、教育、人材協力などの分野における協力の検討（県議会議長ブログ）",
+    "ベトナム側の記事では、経済・教育・保健・観光等の協力、カインホア省の高校生の広島への留学奨学金、保健・原子力分野を中心とした研修・人材育成が挙げられている"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "カインホア省は広島県との2025〜2029年の協力計画を策定（ベトナム側の投資ポータル）。2025年6月8日には中本県議会議長がカインホア省を訪問。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "【議長ブログ】６月２５日（火曜日）ベトナム カインホア省人民委員会委員長訪問団が来広されました。",
+     "publisher": "広島県議会",
+     "url": "https://www.pref.hiroshima.lg.jp/site/gikai/060625photo.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "県公式サイト内の議会ページ"
+    },
+    {
+     "id": "s2",
+     "title": "Ambassador Pham Quang Hieu works with Governor of Hiroshima Prefecture",
+     "publisher": "駐日ベトナム大使館",
+     "url": "https://vnembassy-jp.org/en/ambassador-pham-quang-hieu-works-governor-hiroshima-prefecture",
+     "type": "partner_official",
+     "checked": "2026-10-27",
+     "note": "2025年3月19日の会談記事。『2024年6月にMemorandum of Cooperationに署名』"
+    },
+    {
+     "id": "s3",
+     "title": "Chairman of the Provincial People's Committee received Chairman of the Hiroshima Provincial Council, Japan",
+     "publisher": "カインホア省政府",
+     "url": "https://en.khanhhoa.gov.vn/vi/news/chairman-of-the-provincial-people-s-committee-received-chairman-of-the-hiroshima-provincial-council-japan",
+     "type": "partner_official",
+     "checked": "2026-10-27",
+     "note": "2025年6月19日付"
+    },
+    {
+     "id": "s4",
+     "title": "Khanh Hoa boosts comprehensive cooperation with Hiroshima Prefecture (Japan) for the 2025-2029 period",
+     "publisher": "Invest Vietnam（ベトナム計画投資省 外国投資庁のポータル）",
+     "url": "https://investvietnam.gov.vn/en/news.nd/khanh-hoa-boosts-comprehensive-cooperation-with-hiroshima-prefecture-japan-for-the-2025-2029-period.html",
+     "type": "partner_official",
+     "checked": "2026-10-27",
+     "note": "覚書そのものの記載はなし。協力計画の分野に『人材・教育・訓練』"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "コーディネーターの手がかりを公式ページで確認した。署名したのは県議会ではなく県（知事との会談の場で締結。県側の署名者名の明記はなし）。県執行部の報道発表は、月別一覧が直近6か月分しか公開されていないため確認できなかった（2023年4月〜2026年10月の知事記者会見録にも言及はなし）。議長ブログに『人材協力』とあるが、相手側の記事では保健・原子力分野の研修や奨学金などの人材育成が中心で、外国人労働者の送出し・受入れの記述はないため labor には含めていない（要注意点）。正式名称は未確認。"
   }
  ]
 }

@@ -214,6 +214,164 @@
    "survey_stage": 1,
    "last_checked": "2026-10-27",
    "notes": "7月14日会見（検索抜粋）では、製造業や宿泊・外食などを専攻した卒業生が対象で、卒業生を採用する県内企業への一部支援も行う方針と説明。英語名は一般的名称で、覚書上の表記は未確認。原文未確認。"
+  },
+  {
+   "id": "JP-37-004",
+   "group_key": "37:37-ID-MOM-labor",
+   "renewal_of": null,
+   "title_ja": "インドネシア共和国労働省と香川県との間の協力覚書",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "名称は知事週間スケジュールの『…協力覚書調印式』の表記による。正式名称（原文の題名）は未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "香川県",
+   "pref_code": "37",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "労働省",
+   "partner_org_en": "Ministry of Manpower",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2026-01-23",
+   "announced_date": "2026-01-26",
+   "date_note": "知事週間スケジュールで1月23日10時（現地時間）に調印式。1月26日の知事記者会見で、インドネシア訪問（1月22日〜24日、ジャカルタ）中に労働省・移住労働者保護省の2省と覚書を締結したと報告（会見では個別の日付の言及なし）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習"
+   ],
+   "purpose": "県内企業の人材不足への対策として、インドネシアから優秀な人材を受け入れるため（2026年1月19日・26日の知事記者会見の説明）。",
+   "content": [
+    "インドネシアから香川県への人材の交流（今後の送り出し・人材の交流）について（知事記者会見の説明）",
+    "（知事の説明）労働省は技能実習の交流を担当する省",
+    "（知事の説明）県は政府との間で、日本語教育など全体的な協力関係を確認する協定を結んだ（2省の覚書の区別なし）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "知事は今後、インドネシア国内の職業訓練を行う学校に、日本語と香川の地理・気候・習慣などを渡航前に学ぶ講座を設けることを先方政府と詰めていくと説明（2026年1月26日会見）。実施状況は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事週間スケジュール（2026年1月19日～2026年1月25日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/hisho/schedule/2026/20260119.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "1月23日の調印式の予定（現地時間）"
+    },
+    {
+     "id": "s2",
+     "title": "知事記者会見　令和8年1月26日（月曜日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijiteirei/2026/0126.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "インドネシア訪問の成果として2省との覚書締結を報告"
+    },
+    {
+     "id": "s3",
+     "title": "知事記者会見　令和8年1月19日（月曜日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijiteirei/2026/20160119.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "訪問前の会見。訪問の狙い（人材不足対策、政府との協定、現地での日本語講座）を説明。URLは県サイト上の表記のまま（20160119）"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "知事が調印式に出席（知事週間スケジュール）。署名者は資料に明記なし。知事は会見で、先方の大臣・長官などの立ち会いのもとで（2省との）覚書を締結したと説明。同日15時に知事らがインドネシア送り出し機関協会（AP2LN）を訪問し、香川県中小企業団体中央会がAP2LNと協定を締結（県は署名者でないため記録せず）。知事は、県と政府・現場団体の双方と連携する形は香川県が初めてと説明。県の報道発表資料一覧（2025年10月〜2026年10月分）には本件の発表資料は見当たらなかった。原文未確認。"
+  },
+  {
+   "id": "JP-37-005",
+   "group_key": "37:37-ID-KP2MI-labor",
+   "renewal_of": null,
+   "title_ja": "インドネシア共和国移住労働者保護省と香川県との間の協力覚書",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "名称は知事週間スケジュールの『…協力覚書調印式』の表記による。正式名称（原文の題名）は未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "香川県",
+   "pref_code": "37",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "移住労働者保護省",
+   "partner_org_en": "Ministry of Protection of Indonesian Migrant Workers (KP2MI)",
+   "partner_type": "national_ministry",
+   "additional_partners": [],
+   "signed_date": "2026-01-23",
+   "announced_date": "2026-01-26",
+   "date_note": "知事週間スケジュールで1月23日14時（現地時間）に調印式。1月26日の知事記者会見で、インドネシア訪問（1月22日〜24日、ジャカルタ）中に労働省・移住労働者保護省の2省と覚書を締結したと報告（会見では個別の日付の言及なし）。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能"
+   ],
+   "purpose": "県内企業の人材不足への対策として、インドネシアから優秀な人材を受け入れるため（2026年1月19日・26日の知事記者会見の説明）。",
+   "content": [
+    "インドネシアから香川県への人材の交流（今後の送り出し・人材の交流）について（知事記者会見の説明）",
+    "（知事の説明）移住労働者保護省は特定技能の交流を担当する省",
+    "（知事の説明）県は政府との間で、日本語教育など全体的な協力関係を確認する協定を結んだ（2省の覚書の区別なし）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "知事は今後、インドネシア国内の職業訓練を行う学校に、日本語と香川の地理・気候・習慣などを渡航前に学ぶ講座を設けることを先方政府と詰めていくと説明（2026年1月26日会見）。実施状況は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "知事週間スケジュール（2026年1月19日～2026年1月25日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/hisho/schedule/2026/20260119.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "1月23日の調印式の予定（現地時間）"
+    },
+    {
+     "id": "s2",
+     "title": "知事記者会見　令和8年1月26日（月曜日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijiteirei/2026/0126.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "インドネシア訪問の成果として2省との覚書締結を報告"
+    },
+    {
+     "id": "s3",
+     "title": "知事記者会見　令和8年1月19日（月曜日）",
+     "publisher": "香川県",
+     "url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijiteirei/2026/20160119.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "訪問前の会見。訪問の狙い（人材不足対策、政府との協定、現地での日本語講座）を説明。URLは県サイト上の表記のまま（20160119）"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "知事が調印式に出席（知事週間スケジュール）。署名者は資料に明記なし。知事は会見で、同省は省内の合意形成・調整がやや遅れていたが、知事の訪問に合わせて調整がつき締結に至ったと説明。同日15時に知事らがインドネシア送り出し機関協会（AP2LN）を訪問し、香川県中小企業団体中央会がAP2LNと協定を締結（県は署名者でないため記録せず）。知事は、県と政府・現場団体の双方と連携する形は香川県が初めてと説明。県の報道発表資料一覧（2025年10月〜2026年10月分）には本件の発表資料は見当たらなかった。原文未確認。"
   }
  ]
 }

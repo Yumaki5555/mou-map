@@ -117,46 +117,78 @@
    "id": "JP-16-003",
    "group_key": "16:16-IN-AndhraPradesh-exchange",
    "renewal_of": null,
-   "title_ja": "富山県とインド・アンドラ・プラデシュ州との交流・協力に関する覚書（MOU）（正式名称未確認）",
+   "title_ja": "日本国富山県とインド共和国アンドラプラデシュ州の交流・協力に関する覚書",
    "title_original": "",
    "doc_type": "MOU",
    "doc_type_note": "",
    "japan_level": "prefecture",
    "japan_org": "富山県",
    "pref_code": "16",
-   "japan_signatory": "",
+   "japan_signatory": "知事 石井隆一",
    "other_japan_parties": [],
    "country_code": "IN",
    "partner_org": "アンドラ・プラデシュ州政府",
    "partner_org_en": "Government of Andhra Pradesh",
    "partner_type": "subnational_gov",
    "additional_partners": [],
-   "signed_date": null,
+   "signed_date": "2015-12-11",
    "announced_date": "",
-   "date_note": "JETRO記事（2026年2月13日）が、富山県がAP州との交流・協力に関するMOUを更新したと記載（2024年12月24日付記事への言及あり）。当初締結日・更新日とも未確認",
+   "date_note": "2015年10月にAP州訪問団が来県して新たな交流協定を提案、12月11日に締結。翌日の日印首脳会談の共同声明で言及（県ページ）。2024年12月21日に再締結（R3-16-01）",
    "fields": [
     "economy",
-    "other"
+    "tourism",
+    "education"
    ],
    "labor_detail": [],
-   "purpose": "経済、文化、人的交流などでの協力（JETRO記事）。",
-   "content": [],
-   "validity": "未確認",
+   "purpose": "両者の友好関係と連帯及び協力の絆を強化し、相互の協力と発展のため、経験、知識、方法論や技術の交換を増加・促進する（前文）。",
+   "content": [
+    "経済交流、医薬品産業、文化交流、観光交流、人的及び学術交流の分野で交流及び協力（第2項）",
+    "締結後3か月以内に協力活動の調整・実行・評価を行う管轄機関を指定（第3項）",
+    "費用は各自負担（第8項）。運営委員会／ワーキンググループを設置できる（第9項）。連絡先はAP州財務省、富山県観光・地域振興局"
+   ],
+   "validity": "署名されてから効力を発し、署名日から3年間有効（第11項）",
    "validity_type": "unconfirmed",
    "valid_until": null,
-   "renewal_terms": "未確認",
-   "legal_binding": "unconfirmed",
+   "renewal_terms": "両者の書面による同意に基づいて延長が可能（第11項）。終了日の3か月前に書面で通知すればいつでも終了できる（第6項）",
+   "legal_binding": "not_binding",
    "legal_binding_note": "",
    "status": "unknown",
-   "status_note": "",
+   "status_note": "有効期間は署名日から3年（延長可）。延長の有無は未確認。県は2015年の締結以来、訪問、CIR配置、学生交流などを進めてきたと説明。2024年12月21日に再締結（R3-16-01）",
    "projects": [],
    "budgets": [],
    "impacts": [],
-   "original_text": "unconfirmed",
-   "evidence_level": "news_only",
+   "original_text": "public",
+   "evidence_level": "original_text",
    "sources": [
     {
      "id": "s1",
+     "title": "友好提携の経緯（アンドラプラデシュ州）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/140611/kurashi/kyousei/kokusai/yuukoutochi/kj00017333/kj00017333-001-01.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "交流・協力に関する覚書（2015）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/documents/9717/01449425.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "日本語版原文（署名入りの画像PDF。画像化して全4ページを確認）"
+    },
+    {
+     "id": "s3",
+     "title": "日本・インドの地方自治体間交流とその発展可能性（2017年）",
+     "publisher": "自治体国際化協会（CLAIR）シンガポール事務所",
+     "url": "https://www.clair.org.sg/j/wp-content/uploads/2018/03/201709-IN-jichitaikankouryu.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『2015年12月 富山県－アンドラプラデシュ州 交流・協力に関する覚書』と一覧に記載"
+    },
+    {
+     "id": "s4",
      "title": "JETROビジネス短信（2026年2月13日）",
      "publisher": "日本貿易振興機構（JETRO）",
      "url": "https://www.jetro.go.jp/biznews/2026/02/075f07560a8689ca.html",
@@ -167,7 +199,358 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。県の一次資料は未確認。"
+   "notes": "第2段階（他分野）。県公開の原文で確認。AP州側の署名者は州首相 ナラ・チャンドラバブ・ナイドゥ。（2026-10-27の再調査で、公式資料にもとづき正式名称・締結日・日付の補足・署名者・分野・目的・合意内容・有効期間・更新条件・法的拘束力・実施状況・原文・確認の根拠・情報源を修正・追加）"
+  },
+  {
+   "id": "JP-16-004",
+   "group_key": "16:16-CN-Liaoning-exchange",
+   "renewal_of": null,
+   "title_ja": "日本国富山県と中華人民共和国遼寧省の交流と協力の深化に関する覚書",
+   "title_original": "中华人民共和国辽宁省与日本国富山县深化友好交流与合作备忘录",
+   "doc_type": "覚書",
+   "doc_type_note": "友好県省（1984年5月9日締結）の関係の下で結ばれた覚書",
+   "japan_level": "prefecture",
+   "japan_org": "富山県",
+   "pref_code": "16",
+   "japan_signatory": "知事 石井隆一",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "遼寧省",
+   "partner_org_en": "Liaoning Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2018-08-06",
+   "announced_date": "",
+   "date_note": "原文に『本覚書は2018年8月6日に遼寧省瀋陽市で調印』。日中平和友好条約締結40周年の友好代表団派遣時",
+   "fields": [
+    "economy",
+    "tourism",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "日中平和友好条約締結40周年に際し、交流と協力を継続するとともに、経済・貿易、観光、人的・文化交流の分野で一層の交流と協力を深める。",
+   "content": [
+    "経済・貿易の分野での交流促進：展示商談会や投資セミナーの開催、企業ミッションの相互派遣、各種情報の提供などにより経済交流を活性化",
+    "観光・交流の促進：観光説明会の実施や観光事業者の相互訪問、富山—大連便の利用促進と増便",
+    "人的及び文化交流の推進：国際交流員の派遣・職員交換、経済・貿易連絡員の相互配置、芸術祭・食・工芸を含む文化交流"
+   ],
+   "validity": "記載なし",
+   "validity_type": "not_stated",
+   "valid_until": null,
+   "renewal_terms": "記載なし",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "2024年5月15日に後継の『交流と協力のさらなる強化に関する覚書』を締結（R3-16-03）",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "これまでの交流状況（中華人民共和国・遼寧省）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/1018/kurashi/kyousei/kokusai/yuukoutochi/kj00001008/kj00001008-002-01.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "交流と協力の深化に関する覚書（2018年）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/documents/9647/01461606.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "日本語・中国語の署名入り画像PDF（画像化して確認）"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。遼寧省は友好提携先だが、正式名称が『覚書』のため記録。遼寧省側署名者は省長 唐一軍。"
+  },
+  {
+   "id": "JP-16-005",
+   "group_key": "16:16-US-Oregon-economy",
+   "renewal_of": null,
+   "title_ja": "経済分野等における交流と協力に関する覚書（富山県・オレゴン州）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "友好提携（1991年）30周年の訪問時に締結",
+   "japan_level": "prefecture",
+   "japan_org": "富山県",
+   "pref_code": "16",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "US",
+   "partner_org": "オレゴン州",
+   "partner_org_en": "State of Oregon",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2022-08",
+   "announced_date": "",
+   "date_note": "県ページ（2023年）に『2022年には、友好提携30周年を記念して、富山県から私（新田知事）をトップとした友好訪問団がオレゴン州を訪問し、その際に覚書を締結』。訪問日程（2022年7月31日〜8月8日、州内行事は8月1〜5日）から2022年8月と判断。日付は未確認",
+   "fields": [
+    "economy",
+    "education",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "経済分野等における交流と協力（県ページ。条文は未確認）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "2023年12月の両県州知事オンライン懇談で、覚書に基づき経済・人的交流・観光の分野で交流を進めることを確認。オレゴン州知事は『経済、観光、教育の分野』での交流に言及",
+   "projects": [
+    {
+     "name": "オレゴンカップ英語プレゼンテーションコンテスト、ポートランド起業・ビジネス研修",
+     "fiscal_year": "2023",
+     "detail": "友好提携30周年を契機に開始と県ページに記載（覚書との関係は明記なし）",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "【2023年】富山県知事・オレゴン州知事オンライン懇談",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/1018/kurashi/kyousei/kokusai/yuukoutochi/kj00000741/governor_oregon_online_meeting.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "【2021年】友好提携30周年記念 富山県知事・オレゴン州知事オンライン懇談",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/1018/kurashi/kyousei/kokusai/yuukoutochi/kj00000741/kj00000741-008-01.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "知事が経済協力枠組みの覚書を結びたいと伝えた（締結前）"
+    },
+    {
+     "id": "s3",
+     "title": "富山県・オレゴン州 友好提携30周年記念友好訪問団の派遣",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/documents/26623/shiryou04.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "訪問日程"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。オレゴン州は友好提携先だが、正式名称が『覚書』のため記録。署名者は県ページに明記なし（当時のオレゴン州知事はケイト・ブラウン氏、2023年の懇談でコテック知事が『前知事から引き継いだ覚書』と発言）。"
+  },
+  {
+   "id": "JP-16-006",
+   "group_key": "16:16-CN-Liaoning-exchange",
+   "renewal_of": "JP-16-004",
+   "title_ja": "日本国富山県と中華人民共和国遼寧省の交流と協力のさらなる強化に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "友好県省締結40周年の覚書。2018年の覚書の後継（更新条項による更新ではない）",
+   "japan_level": "prefecture",
+   "japan_org": "富山県",
+   "pref_code": "16",
+   "japan_signatory": "知事 新田八朗",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "遼寧省",
+   "partner_org_en": "Liaoning Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2024-05-15",
+   "announced_date": "",
+   "date_note": "原文に『この覚書は2024年5月15日に遼寧省瀋陽市で署名』。県の訪問団日程表でも5月15日に覚書署名式",
+   "fields": [
+    "economy",
+    "tourism",
+    "disaster_env",
+    "education",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "友好県省締結40周年に際し、友好関係をさらに増進し、実務協力を促進する。",
+   "content": [
+    "ハイレベル相互往来の促進",
+    "経済貿易協力の強化：展示商談会や投資セミナー、研究会の開催、企業ミッションの相互派遣・出展",
+    "協力分野の深化および開拓：環境と氷雪分野の交流協力。環境分野での連絡協力の仕組みの構築と定期的な意見交換、氷雪観光・ウインタースポーツなどでの実務協力",
+    "人的・文化交流の推進：富山—大連便の復便の推進、青少年の相互訪問、日本語・中国語学習者の支援、芸術祭や書画展などによる文化交流"
+   ],
+   "validity": "記載なし",
+   "validity_type": "not_stated",
+   "valid_until": null,
+   "renewal_terms": "記載なし",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "",
+   "status": "signed",
+   "status_note": "同じ訪問で議会・経済・民間交流の各団体間でも覚書に署名（県ページ）。県の覚書に基づく具体事業は未確認",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "これまでの交流状況（中華人民共和国・遼寧省）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/1018/kurashi/kyousei/kokusai/yuukoutochi/kj00001008/kj00001008-002-01.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "交流と協力のさらなる強化に関する覚書（2024年）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/documents/9647/202405oboegaki.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "署名入り画像PDF。日本語版2ページを画像化して確認"
+    },
+    {
+     "id": "s3",
+     "title": "富山県・遼寧省友好県省締結40周年記念友好訪問団 日程表・名簿",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/documents/40927/shiryou01-2.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "第2段階（他分野）。遼寧省側署名者は省長 李楽成。"
+  },
+  {
+   "id": "JP-16-007",
+   "group_key": "16:16-IN-AndhraPradesh-exchange",
+   "renewal_of": "JP-16-003",
+   "title_ja": "日本国富山県とインド共和国アンドラプラデシュ州の交流・協力に関する覚書",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "2015年12月11日に締結した同名の覚書の再締結（県は『再締結』と表記）",
+   "japan_level": "prefecture",
+   "japan_org": "富山県",
+   "pref_code": "16",
+   "japan_signatory": "知事 新田八朗",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "アンドラ・プラデシュ州政府",
+   "partner_org_en": "Government of Andhra Pradesh",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2024-12-21",
+   "announced_date": "",
+   "date_note": "原文に『2024年12月21日、アンドラプラデシュ州で英語及び日本語それぞれ二通の原本に署名』。県の派遣結果資料では12月21日にAP州政府オフィスでMOU再締結",
+   "fields": [
+    "economy",
+    "education",
+    "tourism",
+    "labor"
+   ],
+   "labor_detail": [
+    "人材確保関係者の招へい（経済交流の項目の一つ）",
+    "デジタル分野での人材育成・人的交流に向けた情報交換"
+   ],
+   "purpose": "両者の友好関係と連帯及び協力の絆を強化し、相互の協力と発展のため、経験、知識、方法論や技術の交換を増加・促進する（前文）。",
+   "content": [
+    "経済交流：経済関係者の派遣・受入れ、双方の商談会・イベント等開催時の支援、バイヤー・人材確保関係者の招へい",
+    "文化交流：文化使節団の派遣・受入れ、双方で実施する文化芸術祭・展示会への参加",
+    "人的及び学術交流：県費留学生、学生・教職員の短期招へいの継続的実施及び観光による人的交流の推進、大学及び高等教育機関が連携して行う研究教育活動への支援",
+    "デジタル分野での人材交流：デジタル分野での人材育成・人的交流に向けた情報交換（2024年の再締結で新たに追加）",
+    "医薬品分野に関する交流：医薬品の研究開発、製造技術の分野における経験値の交流の推進",
+    "締結後3か月以内に協力活動の調整・実行・評価を行う管轄機関を指定（第3項）",
+    "費用は各自負担（第8項）。運営委員会／ワーキンググループを設置できる（第9項）。連絡先はAP州商工業・食品加工省、富山県生活環境文化部"
+   ],
+   "validity": "署名した日に効力を発し、5年間有効（第11項）",
+   "validity_type": "fixed",
+   "valid_until": "2029-12-20",
+   "valid_until_note": "締結日（2024-12-21）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
+   "renewal_terms": "両者の書面による合意により期間を延長して更新できる（第11項）。終了日の3か月前に書面で通知すればいつでも終了できる（第6項）",
+   "legal_binding": "not_binding",
+   "legal_binding_note": "第7項『両者は、本覚書が法的な拘束を伴う、または意図するものではなく、正式な契約を構成するものではないことを認める』",
+   "status": "signed",
+   "status_note": "再締結時に富山県立大学とアンドラ大学の協定締結に向けた協議促進を確認（県資料）。覚書に基づく具体事業の実施状況は未確認",
+   "projects": [
+    {
+     "name": "大阪・関西万博 富山・インドデー（国際交流セレモニー）",
+     "fiscal_year": "2025",
+     "detail": "2025年6月27日、万博インドパビリオンで開催。県資料は『R6.12 AP州とのMOU再締結』を背景として記載（覚書に基づく事業かどうかの明記はない）",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "友好提携の経緯（アンドラプラデシュ州）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/140611/kurashi/kyousei/kokusai/yuukoutochi/kj00017333/kj00017333-001-01.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "2024年12月のインド経済訪問団派遣にあわせて再締結、『デジタル分野での人材交流』を新たに進めると記載"
+    },
+    {
+     "id": "s2",
+     "title": "交流・協力に関する覚書（2024）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/documents/9717/2024_mou_jp.pdf",
+     "type": "original_text",
+     "checked": "2026-10-27",
+     "note": "日本語版原文（署名入りの画像PDF。画像化して全4ページを確認）"
+    },
+    {
+     "id": "s3",
+     "title": "富山県インド経済訪問団の派遣結果について（2024年12月19日〜24日）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/documents/46949/hakennkekka.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "富山県インド経済訪問団（概要資料）",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/documents/45086/shiryou01.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s5",
+     "title": "大阪・関西万博 富山・インドデーの開催について",
+     "publisher": "富山県",
+     "url": "https://www.pref.toyama.jp/documents/47879/siryo03.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "AP州側の署名者は商工業・食品加工省長官 N. YUVARAJ。主目的は経済・文化・学術交流で、外国人材の受入れだけを定めた覚書ではない。『人材確保関係者の招へい』と『デジタル分野での人材交流』の条項があるため、副分野としてlaborを付けた。県の派遣結果資料は、成果の別項目『人材育成・人材確保』に、インドからの高度外国人材の受入れに向けて『とやま外国人活用支援デスク』の連携企業にインド人材に強い人材紹介会社を追加したことを記載している（覚書の条項としての記載ではない）。group_key は merge.py の規則（県コードの接頭辞は後で付く）に合わせて接頭辞なしで記載。"
   }
  ]
 }

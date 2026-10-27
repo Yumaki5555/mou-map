@@ -1,0 +1,178 @@
+{
+ "note": "山形県のMOU",
+ "mous": [
+  {
+   "id": "JP-06-001",
+   "group_key": "06:06-MN-NewMongolAcademy-hr",
+   "renewal_of": null,
+   "title_ja": "協力に関する覚書（山形県・国立大学法人山形大学・新モンゴル学園）",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "県の報道発表では「協力に関する覚書」、山形大学の発表では「ＭＯＵ（協力覚書）」と表記。三者による覚書。",
+   "japan_level": "prefecture",
+   "japan_org": "山形県",
+   "pref_code": "06",
+   "japan_signatory": "",
+   "other_japan_parties": [
+    "国立大学法人山形大学"
+   ],
+   "country_code": "MN",
+   "partner_org": "新モンゴル学園",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2025-09-03",
+   "announced_date": "2025-09-03",
+   "date_note": "2025年8月29日の知事定例記者会見で、9月2日～5日のモンゴル国（ウランバートル市）訪問時に締結すると発表。締結日9月3日は山形大学のプレスリリース（掲載日2025年9月3日）による。9月10日の知事定例記者会見で締結を報告。",
+   "fields": [
+    "education",
+    "labor"
+   ],
+   "labor_detail": [
+    "留学生の受入れ・県内就職",
+    "高度人材",
+    "インターンシップ"
+   ],
+   "purpose": "山形県及びモンゴル国の発展に寄与する若手人材の育成に協力して取り組むため（県報道発表）。県は、産業分野における人手不足解消、高度人材受入による生産性の向上やイノベーションの創出を目指し、生徒・学生の交流等を通した人材育成や県内就職に向けた交流機会の拡大等を図るものとしている（産業労働部報道発表）。",
+   "content": [
+    "生徒・学生の交流事業の推進",
+    "留学促進のための情報発信や受入環境づくりの推進",
+    "新モンゴル学園出身生と山形県産業界との交流機会の拡大、キャリア教育の推進",
+    "その他、経済や文化交流等、目的達成に必要な取組みの推進"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "覚書の原文は未確認。",
+   "status": "in_progress",
+   "status_note": "締結後、留学説明会や県内企業を紹介するセミナーの開催などを実施（2026年9月2日県報道発表）。2026年3月に産業労働部がモンゴル高度人材の獲得に向けたセミナーを開催。",
+   "projects": [
+    {
+     "name": "モンゴル高度人材の獲得に向けたセミナー～新モンゴル学園等との連携による未来の可能性～",
+     "fiscal_year": "2025",
+     "detail": "2026年3月25日、山形県高度技術研究開発センターで開催（産業労働部産業技術イノベーション課）。新モンゴル学園の概要の共有と県内企業のモンゴル人材活用事例の紹介により、モンゴルからの高度人材の受入促進の可能性を探る。",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "name": "留学説明会・県内企業を紹介するセミナーの開催",
+     "fiscal_year": "2025",
+     "detail": "覚書締結後、新モンゴル学園との交流として実施したと県が説明（開催日・回数の記載なし）。",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "name": "新モンゴル学園の生徒等と県立山形西高等学校との交流",
+     "fiscal_year": "2026",
+     "detail": "新モンゴル学園の生徒等が2026年9月5日～9日に来県し、9月8日に県立山形西高等学校で歓迎セレモニー・生徒交流・日本文化体験を行う予定（みらい企画創造部の報道発表）。",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [
+    {
+     "category": "employment",
+     "stage": "agreed",
+     "text": "新モンゴル学園出身生と山形県産業界との交流機会の拡大、キャリア教育の推進に合意（覚書の協力事項）。県は将来的にモンゴルの若手人材が県内で就職・定着することを目指すとしている。",
+     "value": null,
+     "unit": "",
+     "fiscal_year": "2025",
+     "causality": "n/a",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "category": "population",
+     "stage": "agreed",
+     "text": "留学促進のための情報発信や受入環境づくりの推進に合意（覚書の協力事項）。知事は覚書締結を契機に本県への留学生の増加を期待すると発言。",
+     "value": null,
+     "unit": "",
+     "fiscal_year": "2025",
+     "causality": "n/a",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   ],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "山形大学、山形県、新モンゴル学園がＭＯＵ（協力覚書）締結 ～山形とモンゴルの両地域で活躍する若手人材の育成に向けて～（プレスリリース、2025年9月3日）",
+     "publisher": "国立大学法人山形大学",
+     "url": "https://www.yamagata-u.ac.jp/jp/information/press/20250903_01/",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "締結日・協力事項を確認"
+    },
+    {
+     "id": "s2",
+     "title": "知事記者会見 令和7年8月29日 テキスト版（発表事項：知事のモンゴル国訪問について）",
+     "publisher": "山形県",
+     "url": "https://www.pref.yamagata.jp/documents/48267/20250829.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "9月2日～5日の訪問で三者の協力覚書を締結する予定と発表"
+    },
+    {
+     "id": "s3",
+     "title": "知事記者会見 令和7年9月10日 テキスト版（発表事項：モンゴル国訪問の実施結果について）",
+     "publisher": "山形県",
+     "url": "https://www.pref.yamagata.jp/documents/48546/20250910.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "締結の報告。『本県が留学生の受入拡大等に関して海外の教育機関と協力覚書を締結したのは、今回が初めて』"
+    },
+    {
+     "id": "s4",
+     "title": "「モンゴル高度人材の獲得に向けたセミナー～新モンゴル学園等との連携による未来の可能性～」を開催します（2026年3月6日、産業労働部産業技術イノベーション課）",
+     "publisher": "山形県",
+     "url": "https://www.pref.yamagata.jp/110002/20260325_mongolia_seminar.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "PDF版 https://www.pref.yamagata.jp/documents/51279/20260306pressrelease_mongolia_workshop.pdf も確認"
+    },
+    {
+     "id": "s5",
+     "title": "新モンゴル学園と県立山形西高等学校との交流について（2026年9月2日、みらい企画創造部）",
+     "publisher": "山形県",
+     "url": "https://www.pref.yamagata.jp/020040/mongolia/260902.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "令和7年9月に『協力に関する覚書』を締結し、留学説明会や県内企業を紹介するセミナーを開催してきたと記載。PDF https://www.pref.yamagata.jp/documents/54078/20260902pressrelease.pdf"
+    },
+    {
+     "id": "s6",
+     "title": "これまでの主な活動 2025年9月（9月2日～5日 モンゴル訪問）",
+     "publisher": "山形県",
+     "url": "https://www.pref.yamagata.jp/020026/kensei/governor/schedule/omonakatsudou/2025/2025sep.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s7",
+     "title": "山形県の国際化の現状（令和7年11月）全体版（1-1 山形県多文化共生推進プランの概要：重点プロジェクト(1)モンゴルからの人材受入推進）",
+     "publisher": "山形県",
+     "url": "https://www.pref.yamagata.jp/documents/28145/genjo-total_2025_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "この資料には覚書自体の記載はない"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-27",
+   "notes": "署名者の役職・氏名は資料に明記がない（知事が山形大学・経済団体・企業関係者とともにモンゴルを訪問し、その際に締結）。山形大学と新モンゴル学園は2015年に大学間交流協定を締結済みで、今回は県を加えた三者の覚書。新モンゴル学園は小中高一貫校・工科大学・高専などを運営するモンゴルの教育機関（山形大学の発表による）。県の多文化共生推進プラン（令和7年3月策定）の重点プロジェクト『モンゴルからの人材受入推進』に対応。"
+  }
+ ]
+}

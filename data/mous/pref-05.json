@@ -256,7 +256,7 @@
    "partner_org_en": "Ministry of Industry",
    "partner_type": "national_ministry",
    "additional_partners": [],
-   "signed_date": null,
+   "signed_date": "2013-10",
    "announced_date": "",
    "date_note": "県ページに「平成25年度」締結とのみ記載",
    "fields": [
@@ -287,11 +287,20 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "s2",
+     "title": "再調査で確認した資料",
+     "publisher": "",
+     "url": "https://www.pref.akita.lg.jp/pages/archive/7639",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称・締結日未確認（平成25年度＝2013年4月〜2014年3月）。"
+   "notes": "正式名称・締結日未確認（平成25年度＝2013年4月〜2014年3月）。（2026-10-27の再調査で、公式資料にもとづき締結日を修正・追加）"
   }
  ]
 }

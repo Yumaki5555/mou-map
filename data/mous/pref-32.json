@@ -62,11 +62,20 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "鳥取県側も1991年『友好交流に関する覚書』と記載。"
+    },
+    {
+     "id": "s3",
+     "title": "再調査で確認した資料",
+     "publisher": "",
+     "url": "https://www.pref.tottori.lg.jp/254957.htm",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "再調査で追加"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "3者署名の1文書のため島根県の記録として1件のみ登録（鳥取県分を兼ねる）。鳥取県は2010年に沿海地方と『友好交流及び協力に関する協定』を締結（友好提携として対象外）。"
+   "notes": "3者署名の1文書のため島根県の記録として1件のみ登録（鳥取県分を兼ねる）。鳥取県は2010年に沿海地方と『友好交流及び協力に関する協定』を締結（友好提携として対象外）。（2026-10-27の再調査で、公式資料にもとづきother_japan_partiesを修正・追加）"
   },
   {
    "id": "JP-32-002",
@@ -366,6 +375,92 @@
    "survey_stage": 2,
    "last_checked": "2026-10-27",
    "notes": "正式名称未確認。"
+  },
+  {
+   "id": "JP-32-007",
+   "group_key": "32:32-VN-VietnamAirlines-route",
+   "renewal_of": null,
+   "title_ja": "国際定期便就航に向けた覚書（島根県・ベトナム航空）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県の発表は『覚書・連携協定』『覚書等』（2文書）。どの文書が誰との間のものかは発表資料で特定できない",
+   "japan_level": "prefecture",
+   "japan_org": "島根県",
+   "pref_code": "32",
+   "japan_signatory": "知事 丸山達也",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム航空（日本支社）",
+   "partner_org_en": "Vietnam Airlines",
+   "partner_type": "company",
+   "additional_partners": [],
+   "signed_date": "2023-12-13",
+   "announced_date": "2023-12-12",
+   "date_note": "2023年12月12日のプレスリリースで、12月13日15:40から県庁で締結式（丸山知事、ベトナム航空日本支社ゴー・シー・アイン総支配人、株式会社エムエスツーリスト）と発表。2025年6月の県資料が『令和６年５月２５日、ベトナム航空と島根県が締結した覚書に基づくチャーター初便』と記載しており、締結を確認。",
+   "fields": [
+    "tourism",
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "観光分野等での相互協力と緊密な連携を通じた、島根・ベトナム間における国際定期便の就航実現（県の発表）。",
+   "content": [
+    "観光分野等での相互協力と緊密な連携",
+    "島根・ベトナム間の国際定期便の就航実現に向けて相互に必要な取組を進める"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "覚書に基づくチャーター初便（出雲－ハノイ）が2024年5月25日に運航。その後もベトナム航空の第2便（2025年3月）や、ホーチミン・ハノイと出雲を結ぶチャーター便（2025〜2026年度）の運航が県の報道発表の表題で確認できる（第2便以外は運航会社・覚書との関係を表題からは確認できない）。定期便の就航は未確認。",
+   "projects": [
+    {
+     "name": "ベトナム航空による出雲－ハノイ国際チャーター便",
+     "fiscal_year": "2024",
+     "detail": "2024年5月25日の初便に駐日ベトナム大使が記念式典で来県（2025年6月の県資料）。",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム航空及び株式会社エムエスツーリストと国際定期便就航に向けた覚書・連携協定を締結します（プレスリリース 令和5年12月12日）",
+     "publisher": "島根県",
+     "url": "https://www.pref.shimane.lg.jp/press_release/2023/ws5jx20gr5co.data/9a764e8b5895cbc8.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "ページ https://www.pref.shimane.lg.jp/press_release/2023/ws5jx20gr5co.html"
+    },
+    {
+     "id": "s2",
+     "title": "駐日ベトナム社会主義共和国特命全権大使の知事表敬訪問（報道発表資料 令和7年6月26日）",
+     "publisher": "島根県",
+     "url": "https://www.pref.shimane.lg.jp/press_release/2025/5iurvodnrn8e.data/48083139d1a0b745.pdf",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "覚書に基づくチャーター初便への言及"
+    },
+    {
+     "id": "s3",
+     "title": "報道発表一覧（令和6〜8年度）",
+     "publisher": "島根県",
+     "url": "https://www.pref.shimane.lg.jp/press_release/2024/",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "チャーター便関係の表題を確認（/2025/、/2026/ も同様）"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "正式名称は未確認。相手は外国企業（航空会社）。国内企業の株式会社エムエスツーリストも締結式に参加し『覚書・連携協定』を結んでいるが、どの文書の署名者かは未確認のため other_japan_parties には入れていない。"
   }
  ]
 }

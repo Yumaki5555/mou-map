@@ -111,6 +111,250 @@
    "survey_stage": 2,
    "last_checked": "2026-10-27",
    "notes": "正式名称は報道（NDL）での表現。"
+  },
+  {
+   "id": "JP-03-003",
+   "group_key": "03:03-CN-Dalian-region",
+   "renewal_of": null,
+   "title_ja": "地域間連携の推進に係る協定（岩手県・大連市）",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "協定。県のページの表記『地域間連携の推進に係る協定』による。",
+   "japan_level": "prefecture",
+   "japan_org": "岩手県",
+   "pref_code": "03",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "大連市（遼寧省）",
+   "partner_org_en": "Dalian City",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2007",
+   "announced_date": "",
+   "date_note": "県のページに『平成19年に中国大連市と「地域間連携の推進に係る協定」を結びました』とある（月日の記載なし）。",
+   "fields": [
+    "economy",
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "大連市との地域間連携の推進（詳細な目的の記載は確認できず）。",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "県は岩手県大連経済事務所を設置し、連携協定等に基づき経済文化交流、青少年交流などを進めているとしている（多文化共生推進プラン素案）。2024年5月の知事訪問時に大連市と『友好交流に関する協定や覚書を新たに結んだ』と説明があるが、本協定との関係は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "中国・遼寧省大連市の紹介（岩手県協定提携都市の紹介）",
+     "publisher": "岩手県",
+     "url": "https://www.pref.iwate.jp/kyouikubunka/kokusai/kokusaikouryu/1006924/1006925.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "更新日 平成31年2月20日"
+    },
+    {
+     "id": "s2",
+     "title": "岩手県多文化共生推進プラン（2025～2029）（仮称）素案",
+     "publisher": "岩手県",
+     "url": "https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/079/200/soan.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "p.18『岩手県大連経済事務所及び岩手県雲南事務所を設置しており、連携協定等に基づき、経済文化交流、青少年交流などを進めています』"
+    },
+    {
+     "id": "s3",
+     "title": "令和6年5月31日知事会見記録",
+     "publisher": "岩手県",
+     "url": "https://www.pref.iwate.jp/governor/kaiken/1073329/1073395/1074927.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "大連市との間で経済・貿易・文化・観光分野での協力拡大を確認"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "外国人材・労働関係ではない。登録済み JP-03-001（プーアル市との地域間連携協定）と同種の文書として記録。検索結果の抜粋では外務省の資料に『岩手県と大連市の地域間連携の強化に関する協定』（職員の相互派遣交流を含む）があるとされるが、資料を開けず未確認。"
+  },
+  {
+   "id": "JP-03-004",
+   "group_key": "03:03-CN-Liaoning-friendship-mou",
+   "renewal_of": null,
+   "title_ja": "友好交流と協力の強化に関する覚書（岩手県・遼寧省）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "名称は知事会見での表現（令和7年5月30日）。正式名称は未確認。知事は『去年の協定文書の改定版（覚書）』とも述べている。",
+   "japan_level": "prefecture",
+   "japan_org": "岩手県",
+   "pref_code": "03",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "遼寧省",
+   "partner_org_en": "Liaoning Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2024-05",
+   "announced_date": "2024-05-31",
+   "date_note": "知事の中国出張（2024年5月17日～24日、大連市・瀋陽市ほか）の際に締結。正確な締結日は未確認。announced_date は訪問結果を説明した知事会見の日。",
+   "fields": [
+    "other",
+    "tourism"
+   ],
+   "labor_detail": [],
+   "purpose": "遼寧省との友好交流と協力の強化（知事会見の説明による）。",
+   "content": [
+    "短期研修を含む公務員相互派遣を展開する（令和6年5月31日知事会見）",
+    "ウインタースポーツ等の冬季観光を通じた交流人口の拡大に努める（同）",
+    "ウインタースポーツに関する民間同士の連携を自治体としても支援する（令和7年5月30日知事会見での説明）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "令和7年に遼寧省の公務員が来県し約1か月勤務（知事会見）。2025年6月10日～14日に知事が遼寧省を訪問し、覚書に基づく友好交流の取組について意見交換する予定と発表。",
+   "projects": [
+    {
+     "name": "遼寧省との公務員の人事交流",
+     "fiscal_year": "2025",
+     "detail": "今年（2025年）に入って遼寧省の公務員が岩手に来て1か月くらい働いて帰るということをやっている、と知事が説明。",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "name": "いわてウインターリゾート協議会と遼寧省・大連市の団体との覚書締結への知事の立会い",
+     "fiscal_year": "2025",
+     "detail": "2025年6月の知事の遼寧省訪問時に予定（覚書の当事者は県ではなく協議会と現地のスキー協会・温泉観光協会等）。",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "令和6年5月10日知事会見記録（知事の中国出張について）",
+     "publisher": "岩手県",
+     "url": "https://www.pref.iwate.jp/governor/kaiken/1073329/1073395/1074325.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "出張日程（5月17日～24日）と目的"
+    },
+    {
+     "id": "s2",
+     "title": "令和6年5月31日知事会見記録（中国出張の所感・成果）",
+     "publisher": "岩手県",
+     "url": "https://www.pref.iwate.jp/governor/kaiken/1073329/1073395/1074927.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "『大連市と遼寧省との関係ですけれども、それぞれ友好交流に関する協定や覚書を新たに結びまして』、遼寧省とは公務員相互派遣と冬季観光を覚書に定めたと説明"
+    },
+    {
+     "id": "s3",
+     "title": "令和7年5月30日知事会見記録（知事の中国出張について）",
+     "publisher": "岩手県",
+     "url": "https://www.pref.iwate.jp/governor/kaiken/1082473/1082507/1086070.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "『昨年5月に本県が遼寧省と締結した友好交流と協力の強化に関する覚書』"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "外国人材・労働関係ではない（公務員の相互派遣・冬季観光）。知事は2024年5月17日の会見で『遼寧省とは既に友好協力協定を結んで』いると述べており、この覚書はそれに基づく文書の改定版にあたる（以前の友好協力協定は友好提携の協定として対象外）。"
+  },
+  {
+   "id": "JP-03-005",
+   "group_key": "03:03-CN-Dalian-staff-training",
+   "renewal_of": null,
+   "title_ja": "公務員交流研修覚書（岩手県・大連市政府）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県のページの表記による。正式名称は未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "岩手県",
+   "pref_code": "03",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CN",
+   "partner_org": "大連市政府",
+   "partner_org_en": "Dalian Municipal Government",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "date_note": "締結年は不明（県のページ（更新日 平成31年2月20日）に記載あり）。2024年5月の知事の大連訪問の際に『公務員相互交流研修の更新を含めた友好交流の拡大を確認』する予定と発表（令和6年5月10日知事会見）。",
+   "fields": [
+    "other"
+   ],
+   "labor_detail": [],
+   "purpose": "公務員の交流研修（大連市からの研修生の受入れ）。",
+   "content": [
+    "大連市からの研修生を毎年受け入れる（県のページの説明）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "in_progress",
+   "status_note": "県のページで『毎年、大連市からの研修生を受け入れています』と説明。",
+   "projects": [
+    {
+     "name": "大連市からの公務員研修生の受入れ",
+     "fiscal_year": "",
+     "detail": "毎年、大連市からの研修生を受け入れている（県のページ）。",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "中国・遼寧省大連市の紹介（岩手県協定提携都市の紹介）",
+     "publisher": "岩手県",
+     "url": "https://www.pref.iwate.jp/kyouikubunka/kokusai/kokusaikouryu/1006924/1006925.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『中国大連市政府との間で「公務員交流研修覚書」を交わし、毎年、大連市からの研修生を受け入れています』"
+    },
+    {
+     "id": "s2",
+     "title": "令和6年5月10日知事会見記録（知事の中国出張について）",
+     "publisher": "岩手県",
+     "url": "https://www.pref.iwate.jp/governor/kaiken/1073329/1073395/1074325.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "『公務員相互交流研修の更新を含めた友好交流の拡大を確認します』（予定）"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-27",
+   "notes": "外国人材・労働関係ではない（公務員の交流研修）。2024年5月に更新されたかどうかは、訪問後の会見（5月31日）で大連市と『協定や覚書を新たに結んだ』との説明があるのみで、どの文書かは未確認。"
   }
  ]
 }

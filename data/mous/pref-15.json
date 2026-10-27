@@ -827,16 +827,26 @@
    "partner_org_en": "Thanh Hoa Province",
    "partner_type": "subnational_gov",
    "additional_partners": [],
-   "signed_date": "2023-11",
+   "signed_date": "2023-11-21",
    "announced_date": "",
-   "date_note": "タインホア省訪問団が来県し締結（国際交流概要）",
+   "date_note": "タインホア省のドー・チョン・フン共産党委員会書記を団長とする訪問団が来県し、新潟市で調印式（知事トピックス、2023年11月21日）",
    "fields": [
-    "other",
-    "economy"
+    "labor",
+    "agri",
+    "economy",
+    "tourism",
+    "education"
    ],
-   "labor_detail": [],
-   "purpose": "交流協力（条文未確認）",
-   "content": [],
+   "labor_detail": [
+    "産業人材",
+    "医療福祉人材"
+   ],
+   "purpose": "産業人材・医療福祉人材の派遣・交流を中心に、農業、経済・観光、教育・青少年交流の分野で交流・協力を進める（県ページの協力項目。条文は未確認）。",
+   "content": [
+    "協力する項目：産業人材・医療福祉人材の派遣・交流",
+    "上記の他、農業、経済・観光、教育・青少年交流の分野でも協力",
+    "具体的な取組：タインホア省人材を県内企業へ紹介するセミナーやマッチングイベントの開催（県ページ。詳細ページは作成中）"
+   ],
    "validity": "未確認",
    "validity_type": "unconfirmed",
    "valid_until": null,
@@ -845,11 +855,28 @@
    "legal_binding_note": "",
    "status": "in_progress",
    "status_note": "2024年8月に知事が同省を訪問し「経済協力（投資）」「人材」「スポーツ・観光・文化」「教育訓練（留学生受入等）」の交流について意見交換（県ページ）",
-   "projects": [],
+   "projects": [
+    {
+     "name": "タインホア省人材を県内企業へ紹介するセミナーやマッチングイベント",
+     "fiscal_year": "",
+     "detail": "県ページが覚書に基づく具体的な取組として記載（詳細ページは作成中で、実施時期は未確認）",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "name": "タインホア省での現地大学生の海外就職ニーズ等の調査（予定）",
+     "fiscal_year": "2024",
+     "detail": "2024年2月29日の県議会一般質問への答弁で、覚書に基づく取組として予定を説明",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
    "budgets": [],
    "impacts": [],
    "original_text": "unconfirmed",
-   "evidence_level": "official_list",
+   "evidence_level": "official_announcement",
    "sources": [
     {
      "id": "s1",
@@ -871,17 +898,53 @@
     },
     {
      "id": "s3",
-     "title": "知事がベトナムを訪問しました（2024年8月3日～8日）",
+     "title": "知事がベトナムを訪問しました（2024年8月3日〜8日）",
      "publisher": "新潟県",
      "url": "https://www.pref.niigata.lg.jp/sec/kokusai/vietnam202408.html",
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "外国政府との覚書に基づく取組について（2026年2月2日更新）",
+     "publisher": "新潟県（産業労働部 雇用能力開発課）",
+     "url": "https://www.pref.niigata.lg.jp/site/koyou/020220260000.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s5",
+     "title": "トピックス（令和5年11月6日～11月23日）",
+     "publisher": "新潟県（知事政策局 秘書課）",
+     "url": "https://www.pref.niigata.lg.jp/sec/hisho/topics20231106.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "タインホア省とのMOU調印式（令和5年11月21日）と知事の発言"
+    },
+    {
+     "id": "s6",
+     "title": "にいがた県議会だより第89号（本会議質問19）",
+     "publisher": "新潟県議会",
+     "url": "https://www.pref.niigata.lg.jp/site/gikai/gikaidayori89situmonn19.html",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "2024年2月29日の一般質問（市村浩二議員）と答弁の要旨"
+    },
+    {
+     "id": "s7",
+     "title": "国際交流概要（令和7年度）第1章 国際化推進の基本方向",
+     "publisher": "新潟県",
+     "url": "https://www.pref.niigata.lg.jp/uploaded/attachment/489380.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "『令和5年に県が締結したベトナム地方省（タインホア省・ビンロン省）との交流協力に関する覚書（ＭＯＵ）』を契機に経済交流を促進と記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "外国人材に特化した覚書ではない（内容は未確認）。2024年訪問では人材も意見交換の項目に含まれる。"
+   "notes": "県 雇用能力開発課が『外国政府との覚書に基づく取組』として掲載しており、協力項目の第一は産業人材・医療福祉人材の派遣・交流。条文そのものは未公開（未確認）で、在留資格の種類や人数の取決めは確認できない。（2026-10-27の再調査で、公式資料にもとづき締結日・日付の補足・分野・関連する在留資格・分野・目的・合意内容・確認の根拠・関連事業・情報源を修正・追加）"
   },
   {
    "id": "JP-15-014",
@@ -901,16 +964,26 @@
    "partner_org_en": "Vinh Long Province",
    "partner_type": "subnational_gov",
    "additional_partners": [],
-   "signed_date": "2023-11",
+   "signed_date": "2023-11-24",
    "announced_date": "",
-   "date_note": "ビンロン省訪問団が来県し締結（国際交流概要）",
+   "date_note": "ビンロン省訪問団（団長：ルー・クアン・ゴイ人民委員会委員長）が来県し、覚書を締結（県の国際交流概要と県ページ。訪問団長名はBáo Đầu tư記事）",
    "fields": [
-    "other",
-    "economy"
+    "labor",
+    "agri",
+    "economy",
+    "tourism",
+    "education"
    ],
-   "labor_detail": [],
-   "purpose": "交流協力（条文未確認）",
-   "content": [],
+   "labor_detail": [
+    "産業人材",
+    "医療福祉人材"
+   ],
+   "purpose": "産業人材・医療福祉人材の派遣・交流を中心に、農業、経済・観光、教育・青少年交流の分野で交流・協力を進める（県ページの協力項目。条文は未確認）。",
+   "content": [
+    "協力する項目：産業人材・医療福祉人材の派遣・交流",
+    "上記の他、農業、経済・観光、教育・青少年交流の分野でも協力",
+    "具体的な取組：ビンロン省人材を県内企業へ紹介するセミナーやマッチングイベントの開催（ビンロン省政府と協力関係にある人材教育機関ESUHAI社と共に推進）"
+   ],
    "validity": "未確認",
    "validity_type": "unconfirmed",
    "valid_until": null,
@@ -923,16 +996,32 @@
     {
      "name": "ビンロン省・ホーチミン市での人材マッチングイベント",
      "fiscal_year": "2024",
-     "detail": "外国人材の受入れに向けて600名近い現地学生に新潟県や県内企業等をPR（県ページ）",
+     "detail": "2024年8月の知事訪問時、外国人材の受入れに向けて開催し、600名近い現地学生に新潟県や県内企業をPR",
      "sources": [
       "s3"
+     ]
+    },
+    {
+     "name": "ビンロン省人材受入促進セミナー",
+     "fiscal_year": "2024",
+     "detail": "県内事業者向けにビンロン省人材を紹介するセミナー（日本語学習中の学生とのオンライン交流、受入れの流れの説明）。第1回・第2回（令和7年2月・3月、自動車整備）は開催済み。第3〜6回（食品製造関係、理系正社員エンジニア、建設）は日程の記載のみで開催状況の記載なし",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "name": "ベトナム人材の日本企業での活動事例紹介",
+     "fiscal_year": "2025",
+     "detail": "受入れ企業へのインタビュー等をまとめた月刊PDF（2026年1月号〜9月号）を県ページに掲載",
+     "sources": [
+      "s5"
      ]
     }
    ],
    "budgets": [],
    "impacts": [],
    "original_text": "unconfirmed",
-   "evidence_level": "official_list",
+   "evidence_level": "official_announcement",
    "sources": [
     {
      "id": "s1",
@@ -954,17 +1043,53 @@
     },
     {
      "id": "s3",
-     "title": "知事がベトナムを訪問しました（2024年8月3日～8日）",
+     "title": "知事がベトナムを訪問しました（2024年8月3日〜8日）",
      "publisher": "新潟県",
      "url": "https://www.pref.niigata.lg.jp/sec/kokusai/vietnam202408.html",
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "s4",
+     "title": "外国政府との覚書に基づく取組について（2026年2月2日更新）",
+     "publisher": "新潟県（産業労働部 雇用能力開発課）",
+     "url": "https://www.pref.niigata.lg.jp/site/koyou/020220260000.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s5",
+     "title": "ベトナム・ビンロン省との人材に関する取組（2026年10月5日更新）",
+     "publisher": "新潟県（産業労働部 雇用能力開発課）",
+     "url": "https://www.pref.niigata.lg.jp/site/koyou/030220260000.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": ""
+    },
+    {
+     "id": "s6",
+     "title": "にいがた県議会だより第89号（本会議質問19）",
+     "publisher": "新潟県議会",
+     "url": "https://www.pref.niigata.lg.jp/site/gikai/gikaidayori89situmonn19.html",
+     "type": "assembly_minutes",
+     "checked": "2026-10-27",
+     "note": "答弁で『交流協力に関する覚書』に基づき、ベトナムの高度な人材や働く意欲のある人材の受入拡大を目指し、ビンロン省で県内企業の説明会・人材マッチングを行うと説明"
+    },
+    {
+     "id": "s7",
+     "title": "Vĩnh Long chủ động xúc tiến đầu tư với các đối tác chiến lược（2023年12月22日）",
+     "publisher": "Báo Đầu tư",
+     "url": "https://baodautu.vn/vinh-long-chu-dong-xuc-tien-dau-tu-voi-cac-doi-tac-chien-luoc-d205627.html",
+     "type": "news",
+     "checked": "2026-10-27",
+     "note": "ビンロン省人民委員会委員長ルー・クアン・ゴイ氏が新潟県知事と覚書に署名、人材交流などを含むと報道"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "外国人材に特化した覚書ではない（内容は未確認）。"
+   "notes": "県 雇用能力開発課が『外国政府との覚書に基づく取組』として掲載しており、協力項目の第一は産業人材・医療福祉人材の派遣・交流。ビンロン省の取組は省政府と協力関係にある人材教育機関ESUHAI社と共に推進（県とESUHAI社の間の覚書・協定の記載はない）。条文そのものは未公開（未確認）。（2026-10-27の再調査で、公式資料にもとづき締結日・日付の補足・分野・関連する在留資格・分野・目的・合意内容・確認の根拠・関連事業・情報源を修正・追加）"
   }
  ]
 }
