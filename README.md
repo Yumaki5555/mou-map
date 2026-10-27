@@ -41,6 +41,7 @@ mou-map/
     ├─ audit_data.mjs         … 取り違えやすいデータの洗い出し（node tools/audit_data.mjs）
     ├─ summary.mjs            … 有効性の5区分の件数・調査状況の概要（node tools/summary.mjs）
     ├─ search.mjs             … サイト内検索と同じ仕組みで検索を試す（node tools/search.mjs "宮城県 ベトナム"）
+    ├─ set_version.py         … プログラムを直して公開する前に実行（ブラウザに新しいプログラムを読み込ませる）
     └─ template_mou.json      … MOU1件分のひな形
 ```
 
@@ -85,6 +86,14 @@ gh repo create mou-map --public --source=. --push
 ```
 
 そのあと、方法Aの4〜6と同じようにSettings → Pages で公開設定をします。
+
+### 画面のプログラム（assets/js・assets/css）を直したとき
+
+公開する前に、mou-map フォルダで次を実行してください。index.html の版番号が新しくなり、見ている人のブラウザが古いプログラムを使い続けて画面が崩れる（新しいメニューと古い動きが混ざる）のを防ぎます。データ（data フォルダ）だけを直したときは不要です。
+
+```bash
+python tools/set_version.py
+```
 
 ### データを更新したとき
 
