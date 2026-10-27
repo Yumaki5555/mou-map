@@ -75,7 +75,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：朴元淳市長。ソウルにて締結。"
+   "notes": "相手署名者：朴元淳市長。ソウルにて締結。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "renewal_text": "交流・協力内容の細目は別紙に定め、両都市協議の上、毎年更新（細目の更新であり、合意書自体の期間ではない）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。本文の「毎年更新」は細目（別紙）の更新を指す。"
   },
   {
    "id": "JP-13-002",
@@ -145,7 +155,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：クラウス・ヴォーヴェライト市長。ベルリンにて締結。"
+   "notes": "相手署名者：クラウス・ヴォーヴェライト市長。ベルリンにて締結。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-003",
@@ -215,7 +234,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：マイク・ベアード州首相。東京にて署名。"
+   "notes": "相手署名者：マイク・ベアード州首相。東京にて署名。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。2024年に同名の合意書（JP-13-013）が署名されたが、2024年版の本文に旧版を改訂・置き換える旨の記載はなく、旧版の扱いは公式資料で確認できない。"
   },
   {
    "id": "JP-13-004",
@@ -287,7 +315,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "東京にて締結。"
+   "notes": "東京にて締結。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。効力発生は署名日（2015-06-10）と明記されるが、終了日の定めはない。",
+   "effective_date": "2015-06-10",
+   "term_text": "「この合意書は、両都市が署名した日から効力を有する」（終了日の定めなし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-005",
@@ -361,7 +400,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：ボリス・ジョンソン市長。東京にて。都の姉妹友好都市一覧ではロンドン市との提携日も2015年10月14日とされている（本合意書が提携関係の文書を兼ねるかは未確認）。"
+   "notes": "相手署名者：ボリス・ジョンソン市長。東京にて。都の姉妹友好都市一覧ではロンドン市との提携日も2015年10月14日とされている（本合意書が提携関係の文書を兼ねるかは未確認）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "renewal_text": "見直しの時期は双方の合意により調整（更新・期間の定めではない）。法的拘束力はないと明記",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-006",
@@ -430,7 +479,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "東京にて締結。"
+   "notes": "東京にて締結。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。効力発生は署名日（2015-10-22）と明記されるが、終了日の定めはない。",
+   "effective_date": "2015-10-22",
+   "term_text": "「この合意書は、両都市が署名した日から効力を有する」（終了日の定めなし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-007",
@@ -502,7 +562,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：アンヌ・イダルゴ市長。パリにて作成（日仏2言語）。"
+   "notes": "相手署名者：アンヌ・イダルゴ市長。パリにて作成（日仏2言語）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-008",
@@ -568,11 +637,35 @@
      "type": "original_text",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "合意書（2021年版・原文PDF）",
+     "publisher": "東京都政策企画局",
+     "url": "https://www.seisakukikaku.metro.tokyo.lg.jp/documents/d/seisakukikaku/15_los-angeles-2021-1",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。本文に「2018年7月25日に締結した…合意書を改訂し」とあることを確認"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：エリック・ガルセッティ市長。東京にて。"
+   "notes": "相手署名者：エリック・ガルセッティ市長。東京にて。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "2021年版合意書の本文に、2018年7月25日締結の合意書を「改訂し」と明記されており、旧版（本記録）は2021年8月27日の改訂版に置き換えられた。",
+   "effective_date": "2018-07-25",
+   "term_text": "有効期間の定めなし（原文に記載なし）",
+   "auto_renewal": "not_stated",
+   "ended_date": "2021-08-27",
+   "end_reason": "2021年8月27日の改訂版（JP-13-010）に引き継ぎ。2021年版の本文に「2018年7月25日に締結した合意書を改訂し」と明記",
+   "successor_id": "JP-13-010",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "後継のJP-13-010自体の有効性は別に判定。"
   },
   {
    "id": "JP-13-009",
@@ -652,7 +745,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：陳吉寧市長。分野に「介護」を含むが、介護人材の受入れに関する記載はない。"
+   "notes": "相手署名者：陳吉寧市長。分野に「介護」を含むが、介護人材の受入れに関する記載はない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "renewal_text": "見直しの時期は双方の合意により調整（更新・期間の定めではない）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-010",
@@ -722,7 +825,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：エリック・ガルセッティ市長。"
+   "notes": "相手署名者：エリック・ガルセッティ市長。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。2018年版（JP-13-008）を改訂した版。"
   },
   {
    "id": "JP-13-011",
@@ -790,7 +902,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：マハディ・ビン・チェ・ンガ市長。プトラジャヤにて署名。"
+   "notes": "相手署名者：マハディ・ビン・チェ・ンガ市長。プトラジャヤにて署名。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。効力発生は署名日（2022-09-01）と明記されるが、終了日の定めはない。",
+   "effective_date": "2022-09-01",
+   "term_text": "「この合意書は、両都市が署名した日から効力を有する」（終了日の定めなし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-012",
@@ -860,7 +983,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：ムハンマド・アル・ショラファー アブダビ市政・運輸庁長官。アブダビにて署名。"
+   "notes": "相手署名者：ムハンマド・アル・ショラファー アブダビ市政・運輸庁長官。アブダビにて署名。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。効力発生は署名日（2023-11-30）と明記されるが、終了日の定めはない。",
+   "effective_date": "2023-11-30",
+   "term_text": "「この合意書は、両都市が署名した日から効力を有する」（終了日の定めなし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-013",
@@ -931,7 +1065,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：クリス・ミンズ州首相。シドニーにて締結。2015年の合意書と同名・同趣旨の合意書の再締結とみなし同じgroup_keyとした（改訂・更新との明記はない）。"
+   "notes": "相手署名者：クリス・ミンズ州首相。シドニーにて締結。2015年の合意書と同名・同趣旨の合意書の再締結とみなし同じgroup_keyとした（改訂・更新との明記はない）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。2015年版（JP-13-003）の再締結とみなされるが、本文に旧版を置き換える旨の記載はない。"
   },
   {
    "id": "JP-13-014",
@@ -1005,7 +1148,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "東京にて署名。"
+   "notes": "東京にて署名。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。効力発生は署名日（2024-05-16）と明記されるが、終了日の定めはない。",
+   "effective_date": "2024-05-16",
+   "term_text": "「この合意書は、両都市が署名した日から効力を有する」（終了日の定めなし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-015",
@@ -1080,7 +1234,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：Abdulla Mohammed Al Basti（ドバイ執行評議会事務局長）。ドバイにて署名。title_original: Memorandum of Understanding Between Dubai and the Tokyo Metropolitan Government"
+   "notes": "相手署名者：Abdulla Mohammed Al Basti（ドバイ執行評議会事務局長）。ドバイにて署名。title_original: Memorandum of Understanding Between Dubai and the Tokyo Metropolitan Government",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。効力発生は署名日（2025-10-27）と明記されるが、終了日の定めはない。",
+   "effective_date": "2025-10-27",
+   "term_text": "「この合意書は、両都市が署名した日から効力を有する」（終了日の定めなし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。"
   },
   {
    "id": "JP-13-016",
@@ -1148,7 +1313,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：Zhenis Kassymbek アスタナ市長。東京にて署名。title_original: Memorandum of Understanding between Akimat of Astana city and the Tokyo Metropolitan Government"
+   "notes": "相手署名者：Zhenis Kassymbek アスタナ市長。東京にて署名。title_original: Memorandum of Understanding between Akimat of Astana city and the Tokyo Metropolitan Government",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。本文は法的拘束力なし・期間の定めなし。署名日は2025-12-19。"
   },
   {
    "id": "JP-13-017",
@@ -1225,7 +1399,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手署名者：Daniel Sazonov 市長。東京にて署名（2026年10月13日）。報道発表「東京都とヘルシンキ市の交流・協力に関わる合意書の締結について」(2026101301)あり（未開封）。title_original: Memorandum of Understanding Between The City of Helsinki and the Tokyo Metropolitan Government"
+   "notes": "相手署名者：Daniel Sazonov 市長。東京にて署名（2026年10月13日）。報道発表「東京都とヘルシンキ市の交流・協力に関わる合意書の締結について」(2026101301)あり（未開封）。title_original: Memorandum of Understanding Between The City of Helsinki and the Tokyo Metropolitan Government",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間の定めがなく、公式の一覧も現在の効力を明示していないため、有効・終了のどちらとも確認できない。",
+   "renewal_text": "相互協議により見直し・必要に応じて更新できる。いずれの都市も状況に応じ協力を終了できる（期間の定めなし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意書本文に有効期間・終了日の定めがなく、一覧ページも「署名してきた」とする過去の記載のみで現在効力を有する旨の明示がない（根拠A・B・Cのいずれにも当たらない）。署名日は2026-10-13で基準日の15日前。期間の定めはなく、法的拘束力はない旨が明記。"
   },
   {
    "id": "JP-13-018",
@@ -1289,7 +1473,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。"
+   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実と締結実績の一覧にとどまり、有効期間や現在の効力を示す記載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。"
   },
   {
    "id": "JP-13-019",
@@ -1353,7 +1546,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。"
+   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実と締結実績の一覧にとどまり、有効期間や現在の効力を示す記載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。"
   },
   {
    "id": "JP-13-020",
@@ -1417,7 +1619,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。"
+   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実と締結実績の一覧にとどまり、有効期間や現在の効力を示す記載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。"
   },
   {
    "id": "JP-13-021",
@@ -1481,7 +1692,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。"
+   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実と締結実績の一覧にとどまり、有効期間や現在の効力を示す記載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。"
   },
   {
    "id": "JP-13-022",
@@ -1545,7 +1765,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。"
+   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実と締結実績の一覧にとどまり、有効期間や現在の効力を示す記載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。"
   },
   {
    "id": "JP-13-023",
@@ -1609,7 +1838,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。"
+   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実と締結実績の一覧にとどまり、有効期間や現在の効力を示す記載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。"
   },
   {
    "id": "JP-13-024",
@@ -1673,7 +1911,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。"
+   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実と締結実績の一覧にとどまり、有効期間や現在の効力を示す記載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。"
   },
   {
    "id": "JP-13-025",
@@ -1737,7 +1984,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。"
+   "notes": "教育分野（第2段階）。相手側の署名機関（州教育省等）・署名者・内容は未確認。外国人材の受入れとは無関係。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実と締結実績の一覧にとどまり、有効期間や現在の効力を示す記載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。"
   },
   {
    "id": "JP-13-026",
@@ -1801,7 +2057,19 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。"
+   "notes": "教育分野（第2段階）。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "都教育委員会の2023年4月25日発表が、アカデミー・ド・パリとの覚書の相手方を拡大して新しい覚書（JP-13-029）を締結したと説明している。",
+   "auto_renewal": "unconfirmed",
+   "ended_date": "2023-04-25",
+   "end_reason": "2023年4月25日のイル＝ドゥ＝フランス地域大学区との覚書（JP-13-029）に引き継ぎ。都教育委員会は「令和元年度にアカデミー・ド・パリと締結した覚書について、相手方を（同大学区に）拡大した上で」締結と発表",
+   "successor_id": "JP-13-029",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "「旧覚書を廃止」とまでは書かれていないが、相手方拡大による再締結と説明されているため、後継への引き継ぎとして終了確認とした。"
   },
   {
    "id": "JP-13-027",
@@ -1878,7 +2146,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "ハノイ市内の初等・中等教育機関を所管する局との教育分野の覚書（第2段階）。都教育委員会として10件目の覚書。外国人材の受入れとは無関係。"
+   "notes": "ハノイ市内の初等・中等教育機関を所管する局との教育分野の覚書（第2段階）。都教育委員会として10件目の覚書。外国人材の受入れとは無関係。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実のみで、有効期間や現在の効力を示す記載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。"
   },
   {
    "id": "JP-13-028",
@@ -1945,11 +2222,33 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "「テキサス市場の魅力と進出セミナー」開催のプレスリリース（2026-04-24）",
+     "publisher": "公益財団法人東京都中小企業振興公社（PR TIMES掲載）",
+     "url": "https://prtimes.jp/main/html/rd/p/000000010.000171853.html",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。「東京都が…覚書を締結しているテキサス州」と現在形で記載。ただし発信元は都そのものではなく外郭の公益財団法人で、延長後の期間の記載もない"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "都の政策企画局『合意書等』一覧に載っていない局単位の覚書（第2段階・経済分野）。外国人材の受入れを目的とするものではない（従業員・家族向け生活情報提供の条項あり）。"
+   "notes": "都の政策企画局『合意書等』一覧に載っていない局単位の覚書（第2段階・経済分野）。外国人材の受入れを目的とするものではない（従業員・家族向け生活情報提供の条項あり）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文の当初有効期限（2023-03-31）は経過しているが、更新・延長の有無も、終了・失効したことも都の公式資料で確認できない。",
+   "effective_date": "2022-01-27",
+   "term_text": "覚書の「当初有効期限は、覚書の締結日から2023年3月31日まで…当事者によって更新される場合もある」",
+   "renewal_text": "当事者によって更新される場合もある（原文）",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記載の有効期間（〜2023-03-31）は経過。更新・延長の有無は都の公式資料で確認できず。外郭団体の2026年のリリースは覚書が現在も活用されていることをうかがわせるが、根拠Cの「自治体の公式資料」には当たらないと判断。"
   },
   {
    "id": "JP-13-029",
@@ -2007,7 +2306,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "教育分野（第2段階）。アカデミー・ド・パリとの覚書（2019年5月28日）の相手方拡大版のため同じ group_key。"
+   "notes": "教育分野（第2段階）。アカデミー・ド・パリとの覚書（2019年5月28日）の相手方拡大版のため同じ group_key。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "都教育委員会の発表は締結の事実と目的のみで、有効期間や現在の効力を示す記載がない。",
+   "effective_date": "2023-04-25",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の有効期間・更新・終了は公式資料で確認できず。JP-13-026の後継。"
   }
  ]
 }

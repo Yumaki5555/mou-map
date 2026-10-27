@@ -762,6 +762,42 @@
    "en": "Not specified",
    "region": "その他",
    "aliases": []
+  },
+  {
+   "code": "IS",
+   "ja": "アイスランド",
+   "en": "Iceland",
+   "region": "ヨーロッパ",
+   "aliases": [
+    "アイスランド共和国"
+   ]
+  },
+  {
+   "code": "UY",
+   "ja": "ウルグアイ",
+   "en": "Uruguay",
+   "region": "中南米",
+   "aliases": [
+    "ウルグアイ東方共和国"
+   ]
+  },
+  {
+   "code": "LU",
+   "ja": "ルクセンブルク",
+   "en": "Luxembourg",
+   "region": "ヨーロッパ",
+   "aliases": [
+    "ルクセンブルク大公国"
+   ]
+  },
+  {
+   "code": "MT",
+   "ja": "マルタ",
+   "en": "Malta",
+   "region": "ヨーロッパ",
+   "aliases": [
+    "マルタ共和国"
+   ]
   }
  ]
 }

@@ -57,11 +57,32 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "検索結果の抜粋で確認（本文未取得、WebFetchは403）"
+    },
+    {
+     "id": "v1",
+     "title": "熊本県・熊本市・高雄市との交流（友好交流協定・覚書）",
+     "publisher": "熊本県",
+     "url": "https://www.pref.kumamoto.jp/soshiki/70/182624.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2020-08-01更新。『国際交流促進覚書：2013年9月9日締結（3年間の期限付き）』『友好交流協定：2017年1月11日締結、覚書の関係をさらに発展させた協定（期限なし）』"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "一次資料本文未取得のため要再確認。"
+   "notes": "一次資料本文未取得のため要再確認。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県ページに覚書は『3年間の期限付き』（2013-09-09締結）とあり、期間は2016-09に満了。2017-01-11に覚書を発展させた友好交流協定が締結されたと記載され、覚書の更新・延長の記載はない。",
+   "effective_date": "2013-09-09",
+   "term_text": "県ページに『3年間の期限付き』。署名日2013-09-09から3年→2016-09-08（計算）",
+   "auto_renewal": "not_stated",
+   "ended_date": "2016-09-08",
+   "end_reason": "3年間の期限付き覚書が満了。2017年1月11日に、覚書の関係を発展させた期限なしの友好交流協定（熊本県・熊本市・高雄市の三者）を締結",
+   "validity_sources": [
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記録の出典（外務省グローカル外交ネット）はWebFetchが403で開けず、県ページで確認。後継の友好交流協定（2017年）は友好協定のため本データの対象外。終了日は署名日からの3年を計算した値（県ページに終了日の明記はない）。"
   },
   {
    "id": "JP-43-002",
@@ -123,11 +144,30 @@
      "type": "news",
      "checked": "2026-10-27",
      "note": "題名は内容から付けた仮題。『2019年1月には一度目の覚書を締結』"
+    },
+    {
+     "id": "v1",
+     "title": "伝統工芸通じて観光振興 県とフランスが新たな交流覚書",
+     "publisher": "熊本日日新聞",
+     "url": "https://kumanichi.com/articles/1789487",
+     "type": "news",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2025-06-02付。調印式（駐日フランス大使公邸）。公開部分に有効期間・旧覚書との関係の記載なし（会員限定記事）"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "status は新たな覚書の締結を受け completed とした（旧覚書の失効・継続関係は未確認）。"
+   "notes": "status は新たな覚書の締結を受け completed とした（旧覚書の失効・継続関係は未確認）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の発表（2019-01）は調印式の予告で有効期間の記載がなく、2025年に『新たな覚書』が結ばれたが、旧覚書を終了・置き換えると書いた公式資料は見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2025-06-02の新覚書（JP-43-003）の県発表は見つからず、旧覚書との関係・有効期間は未確認。"
   },
   {
    "id": "JP-43-003",
@@ -180,11 +220,28 @@
      "type": "news",
      "checked": "2026-10-27",
      "note": "題名は内容から付けた仮題"
+    },
+    {
+     "id": "v1",
+     "title": "伝統工芸通じて観光振興 県とフランスが新たな交流覚書",
+     "publisher": "熊本日日新聞",
+     "url": "https://kumanichi.com/articles/1789487",
+     "type": "news",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2025-06-02付。調印式（駐日フランス大使公邸）。公開部分に有効期間・旧覚書との関係の記載なし（会員限定記事）"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "県の公式発表は未確認。"
+   "notes": "県の公式発表は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "報道（熊本日日新聞）で2025-06-02の調印は確認できるが、県の公式発表・原文が見つからず、有効期間も確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "トラベルボイスの記事も有効期間の記載なし。"
   },
   {
    "id": "JP-43-004",
@@ -218,7 +275,7 @@
    ],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2028-11-12",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "覚書本文は県資料の別紙（画像）で、文字としては未確認。",
@@ -242,7 +299,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "台北市政府側署名者：局長 湯志民。"
+   "notes": "台北市政府側署名者：局長 湯志民。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県教育委員会の報告資料に添付された覚書本文（別紙2）に、締結日（2025-11-13）から3年間効力を有するとあり、基準日は期間内。終了の情報は見つからない（根拠A）。",
+   "effective_date": "2025-11-13",
+   "term_text": "『本覚書は、締結した日から3年間効力を有する』。計算：締結日2025-11-13から3年間→2028-11-12",
+   "renewal_text": "有効期間満了前3か月以内に、一方から更新しない旨の書面による意思表示がない場合、同一条件でさらに3年間延長し、その後も同様",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書名は『教育交流協力に関する了解覚書』。"
   },
   {
    "id": "JP-43-005",
@@ -277,7 +345,7 @@
    ],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2028-12-21",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "覚書本文は県資料の別紙（画像）で、文字としては未確認。",
@@ -301,7 +369,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "熊本日日新聞は同連盟を『台湾政府の付属機関』と報じている（見出しの検索結果のみ）。partner_type は確認できた範囲で organization とした。"
+   "notes": "熊本日日新聞は同連盟を『台湾政府の付属機関』と報じている（見出しの検索結果のみ）。partner_type は確認できた範囲で organization とした。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県教育委員会の報告資料に添付された覚書本文（別紙1）に、署名日（2025-12-22）から3年間有効とあり、基準日は期間内。終了の情報は見つからない（根拠A）。",
+   "effective_date": "2025-12-22",
+   "term_text": "『この覚書は両者が署名した日から効力が発生し、3年間有効とする』。計算：署名日2025-12-22から3年間→2028-12-21",
+   "renewal_text": "有効期間満了の3か月前までに、いずれかが書面で終了の意志を伝えない限り、毎年1年間、自動的に更新される",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書名は『日本国熊本県教育委員会と台湾高級中等以下学校国際教育交流連盟との教育交流協力に関する覚書』。"
   },
   {
    "id": "JP-43-006",
@@ -363,7 +442,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "三者間MOUのため country_code は1つ目の相手（台湾）とし、米国（US・アリゾナ州）も当事者。集計時は二重計上しないよう1件として扱うこと。『国際的な専門人材の育成』は外国人材の受入れ・送出しの合意ではないため labor 分野には含めていない。"
+   "notes": "三者間MOUのため country_code は1つ目の相手（台湾）とし、米国（US・アリゾナ州）も当事者。集計時は二重計上しないよう1件として扱うこと。『国際的な専門人材の育成』は外国人材の受入れ・送出しの合意ではないため labor 分野には含めていない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の知事コメントで署名（2026-03-13）は確認できるが、有効期間・効力発生の記載がなく、覚書本文も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "署名後わずか7か月。原文は未公開。"
   }
  ]
 }

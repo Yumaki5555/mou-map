@@ -168,6 +168,7 @@ export function isDark(color) {
 // 「調査したが確認できず」「未調査」を色だけでなく模様でも区別する
 export const PATTERNS = {
   none: '#d9dfdb',
+  scope_zero: '#f3ead2',
   not_found: 'url(#pat-notfound)',
   not_surveyed: 'url(#pat-unsurveyed)',
 };

@@ -58,7 +58,7 @@ function footer(ctx, meta) {
   text(ctx, `対象地域：${meta.region}`, 56, y0 + 14, { size: 27, bold: true, maxW: W - 112 });
   text(ctx, `対象期間：${meta.period}　確認日：${meta.checked}`, 56, y0 + 50, { size: 25, bold: true, maxW: W - 112 });
   text(ctx, `出典：${meta.source}`, 56, y0 + 84, { size: 23, color: TEXT, maxW: W - 112, maxLines: 1 });
-  text(ctx, '日本と世界のMOUマップ　※公式資料で確認できた範囲の集計。不明・未調査を0件とはしていません', 56, y0 + 116, { size: 21, color: MUTED, maxW: W - 112, maxLines: 1 });
+  text(ctx, '日本と世界のMOU・協定マップ　※公式資料で確認できた範囲の集計。不明・未調査を0件とはしていません', 56, y0 + 116, { size: 21, color: MUTED, maxW: W - 112, maxLines: 1 });
 }
 
 function save(c, filename) {

@@ -60,7 +60,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページに平成26年5月の調印の記載のみで、有効期間・更新・現在の状況の記載がなく、現在の効力を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県のモンゴルページを確認。条文・期間の記載なし。"
   },
   {
    "id": "JP-22-002",
@@ -116,7 +124,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "「人材育成」が外国人材の受入れ（就労）を含むかは未確認のため labor に分類していない。"
+   "notes": "「人材育成」が外国人材の受入れ（就労）を含むかは未確認のため labor に分類していない。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県ページ（2026-07-08更新）に『平成29年11月に調印し、令和4年11月に更新しました』とあり、2017年版は2022年11月の更新版に引き継がれた。",
+   "auto_renewal": "unconfirmed",
+   "ended_date": "2022-11",
+   "end_reason": "2022年11月の更新（JP-22-003）に引き継ぎ",
+   "successor_id": "JP-22-003",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の東南アジア・インドページを確認。2017年版の有効期間の記載はなし。"
   },
   {
    "id": "JP-22-003",
@@ -172,7 +191,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "同一覚書の更新のため group_key を G3-22-02 と同じにしている。"
+   "notes": "同一覚書の更新のため group_key を G3-22-02 と同じにしている。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページに2022年11月の更新の記載はあるが、更新後の有効期間・現在の効力の記載がなく、有効性を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2022-11",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県ページを確認。更新後の期間の記載なし。"
   },
   {
    "id": "JP-22-004",
@@ -228,7 +256,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページに2024年8月の調印の記載のみで、有効期間・更新の記載がなく、現在の効力を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県ページを確認。条文・期間の記載なし。"
   },
   {
    "id": "JP-22-005",
@@ -299,7 +335,15 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "外国人材専用の覚書ではなく経済産業分野の覚書だが、学生と県内企業のマッチングを含むため labor を副分野とした。同時に締結したグジャラート州との友好協定は除外。"
+   "notes": "外国人材専用の覚書ではなく経済産業分野の覚書だが、学生と県内企業のマッチングを含むため labor を副分野とした。同時に締結したグジャラート州との友好協定は除外。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページに2024年12月頃の調印の記載のみ（日付は明記なし）で、有効期間・更新の記載がなく、現在の効力を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県ページを確認。条文・期間の記載なし。2025-03-31の県の広報記事は今回は開いていない。"
   }
  ]
 }

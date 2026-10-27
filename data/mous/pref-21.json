@@ -56,7 +56,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。正式名称未確認（県ページの表現）。"
+   "notes": "第2段階（他分野）。正式名称未確認（県ページの表現）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（2025-11-20更新）に覚書の経緯の記載はあるが、有効期間・更新・終了の記載がなく、現在の効力を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の交流ページを確認。『覚書締結を契機に学術交流やエネルギー関連の共同研究を実施』とあるが、期間の記載なし。"
   },
   {
    "id": "JP-21-002",
@@ -148,7 +156,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。正式名称未確認（県の予算資料の表現）。同じ資料の別箇所は『友好協力に関する覚書』とも表記。"
+   "notes": "第2段階（他分野）。正式名称未確認（県の予算資料の表現）。同じ資料の別箇所は『友好協力に関する覚書』とも表記。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（2025-11-20更新）に覚書の経緯の記載はあるが、有効期間・更新・終了の記載がなく、現在の効力を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県ページでは2015年11月の『友好提携』として記載。覚書本文・期間は確認できず。予算要求資料は今回は開いていない。"
   },
   {
    "id": "JP-21-003",
@@ -268,7 +284,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。正式名称未確認（県の予算資料の表現）。"
+   "notes": "第2段階（他分野）。正式名称未確認（県の予算資料の表現）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（2025-11-20更新）に覚書の経緯の記載はあるが、有効期間・更新・終了の記載がなく、現在の効力を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県ページでは2016年11月の『友好提携』として記載。トゥアティエン＝フエ省は現フエ市。覚書本文・期間は確認できず。"
   },
   {
    "id": "JP-21-004",
@@ -319,11 +343,29 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "各国・地域との交流（2025年11月20日更新）",
+     "publisher": "岐阜県",
+     "url": "https://www.pref.gifu.lg.jp/page/8229.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各地域との覚書・友好提携の経緯を確認。有効期間・更新・終了の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。江西省は友好提携先（1988年）。"
+   "notes": "第2段階（他分野）。江西省は友好提携先（1988年）。",
+   "validity_state": "planned",
+   "validity_basis": "2018年の県の発表は『覚書締結式を行います』という予定の記載のみで、署名を確認できる資料が見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "予定発表PDFと県の交流ページを確認。ページの江西省欄は1988年の友好提携のみ。WebSearch1回で、同時期に林政部と江西省林業局の別の覚書（2018-11）があるとの結果は出たが、本件（知事と省長の覚書）の署名は確認できず。"
   },
   {
    "id": "JP-21-005",
@@ -426,7 +468,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。シロンスク県側の署名者は報告書の表記で『ヤコブ・ヘウストフスキ シロンスク県知事』。恵那市長らも調印式に出席（署名者かどうかは不明）。"
+   "notes": "第2段階（他分野）。シロンスク県側の署名者は報告書の表記で『ヤコブ・ヘウストフスキ シロンスク県知事』。恵那市長らも調印式に出席（署名者かどうかは不明）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の発表（2025-10-29）は『覚書に基づき交流を進めています』と述べるが、有効期間・更新の記載がなく、事業が続いているだけでは有効確認の根拠にならない（根拠Cの境界事例）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s4",
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の発表資料PDF（2025-10-29）と交流ページを確認。覚書の条文・期間は未公開。"
   }
  ]
 }

@@ -46,8 +46,10 @@
   "pref-45.json",
   "pref-46.json",
   "pref-47.json",
-  "national.json"
+  "national.json",
+  "agreements.json"
  ],
  "stats": "data/stats/foreign_residents.json",
- "excluded": "data/excluded.json"
+ "excluded": "data/excluded.json",
+ "systems": "data/systems.json"
 }

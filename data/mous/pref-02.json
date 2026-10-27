@@ -55,7 +55,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "現在も有効かは未確認。法的拘束力の有無も未確認。"
+   "notes": "現在も有効かは未確認。法的拘束力の有無も未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の大連市紹介資料（令和6年度版）に締結（2005年5月）の記載があるだけで、有効期間や現在も効力があることを示す記載がなく、県の「姉妹都市等提携状況」の一覧にも載っていない。",
+   "effective_date": "2005-05",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料で有効期間・終了とも確認できず。大連理工大学が現在の提携状況一覧に載っていないことも確認。"
   },
   {
    "id": "JP-02-002",
@@ -133,7 +142,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。県は「姉妹都市等」の一覧に掲載しているが名称が覚書のため記録。"
+   "notes": "正式名称未確認。県は「姉妹都市等」の一覧に掲載しているが名称が覚書のため記録。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県が2026年1月13日更新の「青森県の国際交流の概要」で、台南市を県の現在の姉妹都市等提携先（※友好交流に関する覚書締結）として掲げ、提携状況一覧にも2017年12月4日提携として載せている（根拠C）。県資料には2024年12月の知事の台南市訪問も記載。",
+   "effective_date": "2017-12-04",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "有効期間の定めは公式資料に見当たらない。現在の提携状況を示す県の一覧（2026年更新のページ）に基づく根拠Cのため、確度は中程度。一覧のPDF自体は令和6年度版。"
   },
   {
    "id": "JP-02-003",
@@ -196,11 +216,31 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "県及び市町村の姉妹都市等提携状況（R6）",
+     "publisher": "青森県",
+     "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/yukyaku/files/2.1kenoyobisichosonnoshimaitoshitouteikeijjyokyoR6.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。提携先一覧に高雄市（提携年月日2024年12月16日）を掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。県資料は「知事、むつ市長が高雄市を訪問し、3者による国際交流促進に関する覚書締結」とのみ記載（知事の氏名・署名者は原文未確認）。"
+   "notes": "正式名称未確認。県資料は「知事、むつ市長が高雄市を訪問し、3者による国際交流促進に関する覚書締結」とのみ記載（知事の氏名・署名者は原文未確認）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県が2026年1月13日更新の「青森県の国際交流の概要」で、高雄市を県の現在の姉妹都市等提携先（※国際交流促進覚書締結）として掲げ、提携状況一覧にも2024年12月16日提携として載せている（根拠C）。",
+   "effective_date": "2024-12-16",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "有効期間の定めは公式資料に見当たらない。現在の提携状況を示す県の一覧（2026年更新のページ）に基づく根拠Cのため、確度は中程度。"
   }
  ]
 }

@@ -57,7 +57,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "大阪府・兵庫県・京都府の3府県共同の覚書。二重計上を避けるため京都府の記録としてのみ登録。"
+   "notes": "大阪府・兵庫県・京都府の3府県共同の覚書。二重計上を避けるため京都府の記録としてのみ登録。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。大阪府・兵庫県・京都府の3府県共同の覚書で、各府県の資料の突き合わせはしていない。"
   },
   {
    "id": "JP-26-002",
@@ -112,7 +120,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-003",
@@ -167,7 +183,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-004",
@@ -224,7 +248,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-005",
@@ -280,7 +312,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-006",
@@ -347,11 +387,40 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "ページ更新日2024年5月29日。"
+    },
+    {
+     "id": "v1",
+     "title": "京都府-トゥア・ティエン・フエ省関連ページ（京都府）",
+     "publisher": "京都府",
+     "url": "https://www.pref.kyoto.jp/hisho/kokusai/hue_kenshu.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。ページ更新日2026-06-25。『令和5年11月20日、京都府とトゥア・ティエン・フエ省との親善交流に係る覚書の更新を行いました』と記載。更新後の有効期間の記載なし"
+    },
+    {
+     "id": "v2",
+     "title": "分野別交流（京都府の海外との分野別交流一覧）",
+     "publisher": "京都府",
+     "url": "https://www.pref.kyoto.jp/hisho/kokusai/bunyabetsukoryu.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各協定の署名日のみの一覧。ページには『更新日2024年5月29日』とあるが2025年の協定も掲載されている。有効期間・更新・終了・現在の状況の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "知事は覚書更新を機に若い世代が両地域で学び、働いてグローバル人材として活躍することへの期待を表明（府ページ）。外国人材の受入れを直接定めた内容は確認できず。協定書（G4-26-08）とは別文書。"
+   "notes": "知事は覚書更新を機に若い世代が両地域で学び、働いてグローバル人材として活躍することへの期待を表明（府ページ）。外国人材の受入れを直接定めた内容は確認できず。協定書（G4-26-08）とは別文書。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府ページで覚書の更新（2023-11-20）は確認できたが、更新後の有効期間が公式資料に書かれておらず、2025年以降の公式資料で現在の効力を明示したものも見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2023-11-20",
+   "validity_sources": [
+    "s1",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。京都府の関連ページで、覚書は令和5年11月20日（2023-11-20）に更新されたと確認できたが、更新後の有効期間は公式資料に書かれておらず根拠Bに足りない。協定書（JP-26-022）とは別文書。"
   },
   {
    "id": "JP-26-007",
@@ -407,7 +476,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-008",
@@ -463,7 +540,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-009",
@@ -519,7 +604,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手は在日大使館（国の在外公館）。"
+   "notes": "相手は在日大使館（国の在外公館）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-010",
@@ -574,7 +667,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-011",
@@ -625,11 +726,29 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "分野：教育"
+    },
+    {
+     "id": "v1",
+     "title": "京都府教育委員会会議録（令和7年11月10日）",
+     "publisher": "京都府教育委員会",
+     "url": "https://www.kyoto-be.ne.jp/soumu/cms/wp-content/uploads/2025/12/【公開】R7_11_10_教育委員会会議録.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。南オーストラリア州教育省とのパートナーシップ協定の報告。『オーストラリアでは２カ所目で、全体では３カ所と協定締結』との答弁。クイーンズランド州の名指しや有効期間の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。京都府教育委員会の会議録（2025-11-10）で、南オーストラリア州との協定の報告に対し『オーストラリアでは２カ所目で、全体では３カ所と協定締結している』との答弁があり、既存の協定の存続を示唆するが、クイーンズランド州を名指しした確認や有効期間の記載ではない。"
   },
   {
    "id": "JP-26-012",
@@ -685,7 +804,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-013",
@@ -741,7 +868,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-014",
@@ -797,7 +932,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-015",
@@ -852,7 +995,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-016",
@@ -910,7 +1061,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-017",
@@ -968,7 +1127,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "partner_typeは英国王立芸術大学（RCA）系の組織として university とした（一覧には組織種別の記載なし）。"
+   "notes": "partner_typeは英国王立芸術大学（RCA）系の組織として university とした（一覧には組織種別の記載なし）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-018",
@@ -1026,7 +1193,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-019",
@@ -1084,7 +1259,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。"
   },
   {
    "id": "JP-26-020",
@@ -1137,11 +1320,29 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "分野：ビジネス、大学・研究、観光、文化"
+    },
+    {
+     "id": "v1",
+     "title": "京都府のカタルーニャ州関連ページ（サン・ジョルディの日 in けいはんな）",
+     "publisher": "京都府",
+     "url": "https://www.pref.kyoto.jp/bunkaga/global-network/20250425.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。更新日2026-04-13。2025年5月の協定締結の記載。有効期間の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。京都府の関連ページ（global-network/20250425.html、更新日2026-04-13）に『2025年5月、カタルーニャ州知事が来日し京都府と協定を締結』とあるが、名称・有効期間・現在の状況の記載なし。"
   },
   {
    "id": "JP-26-021",
@@ -1192,11 +1393,29 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "分野：教育"
+    },
+    {
+     "id": "v1",
+     "title": "京都府教育委員会会議録（令和7年11月10日）",
+     "publisher": "京都府教育委員会",
+     "url": "https://www.kyoto-be.ne.jp/soumu/cms/wp-content/uploads/2025/12/【公開】R7_11_10_教育委員会会議録.pdf",
+     "type": "assembly_minutes",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。南オーストラリア州教育省とのパートナーシップ協定について、締結日は令和8年1月20日を予定、相手方の署名後に教育長が署名する流れと記載。有効期間の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。京都府教育委員会の会議録（2025-11-10）では、同協定の締結日は令和8年1月20日（2026-01-20）の予定と報告されており（正式な調印式は実施せず書面署名）、府一覧の署名日（2025-12-26）と食い違う。署名の完了や効力発生日は公式資料で確認できず。"
   },
   {
    "id": "JP-26-022",
@@ -1261,7 +1480,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "親善交流目的の協定のため、利用時は友好提携に準じる文書として扱うか要判断。覚書（G4-26-01）とは別文書。"
+   "notes": "親善交流目的の協定のため、利用時は友好提携に準じる文書として扱うか要判断。覚書（G4-26-01）とは別文書。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "府の一覧ページに署名日が載っているだけで、有効期間・更新・終了の記載がなく、現在の効力を明示する2025年以降の公式資料も見つからないため、有効性は確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "京都府の分野別交流一覧ページを開いて確認。有効期間・更新・終了の記載は見つからず。京都府のフエ省ページで協定書は平成25年（2013年）に締結とあるが、日付・有効期間の記載なし。2023-11-20に更新されたのは別文書の覚書（JP-26-006）。"
   }
  ]
 }

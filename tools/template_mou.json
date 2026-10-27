@@ -6,6 +6,7 @@
  "title_original": "",
  "doc_type": "覚書",
  "doc_type_note": "",
+ "doc_category": "mou_moc",
  "japan_level": "prefecture",
  "japan_org": "茨城県",
  "pref_code": "08",
@@ -19,8 +20,12 @@
  "signed_date": "2026-10-01",
  "announced_date": "2026-10-03",
  "date_note": "",
- "fields": ["labor"],
- "labor_detail": ["特定技能"],
+ "fields": [
+  "labor"
+ ],
+ "labor_detail": [
+  "特定技能"
+ ],
  "purpose": "（協定の目的。資料の表現に忠実に1〜2文）",
  "content": [
   "（合意した内容1。資料に書かれていることだけ）",
@@ -53,5 +58,21 @@
  ],
  "survey_stage": 1,
  "last_checked": "2026-10-27",
- "notes": ""
+ "notes": "",
+ "related_systems": [],
+ "acceptance_types": [],
+ "numbers": [],
+ "validity_state": "unconfirmed",
+ "validity_basis": "（判定の理由。docs/データの追加方法.md の8を参照）",
+ "validity_sources": [
+  "s1"
+ ],
+ "validity_checked": "2026-10-28",
+ "effective_date": null,
+ "term_text": null,
+ "renewal_text": null,
+ "last_renewed": null,
+ "ended_date": null,
+ "end_reason": null,
+ "successor_id": null
 }

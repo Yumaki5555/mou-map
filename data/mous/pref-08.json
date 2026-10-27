@@ -54,7 +54,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。県の一次資料は未確認（Web検索上限のため追加確認できず）。"
+   "notes": "正式名称未確認。県の一次資料は未確認（Web検索上限のため追加確認できず）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "JETROの2020年のレポートの一覧に載っているのみで、県の一次資料がなく、有効期間や現在の効力を確認できない。",
+   "effective_date": "2014-03",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の一次資料は見つからず。JETRO一覧への掲載だけでは有効確認にならない。"
   },
   {
    "id": "JP-08-002",
@@ -109,7 +118,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称・文書種別未確認。県の一次資料は未確認。"
+   "notes": "正式名称・文書種別未確認。県の一次資料は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "JETROの2020年のレポートの一覧に載っているのみで、県の一次資料がなく、有効期間や現在の効力を確認できない。",
+   "effective_date": "2019-07",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の一次資料は見つからず。JETRO一覧への掲載だけでは有効確認にならない。"
   },
   {
    "id": "JP-08-003",
@@ -182,7 +200,17 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "正式名称は県ページの見出しによる（原文未確認）。県ページに有効期間の記載なし、原文PDFの掲載なし。ベトナム労働・傷病兵・社会問題省は2025年3月の省庁再編で内務省に統合されたとの情報がある（他県ページの検索結果抜粋による。本調査では未確認）。"
+   "notes": "正式名称は県ページの見出しによる（原文未確認）。県ページに有効期間の記載なし、原文PDFの掲載なし。ベトナム労働・傷病兵・社会問題省は2025年3月の省庁再編で内務省に統合されたとの情報がある（他県ページの検索結果抜粋による。本調査では未確認）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（2022年7月更新）は締結（2019-11-26）を記載するのみで、有効期間や現在の効力を示す記載がなく、原文も公開されていない。",
+   "effective_date": "2019-11-26",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。相手の省は2025年にベトナムの省庁再編で再編されたとの情報があるが、公式資料では確認していない。"
   },
   {
    "id": "JP-08-004",
@@ -287,7 +315,18 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "2023年7月28日にロンアン省と「相互協力に関する共同声明」を発出（共同声明のため別記録にせず除外例に記載）。原文未確認。"
+   "notes": "2023年7月28日にロンアン省と「相互協力に関する共同声明」を発出（共同声明のため別記録にせず除外例に記載）。原文未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2022年・2023年の資料は「覚書に基づく」事業の実施を述べるが、2025年以降の資料がなく、有効期間や現在の効力の明示もない。",
+   "effective_date": "2019-11-26",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。2023年以前の記載のみ。事業の継続だけでは有効確認としない。"
   },
   {
    "id": "JP-08-005",
@@ -345,7 +384,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "ERAはニューヨークを拠点とするスタートアップ支援団体（アクセラレーター）。原文は未確認。"
+   "notes": "ERAはニューヨークを拠点とするスタートアップ支援団体（アクセラレーター）。原文は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の概要資料に有効期間1年間（自動更新）とあるが、自動更新の記載だけでは有効確認にならず、現在も更新されていることを示す資料がない。",
+   "effective_date": "2019-12-11",
+   "term_text": "県の概要資料「有効期間：1年間（※自動更新。実績に応じて内容等の見直しも行える）」",
+   "renewal_text": "1年間の有効期間が自動更新される（県の概要資料）",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "原文は未確認。2020年以降の更新・終了に関する公式資料は見つからなかった。"
   },
   {
    "id": "JP-08-006",
@@ -410,7 +460,16 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "相手は学校法人等の教育機関（政府機関ではない）。県ページに有効期間・原文の掲載なし。partner_org_en は一般的な英語名で、県資料には記載なし。"
+   "notes": "相手は学校法人等の教育機関（政府機関ではない）。県ページに有効期間・原文の掲載なし。partner_org_en は一般的な英語名で、県資料には記載なし。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（2022年2月更新）は締結を記載するのみで、有効期間や現在の効力を示す記載がなく、原文も公開されていない。",
+   "effective_date": "2022-02-09",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-08-007",
@@ -465,7 +524,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "2024年10月4日の県プレスリリースに「茨城県が海外OTAとのMOU締結はKlook（2024年3月）についで2例目」との記載があるのみ。Klook本体の発表資料は未取得（検索結果に240312_ibarakiklook.pdfがあったがダウンロードできず）。相手の国籍は資料に記載がないため country_code 空欄。"
+   "notes": "2024年10月4日の県プレスリリースに「茨城県が海外OTAとのMOU締結はKlook（2024年3月）についで2例目」との記載があるのみ。Klook本体の発表資料は未取得（検索結果に240312_ibarakiklook.pdfがあったがダウンロードできず）。相手の国籍は資料に記載がないため country_code 空欄。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2024年10月の発表がKlookとのMOU締結（2024年3月）に触れるのみで、有効期間や現在の効力、文書の内容を確認できない。",
+   "effective_date": "2024-03",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "Klook本体の発表資料は取得できず。公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-08-008",
@@ -522,7 +590,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。原文未確認。"
+   "notes": "正式名称未確認。原文未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2024年10月の発表は締結と「今後はMOUに基づき…取り組む」と述べるが、有効期間や現在の効力の明示がない。",
+   "effective_date": "2024-10-04",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-08-009",
@@ -578,7 +655,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称・原文未確認。"
+   "notes": "正式名称・原文未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2025年11月の発表は締結を記載するのみで、有効期間や現在の効力の明示がない。",
+   "effective_date": "2025-11-13",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   }
  ]
 }

@@ -59,7 +59,14 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "文書の正式名称・署名者・月日は未確認（年表の記載のみ）。"
+   "notes": "文書の正式名称・署名者・月日は未確認（年表の記載のみ）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の年表に2017年の記載があるのみで、協定の有効期間・現況は確認できない。",
+   "effective_date": "2017",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "年表PDF（984142.pdf）は今回開いていない。ユネスコ共同申請という目的の協定で、現在効力を有する旨を示す公式資料は確認できず。"
   },
   {
    "id": "JP-36-002",
@@ -152,7 +159,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称は未確認。同じ訪問で翌日にタイ工業省産業振興局（DIPROM）ともMOUを締結（R1-36-02）。"
+   "notes": "正式名称は未確認。同じ訪問で翌日にタイ工業省産業振興局（DIPROM）ともMOUを締結（R1-36-02）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県のページで2024-10-30の締結式は確認できるが、MOUの有効期間・更新の記載がなく、現在効力を有する旨の公式資料も見つからない。",
+   "effective_date": "2024-10-30",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "予算資料（s3以降）は今回開いていない。"
   },
   {
    "id": "JP-36-003",
@@ -322,7 +338,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称は未確認。内容に『人材交流』を含むが、外国人材の受入れ（特定技能等）に関する記述は確認できないため、labor には含めていない。"
+   "notes": "正式名称は未確認。内容に『人材交流』を含むが、外国人材の受入れ（特定技能等）に関する記述は確認できないため、labor には含めていない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページで2024-10-31の締結は確認でき、別ページは『MOUに基づき、徳島県アジアデスクを開設し県職員を駐在させている』と述べるが、MOU自体の有効期間・現在の効力の明示はなく、ページの公表日も確認できないため根拠Cとしない。",
+   "effective_date": "2024-10-31",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "アジアデスクの運営は事業の継続を示すのみ。MOUの現在の効力を明示した資料は確認できず。"
   },
   {
    "id": "JP-36-004",
@@ -430,7 +456,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "名称が『覚書』のため、友好交流目的でも記録（SCHEMA.md の規定による）。"
+   "notes": "名称が『覚書』のため、友好交流目的でも記録（SCHEMA.md の規定による）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "2025-11-03に友好協力都市協定へ格上げされたが、知事会見では覚書の扱い（引き継ぎ・終了）に触れておらず、覚書の有効期間や終了の記載がない。",
+   "effective_date": "2025-01-25",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s5"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "格上げ後の協定書（2025-11-03）に覚書を置き換える旨が書かれていれば終了確認となるが、確認できず。"
   },
   {
    "id": "JP-36-005",
@@ -517,7 +553,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（掲載日2025-05-16）で2025-05-13の覚書締結は確認できるが、有効期間・更新の記載がなく、現在効力を有する旨の明示もない。",
+   "effective_date": "2025-05-13",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-36-006",
@@ -612,7 +656,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "外国の大学との協力文書（非条約文書）として記録。"
+   "notes": "外国の大学との協力文書（非条約文書）として記録。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページで2026-03-24の協定締結は確認できるが、有効期間・更新の記載がなく、期間を計算できない。",
+   "effective_date": "2026-03-24",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-36-007",
@@ -688,7 +740,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "外国の大学との協力文書（非条約文書）として記録。"
+   "notes": "外国の大学との協力文書（非条約文書）として記録。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（掲載日2026-03-25）で締結は確認できるが、有効期間・更新の記載がなく、期間を計算できない。",
+   "effective_date": "2026-03-25",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-36-008",
@@ -746,7 +806,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "県側の署名者は記載なし（知事の活動記録への掲載のため知事が出席したとみられるが未確認）。"
+   "notes": "県側の署名者は記載なし（知事の活動記録への掲載のため知事が出席したとみられるが未確認）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（掲載日2026-06-01）で締結は確認できるが、有効期間・更新の記載がなく、期間を計算できない。",
+   "effective_date": "2026-06-01",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-36-009",
@@ -804,7 +872,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "県側の署名者は記載なし。"
+   "notes": "県側の署名者は記載なし。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（掲載日2026-06-01）で締結は確認できるが、有効期間・更新の記載がなく、期間を計算できない。",
+   "effective_date": "2026-06-01",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28"
   }
  ]
 }

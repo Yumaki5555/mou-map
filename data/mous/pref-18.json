@@ -62,7 +62,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。country_code は国際機関のため空欄。"
+   "notes": "第2段階（他分野）。country_code は国際機関のため空欄。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "2013年の締結資料に協力内容と署名者の記載はあるが、有効期間・更新・終了の記載がなく、現在の効力を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の2013年資料（PDF）を確認。WebSearch1回でも有効期間・延長の資料は出ず。英文覚書に『法的拘束力なし』の旨があると検索結果にあるが条項本文は未確認。"
   }
  ]
 }

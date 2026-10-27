@@ -54,7 +54,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "島根県も1994年6月13日に吉林省と同名の覚書を締結（G4-32-02）。同一文書（共同署名）か別文書かは未確認。"
+   "notes": "島根県も1994年6月13日に吉林省と同名の覚書を締結（G4-32-02）。同一文書（共同署名）か別文書かは未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは1994年の覚書と2017年の友好県省提携の協定書を並べて記載するのみで、有効期間・現況の記載がない。現在効力を有する旨の明示も、廃止の記載もない。",
+   "effective_date": "1994",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "島根県側の資料（R7年度版）は同覚書を『結んでいる』と記載（JP-32-002参照）。鳥取県の資料では確認できず。"
   },
   {
    "id": "JP-31-002",
@@ -140,7 +149,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "友好交流の覚書（姉妹友好提携に準じる文書）。"
+   "notes": "友好交流の覚書（姉妹友好提携に準じる文書）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページに締結日（1997-07-25）の記載はあるが覚書の本文・有効期間は公開されておらず、現在効力を有する旨の明示もない。令和8年度の事業予定は事業の継続を示すのみ。",
+   "effective_date": "1997-07-25",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の原文は見つからず。"
   },
   {
    "id": "JP-31-003",
@@ -203,7 +222,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "人の相互派遣・研修を含むが、外国人材の受入れ・就労に関する覚書ではない。"
+   "notes": "人の相互派遣・研修を含むが、外国人材の受入れ・就労に関する覚書ではない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページに2007-10-30署名の本文（4項目）が掲載されているが、有効期間・終了の条項がなく、現在効力を有する旨の明示もない。",
+   "effective_date": "2007-10-30",
+   "term_text": "期間の記載なし（掲載された本文に期間条項なし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-31-004",
@@ -258,7 +286,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "姉妹提携の前段階の親善覚書。"
+   "notes": "姉妹提携の前段階の親善覚書。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは2008年の『国際親善に関する覚書』と2018年の姉妹提携協定書を並べて記載するのみで、有効期間・現況の記載がない。",
+   "effective_date": "2008",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2018年の姉妹提携協定書による置き換えは公式資料に書かれていない。"
   },
   {
    "id": "JP-31-005",
@@ -314,7 +351,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは2015年の業務協約書（県の地域振興局とソウル特別市の担当課長の間）を記載するのみで、有効期間・現況の記載がない。",
+   "effective_date": "2015",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-31-006",
@@ -369,7 +414,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。"
+   "notes": "正式名称未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは2017年の観光交流協定と2018年の友好交流協定を並べて記載するのみで、有効期間・現況の記載がない。",
+   "effective_date": "2017",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2018年の友好交流協定による置き換えは公式資料に書かれていない。"
   },
   {
    "id": "JP-31-007",
@@ -435,7 +489,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "署名者は未確認（副知事を団長とする交流協議団が締結）。"
+   "notes": "署名者は未確認（副知事を団長とする交流協議団が締結）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "2016-03-24の姉妹提携協力覚書の前文が2015-10-08の協議覚書に言及しているが、協議覚書自体の有効期間・終了の記載はなく、姉妹提携への移行で役目を終えたとの明示もない。",
+   "effective_date": "2015-10-08",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "準備段階の覚書で、後続の姉妹提携協力覚書（JP-31-008）に至った。置き換え・終了とは書かれていない。"
   },
   {
    "id": "JP-31-008",
@@ -546,7 +610,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "姉妹提携の成立文書だが、正式名称が『協力覚書』のため記録（SCHEMA.md の規定による）。"
+   "notes": "姉妹提携の成立文書だが、正式名称が『協力覚書』のため記録（SCHEMA.md の規定による）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページの本文（2016-03-24署名）に有効期間・終了の条項がなく、交流は続いているが協定の現行の効力を明記した記述はない（県ページは『姉妹提携を締結しました』と過去形）。",
+   "effective_date": "2016-03-24",
+   "term_text": "有効期間の条項なし（本文に期間・終了の条項なし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2026-08-31の10周年記念式典の予告（s4）は今回開いていない。交流の継続は有効確認の根拠にしない。"
   },
   {
    "id": "JP-31-009",
@@ -604,7 +679,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "同じ機会に県内企業とロシア企業の間で民間の覚書4件（廃棄物処理、紙おむつ処理機器、廃ガラス処理、旅行商品造成）が署名されたが、県は署名者ではないため記録しない。"
+   "notes": "同じ機会に県内企業とロシア企業の間で民間の覚書4件（廃棄物処理、紙おむつ処理機器、廃ガラス処理、旅行商品造成）が署名されたが、県は署名者ではないため記録しない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは2017-04-10に覚書（議事録）を署名したこと、今後は企業間の情報交換を進めることを述べるのみで、有効期間・現況の記載がない。",
+   "effective_date": "2017-04-10",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "議事録（覚書）の本文は公開されておらず確認できず。"
   },
   {
    "id": "JP-31-010",
@@ -670,7 +754,14 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称・県側の署名者は未確認。相手は外国企業（航空会社）。"
+   "notes": "正式名称・県側の署名者は未確認。相手は外国企業（航空会社）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の報告資料・報道発表で締結（2023-09-12）は確認できるが、有効期間・現況の記載が見つからず、現在効力を有する旨の明示もない。",
+   "effective_date": "2023-09-12",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "s2（312953.htm）は302転送で本文を取得できず、s1（議会報告PDF）は今回開いていない。記録の既存の記述に依拠せず、有効性は未確認とした。"
   },
   {
    "id": "JP-31-011",
@@ -749,7 +840,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "県側の署名者は資料に明記なし。スポーツ（事前キャンプ）分野。"
+   "notes": "県側の署名者は資料に明記なし。スポーツ（事前キャンプ）分野。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "事前キャンプの実施（2025世界陸上）は県広報で確認されるが、覚書の有効期間・終了の明示はなく、『終了』とも書かれていない。目的達成後の扱いは公式資料で確認できない。",
+   "effective_date": "2023-11-15",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書は大会の事前キャンプのための文書とみられるが、終了の明記は見つからず。"
   },
   {
    "id": "JP-31-012",
@@ -788,7 +888,7 @@
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
-   "status": "planned",
+   "status": "signed",
    "status_note": "締結日を予告した会見資料のみ確認。",
    "projects": [],
    "budgets": [],
@@ -813,11 +913,30 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "とっとり方式認知症予防プログラムの台湾導入に関する覚書の締結（県ページ）",
+     "publisher": "鳥取県",
+     "url": "https://www.pref.tottori.lg.jp/324815.htm",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2025-09-04の締結（日時・署名者4者）と覚書の内容（プログラムの台湾での普及、県の使用同意、遵守事項）。有効期間の記載なし、掲載日の記載なし。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "4者＝鳥取県、鳥取大学浦上教授、財団法人中華経済研究院、台湾高齢産業創新発展協会。"
+   "notes": "4者＝鳥取県、鳥取大学浦上教授、財団法人中華経済研究院、台湾高齢産業創新発展協会。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の公式ページで、2025-09-04に鳥取県・鳥取大学教授・台湾の2団体の4者が覚書を締結したことは確認できるが、有効期間・更新の記載がなく、期間を計算できない。現在効力を有する旨の明示もない。",
+   "effective_date": "2025-09-04",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "前回調査では予告のみ確認で planned だったが、県ページ（324815.htm）で締結済みを確認したため変更。記録のs1/s2とは別のURL（検索で発見）。"
   }
  ]
 }

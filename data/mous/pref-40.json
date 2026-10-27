@@ -66,11 +66,42 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "福岡県とバンコク都との友好協力関係の更なる強化に関する覚書（2017年2月）",
+     "publisher": "福岡県",
+     "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/204336.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。画像PDFを目視で確認。署名日から効力。期間・終了条項なし。『新たに高齢者施策分野』を追加する内容で旧覚書の廃止の記載なし"
+    },
+    {
+     "id": "v2",
+     "title": "福岡県とバンコク都との友好協力関係の更なる強化に向けた覚書（2023年1月）",
+     "publisher": "福岡県",
+     "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/204331.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。画像PDFを目視で確認。署名日から効力。期間・終了条項なし。旧覚書の廃止の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。友好提携（2006年2月8日）後の協力強化の覚書。"
+   "notes": "第2段階。友好提携（2006年2月8日）後の協力強化の覚書。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間・終了条項がなく（署名日から効力のみ）、現在の効力を示す公式資料（根拠B・C）も見つからないため有効とも終了とも確認できない。",
+   "effective_date": "2012-02-10",
+   "term_text": "署名の日から効力を生ずる（有効期間・終了の定めの記載なし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2017年・2023年の後続覚書は新しい協力分野を加えるもので、本覚書の廃止・置き換えの記載はない。県ページ（2025-11-18更新）は覚書を並べるだけ。"
   },
   {
    "id": "JP-40-002",
@@ -138,11 +169,42 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "日本国福岡県とベトナム社会主義共和国ハノイ市との友好・協力関係の更なる発展に関する覚書（2018年6月）",
+     "publisher": "福岡県",
+     "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/206991.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。画像PDFを目視で確認。署名日から効力。期間・終了条項なし。2013年覚書の廃止の記載なし"
+    },
+    {
+     "id": "v2",
+     "title": "日本国福岡県とベトナム社会主義共和国ハノイ市との友好・協力関係の更なる強化に関する覚書（2024年1月）",
+     "publisher": "福岡県",
+     "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/213338.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。画像PDFを目視で確認。『署名の日から効力を生じ、2024年から2028年までの5年間有効』『満了の6か月前までに書面通知がない限り1年ずつ自動延長』"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。友好提携（2008年2月）後の協力強化の覚書。外国人材受入れの項目なし（環境分野の『人材育成』はハノイ市側職員等の研修）。"
+   "notes": "第2段階。友好提携（2008年2月）後の協力強化の覚書。外国人材受入れの項目なし（環境分野の『人材育成』はハノイ市側職員等の研修）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間・終了条項がなく（署名日から効力のみ）、現在の効力を示す公式資料（根拠B・C）も見つからないため有効とも終了とも確認できない。",
+   "effective_date": "2013-08-27",
+   "term_text": "署名の日から効力を生ずる（有効期間・終了の定めの記載なし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2018年覚書は2013年覚書への合意に触れるのみで廃止の記載なし。2024年覚書の前文に『5年毎に友好協力関係の強化・発展に関する覚書を結び』とあるが、旧覚書の終了・置き換えを明記した条項は見つからなかった。"
   },
   {
    "id": "JP-40-003",
@@ -206,11 +268,32 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "福岡県とバンコク都との友好協力関係の更なる強化に向けた覚書（2023年1月）",
+     "publisher": "福岡県",
+     "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/204331.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。画像PDFを目視で確認。署名日から効力。期間・終了条項なし。旧覚書の廃止の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。高齢者施策分野の交流であり、介護人材の受入れの記載はない。"
+   "notes": "第2段階。高齢者施策分野の交流であり、介護人材の受入れの記載はない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間・終了条項がなく（署名日から効力のみ）、現在の効力を示す公式資料（根拠B・C）も見つからないため有効とも終了とも確認できない。",
+   "effective_date": "2017-02-21",
+   "term_text": "署名の日から効力を生ずる（有効期間・終了の定めの記載なし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2023年覚書は『2017年2月21日に…新たな取組により関係を深化させてきた』と経緯に触れるのみで、2017年覚書の廃止の記載はない。"
   },
   {
    "id": "JP-40-004",
@@ -247,7 +330,7 @@
    ],
    "validity": "3年間（2017年4月1日から相互協力の期限を延長。2020年3月31日に満了）",
    "validity_type": "fixed",
-   "valid_until": "2021-01-15",
+   "valid_until": "2026-03-31",
    "valid_until_note": "締結日（2018-01-16）と有効期間（3年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
    "renewal_terms": "いずれか一方が3か月前までに書面で解消を通知しない限り、書面による同意により更新可（仮訳第9条）",
    "legal_binding": "not_binding",
@@ -290,7 +373,21 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。前回（G5）は『友好提携に関する覚書』として除外していたが、ハノイ市・バンコク都との覚書と同様に正式名称が覚書の協力文書のため記録（統合時に扱いを統一してください）。2012年11月22日締結・2017年3月31日満了の合意への言及あり（県ページに原文なし、未記録）。外国人材の受入れの項目なし。"
+   "notes": "第2段階。前回（G5）は『友好提携に関する覚書』として除外していたが、ハノイ市・バンコク都との覚書と同様に正式名称が覚書の協力文書のため記録（統合時に扱いを統一してください）。2012年11月22日締結・2017年3月31日満了の合意への言及あり（県ページに原文なし、未記録）。外国人材の受入れの項目なし。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "延長覚書により最後に確認できる有効期限は2026-03-31で、基準日（2026-10-28）までに経過。その後の再延長・新覚書は県ページ（2023-11-28更新）にも検索でも確認できない。",
+   "effective_date": "2018-01-16",
+   "term_text": "第9条『友好提携は3年間有効』。2023年の延長覚書で『原覚書は2020年3月31日に期限満了し3年間（2023年3月31日まで）延長、さらに2023年4月1日から2026年3月31日まで3年間延長』",
+   "renewal_text": "いずれか一方が少なくとも3か月前に解消の意向を書面で通知しない限り、書面による同意により更新できる（第9条）",
+   "auto_renewal": "no",
+   "last_renewed": "2023",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記載の有効期間（〜2026-03-31）は経過。更新・延長の有無は公式資料で確認できず（県ページに2026年の文書なし、Web検索でも該当なし）。記録の valid_until（2021-01-15）は2020年・2023年の延長合意が反映されておらず不適切。2023年延長覚書の署名日は文面にない（文書は2023年4月1日にさかのぼって延長）。"
   },
   {
    "id": "JP-40-005",
@@ -379,7 +476,19 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。外国人材受入れの項目なし。"
+   "notes": "第2段階。外国人材受入れの項目なし。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間・終了条項がなく（署名日から効力のみ）、現在の効力を示す公式資料（根拠B・C）も見つからないため有効とも終了とも確認できない。",
+   "effective_date": "2018-06-27",
+   "term_text": "署名の日から効力を生ずる（有効期間・終了の定めの記載なし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2024年覚書の前文は『2018年に締結した覚書に基づいて…』と過去の経緯として触れるのみで、2018年覚書の廃止・置き換えの明記はない。"
   },
   {
    "id": "JP-40-006",
@@ -415,7 +524,7 @@
    ],
    "validity": "2023年4月1日から2026年3月31日まで",
    "validity_type": "fixed",
-   "valid_until": null,
+   "valid_until": "2026-03-31",
    "renewal_terms": "原覚書第9条による",
    "legal_binding": "not_binding",
    "legal_binding_note": "原覚書第6条による（延長覚書は期限以外の内容を継続）。",
@@ -444,11 +553,34 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "インド・デリー準州と福岡県との相互協力に関する覚書（2018年1月・仮訳）",
+     "publisher": "福岡県",
+     "url": "https://www.pref.fukuoka.lg.jp/uploaded/attachment/207580.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。第9条『友好提携は3年間有効。2012年11月22日に締結し2017年3月31日に期限満了した合意を想起し、2017年4月1日から期限を延長…いずれか一方が少なくとも3ヶ月前に解消の意向を書面で通知しない限り、書面による同意により更新することができる』"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。"
+   "notes": "第2段階。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "延長覚書に記載された期間（〜2026-03-31）は基準日までに経過。その後の再延長・新覚書は公式資料で確認できない。",
+   "effective_date": "2023-04-01",
+   "term_text": "2023年4月1日から2026年3月31日まで（原覚書の有効期間を3年間延長）",
+   "renewal_text": "原覚書第9条による（いずれか一方が3か月前に解消通知しない限り、書面による同意により更新可）",
+   "auto_renewal": "no",
+   "last_renewed": "2023",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記載の有効期間（〜2026-03-31）は経過。更新・延長の有無は公式資料で確認できず（県ページ更新日2023-11-28、検索でも2026年の更新情報なし）。"
   },
   {
    "id": "JP-40-007",
@@ -524,7 +656,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。起業家人材の育成交流であり、外国人材の受入れではない。"
+   "notes": "第2段階。起業家人材の育成交流であり、外国人材の受入れではない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に有効期間・終了条項がなく（署名日から効力のみ）、現在の効力を示す公式資料（根拠B・C）も見つからないため有効とも終了とも確認できない。",
+   "effective_date": "2023-01-13",
+   "term_text": "署名の日から効力を生ずる（有効期間・終了の定めの記載なし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県サイトにアントレプレナーシップ人財育成事業の記事（2025年・2026年）があるとの記録メモはあるが、事業の実施は有効性の根拠にならない。"
   },
   {
    "id": "JP-40-008",
@@ -579,7 +722,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（教育）。内容は未確認。"
+   "notes": "第2段階（教育）。内容は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページで署名（2023-04-19）は確認できるが、有効期間・効力の記載がなく、現在の効力を示す資料も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書本文は公開されていない。県ページに有効期間・更新の記載なし。"
   },
   {
    "id": "JP-40-009",
@@ -644,7 +795,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。"
+   "notes": "第2段階。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページで締結（2023-04-21）は確認できるが、有効期間・効力の記載がなく、現在の効力を示す資料も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書本文は公開されていない。県ページに有効期間・更新の記載なし。"
   },
   {
    "id": "JP-40-010",
@@ -695,11 +855,29 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "No.11『福岡県教育委員会とデリー準州教育局との覚書締結』"
+    },
+    {
+     "id": "v1",
+     "title": "インド・デリー準州（地域ページ）",
+     "publisher": "福岡県",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/indiadelhi.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2023-11-28更新。覚書の文書リンクのみで、2026年3月31日以降の延長・更新の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（教育）。署名者・内容は未確認。"
+   "notes": "第2段階（教育）。署名者・内容は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の海外活動一覧で覚書締結（2023-11）は確認できるが、本文・有効期間・現在の効力を示す資料が見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "デリー準州ページ（2023-11-28更新）にも教育局との覚書の掲載なし。"
   },
   {
    "id": "JP-40-011",
@@ -738,7 +916,7 @@
    ],
    "validity": "署名の日から効力、2024年から2028年までの5年間有効",
    "validity_type": "fixed",
-   "valid_until": "2029-01-22",
+   "valid_until": "2028-12-31",
    "valid_until_note": "締結日（2024-01-23）と有効期間（5年）から計算した目安。効力の発生日が締結日と異なる場合はずれることがあります。",
    "renewal_terms": "満了の6か月前までに書面で通知しない限り1年ずつ自動延長",
    "legal_binding": "not_stated",
@@ -781,7 +959,20 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。外国人材受入れの項目なし。2024年10月の『ワンヘルスの推進に関する共同宣言』は共同宣言のため対象外。"
+   "notes": "第2段階。外国人材受入れの項目なし。2024年10月の『ワンヘルスの推進に関する共同宣言』は共同宣言のため対象外。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文に『署名の日から効力を生じ、2024年から2028年までの5年間有効』とあり、基準日（2026-10-28）は期間内。終了・失効の情報は見つからない（根拠A）。valid_untilはどちらの読み方でも期間内となる早い方（2028-12-31）を記載。",
+   "effective_date": "2024-01-23",
+   "term_text": "『署名の日から効力を生じ、2024年から2028年までの5年間有効』（終期の日付は明記なし。暦年で読むと2028-12-31、署名日起算の5年なら2029-01-22）",
+   "renewal_text": "当事者のいずれかが、本覚書または延長された期間の満了の6か月前までに書面で相手方に通知しない限り、1年ずつ自動で延長される",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県ページ（2025-11-18更新）に終了・変更の記載なし。署名日は2024-01-23（ハノイ市）。"
   },
   {
    "id": "JP-40-012",
@@ -852,7 +1043,19 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。2024年5月の『ワンヘルスの推進に関する共同宣言』は共同宣言のため対象外。"
+   "notes": "第2段階。2024年5月の『ワンヘルスの推進に関する共同宣言』は共同宣言のため対象外。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文（日英）に署名日（2024-09-11）から5年間有効とあり、基準日は期間内。終了・失効の情報は見つからない（根拠A）。",
+   "effective_date": "2024-09-11",
+   "term_text": "署名の日から効力を発生し5年間有効（原文『valid for five (5) years』）。計算：署名日2024-09-11から5年間→2029-09-10",
+   "renewal_text": "双方の書面による合意により延長できる。終了を希望する場合は3か月前に書面通知",
+   "auto_renewal": "no",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県ページ（2025-11-11更新）に終了の記載なし。2024年5月の共同宣言は対象外。"
   },
   {
    "id": "JP-40-013",
@@ -920,7 +1123,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。"
+   "notes": "第2段階。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文は『破棄の書面を6か月前に提示するまで有効』の無期限型で終わりの日が計算できず、現在の効力を示す追加の公式資料（根拠B・C）も見つからない。",
+   "effective_date": "2024-11-20",
+   "term_text": "署名した日に効力を生じ、どちらかが破棄する旨の書面を6か月前に提示するまで有効（期間の定めなし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県ページ（2025-11-18更新）に終了・更新の記載なし。"
   },
   {
    "id": "JP-40-014",
@@ -990,7 +1204,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（スポーツ）。"
+   "notes": "第2段階（スポーツ）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（2026-03-09更新）に覚書を締結した旨はあるが、有効期間・効力発生の記載がなく、現在の効力を示す資料も確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "事前の報道発表（2026-03-02）は署名予定（2026-03-09）の告知。署名後の県ページで締結を確認。覚書本文は未公開。"
   },
   {
    "id": "JP-40-015",
@@ -1042,11 +1265,29 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "No.8"
+    },
+    {
+     "id": "v1",
+     "title": "オーストラリア・ニューサウスウェールズ州（地域ページ）",
+     "publisher": "福岡県",
+     "url": "https://www.pref.fukuoka.lg.jp/contents/nsw-australia.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2024-09-05更新。覚書の掲載なし（水素分野で連携とのみ記載）"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "県のNSW州交流ページ（https://www.pref.fukuoka.lg.jp/contents/nsw-australia.html）には覚書の掲載なし。"
+   "notes": "県のNSW州交流ページ（https://www.pref.fukuoka.lg.jp/contents/nsw-australia.html）には覚書の掲載なし。",
+   "validity_state": "planned",
+   "validity_basis": "県の海外活動一覧（R5.8）には『NSW州と水素分野に関する覚書締結に合意』とあるのみで、署名の事実を示す資料がない。県のNSW州ページにも覚書の掲載がない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "R6.8の訪問団の記載にも覚書締結の記載なし。署名の確認ができないため締結予定として扱う。"
   }
  ]
 }

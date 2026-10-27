@@ -51,11 +51,31 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "原文PDF（d00152941_d/fil/1.pdf）は未確認。"
+    },
+    {
+     "id": "v1",
+     "title": "ORANGE PARTNERSHIP AGREEMENT（英文・和文、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/1.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。署名日2011-11-15、有効期間条項なし。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "フロリダ州は姉妹県州。"
+   "notes": "フロリダ州は姉妹県州。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文（県一覧の関連ファイル1.pdf）に有効期間の定めはなく2011-11-15に発効。県の『覚書等締結国・地域等』一覧（令和7年11月現在、2026年に更新）が現在締結している覚書として掲載しており、根拠Cに当たる。終了の情報は見つからない。",
+   "effective_date": "2011-11-15",
+   "term_text": "有効期間の定めなし（署名日の2011年11月15日に発効。原文末尾『署名をもって発効』）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "一覧では外部リンクの表示あり。2025-11-10にフロリダ州と姉妹県州関係強化の覚書（JP-30-019）を別途締結しているが、本協定の廃止・置き換えの記載はない（強化覚書の前文は本協定を引き続き前提として言及）。"
   },
   {
    "id": "JP-30-002",
@@ -107,11 +127,31 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "友好親善関係と連携強化に係る覚書（画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/2.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。スペイン語版（署名日2012-07-05サンティアゴ）と日本語版（第1〜4条・署名欄）を目視で確認。有効期間・終了条項はなく、署名の日に発効。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "友好親善目的の覚書。"
+   "notes": "友好親善目的の覚書。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文（関連ファイル2.pdf）に有効期間条項がなく署名日に発効。県の一覧（令和7年11月現在、2026年に更新）が現在締結している覚書として掲載（根拠C）。終了の情報は見つからない。",
+   "effective_date": "2012-07-05",
+   "term_text": "有効期間の定めなし（署名の日をもって発効。原文）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "日本語版の第1〜4条とスペイン語版を確認。期間条項なし。更新・終了の記録は県資料に見当たらない。"
   },
   {
    "id": "JP-30-003",
@@ -142,7 +182,7 @@
    "content": [],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2027-07-04",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -162,11 +202,32 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "貿易・経済協力促進を目的とした覚書（Agreement on Mutual Cooperation、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/11.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。第10条：2013年7月5日発効、2年間有効、3か月前通知がなければ1年ずつ自動延長。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文第10条で2年間・以後1年ごとの自動延長。県の一覧（令和7年11月現在、2026年に更新）が現在締結している覚書として掲載（根拠C）。終了通知の情報は見つからない。valid_untilは自動延長を前提にした計算値。",
+   "effective_date": "2013-07-05",
+   "term_text": "2013年7月5日発効、有効期間2年。以後、終了の書面通知が満了の3か月前までになければ1年ずつ自動延長（第10条）。計算：2013-07-05から2年→2015-07-04、以後1年ずつ延長→現在の期間は2026-07-05〜2027-07-04（終了通知がない場合）。",
+   "renewal_text": "終了通知が満了の3か月前までにない限り1年ずつ自動延長（第10条）",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "更新・延長の記録（日付）は県資料に見当たらない。"
   },
   {
    "id": "JP-30-004",
@@ -201,7 +262,7 @@
    ],
    "validity": "平成30年1月更新時の期間は5年（県記者発表）。令和5年更新後の期間は未確認。",
    "validity_type": "fixed",
-   "valid_until": null,
+   "valid_until": "2028-10",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -239,11 +300,33 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "観光・食品加工分野に係る覚書（令和5年2月3日更新・画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/4.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。原文（2013-10-09署名、有効5年）、2018年更新、2023年更新（2028年10月まで）の3文書を目視で確認。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "2023年2月に和歌山県レスリング協会とマハラシュトラ州スポーツ青少年活動総局が別途覚書を締結（県は署名者でないため対象外）。"
+   "notes": "2023年2月に和歌山県レスリング協会とマハラシュトラ州スポーツ青少年活動総局が別途覚書を締結（県は署名者でないため対象外）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県公開の更新文書（2023年2月3日付、マハラシュトラ州首相と和歌山県知事が署名）に『2028年10月まで5年間更新』と明記。基準日は期間内で、県の一覧（令和7年11月現在）も令和5年2月3日更新として掲載。根拠B。",
+   "effective_date": "2013-10-09",
+   "term_text": "2013年署名から5年、2018年1月30日の更新で2023年10月まで5年延長、2023年2月3日の更新で2028年10月まで5年延長（更新文書第3項）。以後は書面通知で終了されるまで有効（第5項）。",
+   "renewal_text": "期間満了後は双方の書面同意により更新（原文第6項）。更新文書は『書面通知で終了するまで有効』と記載",
+   "auto_renewal": "no",
+   "last_renewed": "2023-02-03",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "文書は『2028年10月まで』としか書かれておらず日は特定できないため valid_until は年月のみ。"
   },
   {
    "id": "JP-30-005",
@@ -294,11 +377,30 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "産業連携に係る覚書（MOU、台日産業連携推進オフィス、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/12.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。2014-02-27付、期間条項なし、いつでも終了可。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文に期間の定めはなく、双方いつでも終了できると書かれている。県の一覧（令和7年11月現在、2026年に更新）が現在締結している覚書として掲載（根拠C）。終了の情報は見つからない。",
+   "effective_date": "2014-02-27",
+   "term_text": "有効期間の定めなし。『いずれの当事者もいつでも無条件で終了できる』（原文第2項）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-30-006",
@@ -358,11 +460,30 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "農業分野における覚書（日本語・ベトナム語、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/7.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。2015-03-11ハノイで署名、期間条項なし（終了通知から3か月で終了）。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文に固定の有効期間はなく、双方の署名で発効し終了通知まで存続。県の一覧（令和7年11月現在、2026年に更新）が現在締結している覚書として掲載（根拠C）。終了の情報は見つからない。",
+   "effective_date": "2015-03-11",
+   "term_text": "期間の定めなし。署名で発効し、合意による終了またはいずれかの終了通知から3か月経過まで存続（原文）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-30-007",
@@ -413,11 +534,32 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "合意事項に係る覚書（画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/3.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。第4項『覚書の有効期限』（2年・更新可能・6か月前通知）と署名欄を目視で確認。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文は2年間有効で更新可能（更新しないなら6か月前通知）。県の一覧（令和7年11月現在、2026年に更新）が更新注記なく現在締結している覚書として掲載（根拠C）。期間更新の日付・現在の満了日は資料で確認できないため valid_until は null。",
+   "effective_date": "2015-10-15",
+   "term_text": "有効期間2年・更新可能。更新を望まない側は更新期日の6か月前までに通知（原文第4項）。署名日2015-10-15。",
+   "renewal_text": "期間2年、更新可能。更新しないときは6か月前に通知（原文）。更新の実績は未確認",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "更新を明示した資料は見つからず、有効性は県一覧の記載（根拠C）に依拠。やや弱い根拠。"
   },
   {
    "id": "JP-30-008",
@@ -449,7 +591,7 @@
    "content": [],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2027-11-23",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -487,11 +629,34 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "検索結果の抜粋で確認（本文未取得、403）。"
+    },
+    {
+     "id": "v1",
+     "title": "貿易及び産業連携促進に関する覚書（令和3年11月24日更新・画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/8.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2018-10-08のMOU（有効3年・自動延長）と2021-11-24のMOC（第VI条）を目視で確認。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "2021年更新時の会談で人材協力や技術協力を積極的に進めることで合意したとされる（抜粋）が、覚書自体は貿易・産業連携が主題。"
+   "notes": "2021年更新時の会談で人材協力や技術協力を積極的に進めることで合意したとされる（抜粋）が、覚書自体は貿易・産業連携が主題。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県公開の2021-11-24付MOC第VI条で3年間・自動延長、2018年MOUは置き換え済み。県の一覧（令和7年11月現在、2026年に更新）が令和3年11月24日更新として現在締結中の覚書に掲載（根拠C）。valid_untilは自動延長を前提にした計算値。",
+   "effective_date": "2018-10-08",
+   "term_text": "2021年11月24日署名の覚書（MOC）が2018年MOUに代わる。署名日から3年間、満了3か月前までに終了通知がなければ3年ずつ自動延長（第VI条）。計算：2021-11-24から3年→2024-11-23、自動延長→2027-11-23（終了通知がない場合）。",
+   "renewal_text": "満了3か月前までに書面通知がなければ3年間自動延長（第VI条）",
+   "auto_renewal": "yes",
+   "last_renewed": "2021-11-24",
+   "validity_sources": [
+    "s1",
+    "s3",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "s3（近畿経済産業局資料）は403で開けなかったため根拠に使っていない。"
   },
   {
    "id": "JP-30-009",
@@ -526,7 +691,7 @@
    ],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2026-11-21",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -555,11 +720,34 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "観光促進に係る趣意書（令和4年11月22日更新・画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/13.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2018・2020・2022年の3つのLOIを目視で確認。法的拘束力なしと明記。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "タイ側出席者：ユッタサック・スパソーン総裁（県資料）。"
+   "notes": "タイ側出席者：ユッタサック・スパソーン総裁（県資料）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県公開の2022-11-22付LOIが2年・自動延長を定め、県の一覧（令和7年11月現在、2026年に更新）が令和4年11月22日更新として現在締結中の趣意書に掲載（根拠C）。現在の期間は2026-11-21まで（基準日の24日後）で、その後の自動延長は終了通知の有無次第。",
+   "effective_date": "2018-11-30",
+   "term_text": "2018-11-30発効の趣意書（有効2年）→2020-11-29付で延長→2022-11-22付で『発効日から2年、満了6か月前までに書面通知がなければ2年自動延長』。計算：2022-11-22から2年→2024-11-21、自動延長→2026-11-21（終了通知がない場合）。",
+   "renewal_text": "満了の6か月前までに書面通知がなければ2年間自動延長（2022年版）",
+   "auto_renewal": "yes",
+   "last_renewed": "2022-11-22",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "趣意書（Letter of Intent）で法的拘束力のない文書。2026-11-21以降の延長は未確認。"
   },
   {
    "id": "JP-30-010",
@@ -610,11 +798,32 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "産業連携に関する覚書（令和2年4月24日更新・画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/14.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。2019-05-20署名版のみ（2020-04-24更新分の文書は同PDFでは確認できない）。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文に固定期間はなく終了通知まで有効。県の一覧（令和7年11月現在、2026年に更新）が令和2年4月24日更新として現在締結中の覚書に掲載（根拠C）。終了の情報は見つからない。",
+   "effective_date": "2019-05-20",
+   "term_text": "署名で発効し、30日前の書面通知で終了するまで有効（原文第6項）。2019-05-20署名。",
+   "auto_renewal": "not_stated",
+   "last_renewed": "2020-04-24",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "令和2年4月24日更新の内容は県一覧の注記のみで、更新文書は確認できていない。"
   },
   {
    "id": "JP-30-011",
@@ -645,7 +854,7 @@
    "content": [],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2027-05-27",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -665,11 +874,31 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "双方中小企業部門の経済発展のための覚書（MOU、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/15.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。第10条（発効・期間）を目視で確認。2019-05-28署名。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文第10条で1年・自動延長。県の一覧（令和7年11月現在、2026年に更新）が現在締結中の覚書として掲載（根拠C）。valid_untilは自動延長を前提にした計算値。",
+   "effective_date": "2019-05-28",
+   "term_text": "署名日から1年、以後1年ずつ自動延長（第10条）。計算：2019-05-28発効→各年5月27日が期間末→現在の期間は2026-05-28〜2027-05-27（終了通知がない場合）。",
+   "renewal_text": "終了・不更新の書面通知がなければ1年ずつ自動延長、30日前通知で終了可（第10.3-10.4条）",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-30-012",
@@ -700,7 +929,7 @@
    "content": [],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2026-10-31",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -720,11 +949,32 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "包括交流に関する覚書（日中両語、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/17.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。署名日の日付欄は判読しづらい（2021年11月）。有効期間5年・満了後協議。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文で有効期間5年、県一覧の締結日2021-11-01から計算すると基準日（2026-10-28）は期間内（満了の3日前）。県の一覧（令和7年11月現在）も現在締結中として掲載。根拠A・C。満了後の更新は未確認。",
+   "effective_date": "2021-11-01",
+   "term_text": "『本覚書の有効期間は5年とする。期限満了後、双方は更新について協議する』（原文）。計算：2021-11-01（県一覧の締結日）から5年→2026-10-31（開始日が署名日と同じと仮定）。",
+   "renewal_text": "期限満了後に双方が更新を協議（自動更新なし）",
+   "auto_renewal": "no",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "期間は2026-10-31で終わるため、満了直後の更新の有無を今後確認する必要あり。"
   },
   {
    "id": "JP-30-013",
@@ -761,7 +1011,7 @@
    ],
    "validity": "署名日から2025年12月31日まで（第8条）。",
    "validity_type": "fixed",
-   "valid_until": null,
+   "valid_until": "2025-12-31",
    "renewal_terms": "更新規定なし。各当事者は6か月前の書面通知で終了できる（第8条）。",
    "legal_binding": "not_stated",
    "legal_binding_note": "第7条：本覚書は国際条約ではなく、国際法上の日越両国の権利義務を生じさせない旨の記載あり（当事者間の拘束力の有無は明記なし）。",
@@ -790,11 +1040,32 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "覚書等締結国・地域等について（一覧）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。ページ冒頭『和歌山県は以下の国・地域等と経済交流等の覚書等を締結しています。（令和7年11月現在）』。ネパール観光局（令和8年2月16日）まで掲載されており2026年に更新されている。備考欄に有効期間・終了・廃止の記載なし。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "県一覧の本文表には掲載がなく、関連ファイルにのみ掲載。"
+   "notes": "県一覧の本文表には掲載がなく、関連ファイルにのみ掲載。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文第8条の有効期限は2025-12-31で基準日までに経過している。県の一覧の本文表（令和7年11月現在）には掲載がなく関連ファイルにのみある。更新・延長・再締結を示す公式資料は確認できないため未確認。",
+   "effective_date": "2023-07-27",
+   "term_text": "署名日から2025年12月31日まで有効（第8条）。6か月前の書面通知でいずれも終了可。更新規定なし。",
+   "renewal_text": "更新規定なし（第8条）",
+   "auto_renewal": "no",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記載の有効期間（〜2025-12-31）は経過。更新・延長の有無は公式資料で確認できず。県の一覧に更新注記なし。"
   },
   {
    "id": "JP-30-014",
@@ -903,7 +1174,18 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "同じ訪問でフーイエン省とは労働関係部局間で人材の派遣・受入に関する議事録を交換（覚書ではない）。"
+   "notes": "同じ訪問でフーイエン省とは労働関係部局間で人材の派遣・受入に関する議事録を交換（覚書ではない）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文第5条で署名日（2023-07-28）から5年間と定め、基準日は期間内。県の一覧（令和7年11月現在）も現在締結中として掲載。終了の情報は見つからない。根拠A・C。",
+   "effective_date": "2023-07-28",
+   "term_text": "署名日から5年間有効（第5条）。計算：2023-07-28から5年→2028-07-27。",
+   "renewal_text": "満了の少なくとも3か月前までに終了通知がなければ1年ごとに自動更新（第5条）",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-30-015",
@@ -934,7 +1216,7 @@
    "content": [],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2026-09-04",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -954,11 +1236,32 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "ワーケーションの普及及び推進に向けた覚書（日韓両語、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/18.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。第4項：署名日（2023-09-05）から3年間有効。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文で署名日から3年（計算上〜2026-09-04）、更新は書面合意が必要。基準日（2026-10-28）は期間満了後で、県の一覧（令和7年11月現在）は満了前の時点のもの。更新・延長を示す公式資料は確認できないため未確認。",
+   "effective_date": "2023-09-05",
+   "term_text": "『署名日から3年間有効。その後の更新は両者の書面による合意』（第4項）。計算：2023-09-05から3年→2026-09-04。",
+   "renewal_text": "更新は両者の書面による合意によるもの（自動更新なし）",
+   "auto_renewal": "no",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記載の有効期間（〜2026-09-04）は経過。更新・延長の有無は公式資料で確認できず。"
   },
   {
    "id": "JP-30-016",
@@ -1009,11 +1312,30 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "ビジネス及び投資促進活動を強化するための覚書（MOU、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/16.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。2023-10-18署名、第7項（発効・終了）。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文に固定期間はなく終了通知まで有効。県の一覧（令和7年11月現在、2026年に更新）が現在締結中の覚書として掲載（根拠C）。終了の情報は見つからない。",
+   "effective_date": "2023-10-18",
+   "term_text": "署名で発効し、30日前の書面通知で終了するまで有効（第7項）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-30-017",
@@ -1045,7 +1367,7 @@
    "content": [],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2030-08-03",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -1065,11 +1387,31 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "地震・津波に対する防災にかかる青少年交流促進のための覚書（英文、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/19.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。第6項（有効5年・自動更新5年）を目視で確認。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文第6項で署名日（2025-08-04アンカラ）から5年、基準日は期間内。県の一覧（令和7年11月現在）も現在締結中として掲載。根拠A・C。",
+   "effective_date": "2025-08-04",
+   "term_text": "署名日から5年間有効（第6項）。計算：2025-08-04から5年→2030-08-03。",
+   "renewal_text": "満了の3か月前までに終了の通知がなければ5年間自動更新（第6項）",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-30-018",
@@ -1120,11 +1462,30 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "観光協力に関する覚書（英文、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/21.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。第5項、署名2026-02-16カトマンズ。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文第5項で署名日から終了通知まで有効。署名は2026-02-16で基準日は有効中。県の一覧（2026年2月以降に更新）が現在締結中の覚書として掲載（根拠C）。終了の情報は見つからない。",
+   "effective_date": "2026-02-16",
+   "term_text": "署名日に発効し、いずれかが書面通知で終了するまで有効（第5項）。署名2026-02-16。",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28"
   },
   {
    "id": "JP-30-019",
@@ -1175,11 +1536,31 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "和歌山県とフロリダ州との姉妹県州関係の強化に係る覚書（日英、画像PDF）",
+     "publisher": "和歌山県",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/022300/d00152941_d/fil/20.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。目視で確認。2025年11月10日署名（フロリダ州務長官と知事）、期間条項なし。"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "姉妹県州関係を強化する覚書（正式名称が覚書のため記録）。"
+   "notes": "姉妹県州関係を強化する覚書（正式名称が覚書のため記録）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文（県一覧の関連ファイル20.pdf）で2025-11-10に署名。県の一覧（令和7年11月現在、2026年に更新）が現在締結中の覚書として掲載（根拠C）。終了の情報は見つからない。",
+   "effective_date": "2025-11-10",
+   "term_text": "有効期間の定めなし（文書に期間・終了条項の記載なし）。2025-11-10マイアミで署名。",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記録の締結日は未設定だったが、原文で2025-11-10と確認。"
   }
  ]
 }

@@ -51,11 +51,43 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "クリーンテクノロジー産業の分野における大阪府とブリティッシュコロンビア州との覚書（日本語版PDF）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/29800/bc-osaka_mou_jpn.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。PDFの文字情報を確認。5項（締結の日から5年間、相互同意で延長可）と、末尾の『2016年9月16日署名』『2021年9月16日、相互の同意により5年間効力を延長』を確認"
+    },
+    {
+     "id": "v2",
+     "title": "ブリティッシュコロンビア州との覚書について（大阪府）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/moubcosaka.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。ページ更新日2026-10-23。『締結から5年を迎え令和3年9月16日付で更新』とあり、それ以降の更新の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文（日本語版）で2021-09-16に5年間延長されたことは確認できるが、延長後の期間の終わり（2026-09-15）は基準日までに経過しており、その後の更新・延長を公式資料で確認できないため、有効性は確認できない。",
+   "effective_date": "2016-09-16",
+   "term_text": "締結の日（2016-09-16）から5年間（5項a）。2021-09-16に相互の同意で5年間延長（覚書末尾）。延長後の期間は2026-09-15まで（2021-09-16から5年間として計算）",
+   "renewal_text": "当事者の書面による相互の同意により延長・変更が可能（5項b）。6か月前の書面通知で終了可（5項c）",
+   "auto_renewal": "no",
+   "last_renewed": "2021-09-16",
+   "validity_sources": [
+    "s1",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記載の有効期間（〜2026-09-15）は経過。更新・延長の有無は公式資料で確認できず（大阪府の一覧（2026-10-23更新）にも2021年の更新までしか載っていない。検索1回でも2026年の更新は見つからなかった）。"
   },
   {
    "id": "JP-27-002",
@@ -106,11 +138,45 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "日本・大阪府とノルトライン＝ヴェストファーレン州経済・産業・気候保護・エネルギー省との貿易と投資の促進の協力に関する覚書（日本語正文Word）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/29801/mou_jp.docx",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。第3項『覚書締結の日から3年間』『期間満了日の6か月前までに終了の申出がなければ見直しの上、同一条件で延長』、第5項3）『2018年に締結された覚書に代わるもの』、署名日2024-10-18を確認"
+    },
+    {
+     "id": "v2",
+     "title": "ノルトライン＝ヴェストファーレン州との覚書について（大阪府）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/1019mou.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。ページ更新日2026-10-23。締結日2024-10-18の新覚書を掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。"
+   "notes": "正式名称未確認。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "2024-10-18署名の新覚書の原文に『2018年に締結された覚書に代わるもの』と明記されているため、2018年版（本記録）は後継への置き換えとして終了と判断した。",
+   "effective_date": "2018-10-19",
+   "term_text": "（旧覚書）2018-10-19締結、2021-10-19に更新。2024-10-18の新覚書により置き換え",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2021-10-19",
+   "ended_date": "2024-10-18",
+   "end_reason": "2024年10月18日に大阪府とノルトライン＝ヴェストファーレン州経済・産業・気候保護・エネルギー省が署名した『貿易と投資の促進の協力に関する覚書』が、『2018年に締結された覚書に代わるもの』と原文に明記（第5項3）。旧覚書は新覚書に置き換えられた。",
+   "validity_sources": [
+    "s1",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "後継の覚書（2024-10-18署名、署名日から3年間＝2027-10-17まで、延長可）は本データに別レコードがない。原文の期間から根拠Aで有効確認にできるため、別レコードとして追加するとよい。記録の署名日2018-10-19と大阪府一覧の『令和3年10月19日更新』は本記録の系統の履歴。",
+   "successor_id": "JP-27-012"
   },
   {
    "id": "JP-27-003",
@@ -184,7 +250,17 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "府の『海外関係機関等との連携』一覧には掲載なし。署名者は検索結果の要約に『福祉部長』とあったが本文で未確認のため空欄。"
+   "notes": "府の『海外関係機関等との連携』一覧には掲載なし。署名者は検索結果の要約に『福祉部長』とあったが本文で未確認のため空欄。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "公式資料に、この覚書に基づく取組の記載はあるが、取組が続いていることだけでは有効と判定しない（このサイトの基準）。有効期間・更新・現在の効力を明示する公式資料は確認できず。（調査担当の当初の見立て：大阪府の令和8年度の公式仕様書が『特定活動で大阪府と覚書を締結しているベトナムのドンア大学の学生』を事業の対象としており、同覚書を現在も結んでいる取決めとして明示している（根拠C）。）",
+   "term_text": "（記録の転記・原文未確認）覚書締結の日から2024年3月31日まで",
+   "renewal_text": "（記録の転記・検索結果抜粋で原文未確認）期間満了の2カ月前までに申出がない限り、翌年3月31日まで自動的に更新",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書本文・報道発表の原ページ（web.archive.org）は開けず、有効期間と自動更新の条文は未確認。記録上の期間（〜2024-03-31、毎年3月31日まで自動更新）が正しければ現在は2027-03-31まで。根拠Cによる判定で、期限は確定できない。"
   },
   {
    "id": "JP-27-004",
@@ -314,7 +390,20 @@
    "survey_stage": 1,
    "last_checked": "2026-10-27",
    "notes": "（2026-10-27の再調査で、公式資料にもとづき正式名称・原語の名称・署名者・相手機関・日付の補足・分野・調査段階・目的・合意内容・有効期間・更新条件・validity_type・valid_until・valid_until_note・法的拘束力・原文・確認の根拠・実施状況・関連事業を修正・追加）",
-   "valid_until_note": "締結日（2024-07-23）と有効期間（3年）から計算した目安。双方が書面で同意すればさらに3年間延長できる。"
+   "valid_until_note": "締結日（2024-07-23）と有効期間（3年）から計算した目安。双方が書面で同意すればさらに3年間延長できる。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "英文正文で署名日（2024-07-23）から3年間と定められ、基準日は期間内。終了の情報は見つからない（根拠A）。",
+   "effective_date": "2024-07-23",
+   "term_text": "署名の日（2024-07-23）から3年間。署名日から3年間として2027-07-22まで（英文正文）",
+   "renewal_text": "最初の3年の期限が終わる3か月前までに書面で双方が同意すれば、さらに3年間延長できる（自動更新ではない）",
+   "auto_renewal": "no",
+   "validity_sources": [
+    "s2",
+    "s3",
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "英文正文（Word）を開いて条文を確認。2026-10-23更新の一覧にも掲載。"
   },
   {
    "id": "JP-27-005",
@@ -367,11 +456,42 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "大阪府及び大阪市とビジネススウェーデンの間における経済交流の促進にかかる覚書（日本語版Word）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/117957/mou_japanese_sweden.docx",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。Wordの本文を確認。『署名された日から１年間効力を有し…更に２年間延長することができる』、署名日2025-10-10"
+    },
+    {
+     "id": "v2",
+     "title": "ビジネススウェーデンとの覚書について（大阪府）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/sweden_mou.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。ページ更新日2026-10-23。令和7年10月の締結を掲載。有効期間・延長の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文で署名日（2025-10-10）から1年間と定められており、最初の期間は基準日までに経過した。延長（さらに2年）の合意があったかを公式資料で確認できないため、有効性は確認できない。",
+   "effective_date": "2025-10-10",
+   "term_text": "署名された日（2025-10-10）から1年間効力を有する。署名日から1年間として2026-10-09まで",
+   "renewal_text": "最初の期間が終了する3か月前に、書面通知で当事者らの同意があれば、更に2年間延長できる",
+   "auto_renewal": "no",
+   "validity_sources": [
+    "s1",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記載の有効期間（〜2026-10-09）は経過。更新・延長の有無は公式資料で確認できず（2026-10-23更新の大阪府ページに延長の記載なし）。"
   },
   {
    "id": "JP-27-006",
@@ -402,7 +522,7 @@
    "content": [],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2029-07-02",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -422,11 +542,42 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "大阪府とフリウリ＝ヴェネツィア・ジュリア州の経済交流促進に関する覚書（日本語版Word）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/134761/mou_japanese_friuli.docx",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。Wordの本文を確認。『署名日に発効し、有効期間は3年間』『2026年7月3日に署名』"
+    },
+    {
+     "id": "v2",
+     "title": "フリウリ＝ヴェネツィア・ジュリア州との覚書について（大阪府）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/italyfriuli_mou.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。ページ更新日2026-10-23。令和8年7月の締結を掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文（日本語版）で署名日（2026-07-03）に発効し3年間と定められ、基準日は期間内。終了の情報は見つからない（根拠A）。",
+   "effective_date": "2026-07-03",
+   "term_text": "署名日（2026-07-03）に発効し、有効期間は3年間。署名日から3年間として2029-07-02まで",
+   "renewal_text": "有効期日の少なくとも3か月前までに書面通知により、さらに3年間、明示的に更新できる。6か月前までの書面通知でいつでも終了可",
+   "auto_renewal": "no",
+   "validity_sources": [
+    "s1",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "日本語版Wordの本文を開いて条文を確認。"
   },
   {
    "id": "JP-27-007",
@@ -478,11 +629,41 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "大阪府とカタルーニャ州の間における経済・観光分野の交流促進と協力に係る覚書（日本語版Word）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/140354/mou_japanese_catalunya.docx",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。Wordの本文を確認。第4『署名の日から３年を経過した時点で…見直し』、第7『2026年９月10日バルセロナで署名』"
+    },
+    {
+     "id": "v2",
+     "title": "カタルーニャ州との覚書について（大阪府）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/spaincatalonia_mou.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。ページ更新日2026-10-23。令和8年度の覚書締結を掲載。有効期間の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文に終わりの日が計算できる有効期間の定めがなく（3年経過時の見直しのみ）、現在の効力を明示する公式資料も他に見つからないため、有効性は確認できない。",
+   "term_text": "署名の日（2026-09-10）から3年を経過した時点で継続について見直す（第4）。終わりの日を定める記載なし",
+   "renewal_text": "更新条項なし（3年経過時に見直し）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "署名から約7週間の新しい覚書で、終了の情報は見つからないが、期間の定めがなく根拠Aにできない。"
   },
   {
    "id": "JP-27-008",
@@ -513,7 +694,7 @@
    "content": [],
    "validity": "未確認",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2027-10-06",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -533,11 +714,42 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "大阪府とウェールズ政府の間の経済協力に関する覚書（日本語版Word）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/140993/walesosakaletterofunderstanding_jp.docx",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。Wordの本文を確認。『署名された日から１年間効力を有し…さらに２年間延長』『2026年10月７日…署名』"
+    },
+    {
+     "id": "v2",
+     "title": "ウェールズ政府との覚書について（大阪府）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/wales_mou.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。ページ更新日2026-10-23。令和8年10月の締結を掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文（日本語版）で署名日（2026-10-07）から1年間と定められ、基準日は期間内。終了の情報は見つからない（根拠A）。",
+   "effective_date": "2026-10-07",
+   "term_text": "署名された日（2026-10-07）から1年間効力を有する。署名日から1年間として2027-10-06まで",
+   "renewal_text": "両当事者が書面により合意した場合、有効期間をさらに2年間延長できる。3か月前までの書面通知でいつでも終了可",
+   "auto_renewal": "no",
+   "validity_sources": [
+    "s1",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "日本語版Wordの本文を開いて条文を確認。署名から約3週間の新しい覚書。"
   },
   {
    "id": "JP-27-009",
@@ -614,7 +826,19 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "経済分野（第2段階）。前文に『フィリピン経済区庁（PEZA）と大阪府の間の覚書に従い』とあり、府とPEZAの覚書が別に存在するとみられるが、府の公式資料で名称・締結日を確認できなかったため記録していない。府の『海外関係機関等との連携』一覧（直近5年分のみ掲載）には載っていない。"
+   "notes": "経済分野（第2段階）。前文に『フィリピン経済区庁（PEZA）と大阪府の間の覚書に従い』とあり、府とPEZAの覚書が別に存在するとみられるが、府の公式資料で名称・締結日を確認できなかったため記録していない。府の『海外関係機関等との連携』一覧（直近5年分のみ掲載）には載っていない。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "大阪府の公式ページ（2025-07-14更新）が、同工業団地との覚書を『締結しています』として、府内企業向けの支援（貸工場の優先提供・管理費1年免除）を現に案内しており、現在運用中の取決めとして示している（根拠C）。",
+   "effective_date": "2016-01-13",
+   "term_text": "署名日（2016-01-13）に発効し2年間有効（第4条）。以後2年ごとに自動更新なら、現在の期間は2026-01-13〜2028-01-12（計算上）",
+   "renewal_text": "2年経過後は、満了の6か月前までにいずれかが終了の意思を通知しない限り、同じ期間で自動更新（第4条）",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "自動更新のため期限は確定できず、valid_untilは空欄とした。大阪府の『海外関係機関等との連携』一覧（直近5年分のみ）には載っていない。根拠Cのページの更新日は2025-07-14。"
   },
   {
    "id": "JP-27-010",
@@ -684,7 +908,19 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "経済分野（第2段階）。工業団地運営会社2社の会長名は住友商事の担当部長と同じ人物（協定書の署名欄）。"
+   "notes": "経済分野（第2段階）。工業団地運営会社2社の会長名は住友商事の担当部長と同じ人物（協定書の署名欄）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "大阪府の公式ページ（2025-07-14更新）が、住友商事ベトナム工業団地への進出・入居に対する支援・協力の協定書を『締結しています』として、支援内容（管理費1年免除、会社設立手続の代行・手数料免除）を現に案内しており、現在運用中の取決めとして示している（根拠C）。",
+   "effective_date": "2024-03-15",
+   "term_text": "協定成立の日（2024-03-15）から1年間（第6条）。以後1年ごとに自動延長なら、現在の期間は2026-03-15〜2027-03-14（計算上）",
+   "renewal_text": "満了の3か月前までに書面で更新しない旨の意思表示がない限り、さらに1年間自動的に延長され、以降も同様（第6条）。全当事者の書面合意でいつでも終了可",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "自動更新のため期限は確定できず、valid_untilは空欄とした。根拠Cのページの更新日は2025-07-14で、基準日（2026-10-28）より約15か月前。"
   },
   {
    "id": "JP-27-011",
@@ -775,7 +1011,99 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "経済分野（第2段階）。タミル・ナドゥ州との覚書（JP-27-004）を契機に締結（府報道発表）。"
+   "notes": "経済分野（第2段階）。タミル・ナドゥ州との覚書（JP-27-004）を契機に締結（府報道発表）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "大阪府の公式ページ（2025-07-14更新）が、インドへの進出に対する支援・協力に関する協定書を『締結しています』として現に案内しており、現在運用中の取決めとして示している（根拠C）。",
+   "effective_date": "2025-07-14",
+   "term_text": "協定成立の日（2025-07-14）から1年間（第4条）。以後1年ごとに自動延長なら、現在の期間は2026-07-14〜2027-07-13（計算上）",
+   "renewal_text": "満了の3か月前までに書面で更新しない旨の意思表示がない限り、さらに1年間自動的に延長され、以降も同様（第4条）。全当事者の書面合意でいつでも終了可",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s3",
+    "s4"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "自動更新のため期限は確定できず、valid_untilは空欄とした。根拠Cのページの更新日は2025-07-14で、基準日（2026-10-28）より約15か月前。"
+  },
+  {
+   "id": "JP-27-012",
+   "group_key": "27:27-DE-NRW-economy",
+   "renewal_of": "JP-27-002",
+   "title_ja": "日本・大阪府とノルトライン＝ヴェストファーレン州経済・産業・気候保護・エネルギー省との貿易と投資の促進の協力に関する覚書",
+   "title_original": "",
+   "doc_type": "その他の協力文書",
+   "doc_type_note": "府一覧の表記は『貿易と投資の促進に関する協力』。文書の種別（覚書等）は一覧で未確認。",
+   "japan_level": "prefecture",
+   "japan_org": "大阪府",
+   "pref_code": "27",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "DE",
+   "partner_org": "ノルトライン＝ヴェストファーレン州 経済・産業・気候保護・エネルギー省",
+   "partner_org_en": "Ministry for Economic Affairs, Industry, Climate Action and Energy of North Rhine-Westphalia",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2024-10-18",
+   "announced_date": "",
+   "date_note": "覚書の日本語正文（大阪府公表）で署名日を確認。2018年10月19日の覚書（2021年10月19日更新）に代わるもの（第5項3）。",
+   "fields": [
+    "economy"
+   ],
+   "labor_detail": [],
+   "purpose": "",
+   "content": [],
+   "validity": "覚書締結の日から3年間（第3項）",
+   "validity_type": "auto_renew",
+   "valid_until": "2027-10-17",
+   "renewal_terms": "期間満了日の6か月前までに終了の申出がなければ、見直しの上、同一条件で延長（第3項）",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日本・大阪府とノルトライン＝ヴェストファーレン州経済・産業・気候保護・エネルギー省との貿易と投資の促進の協力に関する覚書（日本語正文Word）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/documents/29801/mou_jp.docx",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。第3項『覚書締結の日から3年間』『期間満了日の6か月前までに終了の申出がなければ見直しの上、同一条件で延長』、第5項3）『2018年に締結された覚書に代わるもの』、署名日2024-10-18を確認"
+    },
+    {
+     "id": "s2",
+     "title": "ノルトライン＝ヴェストファーレン州との覚書について（大阪府）",
+     "publisher": "大阪府",
+     "url": "https://www.pref.osaka.lg.jp/o110030/keizaikoryu/kaigai/1019mou.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。ページ更新日2026-10-23。締結日2024-10-18の新覚書を掲載"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-28",
+   "notes": "2018年の覚書（JP-27-002）に代わる新しい覚書。同じ協定のグループとして1件で数える。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "覚書の日本語正文（大阪府公表）第3項で締結の日（2024-10-18）から3年間と定められ、基準日は期間内。大阪府のページ（2026-10-23更新）がこの覚書を掲載し、終了の情報は見つからない（根拠A）。",
+   "effective_date": "2024-10-18",
+   "term_text": "覚書締結の日（2024-10-18）から3年間（第3項）→2027-10-17まで",
+   "auto_renewal": "yes",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2018年の覚書の調査の中で、新しい覚書の原文を確認して追加（2026-10-28）。",
+   "renewal_text": "期間満了日の6か月前までに終了の申出がなければ、見直しの上、同一条件で延長（第3項）",
+   "successor_id": null
   }
  ]
 }

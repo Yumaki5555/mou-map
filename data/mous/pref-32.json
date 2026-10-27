@@ -75,7 +75,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "3者署名の1文書のため島根県の記録として1件のみ登録（鳥取県分を兼ねる）。鳥取県は2010年に沿海地方と『友好交流及び協力に関する協定』を締結（友好提携として対象外）。（2026-10-27の再調査で、公式資料にもとづきother_japan_partiesを修正・追加）"
+   "notes": "3者署名の1文書のため島根県の記録として1件のみ登録（鳥取県分を兼ねる）。鳥取県は2010年に沿海地方と『友好交流及び協力に関する協定』を締結（友好提携として対象外）。（2026-10-27の再調査で、公式資料にもとづきother_japan_partiesを修正・追加）",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "島根県の2025(R7)年度版『国際化の現状』が『本県は次のとおり姉妹友好提携等を結んでいる』として沿海地方との友好交流に関する覚書（1991-10-24）を現行のものとして掲載（根拠C）。終了の情報は見つからない。",
+   "effective_date": "1991-10-24",
+   "term_text": "有効期間の記載なし（原文未確認）",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "原文は確認できず有効期間は不明。2022年以降のロシアとの交流状況は今回確認していない。鳥取県側の資料（253922.htm）は1991年の覚書を『締結』と記載するのみ。"
   },
   {
    "id": "JP-32-002",
@@ -130,7 +140,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "鳥取県の吉林省との覚書（G4-31-03、1994年）と同一文書かは未確認。"
+   "notes": "鳥取県の吉林省との覚書（G4-31-03、1994年）と同一文書かは未確認。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "島根県の2025(R7)年度版『国際化の現状』が吉林省との『友好交流に関する覚書（1994-06-13）』と『友好提携（2018-10-15）』を並べて、『本県は次のとおり…結んでいる』として現行のものと掲載（根拠C）。終了の情報は見つからない。",
+   "effective_date": "1994-06-13",
+   "term_text": "有効期間の記載なし（原文未確認）",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "原文は確認できず有効期間は不明。2018年の友好県省提携協定書が覚書を置き換えたとは書かれていない（両方が並記されている）。"
   },
   {
    "id": "JP-32-003",
@@ -187,7 +207,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "2025年版『国際化の現状』に1996-07-26の協定締結と教員の相互派遣（1997年9月〜）の経緯が過去の出来事として記載されるのみで、現在効力を有する旨の明示や有効期間の記載がない。",
+   "effective_date": "1996-07-26",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "教育委員会の協定。原文は確認できず。"
   },
   {
    "id": "JP-32-004",
@@ -242,7 +271,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "同年11月に『日本国島根県と大韓民国慶尚北道との両県道立大学の交流に関する協定』も締結（資料記載）。"
+   "notes": "同年11月に『日本国島根県と大韓民国慶尚北道との両県道立大学の交流に関する協定』も締結（資料記載）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "2025年版『国際化の現状』に1999年10月の協定締結と2000年4月以降の毎年2名の留学生受入が記載されるが、協定自体が現在有効かの明示や有効期間の記載はない（事業の継続のみでは有効確認にしない）。",
+   "effective_date": "1999-10",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "原文は確認できず。"
   },
   {
    "id": "JP-32-005",
@@ -297,7 +335,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "2025年版『国際化の現状』に2001年6月の協定締結と2002年4月の受入開始が記載されるのみで、協定が現在有効かの明示や有効期間の記載はない。",
+   "effective_date": "2001-06",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "原文は確認できず。"
   },
   {
    "id": "JP-32-006",
@@ -374,7 +421,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。"
+   "notes": "正式名称未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "2025(R7)年度事業表に『中国農業部との友好協定に基づき農業技術交流を実施』（2025-05-14・15に交流団受入）とあるが、協定自体の有効期間・現在の効力を明示する記載ではなく、事業の継続のみでは有効確認にしない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "協定の締結日・正式名称・原文は確認できず。"
   },
   {
    "id": "JP-32-007",
@@ -460,7 +515,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称は未確認。相手は外国企業（航空会社）。国内企業の株式会社エムエスツーリストも締結式に参加し『覚書・連携協定』を結んでいるが、どの文書の署名者かは未確認のため other_japan_parties には入れていない。"
+   "notes": "正式名称は未確認。相手は外国企業（航空会社）。国内企業の株式会社エムエスツーリストも締結式に参加し『覚書・連携協定』を結んでいるが、どの文書の署名者かは未確認のため other_japan_parties には入れていない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "2023-12-12の県報道発表で2023-12-13の覚書・連携協定の締結予定、2025年の報道発表で『覚書に基づくチャーター初便（2024-05-25）』への言及は確認できるが、覚書の有効期間・現況の記載はなく、定期便就航の有無も確認できない。",
+   "effective_date": "2023-12-13",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の本文は公開資料で見つからず。"
   }
  ]
 }

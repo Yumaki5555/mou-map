@@ -54,7 +54,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。相手のベトナム計画投資省は省庁再編で他省に統合されたとの情報あり（未確認）。"
   },
   {
    "id": "JP-23-002",
@@ -109,7 +117,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。江蘇省とは1980年に友好提携（除外）"
+   "notes": "第2段階（他分野）。江蘇省とは1980年に友好提携（除外）",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-003",
@@ -164,7 +180,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-004",
@@ -219,7 +243,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。県サイトの題名は「タイ工業省と経済連携に関する覚書を締結しました」（検索結果で確認）"
+   "notes": "第2段階（他分野）。県サイトの題名は「タイ工業省と経済連携に関する覚書を締結しました」（検索結果で確認）",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-005",
@@ -274,7 +306,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-006",
@@ -336,11 +376,33 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": "検索結果の抜粋で確認（本文未取得）"
+    },
+    {
+     "id": "v1",
+     "title": "友好交流及び相互協力に関する覚書（テキサス州・2016年）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/uploaded/attachment/212416.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。署名日2016-04-22。有効期間・更新・終了の条項なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県の提携一覧に、2024-07-12の相互協力声明が『2016年4月22日締結の覚書を更新』したものと記載されており、2016年版は更新版に引き継がれた。",
+   "auto_renewal": "unconfirmed",
+   "ended_date": "2024-07-12",
+   "end_reason": "2024年7月12日の更新（JP-23-022）に引き継ぎ",
+   "successor_id": "JP-23-022",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2016年版の原文（署名日2016-04-22）には有効期間・更新の条項なし。更新版（声明）の本文は未確認。"
   },
   {
    "id": "JP-23-007",
@@ -395,7 +457,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。県サイトの題名は「ベトナム・ホーチミン市と『友好交流及び相互協力に関する覚書』を締結しました」"
+   "notes": "第2段階（他分野）。県サイトの題名は「ベトナム・ホーチミン市と『友好交流及び相互協力に関する覚書』を締結しました」",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-008",
@@ -450,7 +520,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-009",
@@ -519,7 +597,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。「人材交流」は経済交流の文脈で外国人材の受入れを定めたものではない。"
+   "notes": "第2段階（他分野）。「人材交流」は経済交流の文脈で外国人材の受入れを定めたものではない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-010",
@@ -574,7 +660,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。県サイトの題名は「ベルギー3地域と『友好交流及び相互協力に関する覚書』を締結しました」"
+   "notes": "第2段階（他分野）。県サイトの題名は「ベルギー3地域と『友好交流及び相互協力に関する覚書』を締結しました」",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-011",
@@ -629,7 +723,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。同上"
+   "notes": "第2段階（他分野）。同上",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-012",
@@ -684,7 +786,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。同上"
+   "notes": "第2段階（他分野）。同上",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-013",
@@ -739,7 +849,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。県サイトの題名は「米国・インディアナ州と『友好交流及び相互協力に関する覚書』を締結しました」"
+   "notes": "第2段階（他分野）。県サイトの題名は「米国・インディアナ州と『友好交流及び相互協力に関する覚書』を締結しました」",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-014",
@@ -790,11 +908,32 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "英語版では「相互協力」=MOU on friendship and mutual cooperation、「経済連携」=MOU on economic partnership と表記"
+    },
+    {
+     "id": "v1",
+     "title": "ケンタッキー州との覚書締結の発表（2024年）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/press-release/2024kentucky.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2024-07-18に『新たな覚書を締結』と記載。旧覚書との関係・有効期間の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。題名は県国際課ページのリンク名による。"
+   "notes": "第2段階（他分野）。題名は県国際課ページのリンク名による。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県の提携一覧に、2024-07-18の覚書が『2017年10月23日締結の覚書を更新』したものと記載されており、2017年版は更新版に引き継がれた。",
+   "auto_renewal": "unconfirmed",
+   "ended_date": "2024-07-18",
+   "end_reason": "2024年7月18日の更新（JP-23-023）に引き継ぎ",
+   "successor_id": "JP-23-023",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の発表（2024年）は『新たな覚書を締結』とのみ記載し、旧覚書との関係は一覧が根拠。2017年版の有効期間は確認できず。"
   },
   {
    "id": "JP-23-015",
@@ -849,7 +988,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-016",
@@ -904,7 +1051,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-017",
@@ -959,7 +1114,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-018",
@@ -1014,7 +1177,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。県サイトの題名は「大韓民国慶尚南道と『友好交流及び相互協力に関する覚書』を締結しました」"
+   "notes": "第2段階（他分野）。県サイトの題名は「大韓民国慶尚南道と『友好交流及び相互協力に関する覚書』を締結しました」",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-019",
@@ -1069,7 +1240,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-020",
@@ -1124,7 +1303,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-021",
@@ -1179,7 +1366,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧（2024-11-01更新）に締結日のみが載り、有効期間・失効の記載がなく、2025年以降の公式資料で現在の効力を示すものも見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧を確認。更新の記載があるのはテキサス州・ケンタッキー州のみ。有効期間・失効の記載なし。覚書本文は今回は確認していない。"
   },
   {
    "id": "JP-23-022",
@@ -1234,7 +1429,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧に2024-07-12の相互協力声明（更新）の記載はあるが、有効期間・現在の効力の記載がなく、有効性を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2024-07-12",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧（2024-11-01更新）を確認。声明の本文・期間は未確認。"
   },
   {
    "id": "JP-23-023",
@@ -1285,11 +1489,30 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "英語版では「相互協力」=MOU on friendship and mutual cooperation、「経済連携」=MOU on economic partnership と表記"
+    },
+    {
+     "id": "v1",
+     "title": "ケンタッキー州との覚書締結の発表（2024年）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/press-release/2024kentucky.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2024-07-18に『新たな覚書を締結』と記載。旧覚書との関係・有効期間の記載なし"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の一覧と発表に2024-07-18の覚書の記載はあるが、有効期間・現在の効力の記載がなく、有効性を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2024-07-18",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の提携一覧と発表を確認。更新版の本文・期間は未確認。"
   },
   {
    "id": "JP-23-024",
@@ -1324,7 +1547,7 @@
    ],
    "validity": "未確認（検索結果の抜粋では有効期間3年・不更新通知がない限り3年ごとに自動更新との記載があるが、原文未読）",
    "validity_type": "unconfirmed",
-   "valid_until": null,
+   "valid_until": "2029-02-15",
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
@@ -1344,11 +1567,32 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": "ページ更新2026年2月26日。英語版・日本語版PDF（/uploaded/attachment/602306.pdf、602308.pdf）は未読"
+    },
+    {
+     "id": "v1",
+     "title": "日本国愛知県とフィリピン共和国貿易産業省との経済交流に関する覚書（日本語）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/uploaded/attachment/602308.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。署名入りの画像PDF2ページを画像で確認。第6項：署名日から3年間有効、不更新の通知がない限り自動的に3年ごとに更新。署名日2026-02-16（双方）。協力は署名日から開始"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。人材に関する記載なし。"
+   "notes": "第2段階（他分野）。人材に関する記載なし。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文第6項で署名日（2026-02-16）から3年間有効と定められ、基準日（2026-10-28）は期間内。終了・失効の情報は見つからない。",
+   "effective_date": "2026-02-16",
+   "term_text": "署名日から3年間有効（第6項）。署名日2026-02-16から3年なので2029-02-15まで。協力は署名日から開始",
+   "renewal_text": "どちらか一方が有効期間の最終日の少なくとも30日前までに書面で不更新を通知しない限り、自動的に3年ごとに更新される（第6項）",
+   "auto_renewal": "yes",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "署名入りの日本語版原文を画像で確認（愛知県知事とフィリピン貿易産業大臣、日付2026/2/16）。終了の通知等の情報は見つからず。"
   },
   {
    "id": "JP-23-025",
@@ -1423,11 +1667,45 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": "参考欄で清華大学（2019年9月26日締結）と記載"
+    },
+    {
+     "id": "v1",
+     "title": "知事記者会見（2024年10月21日）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/site/chiji-kaiken/20241021.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。知事が清華大学との覚書について『5年が期限なので、もう一回サインをさせていただいた』と説明"
+    },
+    {
+     "id": "v2",
+     "title": "知事の中国渡航について（2024年10月10日）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/press-release/chugoku-tokoh-2024.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。『清華大学との包括交流に関する覚書の更新等のため』北京市等を訪問すると記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野・教育）。相手は大学。"
+   "notes": "第2段階（他分野・教育）。相手は大学。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "原文は署名日から5年後に見直しとされ、知事記者会見（2024-10-21）が『5年が期限なので、もう一回サインをさせていただいた』と説明、県の発表も『覚書の更新』のため訪中としており、2019年版は2024年の更新版に引き継がれた。",
+   "effective_date": "2019-09-26",
+   "term_text": "署名した日から協力開始、5年後に見直し、期間終了前6か月以内に双方で協議して継続できる。署名日2019-09-26から5年で2024-09-25",
+   "renewal_text": "期間終了前の6か月以内に双方で協議することにより継続できる（自動更新ではない）",
+   "auto_renewal": "no",
+   "ended_date": "2024-10-14",
+   "end_reason": "2024年10月14日の更新（JP-23-028）に引き継ぎ",
+   "successor_id": "JP-23-028",
+   "validity_sources": [
+    "s2",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2019年版原文・知事会見・渡航の発表を確認。更新版（JP-23-028）の条文・期間は未確認。"
   },
   {
    "id": "JP-23-026",
@@ -1502,11 +1780,33 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": "参考欄で上海交通大学（2019年11月20日締結）と記載"
+    },
+    {
+     "id": "v1",
+     "title": "知事記者会見（2024年10月21日）",
+     "publisher": "愛知県",
+     "url": "https://www.pref.aichi.jp/site/chiji-kaiken/20241021.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。知事が清華大学との覚書について『5年が期限なので、もう一回サインをさせていただいた』と説明"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野・教育）。相手は大学。インターンシップは学生の人材交流の文脈で、外国人材の受入れの取決めではない。"
+   "notes": "第2段階（他分野・教育）。相手は大学。インターンシップは学生の人材交流の文脈で、外国人材の受入れの取決めではない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文の見直し時期（署名日から5年＝2024-11-19）は経過しているが、継続・更新・終了のいずれも公式資料で確認できず、現在の効力は不明。",
+   "effective_date": "2019-11-20",
+   "term_text": "署名した日から協力開始、5年後に見直し、期間終了前6か月以内に双方で協議して継続できる。署名日2019-11-20から5年で2024-11-19",
+   "renewal_text": "期間終了前の6か月以内に双方で協議することにより継続できる（自動更新ではない）",
+   "auto_renewal": "no",
+   "validity_sources": [
+    "s2",
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記載の見直し時期（〜2024-11-19）は経過。更新・延長の有無は公式資料で確認できず（県サイト確認とWebSearch1回で更新の発表は出ず）。2024-10-21の知事会見は上海交通大学との交流に触れるのみで更新・締結には触れていない。"
   },
   {
    "id": "JP-23-027",
@@ -1594,7 +1894,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野・教育）。相手は大学。公開されている本文は案文のため、署名版の条文は未確認。"
+   "notes": "第2段階（他分野・教育）。相手は大学。公開されている本文は案文のため、署名版の条文は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県が公開した文書は『（案）』で署名版の条文を確認できず、記載の5年後見直し（目安2027-06-29）は見直し時期であって終わりの日が確定した有効期間とは言えないため、有効確認にしなかった。",
+   "term_text": "案文：署名した日から協力開始、5年後に見直し、期間終了前6か月以内に協議して継続可（署名版の文言は未確認）",
+   "renewal_text": "案文：期間終了前の6か月以内に協議して継続できる",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s2",
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の発表（2022-06-27付）と案文PDFを確認。署名日は2022-06-30（予定の発表および案文の日付）。連携事業の実施（2023年）は別資料にあるが、事業の継続だけでは有効確認にならない。"
   },
   {
    "id": "JP-23-028",
@@ -1668,7 +1979,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野・教育）。更新後の覚書本文は未確認。"
+   "notes": "第2段階（他分野・教育）。更新後の覚書本文は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "2024年10月の更新は県の発表と知事会見で確認できるが、更新後の覚書の条文・有効期間が公式資料で見つからず、有効性を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2024-10-14",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "更新を示す発表と会見を確認。更新版の本文は未公開。会見の『5年が期限』は2019年版についての説明で、更新版の期間を示すものではない。"
   }
  ]
 }

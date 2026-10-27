@@ -54,7 +54,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称・締結日未確認。"
+   "notes": "正式名称・締結日未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは締結の事実を述べる過去の記載のみで、有効期間や現在の効力を示す記載がない。（2018年の訪問団の記事）",
+   "effective_date": "1998",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-05-002",
@@ -121,7 +130,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。人材育成は農業分野の技術支援の文脈で、外国人材受入れの覚書ではない。"
+   "notes": "正式名称未確認。人材育成は農業分野の技術支援の文脈で、外国人材受入れの覚書ではない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは締結の事実を述べる過去の記載のみで、有効期間や現在の効力を示す記載がない。（2019年のページ）",
+   "effective_date": "2015-03",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-05-003",
@@ -178,7 +196,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。署名者は県ページに明記なし（佐竹知事、産業労働部次長らが出席）。"
+   "notes": "正式名称未確認。署名者は県ページに明記なし（佐竹知事、産業労働部次長らが出席）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは締結の事実を述べる過去の記載のみで、有効期間や現在の効力を示す記載がない。（2016年のページ）",
+   "effective_date": "2015-08-21",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-05-004",
@@ -236,7 +263,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "大使館は相手国政府の在外公館のため partner_type を national_gov とした。"
+   "notes": "大使館は相手国政府の在外公館のため partner_type を national_gov とした。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは締結の事実を述べる過去の記載のみで、有効期間や現在の効力を示す記載がない。（2020年のページ。覚書PDFは未確認）",
+   "effective_date": "2020-12-23",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。覚書PDFにはまだ当たっていない。"
   },
   {
    "id": "JP-05-005",
@@ -300,7 +336,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称・締結日未確認（平成25年度＝2013年4月〜2014年3月）。（2026-10-27の再調査で、公式資料にもとづき締結日を修正・追加）"
+   "notes": "正式名称・締結日未確認（平成25年度＝2013年4月〜2014年3月）。（2026-10-27の再調査で、公式資料にもとづき締結日を修正・追加）",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページは締結の事実を述べる過去の記載のみで、有効期間や現在の効力を示す記載がない。（2019年のページ）",
+   "effective_date": "2013",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   }
  ]
 }

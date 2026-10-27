@@ -66,7 +66,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の広報誌で締結（2022-03-01）と1周年の記念行事は確認できるが、覚書の有効期間・現在の効力を示す資料が見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書本文は未確認。Web検索でも有効期間・更新の記載は見つからず。"
   },
   {
    "id": "JP-44-002",
@@ -105,7 +113,7 @@
    "renewal_terms": "未確認",
    "legal_binding": "unconfirmed",
    "legal_binding_note": "",
-   "status": "planned",
+   "status": "signed",
    "status_note": "締結予定（締結済み未確認）",
    "projects": [],
    "budgets": [],
@@ -121,11 +129,29 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": "別紙『大分県観光局とソノマカウンティツーリズムとの友好と相互協力に関する覚書（ＭＯＵ）の締結について』"
+    },
+    {
+     "id": "v1",
+     "title": "今年度日米の自治体間では423件の交流事業を実施しています！（日米観光交流年2024）",
+     "publisher": "観光庁",
+     "url": "https://www.mlit.go.jp/kankocho/content/001851788.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。令和6年12月16日付。『2024年11月にソノマカウンティツーリズムと「友好と相互協力に関する覚書」を締結』と記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手側署名者（予定）：CEO クラウディア・ヴェッキオ。"
+   "notes": "相手側署名者（予定）：CEO クラウディア・ヴェッキオ。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "観光庁の資料（2024-12-16）で2024年11月の締結は確認できるが、有効期間・効力発生の記載がなく、覚書本文も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "記録の状態は『締結予定』だったが、観光庁資料で締結の事実を確認できたため未確認（締結済み）に変更。署名日は現地2024-11-19（日本時間11-20）の予定のみ確認で、署名日の確定は未確認。"
   },
   {
    "id": "JP-44-003",
@@ -182,7 +208,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "大分県側の公式発表は未確認。"
+   "notes": "大分県側の公式発表は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "台湾側の公式サイト（2026-10-01付）で署名（9月29日）は確認できるが、有効期間・効力発生の記載がなく、大分県の公式発表・原文は見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "署名からまだ1か月未満。"
   }
  ]
 }

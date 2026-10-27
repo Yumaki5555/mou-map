@@ -9,13 +9,13 @@ import { JapanMap, PATTERNS, swatchStyle } from './map.js';
 import { mouList, legendHTML } from './components.js';
 import { downloadMouCSV, groupsToMous } from './csv.js';
 import { exportMap } from './export.js';
-import { settings, newsToggleHTML, bindNewsToggle, metaFor } from './shared.js';
+import { settings, bindNewsToggle, metaFor, baseFilter, scopeBarHTML, scopeLabel } from './shared.js';
 
 export const MODES = [
-  { code: 'count', ja: '① MOU締結件数' },
+  { code: 'count', ja: '① 締結件数' },
   { code: 'country', ja: '② 相手国別' },
   { code: 'field', ja: '③ 分野別' },
-  { code: 'status', ja: '④ 実施状況' },
+  { code: 'status', ja: '④ 事業の実施状況' },
   { code: 'impact', ja: '⑤ 地域への影響' },
 ];
 const SEQ = ['#d4eedd', '#9fd5b4', '#5fb488', '#2a8a58', '#0f5a36'];
@@ -46,6 +46,13 @@ export function readState(db, params) {
     names: params.get('names') === '1',
   };
 }
+// 共有リンクで同じ表示になるよう、数え方（有効性の範囲・数える文書）もURLに入れる
+function scopeParams() {
+  const p = {};
+  if (settings.validity !== 'valid') p.v = settings.validity;
+  if (settings.docScope !== 'mou') p.doc = settings.docScope;
+  return p;
+}
 function stateParams(st, patch = {}) {
   const s = { ...st, ...patch };
   const p = { mode: s.mode };
@@ -55,22 +62,24 @@ function stateParams(st, patch = {}) {
   if (s.mode === 'impact') p.i = s.impact;
   if (s.pref) p.p = s.pref;
   if (s.names) p.names = '1';
-  return p;
+  return { ...p, ...scopeParams() };
 }
 
 // モードごとの「地図の塗り方・凡例・ツールチップ」を計算する（画像出力でも同じものを使う）
 export function computeMapModel(db, st) {
-  const base = { includeNews: settings.includeNews };
+  const base = baseFilter();
   if (st.mode === 'country') base.countries = st.countries;
   if (st.mode === 'field') base.field = st.field;
   if (st.mode === 'status') base.status = st.status;
   const prefGroups = (st.mode === 'country' && !st.countries.length) ? [] : filterGroups(db, { ...base, level: 'prefecture' });
   const natGroups = (st.mode === 'country' && !st.countries.length) ? [] : filterGroups(db, { ...base, level: 'national' });
   const counts = countByPref(prefGroups);
+  // いまの数え方では0件だが、範囲を広げると締結済みの協定がある県（「0件」や「該当なし」と区別する）
+  const wider = (st.mode === 'country' && !st.countries.length) ? new Map() : countByPref(filterGroups(db, { ...base, validity: 'all', docScope: 'all', level: 'prefecture' }));
   const byPref = new Map();
   for (const g of prefGroups) { if (!byPref.has(g.pref_code)) byPref.set(g.pref_code, []); byPref.get(g.pref_code).push(g); }
   const zeroField = st.mode === 'field' ? st.field : null;
-  const zero = code => zeroState(db, code, zeroField);
+  const zero = code => wider.get(code) ? 'scope_zero' : zeroState(db, code, zeroField);
   // 凡例には、地図に実際に出てくる「0件の状態」だけを載せる
   const zeroLegend = (has = c => !counts.get(c)) => {
     const present = new Set(db.prefs.filter(p => has(p.code)).map(p => zero(p.code)));
@@ -95,7 +104,7 @@ export function computeMapModel(db, st) {
     };
     title = `${st.countries.map(c => countryName(db, c)).join('・')}とMOUを締結した都道府県`;
   } else if (st.mode === 'impact') {
-    const allPref = filterGroups(db, { includeNews: settings.includeNews, level: 'prefecture' });
+    const allPref = filterGroups(db, baseFilter({ level: 'prefecture' }));
     const gp = new Map();
     for (const g of allPref) { if (!gp.has(g.pref_code)) gp.set(g.pref_code, []); gp.get(g.pref_code).push(g); }
     const levelOf = code => impactLevel(gp.get(code) || [], st.impact);
@@ -111,21 +120,21 @@ export function computeMapModel(db, st) {
       return `${IMPACT_LEVELS.find(x => x.code === l).ja}（MOU ${(gp.get(code) || []).length}件）`;
     };
     title = `地域への影響「${IMPACT[st.impact].ja}」の記録状況`;
-    return finish({ fill, legend, legendTitle, tipLine, title, counts: new Map([...gp].map(([k, v]) => [k, v.length])), byPref, prefGroups: filterGroups(db, { includeNews: settings.includeNews, level: 'prefecture', impact: st.impact }), natGroups: filterGroups(db, { includeNews: settings.includeNews, level: 'national', impact: st.impact }), noLabels: true });
+    return finish({ fill, legend, legendTitle, tipLine, title, counts: new Map([...gp].map(([k, v]) => [k, v.length])), byPref, prefGroups: filterGroups(db, baseFilter({ level: 'prefecture', impact: st.impact })), natGroups: filterGroups(db, baseFilter({ level: 'national', impact: st.impact })), noLabels: true });
   } else {
     const sc = seqScale(max);
     fill = code => counts.get(code) ? sc.color(counts.get(code)) : PATTERNS[zero(code)];
     legend = [...(max ? sc.bins.map(b => ({ label: b.label, fill: b.fill })) : []), ...zeroLegend()];
     legendTitle = '色が濃いほど件数が多い';
-    tipLine = code => counts.get(code) ? `MOU ${counts.get(code)}件` : ZERO_STATES[zero(code)].ja;
-    title = st.mode === 'count' ? '都道府県別 MOU締結件数'
+    tipLine = code => counts.get(code) ? `${counts.get(code)}件` : zero(code) === 'scope_zero' ? `${ZERO_STATES.scope_zero.ja}（締結済み ${wider.get(code)}件）` : ZERO_STATES[zero(code)].ja;
+    title = st.mode === 'count' ? '都道府県別 協定の締結件数'
       : st.mode === 'country' ? (st.countries.length ? `${countryName(db, st.countries[0])}とMOUを締結した都道府県` : '相手国別（国を選んでください）')
-        : st.mode === 'field' ? `分野別：「${FIELD[st.field].ja}」のMOU`
-          : `実施状況：「${STATUS[st.status].ja}」のMOU`;
+        : st.mode === 'field' ? `分野別：「${FIELD[st.field].ja}」の協定`
+          : `事業の実施状況：「${STATUS[st.status].ja}」の協定`;
   }
   return finish({ fill, legend, legendTitle, tipLine, title, counts, byPref, prefGroups, natGroups });
 
-  function finish(o) { return { ...o, zero }; }
+  function finish(o) { return { ...o, zero, wider }; }
 }
 
 export function mapPage(ctx) {
@@ -135,13 +144,13 @@ export function mapPage(ctx) {
       <div class="page-head">
         <div class="crumbs"><a href="#/">トップ</a> ＞ 日本地図から探す</div>
         <h1>日本地図から探す</h1>
-        <p class="lead">都道府県をクリック（タップ）すると、その県のMOUが地図の下に表示されます。表示のしかたは「表示モード」で切り替えられます。</p>
+        <p class="lead">都道府県をクリック（タップ）すると、その県の協定が地図の下に表示されます。表示のしかたは「表示モード」で、数え方は「協定の有効性」「数える文書」で切り替えられます。</p>
       </div>
       <div class="map-layout3">
         <div class="map-main">
           <div id="map"></div>
           <div id="legend"></div>
-          <p class="map-caption">国の省庁が締結したMOUは、都道府県の件数に含めず「全国枠」として別に数えています。同じ協定の更新・再締結は1件と数えます。<br>
+          <p class="map-caption">国の省庁が締結した協定は全国が対象のため、都道府県の件数に含めず別に数えています。同じ協定の更新・再締結は1件と数えます。<br>
             地図：国土数値情報（行政区域データ）を加工。一部の離島は表示範囲外です。</p>
         </div>
         <div class="map-controls">
@@ -152,9 +161,9 @@ export function mapPage(ctx) {
             </div>
           </div>
           <div class="control-group" id="mode-controls"></div>
+          <div class="control-group" id="scope-box"></div>
           <div class="control-group">
-            <label class="small"><input type="checkbox" id="names"> 地図に県名を表示する</label><br>
-            ${newsToggleHTML()}
+            <label class="small"><input type="checkbox" id="names"> 地図に県名を表示する</label>
           </div>
         </div>
         <div class="map-extras">
@@ -169,7 +178,7 @@ export function mapPage(ctx) {
     </div>`;
     const root = app.querySelector('[data-page="map"]');
     const map = new JapanMap(root.querySelector('#map'), db, {
-      ariaLabel: '都道府県別のMOU地図',
+      ariaLabel: '都道府県別の協定の地図',
       onClick: code => {
         const st = readState(db, ctx.params);
         ctx.go('/map', stateParams(st, { pref: st.pref === code ? null : code }), { keepScroll: true });
@@ -186,7 +195,6 @@ export function mapPage(ctx) {
       const st = readState(db, ctx.params);
       ctx.go('/map', stateParams(st, { names: e.target.checked }), { keepScroll: true });
     });
-    bindNewsToggle(root, () => refresh(ctx));
   }
   refresh(ctx);
 }
@@ -199,12 +207,15 @@ function refresh(ctx) {
   const go = patch => ctx.go('/map', stateParams(st, patch), { keepScroll: true });
 
   root.querySelectorAll('#modes button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === st.mode)));
+  const sb = root.querySelector('#scope-box');
+  sb.innerHTML = scopeBarHTML();
+  bindNewsToggle(sb, () => go({}));
   root.querySelector('#names').checked = st.names;
 
   // モード別の操作部品
   const mc = root.querySelector('#mode-controls');
   if (st.mode === 'count') {
-    mc.innerHTML = '<p class="small muted">すべての分野のMOUの件数を、都道府県ごとに色の濃さで表しています。</p>';
+    mc.innerHTML = '<p class="small muted">すべての分野の協定の件数を、都道府県ごとに色の濃さで表しています（下の「協定の有効性」「数える文書」の数え方で数えます）。</p>';
   } else if (st.mode === 'country') {
     mc.innerHTML = countryPicker(db, st);
     bindCountryPicker(mc, db, st, go);
@@ -213,7 +224,7 @@ function refresh(ctx) {
       <p class="small muted" style="margin-top:8px">${esc(FIELD[st.field].desc)}</p>`;
     mc.querySelectorAll('[data-f]').forEach(b => b.addEventListener('click', () => go({ field: b.dataset.f, pref: null })));
   } else if (st.mode === 'status') {
-    mc.innerHTML = `<span class="label">実施状況を選ぶ</span><div class="seg" role="group">${STATUSES.map(s => `<button type="button" data-s="${s.code}" aria-pressed="${s.code === st.status}" title="${esc(s.desc)}">${esc(s.ja)}</button>`).join('')}</div>
+    mc.innerHTML = `<span class="label">事業の実施状況を選ぶ</span><div class="seg" role="group">${STATUSES.map(s => `<button type="button" data-s="${s.code}" aria-pressed="${s.code === st.status}" title="${esc(s.desc)}">${esc(s.ja)}</button>`).join('')}</div>
       <p class="small muted" style="margin-top:8px">${esc(STATUS[st.status].desc)}</p>`;
     mc.querySelectorAll('[data-s]').forEach(b => b.addEventListener('click', () => go({ status: b.dataset.s, pref: null })));
   } else if (st.mode === 'impact') {
@@ -239,24 +250,24 @@ function refresh(ctx) {
   root.querySelector('#legend').innerHTML = legendHTML(model.legendTitle, model.legend.map(l => ({ label: l.label, style: swatchStyle(l.fill) })));
 
   // 全国枠（国・省庁）
-  root.querySelector('#national-box').innerHTML = `<div class="small" style="font-weight:700">全国枠：国・省庁が締結したMOU</div>
-    <div><span class="n">${model.natGroups.length}</span> 件 <span class="small muted">（同じ条件で数えた件数）</span></div>
-    <a href="#/national">国・省庁のMOU一覧を見る</a>`;
+  root.querySelector('#national-box').innerHTML = `<div class="small" style="font-weight:700">全国が対象：国・省庁が締結した協定</div>
+    <div><span class="n">${model.natGroups.length}</span> 件 <span class="small muted">（同じ条件で数えた件数。都道府県の件数とは別）</span></div>
+    <a href="#/national">国・省庁の協定の一覧を見る</a>`;
 
   // 操作結果（地図の下）
   const chips = [`<span class="chip chip-plain">表示：${esc(MODES.find(m => m.code === st.mode).ja)}</span>`];
   if (st.mode === 'country') st.countries.forEach(c => chips.push(`<span class="chip">相手国：${esc(countryName(db, c))}<button type="button" data-rm-c="${c}" aria-label="${esc(countryName(db, c))}の選択を解除">×</button></span>`));
   if (st.mode === 'field') chips.push(`<span class="chip chip-plain">分野：${esc(FIELD[st.field].ja)}</span>`);
-  if (st.mode === 'status') chips.push(`<span class="chip chip-plain">実施状況：${esc(STATUS[st.status].ja)}</span>`);
+  if (st.mode === 'status') chips.push(`<span class="chip chip-plain">事業の実施状況：${esc(STATUS[st.status].ja)}</span>`);
+  chips.push(`<span class="chip chip-plain">数え方：${esc(scopeLabel())}</span>`);
   if (st.mode === 'impact') chips.push(`<span class="chip chip-plain">影響の分野：${esc(IMPACT[st.impact].ja)}</span>`);
   if (st.pref) chips.push(`<span class="chip">選択中の都道府県：${esc(db.prefByCode.get(st.pref).name)}<button type="button" data-rm-p aria-label="都道府県の選択を解除">×</button></span>`);
-  if (settings.includeNews) chips.push('<span class="chip chip-plain">報道のみの情報を含む</span>');
   const bar = root.querySelector('#result-bar');
   bar.innerHTML = `<div class="now">いま表示している条件</div><div class="chips">${chips.join('')}
     <button type="button" class="btn btn-small btn-outline" id="clear-all">条件をすべて解除</button></div>`;
   bar.querySelectorAll('[data-rm-c]').forEach(b => b.addEventListener('click', () => go({ countries: st.countries.filter(c => c !== b.dataset.rmC), pref: null })));
   bar.querySelector('[data-rm-p]')?.addEventListener('click', () => go({ pref: null }));
-  bar.querySelector('#clear-all').addEventListener('click', () => ctx.go('/map', {}, { keepScroll: true }));
+  bar.querySelector('#clear-all').addEventListener('click', () => ctx.go('/map', scopeParams(), { keepScroll: true }));
 
   // 結果一覧
   const res = root.querySelector('#results');
@@ -266,7 +277,9 @@ function refresh(ctx) {
   if (st.mode === 'country' && !st.countries.length) {
     html += '<p class="result-summary">右の「相手国を選ぶ」で国を選ぶと、その国とMOUを結んでいる都道府県が地図に表示されます。</p>';
   } else {
-    html += `<p class="result-summary">条件に合うMOU：<b>都道府県 ${model.prefGroups.length}件</b>（${prefCount}都道府県）／<b>国・省庁（全国枠） ${model.natGroups.length}件</b></p>`;
+    html += `<p class="result-summary">条件に合う協定：<b>都道府県 ${model.prefGroups.length}件</b>（${prefCount}都道府県）／<b>国・省庁（全国が対象） ${model.natGroups.length}件</b></p>`;
+    const hidden = [...model.wider].filter(([c]) => !model.counts.get(c)).length;
+    if (hidden && st.mode !== 'impact') html += `<div class="info">いまの数え方（${esc(scopeLabel())}）では0件でも、範囲を広げると締結済みの協定がある都道府県が <b>${hidden}</b> あります（地図では「${esc(ZERO_STATES.scope_zero.ja)}」の色）。数え方を「すべて（終了済みを含む）」にすると表示されます。</div>`;
   }
   if (coverage) html += `<div class="note">${esc(coverage)}</div>`;
 
@@ -276,15 +289,15 @@ function refresh(ctx) {
   const sorted = sortGroups(shown).sort((a, b) => (a.pref_code || '').localeCompare(b.pref_code || ''));
   if (st.pref) {
     const pn = db.prefByCode.get(st.pref).name;
-    html += `<h2>${esc(pn)}の該当MOU（${shown.length}件）</h2>
+    html += `<h2>${esc(pn)}の該当する協定（${shown.length}件）</h2>
       <p><a class="btn btn-outline btn-small" href="#/pref/${st.pref}">${esc(pn)}の詳しいページへ</a></p>`;
-    if (!shown.length) html += `<p>${esc(pn)}：${esc(ZERO_STATES[model.zero(st.pref)].ja)}。${esc(ZERO_STATES[model.zero(st.pref)].desc)}。</p>`;
+    if (!shown.length) html += `<p>${esc(pn)}：${esc(ZERO_STATES[model.zero(st.pref)].ja)}。${esc(ZERO_STATES[model.zero(st.pref)].desc)}。${model.zero(st.pref) === 'scope_zero' ? `<a href="#/pref/${st.pref}">${esc(pn)}のページ</a>で、有効性未確認・終了したものを含めて見られます。` : ''}</p>`;
     else html += mouList(db, sorted);
   } else if (!(st.mode === 'country' && !st.countries.length)) {
-    html += `<h2>該当する都道府県のMOU（${shown.length}件）</h2>${mouList(db, sorted)}`;
+    html += `<h2>該当する都道府県の協定（${shown.length}件）</h2>${mouList(db, sorted)}`;
   }
   if (model.natGroups.length && !st.pref) {
-    html += `<details><summary>国・省庁のMOU（全国枠）${model.natGroups.length}件を表示</summary>${mouList(db, sortGroups(model.natGroups), { h: 'h4' })}</details>`;
+    html += `<details><summary>国・省庁の協定（全国が対象）${model.natGroups.length}件を表示</summary>${mouList(db, sortGroups(model.natGroups), { h: 'h4' })}</details>`;
   }
   html += `<div class="btn-row"><button type="button" class="btn btn-outline" id="csv">この結果をCSVで保存</button></div>`;
   res.innerHTML = html;
@@ -295,14 +308,14 @@ function refresh(ctx) {
   });
   res.querySelector('#csv').addEventListener('click', () => {
     const groups = [...shown, ...(st.pref ? [] : model.natGroups)];
-    downloadMouCSV(db, groupsToMous(groups), `mou_${st.mode}${st.pref ? '_' + st.pref : ''}.csv`);
+    downloadMouCSV(db, groupsToMous(groups), `mou_${st.mode}${st.pref ? '_' + st.pref : ''}_${settings.validity}_${settings.docScope}.csv`);
   });
   root.querySelector('#png').onclick = () => {
     const top = [...model.counts].sort((a, b) => b[1] - a[1]).slice(0, 6)
       .map(([c, n]) => `${db.prefByCode.get(c).name}　${n}件`);
     exportMap(db, {
       title: model.title,
-      sub: `都道府県が締結したもの ${model.prefGroups.length}件（国・省庁の締結 ${model.natGroups.length}件は別枠）`,
+      sub: `都道府県 ${model.prefGroups.length}件（国・省庁 ${model.natGroups.length}件は別に数える）／${scopeLabel()}`,
       fill: model.fill, label: model.noLabels ? null : code => model.counts.get(code) ? String(model.counts.get(code)) : null,
       selected: st.pref, legend: model.legend, legendTitle: model.legendTitle,
       side: top.length && !model.noLabels ? [{ text: '件数の多い都道府県', bold: true, size: 30 }, ...top] : [],
@@ -322,7 +335,7 @@ function prefTable(db, model, st) {
       <td>${esc(p.name)}</td><td class="num">${n ? n : '—'}</td><td>${esc(n ? (model.tipLine(p.code)) : state)}</td><td>${esc(cs)}</td></tr>`;
   }).join('');
   return `<div class="table-wrap"><table><thead><tr><th>都道府県</th><th class="num">件数</th><th>状況</th><th>相手国・地域</th></tr></thead><tbody>${rows}</tbody></table></div>
-    <p class="small muted">行をクリックすると、その都道府県を選択します。「—」は0件ではなく、状況欄のとおり「該当なし」「調査したが確認できず」「未調査」のいずれかです。</p>`;
+    <p class="small muted">行をクリックすると、その都道府県を選択します。「—」は、状況欄のとおり「いまの数え方では0件（締結済みの協定はある）」「該当なし」「調査したが確認できず」「未調査」のいずれかです。</p>`;
 }
 
 // 相手国を選ぶ部品（日本語名・英語名で検索、最大4か国まで比較）
@@ -330,14 +343,14 @@ function countryPicker(db, st) {
   const withData = countriesWithData(db);
   return `<span class="label">相手国を選ぶ（4か国まで比べられます）</span>
     <div class="suggest"><input type="search" id="cq" placeholder="例：インドネシア / Indonesia" autocomplete="off" aria-label="国名で検索（日本語・英語）"><ul id="cs" hidden></ul></div>
-    <p class="small muted" style="margin:10px 0 4px">MOUが登録されている国・地域（数字は件数）：</p>
+    <p class="small muted" style="margin:10px 0 4px">協定が登録されている国・地域（数字はいまの数え方の件数）：</p>
     <div class="seg">${withData.slice(0, 8).map(btn).join('')}</div>
     ${withData.length > 8 ? `<details${withData.slice(8).some(([c]) => st.countries.includes(c)) ? ' open' : ''}><summary>ほかの国・地域（${withData.length - 8}）</summary><div class="seg">${withData.slice(8).map(btn).join('')}</div></details>` : ''}`;
   function btn([c, n]) { return `<button type="button" data-c="${c}" aria-pressed="${st.countries.includes(c)}">${esc(countryName(db, c))} ${n}</button>`; }
 }
 export function countriesWithData(db) {
   const m = new Map();
-  for (const g of filterGroups(db, { includeNews: settings.includeNews })) for (const c of g.countries) m.set(c, (m.get(c) || 0) + 1);
+  for (const g of filterGroups(db, baseFilter())) for (const c of g.countries) m.set(c, (m.get(c) || 0) + 1);
   return [...m].sort((a, b) => b[1] - a[1] || countryName(db, a[0]).localeCompare(countryName(db, b[0]), 'ja'));
 }
 function bindCountryPicker(mc, db, st, go) {

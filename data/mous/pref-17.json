@@ -98,7 +98,16 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "県の外国人材確保で、知事は「外国の送り出し機関、業界団体と連携して外国人人材の受け入れ促進に取り組む初のケース」と説明（2025年5月22日知事会見、検索結果の抜粋で確認・本文未取得）。"
+   "notes": "県の外国人材確保で、知事は「外国の送り出し機関、業界団体と連携して外国人人材の受け入れ促進に取り組む初のケース」と説明（2025年5月22日知事会見、検索結果の抜粋で確認・本文未取得）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "協定期間・有効期間の記載がある資料が見つからず、県議会の議案説明（2025-09-10）が『協定に基づく受入れが開始』と述べるのみで、事業が続いているだけでは有効確認にならない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "締結式案内（2025-05-22付）と議案説明を確認。期間・更新の記載なし。2026年3月の知事会見（県ページ）は今回は開いていない。三者協定で、相手方に自治体ではなく民間（ハイフォン社）を含む。"
   },
   {
    "id": "JP-17-002",
@@ -153,7 +162,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の国際化推進プラン2026に『覚書に基づく連携促進』と書かれるだけで、締結年・有効期間・更新の記載がなく、現在の効力を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "プラン2026（PDF）を確認。覚書の締結日・期間の記載なし。"
   },
   {
    "id": "JP-17-003",
@@ -209,7 +226,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。partner_org_en は一般的な英語名で、資料上の表記ではない。"
+   "notes": "第2段階（他分野）。partner_org_en は一般的な英語名で、資料上の表記ではない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の国際化推進プラン2026に『交流合意書に基づく研修受入れ』と書かれるだけで、締結年・有効期間・更新の記載がなく、現在の効力を確認できない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "プラン2026（PDF）を確認。合意書の締結日・期間の記載なし。"
   }
  ]
 }

@@ -73,7 +73,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "友好交流を含む覚書。外国人材を対象とする条項は確認できず。"
+   "notes": "友好交流を含む覚書。外国人材を対象とする条項は確認できず。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（更新日2025-08-27）は2007-10-27の覚書締結と経済促進会議の開催を述べるのみで、有効期間・更新・終了の記載がなく、現在効力を有する旨の明示もない。原文は公開されていない。",
+   "effective_date": "2007-10-27",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の原文・有効期間は公開資料で見つからず。経済促進会議（2017年〜）の開催のみでは有効確認にしない。"
   },
   {
    "id": "JP-28-002",
@@ -130,7 +140,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（更新日2025-08-26）は2016-11-12の覚書締結と交流の取組を述べるのみで、有効期間・更新・終了の記載がなく、現在効力を有する旨の明示もない。原文は公開されていない。",
+   "effective_date": "2016-11-12",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "原文・有効期間は見つからず。"
   }
  ]
 }

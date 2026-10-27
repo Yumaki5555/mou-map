@@ -54,7 +54,13 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "沖縄県と福建省の友好県省締結（1997年）は除外。"
+   "notes": "沖縄県と福建省の友好県省締結（1997年）は除外。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2023年版業務概要の記載のみで、覚書の有効期間・現在の効力を示す資料が見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "出典（2023年版業務概要PDF）は今回は再確認していない。福建省商務庁との覚書は別途確認できず。"
   },
   {
    "id": "JP-47-002",
@@ -107,11 +113,33 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "沖縄県とハワイ州のクリーンエネルギー協力に関する覚書（更新）【日本語訳】",
+     "publisher": "沖縄県",
+     "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/013/587/jp_moc_theokinawa-hawaiipartnershiponcleanenergy.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。前文『2010年から2020年まで…新型コロナウイルス感染症の拡大により同覚書は終了したが、2021年5月に覚書に署名…本覚書を更新し』。第4条『署名により開始され、その後5年間継続、書面による決定により延長可』。2025年10月11日署名"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "署名者・正確な日付は未確認。"
+   "notes": "署名者・正確な日付は未確認。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "2025年10月11日署名の更新覚書の前文に、2021年5月の覚書を『更新』すると明記されており、2021年版は更新版（JP-47-010）に引き継がれた。",
+   "effective_date": "2021-05",
+   "term_text": "更新覚書の前文に『2021年5月に署名』（本文は未確認）",
+   "auto_renewal": "unconfirmed",
+   "ended_date": "2025-10-11",
+   "end_reason": "2025年10月11日の更新覚書（JP-47-010）に引き継ぎ（更新覚書の前文に『本覚書を更新し』）",
+   "successor_id": "JP-47-010",
+   "validity_sources": [
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2021年版の本文（有効期間）は今回確認できず。更新により期が新しくなったことのみを根拠にしている。"
   },
   {
    "id": "JP-47-003",
@@ -215,7 +243,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "2023年1月に知事がパラオを訪問し、農水産業・インフラ整備・人材交流を進めるワーキングチーム設置で合意したとの報道あり（琉球新報、検索結果の抜粋のみ・本文未取得のため projects には入れていない）。"
+   "notes": "2023年1月に知事がパラオを訪問し、農水産業・インフラ整備・人材交流を進めるワーキングチーム設置で合意したとの報道あり（琉球新報、検索結果の抜粋のみ・本文未取得のため projects には入れていない）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "原文は期間の定めがなく、終了の通知もない。県の2026年ページに『MOUを2022年8月に締結』『MOUに基づき交流促進』とあるが、面談記録の発言であり、現在の効力を明示した資料とまでは言えない。",
+   "term_text": "有効期間の定めなし。少なくとも90日前の書面通知で効力を終了できる",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s1",
+    "s5"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "終了の情報は見つからず、2026-03-27の面談で県知事が引き続きMOUに基づく交流促進に言及しているため、有力な状況証拠はあるが有効確認の基準（根拠A・B・C）は満たさないと判断。"
   },
   {
    "id": "JP-47-004",
@@ -283,7 +321,20 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。JP-47-002（2021年5月）の前身にあたる4者の覚書。"
+   "notes": "第2段階。JP-47-002（2021年5月）の前身にあたる4者の覚書。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "2025年10月署名の更新覚書の前文に『2010年から2020年まで…新型コロナウイルス感染症の拡大により同覚書は終了した』と記載されている。",
+   "effective_date": "2010-06",
+   "term_text": "2010年から2020年まで（更新覚書の前文）",
+   "auto_renewal": "unconfirmed",
+   "ended_date": "2020",
+   "end_reason": "新型コロナウイルス感染症の拡大により終了（2025年の更新覚書の前文）。2021年5月のハワイ州と沖縄県の覚書（JP-47-002）に引き継ぎ",
+   "successor_id": "JP-47-002",
+   "validity_sources": [
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "終了日は『2020年』としか書かれていない（日付の特定不可）。"
   },
   {
    "id": "JP-47-005",
@@ -341,7 +392,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。partner_type は空港運営会社を想定した暫定値（未確認）。"
+   "notes": "第2段階。partner_type は空港運営会社を想定した暫定値（未確認）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の古い一覧（最終更新2023-01）に締結年月・相手方・内容があるのみで、有効期間・状態の記載がなく、現在の効力を示す資料も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "チャンギ空港との覚書（2014-03）。Web検索でも更新・有効期間の記載は見つからず。"
   },
   {
    "id": "JP-47-006",
@@ -398,7 +457,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。"
+   "notes": "第2段階。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の古い一覧（最終更新2023-01）に締結年月・相手方・内容があるのみで、有効期間・状態の記載がなく、現在の効力を示す資料も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "香港貿易発展局との覚書（2014-08）。Web検索でも更新・有効期間の記載は見つからず。"
   },
   {
    "id": "JP-47-007",
@@ -456,7 +523,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。"
+   "notes": "第2段階。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の古い一覧（最終更新2023-01）に締結年月・相手方・内容があるのみで、有効期間・状態の記載がなく、現在の効力を示す資料も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "TAITRAとの覚書（2018-01）。Web検索でも更新・有効期間の記載は見つからず。"
   },
   {
    "id": "JP-47-008",
@@ -513,7 +588,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。県一覧では同じ行に台湾港務（基隆港）と韓国済州特別自治道が並記（国別集計では台湾・韓国に各1件）。3者の1文書か別々の文書かは未確認。"
+   "notes": "第2段階。県一覧では同じ行に台湾港務（基隆港）と韓国済州特別自治道が並記（国別集計では台湾・韓国に各1件）。3者の1文書か別々の文書かは未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の古い一覧（最終更新2023-01）に締結年月・相手方・内容があるのみで、有効期間・状態の記載がなく、現在の効力を示す資料も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "台湾港務（基隆港）・済州特別自治道とのクルーズ覚書（2018-08）。Web検索でも更新・有効期間の記載は見つからず。"
   },
   {
    "id": "JP-47-009",
@@ -572,7 +655,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（スポーツ）。"
+   "notes": "第2段階（スポーツ）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の古い一覧（最終更新2023-01）に締結年月・相手方・内容があるのみで、有効期間・状態の記載がなく、現在の効力を示す資料も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "トルコ視覚障がい者スポーツ協会との覚書（2019-01）。Web検索でも更新・有効期間の記載は見つからず。"
   },
   {
    "id": "JP-47-010",
@@ -635,7 +726,19 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階。登録済み JP-47-002（2021年5月）の更新。"
+   "notes": "第2段階。登録済み JP-47-002（2021年5月）の更新。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県公開の覚書（更新）本文に署名日（2025-10-11）から5年間継続とあり、基準日は期間内。終了の情報は見つからない（根拠A）。",
+   "effective_date": "2025-10-11",
+   "term_text": "第4.1項『署名により開始され、その後5年間継続し、参加者の書面による決定により、延長することができる』。計算：署名日2025-10-11から5年間→2030-10-10",
+   "renewal_text": "参加者の書面による決定により延長可。停止は書面による相互決定、希望する場合は最短90日の猶予をもって文書で意思表示",
+   "auto_renewal": "no",
+   "last_renewed": "2025-10-11",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "署名は沖縄時間2025-10-11、ハワイ州知事ジョシュ・グリーン氏と沖縄県知事。"
   }
  ]
 }

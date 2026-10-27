@@ -1,0 +1,4965 @@
+{
+ "note": "MOU・MOC以外の国際文書（EPA・交換公文・ワーキング・ホリデーの取決め・共同声明/アクションプラン）。国（全国が対象）の文書で、都道府県の件数には含めない。",
+ "mous": [
+  {
+   "id": "JP-AGR-001",
+   "group_key": "AGR:ID-EPA",
+   "renewal_of": null,
+   "title_ja": "経済上の連携に関する日本国とインドネシア共和国との間の協定（日・インドネシア経済連携協定）",
+   "title_original": "",
+   "doc_category": "epa_treaty",
+   "doc_type": "経済連携協定（条約）",
+   "doc_type_note": "",
+   "japan_level": "national",
+   "japan_org": "日本国",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "インドネシア共和国",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2007-08-20",
+   "announced_date": "",
+   "effective_date": "2008-07-01",
+   "date_note": "",
+   "fields": [
+    "labor",
+    "medical",
+    "economy"
+   ],
+   "labor_detail": [
+    "EPA看護師・介護福祉士候補者"
+   ],
+   "purpose": "貿易・投資の自由化に加え、人の移動などを含む幅広い経済関係の強化（外務省の説明）。この協定に基づき、インドネシア人看護師・介護福祉士候補者を受け入れている。",
+   "summary": [
+    "外務省の説明では、EPAは『貿易の自由化に加え、投資、人の移動、知的財産の保護や競争政策におけるルール作り、様々な分野での協力の要素等を含む、幅広い経済関係の強化を目的とする協定』。",
+    "この協定に基づき、平成20年度（2008年度）からインドネシア人看護師・介護福祉士候補者の受入れが始まった（厚労省）。",
+    "候補者は日本の国家資格の取得を目的に、受入れ施設（病院・介護施設）で雇用契約に基づき就労・研修する（在留資格『特定活動』）。協定上の在留期間の上限は看護師候補者3年・介護福祉士候補者4年。"
+   ],
+   "content": [
+    "外務省の説明では、EPAは『貿易の自由化に加え、投資、人の移動、知的財産の保護や競争政策におけるルール作り、様々な分野での協力の要素等を含む、幅広い経済関係の強化を目的とする協定』。",
+    "この協定に基づき、平成20年度（2008年度）からインドネシア人看護師・介護福祉士候補者の受入れが始まった（厚労省）。",
+    "候補者は日本の国家資格の取得を目的に、受入れ施設（病院・介護施設）で雇用契約に基づき就労・研修する（在留資格『特定活動』）。協定上の在留期間の上限は看護師候補者3年・介護福祉士候補者4年。",
+    "2026年8月1日に発効した改正議定書等により、発効後に入国するインドネシア人候補者は看護・介護とも在留期間の上限が5年に延長され、特例の滞在延長は行わない（厚労省概要資料）。",
+    "厚労省は、この受入れを『看護・介護分野の労働力不足への対応ではなく、二国間の経済活動の連携の強化の観点から、経済連携協定（EPA）に基づき、公的な枠組で特例的に行うもの』と説明している。"
+   ],
+   "validity": "協定本文の有効期間・終了条項は今回確認していない",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "term_text": "協定本文の有効期間・終了条項は今回確認していない",
+   "auto_renewal": "unconfirmed",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省『我が国の経済連携協定（EPA／FTA）等の取組』（令和8年10月6日更新）が『発効済み』として掲載。外務省の協定ページ（令和8年8月3日更新）に改正議定書が2026年8月1日に効力を生じた旨の公文交換が掲載され、厚労省・JICWELSが2026〜2027年度の受入れを現に案内している（根拠C）。終了・失効の情報は見つからない。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "binding",
+   "legal_binding_note": "",
+   "legal_nature": "日本国とインドネシア共和国との間の条約。厚労省ページに『2007年8月20日署名、2008年5月16日国会承認、2008年7月1日発効』と記載。",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "EPA-NCW"
+   ],
+   "acceptance_types": [
+    "work",
+    "training"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "看護師候補者の受入れ最大人数",
+     "value": 200,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "毎年度（受入れ開始当初は2年間で400人）",
+     "definition": "国内労働市場への影響等を考慮して設定された受入れ最大人数について、看護師候補者は、各国200人／年（インドネシア、フィリピンについては、受入れ開始当初は2年間で400人）",
+     "sources": [
+      "s4",
+      "s7"
+     ],
+     "note": "上限の根拠となる協定条項・告示の該当箇所は確認できず。JICWELSは『受入れ当初から…それぞれ看護師候補者最大200人』と記載。"
+    },
+    {
+     "kind": "legal_cap",
+     "label": "介護福祉士候補者の受入れ最大人数",
+     "value": 300,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "毎年度（受入れ開始当初は2年間で600人）",
+     "definition": "介護福祉士候補者は、各国300人／年（インドネシア、フィリピンについては、受入れ開始当初は2年間で600人）",
+     "sources": [
+      "s4",
+      "s7"
+     ],
+     "note": "JICWELS：『訪日前後の日本語研修免除となる介護福祉士候補者については、受入れ最大人数の枠外で受け入れられる』。"
+    },
+    {
+     "kind": "actual_entry",
+     "label": "看護師候補者の入国者数（累計）",
+     "value": 784,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "平成20年度〜令和7年度入国（2008〜2025年度）",
+     "definition": "受入れ人数の推移（看護師候補者）表の累計",
+     "sources": [
+      "s4"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "actual_entry",
+     "label": "看護師候補者の入国者数（令和7年度）",
+     "value": 16,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "令和7年度（2025年度）",
+     "definition": "入国年度別の受入れ人数",
+     "sources": [
+      "s4"
+     ],
+     "note": "上限200人に対し16人。"
+    },
+    {
+     "kind": "actual_entry",
+     "label": "介護福祉士候補者の入国者数（累計）",
+     "value": 3781,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "平成20年度〜令和7年度入国",
+     "definition": "受入れ人数の推移（介護福祉士候補者）表の累計",
+     "sources": [
+      "s4",
+      "s8"
+     ],
+     "note": "JICWELSの受入れ実績（2008〜2025年度受入れまで）も3,781名。"
+    },
+    {
+     "kind": "actual_entry",
+     "label": "介護福祉士候補者の入国者数（令和7年度）",
+     "value": 290,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "令和7年度（2025年度）",
+     "definition": "入国年度別の受入れ人数",
+     "sources": [
+      "s4"
+     ],
+     "note": "上限300人に対し290人。"
+    },
+    {
+     "kind": "exam_passed",
+     "label": "看護師国家試験の合格者数（累計・2024年度試験まで）",
+     "value": 237,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "平成20年度入国者〜、2024年度国家試験まで",
+     "definition": "入国年度別国家試験合格者数（2024年度国家試験まで）の合計（JICWELSが厚労省公表資料から転記）",
+     "sources": [
+      "s7"
+     ],
+     "note": "2025年度（第115回）の合格者5人を足すと242人（計算値）。"
+    },
+    {
+     "kind": "exam_passed",
+     "label": "看護師国家試験の合格者数（第115回・令和7年度）",
+     "value": 5,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "令和7年度（第115回、2026年2月実施）",
+     "definition": "受験者124人、合格者5人、合格率4.0%",
+     "sources": [
+      "s9"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "exam_passed",
+     "label": "介護福祉士国家試験の合格者数（累計・第37回まで）",
+     "value": 1467,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "平成20年度〜令和4年度入国者、第37回（2024年度）試験まで",
+     "definition": "入国年度別国家試験合格者数の合計（JICWELSが厚労省公表資料から転記）",
+     "sources": [
+      "s7"
+     ],
+     "note": "第38回の合格者185人を足すと1,652人（計算値）。"
+    },
+    {
+     "kind": "exam_passed",
+     "label": "介護福祉士国家試験の合格者数（第38回・令和7年度）",
+     "value": 185,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "第38回（2026年1月実施）",
+     "definition": "受験者602人、合格者185人、合格率30.7%（初受験106人、再受験79人）",
+     "sources": [
+      "s10"
+     ],
+     "note": ""
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "厚生労働省",
+    "JICWELS（国際厚生事業団）"
+   ],
+   "related_ids": [
+    "JP-AGR-002",
+    "JP-AGR-003",
+    "JP-AGR-005"
+   ],
+   "status": "in_progress",
+   "status_note": "看護師候補者は2008〜2025年度に累計784人、介護福祉士候補者は累計3,781人が入国（厚労省、令和7年度入国まで）。2025年度の入国は看護16人・介護290人。国家試験の合格者は、看護が2024年度試験までに237人＋2025年度5人、介護が第37回までに1,467人＋第38回185人。",
+   "projects": [
+    {
+     "name": "訪日前日本語研修（6か月）・訪日後日本語等研修（6か月）",
+     "fiscal_year": "",
+     "detail": "インドネシア・フィリピンの候補者は訪日前6か月・訪日後6か月の日本語研修を受ける（日本語能力試験N2以上は免除など）。訪日前研修後の日本語要件はH26〜R3年度N5程度以上、R4年度〜N4程度以上（インドネシア）。",
+     "agency": "厚生労働省・JICWELS等"
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日・インドネシア経済連携協定",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/j_asean/indonesia/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "令和8年8月3日付。『平成19年8月20日署名、平成20年7月1日発効』。改正議定書の署名（令和6年8月8日）と効力発生のための公文交換（令和8年6月26日）を掲載。"
+    },
+    {
+     "id": "s2",
+     "title": "我が国の経済連携協定（EPA／FTA）等の取組",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "令和8年10月6日付。『発効済み・署名済み』欄に『日・インドネシアEPA（2008年7月発効、2024年8月改正議定書署名）』。EPAの定義も確認。"
+    },
+    {
+     "id": "s3",
+     "title": "インドネシア人看護師・介護福祉士候補者の受入れについて",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000025091.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "署名・国会承認・発効日、平成20年度からの受入れ開始、実施指針（平成20年厚労省告示第312号、最終改正令和8年3月12日）、令和8年2月27日閣議決定（改正議定書の発効に伴う滞在期間延長）を確認。"
+    },
+    {
+     "id": "s4",
+     "title": "経済連携協定（EPA）に基づく外国人看護師・介護福祉士候補者の受入れ概要",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/001739512.pdf",
+     "type": "statistics",
+     "checked": "2026-10-28",
+     "note": "受入れの枠組、在留期間（看護3年・介護4年、インドネシアは改正EPA発効により5年）、受入れ最大人数（注記）、令和7年度までの国別・年度別入国者数の表。"
+    },
+    {
+     "id": "s5",
+     "title": "インドネシア、フィリピン及びベトナムからの外国人看護師・介護福祉士候補者の受入れについて",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/gaikokujin/other22/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "3か国の累計受入れが10,000人超（令和8年7月末時点）、受入れ開始年度。"
+    },
+    {
+     "id": "s6",
+     "title": "日尼EPA改正に伴うEPAインドネシア人看護師・介護福祉士候補者の滞在期間変更について（2026年8月3日更新版）",
+     "publisher": "JICWELS（国際厚生事業団）",
+     "url": "https://jicwels.or.jp/?p=64237",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "改正議定書は2026年8月1日発効。発効後に入国する2027年度インドネシア人候補者から滞在期間最大5年。既入国の看護師候補者第15・16陣は2026年2月の閣議決定で延長追加。"
+    },
+    {
+     "id": "s7",
+     "title": "2027年度版 EPAに基づく外国人看護師・介護福祉士候補者受入れパンフレット",
+     "publisher": "JICWELS（国際厚生事業団）",
+     "url": "https://jicwels.or.jp/wp-content/uploads/2026/03/2027%E5%B9%B4%E5%BA%A6%E7%89%88-EPA%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E5%A4%96%E5%9B%BD%E4%BA%BA%E7%9C%8B%E8%AD%B7%E5%B8%AB%E3%83%BB%E4%BB%8B%E8%AD%B7%E7%A6%8F%E7%A5%89%E5%A3%AB%E5%80%99%E8%A3%9C%E8%80%85%E5%8F%97%E5%85%A5%E3%82%8C%E3%83%91%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%88.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "受入れ最大人数（各国看護200人・介護300人）、これまでの受入れ実績（2026年2月1日時点）、入国年度別国家試験合格者数（2024年度国家試験まで）、改正議定書後のインドネシア人の受験機会（看護5回・介護2回）。"
+    },
+    {
+     "id": "s8",
+     "title": "EPA介護福祉士候補者 受入れについて",
+     "publisher": "JICWELS（国際厚生事業団）",
+     "url": "https://jicwels.or.jp/?page_id=62230",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "2027年度来日の介護福祉士候補者（インドネシア・フィリピン・ベトナム）の募集。2008〜2025年度受入れまでに8,809名（就労コース）。"
+    },
+    {
+     "id": "s9",
+     "title": "経済連携協定（EPA）に基づく外国人看護師候補者の看護師国家試験の結果（過去18年間）【別添2】",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/10805000/001678947.pdf",
+     "type": "statistics",
+     "checked": "2026-10-28",
+     "note": "平成20〜令和7年度の国別受験者数・合格者数・合格率。発表ページ https://www.mhlw.go.jp/stf/newpage_71621.html（第115回の合格者20名）も確認。"
+    },
+    {
+     "id": "s10",
+     "title": "第38回介護福祉士国家試験におけるEPA介護福祉士候補者の試験結果",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/12004000/001673109.pdf",
+     "type": "statistics",
+     "checked": "2026-10-28",
+     "note": "第34〜38回の国別受験者・合格者・合格率。発表ページ https://www.mhlw.go.jp/stf/newpage_71070.html（令和8年3月16日、合格者380名・31.8%）も確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "分析：受入れ最大人数（200人・300人）は上限であり、実際の入国はそれを大きく下回る（2025年度は看護16人）。累計入国者数（784人・3,781人）は『入国した人数』で、現在日本にいる人数や国家資格を取って働いている人数ではない。国家試験の合格者数は入国者数と別の数字として扱うこと。",
+   "unconfirmed": [
+    "受入れ最大人数（200人・300人）を定めている協定・実施取極・告示の具体的な条項は確認できず",
+    "協定本文の有効期間・終了条項は確認していない",
+    "2026年度（令和8年度）の入国者数は公式資料で確認できず",
+    "現在日本で就労しているEPA看護師・介護福祉士（資格取得者）の人数は確認できず"
+   ]
+  },
+  {
+   "id": "JP-AGR-002",
+   "group_key": "AGR:ID-EPA",
+   "renewal_of": "JP-AGR-001",
+   "title_ja": "経済上の連携に関する日本国とインドネシア共和国との間の協定を改正する議定書（日・インドネシア経済連携協定改正議定書）",
+   "title_original": "",
+   "doc_category": "epa_treaty",
+   "doc_type": "経済連携協定の改正議定書（条約）",
+   "doc_type_note": "",
+   "japan_level": "national",
+   "japan_org": "日本国",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ID",
+   "partner_org": "インドネシア共和国",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2024-08-08",
+   "announced_date": "",
+   "effective_date": "2026-08-01",
+   "date_note": "",
+   "fields": [
+    "labor",
+    "medical",
+    "economy"
+   ],
+   "labor_detail": [
+    "EPA看護師・介護福祉士候補者"
+   ],
+   "purpose": "日・インドネシアEPAの内容を拡充するための改正（外務省）。看護師・介護福祉士候補者の在留期間の上限などを変更。",
+   "summary": [
+    "外務省：物品及びサービスの貿易に関する市場アクセスの改善に加え、ルール面での改善を含む改正を通じ、日・インドネシアEPAの内容を拡充するもの。",
+    "2023年12月に大筋合意、2024年8月8日署名、2026年6月26日にジャカルタで公文交換、2026年8月1日発効（外務省）。",
+    "看護師・介護福祉士候補者について：発効後に入国するインドネシア人候補者は看護・介護とも在留期間の上限が5年となり、特例の滞在延長は行わない（厚労省）。受験機会は看護5回・介護2回に増える（JICWELS）。"
+   ],
+   "content": [
+    "外務省：物品及びサービスの貿易に関する市場アクセスの改善に加え、ルール面での改善を含む改正を通じ、日・インドネシアEPAの内容を拡充するもの。",
+    "2023年12月に大筋合意、2024年8月8日署名、2026年6月26日にジャカルタで公文交換、2026年8月1日発効（外務省）。",
+    "看護師・介護福祉士候補者について：発効後に入国するインドネシア人候補者は看護・介護とも在留期間の上限が5年となり、特例の滞在延長は行わない（厚労省）。受験機会は看護5回・介護2回に増える（JICWELS）。",
+    "対象は議定書発効後に入国する2027年度インドネシア人候補者から。既に入国している看護師候補者第15・16陣（2022・2023年度入国）は2026年2月の閣議決定で延長を1回追加できる（JICWELS）。フィリピン人・ベトナム人候補者の取扱いは変わらない。"
+   ],
+   "validity": "効力発生：第26条『効力発生のために必要とされるそれぞれの国内法上の手続が完了した旨を相互に通告する外交上の公文を両締約国政府が交換する日の属する月の後二番目の月の初日に効力を生ずる』（公文交換2026-06-26→2026-08-01）。有効期間は本体協定による（未確認）。",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "term_text": "効力発生：第26条『効力発生のために必要とされるそれぞれの国内法上の手続が完了した旨を相互に通告する外交上の公文を両締約国政府が交換する日の属する月の後二番目の月の初日に効力を生ずる』（公文交換2026-06-26→2026-08-01）。有効期間は本体協定による（未確認）。",
+   "auto_renewal": "unconfirmed",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省報道発表（令和8年6月26日）で、効力発生のための公文交換が行われ『本年8月1日に効力を生じます』と発表。外務省の協定ページ（令和8年8月3日更新）・JICWELS（2026年8月3日更新）・厚労省概要資料が発効後の運用を案内（根拠C）。終了の情報は見つからない。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "binding",
+   "legal_binding_note": "",
+   "legal_nature": "日・インドネシアEPAを改正する議定書（条約）。国内法上の手続完了の通告の公文交換により発効。",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "EPA-NCW"
+   ],
+   "acceptance_types": [
+    "work",
+    "training"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "厚生労働省",
+    "JICWELS（国際厚生事業団）"
+   ],
+   "related_ids": [
+    "JP-AGR-001"
+   ],
+   "status": "in_progress",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日・インドネシア経済連携協定改正議定書の効力発生のための外交上の公文の交換",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/pressit_000001_03876.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "令和8年6月26日。署名日（令和6年8月8日）、8月1日発効、第26条の効力発生規定、改正の趣旨。"
+    },
+    {
+     "id": "s2",
+     "title": "日・インドネシア経済連携協定",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/j_asean/indonesia/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "令和8年8月3日付。改正議定書（署名・公文交換・大筋合意）の掲載。"
+    },
+    {
+     "id": "s3",
+     "title": "日尼EPA改正に伴うEPAインドネシア人看護師・介護福祉士候補者の滞在期間変更について（2026年8月3日更新版）",
+     "publisher": "JICWELS（国際厚生事業団）",
+     "url": "https://jicwels.or.jp/?p=64237",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "発効日、滞在期間の変更内容、対象者。"
+    },
+    {
+     "id": "s4",
+     "title": "経済連携協定（EPA）に基づく外国人看護師・介護福祉士候補者の受入れ概要",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/001739512.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "『インドネシアについては、令和８年８月の改正日尼EPAの発効等により、看護・介護ともに在留期間の上限は５年に延長。滞在延長は行わない。』"
+    },
+    {
+     "id": "s5",
+     "title": "2027年度版 EPAに基づく外国人看護師・介護福祉士候補者受入れパンフレット",
+     "publisher": "JICWELS（国際厚生事業団）",
+     "url": "https://jicwels.or.jp/wp-content/uploads/2026/03/2027%E5%B9%B4%E5%BA%A6%E7%89%88-EPA%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E5%A4%96%E5%9B%BD%E4%BA%BA%E7%9C%8B%E8%AD%B7%E5%B8%AB%E3%83%BB%E4%BB%8B%E8%AD%B7%E7%A6%8F%E7%A5%89%E5%A3%AB%E5%80%99%E8%A3%9C%E8%80%85%E5%8F%97%E5%85%A5%E3%82%8C%E3%83%91%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%88.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "『滞在期間が最大５年間となり、受験機会が看護5回、介護2回に増えます』（2026年2月時点の記載）。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "分析：改正議定書は貿易・投資が中心の改正で、看護・介護候補者に関する変化は在留期間の上限（5年）と受験回数。受入れ最大人数の変更は今回確認した資料には書かれていない。",
+   "unconfirmed": [
+    "改正議定書のうち、看護師・介護福祉士候補者の在留期間を定める条項（条文番号）は確認できず",
+    "改正議定書の国会承認日は確認していない（JICWELSは2026年3月24日のお知らせで国会承認に触れているとするが、そのページは開いていない）"
+   ]
+  },
+  {
+   "id": "JP-AGR-003",
+   "group_key": "AGR:PH-EPA",
+   "renewal_of": null,
+   "title_ja": "経済上の連携に関する日本国とフィリピン共和国との間の協定（日・フィリピン経済連携協定）",
+   "title_original": "",
+   "doc_category": "epa_treaty",
+   "doc_type": "経済連携協定（条約）",
+   "doc_type_note": "",
+   "japan_level": "national",
+   "japan_org": "日本国",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PH",
+   "partner_org": "フィリピン共和国",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2006-09-09",
+   "announced_date": "",
+   "effective_date": "2008-12-11",
+   "date_note": "",
+   "fields": [
+    "labor",
+    "medical",
+    "economy"
+   ],
+   "labor_detail": [
+    "EPA看護師・介護福祉士候補者"
+   ],
+   "purpose": "貿易・投資の自由化に加え、人の移動などを含む幅広い経済関係の強化（外務省の説明）。この協定に基づき、フィリピン人看護師・介護福祉士候補者を受け入れている。",
+   "summary": [
+    "この協定に基づき、平成21年度（2009年度）からフィリピン人看護師・介護福祉士候補者の受入れが始まった（厚労省）。",
+    "看護師候補者の要件はフィリピンの看護師資格＋実務経験3年、介護福祉士候補者は『4年制大学卒業＋フィリピン政府による介護士認定』又は『フィリピンの看護学校（学士）（4年）卒業』（厚労省概要資料）。",
+    "訪日前6か月・訪日後6か月の日本語研修の後、病院・介護施設で雇用契約に基づき就労・研修（在留資格『特定活動』）。在留期間の上限は看護3年・介護4年で、一定の条件で閣議決定により1年の特例延長がある。"
+   ],
+   "content": [
+    "この協定に基づき、平成21年度（2009年度）からフィリピン人看護師・介護福祉士候補者の受入れが始まった（厚労省）。",
+    "看護師候補者の要件はフィリピンの看護師資格＋実務経験3年、介護福祉士候補者は『4年制大学卒業＋フィリピン政府による介護士認定』又は『フィリピンの看護学校（学士）（4年）卒業』（厚労省概要資料）。",
+    "訪日前6か月・訪日後6か月の日本語研修の後、病院・介護施設で雇用契約に基づき就労・研修（在留資格『特定活動』）。在留期間の上限は看護3年・介護4年で、一定の条件で閣議決定により1年の特例延長がある。",
+    "介護福祉士の就学コース（養成施設で学ぶコース）もあるが、平成23年度以降は送出しが行われていない（厚労省・JICWELS）。"
+   ],
+   "validity": "協定本文の有効期間・終了条項は今回確認していない",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "term_text": "協定本文の有効期間・終了条項は今回確認していない",
+   "auto_renewal": "unconfirmed",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省『我が国の経済連携協定（EPA／FTA）等の取組』（令和8年10月6日更新）が『日・フィリピンEPA（2008年12月発効）』を発効済みとして掲載し、厚労省（令和8年3月の告示改正通知）・JICWELS（2027年度来日の募集）が現に受入れを案内（根拠C）。終了の情報は見つからない。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "binding",
+   "legal_binding_note": "",
+   "legal_nature": "日本国とフィリピン共和国との間の条約。厚労省ページに『平成18年9月9日署名、平成18年12月6日国会承認（日本）、平成20年10月8日上院承認（フィリピン）、平成20年12月11日発効』。",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "EPA-NCW"
+   ],
+   "acceptance_types": [
+    "work",
+    "training",
+    "study"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "看護師候補者の受入れ最大人数",
+     "value": 200,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "毎年度（受入れ開始当初は2年間で400人）",
+     "definition": "看護師候補者は、各国200人／年（インドネシア、フィリピンについては、受入れ開始当初は2年間で400人）",
+     "sources": [
+      "s3",
+      "s5"
+     ],
+     "note": "根拠条項は確認できず。"
+    },
+    {
+     "kind": "legal_cap",
+     "label": "介護福祉士候補者の受入れ最大人数",
+     "value": 300,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "毎年度（受入れ開始当初は2年間で600人）",
+     "definition": "介護福祉士候補者は、各国300人／年（インドネシア、フィリピンについては、受入れ開始当初は2年間で600人）",
+     "sources": [
+      "s3",
+      "s5"
+     ],
+     "note": "日本語研修免除の介護福祉士候補者は枠外（JICWELS）。"
+    },
+    {
+     "kind": "actual_entry",
+     "label": "看護師候補者の入国者数（累計）",
+     "value": 714,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "平成21年度〜令和7年度入国",
+     "definition": "受入れ人数の推移（看護師候補者）表の累計",
+     "sources": [
+      "s3"
+     ],
+     "note": "令和2年度の49人は新型コロナの影響で、日本語研修免除者を除き令和3年5月に入国。"
+    },
+    {
+     "kind": "actual_entry",
+     "label": "看護師候補者の入国者数（令和7年度）",
+     "value": 19,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "令和7年度（2025年度）",
+     "definition": "入国年度別の受入れ人数",
+     "sources": [
+      "s3"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "actual_entry",
+     "label": "介護福祉士候補者の入国者数（累計）",
+     "value": 3341,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "平成21年度〜令和7年度入国",
+     "definition": "受入れ人数の推移（介護福祉士候補者）表の累計（就学コース37人を含む）",
+     "sources": [
+      "s3",
+      "s6"
+     ],
+     "note": "JICWELSの受入れ実績では就労コース3,304名（就学コースを除く）。"
+    },
+    {
+     "kind": "actual_entry",
+     "label": "介護福祉士候補者の入国者数（令和7年度）",
+     "value": 199,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "令和7年度（2025年度）",
+     "definition": "入国年度別の受入れ人数",
+     "sources": [
+      "s3"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "exam_passed",
+     "label": "看護師国家試験の合格者数（累計・2024年度試験まで）",
+     "value": 258,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "2024年度国家試験まで",
+     "definition": "入国年度別国家試験合格者数の合計（JICWELSが厚労省公表資料から転記）",
+     "sources": [
+      "s5"
+     ],
+     "note": "2025年度の合格者4人を足すと262人（計算値）。"
+    },
+    {
+     "kind": "exam_passed",
+     "label": "看護師国家試験の合格者数（第115回・令和7年度）",
+     "value": 4,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "令和7年度（第115回）",
+     "definition": "受験者64人、合格者4人、合格率6.3%",
+     "sources": [
+      "s7"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "exam_passed",
+     "label": "介護福祉士国家試験の合格者数（累計・第37回まで）",
+     "value": 1033,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "第37回（2024年度）試験まで",
+     "definition": "入国年度別国家試験合格者数の合計（JICWELSが厚労省公表資料から転記）",
+     "sources": [
+      "s5"
+     ],
+     "note": "第38回の合格者92人を足すと1,125人（計算値）。"
+    },
+    {
+     "kind": "exam_passed",
+     "label": "介護福祉士国家試験の合格者数（第38回・令和7年度）",
+     "value": 92,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "第38回（2026年1月実施）",
+     "definition": "受験者461人、合格者92人、合格率20.0%（初受験36人、再受験56人）",
+     "sources": [
+      "s8"
+     ],
+     "note": ""
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "厚生労働省",
+    "JICWELS（国際厚生事業団）"
+   ],
+   "related_ids": [
+    "JP-AGR-001",
+    "JP-AGR-005"
+   ],
+   "status": "in_progress",
+   "status_note": "看護師候補者は2009〜2025年度に累計714人、介護福祉士候補者は累計3,341人（就学コース37人を含む）が入国。2025年度の入国は看護19人・介護199人。国家試験の合格者は看護が2024年度試験までに258人＋2025年度4人、介護が第37回までに1,033人＋第38回92人。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日・フィリピン経済連携協定",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/j_asean/philippines/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "令和7年2月20日付。『平成18年9月9日署名、平成20年12月11日発効』。"
+    },
+    {
+     "id": "s2",
+     "title": "我が国の経済連携協定（EPA／FTA）等の取組",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "令和8年10月6日付。『日・フィリピンEPA（2008年12月発効）』を発効済みとして掲載。"
+    },
+    {
+     "id": "s3",
+     "title": "経済連携協定（EPA）に基づく外国人看護師・介護福祉士候補者の受入れ概要",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/001739512.pdf",
+     "type": "statistics",
+     "checked": "2026-10-28",
+     "note": "要件、受入れ最大人数、令和7年度までの入国者数の表。"
+    },
+    {
+     "id": "s4",
+     "title": "フィリピン人看護師・介護福祉士候補者の受入れについて",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000025247.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "署名・国会承認・発効日、実施指針（平成20年厚労省告示第509号）、特例指針の一部改正（令和8年3月25日付）。"
+    },
+    {
+     "id": "s5",
+     "title": "2027年度版 EPAに基づく外国人看護師・介護福祉士候補者受入れパンフレット",
+     "publisher": "JICWELS（国際厚生事業団）",
+     "url": "https://jicwels.or.jp/wp-content/uploads/2026/03/2027%E5%B9%B4%E5%BA%A6%E7%89%88-EPA%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E5%A4%96%E5%9B%BD%E4%BA%BA%E7%9C%8B%E8%AD%B7%E5%B8%AB%E3%83%BB%E4%BB%8B%E8%AD%B7%E7%A6%8F%E7%A5%89%E5%A3%AB%E5%80%99%E8%A3%9C%E8%80%85%E5%8F%97%E5%85%A5%E3%82%8C%E3%83%91%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%88.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "受入れ最大人数、入国年度別国家試験合格者数（2024年度国家試験まで）。"
+    },
+    {
+     "id": "s6",
+     "title": "EPA介護福祉士候補者 受入れについて",
+     "publisher": "JICWELS（国際厚生事業団）",
+     "url": "https://jicwels.or.jp/?page_id=62230",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "フィリピン人3,304名（2008〜2025年度受入れ、就労コース）。2027年度来日の募集。"
+    },
+    {
+     "id": "s7",
+     "title": "経済連携協定（EPA）に基づく外国人看護師候補者の看護師国家試験の結果（過去18年間）【別添2】",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/10805000/001678947.pdf",
+     "type": "statistics",
+     "checked": "2026-10-28",
+     "note": "国別・年度別の受験者数・合格者数。"
+    },
+    {
+     "id": "s8",
+     "title": "第38回介護福祉士国家試験におけるEPA介護福祉士候補者の試験結果",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/12004000/001673109.pdf",
+     "type": "statistics",
+     "checked": "2026-10-28",
+     "note": "国別の受験者・合格者・合格率（第34〜38回）。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "分析：フィリピンの看護師候補者の国家試験合格率は年度により6〜23%程度と低い（厚労省別添2）。入国者数・合格者数・上限は別々の数字。",
+   "unconfirmed": [
+    "受入れ最大人数を定める協定・告示の具体的な条項は確認できず",
+    "協定本文の有効期間・終了条項は確認していない",
+    "2026年度の入国者数は確認できず"
+   ]
+  },
+  {
+   "id": "JP-AGR-004",
+   "group_key": "AGR:VN-EPA",
+   "renewal_of": null,
+   "title_ja": "経済上の連携に関する日本国とベトナム社会主義共和国との間の協定（日・ベトナム経済連携協定、JVEPA）",
+   "title_original": "",
+   "doc_category": "epa_treaty",
+   "doc_type": "経済連携協定（条約）",
+   "doc_type_note": "",
+   "japan_level": "national",
+   "japan_org": "日本国",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム社会主義共和国",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2008-12-25",
+   "announced_date": "",
+   "effective_date": "2009-10-01",
+   "date_note": "",
+   "fields": [
+    "economy",
+    "labor"
+   ],
+   "labor_detail": [
+    "EPA看護師・介護福祉士候補者"
+   ],
+   "purpose": "貿易・投資などを含む日越の経済連携の強化。看護師・介護福祉士候補者の受入れは、この協定の規定にもとづく協議を踏まえた交換公文で定めている。",
+   "summary": [
+    "外務省ページ：平成20年12月25日署名、平成21年10月1日発効。",
+    "ベトナム人看護師・介護福祉士候補者の受入れは、協定本体ではなく、協定第79条及び附属書7第1部Bの規定に従って行われた協議を受けて結ばれた交換公文（2012年）で具体的に定められた（交換公文の本文）。",
+    "このため、日越EPAは『ベトナムとの看護師・介護福祉士候補者の受入れ枠組み』の根拠条約として関係する。受入れの人数・要件は交換公文（key: EON-VN-NCW）を参照。"
+   ],
+   "content": [
+    "外務省ページ：平成20年12月25日署名、平成21年10月1日発効。",
+    "ベトナム人看護師・介護福祉士候補者の受入れは、協定本体ではなく、協定第79条及び附属書7第1部Bの規定に従って行われた協議を受けて結ばれた交換公文（2012年）で具体的に定められた（交換公文の本文）。",
+    "このため、日越EPAは『ベトナムとの看護師・介護福祉士候補者の受入れ枠組み』の根拠条約として関係する。受入れの人数・要件は交換公文（key: EON-VN-NCW）を参照。"
+   ],
+   "validity": "協定本文の有効期間・終了条項は今回確認していない",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "term_text": "協定本文の有効期間・終了条項は今回確認していない",
+   "auto_renewal": "unconfirmed",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省『我が国の経済連携協定（EPA／FTA）等の取組』（令和8年10月6日更新）が『日・ベトナムEPA（2009年10月発効）』を発効済みとして掲載。この協定に基づく交換公文による受入れを厚労省・JICWELSが現に案内している（根拠C）。終了の情報は見つからない。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "binding",
+   "legal_binding_note": "",
+   "legal_nature": "日本国とベトナム社会主義共和国との間の条約（国会承認の日付は今回確認していない）。",
+   "foreign_relation": "indirect",
+   "related_systems": [
+    "EPA-NCW"
+   ],
+   "acceptance_types": [
+    "work",
+    "training"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "厚生労働省"
+   ],
+   "related_ids": [
+    "JP-AGR-005"
+   ],
+   "status": "in_progress",
+   "status_note": "受入れ実績は交換公文（EON-VN-NCW）の記録に入れた。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "日・ベトナム経済連携協定",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/j_asean/vietnam/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "令和7年2月20日付。署名日・発効日、交換公文（和訳・英文PDF）の掲載、第1陣入国（平成26年6月）等の報道発表一覧。"
+    },
+    {
+     "id": "s2",
+     "title": "我が国の経済連携協定（EPA／FTA）等の取組",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "令和8年10月6日付。『日・ベトナムEPA（2009年10月発効）』。"
+    },
+    {
+     "id": "s3",
+     "title": "看護師及び介護福祉士の入国及び一時的な滞在に関する日本国政府とベトナム社会主義共和国政府との間の交換公文（和訳）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/j_asean/vietnam/pdfs/kango_j.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "冒頭で『二千八年十二月二十五日に署名され、二千九年十月一日に効力を生じた…協定（JVEPA）第七十九条及び附属書七第一部Ｂの規定に従い…行われた最近の協議に言及』。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "分析：日越EPA本体と、看護・介護候補者の受入れを定めた交換公文は別の文書。受入れの直接の根拠は交換公文で、EPAはその上位の枠組み。",
+   "unconfirmed": [
+    "日越EPA本体の自然人の移動章（第79条・附属書7）の条文そのものは開いて確認していない",
+    "協定本文の有効期間・終了条項、国会承認日は確認していない"
+   ]
+  },
+  {
+   "id": "JP-AGR-005",
+   "group_key": "AGR:VN-EON-NCW",
+   "renewal_of": null,
+   "title_ja": "看護師及び介護福祉士の入国及び一時的な滞在に関する日本国政府とベトナム社会主義共和国政府との間の交換公文",
+   "title_original": "",
+   "doc_category": "exchange_of_notes",
+   "doc_type": "交換公文（書簡の交換による政府間の合意）",
+   "doc_type_note": "",
+   "japan_level": "national",
+   "japan_org": "日本国政府（署名者：玄葉光一郎外務大臣）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "ベトナム社会主義共和国政府（署名者：ヴー・フイ・ホアン商工大臣）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2012-04-18",
+   "announced_date": "",
+   "effective_date": "2012-06-17",
+   "date_note": "",
+   "fields": [
+    "labor",
+    "medical"
+   ],
+   "labor_detail": [
+    "EPA看護師・介護福祉士候補者"
+   ],
+   "purpose": "ベトナム人の看護師・介護福祉士（候補者）の日本への入国と一時的な滞在について、両政府の間で取り決めること。",
+   "summary": [
+    "日越EPA（JVEPA）第79条及び附属書7第1部Bの規定に従った協議を踏まえ、看護師・介護福祉士の入国・一時滞在について取り決めたもの。",
+    "附属書一の要件を満たすベトナム人に、日本の国家試験に合格して看護師・介護福祉士の資格を取ることを目的とする入国・一時滞在を認める：病院・介護施設での研修（日本の調整機関が紹介した機関との雇用契約に基づく）、又は介護福祉士養成施設での養成（課程4年以内）。",
+    "滞在は1年で、看護は2回まで、介護は3回まで1年ずつ更新できる（最長で看護3年・介護4年）。国家試験に合格した後は、雇用契約に基づき3年まで（更新可）の滞在で看護師・介護福祉士として働ける。"
+   ],
+   "content": [
+    "日越EPA（JVEPA）第79条及び附属書7第1部Bの規定に従った協議を踏まえ、看護師・介護福祉士の入国・一時滞在について取り決めたもの。",
+    "附属書一の要件を満たすベトナム人に、日本の国家試験に合格して看護師・介護福祉士の資格を取ることを目的とする入国・一時滞在を認める：病院・介護施設での研修（日本の調整機関が紹介した機関との雇用契約に基づく）、又は介護福祉士養成施設での養成（課程4年以内）。",
+    "滞在は1年で、看護は2回まで、介護は3回まで1年ずつ更新できる（最長で看護3年・介護4年）。国家試験に合格した後は、雇用契約に基づき3年まで（更新可）の滞在で看護師・介護福祉士として働ける。",
+    "要件（附属書一）：看護はベトナムの3年制又は4年制の看護課程修了・ベトナムの看護師資格・2年以上の実務経験、介護は3年制又は4年制の看護課程修了。日本語はJLPTのN1又はN2合格、又はN3合格＋ベトナム政府が管理する日本語研修の修了。",
+    "各政府は年間の最大人数を決定でき（第12項(a)）、自国の社会・労働市場に重大な損害を与えるおそれがある場合は、約束の一時停止を含む決定ができる（第12項(c)）。",
+    "日本人看護師がベトナムで研修・就労する場合の入国・滞在も相互に定めている（第Ⅱ部）。受入れは平成26年度（2014年度）に始まった（第1陣入国は2014年6月）。"
+   ],
+   "validity": "合意は『閣下の返簡の日付の日の後六十日目の日に効力を生じ、いずれか一方の政府による書面による終了の通告の受領の日の後六箇月が経過する時まで効力を有する』（日本側書簡末尾）。返簡2012-04-18→2012-06-17発効（厚労省も平成24年6月17日発効と記載）。第15項：最初の入国の日の5年後に一般的な見直し、その後5年ごと。",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "term_text": "合意は『閣下の返簡の日付の日の後六十日目の日に効力を生じ、いずれか一方の政府による書面による終了の通告の受領の日の後六箇月が経過する時まで効力を有する』（日本側書簡末尾）。返簡2012-04-18→2012-06-17発効（厚労省も平成24年6月17日発効と記載）。第15項：最初の入国の日の5年後に一般的な見直し、その後5年ごと。",
+   "auto_renewal": "no",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "期間の定めのない取極（終了通告から6か月で終了）。厚労省『ベトナム人看護師・介護福祉士候補者の受入れについて』（令和8年3月25日付の特例指針改正通知を掲載）が受入れの根拠として現に案内し、JICWELSが2027年度来日のベトナム人候補者を募集、厚労省が令和7年度入国・2026年の国家試験結果を公表している（根拠C）。終了通告の情報は見つからない。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "binding",
+   "legal_binding_note": "",
+   "legal_nature": "日本側書簡とベトナム側返簡が『両政府間の合意を構成する』交換公文。効力発生と終了通告の規定がある政府間の国際約束（国会承認の有無は確認できず）。",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "EPA-NCW"
+   ],
+   "acceptance_types": [
+    "work",
+    "training",
+    "study"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "看護師候補者の受入れ最大人数",
+     "value": 200,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "毎年度（受入れ当初から）",
+     "definition": "受入れ当初から、インドネシア、フィリピン及びベトナムそれぞれ看護師候補者最大200人、介護福祉士候補者最大300人（JICWELS）",
+     "sources": [
+      "s4",
+      "s5"
+     ],
+     "note": "交換公文第12項(a)は各政府が『年間の最大人数を決定することができる』と定める。200人という数字自体は交換公文には書かれていない。"
+    },
+    {
+     "kind": "legal_cap",
+     "label": "介護福祉士候補者の受入れ最大人数",
+     "value": 300,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "毎年度（受入れ当初から）",
+     "definition": "同上",
+     "sources": [
+      "s4",
+      "s5"
+     ],
+     "note": "日本語研修免除の介護福祉士候補者は枠外（JICWELS）。"
+    },
+    {
+     "kind": "actual_entry",
+     "label": "看護師候補者の入国者数（累計）",
+     "value": 290,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "平成26年度〜令和7年度入国",
+     "definition": "受入れ人数の推移（看護師候補者）表の累計",
+     "sources": [
+      "s4"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "actual_entry",
+     "label": "看護師候補者の入国者数（令和7年度）",
+     "value": 15,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "令和7年度（2025年度）",
+     "definition": "入国年度別の受入れ人数",
+     "sources": [
+      "s4"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "actual_entry",
+     "label": "介護福祉士候補者の入国者数（累計）",
+     "value": 1724,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "平成26年度〜令和7年度入国",
+     "definition": "受入れ人数の推移（介護福祉士候補者）表の累計",
+     "sources": [
+      "s4",
+      "s6"
+     ],
+     "note": "JICWELSも1,724名。"
+    },
+    {
+     "kind": "actual_entry",
+     "label": "介護福祉士候補者の入国者数（令和7年度）",
+     "value": 55,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "令和7年度（2025年度）",
+     "definition": "入国年度別の受入れ人数",
+     "sources": [
+      "s4"
+     ],
+     "note": "平成30年度の193人から減少傾向。"
+    },
+    {
+     "kind": "exam_passed",
+     "label": "看護師国家試験の合格者数（累計・2024年度試験まで）",
+     "value": 224,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "2024年度国家試験まで",
+     "definition": "入国年度別国家試験合格者数の合計（JICWELSが厚労省公表資料から転記）",
+     "sources": [
+      "s5"
+     ],
+     "note": "2025年度の合格者11人を足すと235人（計算値）。"
+    },
+    {
+     "kind": "exam_passed",
+     "label": "看護師国家試験の合格者数（第115回・令和7年度）",
+     "value": 11,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "令和7年度（第115回）",
+     "definition": "受験者46人、合格者11人、合格率23.9%",
+     "sources": [
+      "s7"
+     ],
+     "note": ""
+    },
+    {
+     "kind": "exam_passed",
+     "label": "介護福祉士国家試験の合格者数（累計・第37回まで）",
+     "value": 1116,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "第37回（2024年度）試験まで",
+     "definition": "入国年度別国家試験合格者数の合計（JICWELSが厚労省公表資料から転記）",
+     "sources": [
+      "s5"
+     ],
+     "note": "第38回の合格者103人を足すと1,219人（計算値）。"
+    },
+    {
+     "kind": "exam_passed",
+     "label": "介護福祉士国家試験の合格者数（第38回・令和7年度）",
+     "value": 103,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "第38回（2026年1月実施）",
+     "definition": "受験者133人、合格者103人、合格率77.4%（初受験95人、再受験8人）",
+     "sources": [
+      "s8"
+     ],
+     "note": ""
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "厚生労働省",
+    "JICWELS（国際厚生事業団）"
+   ],
+   "related_ids": [
+    "JP-AGR-004",
+    "JP-AGR-001",
+    "JP-AGR-003"
+   ],
+   "status": "in_progress",
+   "status_note": "看護師候補者は2014〜2025年度に累計290人、介護福祉士候補者は累計1,724人が入国。2025年度の入国は看護15人・介護55人。国家試験の合格者は看護が2024年度試験までに224人＋2025年度11人、介護が第37回までに1,116人＋第38回103人。ベトナム人候補者の合格率は3か国の中で高い（第38回介護77.4%）。",
+   "projects": [
+    {
+     "name": "訪日前日本語研修（12か月）",
+     "fiscal_year": "",
+     "detail": "ベトナムの候補者は訪日前に12か月の日本語研修を受け、日本語能力試験N3以上に合格した者がマッチングに進む。訪日後研修は2か月程度（厚労省概要資料）。",
+     "agency": "厚生労働省・JICWELS等"
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "看護師及び介護福祉士の入国及び一時的な滞在に関する日本国政府とベトナム社会主義共和国政府との間の交換公文（和訳）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/j_asean/vietnam/pdfs/kango_j.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "全文（日本側書簡・附属書一・二・ベトナム側返簡）を確認。滞在期間、要件、第12項（最大人数）、第15項（見直し）、効力発生・終了の規定、署名者と日付。"
+    },
+    {
+     "id": "s2",
+     "title": "日・ベトナム経済連携協定",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/gaiko/fta/j_asean/vietnam/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "交換公文（和訳・英文）の掲載、『書簡の交換（平成24年4月18日）』、第1陣入国（平成26年6月9日）の掲載。"
+    },
+    {
+     "id": "s3",
+     "title": "ベトナム人看護師・介護福祉士候補者の受入れについて",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000049737.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "受入れの根拠として日越EPA（平成21年10月1日発効）と交換公文（平成24年4月18日署名・交換、平成24年6月17日効力発生）を記載。受入れ開始は平成26年度。実施指針（平成24年厚労省告示第507号）、特例指針の一部改正（令和8年3月25日付）。"
+    },
+    {
+     "id": "s4",
+     "title": "経済連携協定（EPA）に基づく外国人看護師・介護福祉士候補者の受入れ概要",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/001739512.pdf",
+     "type": "statistics",
+     "checked": "2026-10-28",
+     "note": "要件、訪日前研修12か月、受入れ最大人数、令和7年度までの入国者数。"
+    },
+    {
+     "id": "s5",
+     "title": "2027年度版 EPAに基づく外国人看護師・介護福祉士候補者受入れパンフレット",
+     "publisher": "JICWELS（国際厚生事業団）",
+     "url": "https://jicwels.or.jp/wp-content/uploads/2026/03/2027%E5%B9%B4%E5%BA%A6%E7%89%88-EPA%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E5%A4%96%E5%9B%BD%E4%BA%BA%E7%9C%8B%E8%AD%B7%E5%B8%AB%E3%83%BB%E4%BB%8B%E8%AD%B7%E7%A6%8F%E7%A5%89%E5%A3%AB%E5%80%99%E8%A3%9C%E8%80%85%E5%8F%97%E5%85%A5%E3%82%8C%E3%83%91%E3%83%B3%E3%83%95%E3%83%AC%E3%83%83%E3%83%88.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "受入れ最大人数（受入れ当初から各国看護200人・介護300人）、入国年度別国家試験合格者数。"
+    },
+    {
+     "id": "s6",
+     "title": "EPA介護福祉士候補者 受入れについて",
+     "publisher": "JICWELS（国際厚生事業団）",
+     "url": "https://jicwels.or.jp/?page_id=62230",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "2027年度来日（インドネシア人、フィリピン人、ベトナム人）の募集。ベトナム人1,724名。"
+    },
+    {
+     "id": "s7",
+     "title": "経済連携協定（EPA）に基づく外国人看護師候補者の看護師国家試験の結果（過去18年間）【別添2】",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/10805000/001678947.pdf",
+     "type": "statistics",
+     "checked": "2026-10-28",
+     "note": "ベトナムの受験者数・合格者数（平成26〜令和7年度）。"
+    },
+    {
+     "id": "s8",
+     "title": "第38回介護福祉士国家試験におけるEPA介護福祉士候補者の試験結果",
+     "publisher": "厚生労働省",
+     "url": "https://www.mhlw.go.jp/content/12004000/001673109.pdf",
+     "type": "statistics",
+     "checked": "2026-10-28",
+     "note": "ベトナムの受験者・合格者・合格率（第34〜38回）。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "分析：交換公文自体には人数の上限は書かれておらず、『年間の最大人数を決定することができる』という権限の規定がある。200人・300人は日本政府が設定した受入れ最大人数（厚労省・JICWELSの資料）。インドネシアの改正議定書による在留期間5年への延長はベトナムには適用されない（JICWELS）。",
+   "unconfirmed": [
+    "交換公文の英文（kango_en.pdf）は開いていない（和訳で確認）",
+    "交換公文について国会承認を経たかどうかは確認できず",
+    "第15項の一般的な見直し（最初の入国から5年後＝2019年ごろ）が実施されたかどうか、その結果は確認できず",
+    "2026年度の入国者数は確認できず"
+   ]
+  },
+  {
+   "id": "JP-AGR-006",
+   "group_key": "AGR:IN-AP-HR-2025",
+   "renewal_of": null,
+   "title_ja": "日印人材交流・協力アクションプラン",
+   "title_original": "Action Plan for Japan-India Human Resource Exchange and Cooperation",
+   "doc_category": "joint_statement",
+   "doc_type": "アクションプラン（首脳会談で採択された政治的文書）",
+   "doc_type_note": "",
+   "japan_level": "national",
+   "japan_org": "日本国政府",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IN",
+   "partner_org": "インド共和国政府",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": "2025-08-29",
+   "announced_date": "",
+   "effective_date": "2025-08-29",
+   "date_note": "",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "技能実習",
+    "育成就労",
+    "留学",
+    "JETプログラム"
+   ],
+   "purpose": "日印間の双方向の人材交流・協力を進めるための目標と取組（行動計画）を示すこと。",
+   "summary": [
+    "目標（英文原文）：『The two countries have set an aspirational target of the exchange of more than 500,000 personnel in both directions in the next five years, including 50,000 skilled personnel and potential talents from India to Japan』。",
+    "仮訳：『両国は、今後５年間で、インドから日本への５万人の熟練した人材及び将来性のある人材を含む双方向の50万人以上の人材交流を目指す目標を掲げ』る。",
+    "外務省の注記：50万人は『日印の架け橋となる人材や経済発展に資する人材等を対象。インドに進出した日本企業による現地雇用、研修、留学を含む。』また『人材の日本への受入れは現行の出入国在留管理制度やその他の外国人受入制度の下で実施。』"
+   ],
+   "content": [
+    "目標（英文原文）：『The two countries have set an aspirational target of the exchange of more than 500,000 personnel in both directions in the next five years, including 50,000 skilled personnel and potential talents from India to Japan』。",
+    "仮訳：『両国は、今後５年間で、インドから日本への５万人の熟練した人材及び将来性のある人材を含む双方向の50万人以上の人材交流を目指す目標を掲げ』る。",
+    "外務省の注記：50万人は『日印の架け橋となる人材や経済発展に資する人材等を対象。インドに進出した日本企業による現地雇用、研修、留学を含む。』また『人材の日本への受入れは現行の出入国在留管理制度やその他の外国人受入制度の下で実施。』",
+    "取組の柱：(1)高度人材（日本企業の特別ミッション、雇用状況調査、JETプログラムでのインド人英語指導助手）、(2)学生と研究者（日印高級実務者政策対話、大学の世界展開力強化事業、さくらサイエンス、国費留学生、MIRAI-Setu、LOTUSプログラム）、(3)特定技能・技能実習（特定技能全16分野のインドでの試験実施に努める、試験センター新設、インドのe-Migrateに日本を追加、今後導入される育成就労）、(4)スキル開発（INPACT、India-Japan Talent Bridge等）、(5)日本語教育（日本語パートナーズ、JLPT・JFT-Basic会場拡充）、(6)意識向上・支援・調整。",
+    "実施体制：日本外務省とインド外務省が取りまとめを担当し、年次の局長級協議を開催する（(7)）。"
+   ],
+   "validity": "『今後5年間』の目標（英文『in the next five years』）。終了日の明記はない。(6)で『今後５年間を超えて』交流の自立的な持続を目指すとも記載。",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "term_text": "『今後5年間』の目標（英文『in the next five years』）。終了日の明記はない。(6)で『今後５年間を超えて』交流の自立的な持続を目指すとも記載。",
+   "auto_renewal": "not_stated",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "原文が「今後5年間」の目標を示しており、2025年8月29日の採択から5年の期間内にある。外務省の「日印人材交流イニシアティブ」ページが現在の取組として掲載し、終了・撤回の情報は見つからない（根拠A・C）。法的な効力を持つ取決めではなく、政治的な目標・行動計画です。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "not_stated",
+   "legal_binding_note": "",
+   "legal_nature": "2025年の日印年次首脳会談で日印が共同で策定・発表したアクションプラン（政治的文書）。日印首脳共同声明が『両首脳は、以下の文書を採択した』として挙げる文書の一つ。目標は『aspirational target』（仮訳『目指す目標』）と表現され、受入れ義務や人数枠を定めるものではない。",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "SSW",
+    "TITP",
+    "ESD",
+    "留学",
+    "JETプログラム"
+   ],
+   "acceptance_types": [
+    "work",
+    "training",
+    "study",
+    "short_term",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "two_way_exchange",
+     "label": "日印双方向の人材交流の目標",
+     "value": 500000,
+     "unit": "人（以上）",
+     "direction": "two_way",
+     "period": "今後5年間（2025年8月の採択から）",
+     "definition": "英文：『exchange of more than 500,000 personnel in both directions in the next five years』。仮訳：『双方向の50万人以上の人材交流』。外務省ページ：『日印双方向で5年間で50万人以上（注）の人材交流を目指す』（注）『日印の架け橋となる人材や経済発展に資する人材等を対象。インドに進出した日本企業による現地雇用、研修、留学を含む。』",
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "note": "日本人がインドへ行く人数、インド国内での日本企業による現地雇用も含む数字。インドから日本に来る人数でも、移住・定住する人数でもない。政治的な目標で、受入れ義務や上限ではない。"
+    },
+    {
+     "kind": "target",
+     "label": "インドから日本への熟練した人材及び将来性のある人材の目標",
+     "value": 50000,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "今後5年間",
+     "definition": "英文：『including 50,000 skilled personnel and potential talents from India to Japan』『increase the number of skilled personnel and potential talents from India to Japan by 50,000 over the next five years』。仮訳：『今後５年間でインドから日本への熟練した人材及び将来性のある人材の数を５万人に増加することを目的とした取組を促進する』。外務省ページは『インドから日本への専門人材5万人』と表記。",
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     "note": "50万人の内数。原文は内訳（在留資格別など）を示していない。アクションプランの取組には高度人材・学生・研究者・特定技能・技能実習・インターン等が並ぶため、就労者だけでなく留学生・研究者等も含みうる（分析）。受入れは現行の出入国在留管理制度の下で行う（外務省注記）。永住・定住の人数ではない。なお英文の『by 50,000』と仮訳の『５万人に増加』は表現が異なる（英文は『5万人増やす』とも読める）。"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "インド外務省",
+    "文部科学省",
+    "経済産業省",
+    "科学技術振興機構（JST）",
+    "国際交流基金"
+   ],
+   "related_ids": [],
+   "status": "in_progress",
+   "status_note": "5万人・50万人の目標に対する公式の進捗集計は確認できなかった。2026年7月2日の日印首脳共同声明は『両国間の訪問者が２０２５年に５４万人に達したことを歓迎』しているが、これは観光等を含む両国間の訪問者数で、本アクションプランの目標の実績として示されたものではない。",
+   "projects": [
+    {
+     "name": "MIRAI-Setuプログラム",
+     "fiscal_year": "2025",
+     "detail": "インドの大学生・大学院生を招へいし、日本企業訪問や1か月間のインターンを行う外務省の新規事業（アクションプラン(2)e）。",
+     "agency": "外務省"
+    },
+    {
+     "name": "LOTUSプログラム（インド若手科学頭脳循環プログラム）",
+     "fiscal_year": "",
+     "detail": "インドの若手研究者（大学院生を含む）の来日と日印共同研究の促進。経産省が企業とのマッチングで支援（(2)g）。2026年7月の首脳訪問の成果文書では『約1000件のトップレベルの日印共同研究の促進』。",
+     "agency": "文部科学省・JST・経済産業省"
+    },
+    {
+     "name": "特定技能試験のインドでの実施拡大・e-Migrateへの日本の追加",
+     "fiscal_year": "",
+     "detail": "特定技能全16分野の試験実施に努める、北部・東部・南部・西部・北東部に試験センター新設、インドのe-Migrateポータルの対象国に日本を追加（(3)a,b,d）。",
+     "agency": "日本政府・インド外務省等"
+    },
+    {
+     "name": "INPACT・India-Japan Talent Bridge（IJTB）",
+     "fiscal_year": "",
+     "detail": "日本企業のインドでの寄附講座・職業訓練・本邦研修への補助、インターンシップ・就職マッチング（(4)a,b）。",
+     "agency": "経済産業省等"
+    },
+    {
+     "name": "日本語パートナーズ（長期）のインド派遣開始",
+     "fiscal_year": "",
+     "detail": "日本人を中等教育の学校に派遣（(5)d）。",
+     "agency": "国際交流基金"
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "public",
+   "evidence_level": "original_text",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Action Plan for Japan-India Human Resource Exchange and Cooperation（英語）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/files/100897300.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "英文原文の全文を確認（目標の文言、(1)〜(7)の取組、実施体制）。"
+    },
+    {
+     "id": "s2",
+     "title": "日印人材交流・協力アクションプラン（仮訳）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/files/100897294.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "仮訳の全文を確認。"
+    },
+    {
+     "id": "s3",
+     "title": "日印人材交流イニシアティブ",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/s_sa/sw/in/pagew_000001_01912.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "令和7年9月5日付。50万人の定義の注記（現地雇用・研修・留学を含む）、受入れは現行制度の下で実施との注記、アクションプランに言及のある取組の一覧。"
+    },
+    {
+     "id": "s4",
+     "title": "日印人材交流イニシアティブ（概要）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/files/100900453.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "令和7年8月付。背景（2030年に最大79万人の高度/先端IT人材が不足、インドの工学系卒業生約150万人/年）と同じ注記。"
+    },
+    {
+     "id": "s5",
+     "title": "モディ・インド首相の訪日（令和7年8月29日～30日）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_02360.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "訪日中の成果文書として『日印人材交流・協力アクションプラン（仮訳／英語）』を掲載。"
+    },
+    {
+     "id": "s6",
+     "title": "日印首脳共同声明「次世代の安全と繁栄のためのパートナーシップ」（仮訳）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/files/100897280.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "『両首脳は、以下の文書を採択した』(iii)『５年間で５０万人以上の人材（うち５万人はインドから日本への熟練した人材及び将来性のある人材）の交流を通じて、人材のモビリティと人的交流の深化を図るロードマップを定めた「日印人材交流アクションプラン」』。"
+    },
+    {
+     "id": "s7",
+     "title": "今後10年に向けた日印共同ビジョン（仮訳）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/files/100899550.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "(VII)次世代人的交流パートナーシップ：『今後５年間におけるインドから日本への熟練した人材及び将来性のある人材５万人の移動を含む、日印間の５０万人の双方向の人材交流を目標とする「日印人材交流アクションプラン」を策定する』。"
+    },
+    {
+     "id": "s8",
+     "title": "高市総理大臣のインド訪問（令和8年7月1日～3日）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/s_sa/sw/in/pageit_000001_00008.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "2026年の成果文書一覧。人材交流アクションプランの進捗を示す文書は見当たらない。"
+    },
+    {
+     "id": "s9",
+     "title": "日印首脳共同声明（2026年7月2日、仮訳）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/files/101054199.pdf",
+     "type": "original_text",
+     "checked": "2026-10-28",
+     "note": "第17項『両国間の訪問者が２０２５年に５４万人に達したことを歓迎し、双方向の観光を促進する』。50万人・5万人の進捗への言及は見当たらない。"
+    },
+    {
+     "id": "s10",
+     "title": "高市総理の訪印（意義と成果）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/files/101054228.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "人的交流の成果としてLOTUSプログラムを通じた約1000件の日印共同研究の促進等。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "分析：『50万人』は日印の双方向の交流人数で、日本人がインドへ行く人数や、インドに進出した日本企業による現地雇用・研修・留学も含む（外務省注記）。インドから日本へ来る人数の目標は、そのうちの『5万人』。5万人も就労・定住の人数枠ではなく、留学・研究・インターン等を含みうる『熟練した人材及び将来性のある人材』の目標で、受入れは既存の在留資格制度の下で行う。どちらの数字も『移民』『定住』の人数ではない。2026年7月の共同声明にある『54万人』（2025年の両国間の訪問者数）は別の数字なので混同しないこと。",
+   "unconfirmed": [
+    "5万人・50万人の目標に対する公式の進捗（実績）は確認できず",
+    "(7)に定める年次の局長級協議が開催されたかどうかは確認できず",
+    "50万人の内訳（日本→インド、インド→日本、現地雇用などの区分ごとの人数）は原文・外務省資料に示されておらず確認できず"
+   ]
+  },
+  {
+   "id": "JP-WH-AU",
+   "group_key": "AGR:WH-AU",
+   "renewal_of": null,
+   "title_ja": "日本・オーストラリアのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "AU",
+   "partner_org": "オーストラリア（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "1980",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠なし（外務省一覧で『無』）。日本のワーキング・ホリデー制度の最初の相手国（昭和55年）。年齢要件は原則18〜25歳（当局が認める場合30歳以下）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "発給枠なし（外務省の一覧で「無」）",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠なし（外務省一覧で『無』）。日本のワーキング・ホリデー制度の最初の相手国（昭和55年）。年齢要件は原則18〜25歳（当局が認める場合30歳以下）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-NZ",
+   "group_key": "AGR:WH-NZ",
+   "renewal_of": null,
+   "title_ja": "日本・ニュージーランドのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "NZ",
+   "partner_org": "ニュージーランド（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "1985",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠なし。2024年12月1日から、ニュージーランド国籍の人は日本で一生涯2回参加可能。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "発給枠なし（外務省の一覧で「無」）",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠なし。2024年12月1日から、ニュージーランド国籍の人は日本で一生涯2回参加可能。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-CA",
+   "group_key": "AGR:WH-CA",
+   "renewal_of": null,
+   "title_ja": "日本・カナダのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CA",
+   "partner_org": "カナダ（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "1986",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠6,283。2024年12月1日から、カナダ国籍の人は日本で一生涯2回若しくは2年連続の参加が可能。年齢要件は原則18〜25歳（当局が認める場合30歳以下）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 6283,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "6,283人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠6,283。2024年12月1日から、カナダ国籍の人は日本で一生涯2回若しくは2年連続の参加が可能。年齢要件は原則18〜25歳（当局が認める場合30歳以下）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-KR",
+   "group_key": "AGR:WH-KR",
+   "renewal_of": null,
+   "title_ja": "日本・韓国のワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "KR",
+   "partner_org": "韓国（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "1999",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠10,000。2025年10月1日から、韓国国籍の人は日本で一生涯2回参加可能。年齢要件は原則18〜25歳（当局が認める場合30歳以下）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 10000,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "10,000人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠10,000。2025年10月1日から、韓国国籍の人は日本で一生涯2回参加可能。年齢要件は原則18〜25歳（当局が認める場合30歳以下）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-FR",
+   "group_key": "AGR:WH-FR",
+   "renewal_of": null,
+   "title_ja": "日本・フランスのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "FR",
+   "partner_org": "フランス（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2000",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠1,800。英語版一覧の注記：1999年12月に暫定的に開始（Provisionally initiated in December 1999）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 1800,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "1,800人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "フランスとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/j_info/visit/w_holiday/index.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠1,800。英語版一覧の注記：1999年12月に暫定的に開始（Provisionally initiated in December 1999）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-DE",
+   "group_key": "AGR:WH-DE",
+   "renewal_of": null,
+   "title_ja": "日本・ドイツのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "DE",
+   "partner_org": "ドイツ（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2000",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠なし。2025年1月1日から、ドイツ国籍の人は日本で一生涯2回参加可能。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "発給枠なし（外務省の一覧で「無」）",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠なし。2025年1月1日から、ドイツ国籍の人は日本で一生涯2回参加可能。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-GB",
+   "group_key": "AGR:WH-GB",
+   "renewal_of": null,
+   "title_ja": "日本・英国のワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "GB",
+   "partner_org": "英国（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2001",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠6,000。2024年12月1日から、英国国籍の人は日本で一生涯2回若しくは2年連続の参加が可能。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 6000,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "6,000人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠6,000。2024年12月1日から、英国国籍の人は日本で一生涯2回若しくは2年連続の参加が可能。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-IE",
+   "group_key": "AGR:WH-IE",
+   "renewal_of": null,
+   "title_ja": "日本・アイルランドのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IE",
+   "partner_org": "アイルランド（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2007",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠800（2019年12月26日の口上書交換で、2020年から年間400名→800名に拡大）。2025年1月1日から一生涯2回参加可能。年齢要件は原則18〜25歳（当局が認める場合30歳以下）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 800,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "800人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "アイルランドとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/press4_008202.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠800（2019年12月26日の口上書交換で、2020年から年間400名→800名に拡大）。2025年1月1日から一生涯2回参加可能。年齢要件は原則18〜25歳（当局が認める場合30歳以下）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-DK",
+   "group_key": "AGR:WH-DK",
+   "renewal_of": null,
+   "title_ja": "日本・デンマークのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "DK",
+   "partner_org": "デンマーク（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2007",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠なし。2024年12月1日から一生涯2回参加可能。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "発給枠なし（外務省の一覧で「無」）",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠なし。2024年12月1日から一生涯2回参加可能。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-TW",
+   "group_key": "AGR:WH-TW",
+   "renewal_of": null,
+   "title_ja": "日本・台湾のワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "TW",
+   "partner_org": "台湾（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2009",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠10,000。2026年2月1日から、台湾出身の人は日本で一生涯2回参加可能。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 10000,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "10,000人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠10,000。2026年2月1日から、台湾出身の人は日本で一生涯2回参加可能。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-HK",
+   "group_key": "AGR:WH-HK",
+   "renewal_of": null,
+   "title_ja": "日本・香港のワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "HK",
+   "partner_org": "香港（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2010",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠1,500。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 1500,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "1,500人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠1,500。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-NO",
+   "group_key": "AGR:WH-NO",
+   "renewal_of": null,
+   "title_ja": "日本・ノルウェーのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "NO",
+   "partner_org": "ノルウェー（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2013",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠なし。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "発給枠なし（外務省の一覧で「無」）",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠なし。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-PT",
+   "group_key": "AGR:WH-PT",
+   "renewal_of": null,
+   "title_ja": "日本・ポルトガルのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PT",
+   "partner_org": "ポルトガル（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2015",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠なし。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "発給枠なし（外務省の一覧で「無」）",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠なし。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-PL",
+   "group_key": "AGR:WH-PL",
+   "renewal_of": null,
+   "title_ja": "日本・ポーランドのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（協定）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "PL",
+   "partner_org": "ポーランド（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2015",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠500。『日・ポーランド・ワーキング・ホリデー協定』（2015年2月署名の報道発表、国内手続完了の通報後30日目に発効）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（協定）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 500,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "500人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "ポーランドとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/press4_001839.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠500。『日・ポーランド・ワーキング・ホリデー協定』（2015年2月署名の報道発表、国内手続完了の通報後30日目に発効）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-SK",
+   "group_key": "AGR:WH-SK",
+   "renewal_of": null,
+   "title_ja": "日本・スロバキアのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（口上書の交換）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "SK",
+   "partner_org": "スロバキア（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2016-06",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠400。2016年2月24日の口上書交換の報道発表で『6月1日から導入される予定』。2025年1月1日から一生涯2回参加可能。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（口上書の交換）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 400,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "400人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "スロバキアとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/press4_003003.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠400。2016年2月24日の口上書交換の報道発表で『6月1日から導入される予定』。2025年1月1日から一生涯2回参加可能。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-AT",
+   "group_key": "AGR:WH-AT",
+   "renewal_of": null,
+   "title_ja": "日本・オーストリアのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（口上書の交換）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "AT",
+   "partner_org": "オーストリア（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2016-07",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠200。2016年4月14日の口上書交換の報道発表で『7月1日から導入される予定』。2024年12月1日から一生涯2回参加可能。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（口上書の交換）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 200,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "200人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "オーストリアとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/press4_003213.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠200。2016年4月14日の口上書交換の報道発表で『7月1日から導入される予定』。2024年12月1日から一生涯2回参加可能。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-HU",
+   "group_key": "AGR:WH-HU",
+   "renewal_of": null,
+   "title_ja": "日本・ハンガリーのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "HU",
+   "partner_org": "ハンガリー（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2017",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠200。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 200,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "200人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠200。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-ES",
+   "group_key": "AGR:WH-ES",
+   "renewal_of": null,
+   "title_ja": "日本・スペインのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（協定）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "ES",
+   "partner_org": "スペイン（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2017",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠700。『日・スペイン・ワーキング・ホリデー協定』（平成29年4月5日付の署名の報道発表、国内手続完了の通報後30日目に発効）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（協定）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 700,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "700人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "スペインとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/press4_004479.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠700。『日・スペイン・ワーキング・ホリデー協定』（平成29年4月5日付の署名の報道発表、国内手続完了の通報後30日目に発効）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-AR",
+   "group_key": "AGR:WH-AR",
+   "renewal_of": null,
+   "title_ja": "日本・アルゼンチンのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "AR",
+   "partner_org": "アルゼンチン（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2017",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠は方向で異なる：日本からアルゼンチンへ200、アルゼンチンから日本へ400（annual_capは日本への受入れ側の数字）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 400,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "400人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠は方向で異なる：日本からアルゼンチンへ200、アルゼンチンから日本へ400（annual_capは日本への受入れ側の数字）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-CL",
+   "group_key": "AGR:WH-CL",
+   "renewal_of": null,
+   "title_ja": "日本・チリのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CL",
+   "partner_org": "チリ（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2018",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠200。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 200,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "200人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠200。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-IS",
+   "group_key": "AGR:WH-IS",
+   "renewal_of": null,
+   "title_ja": "日本・アイスランドのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IS",
+   "partner_org": "アイスランド（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2018",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠30。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 30,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "30人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠30。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-CZ",
+   "group_key": "AGR:WH-CZ",
+   "renewal_of": null,
+   "title_ja": "日本・チェコのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "CZ",
+   "partner_org": "チェコ（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2018",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠400。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 400,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "400人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠400。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-LT",
+   "group_key": "AGR:WH-LT",
+   "renewal_of": null,
+   "title_ja": "日本・リトアニアのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LT",
+   "partner_org": "リトアニア（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2019",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠100。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 100,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "100人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠100。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-SE",
+   "group_key": "AGR:WH-SE",
+   "renewal_of": null,
+   "title_ja": "日本・スウェーデンのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（協定）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "SE",
+   "partner_org": "スウェーデン（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2020",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠なし。『日・スウェーデン・ワーキング・ホリデー協定』（署名の報道発表、国内手続完了の通報後30日目に発効）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（協定）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "発給枠なし（外務省の一覧で「無」）",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "スウェーデンとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/press4_007741.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠なし。『日・スウェーデン・ワーキング・ホリデー協定』（署名の報道発表、国内手続完了の通報後30日目に発効）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-EE",
+   "group_key": "AGR:WH-EE",
+   "renewal_of": null,
+   "title_ja": "日本・エストニアのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（口上書の交換）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "EE",
+   "partner_org": "エストニア（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2020-03",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠は方向で異なる：日本からエストニアへは枠なし、エストニアから日本へ100（annual_capは日本への受入れ側）。2019年11月12日の口上書交換の報道発表で『令和2年3月11日から導入される予定』。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（口上書の交換）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 100,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "100人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "エストニアとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/press4_008002.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠は方向で異なる：日本からエストニアへは枠なし、エストニアから日本へ100（annual_capは日本への受入れ側）。2019年11月12日の口上書交換の報道発表で『令和2年3月11日から導入される予定』。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-NL",
+   "group_key": "AGR:WH-NL",
+   "renewal_of": null,
+   "title_ja": "日本・オランダのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（口上書の交換）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "NL",
+   "partner_org": "オランダ（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2020-04",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠200。2019年12月12日の口上書交換の報道発表で『令和2年4月1日から導入される予定』。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（口上書の交換）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 200,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "200人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "オランダとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/press4_008156.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠200。2019年12月12日の口上書交換の報道発表で『令和2年4月1日から導入される予定』。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-UY",
+   "group_key": "AGR:WH-UY",
+   "renewal_of": null,
+   "title_ja": "日本・ウルグアイのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "UY",
+   "partner_org": "ウルグアイ（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2023",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠100。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 100,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "100人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠100。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-FI",
+   "group_key": "AGR:WH-FI",
+   "renewal_of": null,
+   "title_ja": "日本・フィンランドのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "FI",
+   "partner_org": "フィンランド（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2023",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠は方向で異なる：日本からフィンランドへは枠なし、フィンランドから日本へ200（annual_capは日本への受入れ側）。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 200,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "200人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠は方向で異なる：日本からフィンランドへは枠なし、フィンランドから日本へ200（annual_capは日本への受入れ側）。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-LV",
+   "group_key": "AGR:WH-LV",
+   "renewal_of": null,
+   "title_ja": "日本・ラトビアのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LV",
+   "partner_org": "ラトビア（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2023",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠100。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 100,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "100人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠100。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-LU",
+   "group_key": "AGR:WH-LU",
+   "renewal_of": null,
+   "title_ja": "日本・ルクセンブルクのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（口上書の交換）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LU",
+   "partner_org": "ルクセンブルク（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2024-06",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠100。2024年1月26日の口上書交換の報道発表で『令和6年6月3日から導入される予定』。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（口上書の交換）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 100,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "100人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "ルクセンブルクとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/pressit_000001_00263.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠100。2024年1月26日の口上書交換の報道発表で『令和6年6月3日から導入される予定』。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-MT",
+   "group_key": "AGR:WH-MT",
+   "renewal_of": null,
+   "title_ja": "日本・マルタのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（口上書の交換）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "MT",
+   "partner_org": "マルタ（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2026-01",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠100。2025年7月16日の口上書交換の報道発表で『令和8年1月1日から導入される予定』。外務省一覧（令和8年4月1日現在）に制度開始年2026として掲載＝開始済み。2026年の新規開始国。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（口上書の交換）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 100,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "100人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "マルタとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/press/release/pressit_000001_02418.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠100。2025年7月16日の口上書交換の報道発表で『令和8年1月1日から導入される予定』。外務省一覧（令和8年4月1日現在）に制度開始年2026として掲載＝開始済み。2026年の新規開始国。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-IT",
+   "group_key": "AGR:WH-IT",
+   "renewal_of": null,
+   "title_ja": "日本・イタリアのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（協定）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "IT",
+   "partner_org": "イタリア（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": "2026",
+   "date_note": "外務省の一覧に記載の制度開始の時期。取決めの署名日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "年間発給枠500。『ワーキング・ホリデー制度に関する日本国政府とイタリア共和国政府との間の協定』を2022年5月2日にローマで署名（双方の国内手続完了の通告の後30日目に発効）。外務省一覧（令和8年4月1日現在）に制度開始年2026として掲載＝開始済み。効力発生の月日は公式資料で確認できず。2026年の新規開始国。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "外務省「ワーキング・ホリデー制度」のページが、現在の対象国・地域（令和8年4月1日現在）として掲載している（根拠C）。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（協定）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [
+    {
+     "kind": "legal_cap",
+     "label": "日本が発給するワーキング・ホリデー査証の年間発給枠",
+     "value": 500,
+     "unit": "人/年",
+     "direction": "to_japan",
+     "period": "年間",
+     "definition": "外務省の一覧の「年間発給枠」",
+     "sources": [
+      "s1"
+     ],
+     "note": "上限であり、実際に来日した人数ではない"
+    }
+   ],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "500人/年",
+   "status": "in_progress",
+   "status_note": "制度として実施中（外務省）。年間の査証発給の実績は未確認。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "イタリアとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/erp/we/it/page4_005592.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "年間発給枠500。『ワーキング・ホリデー制度に関する日本国政府とイタリア共和国政府との間の協定』を2022年5月2日にローマで署名（双方の国内手続完了の通告の後30日目に発効）。外務省一覧（令和8年4月1日現在）に制度開始年2026として掲載＝開始済み。効力発生の月日は公式資料で確認できず。2026年の新規開始国。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-HR",
+   "group_key": "AGR:WH-HR",
+   "renewal_of": null,
+   "title_ja": "日本・クロアチアのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国間の取決め（協定（実質合意））",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "HR",
+   "partner_org": "クロアチア（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": null,
+   "date_note": "外務省の資料で実質合意・交渉開始などを確認。署名・開始日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "2025年9月19日の日・クロアチア首脳会談で『両国間のワーキング・ホリデー協定に実質合意』（外務省）。署名・開始日は公式資料で確認できず。外務省一覧（令和8年4月1日現在）には未掲載。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "planned",
+   "validity_basis": "外務省の資料で実質合意・交渉の状況は確認できたが、署名・開始は確認できない。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（協定（実質合意））",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "未確認",
+   "status": "planned",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "クロアチアとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/erp/erp_2/hr/pageit_000001_02434.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "2025年9月19日の日・クロアチア首脳会談で『両国間のワーキング・ホリデー協定に実質合意』（外務省）。署名・開始日は公式資料で確認できず。外務省一覧（令和8年4月1日現在）には未掲載。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  },
+  {
+   "id": "JP-WH-BR",
+   "group_key": "AGR:WH-BR",
+   "renewal_of": null,
+   "title_ja": "日本・ブラジルのワーキング・ホリデー制度の取決め",
+   "title_original": "",
+   "doc_category": "bilateral_arrangement",
+   "doc_type": "二国・地域間の取決め等（形式は未確認）",
+   "doc_type_note": "正式名称は未確認（外務省の一覧にもとづく名称）",
+   "japan_level": "national",
+   "japan_org": "日本国政府（外務省）",
+   "pref_code": null,
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "BR",
+   "partner_org": "ブラジル（相手側の機関名は未確認）",
+   "partner_org_en": "",
+   "partner_type": "national_gov",
+   "additional_partners": [],
+   "signed_date": null,
+   "announced_date": "",
+   "effective_date": null,
+   "date_note": "外務省の資料で実質合意・交渉開始などを確認。署名・開始日は未確認。",
+   "fields": [
+    "tourism"
+   ],
+   "labor_detail": [
+    "ワーキング・ホリデー"
+   ],
+   "purpose": "相手国・地域の青少年に、休暇を目的とした入国と、旅行・滞在資金を補うための付随的な就労を認めること（日本の青少年も相手国・地域で同様に参加できる）。",
+   "summary": [],
+   "content": [
+    "日ブラジル・アクションプラン2025-2030（令和7年3月26日）に『ワーキング・ホリデー制度の交渉開始』。合意・署名・開始日は公式資料で確認できず（民間の旅行サイトに2026年12月開始との記載があるが未確認）。外務省一覧（令和8年4月1日現在）には未掲載。"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "validity_state": "planned",
+   "validity_basis": "外務省の資料で実質合意・交渉の状況は確認できたが、署名・開始は確認できない。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "legal_nature": "二国・地域間の取決め等（形式は未確認）",
+   "foreign_relation": "direct",
+   "related_systems": [
+    "WH"
+   ],
+   "acceptance_types": [
+    "short_term",
+    "work",
+    "two_way"
+   ],
+   "numbers": [],
+   "agencies": [
+    "外務省",
+    "出入国在留管理庁"
+   ],
+   "related_ids": [],
+   "wh_cap_text": "未確認",
+   "status": "planned",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ワーキング・ホリデー制度（対象国・地域の一覧と年間発給枠）",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/toko/visa/working_h.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "対象国・地域、制度開始年、年間発給枠を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "ブラジルとのワーキング・ホリデー制度に関する外務省の発表・資料",
+     "publisher": "外務省",
+     "url": "https://www.mofa.go.jp/mofaj/files/100821073.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "取決めの形式・開始時期などを確認。"
+    }
+   ],
+   "survey_stage": 3,
+   "last_checked": "2026-10-28",
+   "notes": "日ブラジル・アクションプラン2025-2030（令和7年3月26日）に『ワーキング・ホリデー制度の交渉開始』。合意・署名・開始日は公式資料で確認できず（民間の旅行サイトに2026年12月開始との記載があるが未確認）。外務省一覧（令和8年4月1日現在）には未掲載。",
+   "unconfirmed": [
+    "取決めの署名日・正式名称",
+    "年間の査証発給の実績（実際に来日した人数）"
+   ]
+  }
+ ]
+}

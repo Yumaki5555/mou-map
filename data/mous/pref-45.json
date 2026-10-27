@@ -114,7 +114,15 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "正式名称・署名者・署名日は未確認。"
+   "notes": "正式名称・署名者・署名日は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県資料で2022-10の連携合意の存在は確認できるが、書式・有効期間が分かる原文がなく、現在の効力を示す資料も見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "合意の正式名称・署名日は未確認のまま。"
   },
   {
    "id": "JP-45-002",
@@ -252,7 +260,16 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "相手方は大学内に設置された送出機関（有限責任会社）であり、政府機関ではない。県資料では相手方署名者を『ヴ・ゴック・フエン 取締役会長（ベトナム国立農業大学副学長）』と記載。"
+   "notes": "相手方は大学内に設置された送出機関（有限責任会社）であり、政府機関ではない。県資料では相手方署名者を『ヴ・ゴック・フエン 取締役会長（ベトナム国立農業大学副学長）』と記載。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の議会資料（2025-11）で覚書の締結は確認できるが、有効期間・更新の記載がなく、取組の報告だけでは有効確認にならない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書本文は未公開。署名日（2024-12-13）は締結式の予告資料による。"
   },
   {
    "id": "JP-45-003",
@@ -307,7 +324,15 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "宮崎県の2023年知事ベトナム訪問関係の県PDFは検索で見つかったが現在404で本文未確認。分野は人材関係の可能性があるが未確認のため other とした。要追加確認。"
+   "notes": "宮崎県の2023年知事ベトナム訪問関係の県PDFは検索で見つかったが現在404で本文未確認。分野は人材関係の可能性があるが未確認のため other とした。要追加確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "JETROの記事（2024）に『連携合意締結済み』とあるのみで、日本側の公式資料・原文が見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "県の公式文書は見つからず。"
   }
  ]
 }

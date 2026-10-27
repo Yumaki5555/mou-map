@@ -51,11 +51,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成元年度から10年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181628_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態（継続中／完結／期間終了等）を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。相手方はハワイ州（米国）とホーダラン県（ノルウェー）の2者。country_codeは便宜上US。"
+   "notes": "第2段階（他分野）。相手方はハワイ州（米国）とホーダラン県（ノルウェー）の2者。country_codeは便宜上US。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成元年度から10年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H1-10）No.16で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-002",
@@ -106,11 +133,50 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成11年度から20年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181644_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
+    },
+    {
+     "id": "v3",
+     "title": "令和7年度高知県の国際交流 Ⅳ-1-3 全羅南道",
+     "publisher": "高知県 文化生活部",
+     "url": "https://www.pref.kochi.lg.jp/doc/2026030500370/file_contents/file_20263312165446_9.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。掲載ページ https://www.pref.kochi.lg.jp/doc/2026030500370/ （2026-04-01公開）。2003年・2009年・2016年の協定書本文を掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。全羅南道とは2016年に姉妹交流協定を締結（姉妹協定は対象外）。"
+   "notes": "第2段階（他分野）。全羅南道とは2016年に姉妹交流協定を締結（姉妹協定は対象外）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成11年度から20年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。協定書本文（令和7年度国際交流資料）に『署名の日をもって効力を生ずる』とあり期間の定めはない。",
+   "effective_date": "2003-05-30",
+   "term_text": "署名の日をもって効力を生ずる（期間・終了の定めの記載なし）",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2",
+    "v3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H11-20）No.62で状態『継続中』。 整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。 同じ県資料で産業交流協定（2009）は『完結（2016-10-31の姉妹交流協定に移行）』とされているのに対し、本協定は『継続中』のまま。2016年の包括的な姉妹交流協定が観光・文化分野を包含しているため、実態は要注意。"
   },
   {
    "id": "JP-39-003",
@@ -170,11 +236,43 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "令和7年度高知県の国際交流 Ⅳ-1-3 全羅南道",
+     "publisher": "高知県 文化生活部",
+     "url": "https://www.pref.kochi.lg.jp/doc/2026030500370/file_contents/file_20263312165446_9.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。掲載ページ https://www.pref.kochi.lg.jp/doc/2026030500370/ （2026-04-01公開）。2003年・2009年・2016年の協定書本文を掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県の念書・覚書等整理表（廃止等により効力を失ったもの）に『完結』『姉妹交流協定に移行(H28.10.31締結)』と記載されている。",
+   "effective_date": "2009-10-30",
+   "term_text": "署名の日をもって効力を生ずる（期間の定めの記載なし）",
+   "auto_renewal": "not_stated",
+   "ended_date": "2016-10-31",
+   "end_reason": "県の整理表で『完結』。『高知県と全羅南道の友好協定に移行(H28.10.31締結)』と記載（2016年10月31日の姉妹交流協定に引き継ぎ）",
+   "validity_sources": [
+    "s9",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（廃止等により効力を失ったもの）No.1114。後継の姉妹交流協定（2016-10-31）は姉妹協定のため本データの対象外。"
   },
   {
    "id": "JP-39-004",
@@ -225,11 +323,51 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "令和7年度高知県の国際交流 Ⅳ-1-4 オランダ・ウェストラント市",
+     "publisher": "高知県 文化生活部",
+     "url": "https://www.pref.kochi.lg.jp/doc/2026030500370/file_contents/file_20263312165446_10.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2009年協定書、2023年農大覚書、2025年9月3日の覚書の本文と交流経過を掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
+    },
+    {
+     "id": "v3",
+     "title": "念書・覚書等整理表（廃止等により効力を失ったものなど）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181718_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。効力を失ったものの一覧。備考欄に完結・期間終了・廃止等とその日付を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "協定書本文は署名日から効力のみで期間の定めがなく、県の念書・覚書等整理表（継続中・廃止等のいずれの区分）にも載っておらず、現在の効力を明示した資料が見つからない。",
+   "effective_date": "2009-11-18",
+   "term_text": "署名の日をもって効力を生ずる（期間・終了の定めの記載なし）",
+   "auto_renewal": "not_stated",
+   "validity_sources": [
+    "s2",
+    "v1",
+    "v2",
+    "v3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30、R1-6、廃止等）を検索したがウェストラント市の協定・覚書は未掲載。県の令和7年度国際交流資料（2026-04公開）は2009年協定書・2010年・2016年・2025-09-03の覚書を並べて掲載するが、現在も有効とは明示していない。"
   },
   {
    "id": "JP-39-005",
@@ -280,11 +418,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.238で状態『継続中（国際観光課で保管）』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-006",
@@ -335,11 +500,30 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "令和7年度高知県の国際交流 Ⅳ-1-4 オランダ・ウェストラント市",
+     "publisher": "高知県 文化生活部",
+     "url": "https://www.pref.kochi.lg.jp/doc/2026030500370/file_contents/file_20263312165446_10.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2009年協定書、2023年農大覚書、2025年9月3日の覚書の本文と交流経過を掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。一覧の同じ行付近に『2016.5.20(H28.5.20)』の日付も記載されており、どの文書に対応するか（更新日か）は未確認。"
+   "notes": "第2段階（他分野）。一覧の同じ行付近に『2016.5.20(H28.5.20)』の日付も記載されており、どの文書に対応するか（更新日か）は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県資料に2010年・2016年・2025年（改訂署名）と覚書が重ねて掲載されており、2010年の覚書がまだ有効かは確認できない。整理表にも載っていない。",
+   "term_text": "2010年覚書の本文は未確認",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "令和7年度国際交流資料（2026-04公開）の交流経過に『2010年10月 協定をさらに一歩進めた覚書を締結』『2016年5月 新たな覚書を締結』『2025年9月 ウェストラント市と県との覚書（MoU）の改訂署名』とあり、2025-09-03付の覚書本文（署名日から協力開始・期間の定めなし）を掲載。旧覚書の廃止・失効の明記はなく、2016年版・2025年版は本データに未登録（要追加の可能性）。"
   },
   {
    "id": "JP-39-007",
@@ -390,11 +574,50 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
+    },
+    {
+     "id": "v3",
+     "title": "令和7年度高知県の国際交流 Ⅳ-1-1 中国・安徽省",
+     "publisher": "高知県 文化生活部",
+     "url": "https://www.pref.kochi.lg.jp/doc/2026030500370/file_contents/file_20263312165446_7.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2012年4月19日の覚書本文（『双方が署名した日から発効する』）を掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。安徽省とは1994年に友好提携（対象外）。"
+   "notes": "第2段階（他分野）。安徽省とは1994年に友好提携（対象外）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。覚書本文に署名日（2012-04-19）から発効とあり、期間の定めはない。",
+   "effective_date": "2012-04-19",
+   "term_text": "この覚書は、双方が署名した日から発効する（期間の定めの記載なし）",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2",
+    "v3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.64で状態『継続中』。 整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-008",
@@ -445,11 +668,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.65で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-009",
@@ -500,11 +750,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.39で状態『継続中（国際観光課で保管）』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-010",
@@ -555,11 +832,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.392で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-011",
@@ -610,11 +914,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。正式名称は『産業連携に関する覚書』。"
+   "notes": "第2段階（他分野）。正式名称は『産業連携に関する覚書』。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.236で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-012",
@@ -666,11 +997,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。正式名称は『産業連携に関する覚書』。"
+   "notes": "第2段階（他分野）。正式名称は『産業連携に関する覚書』。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.237で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-013",
@@ -721,11 +1079,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.386で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-014",
@@ -785,11 +1170,42 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（令和元年度から令和6年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301191329_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載（PDF作成2026-03-30）"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県の念書・覚書等整理表（廃止等により効力を失ったもの）No.1508に『期間終了（R4.3.31）』と記載。",
+   "term_text": "県の整理表に『期間終了（R4.3.31）』",
+   "auto_renewal": "unconfirmed",
+   "ended_date": "2022-03-31",
+   "end_reason": "期間終了（令和4年3月31日）。県の整理表（廃止等により効力を失ったもの）に記載。2022年4月1日付で高知大学も加わる新しい協定書に引き継ぎ（整理表R1-6のNo.173『継続中』）",
+   "validity_sources": [
+    "s9",
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "後継の協定書（R4.4.1、高知県・高知大学・ヨーテボリ大学）は本データ未登録。"
   },
   {
    "id": "JP-39-015",
@@ -840,11 +1256,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.279で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-016",
@@ -895,11 +1338,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.268で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-017",
@@ -950,11 +1420,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.387で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-018",
@@ -1005,11 +1502,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。正式名称は『産業連携に関する覚書』。"
+   "notes": "第2段階（他分野）。正式名称は『産業連携に関する覚書』。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.360で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-019",
@@ -1060,11 +1584,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（平成21年度から30年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301181658_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「平成21年度から30年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。（事前合宿という目的の性質上、整理表の状態が実態と合っているかは要注意。）",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（H21-30）No.336で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。 東京2020大会の事前合宿のための覚書で、大会（2021年）後も整理表上は『継続中』のまま。実態との差があり得るため、根拠は整理表の記載のみ。"
   },
   {
    "id": "JP-39-020",
@@ -1117,11 +1668,38 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（令和元年度から令和6年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301191329_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載（PDF作成2026-03-30）"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。"
+   "notes": "第2段階（他分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「令和元年度から令和6年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（R1-6）No.18で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-021",
@@ -1181,11 +1759,33 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": ""
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。日付は一覧の同じ行に記載された『2021.4.12(R3.4.12)』。当初締結日か更新日かは未確認。"
+   "notes": "第2段階（他分野）。日付は一覧の同じ行に記載された『2021.4.12(R3.4.12)』。当初締結日か更新日かは未確認。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県の念書・覚書等整理表（廃止等により効力を失ったもの）No.1591に『期間終了（R3.4.19）』と記載（同件名の覚書）。",
+   "term_text": "県の整理表に『期間終了（R3.4.19）』",
+   "auto_renewal": "unconfirmed",
+   "ended_date": "2021-04-19",
+   "end_reason": "期間終了（令和3年4月19日）。県の整理表（廃止等により効力を失ったもの）に記載",
+   "validity_sources": [
+    "s9",
+    "v1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表では文書日付がH30.4.20（2018-04-20）、国際交流資料では2021.4.12（R3.4.12）と日付が食い違う。いずれも同じ件名で、整理表が期間終了としている。記録の署名日（2021-04-12）の見直しが必要かもしれない。"
   },
   {
    "id": "JP-39-022",
@@ -1242,11 +1842,29 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "県が締結した念書・覚書等の一覧（掲載ページ https://www.pref.kochi.lg.jp/doc/joko-nensho-index/ 、2026-03-30更新）。署名者・目的・状態（継続中）を記載"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
     }
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "名称は『協定書』。国際交流資料（協定書・覚書一覧）には掲載されていない。原文未確認。"
+   "notes": "名称は『協定書』。国際交流資料（協定書・覚書一覧）には掲載されていない。原文未確認。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「令和元年度から令和6年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（R1-6）No.144で状態『継続中』（担当：森づくり推進課）。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-023",
@@ -1392,11 +2010,29 @@
      "type": "press_release",
      "checked": "2026-10-27",
      "note": "再調査で追加"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
     }
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "原文は未公開（未確認）。知事名は一覧に記載なし（『知事』のみ）。KPIは県全体の数値で、本MOUの成果と明記されたものではない。（2026-10-27の再調査で、公式資料にもとづき情報源を修正・追加）"
+   "notes": "原文は未公開（未確認）。知事名は一覧に記載なし（『知事』のみ）。KPIは県全体の数値で、本MOUの成果と明記されたものではない。（2026-10-27の再調査で、公式資料にもとづき情報源を修正・追加）",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「令和元年度から令和6年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（R1-6）No.286で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-024",
@@ -1448,11 +2084,50 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "掲載ページ https://www.pref.kochi.lg.jp/doc/2025032200059/ （2025-03-31公開）。『高知県関係（協定書・覚書）』一覧"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
+    },
+    {
+     "id": "v2",
+     "title": "念書・覚書等整理表（令和元年度から令和6年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301191329_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。各行の備考欄に状態を記載（PDF作成2026-03-30）"
+    },
+    {
+     "id": "v3",
+     "title": "令和7年度高知県の国際交流 Ⅳ-1-4 オランダ・ウェストラント市",
+     "publisher": "高知県 文化生活部",
+     "url": "https://www.pref.kochi.lg.jp/doc/2026030500370/file_contents/file_20263312165446_10.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。2009年協定書、2023年農大覚書、2025年9月3日の覚書の本文と交流経過を掲載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。日本側は県立農業大学校。"
+   "notes": "第2段階（他分野）。日本側は県立農業大学校。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「令和元年度から令和6年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。本文は署名日から開始・期間の定めなし。",
+   "effective_date": "2023-12-01",
+   "term_text": "署名した日から開始。期間の定めの記載なし（変更・廃止は6か月前通知＋協議）",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "v1",
+    "v2",
+    "v3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（R1-6）No.294で状態『継続中』。 整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。 農業大学校の友好交流覚書。本文は『署名した日から開始』『変更又は廃止を希望する日の少なくとも6か月前までに通知があれば協議により変更・廃止できる』で期間の定めはない（令和7年度国際交流資料に本文掲載）。"
   },
   {
    "id": "JP-39-025",
@@ -1567,11 +2242,29 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "『高知県は、本年１月、特に発展著しい南インドの「タミル・ナド州政府産業局ガイダンス」とMOUを締結し、経済・人材の一層の交流促進に向けて取組を進めています』"
+    },
+    {
+     "id": "v1",
+     "title": "念書・覚書等（締結している念書・覚書等整理表 令和7年3月末現在）",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。整理表（区分別PDF）への入口ページ。2026-03-30更新。区分: 継続中の協定は各年度区分、効力を失ったものは『廃止等により効力を失ったものなど』に掲載"
     }
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "日本側の署名主体は県商工労働部（署名者は商工労働部長）。相手機関の英語正式名称は未確認。原文未確認。"
+   "notes": "日本側の署名主体は県商工労働部（署名者は商工労働部長）。相手機関の英語正式名称は未確認。原文未確認。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "高知県の念書・覚書等整理表（令和7年3月31日現在、2026年公開）の「令和元年度から令和6年度に締結したもの」に掲載され、状態が「継続中」（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "整理表（R1-6）No.288で状態『継続中』。 原文の有効期間は未確認。整理表は令和7年3月31日現在の状況（2026年に公開・更新）。基準日（2026-10-28）までの状況変化は未確認。"
   },
   {
    "id": "JP-39-026",
@@ -1661,7 +2354,16 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "R7.3時点のプラン概要では『ナガランド州政府とMOU締結を視野に入れた人材送り出しに関する協議』と記載されていた。原文未確認。州政府側の後日発表で県内のナガ人労働者が増えたとの報道・発表があるとの検索結果があったが本文未確認のため記録していない。 署名式の事前告知では協定内容として、①ナガランド州による技能実習生等の入国前の日本語教育や訓練等の質的な向上、②高知県による受入機関の紹介と入国後の就労環境・技能の向上のための支援、③双方の就労・受入れニーズの情報交換を挙げていた（締結後の発表の内容とは表現が異なる）。（2026-10-27の再調査で、公式資料にもとづき日付の補足・実施状況を修正・追加）"
+   "notes": "R7.3時点のプラン概要では『ナガランド州政府とMOU締結を視野に入れた人材送り出しに関する協議』と記載されていた。原文未確認。州政府側の後日発表で県内のナガ人労働者が増えたとの報道・発表があるとの検索結果があったが本文未確認のため記録していない。 署名式の事前告知では協定内容として、①ナガランド州による技能実習生等の入国前の日本語教育や訓練等の質的な向上、②高知県による受入機関の紹介と入国後の就労環境・技能の向上のための支援、③双方の就労・受入れニーズの情報交換を挙げていた（締結後の発表の内容とは表現が異なる）。（2026-10-27の再調査で、公式資料にもとづき日付の補足・実施状況を修正・追加）",
+   "validity_state": "unconfirmed",
+   "validity_basis": "署名（2025-07-07）は県発表で確認できるが、署名前の告知に『今後、インドの中央政府内の事務手続きを経て、効力を有することになる』とあり、効力が実際に生じた時期・有効期間を示す資料が見つからない。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s4"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "令和7年度分（2025-07署名）の念書・覚書等整理表は公開ページに掲載がなく状態を確認できず。効力発生の完了を示す公式資料も見つからない。"
   }
  ]
 }

@@ -55,7 +55,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "県は姉妹県州ではなく具体的テーマを持つ「海外との地域間交流」と位置付け。"
+   "notes": "県は姉妹県州ではなく具体的テーマを持つ「海外との地域間交流」と位置付け。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2026年3月の資料は1993年の合意と国際交流員の受入れ実績を述べるのみで、有効期間や現在も効力を有する旨の明示がない。",
+   "effective_date": "1993-10-27",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。「これまで…交流を実施してきた」との過去の書き方。"
   },
   {
    "id": "JP-07-002",
@@ -111,7 +120,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2026年3月の資料は1994年の同意書締結と、国際交流員の受入れ（平成22年度まで）に触れるのみで、有効期間や現在の効力の明示がない。",
+   "effective_date": "1994-05-31",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-07-003",
@@ -166,7 +184,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2026年3月の資料は2004年の同意書締結を記載するのみで、有効期間や現在の効力の明示がない。",
+   "effective_date": "2004-04-12",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-07-004",
@@ -224,7 +251,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "相手が国際機関のため country_code は空欄。福島県立医科大学とIAEAの人の健康分野の協定（2012年12月）は県立医大の協定のため含めない。"
+   "notes": "相手が国際機関のため country_code は空欄。福島県立医科大学とIAEAの人の健康分野の協定（2012年12月）は県立医大の協定のため含めない。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "公式資料に、この覚書に基づく取組の記載はあるが、取組が続いていることだけでは有効と判定しない（このサイトの基準）。有効期間・更新・現在の効力を明示する公式資料は確認できず。（調査担当の当初の見立て：県の2026年3月の資料が「本覚書に基づき…継続的な支援を受けながら協力プロジェクトを進めている」と現在形で記載しており、現在運用中の取決めとして明示している（根拠C）。）",
+   "effective_date": "2012-12",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "有効期間・終了日の定めは公式資料で見つからない。根拠Cのみで、期限の定めは不明。"
   },
   {
    "id": "JP-07-005",
@@ -280,7 +316,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2026年3月の資料は2014年2月の締結と2017年1月の更新までを記載するのみで、その後の更新や現在の効力の明示がない。",
+   "effective_date": "2014-02",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2017-01",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2017年1月の更新後の期間は不明。公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-07-006",
@@ -337,7 +383,19 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "同州とは2014年2月10日に環境省とも再生可能エネルギー分野の覚書を締結（2017年1月更新）しており、2019年に経済省との覚書に一本化されたため本レコードにまとめた。"
+   "notes": "同州とは2014年2月10日に環境省とも再生可能エネルギー分野の覚書を締結（2017年1月更新）しており、2019年に経済省との覚書に一本化されたため本レコードにまとめた。",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県の2026年3月の資料に、2019年10月に経済省との再生可能エネルギー及び医療関連産業分野の連携覚書を一本化して更新したと記載されており、2014年9月の医療機器分野の覚書（本記録）は後の覚書に引き継がれた。",
+   "effective_date": "2014-09-01",
+   "auto_renewal": "unconfirmed",
+   "ended_date": "2019-10-07",
+   "end_reason": "2019年10月7日に同州経済省との再生可能エネルギーと医療関連産業の覚書が一本化されて更新された（県資料）。その後2023年4月26日・2026年1月15日（JP-07-017）にも更新",
+   "successor_id": "JP-07-017",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "「一本化し更新」という書き方のため、旧覚書は新しい覚書に置き換えられたと判断した。"
   },
   {
    "id": "JP-07-007",
@@ -393,7 +451,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2026年3月の資料は2014年12月の締結と2024年11月の10周年記念セミナーを記載するのみで、有効期間や更新、現在の効力の明示がない。",
+   "effective_date": "2014-12-03",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。事業（セミナー・出展）の継続だけでは有効確認としない。"
   },
   {
    "id": "JP-07-008",
@@ -448,7 +515,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "正式名称未確認。"
+   "notes": "正式名称未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2026年3月の資料は「平成27年7月に福島県と覚書を締結しているUCL」と説明するが、有効期間や現在の効力を明示する記載はない。",
+   "effective_date": "2015-07",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。「締結している」とあるが有効性の明示とまでは言えないと判断。"
   },
   {
    "id": "JP-07-009",
@@ -504,7 +580,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2026年3月の資料は2015年10月の締結を記載するのみで、有効期間や現在の効力の明示がない。",
+   "effective_date": "2015-10",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
   },
   {
    "id": "JP-07-010",
@@ -560,7 +645,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の2026年3月の資料は2017年6月の締結と、医療機器展示会への隔年ブース出展を記載するのみで、有効期間や現在の効力の明示がない。",
+   "effective_date": "2017-06-05",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。事業の継続だけでは有効確認としない。"
   },
   {
    "id": "JP-07-011",
@@ -612,11 +706,34 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "PDF（11MB）をダウンロードして本文を確認"
+    },
+    {
+     "id": "v1",
+     "title": "令和7年度 トップセールス・国内外への訪問",
+     "publisher": "福島県",
+     "url": "https://www.pref.fukushima.lg.jp/site/chiji/r7topsales.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。1月14日のハンブルク州首相との連携覚書締結（更新）を確認（掲載日2026年1月16日更新）"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県の2026年3月の資料と県の知事の動きの掲載（2026-01-16更新）に、2019年10月の覚書を2026年1月14日に更新（締結）したとあり、旧版（本記録）は更新後の覚書（JP-07-016）に引き継がれた。",
+   "effective_date": "2019-10-07",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2026-01-14",
+   "ended_date": "2026-01-14",
+   "end_reason": "2023年4月25日の更新を経て、2026年1月14日の更新（JP-07-016）に引き継ぎ（県資料）",
+   "successor_id": "JP-07-016",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "「更新」を新しい覚書による置き換えと判断。"
   },
   {
    "id": "JP-07-012",
@@ -669,11 +786,34 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "PDF（11MB）をダウンロードして本文を確認"
+    },
+    {
+     "id": "v1",
+     "title": "令和7年度 トップセールス・国内外への訪問",
+     "publisher": "福島県",
+     "url": "https://www.pref.fukushima.lg.jp/site/chiji/r7topsales.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。1月12日のバスク州首相との連携覚書締結（更新）を確認（掲載日2026年1月16日更新）"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": ""
+   "notes": "",
+   "validity_state": "ended_confirmed",
+   "validity_basis": "県の2026年3月の資料と県の知事の動きの掲載に、2019年10月の覚書を2026年1月12日に更新（締結）したとあり、旧版（本記録）は更新後の覚書（JP-07-015）に引き継がれた。",
+   "effective_date": "2019-10-09",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2026-01-12",
+   "ended_date": "2026-01-12",
+   "end_reason": "2023年4月24日の更新を経て、2026年1月12日の更新（JP-07-015）に引き継ぎ（県資料）",
+   "successor_id": "JP-07-015",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "「更新」を新しい覚書による置き換えと判断。"
   },
   {
    "id": "JP-07-013",
@@ -733,7 +873,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "外国人材・労働関係ではない（観光）。"
+   "notes": "外国人材・労働関係ではない（観光）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の知事の動きの掲載に締結（2024-09-12）の記載があるのみで、有効期間や現在の効力を示す記載がない。",
+   "effective_date": "2024-09-12",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載なし。"
   },
   {
    "id": "JP-07-014",
@@ -791,7 +940,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "外国人材・労働関係ではない（観光）。"
+   "notes": "外国人材・労働関係ではない（観光）。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の知事の動きの掲載に締結（2025-05-26）の記載があるのみで、有効期間や現在の効力を示す記載がない。",
+   "effective_date": "2025-05-26",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "公式資料に有効期間の記載なし。"
   },
   {
    "id": "JP-07-015",
@@ -865,11 +1023,32 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "前回の更新"
+    },
+    {
+     "id": "v1",
+     "title": "福島県の国際化の現状（令和7年度版）（令和8年3月）",
+     "publisher": "福島県生活環境部国際課",
+     "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/736450.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。令和8年1月の覚書更新を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "外国人材・労働関係ではない。前回の更新は2023年4月24日（ウルクル州首相との間で締結（更新）、エネルギー分野に加え新たにクリーンテック、バイオテクノロジー、インダストリー4.0の分野）。"
+   "notes": "外国人材・労働関係ではない。前回の更新は2023年4月24日（ウルクル州首相との間で締結（更新）、エネルギー分野に加え新たにクリーンテック、バイオテクノロジー、インダストリー4.0の分野）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県の2026年1月の発表がバスク州首相との覚書の締結（更新）と「本覚書に基づき…交流を始めることで合意」を記載し、2026年3月の県資料も更新済みと記載しており、現在運用中の取決めとして明示している（根拠C）。",
+   "effective_date": "2026-01-12",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2026-01-12",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "更新後の有効期間は公式資料に見当たらない（期限は不明）。根拠Cによる有効確認。"
   },
   {
    "id": "JP-07-016",
@@ -933,11 +1112,31 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "前回の締結"
+    },
+    {
+     "id": "v1",
+     "title": "福島県の国際化の現状（令和7年度版）（令和8年3月）",
+     "publisher": "福島県生活環境部国際課",
+     "url": "https://www.pref.fukushima.lg.jp/uploaded/attachment/736450.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "有効性の確認に使用。令和8年1月の覚書更新を記載"
     }
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "外国人材・労働関係ではない。2023年4月25日には知事とレオンハルト州経済大臣との間で連携に関する覚書を締結（再生可能エネルギー・水素分野）。今回（2026年1月）は州首相との間での締結（更新）。登録済み JP-07-011 の相手機関『現行は同州経済省』は、この更新により州（州首相）との覚書となった可能性がある（要確認）。"
+   "notes": "外国人材・労働関係ではない。2023年4月25日には知事とレオンハルト州経済大臣との間で連携に関する覚書を締結（再生可能エネルギー・水素分野）。今回（2026年1月）は州首相との間での締結（更新）。登録済み JP-07-011 の相手機関『現行は同州経済省』は、この更新により州（州首相）との覚書となった可能性がある（要確認）。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県の2026年1月の発表がハンブルク州首相との覚書の締結（更新）と「本覚書に基づき…交流を始めることで合意」を記載し、2026年3月の県資料も更新済みと記載しており、現在運用中の取決めとして明示している（根拠C）。",
+   "effective_date": "2026-01-14",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2026-01-14",
+   "validity_sources": [
+    "s1",
+    "v1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "更新後の有効期間は公式資料に見当たらない（期限は不明）。根拠Cによる有効確認。県資料は相手を「州経済省」と記載する箇所と「州首相」と記載する箇所があり、署名者の表記に揺れがある。"
   },
   {
    "id": "JP-07-017",
@@ -1006,7 +1205,18 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "外国人材・労働関係ではない。経緯（国際化の現状による）：2014年9月に同州経済省と医療機器分野の覚書（登録済み JP-07-006）→2019年10月7日に再生可能エネルギー及び医療関連産業分野の覚書に一本化して更新→2023年4月26日に水素・アンモニア分野を追加して更新→2026年1月15日に更新。"
+   "notes": "外国人材・労働関係ではない。経緯（国際化の現状による）：2014年9月に同州経済省と医療機器分野の覚書（登録済み JP-07-006）→2019年10月7日に再生可能エネルギー及び医療関連産業分野の覚書に一本化して更新→2023年4月26日に水素・アンモニア分野を追加して更新→2026年1月15日に更新。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県の2026年1月の発表がNRW州副首相兼経済・産業・気候保護・エネルギー大臣との覚書の締結（更新）と「本覚書に基づき…交流を始めることで合意」を記載し、2026年3月の県資料も更新済みと記載しており、現在運用中の取決めとして明示している（根拠C）。",
+   "effective_date": "2026-01-15",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": "2026-01-15",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "更新後の有効期間は公式資料に見当たらない（期限は不明）。根拠Cによる有効確認。"
   }
  ]
 }

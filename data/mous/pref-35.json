@@ -63,7 +63,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階として記録（名称が覚書のため）。2024年の県発表では『2014年に両県省が締結した友好・協力に関する覚書』と表記されており、名称表記が資料間で異なる。原文未確認。"
+   "notes": "第2段階として記録（名称が覚書のため）。2024年の県発表では『2014年に両県省が締結した友好・協力に関する覚書』と表記されており、名称表記が資料間で異なる。原文未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（2026-01-15更新）は2014年の覚書締結を過去の事実として述べ、2024年の『更なる友好・協力に関する覚書』との関係（置き換えか補足か）も明記していない。有効期間・現在の効力を示す記載がない。",
+   "effective_date": "2014-12-25",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "2024-12-18の『更なる友好・協力に関する覚書』（JP-35-003）が2014年覚書を引き継ぐ・置き換える旨は公式資料に書かれていないため、終了確認とはしない。ビンズン省は2025-07-01にホーチミン市へ合併。"
   },
   {
    "id": "JP-35-002",
@@ -120,7 +130,16 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。法的性格・原文は未確認。"
+   "notes": "第2段階（他分野）。法的性格・原文は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページ（2026-01-15更新）は2017-04-26の協定締結を過去の事実として述べるのみで、有効期間・現在の効力の記載がない。",
+   "effective_date": "2017-04-26",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "協定の原文は見つからず。"
   },
   {
    "id": "JP-35-003",
@@ -187,7 +206,17 @@
    ],
    "survey_stage": 2,
    "last_checked": "2026-10-27",
-   "notes": "第2段階（他分野）。同時に人材の合意議事録（G5-35-03）に署名。立会：県議会議員ほか。原文未掲載。"
+   "notes": "第2段階（他分野）。同時に人材の合意議事録（G5-35-03）に署名。立会：県議会議員ほか。原文未掲載。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の報道発表で2024-12-18の署名は確認できるが、覚書の有効期間は記載がなく、現在効力を有する旨の公式資料もない。",
+   "effective_date": "2024-12-18",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "原文は未掲載。ビンズン省は2025-07-01に合併しホーチミン市となったが、覚書への影響は公式資料に書かれていない。"
   },
   {
    "id": "JP-35-004",
@@ -263,7 +292,16 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "ビンズン省は2025年7月1日にホーチミン市に合併（県国際課ページ）。原文未掲載・未確認。"
+   "notes": "ビンズン省は2025年7月1日にホーチミン市に合併（県国際課ページ）。原文未掲載・未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県の報道発表で2024-12-18の署名は確認できるが、合意議事録の有効期間は記載がなく、現在効力を有する旨の公式資料もない。",
+   "effective_date": "2024-12-18",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "原文は未掲載。ビンズン省合併（2025-07-01）後の扱いは確認できず。"
   },
   {
    "id": "JP-35-005",
@@ -343,7 +381,16 @@
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-27",
-   "notes": "有効期間・原文は未確認。"
+   "notes": "有効期間・原文は未確認。",
+   "validity_state": "unconfirmed",
+   "validity_basis": "県ページで2026-08-27の締結と協力内容は確認できるが、有効期間・効力発生の条項の記載がなく、効力の期間を計算できない。",
+   "effective_date": "2026-08-27",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "覚書の原文は未掲載。締結は最近（基準日の2か月前）で、署名の事実のみ確認できる。"
   }
  ]
 }
