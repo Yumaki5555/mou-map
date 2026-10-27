@@ -83,7 +83,16 @@ export function sourceList(sources, ids) {
     <span class="small muted">確認日：${esc(fmtDate(s.checked))}${s.note ? `／${esc(s.note)}` : ''}</span>
   </li>`).join('')}</ol>`;
 }
+// 元のページが削除されるなどして開けず、保存版（ウェブアーカイブ）にリンクしているときの説明
+const ARCHIVES = [
+  ['warp.ndl.go.jp', '国立国会図書館インターネット資料収集保存事業（WARP）'],
+  ['web.archive.org', 'インターネットアーカイブ（Wayback Machine）'],
+];
 export function linkWarn(s) {
+  if (s.archived_from) {
+    const name = ARCHIVES.find(([host]) => s.url.includes(host))?.[1] || 'ウェブアーカイブ';
+    return `<br><span class="small muted">※元のページ（${esc(s.archived_from)}）は発行元のサイトで削除されるなどして開けないため、${esc(name)}の保存版にリンクしています。</span>`;
+  }
   if (s.link_status === 'not_found') return `<br><span class="badge b-news">リンク切れ（${esc(fmtDate(s.link_checked))}時点。ページが移動・削除された可能性）</span>`;
   if (s.link_status === 'error') return `<br><span class="badge b-news">開けない状態（${esc(fmtDate(s.link_checked))}時点。サイト側の証明書エラー等）</span>`;
   return '';

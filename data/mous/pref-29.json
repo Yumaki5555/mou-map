@@ -47,14 +47,13 @@
    "sources": [
     {
      "id": "s1",
-     "title": "陝西省との覚書（PDF）",
+     "title": "日本国奈良県と中華人民共和国陝西省の友好県省関係の発展に関する覚書（PDF）",
      "publisher": "奈良県",
-     "url": "https://www.pref.nara.jp/secure/317551/陝西省との覚書.pdf",
+     "url": "https://warp.ndl.go.jp/web/20251108231743/https://www.pref.nara.jp/secure/317551/%E9%99%9D%E8%A5%BF%E7%9C%81%E3%81%A8%E3%81%AE%E8%A6%9A%E6%9B%B8.pdf",
      "type": "original_text",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得、県サイトの証明書期限切れ）。",
-     "link_status": "error",
-     "link_checked": "2026-10-27"
+     "note": "奈良県の公式サイト移転（www.pref.nara.lg.jp）で旧PDFは公開終了し、新サイトにも掲載なし。国立国会図書館WARPの保存版（2025-11-08保存）で本文を確認（2009年4月16日、奈良県知事と陝西省人民代表大会常務委員会主任が署名）。",
+     "archived_from": "https://www.pref.nara.jp/secure/317551/陝西省との覚書.pdf"
     }
    ],
    "survey_stage": 2,
@@ -109,14 +108,12 @@
    "sources": [
     {
      "id": "s1",
-     "title": "フートー省との覚書（PDF）",
+     "title": "日本国奈良県とベトナム社会主義共和国フートー省との友好県省関係の発展に関する覚書（PDF）",
      "publisher": "奈良県",
-     "url": "https://www.pref.nara.jp/secure/317601/フートー省との覚書.pdf",
+     "url": "https://www.pref.nara.lg.jp/documents/6295/hutosyokakusyo.pdf",
      "type": "original_text",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得、県サイトの証明書期限切れ）。",
-     "link_status": "error",
-     "link_checked": "2026-10-27"
+     "note": "奈良県の公式サイト移転後の掲載場所（ページ「ベトナム・フートー省」）。署名入り原本のスキャンで、題名・日付（2014年1月22日）・署名者を確認。"
     }
    ],
    "survey_stage": 2,
@@ -170,14 +167,22 @@
    "sources": [
     {
      "id": "s1",
-     "title": "資料２（奈良県と清華大学の覚書関係資料）",
+     "title": "資料２「日本国奈良県と中華人民共和国清華大学との包括交流に関する覚書」",
      "publisher": "奈良県",
-     "url": "https://www.pref.nara.jp/secure/216719/資料２.pdf",
+     "url": "https://warp.ndl.go.jp/web/20210208130803/http://www.pref.nara.jp/secure/216719/%E8%B3%87%E6%96%99%EF%BC%92.pdf",
      "type": "official_page",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得、県サイトの証明書期限切れ）。",
-     "link_status": "error",
-     "link_checked": "2026-10-27"
+     "note": "奈良県の公式サイト移転で旧PDFは公開終了し、新サイトにも掲載なし。国立国会図書館WARPの保存版（2021-02-08保存）で覚書本文を確認（2019年8月21日、奈良県知事と清華大学学長が署名）。",
+     "archived_from": "https://www.pref.nara.jp/secure/216719/資料２.pdf"
+    },
+    {
+     "id": "s2",
+     "title": "奈良県における国際交流の推進に対する支援（国への提案・要望資料）",
+     "publisher": "奈良県",
+     "url": "https://www.pref.nara.lg.jp/documents/11488/f25e1e26d9af61bd78ea4125adc26aa7_.pdf",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "「2019年8月、中国清華大学と包括交流に関する覚書を締結」との記載を確認。"
     }
    ],
    "survey_stage": 2,
@@ -251,14 +256,12 @@
    "sources": [
     {
      "id": "s1",
-     "title": "フエ市との覚書締結に関する報道資料",
+     "title": "2025年6月4日、ベトナム・フエ市との間で、友好交流協力関係樹立に関する合意覚書を締結しました（報道資料、令和7年6月5日）",
      "publisher": "奈良県",
-     "url": "https://www.pref.nara.jp/secure/323601/houdousiryou.pdf",
+     "url": "https://www.pref.nara.lg.jp/documents/6327/houdousiryou.pdf",
      "type": "press_release",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得）。県サイトのSSL証明書期限切れのため取得不可。題名は抜粋からの要約。",
-     "link_status": "error",
-     "link_checked": "2026-10-27"
+     "note": "奈良県の公式サイト移転後の掲載場所（ページ「フエ市との間で友好交流協力関係樹立に関する合意覚書を締結」）。旧サイトの資料の保存版と同じファイルであることを確認。"
     },
     {
      "id": "s2",

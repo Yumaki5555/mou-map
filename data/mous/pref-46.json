@@ -409,14 +409,22 @@
     },
     {
      "id": "s4",
-     "title": "ベトナム国立農業大学（VNUA）との連携による技能実習生の受入れ（県農政部 経営技術課ページ）",
+     "title": "ベトナム国立農業大学との連携協定に基づく農業分野技能実習生の受入れに向けた取組を開始しました（県農政部経営技術課、2024年6月25日更新）",
      "publisher": "鹿児島県",
-     "url": "https://www.pref.kagoshima.jp/ag05/sangyo-rodo/nogyo/keiei/vnua.html",
+     "url": "https://web.archive.org/web/20260121042956/https://www.pref.kagoshima.jp/ag05/sangyo-rodo/nogyo/keiei/vnua.html",
      "type": "official_page",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得）。2026-10-27時点で404。題名は内容から付けた仮題",
-     "link_status": "not_found",
-     "link_checked": "2026-10-27"
+     "note": "鹿児島県のサイトから削除済み。インターネットアーカイブの保存版（2026-01-21保存）で題名・本文を確認（「令和5年7月13日にベトナム国立農業大学（VNUA）との間で…連携協定を締結」）。",
+     "archived_from": "https://www.pref.kagoshima.jp/ag05/sangyo-rodo/nogyo/keiei/vnua.html"
+    },
+    {
+     "id": "s5",
+     "title": "7月13日（木曜日）ベトナム国立農業大学と連携協定を締結しました",
+     "publisher": "鹿児島県（知事のうごき）",
+     "url": "https://www.pref.kagoshima.jp/chiji/ugoki/2307/23071302.html",
+     "type": "official_page",
+     "checked": "2026-10-27",
+     "note": "s3のページ内一覧にある見出しの記事本体。"
     }
    ],
    "survey_stage": 1,

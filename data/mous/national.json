@@ -59,14 +59,13 @@
     },
     {
      "id": "s2",
-     "title": "ベトナムとの労働・社会福祉分野の協力覚書に関する報道発表",
+     "title": "ベトナム労働・傷病兵・社会問題省との労働・社会福祉分野の協力覚書に合意（報道発表、2014年5月14日）",
      "publisher": "厚生労働省",
-     "url": "https://www.mhlw.go.jp/stf/houdou/0000045845.html",
+     "url": "https://warp.ndl.go.jp/web/20260305193152/https://www.mhlw.go.jp/stf/houdou/0000045845.html",
      "type": "press_release",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得。2026-10-27にアクセスした際はページが見つからず404）。",
-     "link_status": "not_found",
-     "link_checked": "2026-10-27"
+     "note": "厚生労働省のサイトからは削除済み（厚労省は過去の報道発表を国立国会図書館WARPで見るよう案内している）。WARPの保存版（2026-03-05保存）で題名・日付・本文を確認。",
+     "archived_from": "https://www.mhlw.go.jp/stf/houdou/0000045845.html"
     }
    ],
    "survey_stage": 3,
@@ -133,14 +132,13 @@
     },
     {
      "id": "s2",
-     "title": "モンゴル国労働省との労働分野における協力覚書に関する報道発表",
+     "title": "モンゴル労働省との労働分野における協力覚書に合意（報道発表、2016年6月2日）",
      "publisher": "厚生労働省",
-     "url": "https://www.mhlw.go.jp/stf/houdou/0000126140.html",
+     "url": "https://warp.ndl.go.jp/web/20260305191658/https://www.mhlw.go.jp/stf/houdou/0000126140.html",
      "type": "press_release",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得。2026-10-27にアクセスした際は404）。署名者・署名場所の情報はこの抜粋による。",
-     "link_status": "not_found",
-     "link_checked": "2026-10-27"
+     "note": "厚生労働省のサイトからは削除済み（厚労省は過去の報道発表を国立国会図書館WARPで見るよう案内している）。WARPの保存版（2026-03-05保存）で本文を確認（首相官邸で塩崎大臣とバヤルサイハン労働大臣が署名）。",
+     "archived_from": "https://www.mhlw.go.jp/stf/houdou/0000126140.html"
     }
    ],
    "survey_stage": 3,
@@ -206,11 +204,21 @@
      "type": "official_page",
      "checked": "2026-10-27",
      "note": "本文を取得して確認。同日に保健省との医療・保健分野の協力覚書にも署名（そちらは労働分野でないため記録対象外）。"
+    },
+    {
+     "id": "s2",
+     "title": "サウジアラビア労働・社会発展省との労働分野における協力覚書に合意（報道発表、2017年3月14日）",
+     "publisher": "厚生労働省",
+     "url": "https://warp.ndl.go.jp/web/20260305190705/https://www.mhlw.go.jp/stf/houdou/0000154983.html",
+     "archived_from": "https://www.mhlw.go.jp/stf/houdou/0000154983.html",
+     "type": "press_release",
+     "checked": "2026-10-27",
+     "note": "厚生労働省のサイトからは削除済み（厚労省は過去の報道発表を国立国会図書館WARPで見るよう案内している）。WARPの保存版（2026-03-05保存）で題名・日付を確認。"
     }
    ],
    "survey_stage": 3,
    "last_checked": "2026-10-27",
-   "notes": "外国人材の受入れ制度に関するMOCではなく、労働行政全般の協力覚書。報道発表（https://www.mhlw.go.jp/stf/houdou/0000154983.html）は2026-10-27時点で404のため未参照。"
+   "notes": "外国人材の受入れ制度に関するMOCではなく、労働行政全般の協力覚書。報道発表は厚生労働省のサイトから削除済みのため、国立国会図書館WARPの保存版を出典s2として記載。"
   },
   {
    "id": "JP-NAT-004",
@@ -4940,14 +4948,13 @@
    "sources": [
     {
      "id": "s1",
-     "title": "米国労働省との労働分野における協力覚書を交換（報道発表 2018年5月）",
+     "title": "米国労働省との労働分野における協力覚書を交換（報道発表、2018年5月7日）",
      "publisher": "厚生労働省",
-     "url": "https://www.mhlw.go.jp/stf/houdou/0000205186.html",
+     "url": "https://warp.ndl.go.jp/web/20260305085230/https://www.mhlw.go.jp/stf/houdou/0000205186.html",
      "type": "press_release",
      "checked": "2026-10-27",
-     "note": "検索結果の抜粋で確認（本文未取得。2026-10-27にアクセスした際は404）。",
-     "link_status": "not_found",
-     "link_checked": "2026-10-27"
+     "note": "厚生労働省のサイトからは削除済み（厚労省は過去の報道発表を国立国会図書館WARPで見るよう案内している）。WARPの保存版（2026-03-05保存）で題名・日付を確認（現地時間2018年5月4日に米国労働省で交換）。",
+     "archived_from": "https://www.mhlw.go.jp/stf/houdou/0000205186.html"
     },
     {
      "id": "s2",
