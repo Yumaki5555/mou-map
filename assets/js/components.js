@@ -1,9 +1,9 @@
 // 画面の部品（MOUカード、バッジ、出典一覧、影響の表、予算の表など）
-import { esc, fmtDate, fmtYen, fmtNum } from './util.js';
+import { esc, fmtDate, fmtYen, fmtNum, today } from './util.js';
 import {
   FIELD, STATUS, IMPACTS, STAGES, CAUSALITY, PARTNER_TYPES, LEGAL, EVIDENCE, PAYERS, BUDGET_KIND, SOURCE_TYPES,
-  VALIDITY, VALIDITIES, DOC_CATEGORY, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES,
-  countryName, prefName, japanSideName, residentChange, sswCount, validityCounts, pastTerm, lapsedSinceCheck,
+  VALIDITY, VALIDITIES, VALIDITY_SCOPE, VALIDITY_REASONS, DOC_CATEGORY, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES, RESEARCH_STATES, AUTO_RENEWAL,
+  countryName, prefName, japanSideName, residentChange, sswCount, validityCounts, validityInfo, termEnd, researchStatus,
 } from './data.js';
 
 // 用語の説明（タップでも読めるよう、クリックで小さく表示）
@@ -41,16 +41,49 @@ export function relationBadge(code) {
   return `<span class="badge b-rel b-rel-${esc(r.code)}" title="${esc(r.desc)}">外国人の受入れ：${esc(r.ja)}</span>`;
 }
 
-// 有効性の5区分の件数（トップ・都道府県・相手国で同じ部品）
+// 有効性の5区分の件数（トップ・都道府県・相手国・国の一覧で同じ部品）
+// groups に締結予定を含めてもよい（opts.planned で別に件数を足すこともできる）。
+// opts.split：都道府県と国・省庁の件数を分けて表示／opts.link(code)：区分ごとの一覧へのリンク／
+// opts.scope：いまの数え方に入る区分に「表示中」の印を付ける
+const VT_ORDER = ['valid_confirmed', 'ended_confirmed', 'unconfirmed', 'signed_not_started', 'planned'];
+const VT_DESC = {
+  valid_confirmed: '今も有効と公式資料で確認できた',
+  ended_confirmed: '終了・失効・後継への置き換えを確認',
+  unconfirmed: '今も有効か確かめられていない（終了とは限らない）',
+  signed_not_started: '締結済みで、開始日がまだ来ていない',
+  planned: '予定の発表だけ（締結済み累計に含めない）',
+};
 export function validityTiles(groups, opts = {}) {
+  const lv = l => groups.filter(g => g.level === l);
   const c = validityCounts(groups);
-  const tile = (code, n) => `<div class="vt vt-${code}"><span class="vt-k">${esc(VALIDITY[code].ja)}</span><span class="vt-n">${n}<small>件</small></span></div>`;
-  return `<div class="vtiles" aria-label="協定の有効性の内訳">
-    ${tile('valid_confirmed', c.valid_confirmed)}${tile('ended_confirmed', c.ended_confirmed)}${tile('unconfirmed', c.unconfirmed)}${tile('signed_not_started', c.signed_not_started)}
-    <div class="vt vt-total"><span class="vt-k">締結済み累計</span><span class="vt-n">${c.signed_total}<small>件</small></span></div>
-  </div>
-  ${opts.planned ? `<p class="small muted" style="margin:4px 0 0">このほか締結予定 ${opts.planned}件（締結済み累計に含めません）。</p>` : ''}
-  ${opts.note === false ? '' : '<p class="small muted" style="margin:4px 0 0">「有効性未確認」は、今も有効かどうかを公式資料で確かめられていないもので、終了したという意味ではありません。更新・再締結は1件と数えています。</p>'}`;
+  c.planned += opts.planned || 0;
+  const cp = opts.split ? validityCounts(lv('prefecture')) : null;
+  const cn = opts.split ? validityCounts(lv('national')) : null;
+  const on = opts.scope ? new Set(VALIDITY_SCOPE[opts.scope].states) : null;
+  const tile = code => {
+    const tag = opts.link ? 'a' : 'div';
+    const href = opts.link ? ` href="${opts.link(code)}"` : '';
+    const nums = opts.split
+      ? `<span class="vt-split"><span>都道府県 <b>${cp[code]}</b>件</span><span>国・省庁 <b>${cn[code]}</b>件</span></span>`
+      : `<span class="vt-n">${c[code]}<small>件</small></span>`;
+    return `<${tag} class="vt vt-${code}${on && on.has(code) ? ' is-on' : ''}"${href}>
+      <span class="vt-k">${esc(VALIDITY[code].ja)}${on && on.has(code) ? '<span class="vt-on">表示中</span>' : ''}</span>${nums}
+      ${opts.desc === false ? '' : `<span class="vt-d">${esc(VT_DESC[code])}</span>`}</${tag}>`;
+  };
+  const codes = VT_ORDER.filter(code => code !== 'planned' || c.planned || opts.split);
+  const total = opts.split ? `都道府県 <b>${cp.signed_total}</b>件／国・省庁 <b>${cn.signed_total}</b>件` : `<b>${c.signed_total}</b>件`;
+  return `<div class="vtiles${opts.split ? ' vtiles-split' : ''}" role="list" aria-label="協定の有効性の内訳">${codes.map(code => `<div role="listitem">${tile(code)}</div>`).join('')}</div>
+  <p class="vt-total">締結済み累計：${total}<span class="small muted">（有効確認＋終了確認＋有効性未確認＋開始前。締結予定は含みません。同じ協定の更新・再締結は1件）</span></p>
+  ${opts.note === false ? '' : '<p class="small muted" style="margin:2px 0 0">「有効性未確認」は、今も有効かどうかを公式資料で確かめられていないもので、終了したという意味ではありません。</p>'}`;
+}
+
+// 項目ごとの調査状況（確認済み／調査したが確認できず／未調査）
+export function researchTable(m) {
+  const rows = researchStatus(m);
+  return `<div class="table-wrap"><table class="research"><thead><tr><th>項目</th><th>調査状況</th><th>内容</th></tr></thead><tbody>
+    ${rows.map(r => `<tr><th scope="row">${esc(r.ja)}</th><td><span class="rs rs-${r.state}">${esc(RESEARCH_STATES[r.state].ja)}</span></td><td>${esc(String(r.value || '').slice(0, 120))}</td></tr>`).join('')}
+  </tbody></table></div>
+  <p class="small muted">「調査したが確認できず」は調べたが公式資料で見つからなかったもの、「未調査」はまだ調べていないものです。どちらも「ない」という意味ではありません。</p>`;
 }
 
 // 人数の意味（「この数字は何を意味する？」）
@@ -79,16 +112,21 @@ export function validityDetail(db, m, g) {
   const vOwn = VALIDITY[m._validity] || VALIDITY.unconfirmed;
   const srcs = (m.validity_sources || []).map(id => m.sources.find(s => s.id === id)).filter(Boolean);
   const succ = m.successor_id && db.mouById.get(m.successor_id);
+  const info = validityInfo(m);
+  const end = termEnd(m);
+  const endNote = e => e.precision === 'month' ? `（年月までの記載のため、${fmtDate(e.date)}まで有効として判定）` : e.precision === 'year' ? `（年までの記載のため、${fmtDate(e.date)}まで有効として判定）` : '';
   const rows = [
-    ['現在の有効性', `${validityBadge(g.validity, { prefix: false })}${g.versions.length > 1 && m._validity !== g.validity ? `<br><span class="small">この版（${esc(fmtDate(m.signed_date))}）だけで見ると：${esc(vOwn.ja)}。同じ協定の更新・後継の文書を含めて判定しています。</span>` : ''}${lapsedSinceCheck(m) ? `<br><span class="causal">${esc(fmtDate(m.validity_checked))}の確認では有効でしたが、書かれた期限（${esc(fmtDate(m.valid_until))}）を過ぎたため、更新を確認できるまで「有効性未確認」として数えています</span>` : ''}<br><span class="small muted">${esc(v.desc)}</span>`],
+    ['現在の有効性', `${validityBadge(g.validity, { prefix: false })}${g.versions.length > 1 && m._validity !== g.validity ? `<br><span class="small">この版（${esc(fmtDate(m.signed_date))}）だけで見ると：${esc(vOwn.ja)}。同じ協定の更新・後継の文書を含めて判定しています。</span>` : ''}${info.reason !== 'recorded' ? `<br><span class="causal">判定の理由：${esc(VALIDITY_REASONS[info.reason])}${info.reason === 'lapsed' && m.validity_checked ? `（${esc(fmtDate(m.validity_checked))}の確認時点では有効）` : ''}</span>` : ''}<br><span class="small muted">${esc(v.desc)}</span>`],
     ['発効日・開始日', esc(fmtDate(m.effective_date, '未確認'))],
-    ['有効期限', m.valid_until ? `${esc(fmtDate(m.valid_until))}${pastTerm(m) && g.validity !== 'valid_confirmed' ? '<br><span class="causal">記載の期限は過ぎています（更新・延長の有無は公式資料で確認できていません）</span>' : ''}` : esc(m.term_text ? '期限の日付は資料から決められない' : '未確認')],
+    ['当初の有効期限', m.valid_until ? `${esc(fmtDate(m.valid_until))}${m.valid_until_note ? `<br><span class="small muted">${esc(m.valid_until_note)}</span>` : ''}` : esc(m.term_text ? '期限の日付は資料から決められない' : '未確認')],
+    m.renewed_until ? ['更新・延長後の有効期限', `<b>${esc(fmtDate(m.renewed_until))}</b>（判定にはこちらを使います）${m.renewed_until_note ? `<br><span class="small muted">${esc(m.renewed_until_note)}</span>` : ''}`] : null,
+    end ? ['判定に使った期限', `${esc(fmtDate(end.date))}まで${esc(endNote(end))}${end.date < today() ? '<br><span class="causal">この期限は過ぎています（期限後の更新・延長は公式資料で確認できていません）</span>' : ''}`] : null,
     ['有効期間の定め', esc(m.term_text || m.validity || '未確認')],
-    ['自動更新の条件', esc(m.renewal_text || (m.renewal_terms && m.renewal_terms !== '未確認' ? m.renewal_terms : '未確認'))],
+    ['自動更新', `${esc(AUTO_RENEWAL[m.auto_renewal] || '未確認')}${m.renewal_text || (m.renewal_terms && m.renewal_terms !== '未確認') ? `<br><span class="small">${esc(m.renewal_text || m.renewal_terms)}</span>` : ''}${m.auto_renewal === 'yes' ? '<br><span class="small muted">自動更新の条項があるだけでは「有効確認」にしません（更新されたことを公式資料で確認できたときだけ）。</span>' : ''}`],
     ['最終更新・延長日', esc(fmtDate(m.last_renewed, '確認できず'))],
     m.ended_date || m.end_reason ? ['終了日・終了理由', `${esc(fmtDate(m.ended_date, '日付不明'))}${m.end_reason ? `<br>${esc(m.end_reason)}` : ''}`] : null,
     succ ? ['後継・更新後の文書', `<a href="#/mou/${encodeURIComponent(succ.id)}">${esc(succ.title_ja)}（${esc(fmtDate(succ.signed_date))}）</a><br><span class="small muted">件数は同じ協定として1件で数えています</span>`] : null,
-    ['判定の根拠', `${esc(m.validity_basis || (m._validity === 'unconfirmed' ? '現在も有効であることを示す公式資料を確認できていません。' : '—'))}${srcs.length ? `<br>${srcs.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>`).join('<br>')}` : ''}`],
+    ['判定の根拠', `${esc(m.validity_basis || (m._validity === 'unconfirmed' ? '現在も有効であることを示す公式資料を確認できていません。' : '—'))}${srcs.length ? `<br><span class="small"><b>根拠の資料：</b></span>${srcs.map(s => `<br><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>`).join('')}` : '<br><span class="small muted">根拠の資料：この協定の出典（下の「原文・出典」）を確認した結果です</span>'}`],
     m.validity_research_note ? ['調べたこと・確認できなかったこと', esc(m.validity_research_note)] : null,
     ['有効性の最終確認日', esc(fmtDate(m.validity_checked, '未確認'))],
   ];

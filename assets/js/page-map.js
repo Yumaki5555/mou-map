@@ -9,7 +9,7 @@ import { JapanMap, PATTERNS, swatchStyle } from './map.js';
 import { mouList, legendHTML } from './components.js';
 import { downloadMouCSV, groupsToMous } from './csv.js';
 import { exportMap } from './export.js';
-import { settings, bindNewsToggle, metaFor, baseFilter, scopeBarHTML, scopeLabel } from './shared.js';
+import { settings, bindNewsToggle, metaFor, baseFilter, scopeBarHTML, scopeLabel, scopeNoteHTML } from './shared.js';
 
 export const MODES = [
   { code: 'count', ja: '① 締結件数' },
@@ -95,7 +95,7 @@ export function computeMapModel(db, st) {
       if (!cs.length) return PATTERNS[zero(code)];
       return cs.length > 1 ? MULTI : colorOf.get(cs[0]);
     };
-    legendTitle = '色＝締結している相手国';
+    legendTitle = '色＝登録済み協定の相手国';
     legend = [...st.countries.map((c, i) => ({ label: countryName(db, c), fill: COUNTRY_COLORS[i] })), { label: '選んだ国のうち2か国以上', fill: MULTI }, ...zeroLegend()];
     tipLine = code => {
       const gs = byPref.get(code) || [];
@@ -125,9 +125,9 @@ export function computeMapModel(db, st) {
     const sc = seqScale(max);
     fill = code => counts.get(code) ? sc.color(counts.get(code)) : PATTERNS[zero(code)];
     legend = [...(max ? sc.bins.map(b => ({ label: b.label, fill: b.fill })) : []), ...zeroLegend()];
-    legendTitle = '色が濃いほど件数が多い';
+    legendTitle = '登録済み協定の件数（色が濃いほど多い）';
     tipLine = code => counts.get(code) ? `${counts.get(code)}件` : zero(code) === 'scope_zero' ? `${ZERO_STATES.scope_zero.ja}（締結済み ${wider.get(code)}件）` : ZERO_STATES[zero(code)].ja;
-    title = st.mode === 'count' ? '都道府県別 協定の締結件数'
+    title = st.mode === 'count' ? '都道府県別 登録済み協定の件数'
       : st.mode === 'country' ? (st.countries.length ? `${countryName(db, st.countries[0])}とMOUを締結した都道府県` : '相手国別（国を選んでください）')
         : st.mode === 'field' ? `分野別：「${FIELD[st.field].ja}」の協定`
           : `事業の実施状況：「${STATUS[st.status].ja}」の協定`;
@@ -144,14 +144,17 @@ export function mapPage(ctx) {
       <div class="page-head">
         <div class="crumbs"><a href="#/">トップ</a> ＞ 日本地図から探す</div>
         <h1>日本地図から探す</h1>
-        <p class="lead">都道府県をクリック（タップ）すると、その県の協定が地図の下に表示されます。表示のしかたは「表示モード」で、数え方は「協定の有効性」「数える文書」で切り替えられます。</p>
+        <p class="lead">地図は、このサイトに<b>登録済みの協定の分布</b>です（全国の実際の総数ではありません）。都道府県を押すと、その県の件数と協定が表示されます。</p>
       </div>
       <div class="map-layout3">
         <div class="map-main">
+          <div id="map-note"></div>
           <div id="map"></div>
+          <div id="sel-box" aria-live="polite"></div>
           <div id="legend"></div>
-          <p class="map-caption">国の省庁が締結した協定は全国が対象のため、都道府県の件数に含めず別に数えています。同じ協定の更新・再締結は1件と数えます。<br>
-            地図：国土数値情報（行政区域データ）を加工。一部の離島は表示範囲外です。</p>
+          <details class="note-d"><summary>地図の見方・注意</summary>
+            <p class="small">国の省庁が締結した協定は全国が対象のため、都道府県の件数に含めず別に数えています。同じ協定の更新・再締結は1件と数えます。色のない県（模様）は、0件の理由（該当なし／調査したが確認できず／調査が一部のみ／未調査／いまの数え方では0件）で塗り分けています。
+            地図：国土数値情報（行政区域データ）を加工。一部の離島は表示範囲外です。</p></details>
         </div>
         <div class="map-controls">
           <div class="control-group">
@@ -163,7 +166,7 @@ export function mapPage(ctx) {
           <div class="control-group" id="mode-controls"></div>
           <div class="control-group" id="scope-box"></div>
           <div class="control-group">
-            <label class="small"><input type="checkbox" id="names"> 地図に県名を表示する</label>
+            <label class="check"><input type="checkbox" id="names"> 地図に県名を表示する</label>
           </div>
         </div>
         <div class="map-extras">
@@ -208,7 +211,7 @@ function refresh(ctx) {
 
   root.querySelectorAll('#modes button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === st.mode)));
   const sb = root.querySelector('#scope-box');
-  sb.innerHTML = scopeBarHTML();
+  sb.innerHTML = scopeBarHTML({ note: false });
   bindNewsToggle(sb, () => go({}));
   root.querySelector('#names').checked = st.names;
 
@@ -248,6 +251,19 @@ function refresh(ctx) {
     tip: code => `<b>${esc(db.prefByCode.get(code).name)}</b><br>${esc(model.tipLine(code))}`,
   });
   root.querySelector('#legend').innerHTML = legendHTML(model.legendTitle, model.legend.map(l => ({ label: l.label, style: swatchStyle(l.fill) })));
+  root.querySelector('#map-note').innerHTML = `<p class="map-title">${esc(model.title)}<small>登録済み協定の分布（${esc(scopeLabel())}）</small></p>${scopeNoteHTML()}`;
+
+  // 選んだ都道府県（マウスを重ねなくても、タップで件数が分かるように地図のすぐ下に表示）
+  const sel = root.querySelector('#sel-box');
+  if (st.pref) {
+    const pn = db.prefByCode.get(st.pref).name;
+    sel.innerHTML = `<div class="sel-box"><span class="sel-k">選択中</span><b>${esc(pn)}</b><span>${esc(model.tipLine(st.pref))}</span>
+      <a class="btn btn-small btn-outline" href="#/pref/${st.pref}">${esc(pn)}のページ</a>
+      <button type="button" class="btn btn-small btn-outline" data-rm-p2>選択を解除</button></div>`;
+    sel.querySelector('[data-rm-p2]').addEventListener('click', () => go({ pref: null }));
+  } else {
+    sel.innerHTML = '<p class="sel-hint">都道府県を押すと、ここに件数が表示されます。</p>';
+  }
 
   // 全国枠（国・省庁）
   root.querySelector('#national-box').innerHTML = `<div class="small" style="font-weight:700">全国が対象：国・省庁が締結した協定</div>
@@ -279,7 +295,7 @@ function refresh(ctx) {
   } else {
     html += `<p class="result-summary">条件に合う協定：<b>都道府県 ${model.prefGroups.length}件</b>（${prefCount}都道府県）／<b>国・省庁（全国が対象） ${model.natGroups.length}件</b></p>`;
     const hidden = [...model.wider].filter(([c]) => !model.counts.get(c)).length;
-    if (hidden && st.mode !== 'impact') html += `<div class="info">いまの数え方（${esc(scopeLabel())}）では0件でも、範囲を広げると締結済みの協定がある都道府県が <b>${hidden}</b> あります（地図では「${esc(ZERO_STATES.scope_zero.ja)}」の色）。数え方を「すべて（終了済みを含む）」にすると表示されます。</div>`;
+    if (hidden && st.mode !== 'impact') html += `<div class="info">いまの数え方（${esc(scopeLabel())}）では0件でも、範囲を広げると締結済みの協定がある都道府県が <b>${hidden}</b> あります（地図では「${esc(ZERO_STATES.scope_zero.ja)}」の色）。協定の有効性を「すべて（終了を含む・予定は除く）」にすると表示されます。</div>`;
   }
   if (coverage) html += `<div class="note">${esc(coverage)}</div>`;
 
@@ -318,7 +334,7 @@ function refresh(ctx) {
       sub: `都道府県 ${model.prefGroups.length}件（国・省庁 ${model.natGroups.length}件は別に数える）／${scopeLabel()}`,
       fill: model.fill, label: model.noLabels ? null : code => model.counts.get(code) ? String(model.counts.get(code)) : null,
       selected: st.pref, legend: model.legend, legendTitle: model.legendTitle,
-      side: top.length && !model.noLabels ? [{ text: '件数の多い都道府県', bold: true, size: 30 }, ...top] : [],
+      side: top.length && !model.noLabels ? [{ text: '件数の多い都道府県', bold: true, size: 30 }, { text: top.join('、'), size: 28 }] : [],
       meta: metaFor(db, model.prefGroups, '全国47都道府県（国・省庁の締結は含まない）'),
       filename: `mou-map_${st.mode}.png`,
     });

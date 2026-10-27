@@ -1,9 +1,10 @@
 // CSV（Excelで開ける表）の書き出し
 import { toCSV, downloadBlob, toast } from './util.js';
+import { scopeLabel } from './shared.js';
 import {
   FIELD, STATUS, IMPACT, STAGE, CAUSALITY, PARTNER_TYPES, LEGAL, EVIDENCE, ORIGINAL, PAYERS, BUDGET_KIND, LEVELS,
-  VALIDITY, DOC_CATEGORY, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES,
-  countryName, prefName,
+  VALIDITY, DOC_CATEGORY, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES, VALIDITY_REASONS,
+  countryName, prefName, termEnd,
 } from './data.js';
 
 const HEADERS = [
@@ -32,11 +33,14 @@ const HEADERS = [
   ['合意内容', m => m.content.join(' / ')],
   ['現在の有効性（この文書）', m => VALIDITY[m._validity]?.ja],
   ['現在の有効性（同じ協定の更新・後継を含めた判定）', m => VALIDITY[m._group?.validity]?.ja],
+  ['有効性の判定の理由', m => VALIDITY_REASONS[m._validityReason]],
   ['有効性の判定の根拠', m => m.validity_basis],
   ['有効性の根拠資料', m => (m.validity_sources || []).map(id => m.sources.find(s => s.id === id)?.url).filter(Boolean)],
   ['有効性の確認日', m => m.validity_checked],
   ['発効日・開始日', m => m.effective_date],
-  ['有効期限', m => m.valid_until],
+  ['当初の有効期限', m => m.valid_until],
+  ['更新・延長後の有効期限', m => m.renewed_until],
+  ['判定に使った有効期限（月・年だけのものは末日）', m => termEnd(m)?.date],
   ['有効期間', m => m.term_text || m.validity],
   ['更新条件', m => m.renewal_text || m.renewal_terms],
   ['最終更新・延長日', m => m.last_renewed],
@@ -63,10 +67,18 @@ const HEADERS = [
   ['備考', m => m.notes],
 ].map(([label, get]) => ({ label, get }));
 
-export function downloadMouCSV(db, mous, filename) {
+// 1行目の前に「件数の条件・対象時点」を書いた行を入れる（画面と同じ条件で出力したことが分かるように）
+export function mouCSV(db, mous, cond) {
   const rows = mous.map(m => Object.assign(Object.create(m), { _db: db }));
   const csv = toCSV(HEADERS, rows);
-  downloadBlob(filename, new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+  if (!cond) return csv;
+  const head = `# 日本と世界のMOU・協定マップ／${cond}／掲載内容：${db.config.data_as_of}時点／${mous.length}文書（同じ協定の更新・再締結は別の行）`;
+  return csv.replace(/^\uFEFF/, '\uFEFF' + head.replace(/[\r\n]/g, ' ') + '\r\n');
+
+}
+// cond を省略すると、いま画面で使っている数え方（有効性の範囲・数える文書）を書く
+export function downloadMouCSV(db, mous, filename, cond) {
+  downloadBlob(filename, new Blob([mouCSV(db, mous, cond ?? `件数の条件：${scopeLabel()}`)], { type: 'text/csv;charset=utf-8' }));
   toast(`${mous.length}件をCSVで保存しました`);
 }
 

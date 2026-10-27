@@ -163,7 +163,8 @@
     "v1"
    ],
    "validity_checked": "2026-10-28",
-   "validity_research_note": "再締結された新しい覚書（フート省）はこのデータ内に記録がないため successor_id は空。「再締結」を旧覚書の置き換えと判断した。"
+   "validity_research_note": "再締結された新しい覚書（フート省）はこのデータ内に記録がないため successor_id は空。「再締結」を旧覚書の置き換えと判断した。",
+   "successor_id": "JP-09-004"
   },
   {
    "id": "JP-09-003",
@@ -250,6 +251,70 @@
    ],
    "validity_checked": "2026-10-28",
    "validity_research_note": "公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。相手のビンフック省は合併でフート省となっている。法的拘束力のある協定の可能性。"
+  },
+  {
+   "id": "JP-09-004",
+   "group_key": "09:09-VN-VinhPhuc-economy",
+   "renewal_of": "JP-09-002",
+   "title_ja": "栃木県とベトナム・フート省との覚書（2025年12月の再締結。正式名称未確認）",
+   "title_original": "",
+   "doc_type": "覚書",
+   "doc_type_note": "県資料の表記は「覚書の再締結」。原文・正式名称は未公開・未確認",
+   "japan_level": "prefecture",
+   "japan_org": "栃木県",
+   "pref_code": "09",
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "VN",
+   "partner_org": "フート省（2025年7月にビンフック省・旧フート省・ホアビン省が合併して発足）",
+   "partner_org_en": "Phu Tho Province",
+   "partner_type": "subnational_gov",
+   "additional_partners": [],
+   "signed_date": "2025-12",
+   "announced_date": null,
+   "date_note": "県資料に「2025(令和７)年12月」とあり、日は未確認",
+   "fields": [
+    "economy",
+    "agri"
+   ],
+   "labor_detail": [],
+   "purpose": "2021年のビンフック省との覚書（貿易投資や農業などの経済交流の促進）を、合併後のフート省と再締結したもの（県資料の記載による。内容の詳細は未確認）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "not_public",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "とちぎの国際化の概要2026（令和8（2026）年度）",
+     "publisher": "栃木県産業労働観光部国際経済課",
+     "url": "https://www.pref.tochigi.lg.jp/f04/documents/20260903094505.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "p.24「令和７(2025)年12 月、知事及び県議会議長等の本県訪問団がフート省を訪問。同書記と会談を実施し、覚書の再締結を実施」、p.13 国際交流推進事業の対象「協定や覚書を締結している５つの都市」に「越・フート省」、p.49-50 の交流の歴史にも同じ記載"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-28",
+   "notes": "同じ協定の再締結として、2021年11月のビンフック省との覚書（JP-09-002）と同じグループにまとめ、件数は1件と数える。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県の「とちぎの国際化の概要2026」（令和8年度）が、2025年12月の覚書の再締結を記載し、国際交流推進事業の対象として「協定や覚書を締結している５つの都市」にフート省を挙げており、現在運用中の取決めとして明示している（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "原文・有効期間の定めは公開されておらず未確認。根拠Cによる有効確認。"
   }
  ]
 }

@@ -1205,7 +1205,8 @@
     "v2"
    ],
    "validity_checked": "2026-10-28",
-   "validity_research_note": "後継の協定書（R4.4.1、高知県・高知大学・ヨーテボリ大学）は本データ未登録。"
+   "validity_research_note": "後継の協定書（R4.4.1、高知県・高知大学・イェーテボリ大学）は JP-39-027 として登録。",
+   "successor_id": "JP-39-027"
   },
   {
    "id": "JP-39-015",
@@ -2364,6 +2365,71 @@
    ],
    "validity_checked": "2026-10-28",
    "validity_research_note": "令和7年度分（2025-07署名）の念書・覚書等整理表は公開ページに掲載がなく状態を確認できず。効力発生の完了を示す公式資料も見つからない。"
+  },
+  {
+   "id": "JP-39-027",
+   "group_key": "39:39-SE-24",
+   "renewal_of": "JP-39-014",
+   "title_ja": "イェーテボリ大学ギルバーグ神経精神医学センターと国立大学法人高知大学及び高知県との協定書",
+   "title_original": "",
+   "doc_type": "協定書",
+   "doc_type_note": "県の念書・覚書等整理表の件名による。2016年の協定書（高知県とヨーテボリ大学）を、高知大学を加えた3者の協定書として引き継いだもの",
+   "japan_level": "prefecture",
+   "japan_org": "高知県",
+   "pref_code": "39",
+   "japan_signatory": "高知県知事",
+   "other_japan_parties": [
+    "国立大学法人高知大学 学長"
+   ],
+   "country_code": "SE",
+   "partner_org": "イェーテボリ大学サルグレンスアカデミー学部長ほか",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "additional_partners": [],
+   "signed_date": "2022-04-01",
+   "announced_date": null,
+   "date_note": "",
+   "fields": [
+    "medical"
+   ],
+   "labor_detail": [],
+   "purpose": "高知県ギルバーグ発達神経精神医学センターでの臨床研究及び臨床教育での指導及び協力を得るための協定（県の整理表の記載）",
+   "content": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "status": "unknown",
+   "status_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "not_public",
+   "evidence_level": "official_list",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "念書・覚書等整理表（令和元年度から令和6年度に締結したもの）令和7年3月31日現在",
+     "publisher": "高知県 総務部法務文書課",
+     "url": "https://www.pref.kochi.lg.jp/doc/joko-nensho-index/file_contents/file_20263301191329_1.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "No.173「イェーテボリ大学ギルバーグ神経精神医学センターと国立大学法人高知大学及び高知県との協定書」R4.4.1、締結者：知事・国立大学法人高知大学学長・スウェーデンイェーテボリ大学サルグレンスアカデミー学部長ほか、担当：子ども・福祉政策部障害福祉課、状態：継続中"
+    }
+   ],
+   "survey_stage": 2,
+   "last_checked": "2026-10-28",
+   "notes": "2016年の協定書（JP-39-014、期間終了 2022-03-31）の後継。同じ協定として同じグループにまとめ、件数は1件と数える。",
+   "validity_state": "valid_confirmed",
+   "validity_basis": "県の念書・覚書等整理表（令和元年度から令和6年度に締結したもの、令和7年3月31日現在）No.173に「継続中」と記載（根拠C）。",
+   "auto_renewal": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "validity_research_note": "協定書の原文・有効期間は公開されておらず未確認。根拠Cによる有効確認。"
   }
  ]
 }

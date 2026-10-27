@@ -32,6 +32,35 @@ export function today() {
   return `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, '0')}-${String(t.getDate()).padStart(2, '0')}`;
 }
 
+// その月の日数（うるう年の2月は29日）
+export function daysInMonth(y, m) {
+  return new Date(Date.UTC(y, m, 0)).getUTCDate();
+}
+const pad2 = n => String(n).padStart(2, '0');
+// "2026" / "2026-02" / "2026-02-28" を読み取る。存在しない日付（2026-02-31 など）や形の誤りは null
+export function parseDate(d) {
+  const m = String(d ?? '').trim().match(/^(\d{4})(?:-(\d{1,2})(?:-(\d{1,2}))?)?$/);
+  if (!m) return null;
+  const y = Number(m[1]), mo = m[2] ? Number(m[2]) : null, da = m[3] ? Number(m[3]) : null;
+  if (mo !== null && (mo < 1 || mo > 12)) return null;
+  if (da !== null && (da < 1 || da > daysInMonth(y, mo))) return null;
+  return { y, m: mo, d: da, precision: da !== null ? 'day' : mo !== null ? 'month' : 'year' };
+}
+// 期間の最後の日（期限の比較用）。"2026-02" → "2026-02-28"、"2028-02" → "2028-02-29"、"2026" → "2026-12-31"
+export function periodEnd(d) {
+  const p = parseDate(d);
+  if (!p) return null;
+  if (p.precision === 'year') return `${p.y}-12-31`;
+  if (p.precision === 'month') return `${p.y}-${pad2(p.m)}-${pad2(daysInMonth(p.y, p.m))}`;
+  return `${p.y}-${pad2(p.m)}-${pad2(p.d)}`;
+}
+// 期間の最初の日（開始日の比較用）。"2027-01" → "2027-01-01"
+export function periodStart(d) {
+  const p = parseDate(d);
+  if (!p) return null;
+  return `${p.y}-${pad2(p.m || 1)}-${pad2(p.d || 1)}`;
+}
+
 // 金額：不明は「未確認」。0円とは表示しない
 export function fmtYen(n) {
   if (n === null || n === undefined || n === '' || Number.isNaN(Number(n))) return '未確認';

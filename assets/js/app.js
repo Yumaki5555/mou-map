@@ -4,7 +4,7 @@ import { esc, fmtDate, toast } from './util.js';
 import { mapPage } from './page-map.js';
 import {
   homePage, countryIndexPage, countryPage, fieldIndexPage, impactPage, prefPage, mouPage, nationalPage,
-  comparePage, aboutPage, dataPage, searchPage, notFound, typesPage, issuesPage,
+  comparePage, aboutPage, dataPage, searchPage, notFound, typesPage, issuesPage, listPage,
 } from './pages.js';
 import { setScope } from './shared.js';
 
@@ -19,14 +19,15 @@ const ROUTES = [
   [/^\/country$/, ctx => countryIndexPage(ctx), '相手国から探す', 'country'],
   [/^\/country\/([A-Z]{2})$/, (ctx, m) => countryPage(ctx, m[1]), null, 'country'],
   [/^\/types$/, ctx => typesPage(ctx), '協定・取決めの種類から探す', 'types'],
-  [/^\/field$/, ctx => fieldIndexPage(ctx), '分野から探す', 'field'],
+  [/^\/field$/, ctx => fieldIndexPage(ctx), '分野・省庁から探す', 'field'],
+  [/^\/list$/, ctx => listPage(ctx), '有効性の区分で探す', 'list'],
   [/^\/impact$/, ctx => impactPage(ctx), '地域への影響を調べる', 'impact'],
   [/^\/pref\/(\d{2})$/, (ctx, m) => prefPage(ctx, m[1]), null, 'map'],
   [/^\/mou\/(.+)$/, (ctx, m) => mouPage(ctx, decodeURIComponent(m[1])), null, null],
-  [/^\/national$/, ctx => nationalPage(ctx), '国・省庁の協定', 'national'],
+  [/^\/national$/, ctx => nationalPage(ctx), '国・省庁の協定', 'field'],
   [/^\/compare$/, ctx => comparePage(ctx), '比較グラフ', 'compare'],
   [/^\/issues$/, ctx => issuesPage(ctx), '制度の課題を考える', 'issues'],
-  [/^\/about$/, ctx => aboutPage(ctx), '出典・調査状況・使い方', 'about'],
+  [/^\/about$/, ctx => aboutPage(ctx), '調査状況・出典・使い方', 'about'],
   [/^\/data$/, ctx => dataPage(ctx), 'データ', 'data'],
   [/^\/search$/, ctx => searchPage(ctx), '検索', null],
 ];
@@ -68,6 +69,7 @@ function render() {
   if (!matched) notFound(ctx);
   document.title = (title && nav !== 'home' ? `${title}｜` : '') + '日本と世界のMOU・協定マップ';
   document.querySelectorAll('[data-nav]').forEach(a => { if (a.dataset.nav === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  setMenu(false);
   // ページ内の見出しへの移動（#/?to=sanpun など）
   const to = params.get('to');
   if (to && document.getElementById(to)) {
@@ -88,7 +90,18 @@ function jumpTo(id, smooth = true) {
   return true;
 }
 
+// スマートフォンのメニュー（「メニュー」ボタンで開閉。項目を押すか Esc キーで閉じる）
+const menuBtn = document.getElementById('menu-btn');
+function setMenu(open) {
+  if (!menuBtn) return;
+  menuBtn.setAttribute('aria-expanded', String(open));
+  document.body.classList.toggle('menu-open', open);
+}
+menuBtn?.addEventListener('click', () => setMenu(menuBtn.getAttribute('aria-expanded') !== 'true'));
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && document.body.classList.contains('menu-open')) { setMenu(false); menuBtn.focus(); } });
+
 document.addEventListener('click', e => {
+  if (e.target.closest('.site-nav a')) setMenu(false);
   // 用語ボタン（点線の下線）を押すと説明を表示
   const t = e.target.closest('.term[data-term]');
   if (t) toast(t.getAttribute('title'));

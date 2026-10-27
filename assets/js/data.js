@@ -1,5 +1,5 @@
 // データの読み込みと集計。表示用の言葉（ラベル）もここで一元管理します。
-import { yearOf, dateKey, norm, today } from './util.js';
+import { yearOf, dateKey, norm, today, parseDate, periodEnd, periodStart } from './util.js';
 
 // ---------- 表示用ラベル ----------
 export const FIELDS = [
@@ -35,10 +35,14 @@ export const VALIDITIES = [
 ];
 export const VALIDITY = Object.fromEntries(VALIDITIES.map(v => [v.code, v]));
 // 件数に含める範囲の切り替え（地図・一覧・グラフ・CSV・画像のすべてで同じ基準を使う）
+// note は件数・地図のそばに出す説明。「すべて」でも締結予定は含めない（締結済み累計にも入れない）
 export const VALIDITY_SCOPES = [
-  { code: 'valid', ja: '有効確認のみ', states: ['valid_confirmed'], desc: '現在も有効だと公式資料で確認できたものだけ' },
-  { code: 'valid_unk', ja: '有効確認＋有効性未確認', states: ['valid_confirmed', 'unconfirmed'], desc: '終了確認・開始前を除いたもの' },
-  { code: 'all', ja: 'すべて（終了済みを含む）', states: ['valid_confirmed', 'unconfirmed', 'ended_confirmed', 'signed_not_started'], desc: '締結済みのものすべて（締結予定は含まない）' },
+  { code: 'valid', ja: '有効確認のみ', states: ['valid_confirmed'], desc: '現在も有効だと公式資料で確認できたものだけ',
+    note: '現在有効と公式資料で確認できた協定だけを表示しています。有効性未確認の協定は含みません。' },
+  { code: 'valid_unk', ja: '有効確認＋有効性未確認', states: ['valid_confirmed', 'unconfirmed'], desc: '終了確認・開始前を除いたもの',
+    note: '現在有効と確認できた協定に、今も有効かどうか公式資料で確かめられていない協定（有効性未確認）を加えて表示しています。終了確認・開始前・締結予定の協定は含みません。' },
+  { code: 'all', ja: 'すべて（終了を含む・予定は除く）', states: ['valid_confirmed', 'unconfirmed', 'ended_confirmed', 'signed_not_started'], desc: '締結済みのものすべて（締結予定は含まない）',
+    note: '締結済みのすべての協定（有効確認・有効性未確認・終了確認・締結済み開始前）を表示しています。締結予定の協定は含みません。' },
 ];
 export const VALIDITY_SCOPE = Object.fromEntries(VALIDITY_SCOPES.map(v => [v.code, v]));
 
@@ -163,6 +167,7 @@ export const SURVEY_RESULT = {
 export const ZERO_STATES = {
   none: { ja: '該当なし（公式資料で確認）', desc: '公式の一覧などで、該当するMOUがないことを確認' },
   not_found: { ja: '調査したが確認できず', desc: '調べたが、公式資料で確認できなかった（存在しないとは限らない）' },
+  partial: { ja: '調査が一部のみ（登録なし）', desc: '外国人材以外の分野の調査が一部しか済んでおらず、登録できた協定はない（調査が進めば見つかる可能性がある）' },
   not_surveyed: { ja: '未調査', desc: 'まだ調べていない' },
   scope_zero: { ja: 'いまの数え方では0件', desc: '締結済みの協定はあるが、いまの数え方（有効性の範囲・数える文書）には入らない（有効性未確認・終了確認など）' },
 };
@@ -318,22 +323,36 @@ function autoAgreed(m) {
 
 function normalize(m) {
   const r = { ...m };
-  r.fields = Array.isArray(r.fields) && r.fields.length ? r.fields : ['other'];
-  r.content = r.content || [];
-  r.sources = r.sources || [];
-  r.impacts = r.impacts || [];
-  r.budgets = r.budgets || [];
-  r.projects = r.projects || [];
+  // 項目が欠けていたり形が違っていたりしても画面が壊れないよう、配列・文字の形をそろえる
+  const arr = v => Array.isArray(v) ? v.filter(x => x !== null && x !== undefined) : [];
+  r._raw = m; // データ点検では、補う前の元の値を見る
+  r.id = r.id ? String(r.id) : '';
+  r.title_ja = r.title_ja ? String(r.title_ja) : '（名称未登録）';
+  r.doc_type = r.doc_type || '種類未確認';
+  r.partner_org = r.partner_org || '相手機関不明';
+  r.fields = arr(r.fields).length ? arr(r.fields) : ['other'];
+  r.content = arr(r.content).map(String);
+  r.summary = arr(r.summary).map(String);
+  r.sources = arr(r.sources).filter(s => typeof s === 'object');
+  r.impacts = arr(r.impacts).filter(i => typeof i === 'object');
+  r.budgets = arr(r.budgets).filter(b => typeof b === 'object');
+  r.projects = arr(r.projects).filter(p => typeof p === 'object');
+  r.validity_sources = arr(r.validity_sources);
+  r.additional_partners = arr(r.additional_partners);
+  r.labor_detail = arr(r.labor_detail);
   r.status = r.status || 'unknown';
   r.legal_binding = r.legal_binding || 'unconfirmed';
   r.evidence_level = r.evidence_level || 'official_announcement';
   r.doc_category = DOC_CATEGORY[r.doc_category] ? r.doc_category : 'mou_moc';
-  r.numbers = r.numbers || [];
-  r.related_systems = r.related_systems || [];
-  r.acceptance_types = r.acceptance_types || [];
+  r._numbersResearched = Array.isArray(m.numbers);
+  r.numbers = Array.isArray(r.numbers) ? r.numbers : [];
+  r.related_systems = arr(r.related_systems);
+  r.acceptance_types = arr(r.acceptance_types);
   r._official = r.evidence_level !== 'news_only';
   r._relation = deriveRelation(r);
-  r._validity = validityState(r);
+  const vi = validityInfo(r);
+  r._validity = vi.state;
+  r._validityReason = vi.reason;
   r._autoImpacts = autoAgreed(r);
   r._year = yearOf(r.signed_date);
   return r;
@@ -385,13 +404,51 @@ export function zeroState(db, prefCode, field) {
     if (s1 === 'not_surveyed') return 'not_surveyed';
     return s1 === 'none_confirmed' ? 'none' : 'not_found';
   }
+  // 外国人材以外の分野：公式の一覧を確認した県は「該当なし」、一部だけ調べた県は「調査が一部のみ」
   if (field) {
     if (s2 === 'not_surveyed') return 'not_surveyed';
-    return s2 === 'list_checked' ? 'none' : 'not_found';
+    return s2 === 'list_checked' ? 'none' : 'partial';
   }
+  // すべての分野：両方の段階を調べ終えた県だけ「該当なし」「調査したが確認できず」とし、
+  // 外国人材以外の分野が一部しか調べられていない県は「調査が一部のみ」と分ける
   if (s1 === 'not_surveyed' && s2 === 'not_surveyed') return 'not_surveyed';
+  if (s2 === 'partial' || s2 === 'not_surveyed') return 'partial';
   if (s1 === 'none_confirmed' && s2 === 'list_checked') return 'none';
   return 'not_found';
+}
+
+// 調査状況の概要（トップ・調査状況のページで使う）。
+// groupsIn を渡すと、登録件数・有効性の件数をその範囲（いまの数え方）で数える。省略時は公式資料で確認できた全登録文書
+export function surveySummary(db, groupsIn) {
+  const P = db.survey.prefectures || {};
+  const codes = db.prefs.map(p => p.code);
+  const s1 = c => P[c]?.stage1?.result || 'not_surveyed';
+  const s2 = c => P[c]?.stage2?.result || 'not_surveyed';
+  const recheck = codes.filter(c => P[c]?.stage1?.recheck || P[c]?.stage2?.recheck);
+  const groups = groupsIn || db.groups.filter(g => g.official);
+  const signed = groups.filter(g => !g.planned);
+  const vc = validityCounts(signed);
+  return {
+    prefs: codes.length,
+    stage1Done: codes.filter(c => s1(c) !== 'not_surveyed').length,
+    stage2Listed: codes.filter(c => s2(c) === 'list_checked').length,
+    stage2Partial: codes.filter(c => s2(c) === 'partial').length,
+    stage2None: codes.filter(c => s2(c) === 'not_surveyed').length,
+    recheck: recheck.length,
+    recheckNames: recheck.map(c => db.prefByCode.get(c)?.name),
+    registered: signed.length,
+    registeredPref: signed.filter(g => g.level === 'prefecture').length,
+    registeredNat: signed.filter(g => g.level === 'national').length,
+    planned: groups.filter(g => g.planned).length,
+    docs: db.mous.length,
+    determined: vc.valid_confirmed + vc.ended_confirmed + vc.signed_not_started,
+    valid: vc.valid_confirmed,
+    ended: vc.ended_confirmed,
+    notStarted: vc.signed_not_started,
+    unconfirmed: vc.unconfirmed,
+    lastUpdated: db.config.last_updated,
+    asOf: db.config.data_as_of,
+  };
 }
 
 // その分野の調査がまだ一部だけかどうか（画面に注意を出すため）
@@ -418,19 +475,62 @@ export function impactLevel(groups, category) {
   return best || (groups.length ? 'no_info' : null);
 }
 
-// 協定の有効性（5区分）。データの validity_state に公式資料で確認した結果を書きます。
-// 書かれていないもの・判定できないものは「有効性未確認」。事業が実施中・自動更新・期限が過ぎた
-// というだけで、自動的に「有効」や「終了」にはしません。
-export function validityState(m) {
-  if (m.status === 'planned' && m.validity_state !== 'signed_not_started' && m.validity_state !== 'valid_confirmed') return 'planned';
-  const s = VALIDITY[m.validity_state] ? m.validity_state : 'unconfirmed';
-  // 確認した時点では有効でも、書かれた有効期限を過ぎたら、更新を確認できるまで「有効性未確認」として数える
-  if (s === 'valid_confirmed' && pastTerm(m)) return 'unconfirmed';
-  return s;
+// 有効期限。更新・延長後の期限（renewed_until）が公式資料で分かっていれば、当初の期限（valid_until）より優先します。
+// 年月だけ（"2026-02"）の期限はその月の末日（2026-02-28。うるう年は29日）、年だけ（"2028"）は12月31日まで有効として比べます。
+// 存在しない日付（"2026-02-31" など）は期限として使いません（データ点検で誤りとして表示）。
+export function termEnd(m) {
+  for (const [raw, renewed] of [[m.renewed_until, true], [m.valid_until, false]]) {
+    const date = periodEnd(raw);
+    if (date) return { date, raw: String(raw), renewed, precision: parseDate(raw).precision };
+  }
+  return null;
+}
+
+// 協定の有効性（5区分）の判定。データの validity_state には、公式資料で確認した時点の結果を書きます。
+// 書かれていないもの・判定できないものは「有効性未確認」。次のことだけでは「有効」にも「終了」にもしません：
+//   事業が続いている／自動更新の条項がある／古い一覧に載っている／期限が過ぎた（更新の有無が分からない）
+// asOf（基準日）を省略すると今日の日付で判定します。reason は画面で理由を説明するためのものです。
+export function validityInfo(m, asOf = today()) {
+  const rec = VALIDITY[m.validity_state] ? m.validity_state : 'unconfirmed';
+  // 1. 締結を確認できていない（予定の発表だけ）
+  if (rec === 'planned' || (m.status === 'planned' && !['signed_not_started', 'valid_confirmed', 'ended_confirmed'].includes(rec))) return { state: 'planned', reason: 'planned' };
+  // 2. 公式資料で終了・失効・後継協定への置き換えを確認したもの（途中終了を含む）
+  if (rec === 'ended_confirmed') return { state: 'ended_confirmed', reason: 'recorded' };
+  // 有効・開始前と確認していても、公式資料に書かれた終了日を過ぎたら終了確認
+  const ended = periodEnd(m.ended_date);
+  if (ended && ended < asOf && (rec === 'valid_confirmed' || rec === 'signed_not_started')) return { state: 'ended_confirmed', reason: 'ended_date' };
+  // 3. 締結済みだが、文書に書かれた開始日がまだ来ていない（年月だけの開始日は、その月が始まるまで）
+  const start = periodStart(m.effective_date);
+  if (start && start > asOf) return { state: 'signed_not_started', reason: rec === 'signed_not_started' ? 'recorded' : 'not_started' };
+  const end = termEnd(m);
+  // 4. 確認時点では開始前だったが、開始日が来たもの：書かれた期限の内側なら有効確認、期限が分からなければ未確認
+  if (rec === 'signed_not_started') {
+    if (!start) return { state: 'signed_not_started', reason: 'recorded' };
+    if (end && end.date >= asOf) return { state: 'valid_confirmed', reason: 'started', end };
+    return { state: 'unconfirmed', reason: end ? 'lapsed' : 'started_no_term', end };
+  }
+  // 5. 有効確認でも、期限（更新後の期限を優先）を過ぎたら、更新・延長を確認できるまで「有効性未確認」。
+  //    自動更新の条項があっても、更新されたことを公式資料で確認できなければ同じ扱い。期限の当日までは有効
+  if (rec === 'valid_confirmed' && end && end.date < asOf) return { state: 'unconfirmed', reason: 'lapsed', end };
+  return { state: rec, reason: 'recorded', end };
+}
+// 判定の理由（画面・CSVで説明に使う）
+export const VALIDITY_REASONS = {
+  recorded: '公式資料で確認した結果のとおり',
+  planned: '締結を確認できていない（予定の発表のみ）',
+  ended_date: '公式資料に書かれた終了日を過ぎたため終了',
+  not_started: '文書に書かれた開始日がまだ来ていないため開始前',
+  started: '開始日が来て、書かれた有効期間の内側にあるため有効',
+  started_no_term: '開始日は来たが、有効期間が分からないため未確認',
+  lapsed: '書かれた有効期限（更新後の期限を優先）を過ぎ、更新・延長を公式資料で確認できていないため未確認',
+};
+export function validityState(m, asOf) {
+  return validityInfo(m, asOf).state;
 }
 // 確認時点では有効確認だったが、その後に期限を過ぎたもの（画面で理由を表示するため）
-export function lapsedSinceCheck(m) {
-  return m.validity_state === 'valid_confirmed' && pastTerm(m);
+export function lapsedSinceCheck(m, asOf) {
+  const i = validityInfo(m, asOf);
+  return i.reason === 'lapsed' && m.validity_state === 'valid_confirmed';
 }
 
 // 有効性の5区分の件数（締結済み累計＝有効確認＋未確認＋終了確認＋開始前。締結予定は含めない）
@@ -441,13 +541,58 @@ export function validityCounts(groups) {
   return c;
 }
 
-// 有効期限が書かれていて、それが過ぎているか（表示の注意書き用。判定には使わない）
-export function pastTerm(m) {
-  if (!m.valid_until) return false;
-  // "2028-10" は2028年10月末まで、"2028" は2028年末までとして比べる
-  const v = String(m.valid_until);
-  const end = v.length === 4 ? `${v}-12-31` : v.length === 7 ? `${v}-31` : v;
-  return end < today();
+// 有効期限（更新後の期限を優先）が書かれていて、それが過ぎているか（表示の注意書き用）
+export function pastTerm(m, asOf = today()) {
+  const end = termEnd(m);
+  return !!end && end.date < asOf;
+}
+
+// ---------- 項目ごとの調査状況 ----------
+// 「確認済み」「調査したが確認できず」「未調査」を区別します（不明なものを0や「なし」として扱わない）。
+// データに research（項目ごとの調査状況）が書かれていればそれを使い、なければ調査の範囲から次のように決めます。
+//   ・名称・日付・期間・自動更新・終了／更新・相手・文書の種類・出典：全件で有効性の確認時に調べている → 空欄は「調査したが確認できず」
+//   ・人数・事業の実施状況：外国人材・労働の協定（第1段階）は調べている → 空欄は「調査したが確認できず」、それ以外は「未調査」
+//   ・関連予算：予算書・決算書の網羅的な確認はまだ → 記録がなければ「未調査」
+export const RESEARCH_STATES = {
+  confirmed: { ja: '確認済み', desc: '公式資料で確認できた' },
+  not_found: { ja: '調査したが確認できず', desc: '調べたが公式資料で確認できなかった（存在しないとは限らない）' },
+  not_surveyed: { ja: '未調査', desc: 'まだ調べていない' },
+};
+const NUM_RE = /\d[\d,，]*\s*(人|名)/;
+export const AUTO_RENEWAL = { yes: '自動更新の条項あり', no: '自動更新の条項なし', not_stated: '原文に記載なし' };
+export function researchStatus(m) {
+  const r = m.research || {};
+  const researched = !!m.validity_checked;
+  const labor = (m.fields || []).includes('labor') || m._relation === 'direct';
+  const ok = (v) => ({ state: 'confirmed', value: v });
+  const nf = (why) => ({ state: 'not_found', value: why || '' });
+  const ns = (why) => ({ state: 'not_surveyed', value: why || '' });
+  const term = m.term_text || (m.valid_until ? `期限：${m.valid_until}` : '') || ({ indefinite: '期間の定めなし', not_stated: '原文に期間の記載なし' }[m.validity_type] || '');
+  const items = [
+    ['title', '協定の正式名称', () => m.title_ja ? ok(m.title_ja) : nf()],
+    ['signed', '締結日', () => m.signed_date ? ok(m.signed_date) : nf(m.date_note)],
+    ['effective', '発効日・開始日', () => m.effective_date ? ok(m.effective_date) : researched ? nf() : ns()],
+    ['term', '有効期間', () => term ? ok(term) : researched ? nf() : ns()],
+    ['auto', '自動更新の有無', () => AUTO_RENEWAL[m.auto_renewal] ? ok(AUTO_RENEWAL[m.auto_renewal]) : researched ? nf() : ns()],
+    ['end', '終了・更新の情報', () => (m.ended_date || m.end_reason) ? ok(`終了：${m.ended_date || '日付不明'}${m.end_reason ? '（' + m.end_reason + '）' : ''}`)
+      : (m.renewed_until || m.last_renewed) ? ok(`更新・延長：${m.last_renewed || ''}${m.renewed_until ? '（更新後の期限 ' + m.renewed_until + '）' : ''}`)
+        : m.validity_state === 'valid_confirmed' ? ok('終了の情報なし（現在の効力を確認）') : researched ? nf('更新・終了の情報は見つからず') : ns()],
+    ['partner', '相手国・相手機関', () => m.partner_org && m.country_code ? ok(m.partner_org) : nf()],
+    ['doctype', '文書の種類', () => m.doc_type ? ok(m.doc_type) : nf()],
+    ['relation', '外国人受入れとの関連', () => m._relation === 'unconfirmed' ? nf('合意内容を確認できず') : ok(RELATION[m._relation]?.ja + (m.foreign_relation ? '' : '（合意内容の記載からこのサイトが分類）'))],
+    ['numbers', '人数の目標・実績', () => (m.numbers || []).length ? ok(`${m.numbers.length}項目`)
+      : (m.impacts || []).some(i => i.category === 'population' && NUM_RE.test(i.text || '')) ? ok('地域への影響の記録に記載')
+        : (m._numbersResearched || labor) ? nf() : ns('外国人材以外の協定は未調査')],
+    ['status', '事業の実施状況', () => ['in_progress', 'completed', 'expired'].includes(m.status) ? ok(STATUS[m.status].ja)
+      : (m.status === 'signed' || labor) ? nf('具体的な事業は確認できず') : ns('外国人材以外の協定は未調査')],
+    ['budget', '関連予算', () => (m.budgets || []).length ? ok(`${m.budgets.length}件の記録`) : m.budget_status === 'none_confirmed' ? ok('該当なし（公式資料で確認）') : ns('予算書・決算書の網羅的な確認は未実施')],
+    ['source', '公式出典', () => m.evidence_level === 'news_only' ? nf('報道のみ') : (m.sources || []).length ? ok(`${m.sources.length}件`) : nf()],
+  ];
+  return items.map(([key, ja, f]) => {
+    const given = r[key];
+    const v = RESEARCH_STATES[given] ? { state: given, value: '' } : f();
+    return { key, ja, ...v };
+  });
 }
 
 // ---------- 統計（参考） ----------
@@ -498,25 +643,33 @@ export function findCountries(db, q) {
 }
 
 // ---------- データ点検（入力ミスを見つける） ----------
-const DATE_RE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
 export function validate(db) {
   const issues = [];
   const ids = new Map();
   const add = (m, level, msg) => issues.push({ id: m.id || '(IDなし)', file: m._file, level, msg });
   for (const m of db.mous) {
+    const raw = m._raw || m;
     if (!m.id) add(m, 'error', 'id がありません');
     else if (ids.has(m.id)) add(m, 'error', `id が重複しています（${ids.get(m.id)} と同じ）`);
     else ids.set(m.id, m._file);
-    if (!m.title_ja) add(m, 'error', 'title_ja（正式名称）がありません');
-    if (!m.doc_type) add(m, 'error', 'doc_type（文書の種類）がありません');
+    if (!raw.title_ja) add(m, 'error', 'title_ja（正式名称）がありません');
+    if (!raw.doc_type) add(m, 'error', 'doc_type（文書の種類）がありません');
+    // 日付は形だけでなく、実在する日付か（2026-02-31 などでないか）も確かめる
+    for (const k of ['effective_date', 'valid_until', 'renewed_until', 'ended_date', 'last_renewed', 'validity_checked', 'last_checked']) {
+      if (raw[k] && !parseDate(raw[k])) add(m, 'error', `${k}「${raw[k]}」は存在しない日付か、形が正しくありません（YYYY-MM-DD / YYYY-MM / YYYY）`);
+    }
+    if (raw.renewed_until && raw.valid_until && periodEnd(raw.renewed_until) && periodEnd(raw.renewed_until) < periodEnd(raw.valid_until)) add(m, 'warn', '更新後の期限（renewed_until）が当初の期限（valid_until）より前です');
+    if (raw.effective_date && raw.valid_until && periodStart(raw.effective_date) && periodEnd(raw.valid_until) && periodEnd(raw.valid_until) < periodStart(raw.effective_date)) add(m, 'error', '有効期限が開始日より前です');
+    if (raw.signed_date && raw.effective_date && parseDate(raw.signed_date)?.precision === 'day' && parseDate(raw.effective_date)?.precision === 'day' && raw.effective_date < raw.signed_date && !raw.date_note) add(m, 'warn', '開始日が締結日より前です（遡って適用する場合は date_note に説明を）');
+    if (m.validity_state === 'valid_confirmed' && !m.validity_sources.length) add(m, 'warn', '「有効確認」の根拠資料（validity_sources）がありません');
     if (!LEVELS[m.japan_level]) add(m, 'error', 'japan_level は national / prefecture / municipality のいずれか');
     if ((m.japan_level === 'prefecture' || m.japan_level === 'municipality') && !db.prefByCode.has(m.pref_code)) add(m, 'error', 'pref_code が正しくありません（"01"〜"47"）');
     if (m.japan_level === 'municipality' && !/^\d{6}$/.test(m.municipality_code || '')) add(m, 'error', '市区町村のMOUには municipality_code（全国地方公共団体コード6桁）が必要です');
     if (!db.countryByCode.has(m.country_code)) add(m, 'error', `country_code「${m.country_code}」が countries.json にありません`);
     for (const a of m.additional_partners || []) if (!db.countryByCode.has(a.country_code)) add(m, 'error', `additional_partners の country_code「${a.country_code}」が countries.json にありません`);
-    if (m.signed_date && !DATE_RE.test(m.signed_date)) add(m, 'error', 'signed_date は YYYY-MM-DD / YYYY-MM / YYYY の形で');
+    if (m.signed_date && !parseDate(m.signed_date)) add(m, 'error', 'signed_date は実在する日付を YYYY-MM-DD / YYYY-MM / YYYY の形で');
     if (!m.signed_date && !m.effective_date && m.status !== 'planned') add(m, 'warn', '締結日が不明です（分かれば追加してください）');
-    if (m.announced_date && !DATE_RE.test(m.announced_date)) add(m, 'error', 'announced_date の形が正しくありません');
+    if (m.announced_date && !parseDate(m.announced_date)) add(m, 'error', 'announced_date の形が正しくないか、存在しない日付です');
     for (const f of m.fields) if (!FIELD[f]) add(m, 'error', `分野コード「${f}」が正しくありません`);
     if (!STATUS[m.status]) add(m, 'error', `status「${m.status}」が正しくありません`);
     if (!PARTNER_TYPES[m.partner_type]) add(m, 'warn', `partner_type「${m.partner_type}」が正しくありません`);
@@ -526,7 +679,7 @@ export function validate(db) {
     const sids = new Set(m.sources.map(s => s.id));
     for (const s of m.sources) {
       if (!/^https?:\/\//.test(s.url || '')) add(m, 'error', `情報源 ${s.id} の URL がありません`);
-      if (!s.checked || !DATE_RE.test(s.checked)) add(m, 'error', `情報源 ${s.id} の確認日（checked）がありません`);
+      if (!s.checked || !parseDate(s.checked)) add(m, 'error', `情報源 ${s.id} の確認日（checked）がないか、日付が正しくありません`);
     }
     for (const b of m.budgets) {
       if (b.amount_yen !== null && b.amount_yen !== undefined && typeof b.amount_yen !== 'number') add(m, 'error', '予算の amount_yen は数字か null（不明）で');
@@ -554,6 +707,9 @@ export function validate(db) {
       for (const s of n.sources || []) if (!sids.has(s)) add(m, 'error', `人数の根拠 ${s} が sources にありません`);
     }
     if (m.successor_id && !db.mouById.has(m.successor_id)) add(m, 'error', `successor_id「${m.successor_id}」のIDが見つかりません`);
+    // 後継協定は同じ group_key にして、件数を二重に数えない
+    else if (m.successor_id && db.mouById.get(m.successor_id).group_key !== m.group_key) add(m, 'warn', `後継の文書 ${m.successor_id} が別のグループです（同じ協定なら group_key をそろえてください）`);
+    if (m.renewal_of && db.mouById.has(m.renewal_of) && db.mouById.get(m.renewal_of).group_key !== m.group_key) add(m, 'warn', `更新元 ${m.renewal_of} が別のグループです（二重計上の可能性）`);
   }
   // 同じ協定の版がちがう group_key で二重に登録されていないか（同じ相手・同じ名称・同じ締結日）
   const seen = new Map();

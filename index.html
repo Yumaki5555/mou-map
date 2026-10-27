@@ -4,9 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>日本と世界のMOU・協定マップ｜海外との約束と地域への影響</title>
-<meta name="description" content="日本政府や都道府県が海外と結んだ覚書（MOU）・協定を、地図と公式資料から調べられます。外国人材の受入れに関係するEPA・交換公文・ワーキング・ホリデーの取決めや、地域への影響も確認できます。">
+<meta name="description" content="日本政府や都道府県が海外と結んだ覚書（MOU）・協定を、地図と公式資料から調べられます。現在有効と確認できる協定・終了した協定・有効性が未確認の協定を分けて表示し、外国人材の受入れに関係するEPA・交換公文・ワーキング・ホリデーの取決めや、地域への影響も確認できます。">
+<link rel="canonical" href="https://yumaki5555.github.io/mou-map/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="日本と世界のMOU・協定マップ">
 <meta property="og:title" content="日本と世界のMOU・協定マップ">
-<meta property="og:description" content="どの国と、何を約束した？ 私たちの地域に何が起こる？">
+<meta property="og:description" content="どの国と、何を約束した？ 私たちの地域に何が起こる？ 国・都道府県が海外と結んだ覚書・協定を、公式資料にもとづいて地図で調べられます。">
+<meta property="og:url" content="https://yumaki5555.github.io/mou-map/">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="日本と世界のMOU・協定マップ">
+<meta name="twitter:description" content="国・都道府県が海外と結んだ覚書・協定を、公式資料にもとづいて地図で調べられます。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f7a4a'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3EM%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -21,25 +29,26 @@
         <span class="brand-sub">どの国と、何を約束した？ 私たちの地域に何が起こる？</span>
       </span>
     </a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-nav">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <span>メニュー</span>
+    </button>
     <form class="header-search" role="search" id="global-search">
       <label class="visually-hidden" for="global-q">サイト内を検索</label>
       <input id="global-q" type="search" placeholder="県名・国名・協定名で検索" autocomplete="off">
       <button class="btn btn-small" type="submit">検索</button>
     </form>
   </div>
-  <nav class="site-nav" aria-label="メインメニュー">
+  <nav class="site-nav" id="site-nav" aria-label="メインメニュー">
     <div class="wrap nav-inner">
       <a href="#/?to=sanpun" data-jump="sanpun" data-nav="home">3分でわかる</a>
       <a href="#/map" data-nav="map">日本地図</a>
       <a href="#/country" data-nav="country">相手国</a>
       <a href="#/types" data-nav="types">協定の種類</a>
-      <a href="#/field" data-nav="field">分野</a>
-      <a href="#/national" data-nav="national">国・省庁</a>
+      <a href="#/field" data-nav="field">分野・省庁</a>
       <a href="#/impact" data-nav="impact">地域への影響</a>
-      <a href="#/compare" data-nav="compare">比較グラフ</a>
-      <a href="#/issues" data-nav="issues">課題を考える</a>
-      <a href="#/about" data-nav="about">出典・調査状況</a>
-      <a href="#/data" data-nav="data">データ</a>
+      <a href="#/compare" data-nav="compare">比較</a>
+      <a href="#/about" data-nav="about">調査状況</a>
     </div>
   </nav>
 </header>
@@ -51,9 +60,9 @@
 <footer class="site-footer">
   <div class="wrap">
     <p id="footer-updated"></p>
-    <p>このサイトは、公開された公式資料で確認できた範囲の情報を整理したものです。政治的な評価は行っていません。数字は「確認できたもの」のみで、不明な値を0として扱っていません。協定の件数は、初期設定では「現在も有効だと公式資料で確認できたもの」だけを数えています。</p>
+    <p>このサイトは、公開された公式資料で確認できた範囲の情報を整理したものです。政治的な評価は行っていません。数字は「確認できたもの」のみで、不明な値を0として扱っていません。協定の件数は、このサイトに登録した協定の数で、全国の実際の総数ではありません。初期設定では「現在も有効だと公式資料で確認できたもの」だけを数えています。</p>
     <p>地図：「国土数値情報（行政区域データ）」（国土交通省）<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_0.html" target="_blank" rel="noopener">https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_0.html</a> をもとに、スマートニュース メディア研究所が簡略化したデータ（<a href="https://github.com/smartnews-smri/japan-topography" target="_blank" rel="noopener">japan-topography</a>）を加工して作成。</p>
-    <p><a href="#/about">出典・調査範囲・方法・注意点</a> ／ <a href="#/issues">制度の課題を考える</a> ／ <a href="#/data">データのダウンロード</a></p>
+    <p class="footer-links"><a href="#/list">有効性の区分で探す</a><a href="#/about">出典・調査範囲・方法・注意点</a><a href="#/issues">制度の課題を考える</a><a href="#/data">データのダウンロード（CSV）</a></p>
   </div>
 </footer>
 

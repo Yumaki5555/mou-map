@@ -34,6 +34,9 @@ mou-map/
 └─ tools/
     ├─ serve.py               … 手元のパソコンで表示を確認するためのもの
     ├─ check_links.py         … 出典URLが開けるかの確認
+    ├─ test_site.mjs          … 有効期限の境界・件数の一致などの自動テスト（node tools/test_site.mjs）
+    ├─ audit_data.mjs         … 取り違えやすいデータの洗い出し（node tools/audit_data.mjs）
+    ├─ summary.mjs            … 有効性の5区分の件数・調査状況の概要（node tools/summary.mjs）
     └─ template_mou.json      … MOU1件分のひな形
 ```
 

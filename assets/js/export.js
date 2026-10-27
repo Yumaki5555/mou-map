@@ -1,14 +1,14 @@
 // X（旧Twitter）向けの画像（横長16:9のPNG）を作ります。
 // どの画像にも、タイトル・対象地域・対象期間・出典・確認日を必ず入れます。
 // スマートフォンで見ても読めるよう、本文は32px以上を基本にしています。
-import { drawMapCanvas, swatchStyle, PATTERNS } from './map.js';
+import { drawMapCanvas, swatchStyle, PATTERNS, canvasPattern } from './map.js';
 import { drawHBarCanvas } from './charts.js';
 import { downloadBlob, toast } from './util.js';
 
 const W = 1600, H = 900;
 const FONT = '"BIZ UDPGothic","Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic","Meiryo",sans-serif';
 const GREEN = '#1d7347', TEXT = '#1c2621', MUTED = '#56655c';
-const FOOT_H = 152;
+const FOOT_H = 186;
 
 function newCanvas() {
   const c = document.createElement('canvas');
@@ -55,10 +55,11 @@ function footer(ctx, meta) {
   const y0 = H - FOOT_H;
   ctx.fillStyle = '#f3f7f4'; ctx.fillRect(0, y0, W, FOOT_H);
   ctx.fillStyle = GREEN; ctx.fillRect(0, y0, W, 4);
-  text(ctx, `対象地域：${meta.region}`, 56, y0 + 14, { size: 27, bold: true, maxW: W - 112 });
-  text(ctx, `対象期間：${meta.period}　確認日：${meta.checked}`, 56, y0 + 50, { size: 25, bold: true, maxW: W - 112 });
-  text(ctx, `出典：${meta.source}`, 56, y0 + 84, { size: 23, color: TEXT, maxW: W - 112, maxLines: 1 });
-  text(ctx, '日本と世界のMOU・協定マップ　※公式資料で確認できた範囲の集計。不明・未調査を0件とはしていません', 56, y0 + 116, { size: 21, color: MUTED, maxW: W - 112, maxLines: 1 });
+  text(ctx, `対象：${meta.region}`, 56, y0 + 12, { size: 26, bold: true, maxW: W - 112 });
+  if (meta.cond) text(ctx, `件数の条件：${meta.cond}`, 56, y0 + 46, { size: 23, bold: true, color: GREEN, maxW: W - 112, maxLines: 1 });
+  text(ctx, `対象時点：${meta.period}　確認日：${meta.checked}`, 56, y0 + 80, { size: 23, bold: true, maxW: W - 112 });
+  text(ctx, `出典：${meta.source}`, 56, y0 + 114, { size: 22, color: TEXT, maxW: W - 112, maxLines: 1 });
+  text(ctx, '日本と世界のMOU・協定マップ（登録済み協定の集計。全国の総数ではありません）　※不明・未調査を0件とはしていません', 56, y0 + 148, { size: 21, color: MUTED, maxW: W - 112, maxLines: 1 });
 }
 
 function save(c, filename) {
@@ -66,19 +67,13 @@ function save(c, filename) {
 }
 
 function legendSwatch(ctx, x, y, fill, size = 34) {
-  if (fill === PATTERNS.not_found || fill === PATTERNS.not_surveyed) {
-    ctx.fillStyle = fill === PATTERNS.not_found ? '#f4f6f5' : '#fff'; ctx.fillRect(x, y, size, size * 0.72);
-    ctx.save(); ctx.beginPath(); ctx.rect(x, y, size, size * 0.72); ctx.clip();
-    if (fill === PATTERNS.not_found) {
-      ctx.strokeStyle = '#a3aea8'; ctx.lineWidth = 2.5;
-      for (let i = -size; i < size * 2; i += 7) { ctx.beginPath(); ctx.moveTo(x + i, y + size); ctx.lineTo(x + i + size, y - 2); ctx.stroke(); }
-    } else {
-      ctx.fillStyle = '#7d8a83';
-      for (let i = 4; i < size; i += 7) for (let j = 4; j < size * 0.72; j += 7) { ctx.beginPath(); ctx.arc(x + i, y + j, 1.4, 0, 7); ctx.fill(); }
-    }
-    ctx.restore();
-  } else { ctx.fillStyle = fill; ctx.fillRect(x, y, size, size * 0.72); }
-  ctx.strokeStyle = '#9aa8a0'; ctx.lineWidth = 1.5; ctx.strokeRect(x, y, size, size * 0.72);
+  const h = size * 0.72;
+  const kind = Object.keys(PATTERNS).find(k => PATTERNS[k] === fill && String(fill).startsWith('url('));
+  if (kind) {
+    // 模様の凡例は、地図と同じ模様で塗る
+    ctx.save(); ctx.translate(x, y); ctx.fillStyle = canvasPattern(ctx, kind); ctx.fillRect(0, 0, size, h); ctx.restore();
+  } else { ctx.fillStyle = fill; ctx.fillRect(x, y, size, h); }
+  ctx.strokeStyle = '#9aa8a0'; ctx.lineWidth = 1.5; ctx.strokeRect(x, y, size, h);
 }
 
 // ① 都道府県別の地図（表示中の地図モードのまま）
@@ -94,8 +89,10 @@ export function exportMap(db, opts) {
   const maxW = W - x - 50;
   if (opts.legendTitle) y = text(ctx, opts.legendTitle, x, y, { size: 30, bold: true, maxW }) + 6;
   for (const l of opts.legend || []) {
-    legendSwatch(ctx, x, y + 6, l.fill, 40);
-    y = text(ctx, l.label, x + 54, y, { size: 30, maxW: maxW - 54 }) + 8;
+    // 凡例が多いときは少し詰めて、右側の説明が入る場所を残す
+    const many = (opts.legend || []).length > 6;
+    legendSwatch(ctx, x, y + (many ? 4 : 6), l.fill, many ? 34 : 40);
+    y = text(ctx, l.label, x + 54, y, { size: many ? 27 : 30, maxW: maxW - 54 }) + (many ? 4 : 8);
   }
   y += 10;
   for (const s of opts.side || []) {

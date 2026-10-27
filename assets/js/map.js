@@ -126,7 +126,11 @@ export class JapanMap {
       .attr('fill', f => fill(f.properties.code))
       .classed('selected', f => f.properties.code === selected)
       .attr('aria-pressed', f => f.properties.code === selected ? 'true' : 'false')
-      .attr('aria-label', f => `${f.properties.name}：${stripTags(this.state.tip(f.properties.code))}`);
+      .attr('aria-label', f => {
+        // 説明文が県名で始まるときは、県名を重ねない
+        const t = stripTags(this.state.tip(f.properties.code));
+        return t.startsWith(f.properties.name) ? t.replace(f.properties.name, `${f.properties.name}：`).replace('： ', '：') : `${f.properties.name}：${t}`;
+      });
     this.paths.filter(f => f.properties.code === selected).raise();
     this.drawLabels();
   }
@@ -170,6 +174,7 @@ export const PATTERNS = {
   none: '#d9dfdb',
   scope_zero: '#f3ead2',
   not_found: 'url(#pat-notfound)',
+  partial: 'url(#pat-partial)',
   not_surveyed: 'url(#pat-unsurveyed)',
 };
 function addPatterns(defs) {
@@ -179,22 +184,30 @@ function addPatterns(defs) {
   const p2 = defs.append('pattern').attr('id', 'pat-unsurveyed').attr('patternUnits', 'userSpaceOnUse').attr('width', 6).attr('height', 6);
   p2.append('rect').attr('width', 6).attr('height', 6).attr('fill', '#ffffff');
   p2.append('circle').attr('cx', 3).attr('cy', 3).attr('r', 1.1).attr('fill', '#7d8a83');
+  // 調査が一部のみ：うすい黄色に横線
+  const p3 = defs.append('pattern').attr('id', 'pat-partial').attr('patternUnits', 'userSpaceOnUse').attr('width', 6).attr('height', 6);
+  p3.append('rect').attr('width', 6).attr('height', 6).attr('fill', '#fbf4e2');
+  p3.append('line').attr('x1', 0).attr('y1', 3).attr('x2', 6).attr('y2', 3).attr('stroke', '#d6b46a').attr('stroke-width', 1.4);
 }
 
 // 凡例で使う見本（CSS用）
 export function swatchStyle(fill) {
   if (fill === PATTERNS.not_found) return 'background: repeating-linear-gradient(135deg,#f4f6f5 0 3px,#a3aea8 3px 5px)';
   if (fill === PATTERNS.not_surveyed) return 'background: radial-gradient(#7d8a83 1.1px, #fff 1.3px) 0 0/6px 6px';
+  if (fill === PATTERNS.partial) return 'background: repeating-linear-gradient(0deg,#fbf4e2 0 3px,#d6b46a 3px 4.5px)';
   return `background:${fill}`;
 }
 
 // ---------- 画像出力用：Canvasに地図を描く ----------
-function canvasPattern(ctx, kind) {
+export function canvasPattern(ctx, kind) {
   const c = document.createElement('canvas');
   c.width = c.height = 8;
   const x = c.getContext('2d');
-  x.fillStyle = kind === 'not_found' ? '#f4f6f5' : '#fff'; x.fillRect(0, 0, 8, 8);
-  if (kind === 'not_found') {
+  x.fillStyle = kind === 'not_found' ? '#f4f6f5' : kind === 'partial' ? '#fbf4e2' : '#fff'; x.fillRect(0, 0, 8, 8);
+  if (kind === 'partial') {
+    x.strokeStyle = '#d6b46a'; x.lineWidth = 1.6;
+    x.beginPath(); x.moveTo(0, 4); x.lineTo(8, 4); x.stroke();
+  } else if (kind === 'not_found') {
     x.strokeStyle = '#a3aea8'; x.lineWidth = 2;
     x.beginPath(); x.moveTo(-2, 10); x.lineTo(10, -2); x.moveTo(-2, 2); x.lineTo(2, -2); x.moveTo(6, 10); x.lineTo(10, 6); x.stroke();
   } else {
@@ -206,8 +219,8 @@ function canvasPattern(ctx, kind) {
 export function drawMapCanvas(ctx, db, box, fillFn, opts = {}) {
   const features = getFeatures(db.topo);
   const P = makeProjections(features, box.x, box.y, box.w, box.h);
-  const pats = { not_found: canvasPattern(ctx, 'not_found'), not_surveyed: canvasPattern(ctx, 'not_surveyed') };
-  const resolve = f => f === PATTERNS.not_found ? pats.not_found : f === PATTERNS.not_surveyed ? pats.not_surveyed : f;
+  const pats = { not_found: canvasPattern(ctx, 'not_found'), not_surveyed: canvasPattern(ctx, 'not_surveyed'), partial: canvasPattern(ctx, 'partial') };
+  const resolve = f => f === PATTERNS.not_found ? pats.not_found : f === PATTERNS.not_surveyed ? pats.not_surveyed : f === PATTERNS.partial ? pats.partial : f;
   const ib = P.insetBox;
   ctx.save();
   ctx.setLineDash([6, 4]); ctx.strokeStyle = '#9aa8a0'; ctx.lineWidth = 1.5;
