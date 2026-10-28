@@ -5344,6 +5344,738 @@
    "end_reason": null,
    "successor_id": null,
    "validity_research_note": "原文非公開。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "fields": [
+    "labor"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [
+    {
+     "kind": "target",
+     "label": "教育拠点での育成人数の見込み（OURの発表）",
+     "value": 500,
+     "unit": "人／年",
+     "direction": "to_japan",
+     "period": "初年度（将来は年間1,000名規模）",
+     "definition": "『初年度は年間500名の人材育成からスタート。将来的には年間1,000名規模への拡大を見込んでいます』",
+     "sources": [
+      "s1"
+     ],
+     "note": "現地での教育（育成）の人数の見込みで、日本へ入国する人数ではない。"
+    }
+   ],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-100",
+   "group_key": "ORG:OUR-UZ-MIGRATION",
+   "title_ja": "ウズベキスタンにおける無償教育の提供と日本への人財送り出しに関するMOU（基本合意書）（ONODERA USER RUN・ウズベキスタン移民庁）",
+   "doc_type": "MOU",
+   "doc_type_note": "OURの発表の表現（2025年6月の記事は『MOU』、2025年12月の記事は『MOU（基本合意書）』）。原文は公開されていない。",
+   "japan_org": "株式会社ONODERA USER RUN（OUR）",
+   "japan_org_type": "company",
+   "japan_signatory": "代表取締役 加藤順（OURの発表の締結式の写真説明）",
+   "partner_org": "ウズベキスタン共和国内閣附属移民庁（署名者は長官 ベクゾド・ムサエフ：OURの発表の写真説明）",
+   "partner_org_en": "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan (Director Bekhzod Musaev)",
+   "ceremony_note": "2025年6月11日、ウズベキスタン現地で締結式（OURの発表）。これに先立ち2025年5月27日に移民庁長官が来日し、OUR本社で会談。",
+   "signed_date": "2025-06-11",
+   "announced_date": "2025-06-16",
+   "date_note": "OURの発表（2025年6月16日）による。",
+   "labor_detail": [
+    "特定技能",
+    "日本語教育",
+    "介護",
+    "外食"
+   ],
+   "purpose": "ウズベキスタンで無償教育を提供し、日本国内へ人財を送り出すこと（OURの発表）",
+   "content": [
+    "OURは、ウズベキスタン政府がタシケント市内に持つ移民庁の教育訓練施設を使い、特定技能の専門教育と日本語教育を無償で提供する教育拠点『OUR BLOOMING ACADEMY』を2025年9月をめどに開校する（OURの発表）",
+    "日本語教育のほか、介護分野と外食分野の特定技能の専門教育を中心に行う（OURの発表）",
+    "初年度は年間500名の人材育成から始め、将来は年間1,000名規模に広げる見込み（OURの発表）"
+   ],
+   "status": "in_progress",
+   "status_note": "2025年11月3日に『OUR BLOOMING ACADEMY TASHKENT』をプレオープンし、第一期生40名が日本語と外食分野の学習を開始。移民庁が新たに建設中の教育訓練施設の完成後に本オープンの予定（OURの2025年12月の発表）。",
+   "projects": [
+    {
+     "name": "OUR BLOOMING ACADEMY TASHKENT のプレオープン",
+     "fiscal_year": "2025",
+     "detail": "2025年11月3日にプレオープンし、選考を通過した40名が第一期生として日本語と外食分野の学習を開始（OURの発表）。",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "アジア展開加速。中央アジアでの新たな挑戦 ウズベキスタン共和国 移民庁との連携によるMOU締結（2025年6月16日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/8837/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表。2025年6月11日に移民庁との連携のもとMOUを締結、教育拠点の開校予定・分野・育成人数の見込みを記載。"
+    },
+    {
+     "id": "s2",
+     "title": "ウズベキスタン・日本ビジネスフォーラムへの出席および移民庁ムサエフ長官との会談（2025年12月23日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/12508/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2025年6月11日にMOU（基本合意書）を締結したこと、11月3日のプレオープン（第一期生40名）を記載。"
+    }
+   ],
+   "notes": "日本側の締結主体は株式会社ONODERA USER RUN（法務省の登録支援機関）。日本政府は当事者ではない。2026年4月にはこの協力を基に、移民庁・ヴァタンパルヴァルとの三者MOU（JP-ORG-101）、WILLER EXPRESS・移民庁との三者MOU（JP-ORG-102）を結んでいる。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_basis": "締結はOURの発表で確認したが、有効期間の記載がなく原文も非公開のため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_type": "public_agency",
+   "additional_partners": [
+    {
+     "country_code": "UZ",
+     "partner_org": "ヴァタンパルヴァル（Vatanparvar。ウズベキスタンの国防支援団体。自動車運転教習所を保有・運営）",
+     "partner_org_en": "Vatanparvar (defence support organization of Uzbekistan)"
+    }
+   ],
+   "fields": [
+    "labor"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-101",
+   "group_key": "ORG:OUR-UZ-VATANPARVAR",
+   "title_ja": "特定技能人材の育成および日本への送り出しに関する三者間MOU（基本合意書）（ONODERA USER RUN・ウズベキスタン移民庁・ヴァタンパルヴァル）",
+   "doc_type": "MOU",
+   "doc_type_note": "OURの発表の表現（『三者間MOU（基本合意書）』）。原文は公開されていない。",
+   "japan_org": "株式会社ONODERA USER RUN（OUR）",
+   "japan_org_type": "company",
+   "japan_signatory": "",
+   "partner_org": "ウズベキスタン共和国内閣附属移民庁",
+   "partner_org_en": "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan",
+   "ceremony_note": "2026年4月15日に締結（OURの発表）。同じ日に、WILLER EXPRESS・移民庁との三者MOU（JP-ORG-102）も締結。",
+   "signed_date": "2026-04-15",
+   "announced_date": "2026-04-20",
+   "date_note": "OURの発表（2026年4月20日）による。",
+   "labor_detail": [
+    "特定技能",
+    "自動車運送業（ドライバー）",
+    "日本語教育"
+   ],
+   "purpose": "特定技能『自動車運送業』などの人材の育成と日本への送り出しを本格化すること（OURの発表）",
+   "content": [
+    "OURは日本での就労を希望する現地の若者を募集し、OUR BLOOMING ACADEMY タシケントセンターで日本語教育と特定技能『自動車運送業』分野の試験合格に向けた専門教育を行う（OURの発表）",
+    "ヴァタンパルヴァルが保有・運営する自動車運転教習所を日本式に改修し、運転技術などの実技教育に使う（OURの発表）"
+   ],
+   "status": "signed",
+   "status_note": "締結を機にOURの教育分野は10分野に広がったと発表（自動車運送業、介護、外食、航空、宿泊、ビルクリーニング、飲食料品製造、建設、自動車整備、農業）。これはOUR全体の教育分野で、航空・自動車整備がこの覚書の対象だとは書かれていない。教習所の改修や実技教育の実施状況は公式資料で未確認。",
+   "projects": [],
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "title": "ウズベキスタン共和国移民庁、国防支援組織ヴァタンパルヴァル、WILLER EXPRESSとのMOUを締結（2026年4月20日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/26484/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "id": "s1",
+     "note": "当事者の発表。2026年4月15日に移民庁・ヴァタンパルヴァルと特定技能人材の育成・日本への送り出しに関する三者間MOU（基本合意書）を締結、役割（学生募集・日本語教育・教習所の改修と実技教育）を記載。"
+    }
+   ],
+   "notes": "日本側の締結主体は株式会社ONODERA USER RUN。日本政府は当事者ではない。ヴァタンパルヴァルの発表は未確認。『ウズベキスタン人のドライバーや航空整備士』という話の出どころの一つは、この発表の『教育分野は10分野へ拡大（…航空…自動車整備…）』という一文とみられるが、航空機整備士をウズベキスタンから日本へ送る協定は、日本・ウズベキスタン双方の公式資料で見つからなかった（2026-10-28）。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found",
+    "numbers": "not_found"
+   },
+   "validity_basis": "締結はOURの発表で確認したが、有効期間の記載がなく原文も非公開のため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [
+    "株式会社ONODERA USER RUN"
+   ],
+   "country_code": "UZ",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "fields": [
+    "labor"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-102",
+   "group_key": "ORG:WILLER-UZ-MIGRATION",
+   "title_ja": "バス運転士の育成・日本での就労に関する三者間MOU（WILLER EXPRESS・ウズベキスタン移民庁・ONODERA USER RUN）",
+   "doc_type": "MOU",
+   "doc_type_note": "名称はOURの発表と移民庁の発表の内容から付けた仮の名称（OURの発表は『三者間MOU』、移民庁の発表は『三者間の合意（уч томонлама келишув）』）。原文は公開されていない。",
+   "japan_org": "WILLER EXPRESS株式会社",
+   "japan_org_type": "company",
+   "japan_signatory": "WILLER EXPRESS 平山幸司、ONODERA USER RUN 加藤順（移民庁の発表）",
+   "partner_org": "ウズベキスタン共和国内閣附属移民庁（署名者は長官 ベフゾド・ムサエフ：移民庁の発表）",
+   "partner_org_en": "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan (Director Behzod Musayev)",
+   "ceremony_note": "2026年4月15日に締結（OURの発表）。移民庁も公式Telegramで、長官・WILLER EXPRESSの平山幸司氏・ONODERA USER RUNの加藤順氏が三者の合意に署名したと発表。",
+   "signed_date": "2026-04-15",
+   "announced_date": "2026-04-20",
+   "date_note": "締結日はOURの発表（2026年4月20日）による。",
+   "labor_detail": [
+    "特定技能",
+    "自動車運送業（バス運転士）",
+    "日本語教育"
+   ],
+   "purpose": "ウズベキスタンでWILLER EXPRESSのためのバス運転士を育成し、日本での就労につなげること（移民庁の発表・OURの発表）",
+   "content": [
+    "ウズベキスタンでWILLER EXPRESSのためのバス運転士を育成し、日本での仕事に就けるようにする（移民庁の発表）",
+    "タシケント市に練習場を設け、実習のため日本から右ハンドルのバスを運び込む（移民庁の発表）",
+    "WILLER EXPRESSは旅客運送分野の知見を生かし、日本での実務を見据えた人材育成と受入れ体制の構築で連携する（OURの発表）"
+   ],
+   "status": "in_progress",
+   "status_note": "移民庁の2026年7月9日の発表では、WILLER EXPRESSのプログラムに50名が参加し、日本語と職業訓練を受けている（8か月の課程の修了後に日本で就職）。移民庁の2026年9月の記事も、タシケントでOnodera User Run・Willer Expressと協力して運転・介護・外食の研修を始めたと記載（https://gov.uz/en/migration/news/view/221068）。日本へ入国した人数は未確認。WILLER EXPRESS自身の発表（2026年6月1日、外国籍人材を含むバス運転士の採用・育成の強化）は、ウズベキスタンを今後の入校予定の国として挙げるだけで、この覚書には触れていない。",
+   "projects": [
+    {
+     "name": "WILLER EXPRESSのバス運転士育成プログラム",
+     "fiscal_year": "2026",
+     "detail": "2026年7月時点で50名が参加し、日本語と職業訓練を受けている。8か月の課程の修了後、日本で就職する予定（移民庁の発表）。",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "title": "ウズベキスタン共和国移民庁、国防支援組織ヴァタンパルヴァル、WILLER EXPRESSとのMOUを締結（2026年4月20日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/26484/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "id": "s1",
+     "note": "当事者の発表。2026年4月15日にWILLER EXPRESS・移民庁と三者間MOUを締結し、WILLERは旅客運送分野の知見を生かして人材育成と受入れ体制の構築で連携すると記載。"
+    },
+    {
+     "title": "Япониянинг йирик транспорт компанияси ўзбекистонлик автобус ҳайдовчиларига қизиқиш билдирмоқда!（日本の大手運輸会社がウズベキスタンのバス運転手に関心、2026年4月）",
+     "publisher": "ウズベキスタン共和国内閣附属移民庁（公式Telegram）",
+     "url": "https://t.me/uzmigration/1040",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "id": "s2",
+     "note": "相手側の公式発表（ウズベク語）。長官・平山幸司氏（WILLER EXPRESS）・加藤順氏（ONODERA USER RUN）が三者の合意に署名し、WILLER EXPRESSのためのバス運転士の育成、タシケントの練習場、日本からの右ハンドルのバスを記載。移民庁の英語サイトにも同じ内容の記事（https://gov.uz/en/migration/news/view/155994）。"
+    },
+    {
+     "id": "s3",
+     "title": "Таълимдан ишгача: Германия ва Япония дастурлари иштирокчилари билан учрашув（教育から仕事へ：ドイツと日本のプログラム参加者との面会、2026年7月9日）",
+     "publisher": "ウズベキスタン共和国内閣附属移民庁（公式Telegram）",
+     "url": "https://t.me/uzmigration/1221",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "相手側の公式発表（ウズベク語）。『日本のWiller Expressプログラム：50名が参加、日本語と職業訓練を受けている、8か月の課程の修了後に日本の高収入の職に就く』と記載。"
+    },
+    {
+     "id": "s4",
+     "title": "WILLER EXPRESS、外国籍人材を含むバス運転士の採用・育成を本格強化（2026年6月1日）",
+     "publisher": "WILLER EXPRESS株式会社",
+     "url": "https://prtimes.jp/main/html/rd/p/000000432.000027749.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表。外国籍人材を含む高速バス運転士の採用・育成の強化。第一弾はフィリピンからの候補生7名。この覚書への言及はない。"
+    }
+   ],
+   "notes": "日本側の締結主体はWILLER EXPRESS株式会社とONODERA USER RUN（OURの発表は『WILLER、ウズベキスタン移民庁との三者間MOU』と書く）。日本政府は当事者ではない。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_basis": "締結はOURの発表と移民庁の発表で確認したが、有効期間の記載がなく原文も非公開のため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "fields": [
+    "labor"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [
+    {
+     "kind": "target",
+     "label": "育成の目標人数（Proud Partnersの計画）",
+     "value": 10000,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "2029年度（単年度）",
+     "definition": "『初年度（2025年度）の目標人数：100名（運送業）、2026年度：1000名（運送業）、2027年度：2000名（運送業）、2028年度：5000名（運送業、他業種を含む）、2029年度：10000名（運送業、他業種を含む）』",
+     "sources": [
+      "s1"
+     ],
+     "note": "会社の目標で、法的な義務や日本政府の受入れ枠ではない。2028年度以降は運送業以外の業種を含む。"
+    }
+   ],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": "JP-ORG-104",
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-103",
+   "group_key": "ORG:PROUD-UZ-MIGRATION",
+   "title_ja": "運送業向け特定技能人材育成に関する覚書（MOU）（Proud Partners・ウズベキスタン移民庁）",
+   "doc_type": "MOU",
+   "doc_type_note": "名称はProud Partnersの発表の表現（2025年10月の発表では『MOU（基本合意書）』）。原文は公開されていない。",
+   "japan_org": "株式会社Proud Partners",
+   "japan_org_type": "company",
+   "japan_signatory": "代表取締役 鈴木竜二（Proud Partnersの発表）",
+   "partner_org": "ウズベキスタン共和国内閣附属移民庁（発表の本文は『ウズベキスタン共和国政府』。調印式の写真説明は『内閣府移民庁 B.ムサエフ長官』）",
+   "partner_org_en": "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan",
+   "ceremony_note": "2025年5月29日に調印式（Proud Partnersの発表の写真説明）。場所は発表に書かれていない。",
+   "signed_date": "2025-05-29",
+   "announced_date": "2025-05-30",
+   "date_note": "Proud Partnersの発表（2025年5月30日）による。",
+   "labor_detail": [
+    "特定技能",
+    "自動車運送業（トラックドライバー）",
+    "日本語教育"
+   ],
+   "purpose": "ウズベキスタン政府と連携し、日本の交通ルールを前提とした安全運転を基礎から教育して、日本の運送網を支える特定技能ドライバーを育成すること（Proud Partnersの発表）",
+   "content": [
+    "ウズベキスタンで8か月間の日本語教育と運転技能の教育を行い、特定技能（自動車運送業）のドライバーを育成する（Proud Partnersの発表）",
+    "国内の運送企業と提携し、提携先企業向けのトラックドライバー育成も行う（Proud Partnersの発表）"
+   ],
+   "status": "signed",
+   "status_note": "2025年9月5日に同じ移民庁と正式な『国際労働協定』（JP-ORG-104）を結んだ。Proud Partnersは『2025年5月にMOU（基本合意書）を締結し、本格始動に向け協議を重ね』協定の正式締結に至ったと説明している。",
+   "projects": [],
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "title": "ウズベキスタン政府と連携した運送業向け特定技能人材育成プロジェクトを6月に開始（2025年5月30日）",
+     "publisher": "株式会社Proud Partners",
+     "url": "https://prtimes.jp/main/html/rd/p/000000007.000155502.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "id": "s1",
+     "note": "当事者の発表。2025年5月29日にウズベキスタン政府と運送業向け特定技能人材育成に関する覚書（MOU）を正式に締結、調印式の写真説明（鈴木竜二代表取締役・移民庁ムサエフ長官）、8か月の教育、年度ごとの目標人数を記載。"
+    },
+    {
+     "title": "運送業向け特定技能人材育成プロジェクト、ウズベキスタン共和国と国際労働協定を9月に締結（2025年10月27日）",
+     "publisher": "株式会社Proud Partners",
+     "url": "https://prtimes.jp/main/html/rd/p/000000012.000155502.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "id": "s2",
+     "note": "2025年5月のMOU（基本合意書）の後、9月に国際労働協定を締結したと記載。"
+    }
+   ],
+   "notes": "日本側の締結主体は株式会社Proud Partners（東京都新宿区）。日本政府は当事者ではない。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_basis": "2025年9月に同じ相手と正式な国際労働協定（JP-ORG-104）を結んでおり、このMOUの効力の扱い（協定に引き継がれたかどうか）は公式資料に書かれていないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "renewal_of": "JP-ORG-103",
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "fields": [
+    "labor"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-104",
+   "group_key": "ORG:PROUD-UZ-MIGRATION",
+   "title_ja": "特定技能人財育成に関する国際労働協定（運送業界に特化。Proud Partners・ウズベキスタン移民庁）",
+   "doc_type": "協定",
+   "doc_type_note": "名称はProud Partnersの発表の表現（2025年10月の発表は『運送業界に特化した特定技能人材育成に関する国際労働協定』、2026年10月の発表は『特定技能人財育成に関する国際労働協定』）。原文は公開されていない。",
+   "japan_org": "株式会社Proud Partners",
+   "japan_org_type": "company",
+   "japan_signatory": "代表取締役 鈴木竜二（Proud Partnersの発表の写真説明）",
+   "partner_org": "ウズベキスタン共和国内閣附属移民庁（発表の表記は『内閣直属移民庁』。調印者は長官 B.ムサエフ）",
+   "partner_org_en": "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan",
+   "ceremony_note": "2025年9月5日、ウズベキスタン国内で正式調印（Proud Partnersの発表の写真説明。画像提供はウズベキスタン国営放送）。",
+   "signed_date": "2025-09-05",
+   "announced_date": "2025-10-27",
+   "date_note": "Proud Partnersの発表（2025年10月27日）による。",
+   "labor_detail": [
+    "特定技能",
+    "自動車運送業（トラックドライバー）",
+    "日本語教育"
+   ],
+   "purpose": "運送業界に特化した特定技能人材の育成（ウズベキスタンから日本へトラックドライバーを送り出す）（Proud Partnersの発表）",
+   "content": [
+    "ウズベキスタン政府の役割：候補者の集客、学校や寮などの施設の提供、車両など研修用の物品の付与（Proud Partnersの発表）",
+    "Proud Partnersの役割：候補者の面接・選定、プロジェクトの運営、日本での就労先の確保、日本語教育と運転技術の習得管理（Proud Partnersの発表）"
+   ],
+   "status": "in_progress",
+   "status_note": "2026年2月16日にタシケント州アングレンに育成校『UZBEKISTAN PROUD ACADEMY（UPA）』（700名規模）を開校。2026年10月5日、ヒタチ株式会社（ダイセーグループ）で働く予定の5名に在留資格認定証明書が交付され、早ければ2026年11月に入国予定（移民庁が日本へ送り出す初の特定技能ドライバーの見込み）。2026年9月25日には日本衛生株式会社が10名に内定（入国は早ければ2027年1月）。2026年10月28日時点で日本へ入国した人は公式資料で確認できない（いずれもProud Partnersの発表）。",
+   "projects": [
+    {
+     "name": "育成校『UZBEKISTAN PROUD ACADEMY（UPA）』の開校",
+     "fiscal_year": "2025",
+     "detail": "2026年2月16日、タシケント州アングレンに開校。700名規模の育成が可能で、ウズベキスタン政府が提供する寮を使う。敷地内に中型トラック10台で練習できる日本式教習所を建設中。国土交通省の第2回自動車運送業分野特定技能協議会（2026年3月9日）の資料で、現地政府との取組みの事例として紹介された（Proud Partnersの発表）。",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "name": "初の特定技能ドライバーへの在留資格認定証明書の交付",
+     "fiscal_year": "2026",
+     "detail": "2026年10月5日、ヒタチ株式会社で就労予定の5名に交付。入国査証を申請中で、早ければ2026年11月に入国予定（Proud Partnersの発表）。",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "name": "日本衛生株式会社による10名の内定",
+     "fiscal_year": "2026",
+     "detail": "2026年9月25日付で10名が内定。早ければ2027年1月に入国し、日本の運転免許を取得後に乗務を始める予定（Proud Partnersの発表）。",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "title": "運送業向け特定技能人材育成プロジェクト、ウズベキスタン共和国と国際労働協定を9月に締結（2025年10月27日）",
+     "publisher": "株式会社Proud Partners",
+     "url": "https://prtimes.jp/main/html/rd/p/000000012.000155502.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "id": "s1",
+     "note": "当事者の発表。2025年9月5日に移民庁と国際労働協定を締結、役割分担、研修候補生の募集（定員150名が3日間で埋まった）を記載。"
+    },
+    {
+     "id": "s2",
+     "title": "ウズベキスタン・プラウドアカデミー、国土交通省 自動車運送業分野の特定技能促進事例に選定（2026年5月28日）",
+     "publisher": "株式会社Proud Partners",
+     "url": "https://prtimes.jp/main/html/rd/p/000000034.000155502.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "UPAの開校日（2026年2月16日）・規模（700名）・寮・日本式教習所の建設、国土交通省の協議会資料での紹介を記載（国交省の資料そのものは未確認）。"
+    },
+    {
+     "id": "s3",
+     "title": "【自動車運送業分野】ウズベキスタン共和国内閣府移民庁経由、初の特定技能ドライバー（5名）に在留資格認定証明書（COE）が交付（2026年10月）",
+     "publisher": "株式会社Proud Partners",
+     "url": "https://prtimes.jp/main/html/rd/p/000000046.000155502.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2026年10月5日の交付、入国予定（早ければ11月）、『2025年9月に「特定技能人財育成に関する国際労働協定」を締結』と記載。"
+    },
+    {
+     "id": "s4",
+     "title": "【自動車運送業分野】日本衛生株式会社 初の外国籍人財雇用へ、ウズベキスタンから10名の特定技能ドライバーが内定（2026年）",
+     "publisher": "株式会社Proud Partners",
+     "url": "https://prtimes.jp/main/html/rd/p/000000047.000155502.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2026年9月25日付で10名が内定、入国は早ければ2027年1月。"
+    },
+    {
+     "id": "s5",
+     "title": "Specialists for Japanese Companies to Be Trained in Uzbekistan（2026年9月）",
+     "publisher": "ウズベキスタン共和国内閣附属移民庁",
+     "url": "https://gov.uz/en/migration/news/view/221068",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "相手側の公式サイト。『アングレンのUzbekistan Proud Academy（Proud Partnersと協力して開校）で140名以上のドライバーが無償で語学・職業訓練を受けている』『Onodera User Run・Proud Partners・Orion Computerの事業で少なくとも576人分の仕事が生まれた』と記載。"
+    }
+   ],
+   "notes": "日本側の締結主体は株式会社Proud Partners。日本政府は当事者ではない。Proud Partnersはイズミ物流株式会社（ダイセーグループ）と、第1期生500名のうち約300名を共同で育成する契約も結んでいる（日本企業どうしの契約のため登録対象外）。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_basis": "締結はProud Partnersの発表で確認し、2026年10月の発表でも協定に基づく育成・送り出しが続いているが、有効期間の記載がなく原文も非公開のため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s3"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "country_code": "UZ",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "fields": [
+    "labor"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-105",
+   "group_key": "ORG:SHIMIZU-UZ-MIGRATION",
+   "title_ja": "ウズベキスタン人の日本での雇用拡大に関する協力覚書（Shimizu Corporation・ウズベキスタン移民庁、移民庁の発表の表現）",
+   "doc_type": "協力覚書",
+   "doc_type_note": "移民庁の発表の表現（ҳамкорлик меморандуми＝協力覚書）。名称・原文は公開されていない。",
+   "japan_org": "Shimizu Corporation（清水建設株式会社とみられる）",
+   "japan_org_type": "company",
+   "japan_signatory": "",
+   "partner_org": "ウズベキスタン共和国内閣附属移民庁",
+   "partner_org_en": "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan",
+   "ceremony_note": "2025年4月9日、移民庁の担当者とShimizu Corporationの会談の場で署名（移民庁の発表）。場所は書かれていない。",
+   "signed_date": "2025-04-09",
+   "announced_date": "2025-04-09",
+   "date_note": "移民庁の公式Telegramの投稿日（2025年4月9日）による。",
+   "labor_detail": [
+    "建設",
+    "製造"
+   ],
+   "purpose": "ウズベキスタン人を日本全国で雇用する事業をさらに広げ、受入れ人数を増やすこと（移民庁の発表）",
+   "content": [
+    "ウズベキスタン人を日本全国で雇用する事業をさらに広げ、受入れ人数を増やすことで合意し、協力覚書に署名した（移民庁の発表）"
+   ],
+   "status": "in_progress",
+   "status_note": "移民庁の発表時点（2025年4月）で、同社でウズベキスタン人150名が建設・製造の分野で働いていた（2026年9月の移民庁の記事では200名以上）。発表の見出しは『日本が初めてウズベキスタン人ドライバーに労働市場を開く』だが、本文にドライバーの記載はなく、ドライバーとしての雇用の実績は公式資料で確認できない。",
+   "projects": [],
+   "evidence_level": "partner_official",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Япония илк бор ўзбек ҳайдовчилари учун меҳнат бозори эшикларини очмоқда（日本が初めてウズベキスタン人ドライバーに労働市場を開く、2025年4月9日）",
+     "publisher": "ウズベキスタン共和国内閣附属移民庁（公式Telegram）",
+     "url": "https://t.me/uzmigration/415",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "相手側の公式発表（ウズベク語）。移民庁の担当者がShimizu Corporation（1804年創業、年間売上150億ドルの建設会社と紹介）と会談し、ウズベキスタン人を日本全国で雇用する事業の拡大と受入れ人数の増加で合意し、協力覚書に署名したと記載。同社で150名が建設・製造の分野で働いていると記載。"
+    },
+    {
+     "id": "s2",
+     "title": "Specialists for Japanese Companies to Be Trained in Uzbekistan（2026年9月）",
+     "publisher": "ウズベキスタン共和国内閣附属移民庁",
+     "url": "https://gov.uz/en/migration/news/view/221068",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "相手側の公式サイト。『200名以上の同胞がShimizu Corporationの現場で働いている』と記載（覚書との関係は書かれていない）。"
+    }
+   ],
+   "notes": "日本側の当事者は移民庁の発表では『Shimizu Corporation』とだけ書かれている。創業年（1804年）と事業内容から清水建設株式会社とみられるが、清水建設自身の発表は見つからず、日本側の公式資料では確認できていない。日本政府は当事者ではない。",
+   "related_systems": [],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found",
+    "numbers": "not_found"
+   },
+   "validity_basis": "署名は移民庁の発表で確認したが、日本側の発表がなく、有効期間の記載も原文もないため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ]
   }
  ]
 }
