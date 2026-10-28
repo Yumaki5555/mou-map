@@ -825,3 +825,83 @@ mark { background: #ffe37a; color: inherit; padding: 0 1px; border-radius: 2px; 
 .fm-side small, .who-pt small, .tier-chips small { font-size: .84rem; line-height: 1.5; }
 .fig-flow .causal { font-size: .84rem; }
 .fm-cap, .fig-fields figcaption { font-size: .86rem; }
+
+/* ===== 2026-10-29 改修：有効性の内訳・入口・締結主体・CLAIR照合 ===== */
+/* トップ：詳しく調べたい方の入口（主な3つを大きく、ほかは小さく） */
+.gate-b-t { margin: -2px 0 2px; font-size: clamp(1.2rem, 1.1rem + .5vw, 1.45rem); font-weight: 700; line-height: 1.4; }
+.doors.doors-main { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.doors-main .door b { font-size: 1.15rem; }
+.gate-more-h { margin: 6px 0 0; font-size: .9rem; font-weight: 700; color: var(--muted); }
+.gate-more { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.gate-more a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 6px 14px 6px 8px; border: 1.5px solid var(--green-line); border-radius: 12px; background: #fff; color: var(--green-dark); font-weight: 700; text-decoration: none; font-size: .95rem; }
+.gate-more a:hover, .gate-more a:focus-visible { border-color: var(--green); background: var(--green-soft); }
+.gate-more a svg { width: 28px; height: 28px; flex: none; }
+.band-sub { margin: 0; color: var(--muted); font-weight: 700; }
+@media (max-width: 640px) { .doors.doors-main { grid-template-columns: 1fr; gap: 8px; } .doors-main .door { min-height: 58px; } .doors-main .door b { font-size: 1.05rem; } .doors-main .door-n { display: none; } }
+.t3-line { margin: 4px 0 10px; font-size: .95rem; }
+
+/* 有効性の内訳（表示中・非表示） */
+.scope-counts { margin: 10px 0 14px; padding: 10px 14px; border: 1.5px solid var(--green-line); border-radius: 12px; background: #fff; }
+.sc-h { margin: 0 0 6px; font-size: .95rem; }
+.sc-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.sc-i { display: inline-flex; align-items: baseline; gap: 4px; padding: 4px 10px; border-radius: 10px; font-size: .95rem; border: 1px solid var(--line); }
+.sc-i.is-on { background: var(--green-soft); border-color: var(--green-line); }
+.sc-i.is-off { background: #f6f6f4; color: #4b5563; border-style: dashed; }
+.sc-i b { font-size: 1.05rem; }
+.sc-s { font-size: .78rem; font-weight: 700; padding: 0 6px; border-radius: 999px; margin-left: 2px; }
+.sc-i.is-on .sc-s { background: var(--green); color: #fff; }
+.sc-i.is-off .sc-s { background: #e5e7eb; color: #374151; }
+.sc-x { margin: 6px 0 0; }
+.sc-btns { margin: 8px 0 0; }
+.scope-default { margin: 8px 0 0; font-size: .88rem; color: var(--muted); line-height: 1.6; }
+
+/* 検索：組織名として一致・情報源の行 */
+.org-notice { margin: 0 0 14px; padding: 10px 14px; border-radius: 12px; border: 1.5px solid #6b93c4; background: var(--info-soft); }
+.org-notice-h { margin: 0 0 4px; font-weight: 700; }
+.org-notice ul { margin: 0 0 4px; padding-left: 1.2em; }
+.org-notice li { margin: 4px 0; line-height: 1.6; }
+.src-line { margin: 6px 0 0; font-size: .9rem; line-height: 1.6; }
+.src-k { display: inline-block; margin-right: 6px; padding: 0 8px; border-radius: 999px; background: #eef2f7; color: #334e68; font-weight: 700; font-size: .8rem; }
+.sr-range { margin: 0 0 8px; }
+
+/* 締結主体から探す */
+.actor-step { margin: 18px 0; padding: 14px 16px; border: 1.5px solid var(--line); border-radius: 16px; background: #fff; }
+.actor-step h2 { margin: 0 0 10px; display: flex; align-items: center; gap: 8px; font-size: 1.25rem; }
+.step-n { display: inline-grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--green); color: #fff; font-size: 1.05rem; flex: none; }
+.actor-types { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 8px; }
+.actor-type { display: grid; gap: 2px; text-align: left; font: inherit; padding: 10px 12px; min-height: 64px; border: 2px solid var(--green-line); border-radius: 12px; background: #fff; color: var(--text); cursor: pointer; }
+.actor-type b { color: var(--green-dark); font-size: 1rem; }
+.actor-type span { font-size: .9rem; }
+.actor-type small { color: var(--muted); }
+.actor-type:hover { border-color: var(--green); }
+.actor-type[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff; }
+.actor-type[aria-pressed="true"] b, .actor-type[aria-pressed="true"] small { color: #fff; }
+.org-hits { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 8px; }
+.org-hits li { padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--soft); line-height: 1.6; }
+.oh-name { font-weight: 700; font-size: 1.05rem; }
+.oh-parts { display: grid; gap: 2px; margin-top: 4px; font-size: .92rem; }
+.oh-src { color: #334e68; }
+.actor-detail { margin: 18px 0; padding: 14px 16px; border: 2px solid var(--green); border-radius: 16px; background: #fff; scroll-margin-top: 90px; }
+.actor-detail h2 { margin-top: 0; }
+.ver-list { margin: 6px 0 2px; padding-left: 1.3em; font-size: .9rem; }
+.ver-list li { margin: 2px 0; }
+.org-table td { min-width: 90px; }
+
+/* CLAIRの照合：2020年の資料と2026年の調査を分ける */
+.two-src { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; }
+.src-box { padding: 12px 14px; border-radius: 12px; border: 1.5px solid var(--line); }
+.src-box p { margin: 4px 0; }
+.src-box .src-k { font-size: .85rem; }
+.src-old { background: #f6f6f4; }
+.src-new { background: var(--green-soft); border-color: var(--green-line); }
+.src-new .src-k { background: var(--green); color: #fff; }
+.clair-tree { line-height: 1.9; }
+.clair-tree b { font-size: 1.1rem; }
+@media (max-width: 640px) { .two-src { grid-template-columns: 1fr; } }
+/* データ：集計表 */
+.agg-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; align-items: start; }
+.agg h3 { margin: 6px 0; font-size: 1.05rem; }
+.agg .table-wrap { max-height: 360px; overflow: auto; }
+.agg th { white-space: normal; background: #fff; font-weight: 400; }
+/* 長い英字の名称・URLでスマートフォンの画面が横にはみ出さないように */
+.mou-card .who, .lrow-who, .kv td, .org-hits li, .src-line { overflow-wrap: anywhere; }

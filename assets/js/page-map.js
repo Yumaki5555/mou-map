@@ -2,14 +2,14 @@
 // 表示の条件はすべてURL（#/map?mode=…）に入るので、共有したリンクでも同じ表示になります。
 import { esc, fmtDate } from './util.js';
 import {
-  FIELDS, FIELD, STATUSES, STATUS, IMPACTS, IMPACT, ZERO_STATES, IMPACT_LEVELS,
-  filterGroups, sortGroups, countByPref, zeroState, fieldCoverageNote, impactLevel, findCountries, countryName,
+  FIELDS, FIELD, STATUSES, STATUS, IMPACTS, IMPACT, ZERO_STATES, IMPACT_LEVELS, VALIDITY, VALIDITY_SCOPE,
+  filterGroups, sortGroups, countByPref, zeroState, fieldCoverageNote, impactLevel, findCountries, countryName, validityCounts,
 } from './data.js';
 import { JapanMap, PATTERNS, swatchStyle } from './map.js';
 import { mouList, legendHTML } from './components.js';
 import { downloadMouCSV, groupsToMous } from './csv.js';
 import { exportMap } from './export.js';
-import { settings, bindNewsToggle, metaFor, baseFilter, scopeBarHTML, scopeLabel, scopeNoteHTML } from './shared.js';
+import { settings, bindNewsToggle, bindScopeBar, metaFor, baseFilter, scopeBarHTML, scopeLabel, scopeNoteHTML, scopeCountsHTML, hiddenSummary } from './shared.js';
 
 export const MODES = [
   { code: 'count', ja: '① 締結件数' },
@@ -81,6 +81,19 @@ export function computeMapModel(db, st) {
   const wider = (st.mode === 'country' && !st.countries.length) ? new Map() : countByPref(filterGroups(db, { ...base, validity: 'all', docScope: 'all', level: 'prefecture' }));
   const byPref = new Map();
   for (const g of prefGroups) { if (!byPref.has(g.pref_code)) byPref.set(g.pref_code, []); byPref.get(g.pref_code).push(g); }
+  // 同じ条件・同じ文書の範囲で、有効性を問わず数えた県ごとの内訳（地図の吹き出しに「非表示：未確認○件」と出す）
+  const vByPref = new Map();
+  if (!(st.mode === 'country' && !st.countries.length)) {
+    const gp = new Map();
+    for (const g of filterGroups(db, { ...base, validity: 'all', level: 'prefecture' })) { if (!gp.has(g.pref_code)) gp.set(g.pref_code, []); gp.get(g.pref_code).push(g); }
+    for (const [k, gs] of gp) vByPref.set(k, validityCounts(gs));
+  }
+  const on = VALIDITY_SCOPE[settings.validity].states;
+  const hiddenTip = code => {
+    const c = vByPref.get(code);
+    const off = c ? ['unconfirmed', 'ended_confirmed', 'signed_not_started'].filter(k => !on.includes(k) && c[k]).map(k => `${VALIDITY[k].ja} ${c[k]}件`) : [];
+    return off.length ? `（このほか非表示：${off.join('・')}）` : '';
+  };
   const zeroField = st.mode === 'field' ? st.field : null;
   const zero = code => wider.get(code) ? 'scope_zero' : zeroState(db, code, zeroField);
   // 凡例には、地図に実際に出てくる「0件の状態」だけを載せる
@@ -129,7 +142,7 @@ export function computeMapModel(db, st) {
     fill = code => counts.get(code) ? sc.color(counts.get(code)) : PATTERNS[zero(code)];
     legend = [...(max ? sc.bins.map(b => ({ label: b.label, fill: b.fill })) : []), ...zeroLegend()];
     legendTitle = '登録済み協定の件数（色が濃いほど多い）';
-    tipLine = code => counts.get(code) ? `${counts.get(code)}件` : zero(code) === 'scope_zero' ? `${ZERO_STATES.scope_zero.ja}（締結済み ${wider.get(code)}件）` : ZERO_STATES[zero(code)].ja;
+    tipLine = code => counts.get(code) ? `${counts.get(code)}件${hiddenTip(code)}` : zero(code) === 'scope_zero' ? `${ZERO_STATES.scope_zero.ja}${hiddenTip(code) || `（締結済み ${wider.get(code)}件。数える文書の範囲の外）`}` : ZERO_STATES[zero(code)].ja;
     title = st.mode === 'count' ? '都道府県別 登録済み協定の件数'
       : st.mode === 'country' ? (st.countries.length ? `${countryName(db, st.countries[0])}とMOUを締結した都道府県` : '相手国別（国を選んでください）')
         : st.mode === 'field' ? `分野別：「${FIELD[st.field].ja}」の協定`
@@ -137,7 +150,9 @@ export function computeMapModel(db, st) {
   }
   return finish({ fill, legend, legendTitle, tipLine, title, counts, byPref, prefGroups, natGroups });
 
-  function finish(o) { return { cityGroups, orgGroups, ...o, zero, wider }; }
+  function finish(o) { return { cityGroups, orgGroups, ...o, zero, wider, scopeF: { ...pick(base), level: 'prefecture' } }; }
+  // 有効性の内訳の表示に使う条件（相手国・分野・事業の実施状況）
+  function pick(b) { return { countries: b.countries, field: b.field, status: b.status }; }
 }
 
 export function mapPage(ctx) {
@@ -254,7 +269,11 @@ function refresh(ctx) {
     tip: code => `<b>${esc(db.prefByCode.get(code).name)}</b><br>${esc(model.tipLine(code))}`,
   });
   root.querySelector('#legend').innerHTML = legendHTML(model.legendTitle, model.legend.map(l => ({ label: l.label, style: swatchStyle(l.fill) })));
-  root.querySelector('#map-note').innerHTML = `<p class="map-title">${esc(model.title)}<small>登録済み協定の分布（${esc(scopeLabel())}）</small></p>${scopeNoteHTML()}`;
+  const note = root.querySelector('#map-note');
+  const noCountry = st.mode === 'country' && !st.countries.length;
+  note.innerHTML = `<p class="map-title">${esc(model.title)}<small>登録済み協定の分布（${esc(scopeLabel())}）</small></p>${scopeNoteHTML()}
+    ${noCountry ? '' : scopeCountsHTML(db, model.scopeF, { label: '地図の対象（都道府県が締結した協定）' })}`;
+  bindScopeBar(note, () => go({}));
 
   // 選んだ都道府県（マウスを重ねなくても、タップで件数が分かるように地図のすぐ下に表示）
   const sel = root.querySelector('#sel-box');
@@ -289,7 +308,8 @@ function refresh(ctx) {
   if (st.pref) chips.push(`<span class="chip">選択中の都道府県：${esc(db.prefByCode.get(st.pref).name)}<button type="button" data-rm-p aria-label="都道府県の選択を解除">×</button></span>`);
   const bar = root.querySelector('#result-bar');
   bar.innerHTML = `<div class="now">いま表示している条件</div><div class="chips">${chips.join('')}
-    <button type="button" class="btn btn-small btn-outline" id="clear-all">条件をすべて解除</button></div>`;
+    <button type="button" class="btn btn-small btn-outline" id="clear-all">条件をすべて解除</button>
+    ${searchLinkHTML(st)}</div>`;
   bar.querySelectorAll('[data-rm-c]').forEach(b => b.addEventListener('click', () => go({ countries: st.countries.filter(c => c !== b.dataset.rmC), pref: null })));
   bar.querySelector('[data-rm-p]')?.addEventListener('click', () => go({ pref: null }));
   bar.querySelector('#clear-all').addEventListener('click', () => ctx.go('/map', scopeParams(), { keepScroll: true }));
@@ -343,16 +363,32 @@ function refresh(ctx) {
   root.querySelector('#png').onclick = () => {
     const top = [...model.counts].sort((a, b) => b[1] - a[1]).slice(0, 6)
       .map(([c, n]) => `${db.prefByCode.get(c).name}　${n}件`);
+    const hidden = noCountry ? '' : hiddenSummary(db, model.scopeF);
     exportMap(db, {
       title: model.title,
       sub: `都道府県 ${model.prefGroups.length}件（国・省庁 ${model.natGroups.length}件は別に数える）／${scopeLabel()}`,
       fill: model.fill, label: model.noLabels ? null : code => model.counts.get(code) ? String(model.counts.get(code)) : null,
       selected: st.pref, legend: model.legend, legendTitle: model.legendTitle,
-      side: top.length && !model.noLabels ? [{ text: '件数の多い都道府県', bold: true, size: 30 }, { text: top.join('、'), size: 28 }] : [],
+      side: [...(top.length && !model.noLabels ? [{ text: '件数の多い都道府県', bold: true, size: 30 }, { text: top.join('、'), size: 28 }] : []),
+        ...(hidden ? [{ text: `都道府県の協定で${hidden}`, size: 24, color: '#56655c' }] : [])],
       meta: metaFor(db, model.prefGroups, '全国47都道府県（国・省庁の締結は含まない）'),
       filename: `mou-map_${st.mode}.png`,
     });
   };
+}
+
+// 地図と同じ条件（相手国・都道府県・分野・有効性）でサイト内検索を開くリンク。検索では条件を1つずつ外せる
+function searchLinkHTML(st) {
+  if (st.mode === 'status' || st.mode === 'impact' || (st.mode === 'country' && !st.countries.length)) return '';
+  const p = {};
+  if (st.mode === 'country') p.c = st.countries.join(',');
+  if (st.mode === 'field') p.f = st.field;
+  if (st.pref) p.p = st.pref;
+  p.ot = 'prefecture';
+  p.vs = VALIDITY_SCOPE[settings.validity].states.join(',');
+  if (settings.docScope === 'mou') p.cat = 'mou,moc,mou_other';
+  if (!settings.includeNews) p.ev = 'official';
+  return `<a class="btn btn-small btn-outline" href="#/search?${new URLSearchParams(p)}" title="検索のページでは、条件を1つずつ外したり、キーワードを加えたりできます">この条件で一覧・検索する</a>`;
 }
 
 function prefTable(db, model, st) {

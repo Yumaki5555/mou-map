@@ -2,7 +2,7 @@
 import { esc, fmtDate, fmtNum, fmtYenShort } from './util.js';
 import {
   FIELDS, DOC_CATEGORIES, VALIDITY_SCOPE,
-  filterGroups, residentChange, countryName, prefName, surveySummary, validityCounts, levelCounts,
+  filterGroups, residentChange, countryName, prefName, surveySummary, validityCounts, levelCounts, countTriple,
 } from './data.js';
 import { JapanMap, swatchStyle } from './map.js';
 import { legendHTML, validityTiles } from './components.js';
@@ -24,35 +24,37 @@ const ym = d => fmtDate(d).replace(/\d+日$/, '');
 
 export function homePage(ctx) {
   const { db, app } = ctx;
-  const asOf = fmtDate(db.config.data_as_of);
   // 並び：①題名と短い説明 → ②2つの入口 → ③まず3分でわかる → ④地図・逆引き・検索 → ⑤登録件数と有効性 → ⑥地域への影響・比較 → ⑦制度の課題・出典・調査状況
   app.innerHTML = `
     <section class="hero2">
       <h1>日本と世界のMOU・協定マップ</h1>
       <p class="catch"><span>どの国と、何を約束した？</span> <span>私たちの地域に何が起こる？</span></p>
-      <p class="hero-desc">日本政府や都道府県などが海外と結んだ覚書・協定を、地図と公式資料から調べられます。外国人材の受入れや地域への影響も確認できます。</p>
-      <p class="asof">掲載内容：<b>${esc(asOf)}時点</b>　${miniStatus(db)}</p>
+      <p class="hero-desc">日本政府や都道府県・団体などが海外と結んだ覚書・協定を、地図と公式資料から調べられます。</p>
     </section>
 
     <div class="gates">
       <a class="gate-a" href="#/?to=sanpun" data-jump="sanpun">
-        <span class="gate-k">初めての方はこちら</span>
+        <span class="gate-k">初めての方</span>
         <span class="gate-illu">${ILL.openbook}</span>
-        <b>まず3分でわかる</b>
+        <b>3分でわかるMOUとは？</b>
         <span class="gate-d">5つの図で、海外との約束の仕組みを解説</span>
         <span class="gate-go" aria-hidden="true">↓ このページで読む</span>
       </a>
       <nav class="gate-b" aria-labelledby="gate-b-h">
-        <p class="gate-k" id="gate-b-h">詳しく調べる</p>
-        <ul class="doors">
-          ${door(1, '#/map', ILL.japan, '日本地図', '都道府県ごとの登録件数')}
+        <p class="gate-k" id="gate-b-h">詳しく調べたい方</p>
+        <p class="gate-b-t">日本地図・相手国・締結主体から探す</p>
+        <ul class="doors doors-main">
+          ${door(1, '#/map', ILL.japan, '日本地図', '都道府県ごとの件数')}
           ${door(2, '#/country', ILL.globe, '相手国', '国名から逆引き')}
-          ${door(3, '#/search', ILL.search, 'キーワード検索', '「宮城県 ベトナム」など')}
-          ${door(4, '#/types', ILL.doc, '協定の種類', 'MOU・EPA・取決め')}
-          ${door(5, '#/actors', ILL.hands, '締結主体', '国・自治体・団体・企業')}
-          ${door(6, '#/field', ILL.gov, '分野・省庁', '外国人材・経済・教育など')}
-          ${door(7, '#/impact', ILL.house, '地域への影響', '受入れ・予算・事業')}
-          ${door(8, '#/compare', ILL.chart, '比較', 'グラフで比べる')}
+          ${door(3, '#/actors', ILL.hands, '締結主体', '国・自治体・団体の名前で')}
+        </ul>
+        <p class="gate-more-h">ほかの探し方</p>
+        <ul class="gate-more">
+          <li><a href="#/search">${ILL.search}<span>キーワード検索</span></a></li>
+          <li><a href="#/types">${ILL.doc}<span>協定の種類</span></a></li>
+          <li><a href="#/field">${ILL.gov}<span>分野・省庁</span></a></li>
+          <li><a href="#/impact">${ILL.house}<span>地域への影響</span></a></li>
+          <li><a href="#/compare">${ILL.chart}<span>比較グラフ</span></a></li>
         </ul>
       </nav>
     </div>
@@ -92,23 +94,19 @@ function door(n, href, ill, title, desc) {
   return `<li><a class="door" href="${href}"><span class="door-n" aria-hidden="true">${n}</span><span class="illu">${ill}</span><b>${esc(title)}</b><span class="door-d">${esc(desc)}</span></a></li>`;
 }
 
-// 題名の下の1行：有効・終了・未確認の件数（最初の画面を圧迫しないよう、詳しい内訳は下の「登録状況」に置く）
-function miniStatus(db) {
-  const c = validityCounts(filterGroups(db, { ...baseFilter(), validity: 'all' }));
-  return `<span class="mini-status">登録した${settings.docScope === 'mou' ? 'MOU' : '協定'}：有効確認 <b>${c.valid_confirmed}</b>件・終了確認 <b>${c.ended_confirmed}</b>件・有効性未確認 <b>${c.unconfirmed}</b>件
-    （<a href="#/?to=status" data-jump="status">内訳を見る</a>）</span>`;
-}
-
 // ================= 登録状況（5区分の件数と調査の範囲） =================
+// 最初の画面の入口を埋もれさせないよう、件数はトップの下のほうにまとめる
 function statusHTML(db) {
   const groups = filterGroups(db, { ...baseFilter(), validity: 'all', includePlanned: true });
   const s = surveySummary(db, groups);
-  const docLabel = settings.docScope === 'mou' ? 'MOU・MOC（覚書）' : settings.docScope === 'foreign' ? '外国人受入れに関する国際文書' : 'MOU以外を含む登録文書';
+  const t3 = countTriple(groups);
+  const docLabel = settings.docScope === 'mou' ? 'MOU・MOC（覚書）' : settings.docScope === 'foreign' ? '外国人受入れに関する国際文書' : 'すべての国際文書（MOU・R/D・EPAなど）';
   const others = [s.registeredCity ? `市区町村 ${s.registeredCity}` : '', s.registeredOrg ? `団体・企業など ${s.registeredOrg}` : ''].filter(Boolean).join('・');
   return `<section class="home-sec status" id="status" aria-labelledby="status-h">
     <div class="status-head"><h2 id="status-h"><span class="band-k">登録件数と有効性</span>登録した協定は、いま何件有効？</h2><p class="status-asof">${esc(fmtDate(db.config.data_as_of))}時点</p></div>
     <p class="status-lead">このサイトに登録した${esc(docLabel)}を、今も有効かどうかで5つに分けました。国・都道府県・市区町村・団体などは分けて数えています。<b>登録した件数で、全国の総数ではありません。</b>区分を押すと一覧が開きます。</p>
     ${validityTiles(groups, { split: true, link: code => `#/list?s=${code}`, scope: settings.validity, note: false })}
+    <p class="t3-line">登録した文書 <b>${t3.docs}</b>件／協定・協力関係 <b>${t3.groups}</b>件（同じ協定の更新・後継をまとめた数）／うち現在有効と確認 <b>${t3.valid}</b>件</p>
     ${scopeBarHTML()}
     <dl class="facts">
       <div><dt>調査済みの都道府県</dt><dd><b>${s.stage1Done}</b> / ${s.prefs}<small>外国人材・労働の協定。ほかの分野は公式一覧を確認した${s.stage2Listed}都道府県と一部のみ</small></dd></div>
@@ -165,7 +163,7 @@ function effectsHTML(db) {
 // 順番に読めば分かるように、目次などのボタンは置かない
 function sanpunHTML(db) {
   return `<section class="home-sec sanpun" id="sanpun" aria-labelledby="sanpun-h">
-    <div class="band"><span class="band-k">まず3分でわかる</span><h2 id="sanpun-h">5つの図で、海外との約束の仕組みをつかむ</h2></div>
+    <div class="band"><span class="band-k">初めての方へ</span><h2 id="sanpun-h">3分でわかるMOUとは？</h2><p class="band-sub">5つの図で、海外との約束の仕組みをつかむ</p></div>
     <div class="s3-list">
       ${step1(db)}${step2(db)}${step3(db)}${step4(db)}${step5(db)}
     </div>

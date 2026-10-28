@@ -25,7 +25,7 @@
    "additional_partners": [],
    "signed_date": "2019-05",
    "announced_date": "",
-   "date_note": "締結年月はCLAIR調査票（Excel 82行目、川崎市の回答。マカティ大学・パシッグ大学と同じ結合セル）による。市の公式資料では、2019年12月時点で『バギオ大学を含むフィリピンの３大学と覚書（MOU）を締結』と確認できるが、締結日は未確認。",
+   "date_note": "市の報道発表（令和元年10月18日）の写真説明「2019年5月15日・16日 覚書の調印式の様子」による（3大学のどれがどちらの日かは記載なし）。CLAIR調査票（Excel 82行目、川崎市の回答）も2019年5月。",
    "fields": [
     "labor"
    ],
@@ -89,11 +89,21 @@
      "type": "official_page",
      "checked": "2026-10-28",
      "note": "調査資料。CLAIRは締結当事者ではない。Excel 82行目（川崎市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    },
+    {
+     "id": "s5",
+     "title": "川崎市内の介護施設・事業所にて外国人大学生によるインターンシップの受入れを開始します（川崎市報道発表資料、令和元年10月18日、健康福祉局長寿社会部高齢者事業推進課）",
+     "publisher": "川崎市（健康福祉局高齢者事業推進課）",
+     "url": "https://warp.ndl.go.jp/20200114/20200109204939/http://www.city.kawasaki.jp/templates/press/cmsfiles/contents/0000111/111528/houdouhappyou.pdf",
+     "archived_from": "http://www.city.kawasaki.jp/templates/press/cmsfiles/contents/0000111/111528/houdouhappyou.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済み（404）のため、国立国会図書館WARPの保存版。「上記3大学（バギオ大学、マカティ大学、パシッグ大学）と覚書（MOU）を締結し、協力体制のもと事業実施」、写真説明「2019年5月15日・16日 覚書の調印式の様子」と3大学の写真を確認。"
     }
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-28",
-   "notes": "フィリピンの3大学のうち市の公式資料で校名を確認できたのはバギオ大学のみ。英語名・署名者・原文は未確認。",
+   "notes": "フィリピンの3大学（バギオ大学・マカティ大学・パシッグ大学）との覚書の1つ（他の2大学は JP-CITY-141305-003・004）。英語名・署名者・原文は未確認。",
    "related_systems": [
     "TITP"
    ],
@@ -212,6 +222,222 @@
    "end_reason": null,
    "successor_id": null,
    "validity_research_note": "原文・有効期間条項は未確認。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "id": "JP-CITY-141305-003",
+   "group_key": "C141305:141305-PH-UMakati-labor",
+   "title_ja": "インターンシッププログラムにおける協力に関する覚書（川崎市・マカティ大学）（市資料・CLAIR調査票の表現・正式名称未確認）",
+   "doc_type": "覚書",
+   "doc_type_note": "市の報道発表では『覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "川崎市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141305",
+   "municipality_name": "川崎市",
+   "japan_signatory": "",
+   "country_code": "PH",
+   "partner_org": "マカティ大学（フィリピン。英語の正式名称は未確認）",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "signed_date": "2019-05",
+   "announced_date": "",
+   "date_note": "市の報道発表（令和元年10月18日）の写真説明「2019年5月15日・16日 覚書の調印式の様子」による。3大学のどれがどちらの日かは記載がないため、年月（2019年5月）までとした。CLAIR調査票（Excel 81行目、川崎市の回答）も2019年5月。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "インターンシップ",
+    "技能実習"
+   ],
+   "purpose": "福祉人材不足の解消のため、フィリピンの大学生をインターンシップ生として市内の介護施設等で受け入れ、将来的に技能実習生として再入国して市内で働いてもらう事業（川崎市外国人介護人材雇用支援事業）での協力（市の報道発表・募集案内）",
+   "content": [
+    "バギオ大学・マカティ大学・パシッグ大学の3大学と覚書（MOU）を締結し、協力体制のもとでインターンシップ事業を実施（市の報道発表）",
+    "（CLAIR調査票の内容欄）インターンシッププログラムにおける協力関係について"
+   ],
+   "status": "unknown",
+   "status_note": "第2期インターンシップ生（8名予定）はマカティ大学の学生（市の募集案内、令和元年12月）。実際の受入れ実績は未確認。",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "川崎市内の介護施設・事業所にて外国人大学生によるインターンシップの受入れを開始します（川崎市報道発表資料、令和元年10月18日、健康福祉局長寿社会部高齢者事業推進課）",
+     "publisher": "川崎市（健康福祉局高齢者事業推進課）",
+     "url": "https://warp.ndl.go.jp/20200114/20200109204939/http://www.city.kawasaki.jp/templates/press/cmsfiles/contents/0000111/111528/houdouhappyou.pdf",
+     "archived_from": "http://www.city.kawasaki.jp/templates/press/cmsfiles/contents/0000111/111528/houdouhappyou.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済み（404）のため、国立国会図書館WARPの保存版。「上記3大学（バギオ大学、マカティ大学、パシッグ大学）と覚書（MOU）を締結し、協力体制のもと事業実施」、写真説明「2019年5月15日・16日 覚書の調印式の様子」と3大学の写真を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "同上の報道発表ページ（令和元年10月18日）",
+     "publisher": "川崎市",
+     "url": "https://web.archive.org/web/20191120045647/http://www.city.kawasaki.jp/templates/press/350/0000111528.html",
+     "archived_from": "http://www.city.kawasaki.jp/templates/press/350/0000111528.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "インターネットアーカイブの保存版（2019年11月20日保存）。"
+    },
+    {
+     "id": "s3",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 81行目（川崎市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市の報道発表PDFは削除済みで、2026年10月の照合の再調査で国立国会図書館WARPの保存版から締結を確認した。英語名・署名者・原文は未確認。",
+   "validity_basis": "市の報道発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。2024年の市資料の受入スキーム図は「フィリピン共和国またはベトナム国の看護課程大学」と書くのみで、この覚書の継続は明記されていない。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "id": "JP-CITY-141305-004",
+   "group_key": "C141305:141305-PH-PLPasig-labor",
+   "title_ja": "インターンシッププログラムにおける協力に関する覚書（川崎市・パシッグ大学）（市資料・CLAIR調査票の表現・正式名称未確認）",
+   "doc_type": "覚書",
+   "doc_type_note": "市の報道発表では『覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "川崎市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141305",
+   "municipality_name": "川崎市",
+   "japan_signatory": "",
+   "country_code": "PH",
+   "partner_org": "パシッグ大学（フィリピン。英語の正式名称は未確認）",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "signed_date": "2019-05",
+   "announced_date": "",
+   "date_note": "市の報道発表（令和元年10月18日）の写真説明「2019年5月15日・16日 覚書の調印式の様子」による。3大学のどれがどちらの日かは記載がないため、年月（2019年5月）までとした。CLAIR調査票（Excel 83行目、川崎市の回答）も2019年5月。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "インターンシップ",
+    "技能実習"
+   ],
+   "purpose": "福祉人材不足の解消のため、フィリピンの大学生をインターンシップ生として市内の介護施設等で受け入れ、将来的に技能実習生として再入国して市内で働いてもらう事業（川崎市外国人介護人材雇用支援事業）での協力（市の報道発表・募集案内）",
+   "content": [
+    "バギオ大学・マカティ大学・パシッグ大学の3大学と覚書（MOU）を締結し、協力体制のもとでインターンシップ事業を実施（市の報道発表）",
+    "（CLAIR調査票の内容欄）インターンシッププログラムにおける協力関係について"
+   ],
+   "status": "unknown",
+   "status_note": "この大学からのインターンシップ生の受入れ実績は、市の公式資料で未確認。",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "川崎市内の介護施設・事業所にて外国人大学生によるインターンシップの受入れを開始します（川崎市報道発表資料、令和元年10月18日、健康福祉局長寿社会部高齢者事業推進課）",
+     "publisher": "川崎市（健康福祉局高齢者事業推進課）",
+     "url": "https://warp.ndl.go.jp/20200114/20200109204939/http://www.city.kawasaki.jp/templates/press/cmsfiles/contents/0000111/111528/houdouhappyou.pdf",
+     "archived_from": "http://www.city.kawasaki.jp/templates/press/cmsfiles/contents/0000111/111528/houdouhappyou.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済み（404）のため、国立国会図書館WARPの保存版。「上記3大学（バギオ大学、マカティ大学、パシッグ大学）と覚書（MOU）を締結し、協力体制のもと事業実施」、写真説明「2019年5月15日・16日 覚書の調印式の様子」と3大学の写真を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "同上の報道発表ページ（令和元年10月18日）",
+     "publisher": "川崎市",
+     "url": "https://web.archive.org/web/20191120045647/http://www.city.kawasaki.jp/templates/press/350/0000111528.html",
+     "archived_from": "http://www.city.kawasaki.jp/templates/press/350/0000111528.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "インターネットアーカイブの保存版（2019年11月20日保存）。"
+    },
+    {
+     "id": "s3",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 83行目（川崎市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市の報道発表PDFは削除済みで、2026年10月の照合の再調査で国立国会図書館WARPの保存版から締結を確認した。英語名・署名者・原文は未確認。",
+   "validity_basis": "市の報道発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。2024年の市資料の受入スキーム図は「フィリピン共和国またはベトナム国の看護課程大学」と書くのみで、この覚書の継続は明記されていない。"
   }
  ]
 }

@@ -4,16 +4,17 @@
 // ・どの項目（協定名・本文・相手機関・署名者…）に一致したかを記録して、画面に表示する
 // 検索の対象は、有効性・文書の種類・期間を問わず、登録したすべての文書（締結予定・報道のみを含む）です。
 import {
-  FIELD, DOC_CATEGORY, DOC_CATEGORIES, JAPAN_ORG_TYPE, JAPAN_ORG_TYPES, PAIR_KIND, PAIR_KINDS, PARTNER_TYPES, ACCEPTANCE_TYPES,
+  FIELD, DOC_CATEGORY, DOC_KIND, DOC_KINDS, JAPAN_ORG_TYPE, JAPAN_ORG_TYPES, PAIR_KIND, PAIR_KINDS, PARTNER_TYPES, ACCEPTANCE_TYPES,
   NUMBER_KIND, BUDGET_KIND, VALIDITY, VALIDITIES, LEVELS, FIELDS, countryName, prefName, sortGroups,
 } from './data.js';
 
 // 検索する項目（表示の順）。weight は並べ替え（関連度順）に使う重み
+// 「締結主体」（協定の当事者）と「情報源」（出典の資料を出した機関）は別の項目として記録し、画面でも分けて表示します
 export const SEARCH_FIELDS = [
   { key: 'title', ja: '協定名', weight: 10 },
   { key: 'content', ja: '本文・合意内容', weight: 3 },
-  { key: 'japan_org', ja: '日本側の締結機関', weight: 7 },
-  { key: 'partner_org', ja: '外国側の締結機関', weight: 7 },
+  { key: 'japan_org', ja: '日本側の締結主体', weight: 7 },
+  { key: 'partner_org', ja: '相手側の締結主体', weight: 7 },
   { key: 'signatory', ja: '署名者', weight: 5 },
   { key: 'agency', ja: '担当省庁', weight: 5 },
   { key: 'related_org', ja: '関連する団体・企業', weight: 4 },
@@ -26,7 +27,7 @@ export const SEARCH_FIELDS = [
   { key: 'project', ja: '関連する事業', weight: 2 },
   { key: 'number', ja: '受入れ人数（目標・実績）', weight: 2 },
   { key: 'budget', ja: '予算・決算', weight: 2 },
-  { key: 'source', ja: '出典（資料名・公表機関）', weight: 1 },
+  { key: 'source', ja: '情報源（出典の資料名・発行元。締結主体ではない）', weight: 1 },
   { key: 'actor', ja: '締結主体の種類', weight: 3 },
   { key: 'note', ja: '備考・署名の場', weight: 1 },
 ];
@@ -35,16 +36,20 @@ export const SEARCH_FIELD = Object.fromEntries(SEARCH_FIELDS.map(f => [f.key, f]
 // 表記ゆれ（同じものを指す言葉）。どれか1つで検索すると、ほかの言葉でも探します。
 // 国名・都道府県名の別名は countries.json・prefectures.json から自動で加えます。
 export const SYNONYMS = [
-  ['CLAIR', 'クレア', '自治体国際化協会'],
+  ['CLAIR', 'クレア', '自治体国際化協会', 'Council of Local Authorities for International Relations'],
   ['NAGOMi', 'なごみ', '外国人材共生支援全国協会'],
   ['VAMAS', 'ベトナム海外労働者派遣協会', 'Vietnam Association of Manpower Supply'],
+  ['日本国政府', '日本政府', 'Government of Japan'],
   ['MOU', '覚書', '了解覚書', 'Memorandum of Understanding'],
   ['MOC', '協力覚書', 'Memorandum of Cooperation'],
+  ['R/D', 'RD', 'RoD', '討議議事録', 'Record of Discussions', 'Record of Discussion'],
   ['EPA', '経済連携協定', 'Economic Partnership Agreement'],
-  ['JICA', 'ジャイカ', '国際協力機構'],
-  ['JETRO', 'ジェトロ', '日本貿易振興機構'],
-  ['JITCO', '国際人材協力機構', '国際研修協力機構'],
-  ['OTIT', '外国人技能実習機構'],
+  ['JICA', 'ジャイカ', '国際協力機構', 'Japan International Cooperation Agency'],
+  ['JETRO', 'ジェトロ', '日本貿易振興機構', 'Japan External Trade Organization'],
+  ['JITCO', 'ジツコ', '国際人材協力機構', '国際研修協力機構', 'Japan International Trainee & Skilled Worker Cooperation Organization'],
+  ['OTIT', '外国人技能実習機構', 'Organization for Technical Intern Training'],
+  ['アイム・ジャパン', 'IM Japan', 'IMジャパン', '国際人材育成機構'],
+  ['JP-MIRAI', 'JPミライ', '責任ある外国人労働者受入れプラットフォーム'],
   ['JBIC', '国際協力銀行'],
   ['JAC', '建設技能人材機構'],
   ['HIDA', 'AOTS', '海外産業人材育成協会'],
@@ -102,6 +107,9 @@ function makeAlt(text, exclude) {
   return { text, n: p.n, word, exclude: exclude || [] };
 }
 
+// 「覚書」で探すときに「協力覚書」（MOC）の一部には一致させない（MOU と MOC を混同しない）
+const WORD_EXCLUDE = { 覚書: ['協力覚書'] };
+
 function synonymTable(db) {
   if (db._syn) return db._syn;
   const groups = SYNONYMS.map(list => ({ list, kind: 'word' }));
@@ -115,7 +123,7 @@ function synonymTable(db) {
   const excludeCountry = (n, code) => [...new Set(countryNames.filter(x => x.code !== code && x.n !== n && x.n.includes(n)).map(x => x.n))];
   const index = new Map();
   for (const g of groups) {
-    g.alts = g.list.map(t => makeAlt(t, g.kind === 'pref' ? excludeFor(prep(t).n) : g.kind === 'country' ? excludeCountry(prep(t).n, g.code) : null)).filter(Boolean);
+    g.alts = g.list.map(t => makeAlt(t, g.kind === 'pref' ? excludeFor(prep(t).n) : g.kind === 'country' ? excludeCountry(prep(t).n, g.code) : (WORD_EXCLUDE[t] || []).map(x => prep(x).n))).filter(Boolean);
     for (const a of g.alts) {
       if (!index.has(a.n)) index.set(a.n, []);
       index.get(a.n).push(g);
@@ -155,11 +163,19 @@ export function parseQuery(db, q) {
     const names = [];
     for (const g of groups) for (const a of g.alts) {
       if (!alts.some(x => x.n === a.n)) { alts.push(a); names.push(a.text); }
-      else if (a.exclude.length && alts.find(x => x.n === a.n)) alts.find(x => x.n === a.n).exclude = a.exclude;
+      // 地名・国名の除外（「京都」で東京都を拾わない）は入力した言葉にも当てはめる。
+      // 言葉の別名の除外（MOUの別名「覚書」で協力覚書を拾わない）は、入力した言葉そのものには当てはめない
+      else if (g.kind !== 'word' && a.exclude.length && alts.find(x => x.n === a.n)) alts.find(x => x.n === a.n).exclude = a.exclude;
     }
     tokens.push({ text, n: base.n, alts, synonyms: [...new Set(names)], kinds: groups.map(g => ({ kind: g.kind, code: g.code })) });
   }
   return { raw: String(q).trim(), tokens };
+}
+
+// 任意の文字（組織名など）が、言葉（別名を含む）に一致するか
+export function textMatches(text, token) {
+  const e = prep(text);
+  return token.alts.some(a => findIn(e, a));
 }
 
 // 1つの項目の文字の中で、言葉（別名を含む）が現れる位置を探す
@@ -209,8 +225,9 @@ export function groupIndex(db, g) {
     if (v.japan_level !== 'organization') add('region', prefName(db, v.pref_code));
     add('region', v.municipality_name);
     for (const r of v.related_regions) add('related_region', `${prefName(db, r.pref_code)}${r.text ? '：' + r.text : ''}`);
-    // 「MOU・MOC」の分類名は全部の覚書に付くので入れない（MOU と MOC を区別して探せるように）
-    add('doc_type', [v.doc_type, v.doc_category === 'mou_moc' ? null : DOC_CATEGORY[v.doc_category]?.ja, v.doc_type_note]);
+    // 「MOU・MOC」の分類名は全部の覚書に付くので入れず、詳しい区分（MOU／MOC／協定書・合意書など／R/D…）を入れる
+    // （MOU と MOC、覚書と R/D を区別して探せるように）
+    add('doc_type', [v.doc_type, v.doc_category === 'mou_moc' ? null : DOC_CATEGORY[v.doc_category]?.ja, DOC_KIND[v._kind]?.ja, v.doc_type_note]);
     add('field', v.fields.map(f => FIELD[f]?.ja));
     add('system', [...(v.labor_detail || []), ...v.related_systems.map(k => db.systemByKey?.get(k)?.name || k), ...v.acceptance_types.map(t => ACCEPTANCE_TYPES[t] || t)]);
     for (const p of v.projects) add('project', [p.name, p.detail]);
@@ -274,15 +291,22 @@ export function snippet(hit, esc, len = 46) {
 
 // ---------- 検索結果の再絞り込み ----------
 // 1つの項目の中で複数を選ぶと「どれか」（OR）、項目どうしは「すべて」（AND）
+// 文書の種類は詳しい区分（MOU／MOC／協定書・合意書など／R/D／EPA…）で選ぶ。協力関係ごとに、最新の文書の種類で数える
 export const FACETS = [
-  { key: 'ot', ja: '締結主体（日本側）', values: g => [g.orgType], label: (db, v) => JAPAN_ORG_TYPE[v]?.ja || v, order: JAPAN_ORG_TYPES.map(t => t.code) },
-  { key: 'pk', ja: '当事者の組み合わせ', values: g => [g.pairKind], label: (db, v) => PAIR_KIND[v]?.ja || v, order: PAIR_KINDS.map(t => t.code), desc: v => PAIR_KIND[v]?.desc },
+  { key: 'vs', ja: '有効性', values: g => [g.validity], label: (db, v) => VALIDITY[v]?.ja || v, order: VALIDITIES.map(v => v.code), desc: v => VALIDITY[v]?.desc },
+  { key: 'cat', ja: '文書の種類', values: g => [g.kind], label: (db, v) => DOC_KIND[v]?.ja || v, order: DOC_KINDS.map(c => c.code), desc: v => DOC_KIND[v]?.desc },
+  { key: 'ot', ja: '締結主体（日本側）', values: g => [g.orgType], label: (db, v) => JAPAN_ORG_TYPE[v]?.ja || v, order: JAPAN_ORG_TYPES.map(t => t.code), desc: v => JAPAN_ORG_TYPE[v]?.desc },
   { key: 'c', ja: '相手国・地域', values: g => g.countries, label: (db, v) => countryName(db, v) },
   { key: 'p', ja: '都道府県（県・県内の市区町村が締結）', values: g => g.pref_code ? [g.pref_code] : [], label: (db, v) => prefName(db, v), byCode: true },
-  { key: 'cat', ja: '文書の種類', values: g => [g.category], label: (db, v) => DOC_CATEGORY[v]?.ja || v, order: DOC_CATEGORIES.map(c => c.code) },
-  { key: 'vs', ja: '有効性', values: g => [g.validity], label: (db, v) => VALIDITY[v]?.ja || v, order: VALIDITIES.map(v => v.code) },
   { key: 'f', ja: '分野', values: g => g.fields, label: (db, v) => FIELD[v]?.ja || v, order: FIELDS.map(f => f.code) },
+  { key: 'pk', ja: '当事者の組み合わせ', values: g => [g.pairKind], label: (db, v) => PAIR_KIND[v]?.ja || v, order: PAIR_KINDS.map(t => t.code), desc: v => PAIR_KIND[v]?.desc },
+  // 地図などの件数は、初期設定で「報道のみ」の記録を含めない。検索から同じ条件で数えられるようにする
+  { key: 'ev', ja: '確認の根拠', values: g => [g.official ? 'official' : 'news'], label: (db, v) => ({ official: '公式資料で確認', news: '報道のみ（公式資料は未確認）' }[v] || v), order: ['official', 'news'] },
 ];
+// 以前のリンク（cat=mou_moc など、大きな分類の名前）を、詳しい区分に読み替える
+export function expandKinds(list) {
+  return [...new Set(list.flatMap(v => DOC_KIND[v] ? [v] : DOC_CATEGORY[v] ? DOC_KINDS.filter(k => k.cat === v).map(k => k.code) : []))];
+}
 export const FACET = Object.fromEntries(FACETS.map(f => [f.key, f]));
 
 // sel = { ot:[], pk:[], c:[], p:[], cat:[], vs:[], f:[], y1, y2 }

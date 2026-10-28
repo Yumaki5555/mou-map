@@ -50,6 +50,8 @@ export function go(path, params = {}, opts = {}) {
 
 function render() {
   const { path, params } = parseHash();
+  // 「戻る」「進む」で前に見たページへ戻ったときは、そのページで最後に見ていた位置に戻す（位置は下の scroll で記録）
+  const savedY = history.state && typeof history.state.y === 'number' ? history.state.y : null;
   // 共有されたリンクに「数え方」が入っていれば、それに合わせる（v＝有効性の範囲、doc＝数える文書）
   if (params.get('v')) setScope('validity', params.get('v'));
   if (params.get('doc')) setScope('docScope', params.get('doc'));
@@ -79,6 +81,8 @@ function render() {
   const to = params.get('to');
   if (to && document.getElementById(to)) {
     requestAnimationFrame(() => jumpTo(to, false));
+  } else if (savedY !== null && !samePath) {
+    requestAnimationFrame(() => window.scrollTo(0, savedY));
   } else if (!keepScroll && !samePath) window.scrollTo(0, 0);
   keepScroll = false;
   lastPath = path;
@@ -123,6 +127,15 @@ document.getElementById('global-search').addEventListener('submit', e => {
   const q = document.getElementById('global-q').value.trim();
   go('/search', q ? { q } : {});
 });
+
+// いま見ているページの位置を、ブラウザの履歴の項目に記録する（詳細ページから「戻る」で検索結果に戻ったときに使う）
+let saveTimer = 0;
+window.addEventListener('scroll', () => {
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => {
+    try { history.replaceState({ ...(history.state || {}), y: Math.round(window.scrollY) }, ''); } catch (e) { /* 記録できない環境では何もしない */ }
+  }, 200);
+}, { passive: true });
 
 // 上に戻るボタン（少し下まで読んだら表示）
 const toTop = document.getElementById('to-top');

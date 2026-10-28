@@ -3,8 +3,8 @@ import { toCSV, downloadBlob, toast } from './util.js';
 import { scopeLabel } from './shared.js';
 import {
   FIELD, STATUS, IMPACT, STAGE, CAUSALITY, PARTNER_TYPES, LEGAL, EVIDENCE, ORIGINAL, PAYERS, BUDGET_KIND, LEVELS,
-  VALIDITY, DOC_CATEGORY, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES, VALIDITY_REASONS, JAPAN_ORG_TYPE, PAIR_KIND,
-  countryName, prefName, termEnd,
+  VALIDITY, DOC_CATEGORY, DOC_KIND, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES, VALIDITY_REASONS, JAPAN_ORG_TYPE, PAIR_KIND,
+  countryName, prefName, termEnd, japanSideName,
 } from './data.js';
 
 const HEADERS = [
@@ -12,10 +12,11 @@ const HEADERS = [
   ['正式名称', m => m.title_ja],
   ['原語の正式名称', m => m.title_original],
   ['文書の分類', m => DOC_CATEGORY[m.doc_category]?.ja],
-  ['文書の種類', m => m.doc_type],
+  ['文書の種類（詳しい区分：MOU／MOC／協定書・合意書など／R/D／EPA…）', m => DOC_KIND[m._kind]?.ja],
+  ['文書の種類（文書の表記）', m => m.doc_type],
   ['文書の種類（補足）', m => m.doc_type_note],
   ['日本側の区分', m => LEVELS[m.japan_level]],
-  ['日本側機関', m => m.japan_org],
+  ['日本側の締結主体', m => japanSideName(m._db, m)],
   ['日本側の組織種別', m => JAPAN_ORG_TYPE[m._orgType]?.ja],
   ['当事者の組み合わせ', m => PAIR_KIND[m._pairKind]?.ja],
   ['都道府県', m => m.japan_level === 'organization' ? '' : prefName(m._db, m.pref_code)],
@@ -27,7 +28,7 @@ const HEADERS = [
   ['日本側のその他の署名者', m => (m.other_japan_parties || []).join(' / ')],
   ['相手国コード', m => m.country_code],
   ['相手国・地域', m => countryName(m._db, m.country_code)],
-  ['相手機関', m => m.partner_org],
+  ['相手側の締結主体', m => m.partner_org],
   ['相手機関（英語）', m => m.partner_org_en],
   ['相手機関の種別', m => PARTNER_TYPES[m.partner_type]],
   ['締結日', m => m.signed_date],
@@ -66,7 +67,8 @@ const HEADERS = [
   ['地域への影響', m => m.impacts.map(i => `[${IMPACT[i.category]?.ja || i.category}・${STAGE[i.stage]?.ja || i.stage}${i.fiscal_year ? '・' + i.fiscal_year + '年度' : ''}] ${i.text}${i.causality && i.causality !== 'n/a' ? '（' + CAUSALITY[i.causality] + '）' : ''}（根拠：${(i.sources || []).join(',')}）`).join(' / ')],
   ['原文の公開', m => ORIGINAL[m.original_text]],
   ['確認の根拠', m => EVIDENCE[m.evidence_level]],
-  ['情報源', m => m.sources.map(s => `${s.id}：${s.title}（${s.publisher}）${s.url}［確認日 ${s.checked}］`).join(' / ')],
+  ['情報源の発行元（締結主体とは別）', m => [...new Set(m.sources.map(s => s.publisher).filter(Boolean))].join(' / ')],
+  ['出典（情報源）', m => m.sources.map(s => `${s.id}：${s.title}（${s.publisher}）${s.url}［確認日 ${s.checked}］`).join(' / ')],
   ['最終確認日', m => m.last_checked],
   ['更新元のID', m => m.renewal_of],
   ['同一協定のグループ', m => m.group_key],
@@ -78,7 +80,8 @@ export function mouCSV(db, mous, cond) {
   const rows = mous.map(m => Object.assign(Object.create(m), { _db: db }));
   const csv = toCSV(HEADERS, rows);
   if (!cond) return csv;
-  const head = `# 日本と世界のMOU・協定マップ／${cond}／掲載内容：${db.config.data_as_of}時点／${mous.length}文書（同じ協定の更新・再締結は別の行）`;
+  const groups = new Set(mous.map(m => m.group_key || m.id)).size;
+  const head = `# 日本と世界のMOU・協定マップ／${cond}／掲載内容：${db.config.data_as_of}時点／${mous.length}文書・協定（協力関係）${groups}件（同じ協定の更新・再締結・後継は別の行で、「同一協定のグループ」列が同じ）`;
   return csv.replace(/^\uFEFF/, '\uFEFF' + head.replace(/[\r\n]/g, ' ') + '\r\n');
 
 }

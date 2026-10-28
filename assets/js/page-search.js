@@ -1,12 +1,14 @@
 // 「サイト内検索」のページ。キーワードは消さずに、結果の中で締結主体・相手国・都道府県・文書の種類・有効性・分野・締結年で絞り込める。
 // 条件を変えると件数と一覧がその場で変わり、条件はアドレス（#/search?q=…）にも残るので、共有したリンクでも同じ結果になる。
 import { esc, debounce } from './util.js';
-import { validityCounts, levelBreakdown, prefName, countryName, SURVEY_RESULT, VALIDITY } from './data.js';
-import { parseQuery, searchGroups, applyFacets, facetCounts, sortResults, tokenCounts, snippet, FACETS, SEARCH_FIELD } from './search.js';
+import { validityCounts, levelBreakdown, countTriple, prefName, countryName, SURVEY_RESULT, VALIDITY, FIELD } from './data.js';
+import { parseQuery, searchGroups, applyFacets, facetCounts, sortResults, tokenCounts, snippet, expandKinds, FACETS, SEARCH_FIELD } from './search.js';
+import { exactOrgs, orgTypeLabel } from './orgs.js';
 import { mouCard } from './components.js';
 import { downloadMouCSV, groupsToMous } from './csv.js';
+import { defaultsNoteHTML } from './shared.js';
 
-const EXAMPLES = ['宮城県 ベトナム', 'インドネシア 介護', 'ベトナム 技能実習', '外務省 EPA', 'NAGOMi VAMAS', '団体間'];
+const EXAMPLES = ['NAGOMi', 'JITCO R/D', 'CLAIR', '宮城県 ベトナム', 'インドネシア 介護', '外務省 EPA', 'ベトナム 技能実習', '団体間'];
 const PAGE = 40;
 const FACET_SHOW = { c: 12, p: 12 };
 
@@ -14,9 +16,12 @@ const FACET_SHOW = { c: 12, p: 12 };
 function readState(db, params) {
   const list = k => (params.get(k) || '').split(',').filter(Boolean);
   const year = k => { const y = Number(params.get(k)); return y >= 1900 && y <= 2100 ? y : null; };
+  const sel = Object.fromEntries(FACETS.map(f => [f.key, list(f.key)]));
+  // 文書の種類は詳しい区分で選ぶ（以前のリンクの cat=mou_moc は、MOU・MOC・協定書などの3つに読み替える）
+  sel.cat = expandKinds(sel.cat);
   return {
     q: params.get('q') || '',
-    sel: { ...Object.fromEntries(FACETS.map(f => [f.key, list(f.key)])), y1: year('y1'), y2: year('y2') },
+    sel: { ...sel, y1: year('y1'), y2: year('y2') },
     sort: ['rel', 'new', 'old'].includes(params.get('sort')) ? params.get('sort') : 'rel',
     limit: PAGE,
   };
@@ -47,9 +52,11 @@ export function searchPage(ctx) {
       <button class="btn" type="submit">検索</button>
     </form>
     <p class="sr-hint">言葉をスペースで区切ると、<b>すべての言葉を含む協定</b>を探します（例：「インドネシア 介護」）。
-      表記ゆれ（CLAIR／クレア／自治体国際化協会、ベトナム／Viet Nam、MOU／覚書 など）は同じ言葉として探します。</p>
+      表記ゆれ（CLAIR／クレア／自治体国際化協会、ベトナム／Viet Nam、R/D／討議議事録 など）は同じ言葉として探します。</p>
     <p class="sr-examples"><span class="small muted">例：</span>${EXAMPLES.map(x => `<button type="button" class="chip-link" data-ex="${esc(x)}">${esc(x)}</button>`).join('')}</p>
+    ${defaultsNoteHTML('search')}
     <div id="sr-cond" class="result-bar" aria-live="polite"></div>
+    <div id="sr-org" aria-live="polite"></div>
     <div class="sr-layout">
       <aside class="sr-facets" aria-labelledby="sr-f-h">
         <details id="sr-fd" open><summary id="sr-f-h">結果をさらに絞り込む</summary><div id="sr-facets"></div></details>
@@ -128,23 +135,30 @@ function render(ctx, st, opts = {}) {
       ${selCount(st.sel) ? '<button type="button" class="btn btn-small btn-outline" data-clear-facets>絞り込みをすべて外す（キーワードは残す）</button>' : ''}
       ${st.q ? '<button type="button" class="btn btn-small btn-outline" data-clear-q>キーワードを消す</button>' : ''}</div>`;
 
+  // ---- 組織名として一致したとき：締結主体として結んだ協定と、情報源として登場する協定を分けて案内する ----
+  app.querySelector('#sr-org').innerHTML = orgNoticeHTML(db, parsed);
+
   // ---- 絞り込み（選択肢ごとに、選ぶと何件になるか） ----
   app.querySelector('#sr-facets').innerHTML = FACETS.map(f => facetHTML(db, f, counts[f.key], st.sel[f.key])).join('') + yearHTML(counts.years, st.sel);
 
   // ---- 件数 ----
   const vc = validityCounts(results.map(r => r.g));
+  const t3 = countTriple(results.map(r => r.g));
+  const showing = Math.min(results.length, st.limit);
   app.querySelector('#sr-sum').innerHTML = results.length ? `<p class="result-summary sr-count">該当 <b>${results.length}</b>件
-      <span class="small">（${esc(levelBreakdown(results.map(r => r.g)))}。同じ協定の更新・再締結は1件）</span></p>
-    <p class="small muted sr-vc">有効性の内訳：有効確認 ${vc.valid_confirmed}・有効性未確認 ${vc.unconfirmed}・終了確認 ${vc.ended_confirmed}・開始前 ${vc.signed_not_started}・締結予定 ${vc.planned}</p>
+      <span class="small">（${esc(levelBreakdown(results.map(r => r.g)))}。同じ協定の更新・再締結は1件。登録文書では ${t3.docs}文書）</span></p>
+    <p class="small sr-vc">有効性の内訳：有効確認 ${vc.valid_confirmed}件・有効性未確認 ${vc.unconfirmed}件・終了確認 ${vc.ended_confirmed}件・開始前 ${vc.signed_not_started}件${vc.planned ? `・締結予定 ${vc.planned}件` : ''}</p>
+    <p class="small muted sr-range">${showing === results.length ? `${results.length}件すべてを表示しています` : `1〜${showing}件目を表示しています（全${results.length}件。下の「さらに表示」で続きを表示）`}</p>
     <div class="sr-tools"><label class="small" for="sr-sort">並べ方</label>
       <select id="sr-sort"><option value="rel"${st.sort === 'rel' ? ' selected' : ''}>一致の度合いが高い順</option><option value="new"${st.sort === 'new' ? ' selected' : ''}>締結日が新しい順</option><option value="old"${st.sort === 'old' ? ' selected' : ''}>締結日が古い順</option></select>
-      <button type="button" class="btn btn-small btn-outline" id="sr-csv">この結果をCSVで保存</button></div>` : '';
+      <button type="button" class="btn btn-small btn-outline" id="sr-csv">この結果をCSVで保存（${results.length}件）</button>
+      ${mapLinkHTML(st)}</div>` : '';
 
   // ---- 結果の一覧（0件のときは理由を区別して表示） ----
   const res = app.querySelector('#sr-res');
   if (!results.length) res.innerHTML = zeroHTML(db, st, parsed, matched);
   else {
-    res.innerHTML = `<div class="mou-list">${results.slice(0, st.limit).map(r => mouCard(db, r.g, { extra: hitHTML(r), showActor: true })).join('')}</div>
+    res.innerHTML = `<div class="mou-list">${results.slice(0, st.limit).map(r => mouCard(db, r.g, { extra: hitHTML(r), showActor: true, showSources: true })).join('')}</div>
       ${results.length > st.limit ? `<p><button type="button" class="btn btn-outline" data-more>さらに表示（残り${results.length - st.limit}件）</button></p>` : ''}`;
   }
   app.querySelector('#sr-csv')?.addEventListener('click', () => {
@@ -152,6 +166,43 @@ function render(ctx, st, opts = {}) {
     downloadMouCSV(db, groupsToMous(results.map(r => r.g)), 'mou_search.csv', `サイト内検索：${cond}（${vsSel.length ? '有効性で絞り込み' : '全期間・すべての有効性・すべての文書'}）`);
   });
   if (opts.focus) app.querySelector(opts.focus)?.focus();
+}
+
+// 言葉が組織の名前（略称・別名を含む）とぴったり一致したときの案内。
+// 締結主体として結んだ協定と、出典の資料を出しただけ（情報源）の協定を分けて件数を示し、組織の一覧へ案内する
+function orgNoticeHTML(db, parsed) {
+  const lines = [];
+  const seen = new Set();
+  for (const t of parsed.tokens) for (const e of exactOrgs(db, t).slice(0, 3)) {
+    if (seen.has(e.key)) continue;
+    seen.add(e.key);
+    const t3 = countTriple(e.sign);
+    const roles = [
+      e.sign.length ? `<b>締結主体として ${t3.groups}件</b>（文書 ${t3.docs}件・現在有効と確認 ${t3.valid}件）` : '<b>締結主体としての登録はありません</b>',
+      e.co.length ? `共同の締結者として ${e.co.length}件` : '',
+      e.src.length ? `情報源${e.clair ? '・照合資料' : ''}として ${e.src.length}件（この組織が締結した協定ではありません）` : '',
+    ].filter(Boolean).join('／');
+    lines.push(`<li><span class="small muted">「${esc(t.text)}」→</span> <a href="#/actors?${new URLSearchParams({ o: e.key, q: t.text })}">${esc(e.name)}</a> <span class="badge b-actor">${esc(orgTypeLabel(e))}</span><br>${roles}
+      ${e.clair ? '<br><span class="small">CLAIRは協定の当事者ではなく、2020年1月時点の「協定等締結状況」の作成元です（<a href="#/about?to=ab-clair">照合結果</a>）。</span>' : ''}</li>`);
+  }
+  if (!lines.length) return '';
+  return `<div class="org-notice"><p class="org-notice-h">組織名として一致</p><ul>${lines.join('')}</ul>
+    <p class="small muted">名前を押すと、その組織が締結した協定を有効性を問わず一覧にします。下の検索結果には、本文・出典などに名前が出てくる協定も含まれます（「一致した項目」で区別できます）。</p></div>`;
+}
+
+// 検索の絞り込みと同じ条件で、地図を開くリンク（相手国・都道府県・分野・有効性を引き継ぐ）
+function mapLinkHTML(st) {
+  const s = st.sel;
+  const p = {};
+  if (s.c.length && s.c.length <= 4) { p.mode = 'country'; p.c = s.c.join(','); }
+  else if (s.f.length === 1 && FIELD[s.f[0]]) { p.mode = 'field'; p.f = s.f[0]; }
+  else p.mode = 'count';
+  if (s.p.length === 1) p.p = s.p[0];
+  const v = [...s.vs].sort().join(',');
+  const V = { valid_confirmed: 'valid', 'unconfirmed,valid_confirmed': 'valid_unk', 'ended_confirmed,signed_not_started,unconfirmed,valid_confirmed': 'all' };
+  if (V[v]) p.v = V[v];
+  if (p.mode === 'count' && !p.p && !p.v) return '';
+  return `<a class="btn btn-small btn-outline" href="#/map?${new URLSearchParams(p)}" title="地図は「有効性」「数える文書」の設定で数えます">この条件で地図を見る</a>`;
 }
 
 function facetHTML(db, f, entries, chosen) {

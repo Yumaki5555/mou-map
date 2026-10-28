@@ -2,7 +2,7 @@
 import { esc, fmtDate, fmtYen, fmtNum, today } from './util.js';
 import {
   FIELD, STATUS, IMPACTS, STAGES, CAUSALITY, PARTNER_TYPES, LEGAL, EVIDENCE, PAYERS, BUDGET_KIND, SOURCE_TYPES,
-  VALIDITY, VALIDITIES, VALIDITY_SCOPE, VALIDITY_REASONS, DOC_CATEGORY, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES, RESEARCH_STATES, AUTO_RENEWAL,
+  VALIDITY, VALIDITIES, VALIDITY_SCOPE, VALIDITY_REASONS, DOC_CATEGORY, DOC_KIND, RELATION, NUMBER_KIND, ACCEPTANCE_TYPES, RESEARCH_STATES, AUTO_RENEWAL,
   JAPAN_ORG_TYPE, PAIR_KIND, LEVEL_ORDER, LEVEL_SHORT,
   countryName, prefName, japanSideName, residentChange, sswCount, validityCounts, validityInfo, termEnd, researchStatus,
 } from './data.js';
@@ -36,6 +36,11 @@ export function validityBadge(code, opts = {}) {
 export function categoryBadge(code) {
   const c = DOC_CATEGORY[code] || DOC_CATEGORY.mou_moc;
   return `<span class="badge b-cat b-cat-${esc(c.code)}" title="${esc(c.desc)}">${esc(c.ja)}</span>`;
+}
+// 文書の種類の詳しい区分（MOU／MOC／協定書・合意書など／R/D／EPA…）
+export function kindBadge(code) {
+  const k = DOC_KIND[code] || DOC_KIND.mou_other;
+  return `<span class="badge b-cat b-cat-${esc(k.cat)}" title="${esc(k.desc)}">${esc(k.ja)}</span>`;
 }
 export function relationBadge(code) {
   const r = RELATION[code] || RELATION.unconfirmed;
@@ -114,6 +119,7 @@ export function validityDetail(db, m, g) {
   const vOwn = VALIDITY[m._validity] || VALIDITY.unconfirmed;
   const srcs = (m.validity_sources || []).map(id => m.sources.find(s => s.id === id)).filter(Boolean);
   const succ = m.successor_id && db.mouById.get(m.successor_id);
+  const prev = m.renewal_of && db.mouById.get(m.renewal_of);
   const info = validityInfo(m);
   const end = termEnd(m);
   const endNote = e => e.precision === 'month' ? `（年月までの記載のため、${fmtDate(e.date)}まで有効として判定）` : e.precision === 'year' ? `（年までの記載のため、${fmtDate(e.date)}まで有効として判定）` : '';
@@ -127,7 +133,8 @@ export function validityDetail(db, m, g) {
     ['自動更新', `${esc(AUTO_RENEWAL[m.auto_renewal] || '未確認')}${m.renewal_text || (m.renewal_terms && m.renewal_terms !== '未確認') ? `<br><span class="small">${esc(m.renewal_text || m.renewal_terms)}</span>` : ''}${m.auto_renewal === 'yes' ? '<br><span class="small muted">自動更新の条項があるだけでは「有効確認」にしません（更新されたことを公式資料で確認できたときだけ）。</span>' : ''}`],
     ['最終更新・延長日', esc(fmtDate(m.last_renewed, '確認できず'))],
     m.ended_date || m.end_reason ? ['終了日・終了理由', `${esc(fmtDate(m.ended_date, '日付不明'))}${m.end_reason ? `<br>${esc(m.end_reason)}` : ''}`] : null,
-    succ ? ['後継・更新後の文書', `<a href="#/mou/${encodeURIComponent(succ.id)}">${esc(succ.title_ja)}（${esc(fmtDate(succ.signed_date))}）</a><br><span class="small muted">件数は同じ協定として1件で数えています</span>`] : null,
+    prev ? ['更新前・前の文書', `<a href="#/mou/${encodeURIComponent(prev.id)}">${esc(prev.title_ja)}（${esc(fmtDate(prev.signed_date))}）</a> ${validityBadge(prev._validity, { prefix: false })}<br><span class="small muted">同じ協力関係の文書として1件で数えています（同時に有効な別の協定として二重に数えません）</span>`] : null,
+    succ ? ['後継・更新後の文書', `<a href="#/mou/${encodeURIComponent(succ.id)}">${esc(succ.title_ja)}（${esc(fmtDate(succ.signed_date))}）</a> ${validityBadge(succ._validity, { prefix: false })}<br><span class="small muted">件数は同じ協定として1件で数えています</span>`] : null,
     ['判定の根拠', `${esc(m.validity_basis || (m._validity === 'unconfirmed' ? '現在も有効であることを示す公式資料を確認できていません。' : '—'))}${srcs.length ? `<br><span class="small"><b>根拠の資料：</b></span>${srcs.map(s => `<br><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>`).join('')}` : '<br><span class="small muted">根拠の資料：この協定の出典（下の「原文・出典」）を確認した結果です</span>'}`],
     m.validity_research_note ? ['調べたこと・確認できなかったこと', esc(m.validity_research_note)] : null,
     ['有効性の最終確認日', esc(fmtDate(m.validity_checked, '未確認'))],
@@ -173,7 +180,7 @@ export function mouCard(db, g, opts = {}) {
     <${H}><a href="#/mou/${encodeURIComponent(m.id)}">${esc(m.title_ja)}</a></${H}>
     <div class="meta">
       <span>${esc(signed)}</span>
-      ${validityBadge(g.validity)} ${g.category !== 'mou_moc' ? categoryBadge(g.category) : ''} ${statusBadge(g.status)} ${fieldBadges(g.fields)}
+      ${validityBadge(g.validity)} ${kindBadge(g.kind)} ${statusBadge(g.status)} ${fieldBadges(g.fields)}
       <span class="badge b-doc">${esc(m.doc_type)}</span>
       ${opts.showActor || !['national', 'prefecture'].includes(g.level) ? actorBadges(g) : ''}
       <span class="badge b-level">相手：${esc(PARTNER_TYPES[m.partner_type] || '種別不明')}</span>
@@ -183,8 +190,16 @@ export function mouCard(db, g, opts = {}) {
     ${(m.numbers || []).length ? `<p class="small" style="margin:6px 0 0"><b>人数の記載：</b>${m.numbers.slice(0, 3).map(n => `${esc(NUMBER_KIND[n.kind]?.ja || n.kind)} ${n.value == null ? '未確認' : esc(Number(n.value).toLocaleString('ja-JP') + (n.unit || '人'))}`).join('／')}${m.numbers.length > 3 ? ' ほか' : ''}（<a href="#/mou/${encodeURIComponent(m.id)}">数字の意味</a>）</p>` : ''}
     ${impactCats.length ? `<p class="small muted" style="margin:6px 0 0">地域への影響の記録：${impactCats.map(c => esc(IMPACTS.find(i => i.code === c)?.ja || c)).join('、')}</p>` : ''}
     ${g.level === 'organization' ? '<p class="small muted" style="margin:6px 0 0">団体・企業などが締結した協定です。日本政府・都道府県が締結した件数には含めていません。</p>' : ''}
+    ${opts.showSources ? sourceLine(g) : ''}
     ${opts.extra || ''}
   </article>`;
+}
+
+// 締結主体と情報源を分けて書く1行（検索結果などで、資料を出しただけの機関を当事者と取り違えないように）
+export function sourceLine(g) {
+  const pubs = [...new Set(g.versions.flatMap(v => v.sources.map(s => s.publisher)).filter(Boolean))];
+  if (!pubs.length) return '';
+  return `<p class="src-line"><span class="src-k">情報源</span>${esc(pubs.slice(0, 4).join('、'))}${pubs.length > 4 ? ` ほか${pubs.length - 4}` : ''}<span class="small muted">（出典の資料を出した機関。締結主体とは限りません）</span></p>`;
 }
 
 // 日本側の締結主体の種別と、当事者の組み合わせ（政府間・自治体間・官民間・団体間など）

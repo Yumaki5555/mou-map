@@ -19,9 +19,9 @@
    "partner_org_en": "Ministry of Labour, Invalids and Social Affairs",
    "partner_type": "national_ministry",
    "additional_partners": [],
-   "signed_date": "2019-03",
+   "signed_date": "2019-03-14",
    "announced_date": "",
-   "date_note": "知事あいさつ（令和元年5月臨時県議会）で『3月13日から16日にかけて』のベトナム訪問中に締結。日は未特定。県議会報告書は『平成31年3月』。CLAIR調査票（千葉県の回答）は2019年3月。",
+   "date_note": "県の発表（平成31年3月15日）の「3月14日（木曜日）」の項で、労働・傷病兵・社会問題省のドアン・マウ・ディエップ副大臣と覚書を締結。知事あいさつ（令和元年5月臨時県議会）は「3月13日から16日にかけて」の訪問中、県議会報告書は「平成31年3月」、CLAIR調査票（千葉県の回答）は2019年3月。",
    "fields": [
     "labor"
    ],
@@ -116,6 +116,16 @@
      "type": "assembly_minutes",
      "checked": "2026-10-28",
      "note": "『3月13日から16日にかけて、ベトナムを訪問し、同国政府と、介護分野をはじめとする人材の育成及び受入れの推進に係る覚書を締結』"
+    },
+    {
+     "id": "s6",
+     "title": "ベトナム政府との覚書締結に向けた知事のベトナム出張の結果について（発表日：平成31年3月15日、健康福祉部健康福祉指導課・総合企画部国際課）",
+     "publisher": "千葉県",
+     "url": "https://web.archive.org/web/20190825064753/https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "archived_from": "https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "県サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版。3月14日に労働・傷病兵・社会問題省を訪問し、ドアン・マウ・ディエップ副大臣と人材の育成及び受入れに係る覚書を締結したことを確認。"
     }
    ],
    "survey_stage": 1,
@@ -139,7 +149,7 @@
    "title_ja": "千葉県留学生受入プログラムに関する千葉県とJIS人材開発株式会社（ベトナム）との協定（名称未確認）",
    "title_original": "",
    "doc_type": "その他の協力文書",
-   "doc_type_note": "協定。県は現地日本語学校5校と同プログラムに関する協定を結んでいるとされる（他4校は未特定）",
+   "doc_type_note": "県の発表の表現は『「千葉県留学生受入プログラム」に係る千葉県と日本語学校との事業協定』。同じ日に5校と締結（他の4校は JP-12-003〜006）",
    "japan_level": "prefecture",
    "japan_org": "千葉県",
    "pref_code": "12",
@@ -150,9 +160,9 @@
    "partner_org_en": "",
    "partner_type": "company",
    "additional_partners": [],
-   "signed_date": "2019-04",
+   "signed_date": "2019-03-15",
    "announced_date": "",
-   "date_note": "同社社長らの説明による（県議会調査報告書）。CLAIR調査票（千葉県の回答、令和2年1月29日現在）は5校との協定をまとめて2019年3月と記載し、知事あいさつ（令和元年5月）は3月13〜16日の訪越に続けて5校との事業協定に言及しているため、締結が2019年3月の可能性もある（未確定）",
+   "date_note": "県の発表（平成31年3月15日）の「3月15日（金曜日）」の項で、ハノイ市内のホテルで5校と事業協定を締結し、「協定締結校一覧」にJIS人材開発株式会社が載っている。県議会の調査報告書（令和5年度）は同社社長らの説明として「2019年4月に千葉県との協定を締結」と記録しているが、県の発表の日付を採用した。",
    "fields": [
     "labor",
     "education"
@@ -222,7 +232,7 @@
     }
    ],
    "original_text": "unconfirmed",
-   "evidence_level": "assembly",
+   "evidence_level": "official_announcement",
    "sources": [
     {
      "id": "s1",
@@ -241,20 +251,415 @@
      "type": "assembly_minutes",
      "checked": "2026-10-28",
      "note": "『千葉県留学生受入プログラム』について現地の日本語学校5校と事業協定を結んだとの記載（校名・日付の記載なし）"
+    },
+    {
+     "id": "s3",
+     "title": "ベトナム政府との覚書締結に向けた知事のベトナム出張の結果について（発表日：平成31年3月15日、健康福祉部健康福祉指導課・総合企画部国際課）",
+     "publisher": "千葉県",
+     "url": "https://web.archive.org/web/20190825064753/https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "archived_from": "https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "県サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版（2019年8月25日保存）。3月15日にハノイ市内のホテルで、千葉県留学生受入プログラムに参加する現地の日本語学校5校と事業協定を締結したこと、「協定締結校一覧」（県は正式な学校名を確認して記載と注記）を確認。"
     }
    ],
    "survey_stage": 1,
    "last_checked": "2026-10-28",
-   "notes": "外国の民間企業との協定。県の一次資料（協定書・発表）は未確認。人数は同社の説明を県議会報告書が記録したもの。",
+   "notes": "外国の民間企業との協定。締結の事実・日付は県の発表（2019年3月15日、保存版）で確認。協定書の原文は未確認。人数は同社の説明を県議会報告書が記録したもの。",
    "validity_state": "unconfirmed",
-   "validity_basis": "県議会の調査報告書に協定の記載があるのみで、県の一次資料（協定書・発表）がなく、有効期間や現在の効力を確認できない。",
-   "effective_date": "2019-04",
+   "validity_basis": "県の発表（2019年）と県議会の調査報告書で締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す公式資料も見つからない。",
+   "effective_date": null,
    "auto_renewal": "unconfirmed",
    "validity_sources": [
+    "s3",
     "s1"
    ],
    "validity_checked": "2026-10-28",
    "validity_research_note": "県の一次資料（協定書・発表）は見つからず。外国の民間企業との協定。公式資料に有効期間の記載がなく、現在も効力を有する旨の明示もない。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "id": "JP-12-003",
+   "group_key": "12:12-VN-DongDo-labor",
+   "title_ja": "『千葉県留学生受入プログラム』に係る千葉県と日本語学校との事業協定（千葉県・ドンドー日本語センター）（県の発表の表現・正式名称未確認）",
+   "doc_type": "事業協定",
+   "doc_type_note": "県の発表の表現は『「千葉県留学生受入プログラム」に係る千葉県と日本語学校との事業協定』。同じ日に5校と締結（5校目はJIS人材開発株式会社：JP-12-002）。協定書の原文・正式名称は未確認",
+   "japan_level": "prefecture",
+   "japan_org": "千葉県",
+   "japan_org_type": "prefecture",
+   "pref_code": "12",
+   "japan_signatory": "千葉県知事（森田健作）",
+   "country_code": "VN",
+   "partner_org": "ドンドー日本語センター（ベトナムの日本語学校。表記は県の「協定締結校一覧」による）",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "signed_date": "2019-03-15",
+   "announced_date": "2019-03-15",
+   "date_note": "県の発表（平成31年3月15日発表、3月18日更新）の「3月15日（金曜日）」の項による。ハノイ市内のホテルで知事と学校関係者が締結。CLAIR調査票（千葉県の回答）は年月のみ（2019年3月）。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生"
+   ],
+   "purpose": "ベトナムからの介護人材の受入れ促進のため、翌年度から始まる『千葉県留学生受入プログラム』に、ベトナムの日本語学校として参加してもらうこと（県の発表）",
+   "content": [
+    "『千葉県留学生受入プログラム』にベトナムの日本語学校として参加する（県の発表。協定の条文は未確認）"
+   ],
+   "status": "unknown",
+   "status_note": "千葉県留学生受入プログラムは2020年度から実施（県の事業）。この学校からの参加・来日の実績は、県の公式資料で確認できていない。",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム政府との覚書締結に向けた知事のベトナム出張の結果について（発表日：平成31年3月15日、健康福祉部健康福祉指導課・総合企画部国際課）",
+     "publisher": "千葉県",
+     "url": "https://web.archive.org/web/20190825064753/https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "archived_from": "https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "県サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版（2019年8月25日保存）。3月15日にハノイ市内のホテルで、千葉県留学生受入プログラムに参加する現地の日本語学校5校と事業協定を締結したこと、「協定締結校一覧」（県は正式な学校名を確認して記載と注記）を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 24行目（千葉県の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。県サイトの発表ページは削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。原文・有効期間は未確認。",
+   "acceptance_types": [
+    "study",
+    "work"
+   ],
+   "foreign_relation": "direct",
+   "validity_basis": "県の発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す公式資料も見つからない（県の令和8年度委託事業の質問回答では、現地の日本語学校は「現在６校と協定」とされるが、学校名は示されていない）。",
+   "validity_research_note": "協定書の原文・有効期間条項は未確認。県の現行サイトで協定校の一覧は見つからなかった。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "id": "JP-12-004",
+   "group_key": "12:12-VN-YUKI-labor",
+   "title_ja": "『千葉県留学生受入プログラム』に係る千葉県と日本語学校との事業協定（千葉県・YUKI（勇気）日本語センター）（県の発表の表現・正式名称未確認）",
+   "doc_type": "事業協定",
+   "doc_type_note": "県の発表の表現は『「千葉県留学生受入プログラム」に係る千葉県と日本語学校との事業協定』。同じ日に5校と締結（5校目はJIS人材開発株式会社：JP-12-002）。協定書の原文・正式名称は未確認",
+   "japan_level": "prefecture",
+   "japan_org": "千葉県",
+   "japan_org_type": "prefecture",
+   "pref_code": "12",
+   "japan_signatory": "千葉県知事（森田健作）",
+   "country_code": "VN",
+   "partner_org": "YUKI（勇気）日本語センター（ベトナムの日本語学校。表記は県の「協定締結校一覧」による）",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "signed_date": "2019-03-15",
+   "announced_date": "2019-03-15",
+   "date_note": "県の発表（平成31年3月15日発表、3月18日更新）の「3月15日（金曜日）」の項による。ハノイ市内のホテルで知事と学校関係者が締結。CLAIR調査票（千葉県の回答）は年月のみ（2019年3月）。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生"
+   ],
+   "purpose": "ベトナムからの介護人材の受入れ促進のため、翌年度から始まる『千葉県留学生受入プログラム』に、ベトナムの日本語学校として参加してもらうこと（県の発表）",
+   "content": [
+    "『千葉県留学生受入プログラム』にベトナムの日本語学校として参加する（県の発表。協定の条文は未確認）"
+   ],
+   "status": "unknown",
+   "status_note": "千葉県留学生受入プログラムは2020年度から実施（県の事業）。この学校からの参加・来日の実績は、県の公式資料で確認できていない。",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム政府との覚書締結に向けた知事のベトナム出張の結果について（発表日：平成31年3月15日、健康福祉部健康福祉指導課・総合企画部国際課）",
+     "publisher": "千葉県",
+     "url": "https://web.archive.org/web/20190825064753/https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "archived_from": "https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "県サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版（2019年8月25日保存）。3月15日にハノイ市内のホテルで、千葉県留学生受入プログラムに参加する現地の日本語学校5校と事業協定を締結したこと、「協定締結校一覧」（県は正式な学校名を確認して記載と注記）を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 25行目（千葉県の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。県サイトの発表ページは削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。原文・有効期間は未確認。",
+   "acceptance_types": [
+    "study",
+    "work"
+   ],
+   "foreign_relation": "direct",
+   "validity_basis": "県の発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す公式資料も見つからない（県の令和8年度委託事業の質問回答では、現地の日本語学校は「現在６校と協定」とされるが、学校名は示されていない）。",
+   "validity_research_note": "協定書の原文・有効期間条項は未確認。県の現行サイトで協定校の一覧は見つからなかった。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "id": "JP-12-005",
+   "group_key": "12:12-VN-TOKAI-labor",
+   "title_ja": "『千葉県留学生受入プログラム』に係る千葉県と日本語学校との事業協定（千葉県・株式会社 貿易＆サービスTOKAI VIET NHAT）（県の発表の表現・正式名称未確認）",
+   "doc_type": "事業協定",
+   "doc_type_note": "県の発表の表現は『「千葉県留学生受入プログラム」に係る千葉県と日本語学校との事業協定』。同じ日に5校と締結（5校目はJIS人材開発株式会社：JP-12-002）。協定書の原文・正式名称は未確認",
+   "japan_level": "prefecture",
+   "japan_org": "千葉県",
+   "japan_org_type": "prefecture",
+   "pref_code": "12",
+   "japan_signatory": "千葉県知事（森田健作）",
+   "country_code": "VN",
+   "partner_org": "株式会社 貿易＆サービスTOKAI VIET NHAT（ベトナムの日本語学校。表記は県の「協定締結校一覧」による）",
+   "partner_org_en": "",
+   "partner_type": "company",
+   "signed_date": "2019-03-15",
+   "announced_date": "2019-03-15",
+   "date_note": "県の発表（平成31年3月15日発表、3月18日更新）の「3月15日（金曜日）」の項による。ハノイ市内のホテルで知事と学校関係者が締結。CLAIR調査票（千葉県の回答）は年月のみ（2019年3月）。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生"
+   ],
+   "purpose": "ベトナムからの介護人材の受入れ促進のため、翌年度から始まる『千葉県留学生受入プログラム』に、ベトナムの日本語学校として参加してもらうこと（県の発表）",
+   "content": [
+    "『千葉県留学生受入プログラム』にベトナムの日本語学校として参加する（県の発表。協定の条文は未確認）"
+   ],
+   "status": "unknown",
+   "status_note": "千葉県留学生受入プログラムは2020年度から実施（県の事業）。この学校からの参加・来日の実績は、県の公式資料で確認できていない。",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム政府との覚書締結に向けた知事のベトナム出張の結果について（発表日：平成31年3月15日、健康福祉部健康福祉指導課・総合企画部国際課）",
+     "publisher": "千葉県",
+     "url": "https://web.archive.org/web/20190825064753/https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "archived_from": "https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "県サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版（2019年8月25日保存）。3月15日にハノイ市内のホテルで、千葉県留学生受入プログラムに参加する現地の日本語学校5校と事業協定を締結したこと、「協定締結校一覧」（県は正式な学校名を確認して記載と注記）を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 26行目（千葉県の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。県サイトの発表ページは削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。原文・有効期間は未確認。",
+   "acceptance_types": [
+    "study",
+    "work"
+   ],
+   "foreign_relation": "direct",
+   "validity_basis": "県の発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す公式資料も見つからない（県の令和8年度委託事業の質問回答では、現地の日本語学校は「現在６校と協定」とされるが、学校名は示されていない）。",
+   "validity_research_note": "協定書の原文・有効期間条項は未確認。県の現行サイトで協定校の一覧は見つからなかった。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "id": "JP-12-006",
+   "group_key": "12:12-VN-BinhMinh-labor",
+   "title_ja": "『千葉県留学生受入プログラム』に係る千葉県と日本語学校との事業協定（千葉県・Daiy VietNam JSC.日本語教育留学センターBinh Minh-日の出）（県の発表の表現・正式名称未確認）",
+   "doc_type": "事業協定",
+   "doc_type_note": "県の発表の表現は『「千葉県留学生受入プログラム」に係る千葉県と日本語学校との事業協定』。同じ日に5校と締結（5校目はJIS人材開発株式会社：JP-12-002）。協定書の原文・正式名称は未確認",
+   "japan_level": "prefecture",
+   "japan_org": "千葉県",
+   "japan_org_type": "prefecture",
+   "pref_code": "12",
+   "japan_signatory": "千葉県知事（森田健作）",
+   "country_code": "VN",
+   "partner_org": "Daiy VietNam JSC.日本語教育留学センターBinh Minh-日の出（ベトナムの日本語学校。表記は県の「協定締結校一覧」による）",
+   "partner_org_en": "",
+   "partner_type": "company",
+   "signed_date": "2019-03-15",
+   "announced_date": "2019-03-15",
+   "date_note": "県の発表（平成31年3月15日発表、3月18日更新）の「3月15日（金曜日）」の項による。ハノイ市内のホテルで知事と学校関係者が締結。CLAIR調査票（千葉県の回答）は年月のみ（2019年3月）。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生"
+   ],
+   "purpose": "ベトナムからの介護人材の受入れ促進のため、翌年度から始まる『千葉県留学生受入プログラム』に、ベトナムの日本語学校として参加してもらうこと（県の発表）",
+   "content": [
+    "『千葉県留学生受入プログラム』にベトナムの日本語学校として参加する（県の発表。協定の条文は未確認）"
+   ],
+   "status": "unknown",
+   "status_note": "千葉県留学生受入プログラムは2020年度から実施（県の事業）。この学校からの参加・来日の実績は、県の公式資料で確認できていない。",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ベトナム政府との覚書締結に向けた知事のベトナム出張の結果について（発表日：平成31年3月15日、健康福祉部健康福祉指導課・総合企画部国際課）",
+     "publisher": "千葉県",
+     "url": "https://web.archive.org/web/20190825064753/https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "archived_from": "https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "県サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版（2019年8月25日保存）。3月15日にハノイ市内のホテルで、千葉県留学生受入プログラムに参加する現地の日本語学校5校と事業協定を締結したこと、「協定締結校一覧」（県は正式な学校名を確認して記載と注記）を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 27行目（千葉県の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。県サイトの発表ページは削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。原文・有効期間は未確認。",
+   "acceptance_types": [
+    "study",
+    "work"
+   ],
+   "foreign_relation": "direct",
+   "validity_basis": "県の発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す公式資料も見つからない（県の令和8年度委託事業の質問回答では、現地の日本語学校は「現在６校と協定」とされるが、学校名は示されていない）。",
+   "validity_research_note": "協定書の原文・有効期間条項は未確認。県の現行サイトで協定校の一覧は見つからなかった。"
   }
  ]
 }

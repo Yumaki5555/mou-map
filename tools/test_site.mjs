@@ -8,10 +8,11 @@ import { periodEnd, periodStart, parseDate } from '../assets/js/util.js';
 import {
   buildDB, filterGroups, validityInfo, validityCounts, countByPref, termEnd, validate, researchStatus,
   VALIDITY_SCOPES, VALIDITY_SCOPE, DOC_CATEGORIES, RELATIONS, FIELDS, surveySummary, zeroState,
-  typesTables, isWorkingHoliday, levelCounts, pairKind, JAPAN_ORG_TYPE,
+  typesTables, isWorkingHoliday, levelCounts, pairKind, JAPAN_ORG_TYPE, DOC_KINDS, countTriple, clairCounts,
 } from '../assets/js/data.js';
 import { mouCSV, groupsToMous } from '../assets/js/csv.js';
 import { searchGroups, applyFacets, facetCounts, tokenCounts, parseQuery, SEARCH_FIELD } from '../assets/js/search.js';
+import { findOrgs, orgTypeLabel } from '../assets/js/orgs.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const J = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
@@ -298,6 +299,77 @@ for (const sc of VALIDITY_SCOPES) {
     if (t.byLevel.national.some(isWorkingHoliday)) bad.push(`${sc.code}/${cat}/${rel}：国の表にワーキング・ホリデーが重複`);
   }
   eq('協定の種類のページの表と件数', bad, []);
+}
+
+// ---------- 14. R/D（討議議事録）をMOU・MOCと分ける ----------
+{
+  const rd = db.mous.filter(m => /討議議事録|協議議事録|\bR\/D\b/.test(m.doc_type));
+  ok('R/Dの文書がある', rd.length >= 21, `${rd.length}文書`);
+  ok('R/Dの文書はすべて「R/D（討議議事録）」に分類', rd.every(m => m.doc_category === 'record_of_discussions' && m._kind === 'record_of_discussions'));
+  ok('「MOUのみ」にR/Dが入らない', filterGroups(db, { ...B, validity: 'all', docScope: 'mou' }).every(g => g.kind !== 'record_of_discussions'));
+  ok('「すべての国際文書」にR/Dが入る', filterGroups(db, { ...B, validity: 'all', docScope: 'all' }).some(g => g.kind === 'record_of_discussions'));
+  ok('「外国人受入れに関する国際文書」にR/Dが入る', filterGroups(db, { ...B, validity: 'all', docScope: 'foreign' }).some(g => g.kind === 'record_of_discussions'));
+  for (const sc of VALIDITY_SCOPES) {
+    const all = filterGroups(db, { ...B, validity: sc.code, docScope: 'all' });
+    eq(`詳しい区分の合計＝全体（${sc.code}）`, DOC_KINDS.reduce((a, k) => a + filterGroups(db, { ...B, validity: sc.code, docScope: 'all', kind: k.code }).length, 0), all.length);
+    eq(`MOU・MOC＝MOU＋MOC＋協定書など（${sc.code}）`, filterGroups(db, { ...B, validity: sc.code, docScope: 'all', category: 'mou_moc' }).length, ['mou', 'moc', 'mou_other'].reduce((a, k) => a + filterGroups(db, { ...B, validity: sc.code, docScope: 'all', kind: k }).length, 0));
+  }
+  eq('有効性の切替の名前', VALIDITY_SCOPES.map(v => v.ja), ['有効確認のみ', '有効確認＋有効性未確認', '締結済みすべて']);
+  const t3 = countTriple(filterGroups(db, { ...B, validity: 'all', docScope: 'all' }));
+  ok('文書数 ≥ 協定・協力関係の数 ≥ 現在有効と確認できる数', t3.docs >= t3.groups && t3.groups >= t3.valid, JSON.stringify(t3));
+  // 更新前と更新後を同時に有効な協定として二重に数えない（1つの協力関係は1件）
+  ok('同じグループの文書は1件として数える', db.groups.every(g => filterGroups(db, { validity: 'all', docScope: 'all', includePlanned: true, includeNews: true }).filter(x => x.key === g.key).length === 1));
+  ok('後継・更新元のリンクは同じグループの中', db.mous.every(m => (!m.successor_id || db.mouById.get(m.successor_id)?.group_key === m.group_key) && (!m.renewal_of || db.mouById.get(m.renewal_of)?.group_key === m.group_key)));
+  // MOU と MOC を混同しない（MOUの別名「覚書」で「協力覚書」だけの文書を拾わない）
+  const t = buildDB({
+    config: { data_as_of: '2026-10-28' }, prefs: [{ code: '01', name: '北海道' }], countries: [{ code: 'VN', ja: 'ベトナム', en: 'Viet Nam' }], survey: {}, stats: null, topo: null, warnings: [],
+    records: [{ id: 'C1', title_ja: 'テストの協力覚書', doc_type: '協力覚書', japan_level: 'prefecture', pref_code: '01', country_code: 'VN', partner_org: '省', fields: ['labor'], sources: [] }],
+  });
+  eq('「MOU」で協力覚書だけの文書を拾わない', searchGroups(t, 'MOU').length, 0);
+  eq('「MOC」で協力覚書が見つかる', searchGroups(t, 'MOC').length, 1);
+  eq('「覚書」と入力すれば協力覚書も見つかる', searchGroups(t, '覚書').length, 1);
+  eq('協力覚書の区分はMOC', t.groups[0].kind, 'moc');
+}
+
+// ---------- 15. 組織名から探す（締結主体と情報源を分ける） ----------
+{
+  db.clair = J('data/clair_check.json');
+  const first = q => findOrgs(db, q)[0];
+  const nagomi = first('NAGOMi');
+  ok('NAGOMiが締結主体として見つかる', nagomi && nagomi.sign.length === 1 && nagomi.sign[0].versions.some(v => v.id === 'JP-ORG-001'));
+  eq('なごみ・外国人材共生支援全国協会でも同じ組織', [first('なごみ')?.key, first('外国人材共生支援全国協会')?.key], [nagomi?.key, nagomi?.key]);
+  const jitco = first('JITCO');
+  ok('JITCOの協定・協力関係は18件・23文書', jitco && countTriple(jitco.sign).groups === 18 && countTriple(jitco.sign).docs === 23, jitco ? JSON.stringify(countTriple(jitco.sign)) : '');
+  eq('国際人材協力機構でもJITCO', first('国際人材協力機構')?.key, jitco?.key);
+  const clair = first('CLAIR');
+  ok('CLAIRは締結主体ではなく情報源', clair && clair.sign.length === 0 && clair.co.length === 0 && clair.src.length > 0 && orgTypeLabel(clair).includes('情報源'));
+  eq('クレア・自治体国際化協会でも同じ', [first('クレア')?.key, first('自治体国際化協会')?.key], [clair?.key, clair?.key]);
+  ok('JICAは英語名でも見つかる', first('Japan International Cooperation Agency')?.key === first('JICA')?.key && first('JICA').sign.length >= 2);
+  ok('JETRO・OTITは締結主体の登録なし（調査の記録あり）', ['JETRO', 'OTIT'].every(q => first(q) && first(q).sign.length === 0 && first(q).surveyed.length > 0));
+  ok('「日本政府」で国の協定すべて', first('日本政府')?.allNational && first('日本政府').sign.length === filterGroups(db, { validity: 'all', docScope: 'all', includePlanned: true, includeNews: true, level: 'national' }).length);
+  ok('宮城県は都道府県として見つかる', first('宮城県')?.type === 'prefecture' && first('宮城県').sign.every(g => g.pref_code === '04'));
+  ok('団体の協定を所在地の県に数えない（JITCOの協定に都道府県コードがない）', jitco.sign.every(g => g.pref_code === null && g.level === 'organization'));
+}
+
+// ---------- 16. 依頼のあった検索語（すべて結果がある・有効性未確認を除外しない） ----------
+{
+  const S = q => searchGroups(db, q);
+  for (const q of ['NAGOMi', 'VAMAS', 'NAGOMi ベトナム', 'JITCO', 'JITCO R/D', 'CLAIR', '宮城県 ベトナム', 'インドネシア 介護', '外務省 EPA']) ok(`「${q}」が見つかる`, S(q).length > 0, `${S(q).length}件`);
+  ok('「NAGOMi」で有効性未確認の協定も見つかる', S('NAGOMi').some(r => r.g.validity === 'unconfirmed'));
+  ok('「NAGOMi ベトナム」はAND（すべてベトナムとの協定）', S('NAGOMi ベトナム').every(r => r.g.countries.includes('VN')));
+  ok('「JITCO R/D」にR/Dの協定が含まれる', S('JITCO R/D').filter(r => r.g.kind === 'record_of_discussions').length >= 16);
+  ok('「CLAIR」の結果で、CLAIRは締結主体の項目に一致しない', S('CLAIR').every(r => !r.hits[0].fields.includes('japan_org')));
+  ok('「外務省 EPA」はEPAそのもの、またはEPAにもとづく制度の文書', S('外務省 EPA').every(r => r.g.kind === 'epa_treaty' || r.hits[1].fields.includes('system')));
+}
+
+// ---------- 17. CLAIRの照合の件数を行のデータから数え直す ----------
+{
+  const c = clairCounts(db);
+  eq('CLAIRの協定の行＝一致＋相違＋当初未登録', c.match + c.differs + c.unregistered, c.rows);
+  eq('当初未登録＝新規登録済み＋未解決', c.added + c.unresolved, c.unregistered);
+  ok('未解決の行はすべて理由を分類済み', !c.reasons.unclassified, JSON.stringify(c.reasons));
+  ok('照合で登録した協定のIDがすべて存在する', db.clair.rows.every(r => (r.site_ids || []).every(id => db.mouById.has(id))));
+  ok('CLAIRが出典の協定でも、締結主体はCLAIRではない', db.mous.filter(m => m.sources.some(s => /自治体国際化協会/.test(s.publisher || ''))).every(m => !/自治体国際化協会|CLAIR/.test(m.japan_org || '')));
 }
 
 // ---------- 実データの点検 ----------

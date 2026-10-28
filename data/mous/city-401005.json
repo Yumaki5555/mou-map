@@ -163,10 +163,11 @@
      "id": "s1",
      "title": "MOU Signing Ceremony with City of Kitakyushu, Japan",
      "publisher": "King Mongkut's Institute of Technology Ladkrabang（Office of International Affairs）",
-     "url": "https://oia.kmitl.ac.th/mou-signing-ceremony-with-city-of-kitakyushu-japan/",
+     "url": "https://web.archive.org/web/20250521041353/https://oia.kmitl.ac.th/mou-signing-ceremony-with-city-of-kitakyushu-japan/",
      "type": "partner_official",
      "checked": "2026-10-28",
-     "note": "2024年7月25日掲載。北九州市産業経済局（Industry and Economics Bureau）とのMOU調印。KMITL側はKomsan Maleesee学長"
+     "note": "2024年7月25日掲載。北九州市産業経済局（Industry and Economics Bureau）とのMOU調印。KMITL側はKomsan Maleesee学長。大学のサイトは証明書の問題（自己署名の証明書が含まれる）でブラウザに警告が出て開けないことがあるため、インターネットアーカイブの保存版（2025年5月21日保存）にリンク。2026-10-28に保存版で同じ記事を確認",
+     "archived_from": "https://oia.kmitl.ac.th/mou-signing-ceremony-with-city-of-kitakyushu-japan/"
     },
     {
      "id": "s2",
@@ -193,7 +194,9 @@
      "url": "https://oia.kmitl.ac.th/building-career-pathways-with-kitakyushu-japan/",
      "type": "partner_official",
      "checked": "2026-10-28",
-     "note": "2026年7月23日掲載。市代表団の訪問、KMITL–Kitakyushu Internship Career Program 2027の説明会"
+     "note": "2026年7月23日掲載。市代表団の訪問、KMITL–Kitakyushu Internship Career Program 2027の説明会。2026-10-28時点で、大学のサイトの証明書の問題によりブラウザで開けない（保存版もない）",
+     "link_status": "error",
+     "link_checked": "2026-10-28"
     }
    ],
    "survey_stage": 1,

@@ -1,6 +1,6 @@
 // ページ間で共有する設定と小物
 import { fmtDate, yearOf, esc } from './util.js';
-import { VALIDITY_SCOPES, VALIDITY_SCOPE, DOC_SCOPES, DOC_SCOPE } from './data.js';
+import { VALIDITY_SCOPES, VALIDITY_SCOPE, DOC_SCOPES, DOC_SCOPE, VALIDITY, filterGroups, validityCounts } from './data.js';
 
 // 「報道のみ（公式資料未確認）の情報も含める」設定。初期値は含めない。
 // 「有効性の範囲」の初期値は「有効確認のみ」、「文書の範囲」の初期値は「MOUのみ」。
@@ -60,7 +60,48 @@ export function scopeBarHTML(opts = {}) {
       <div class="seg seg-sm">${DOC_SCOPES.map(d => `<button type="button" data-scope-d="${d.code}" aria-pressed="${settings.docScope === d.code}">${esc(d.ja)}</button>`).join('')}</div></div>` : ''}
     <div class="scope-foot">${opts.hideNews ? '' : newsToggleHTML()}
       ${changed ? '<button type="button" class="btn btn-small btn-outline" data-scope-reset>数え方を初期設定に戻す</button>' : ''}</div>
+    ${opts.defaults === false ? '' : defaultsNoteHTML()}
   </div>`;
+}
+
+// 初期値がページによって違うことの説明（地図などの件数と、検索の件数が違っても不具合ではないことを伝える）
+export function defaultsNoteHTML(page) {
+  return page === 'search'
+    ? '<p class="scope-default">サイト内検索は、有効性・文書の種類・期間を問わず、<b>登録したすべての文書</b>から探します。地図・相手国などの件数の初期設定（有効確認のみ・MOUのみ）とは範囲が違うため、件数が多くなることがあります。</p>'
+    : '<p class="scope-default">件数の初期設定は「有効確認のみ・MOUのみ」です（初めて開いたとき）。<a href="#/search">サイト内検索</a>は有効性を問わず全件から探すため、件数が違うことがあります。</p>';
+}
+
+// 件数のそばに出す有効性の内訳：同じ条件で数えた「有効確認 ○件／有効性未確認 ○件／終了確認 ○件／開始前 ○件」と、
+// いまの数え方で表示しているか（表示中・非表示）。非表示の件数があれば、表示に切り替えるボタンを出す。
+// f はページの条件（都道府県・相手国など）。ボタンは bindScopeBar（bindNewsToggle）で動く
+export function scopeCountsHTML(db, f = {}, opts = {}) {
+  const base = baseFilter(f);
+  const c = validityCounts(filterGroups(db, { ...base, validity: 'all', includePlanned: true }));
+  const on = new Set(VALIDITY_SCOPE[settings.validity].states);
+  const codes = ['valid_confirmed', 'unconfirmed', 'ended_confirmed', 'signed_not_started'];
+  const shown = codes.filter(k => on.has(k)).reduce((a, k) => a + c[k], 0);
+  const outDocs = base.docScope === 'all' ? 0 : filterGroups(db, { ...base, docScope: 'all' }).length - shown;
+  const items = codes.map(k => `<li class="sc-i ${on.has(k) ? 'is-on' : 'is-off'}"><span class="sc-k">${esc(VALIDITY[k].ja)}</span> <b>${c[k]}</b>件<span class="sc-s">${on.has(k) ? '表示中' : '非表示'}</span></li>`).join('');
+  const btns = [
+    settings.validity === 'valid' && c.unconfirmed ? '<button type="button" class="btn btn-small btn-outline" data-scope-v="valid_unk">有効性未確認も表示する</button>' : '',
+    settings.validity !== 'all' && (c.ended_confirmed || c.signed_not_started) ? '<button type="button" class="btn btn-small btn-outline" data-scope-v="all">締結済みすべてを表示する</button>' : '',
+    outDocs > 0 ? '<button type="button" class="btn btn-small btn-outline" data-scope-d="all">すべての国際文書を表示する</button>' : '',
+  ].filter(Boolean).join('');
+  return `<div class="scope-counts" role="note">
+    <p class="sc-h">${esc(opts.label || 'この条件の登録件数')}：締結済み ${c.signed_total}件のうち <b>${shown}件</b>を表示中</p>
+    <ul class="sc-list">${items}</ul>
+    ${c.planned ? `<p class="small muted sc-x">このほか締結予定 ${c.planned}件（締結済みの件数には含めません）</p>` : ''}
+    ${outDocs > 0 ? `<p class="small sc-x">このほか「${esc(DOC_SCOPE[base.docScope].ja)}」の範囲の外にある文書（R/D・EPA・交換公文・取決めなど）が <b>${outDocs}件</b>あります（非表示）</p>` : ''}
+    ${btns ? `<div class="btn-row sc-btns">${btns}</div>` : ''}
+  </div>`;
+}
+// 画像（PNG）・CSVの注記に使う、非表示の件数の短い説明
+export function hiddenSummary(db, f = {}) {
+  const base = baseFilter(f);
+  const c = validityCounts(filterGroups(db, { ...base, validity: 'all' }));
+  const on = new Set(VALIDITY_SCOPE[settings.validity].states);
+  const off = ['unconfirmed', 'ended_confirmed', 'signed_not_started'].filter(k => !on.has(k) && c[k]).map(k => `${VALIDITY[k].ja} ${c[k]}件`);
+  return off.length ? `表示していない協定：${off.join('・')}` : '';
 }
 export function bindScopeBar(root, onChange) {
   root.querySelectorAll('[data-scope-v]').forEach(b => b.addEventListener('click', () => { if (setScope('validity', b.dataset.scopeV)) onChange(); }));

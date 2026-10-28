@@ -874,7 +874,7 @@
    "additional_partners": [],
    "signed_date": "2019-08-19",
    "announced_date": "",
-   "date_note": "締結日はCLAIR調査票（Excel 71行目、横浜市の回答、令和2年1月29日現在）による。市の公式資料（令和元年10月31日開催の介護保険運営協議会の議事要旨）では締結の事実と締結先の3都市名を確認できるが、日付は未確認（記者発表のページは市サイトから削除済み）。",
+   "date_note": "締結日は市の記者発表資料（令和元年8月26日）の表（8月19日（月））による。CLAIR調査票（横浜市の回答）も同じ日付。市の公式資料（令和元年10月31日開催の介護保険運営協議会の議事要旨）では締結の事実と締結先の3都市名を確認できるが、日付は未確認（記者発表のページは市サイトから削除済み）。",
    "fields": [
     "labor"
    ],
@@ -917,6 +917,16 @@
      "type": "official_page",
      "checked": "2026-10-28",
      "note": "調査資料。CLAIRは締結当事者ではない。Excel 71行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    },
+    {
+     "id": "s3",
+     "title": "山東省、臨沂市、瀋陽市の中国３都市と連携して介護人材の確保に取り組みます！ ～中国の３都市、５学校と覚書（MOU）を締結しました～（横浜市記者発表資料、令和元年8月26日）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20250207012142/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済みのため、インターネットアーカイブの保存版（1ページ目のみ読める）。表で8月19日（月）の締結と締結先、『横浜市と中国の３都市との覚書概要』を確認。"
     }
    ],
    "survey_stage": 1,
@@ -965,7 +975,7 @@
    "additional_partners": [],
    "signed_date": "2019-08-19",
    "announced_date": "",
-   "date_note": "締結日はCLAIR調査票（Excel 72行目、横浜市の回答、令和2年1月29日現在）による。市の公式資料（令和元年10月31日開催の介護保険運営協議会の議事要旨）では締結の事実と締結先の3都市名を確認できるが、日付は未確認（記者発表のページは市サイトから削除済み）。",
+   "date_note": "締結日は市の記者発表資料（令和元年8月26日）の表（8月19日（月））による。CLAIR調査票（横浜市の回答）も同じ日付。市の公式資料（令和元年10月31日開催の介護保険運営協議会の議事要旨）では締結の事実と締結先の3都市名を確認できるが、日付は未確認（記者発表のページは市サイトから削除済み）。",
    "fields": [
     "labor"
    ],
@@ -1008,6 +1018,16 @@
      "type": "official_page",
      "checked": "2026-10-28",
      "note": "調査資料。CLAIRは締結当事者ではない。Excel 72行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    },
+    {
+     "id": "s3",
+     "title": "山東省、臨沂市、瀋陽市の中国３都市と連携して介護人材の確保に取り組みます！ ～中国の３都市、５学校と覚書（MOU）を締結しました～（横浜市記者発表資料、令和元年8月26日）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20250207012142/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済みのため、インターネットアーカイブの保存版（1ページ目のみ読める）。表で8月19日（月）の締結と締結先、『横浜市と中国の３都市との覚書概要』を確認。"
     }
    ],
    "survey_stage": 1,
@@ -1056,7 +1076,7 @@
    "additional_partners": [],
    "signed_date": "2019-08-20",
    "announced_date": "",
-   "date_note": "締結日はCLAIR調査票（Excel 73行目、横浜市の回答、令和2年1月29日現在）による。市の公式資料（令和元年10月31日開催の介護保険運営協議会の議事要旨）では締結の事実と締結先の3都市名を確認できるが、日付は未確認（記者発表のページは市サイトから削除済み）。",
+   "date_note": "締結日は市の記者発表資料（令和元年8月26日）の表（8月20日（火））による。CLAIR調査票（横浜市の回答）も同じ日付。市の公式資料（令和元年10月31日開催の介護保険運営協議会の議事要旨）では締結の事実と締結先の3都市名を確認できるが、日付は未確認（記者発表のページは市サイトから削除済み）。",
    "fields": [
     "labor"
    ],
@@ -1099,6 +1119,16 @@
      "type": "official_page",
      "checked": "2026-10-28",
      "note": "調査資料。CLAIRは締結当事者ではない。Excel 73行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    },
+    {
+     "id": "s3",
+     "title": "山東省、臨沂市、瀋陽市の中国３都市と連携して介護人材の確保に取り組みます！ ～中国の３都市、５学校と覚書（MOU）を締結しました～（横浜市記者発表資料、令和元年8月26日）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20250207012142/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済みのため、インターネットアーカイブの保存版（1ページ目のみ読める）。表で8月20日（火）の締結と締結先、『横浜市と中国の３都市との覚書概要』を確認。"
     }
    ],
    "survey_stage": 1,
@@ -1122,6 +1152,840 @@
    "end_reason": null,
    "successor_id": null,
    "validity_research_note": "記者発表資料（2019年8月）・原文は市サイトから削除済みで未確認。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "doc_type": "覚書",
+   "doc_type_note": "市の記者発表では『介護分野における覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "横浜市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "municipality_name": "横浜市",
+   "japan_signatory": "",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "技能実習"
+   ],
+   "purpose": "海外からの介護人材の受入れを推進するため、介護分野における覚書を締結（市の記者発表）。背景として2025年に市内で約8,500人の介護人材不足が見込まれることを挙げている。",
+   "status": "signed",
+   "status_note": "この覚書に基づく受入れの実績は、市の現行の公式資料で未確認。",
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "validity_basis": "市の記者発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、覚書の現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。市サイトの2019年の記者発表ページは削除済みで、インターネットアーカイブの保存版で確認した。",
+   "id": "JP-CITY-141003-012",
+   "group_key": "C141003:141003-VN-HaiphongUMP-labor",
+   "title_ja": "介護分野における覚書（横浜市・ハイフォン医科薬科大学）（市の記者発表の表現・正式名称未確認）",
+   "country_code": "VN",
+   "partner_org": "ハイフォン医科薬科大学",
+   "signed_date": "2019-04-10",
+   "announced_date": "2019-04-12",
+   "date_note": "市の記者発表（平成31年4月12日）による（平成31年4月10日に締結）。CLAIR調査票（Excel 70行目、横浜市の回答）も同じ日付。締結場所は未確認。",
+   "content": [
+    "ハイフォン医科薬科大学は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する（市の記者発表の『横浜市と各学校との覚書概要』）",
+    "横浜市は、ハイフォン医科薬科大学から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する（同）"
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "【記者発表】ベトナムのハイフォン医科薬科大学と介護分野における覚書（MOU）を締結しました！（横浜市記者発表資料、平成31年4月12日、健康福祉局高齢健康福祉課）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20200809222213/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0412oboegaki.html",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0412oboegaki.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版（2020年8月9日保存）。「平成31年4月10日に…ハイフォン医科薬科大学と介護分野における覚書（MOU）を締結しました」を確認。記者発表のPDFは保存版がない。"
+    },
+    {
+     "id": "s2",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 70行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市サイトの記者発表は削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。2018年7月に覚書を結んだベトナムの5学校とは別の6校目（2019年8月の記者発表は「ベトナムの３都市・５学校（現在は６学校）」と記載）。横浜市側の署名者、相手側の英語名、原文は未確認。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "doc_type": "覚書",
+   "doc_type_note": "市の記者発表では『介護分野における覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "横浜市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "municipality_name": "横浜市",
+   "japan_signatory": "",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "技能実習"
+   ],
+   "purpose": "海外からの介護人材の受入れを推進するため、介護分野における覚書を締結（市の記者発表）。背景として2025年に市内で約8,500人の介護人材不足が見込まれることを挙げている。",
+   "status": "signed",
+   "status_note": "この覚書に基づく受入れの実績は、市の現行の公式資料で未確認。",
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "validity_basis": "市の記者発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、覚書の現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。市サイトの2019年の記者発表ページは削除済みで、インターネットアーカイブの保存版で確認した。",
+   "id": "JP-CITY-141003-013",
+   "group_key": "C141003:141003-CN-LinyiHealth-labor",
+   "title_ja": "介護分野における覚書（横浜市・臨沂衛生学校）（市の記者発表の表現・正式名称未確認）",
+   "country_code": "CN",
+   "partner_org": "臨沂衛生学校",
+   "signed_date": "2019-08-19",
+   "announced_date": "2019-08-26",
+   "date_note": "市の記者発表資料（令和元年8月26日）の表で8月19日（月）に締結。CLAIR調査票（Excel 74行目、横浜市の回答）も同じ日付。",
+   "content": [
+    "臨沂衛生学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する（市の記者発表の『横浜市と各学校との覚書概要』）",
+    "横浜市は、臨沂衛生学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する（同）"
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "山東省、臨沂市、瀋陽市の中国３都市と連携して介護人材の確保に取り組みます！ ～中国の３都市、５学校と覚書（MOU）を締結しました～（横浜市記者発表資料、令和元年8月26日、健康福祉局高齢健康福祉課）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20250207012142/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済み（404）のため、インターネットアーカイブの保存版（途中までの保存で、読めるのは1ページ目。ブラウザによっては開けない場合がある）。1ページ目の表で締結日（8月19日・20日）と締結先の学校、『横浜市と各学校との覚書概要』を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "同上の記者発表ページ（令和元年8月26日）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20200809233239/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "インターネットアーカイブの保存版（2020年8月9日保存）。「中国の３都市・５学校と覚書（MOU）を締結」の記載（校名はPDF側）。"
+    },
+    {
+     "id": "s3",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 74行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市サイトの記者発表は削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。同じ時期に、山東省民政庁・臨沂市教育局・瀋陽市外事弁公室とも覚書を締結（JP-CITY-141003-009〜011）。横浜市側の署名者、相手側の英語名、原文は未確認。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "doc_type": "覚書",
+   "doc_type_note": "市の記者発表では『介護分野における覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "横浜市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "municipality_name": "横浜市",
+   "japan_signatory": "",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "技能実習"
+   ],
+   "purpose": "海外からの介護人材の受入れを推進するため、介護分野における覚書を締結（市の記者発表）。背景として2025年に市内で約8,500人の介護人材不足が見込まれることを挙げている。",
+   "status": "signed",
+   "status_note": "この覚書に基づく受入れの実績は、市の現行の公式資料で未確認。",
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "validity_basis": "市の記者発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、覚書の現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。市サイトの2019年の記者発表ページは削除済みで、インターネットアーカイブの保存版で確認した。",
+   "id": "JP-CITY-141003-014",
+   "group_key": "C141003:141003-CN-ShandongMedical-labor",
+   "title_ja": "介護分野における覚書（横浜市・山東医学高等専科学校）（市の記者発表の表現・正式名称未確認）",
+   "country_code": "CN",
+   "partner_org": "山東医学高等専科学校",
+   "signed_date": "2019-08-19",
+   "announced_date": "2019-08-26",
+   "date_note": "市の記者発表資料（令和元年8月26日）の表で8月19日（月）に締結。CLAIR調査票（Excel 75行目、横浜市の回答）も同じ日付。",
+   "content": [
+    "山東医学高等専科学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する（市の記者発表の『横浜市と各学校との覚書概要』）",
+    "横浜市は、山東医学高等専科学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する（同）"
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "山東省、臨沂市、瀋陽市の中国３都市と連携して介護人材の確保に取り組みます！ ～中国の３都市、５学校と覚書（MOU）を締結しました～（横浜市記者発表資料、令和元年8月26日、健康福祉局高齢健康福祉課）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20250207012142/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済み（404）のため、インターネットアーカイブの保存版（途中までの保存で、読めるのは1ページ目。ブラウザによっては開けない場合がある）。1ページ目の表で締結日（8月19日・20日）と締結先の学校、『横浜市と各学校との覚書概要』を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "同上の記者発表ページ（令和元年8月26日）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20200809233239/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "インターネットアーカイブの保存版（2020年8月9日保存）。「中国の３都市・５学校と覚書（MOU）を締結」の記載（校名はPDF側）。"
+    },
+    {
+     "id": "s3",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 75行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市サイトの記者発表は削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。同じ時期に、山東省民政庁・臨沂市教育局・瀋陽市外事弁公室とも覚書を締結（JP-CITY-141003-009〜011）。横浜市側の署名者、相手側の英語名、原文は未確認。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "doc_type": "覚書",
+   "doc_type_note": "市の記者発表では『介護分野における覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "横浜市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "municipality_name": "横浜市",
+   "japan_signatory": "",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "技能実習"
+   ],
+   "purpose": "海外からの介護人材の受入れを推進するため、介護分野における覚書を締結（市の記者発表）。背景として2025年に市内で約8,500人の介護人材不足が見込まれることを挙げている。",
+   "status": "signed",
+   "status_note": "この覚書に基づく受入れの実績は、市の現行の公式資料で未確認。",
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "validity_basis": "市の記者発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、覚書の現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。市サイトの2019年の記者発表ページは削除済みで、インターネットアーカイブの保存版で確認した。",
+   "id": "JP-CITY-141003-015",
+   "group_key": "C141003:141003-CN-LinyiVocational-labor",
+   "title_ja": "介護分野における覚書（横浜市・臨沂職業学院）（市の記者発表の表現・正式名称未確認）",
+   "country_code": "CN",
+   "partner_org": "臨沂職業学院",
+   "signed_date": "2019-08-19",
+   "announced_date": "2019-08-26",
+   "date_note": "市の記者発表資料（令和元年8月26日）の表で8月19日（月）に締結。CLAIR調査票（Excel 76行目、横浜市の回答）も同じ日付。",
+   "content": [
+    "臨沂職業学院は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する（市の記者発表の『横浜市と各学校との覚書概要』）",
+    "横浜市は、臨沂職業学院から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する（同）"
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "山東省、臨沂市、瀋陽市の中国３都市と連携して介護人材の確保に取り組みます！ ～中国の３都市、５学校と覚書（MOU）を締結しました～（横浜市記者発表資料、令和元年8月26日、健康福祉局高齢健康福祉課）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20250207012142/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済み（404）のため、インターネットアーカイブの保存版（途中までの保存で、読めるのは1ページ目。ブラウザによっては開けない場合がある）。1ページ目の表で締結日（8月19日・20日）と締結先の学校、『横浜市と各学校との覚書概要』を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "同上の記者発表ページ（令和元年8月26日）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20200809233239/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "インターネットアーカイブの保存版（2020年8月9日保存）。「中国の３都市・５学校と覚書（MOU）を締結」の記載（校名はPDF側）。"
+    },
+    {
+     "id": "s3",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 76行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市サイトの記者発表は削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。同じ時期に、山東省民政庁・臨沂市教育局・瀋陽市外事弁公室とも覚書を締結（JP-CITY-141003-009〜011）。横浜市側の署名者、相手側の英語名、原文は未確認。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "doc_type": "覚書",
+   "doc_type_note": "市の記者発表では『介護分野における覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "横浜市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "municipality_name": "横浜市",
+   "japan_signatory": "",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "技能実習"
+   ],
+   "purpose": "海外からの介護人材の受入れを推進するため、介護分野における覚書を締結（市の記者発表）。背景として2025年に市内で約8,500人の介護人材不足が見込まれることを挙げている。",
+   "status": "signed",
+   "status_note": "この覚書に基づく受入れの実績は、市の現行の公式資料で未確認。",
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "validity_basis": "市の記者発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、覚書の現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。市サイトの2019年の記者発表ページは削除済みで、インターネットアーカイブの保存版で確認した。",
+   "id": "JP-CITY-141003-016",
+   "group_key": "C141003:141003-CN-ShenyangMedical-labor",
+   "title_ja": "介護分野における覚書（横浜市・瀋陽医学院）（市の記者発表の表現・正式名称未確認）",
+   "country_code": "CN",
+   "partner_org": "瀋陽医学院",
+   "signed_date": "2019-08-20",
+   "announced_date": "2019-08-26",
+   "date_note": "市の記者発表資料（令和元年8月26日）の表で8月20日（火）に締結。CLAIR調査票（Excel 77行目、横浜市の回答）も同じ日付。",
+   "content": [
+    "瀋陽医学院は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する（市の記者発表の『横浜市と各学校との覚書概要』）",
+    "横浜市は、瀋陽医学院から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する（同）"
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "山東省、臨沂市、瀋陽市の中国３都市と連携して介護人材の確保に取り組みます！ ～中国の３都市、５学校と覚書（MOU）を締結しました～（横浜市記者発表資料、令和元年8月26日、健康福祉局高齢健康福祉課）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20250207012142/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済み（404）のため、インターネットアーカイブの保存版（途中までの保存で、読めるのは1ページ目。ブラウザによっては開けない場合がある）。1ページ目の表で締結日（8月19日・20日）と締結先の学校、『横浜市と各学校との覚書概要』を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "同上の記者発表ページ（令和元年8月26日）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20200809233239/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "インターネットアーカイブの保存版（2020年8月9日保存）。「中国の３都市・５学校と覚書（MOU）を締結」の記載（校名はPDF側）。"
+    },
+    {
+     "id": "s3",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 77行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市サイトの記者発表は削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。同じ時期に、山東省民政庁・臨沂市教育局・瀋陽市外事弁公室とも覚書を締結（JP-CITY-141003-009〜011）。横浜市側の署名者、相手側の英語名、原文は未確認。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "doc_type": "覚書",
+   "doc_type_note": "市の記者発表では『介護分野における覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "横浜市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "municipality_name": "横浜市",
+   "japan_signatory": "",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "技能実習"
+   ],
+   "purpose": "海外からの介護人材の受入れを推進するため、介護分野における覚書を締結（市の記者発表）。背景として2025年に市内で約8,500人の介護人材不足が見込まれることを挙げている。",
+   "status": "signed",
+   "status_note": "この覚書に基づく受入れの実績は、市の現行の公式資料で未確認。",
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "validity_basis": "市の記者発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、覚書の現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。市サイトの2019年の記者発表ページは削除済みで、インターネットアーカイブの保存版で確認した。",
+   "id": "JP-CITY-141003-017",
+   "group_key": "C141003:141003-CN-LiaoningPharm-labor",
+   "title_ja": "介護分野における覚書（横浜市・遼寧医薬職業学院）（市の記者発表の表現・正式名称未確認）",
+   "country_code": "CN",
+   "partner_org": "遼寧医薬職業学院",
+   "signed_date": "2019-08-20",
+   "announced_date": "2019-08-26",
+   "date_note": "市の記者発表資料（令和元年8月26日）の表で8月20日（火）に締結。CLAIR調査票（Excel 78行目、横浜市の回答）も同じ日付。",
+   "content": [
+    "遼寧医薬職業学院は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する（市の記者発表の『横浜市と各学校との覚書概要』）",
+    "横浜市は、遼寧医薬職業学院から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する（同）"
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "山東省、臨沂市、瀋陽市の中国３都市と連携して介護人材の確保に取り組みます！ ～中国の３都市、５学校と覚書（MOU）を締結しました～（横浜市記者発表資料、令和元年8月26日、健康福祉局高齢健康福祉課）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20250207012142/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.files/0002_20190826.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のPDFは削除済み（404）のため、インターネットアーカイブの保存版（途中までの保存で、読めるのは1ページ目。ブラウザによっては開けない場合がある）。1ページ目の表で締結日（8月19日・20日）と締結先の学校、『横浜市と各学校との覚書概要』を確認。"
+    },
+    {
+     "id": "s2",
+     "title": "同上の記者発表ページ（令和元年8月26日）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20200809233239/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/0826oboegaki.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "インターネットアーカイブの保存版（2020年8月9日保存）。「中国の３都市・５学校と覚書（MOU）を締結」の記載（校名はPDF側）。"
+    },
+    {
+     "id": "s3",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 78行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市サイトの記者発表は削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。同じ時期に、山東省民政庁・臨沂市教育局・瀋陽市外事弁公室とも覚書を締結（JP-CITY-141003-009〜011）。横浜市側の署名者、相手側の英語名、原文は未確認。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "doc_type": "覚書",
+   "doc_type_note": "市の記者発表では『介護分野における覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "横浜市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "municipality_name": "横浜市",
+   "japan_signatory": "",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "技能実習"
+   ],
+   "purpose": "海外からの介護人材の受入れを推進するため、介護分野における覚書を締結（市の記者発表）。背景として2025年に市内で約8,500人の介護人材不足が見込まれることを挙げている。",
+   "status": "signed",
+   "status_note": "この覚書に基づく受入れの実績は、市の現行の公式資料で未確認。",
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "validity_basis": "市の記者発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、覚書の現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。市サイトの2019年の記者発表ページは削除済みで、インターネットアーカイブの保存版で確認した。",
+   "id": "JP-CITY-141003-018",
+   "group_key": "C141003:141003-CN-HezeMedical-labor",
+   "title_ja": "介護分野における覚書（横浜市・菏澤医学専科学校）（市の記者発表の表現・正式名称未確認）",
+   "country_code": "CN",
+   "partner_org": "菏澤医学専科学校",
+   "signed_date": null,
+   "announced_date": "2019-12-09",
+   "date_note": "締結日は公式資料に記載がない。市の記者発表（令和元年12月9日）が「締結しました」と書いているため、12月9日以前の締結。CLAIR調査票（Excel 79行目、横浜市の回答）は2019年12月16日としており、記者発表の日より後で食い違う（未確定）。CLAIRの表記は「荷澤医学専科学校」（市の表記は「菏澤」）。",
+   "content": [
+    "菏澤医学専科学校は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する（市の記者発表の『横浜市と各学校との覚書概要』）",
+    "横浜市は、菏澤医学専科学校から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する（同）"
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "山東省の菏澤医学専科学校・山東青年政治学院と介護分野における覚書を締結しました！（横浜市記者発表資料、令和元年12月9日、健康福祉局高齢健康福祉課）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20200809234149/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/santoushogakkou.html",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/santoushogakkou.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版（2020年8月9日保存）。「新たに中国の山東省にある菏澤医学専科学校と山東青年政治学院と介護分野における覚書を締結しました」を確認。記者発表のPDFは国立国会図書館WARPに保存されているが館内限定の公開。"
+    },
+    {
+     "id": "s2",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 79行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市サイトの記者発表は削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。横浜市側の署名者、相手側の英語名、原文は未確認。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [
+    "TITP"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "doc_type": "覚書",
+   "doc_type_note": "市の記者発表では『介護分野における覚書（MOU）』",
+   "japan_level": "municipality",
+   "japan_org": "横浜市",
+   "japan_org_type": "municipality",
+   "pref_code": "14",
+   "municipality_code": "141003",
+   "municipality_name": "横浜市",
+   "japan_signatory": "",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生",
+    "技能実習"
+   ],
+   "purpose": "海外からの介護人材の受入れを推進するため、介護分野における覚書を締結（市の記者発表）。背景として2025年に市内で約8,500人の介護人材不足が見込まれることを挙げている。",
+   "status": "signed",
+   "status_note": "この覚書に基づく受入れの実績は、市の現行の公式資料で未確認。",
+   "acceptance_types": [],
+   "foreign_relation": "direct",
+   "validity_basis": "市の記者発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、覚書の現在の効力を示す公式資料も見つからない。",
+   "validity_research_note": "原文・有効期間条項は未確認。市サイトの2019年の記者発表ページは削除済みで、インターネットアーカイブの保存版で確認した。",
+   "id": "JP-CITY-141003-019",
+   "group_key": "C141003:141003-CN-ShandongYouth-labor",
+   "title_ja": "介護分野における覚書（横浜市・山東青年政治学院）（市の記者発表の表現・正式名称未確認）",
+   "country_code": "CN",
+   "partner_org": "山東青年政治学院",
+   "signed_date": null,
+   "announced_date": "2019-12-09",
+   "date_note": "締結日は公式資料に記載がない。市の記者発表（令和元年12月9日）が「締結しました」と書いているため、12月9日以前の締結。CLAIR調査票（Excel 80行目、横浜市の回答）は2019年12月16日としており、記者発表の日より後で食い違う（未確定）。",
+   "content": [
+    "山東青年政治学院は、横浜市内で介護分野に就労する意欲のある人を横浜市に推薦する（市の記者発表の『横浜市と各学校との覚書概要』）",
+    "横浜市は、山東青年政治学院から推薦された方が介護の技術を学び、横浜市内で介護分野に就労することができるよう支援する（同）"
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "山東省の菏澤医学専科学校・山東青年政治学院と介護分野における覚書を締結しました！（横浜市記者発表資料、令和元年12月9日、健康福祉局高齢健康福祉課）",
+     "publisher": "横浜市（健康福祉局）",
+     "url": "https://web.archive.org/web/20200809234149/https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/santoushogakkou.html",
+     "archived_from": "https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/kenko/2019/santoushogakkou.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "市サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版（2020年8月9日保存）。「新たに中国の山東省にある菏澤医学専科学校と山東青年政治学院と介護分野における覚書を締結しました」を確認。記者発表のPDFは国立国会図書館WARPに保存されているが館内限定の公開。"
+    },
+    {
+     "id": "s2",
+     "title": "外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況調査 とりまとめ結果（Excel、令和2年1月29日現在・一部3月末修正）",
+     "publisher": "一般財団法人自治体国際化協会（CLAIR）",
+     "url": "https://www.clair.or.jp/tabunka/portal/efforts/7aeb9cefa9e034a013c74af11223da46.xlsx",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "調査資料。CLAIRは締結当事者ではない。Excel 80行目（横浜市の回答）。掲載ページ：https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）に載っていた協定。市サイトの記者発表は削除済みで、2026年10月の照合の再調査でインターネットアーカイブの保存版から締結を確認した。横浜市側の署名者、相手側の英語名、原文は未確認。"
   }
  ]
 }

@@ -41,26 +41,52 @@ export const VALIDITY_SCOPES = [
     note: '現在有効と公式資料で確認できた協定だけを表示しています。有効性未確認の協定は含みません。' },
   { code: 'valid_unk', ja: '有効確認＋有効性未確認', states: ['valid_confirmed', 'unconfirmed'], desc: '終了確認・開始前を除いたもの',
     note: '現在有効と確認できた協定に、今も有効かどうか公式資料で確かめられていない協定（有効性未確認）を加えて表示しています。終了確認・開始前・締結予定の協定は含みません。' },
-  { code: 'all', ja: 'すべて（終了を含む・予定は除く）', states: ['valid_confirmed', 'unconfirmed', 'ended_confirmed', 'signed_not_started'], desc: '締結済みのものすべて（締結予定は含まない）',
+  { code: 'all', ja: '締結済みすべて', states: ['valid_confirmed', 'unconfirmed', 'ended_confirmed', 'signed_not_started'], desc: '有効確認・有効性未確認・終了確認・締結済み（開始前）のすべて。締結予定は含まない',
     note: '締結済みのすべての協定（有効確認・有効性未確認・終了確認・締結済み開始前）を表示しています。締結予定の協定は含みません。' },
 ];
 export const VALIDITY_SCOPE = Object.fromEntries(VALIDITY_SCOPES.map(v => [v.code, v]));
 
 // 文書の種類（MOU以外の国際的な合意文書も登録します）
+// R/D（討議議事録）は覚書とは別の種類として数え、「MOUのみ」の件数には入れません。
 export const DOC_CATEGORIES = [
-  { code: 'mou_moc', ja: 'MOU・MOC', desc: '覚書・協力覚書（MOC）・了解覚書など、協力の内容や方針を確認する文書。多くは法的拘束力がないと明記' },
-  { code: 'epa_treaty', ja: 'EPA等の条約・協定', desc: '経済連携協定（EPA）など、国会の承認を経て結ぶ条約。法的拘束力がある' },
+  { code: 'mou_moc', ja: 'MOU・MOC', desc: 'MOU（了解覚書）・MOC（協力覚書）や、協定書・合意書など、協力の内容や方針を確認する覚書類。多くは法的拘束力がないと明記' },
+  { code: 'record_of_discussions', ja: 'R/D（討議議事録）', desc: '討議議事録（Record of Discussions）。協議した内容と双方の役割を記録して署名した文書。覚書（MOU・MOC）とは別の種類として数える（技能実習の送出し国の政府機関と公益財団法人国際人材協力機構（JITCO）の間などで結ばれている）' },
+  { code: 'epa_treaty', ja: 'EPA（経済連携協定）', desc: '経済連携協定（EPA）とその改正議定書など、国会の承認を経て結ぶ条約。法的拘束力がある' },
   { code: 'exchange_of_notes', ja: '交換公文', desc: '政府どうしが書簡（公文）を交換して合意する国際約束' },
-  { code: 'bilateral_arrangement', ja: 'その他の二国間取決め', desc: 'ワーキング・ホリデー制度など、政府間の取決め（口上書の交換など）' },
-  { code: 'joint_statement', ja: '共同声明・アクションプラン', desc: '首脳会談などで目標や協力事業を示す政治的な文書。人数の目標は受入れの義務ではない' },
+  { code: 'bilateral_arrangement', ja: 'その他の国際取決め', desc: 'ワーキング・ホリデー制度など、政府間の取決め（口上書の交換など）' },
+  { code: 'joint_statement', ja: '共同声明・行動計画', desc: '首脳会談などで目標や協力事業を示す政治的な文書（アクションプランなど）。人数の目標は受入れの義務ではない' },
   { code: 'other', ja: 'その他', desc: '上のどれにも当てはまらない、受入れに関係する国際的な枠組み' },
 ];
 export const DOC_CATEGORY = Object.fromEntries(DOC_CATEGORIES.map(d => [d.code, d]));
+
+// 文書の種類の詳しい区分。MOU・MOCは、文書の名前から「MOU（了解覚書・覚書）」「MOC（協力覚書）」
+// 「協定書・合意書など」に分けて表示します（件数の範囲「MOUのみ」はこの3つを合わせたもの）。
+export const DOC_KINDS = [
+  { code: 'mou', cat: 'mou_moc', ja: 'MOU（了解覚書・覚書）', desc: '名前が「覚書」「了解覚書」「MOU」の文書' },
+  { code: 'moc', cat: 'mou_moc', ja: 'MOC（協力覚書）', desc: '名前が「協力覚書」「MOC」の文書' },
+  { code: 'mou_other', cat: 'mou_moc', ja: '協定書・合意書など', desc: '覚書と同じく協力の方針を確認する文書のうち、名前が「協定書」「合意書」「同意書」などのもの' },
+  ...DOC_CATEGORIES.filter(c => c.code !== 'mou_moc').map(c => ({ code: c.code, cat: c.code, ja: c.ja, desc: c.desc })),
+];
+export const DOC_KIND = Object.fromEntries(DOC_KINDS.map(d => [d.code, d]));
+const MOC_RE = /協力覚書|\bMOC\b|Memorandum of Cooperation/i;
+const MOU_RE = /覚書|\bMOU\b|Memorandum of Understanding/i;
+// 正式名称（日本語・原語）の呼び方を優先し、名称で決まらないときは文書の種類の欄で決める
+export function docKind(m) {
+  if (m.doc_category !== 'mou_moc') return DOC_KIND[m.doc_category] ? m.doc_category : 'other';
+  const title = `${m.title_ja || ''} ${m.title_original || ''}`;
+  const type = m.doc_type === 'その他の協力文書' ? '' : `${m.doc_type || ''}`;
+  if (MOC_RE.test(title)) return 'moc';
+  if (MOU_RE.test(title)) return 'mou';
+  if (MOC_RE.test(type)) return 'moc';
+  if (MOU_RE.test(type)) return 'mou';
+  return 'mou_other';
+}
+
 // 地図・件数に含める文書の範囲
 export const DOC_SCOPES = [
-  { code: 'mou', ja: 'MOUのみ', desc: 'MOU・MOC（覚書・協力覚書など）だけを数える' },
-  { code: 'foreign', ja: '外国人受入れに関する国際文書', desc: '文書の種類を問わず、外国人の受入れに直接関係するものだけを数える' },
-  { code: 'all', ja: 'その他の協定を含む登録文書', desc: 'このサイトに登録したすべての国際文書を数える' },
+  { code: 'mou', ja: 'MOUのみ', desc: 'MOU（了解覚書）・MOC（協力覚書）など覚書類だけを数える。R/D（討議議事録）・EPA・交換公文・取決め・共同声明は含まない' },
+  { code: 'foreign', ja: '外国人受入れに関する国際文書', desc: '文書の種類を問わず、外国人の受入れに直接関係するものだけを数える（R/Dを含む）' },
+  { code: 'all', ja: 'すべての国際文書', desc: 'このサイトに登録したすべての国際文書（MOU・MOC・R/D・EPA・交換公文・取決め・共同声明など）を数える' },
 ];
 export const DOC_SCOPE = Object.fromEntries(DOC_SCOPES.map(d => [d.code, d]));
 
@@ -298,6 +324,7 @@ export function buildDB({ config, prefs, countries, survey, records, stats, topo
       status: latest.status,
       validity: groupValidity(versions),
       category: latest.doc_category,
+      kind: latest._kind,
       relation: latest._relation,
       planned: confirmed.length === 0,
       official: versions.some(v => v._official),
@@ -381,6 +408,7 @@ function normalize(m) {
   r.legal_binding = r.legal_binding || 'unconfirmed';
   r.evidence_level = r.evidence_level || 'official_announcement';
   r.doc_category = DOC_CATEGORY[r.doc_category] ? r.doc_category : 'mou_moc';
+  r._kind = docKind(r);
   r._numbersResearched = Array.isArray(m.numbers);
   r.numbers = Array.isArray(r.numbers) ? r.numbers : [];
   r.related_systems = arr(r.related_systems);
@@ -403,7 +431,7 @@ function normalize(m) {
 
 // ---------- 絞り込み ----------
 // f = { level, levels:[], orgType, pairKind, pref, countries:[], field, status, impact, includeNews, includePlanned,
-//       validity（有効性の範囲：valid / valid_unk / all）, docScope（mou / foreign / all）, category（文書の種類）, relation（受入れとの関係） }
+//       validity（有効性の範囲：valid / valid_unk / all）, docScope（mou / foreign / all）, category（文書の種類）, kind（詳しい区分）, relation（受入れとの関係） }
 // validity・docScope を省略したときは、締結済みのすべての文書が対象です。言葉での検索は search.js で行います。
 export function filterGroups(db, f = {}) {
   const states = f.validity ? VALIDITY_SCOPE[f.validity]?.states : null;
@@ -414,6 +442,7 @@ export function filterGroups(db, f = {}) {
     if (f.docScope === 'mou' && g.category !== 'mou_moc') return false;
     if (f.docScope === 'foreign' && g.relation !== 'direct') return false;
     if (f.category && g.category !== f.category) return false;
+    if (f.kind && g.kind !== f.kind) return false;
     if (f.relation && g.relation !== f.relation) return false;
     if (f.level && g.level !== f.level) return false;
     if (f.levels && !f.levels.includes(g.level)) return false;
@@ -431,13 +460,25 @@ export function filterGroups(db, f = {}) {
 // 「協定・取決めの種類から探す」の表の分け方。1つの協定はどれか1つの表にだけ入る
 // （ワーキング・ホリデーは専用の表、それ以外は締結主体ごと）。見出しの件数＝表示する件数
 export const isWorkingHoliday = g => g.level === 'national' && g.category === 'bilateral_arrangement' && /ワーキング・ホリデー/.test(g.latest.title_ja);
-export function typesTables(db, base, cat, rel) {
-  const inCat = filterGroups(db, { ...base, category: cat || null });
+export function typesTables(db, base, cat, rel, kind) {
+  const inCat = filterGroups(db, { ...base, category: cat || null, kind: kind || null });
   const groups = sortGroups(rel ? inCat.filter(g => g.relation === rel) : inCat);
   const wh = groups.filter(isWorkingHoliday);
   const rest = groups.filter(g => !isWorkingHoliday(g));
   const byLevel = Object.fromEntries(LEVEL_ORDER.map(lv => [lv, rest.filter(g => g.level === lv)]));
   return { inCat, groups, wh, byLevel };
+}
+
+// 3つの数を分けて数える：登録した文書の数（更新・後継の版を1文書ずつ）／協定・協力関係の数（同じ協定の版をまとめて1件）／
+// 現在有効と確認できる協定の数（協力関係ごとに1件。更新前と更新後を同時に有効として二重に数えない）
+export function countTriple(groups) {
+  const signed = groups.filter(g => !g.planned);
+  return {
+    docs: signed.reduce((a, g) => a + g.versions.filter(v => v._validity !== 'planned').length, 0),
+    groups: signed.length,
+    valid: signed.filter(g => g.validity === 'valid_confirmed').length,
+    planned: groups.filter(g => g.planned).length,
+  };
 }
 
 // 締結主体ごとの件数（国・都道府県・市区町村・団体などを足さずに並べる）
@@ -664,6 +705,36 @@ export function researchStatus(m) {
   });
 }
 
+// ---------- CLAIR（自治体国際化協会）の一覧との照合 ----------
+// 未解決の行の理由の分類（data/clair_check.json の rows[].unresolved_reason）
+export const CLAIR_UNRESOLVED = {
+  partner_unknown: { ja: '情報の不足（締結の事実は確認できるが、相手機関名などを公式資料で確認できない）', short: '情報の不足' },
+  no_evidence: { ja: '協定の存在を公式資料で確認できない', short: '存在を確認できない' },
+  source_deleted: { ja: '元の公式資料が削除され、開ける資料で確認できない', short: '資料が削除済み' },
+  out_of_scope: { ja: '自治体の協定・覚書に当たらない可能性（業務上の契約、当事者が自治体でない など）', short: '協定に当たらない可能性' },
+  duplicate: { ja: '重複の疑い（登録済みの協定、またはCLAIRの別の行と同じものの可能性）', short: '重複の疑い' },
+  planned: { ja: 'CLAIRの時点で締結予定のままで、その後の締結を確認できない', short: '締結予定のまま' },
+};
+// CLAIRの照合の件数を、行のデータから数え直す（保存してある集計の数字は使わない）
+export function clairCounts(db) {
+  const rows = db.clair?.rows || [];
+  const ok = r => (r.site_ids || []).some(id => db.mouById.has(id));
+  const un = rows.filter(r => r.result === 'unregistered');
+  const unresolved = un.filter(r => !ok(r));
+  const reasons = {};
+  for (const r of unresolved) { const k = CLAIR_UNRESOLVED[r.unresolved_reason] ? r.unresolved_reason : 'unclassified'; reasons[k] = (reasons[k] || 0) + 1; }
+  return {
+    rows: rows.length,
+    match: rows.filter(r => r.result === 'match').length,
+    differs: rows.filter(r => r.result === 'differs').length,
+    unregistered: un.length,
+    added: un.filter(ok).length,
+    unresolved: unresolved.length,
+    site_only: (db.clair?.site_only || []).length,
+    reasons,
+  };
+}
+
 // ---------- 統計（参考） ----------
 export function residentChange(db, prefCode, countryCode) {
   const r = db.stats?.residents;
@@ -734,6 +805,9 @@ export function validate(db) {
     else ids.set(m.id, m._file);
     if (!raw.title_ja) add(m, 'error', 'title_ja（正式名称）がありません');
     if (!raw.doc_type) add(m, 'error', 'doc_type（文書の種類）がありません');
+    // 討議議事録（R/D）を覚書（MOU・MOC）として数えない
+    if (/討議議事録|\bR\/D\b|Record of Discussion/i.test(`${raw.doc_type || ''} ${raw.title_original || ''}`) && m.doc_category !== 'record_of_discussions') add(m, 'error', '討議議事録（R/D）は doc_category を record_of_discussions にしてください（MOU・MOCとして数えないため）');
+    if (raw.doc_category && !DOC_CATEGORY[raw.doc_category]) add(m, 'error', `doc_category「${raw.doc_category}」が正しくありません`);
     // 日付は形だけでなく、実在する日付か（2026-02-31 などでないか）も確かめる
     for (const k of ['effective_date', 'valid_until', 'renewed_until', 'ended_date', 'last_renewed', 'validity_checked', 'last_checked']) {
       if (raw[k] && !parseDate(raw[k])) add(m, 'error', `${k}「${raw[k]}」は存在しない日付か、形が正しくありません（YYYY-MM-DD / YYYY-MM / YYYY）`);

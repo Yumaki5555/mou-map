@@ -1,25 +1,26 @@
 // トップ・相手国・分野・地域への影響・都道府県・個別MOU・国・比較・調査状況・データ・検索の各ページ
-import { esc, fmtDate, fmtNum, fmtYen, fmtYenShort, yearOf, today, uniq } from './util.js';
+import { esc, fmtDate, fmtNum, fmtYen, fmtYenShort, yearOf, today, uniq, debounce } from './util.js';
 import {
   FIELDS, FIELD, STATUSES, STATUS, IMPACTS, IMPACT, STAGES, ZERO_STATES, SURVEY_RESULT, LEGAL, EVIDENCE, ORIGINAL, PARTNER_TYPES,
-  VALIDITIES, VALIDITY, VALIDITY_SCOPE, VALIDITY_SCOPES, DOC_CATEGORIES, DOC_CATEGORY, DOC_SCOPES, RELATIONS, RELATION, NUMBER_KINDS, ACCEPTANCE_TYPES,
+  VALIDITIES, VALIDITY, VALIDITY_SCOPE, VALIDITY_SCOPES, DOC_CATEGORIES, DOC_CATEGORY, DOC_KINDS, DOC_KIND, DOC_SCOPES, RELATIONS, RELATION, NUMBER_KINDS, ACCEPTANCE_TYPES,
   JAPAN_ORG_TYPES, JAPAN_ORG_TYPE, PAIR_KINDS, PAIR_KIND, LEVEL_ORDER, LEVEL_SHORT, LEVELS,
-  filterGroups, sortGroups, countByPref, zeroState, residentChange, sswCount, validityCounts, termEnd, typesTables, levelCounts, levelBreakdown,
-  countryName, prefName, japanSideName, sideShort, validate, surveySummary, researchStatus, RESEARCH_STATES, VALIDITY_REASONS,
+  filterGroups, sortGroups, countByPref, zeroState, residentChange, sswCount, validityCounts, termEnd, typesTables, levelCounts, levelBreakdown, countTriple,
+  countryName, prefName, japanSideName, sideShort, validate, surveySummary, researchStatus, RESEARCH_STATES, VALIDITY_REASONS, CLAIR_UNRESOLVED, clairCounts,
 } from './data.js';
 import { JapanMap, swatchStyle, PATTERNS } from './map.js';
 import { hbar, vbar } from './charts.js';
 import {
   mouList, mouCard, sourceList, impactGrid, budgetSection, legendHTML, statTile, kvTable, statusBadge, fieldBadges,
-  evidenceBadge, whoLine, term, GLOSSARY, autoStatsFor, fyLabel, validityBadge, categoryBadge, relationBadge,
+  evidenceBadge, whoLine, term, GLOSSARY, autoStatsFor, fyLabel, validityBadge, categoryBadge, kindBadge, relationBadge,
   validityTiles, numbersSection, validityDetail, budgetLegend, researchTable, actorBadges,
 } from './components.js';
 import { computeMapModel, countriesWithData, bindSuggest, seqScale } from './page-map.js';
 import { downloadMouCSV, groupsToMous, CSV_COLUMNS } from './csv.js';
 import { exportMap, exportBars, exportMouSummary, exportImpactGrid } from './export.js';
-import { settings, newsToggleHTML, bindNewsToggle, metaFor, baseFilter, scopeBarHTML, bindScopeBar, scopeLabel, scopeNoteHTML } from './shared.js';
+import { settings, newsToggleHTML, bindNewsToggle, metaFor, baseFilter, scopeBarHTML, bindScopeBar, scopeLabel, scopeNoteHTML, scopeCountsHTML, hiddenSummary } from './shared.js';
 import { homePage, issuesPage } from './home.js';
-import { MINISTRY_RE } from './search.js';
+import { MINISTRY_RE, prep } from './search.js';
+import { orgIndex, findOrgs, orgTypeLabel, orgParts } from './orgs.js';
 export { homePage, issuesPage };
 
 const ICONS = {
@@ -53,20 +54,9 @@ function stageTable(db) {
   </tbody></table></div>`;
 }
 
-/// 数え方の範囲から外れている文書があるときに、その数と切り替えボタンを出す
-function hiddenNote(db, f) {
-  const shown = filterGroups(db, baseFilter(f)).length;
-  const sameDoc = filterGroups(db, { ...baseFilter(f), validity: 'all' });
-  const allDocs = filterGroups(db, { ...baseFilter(f), validity: 'all', docScope: 'all' });
-  const byV = validityCounts(sameDoc);
-  const outV = byV.signed_total - shown;
-  const outD = allDocs.length - sameDoc.length;
-  const parts = [];
-  if (outV > 0) parts.push(`有効性の範囲の外に <b>${outV}件</b>（${settings.validity === 'valid' ? `有効性未確認 ${byV.unconfirmed}件・` : ''}終了確認 ${byV.ended_confirmed}件・開始前 ${byV.signed_not_started}件）`);
-  if (outD > 0) parts.push(`MOU以外の国際文書（EPA・取決めなど）が <b>${outD}件</b>`);
-  if (!parts.length) return '';
-  return `<div class="info hidden-note">いまの数え方（${esc(scopeLabel())}）では表示していないものがあります：${parts.join('、')}。
-    <span class="btn-row" style="margin:8px 0 0">${outV > 0 ? '<button type="button" class="btn btn-small btn-outline" data-scope-v="all">すべて（終了を含む・予定は除く）で表示</button>' : ''}${outD > 0 ? '<button type="button" class="btn btn-small btn-outline" data-scope-d="all">MOU以外の文書も含める</button>' : ''}</span></div>`;
+/// 同じ条件で数えた有効性の内訳（表示中・非表示）と、非表示のものを表示に切り替えるボタン
+function hiddenNote(db, f, label) {
+  return scopeCountsHTML(db, f, { label });
 }
 
 // =============== 相手国から探す ===============
@@ -109,7 +99,7 @@ export function countryPage(ctx, code) {
     </div>
     <p class="small muted">「有効性未確認」は、今も有効かどうかを公式資料で確かめられていないもので、終了したという意味ではありません。国が結んだ協定は、都道府県の件数に含めていません。</p>
     ${otherActorsNote(db, { countries: [code] })}
-    ${hiddenNote(db, { countries: [code] })}
+    ${hiddenNote(db, { countries: [code] }, `${c.ja}との協定（国・都道府県・市区町村・団体などすべて）`)}
     <div class="stats">
       ${statTile('都道府県の締結（いまの数え方）', prefG.length, `${nPref}都道府県`, '件')}
       ${statTile('国・省庁の締結（いまの数え方）', natG.length, '都道府県とは別に数えています', '件')}
@@ -190,8 +180,10 @@ export function fieldIndexPage(ctx) {
   app.innerHTML = `${head([['分野・省庁から探す']], '分野・省庁から探す', '分野を選ぶと、その分野の協定を結んでいる都道府県が地図に表示されます。国の協定は、担当の省庁ごとに見られます。')}
     <nav class="ds-toc" aria-label="このページの目次"><a href="#/field?to=fd-field" data-jump="fd-field">分野から探す</a><a href="#/field?to=fd-min" data-jump="fd-min">省庁から探す（国の協定）</a><a href="#/field?to=fd-chart" data-jump="fd-chart">分野別の件数グラフ</a></nav>
     ${scopeBarHTML()}
+    ${scopeCountsHTML(db, {}, { label: '登録した協定（すべての分野・締結主体）' })}
     <h2 id="fd-field">分野から探す</h2>
     <details class="note-d"><summary>調査の範囲について（件数を読む前に）</summary><p>「外国人材・労働」は47都道府県を調査済み（第1段階）です。ほかの分野は調査が一部だけ（第2段階）なので、件数は確認できた範囲のみで、実際より少ない可能性があります。1つの協定が複数の分野にまたがる場合は、それぞれの分野で数えています。</p></details>
+    <p class="small">いまの数え方の協定の数（分野の重複なし）：<b>${esc(levelBreakdown(all, { always: ['national', 'prefecture'] }))}</b>。1つの協定を複数の分野で数えるため、分野ごとの件数を足すと、この数より多くなります。</p>
     <div class="field-grid">
       ${rows.map(r => `<a class="pick-card" href="#/map?mode=field&f=${r.f.code}">
         <b class="pick-t">${esc(r.f.ja)}</b>
@@ -263,6 +255,7 @@ export function impactPage(ctx) {
   const stageBox = (s, n, extra) => `<li class="st-${s.code}"><span class="flow-k"><span class="flow-no">${'①②③'[STAGES.indexOf(s)]}</span>${esc(s.ja)}</span><p>${esc(STAGE_DESC[s.code])}</p><b class="flow-n">${n}<small>件の協定に記録</small></b>${extra || ''}</li>`;
   app.innerHTML = `${head([['地域への影響を調べる']], '地域への影響を調べる', '海外との約束のあと、地域で実際に何が行われ、何が確認されたのか。要約 → 3つの段階 → 詳しい表と出典の順に見られます。')}
     ${scopeBarHTML()}
+    ${scopeCountsHTML(db, {}, { label: '影響を数える対象の協定（すべての締結主体）' })}
     <h2 class="h-sm">要約：公式資料で確認できたこと</h2>
     <div class="imp-cards">
       ${card('外国人の受入れ人数', accept.length, acceptItems, '受入れ人数の実績を公式資料で確認できた協定はありません（0人という意味ではありません）', '#/impact?to=imp-accept', '目標・上限の人数は含めていません')}
@@ -345,7 +338,7 @@ export function prefPage(ctx, code) {
     ${scopeBarHTML()}
     <h2 class="h-sm">${esc(p.name)}が結んだ協定の有効性（${esc(signedAll.length ? '締結済みの内訳' : '登録なし')}）</h2>
     ${signedAll.length ? validityTiles(signedAll, { planned: planned.length }) : `<div class="info">${esc(p.name)}の協定は、${esc(zs.ja)}。${esc(zs.desc)}。</div>`}
-    ${hiddenNote(db, f0)}
+    ${hiddenNote(db, f0, `${p.name}が締結した協定`)}
     <div class="stats">
       ${groups.length ? `
       ${statTile('いまの数え方の件数', groups.length, scopeLabel(), '件')}
@@ -461,8 +454,10 @@ export function mouPage(ctx, id) {
   const g = m._group;
   const isLatest = g.latest.id === m.id;
   const back = m.japan_level === 'national' ? [['国・省庁の協定', '#/national']]
-    : m.japan_level === 'organization' ? [['締結主体から探す', `#/actors?t=${m._orgType}`]]
+    : m.japan_level === 'organization' ? [['締結主体から探す', '#/actors'], [orgParts(m.japan_org).core, `#/actors?o=${encodeURIComponent(orgParts(m.japan_org).key)}`]]
       : [[prefName(db, m.pref_code), `#/pref/${m.pref_code}`]];
+  // 出典の資料を出した機関（情報源）。協定の当事者（締結主体）とは分けて表示する
+  const publishers = [...new Set(m.sources.map(s => s.publisher).filter(Boolean))];
   const summary = (m.summary && m.summary.length ? m.summary : [m.purpose, ...m.content]).filter(Boolean).slice(0, 3);
   const systems = m.related_systems.map(k => db.systemByKey?.get(k) || { name: k });
   const accTypes = m.acceptance_types.map(t => ACCEPTANCE_TYPES[t] || t);
@@ -479,7 +474,7 @@ export function mouPage(ctx, id) {
   app.innerHTML = `${head(back.concat([['協定の詳細']]), m.title_ja)}
     ${m.title_original ? `<p class="muted" style="margin-top:-8px">${esc(m.title_original)}</p>` : ''}
     <p class="who" style="font-weight:700;font-size:1.05rem">${whoLine(db, m)}</p>
-    <div class="meta" style="display:flex;flex-wrap:wrap;gap:6px">${validityBadge(g.validity)} ${categoryBadge(m.doc_category)} ${relationBadge(m._relation)} ${statusBadge(m.status)} ${fieldBadges(m.fields)} <span class="badge b-doc">${esc(m.doc_type)}</span> ${actorBadges(g)} ${evidenceBadge(m)}</div>
+    <div class="meta" style="display:flex;flex-wrap:wrap;gap:6px">${validityBadge(g.validity)} ${kindBadge(m._kind)} ${relationBadge(m._relation)} ${statusBadge(m.status)} ${fieldBadges(m.fields)} <span class="badge b-doc">${esc(m.doc_type)}</span> ${actorBadges(g)} ${evidenceBadge(m)}</div>
     ${m.japan_level === 'organization' ? `<div class="info">この協定は<b>${esc(JAPAN_ORG_TYPE[m._orgType]?.ja || '団体・企業など')}</b>が締結したものです。日本政府や都道府県が当事者として締結した協定ではないため、国・都道府県の件数には含めていません（本部の所在地を理由に都道府県の件数へ加えることもしていません）。${m.ceremony_note ? '政府が署名・交換の場に立ち会っていても、当事者として締結したことにはなりません。' : ''}</div>` : ''}
     ${!isLatest ? `<div class="info">この協定には、あとから結ばれた更新・修正の文書があります。最新：<a href="#/mou/${encodeURIComponent(g.latest.id)}">${esc(g.latest.title_ja)}（${esc(fmtDate(g.latest.signed_date))}）</a>。有効性・実施状況・予算・影響は、更新・修正の文書とあわせて表示しています。</div>` : ''}
     ${m._validity === 'planned' ? `<div class="note">${esc(STATUS.planned.desc)}</div>` : ''}
@@ -489,10 +484,11 @@ export function mouPage(ctx, id) {
 
     ${S('①', 'どんな約束？', 1)}
       ${kvTable([
-        ['文書名', `${esc(m.title_ja)}<br><span class="small muted">文書の種類：${esc(DOC_CATEGORY[m.doc_category]?.ja || '')}（${esc(m.doc_type)}）</span>`],
-        ['相手国・機関', `<a href="#/country/${esc(m.country_code)}">${esc(countryName(db, m.country_code))}</a>・${esc(m.partner_org)}<br><span class="small muted">種別：${esc(PARTNER_TYPES[m.partner_type] || '不明')}</span>`],
-        ['日本側の締結機関', `${esc(japanSideName(db, m))}${m.japan_level === 'national' ? '<br><span class="small muted">全国が対象（都道府県の件数には含めません）</span>' : ''}
+        ['文書名', `${esc(m.title_ja)}<br><span class="small muted">文書の種類：${esc(DOC_KIND[m._kind]?.ja || DOC_CATEGORY[m.doc_category]?.ja || '')}（文書の表記：${esc(m.doc_type)}）</span>${m.doc_type_note ? `<br><span class="small muted">${esc(m.doc_type_note)}</span>` : ''}`],
+        ['相手国・相手側の締結主体', `<a href="#/country/${esc(m.country_code)}">${esc(countryName(db, m.country_code))}</a>・${esc(m.partner_org)}<br><span class="small muted">種別：${esc(PARTNER_TYPES[m.partner_type] || '不明')}</span>`],
+        ['日本側の締結主体', `${m.japan_level === 'organization' ? `<a href="#/actors?o=${encodeURIComponent(orgParts(m.japan_org).key)}">${esc(japanSideName(db, m))}</a>` : esc(japanSideName(db, m))}${m.japan_level === 'national' ? '<br><span class="small muted">全国が対象（都道府県の件数には含めません）</span>' : ''}
           <br><span class="small muted">日本側の種別：${esc(JAPAN_ORG_TYPE[m._orgType]?.ja || '不明')}／当事者の組み合わせ：${esc(PAIR_KIND[m._pairKind]?.ja || '不明')}（${esc(PAIR_KIND[m._pairKind]?.desc || '')}）</span>`],
+        ['情報源（出典の資料を出した機関）', `${esc(publishers.join('、') || '記録なし')}<br><span class="small muted">資料を公表した機関で、協定の当事者（締結主体）とは限りません。資料の一覧は下の「⑥原文・出典」</span>`],
         m.ceremony_note ? ['署名・交換の場', esc(m.ceremony_note)] : null,
         m.related_regions.length ? ['関連事業の地域', `${m.related_regions.map(r => `<a href="#/pref/${esc(r.pref_code)}">${esc(prefName(db, r.pref_code))}</a>：${esc(r.text || '内容未確認')}`).join('<br>')}<br><span class="small muted">事業が行われた地域です。締結した地域ではないため、その都道府県の件数には含めていません。</span>`] : null,
         ['締結日', `${esc(fmtDate(m.signed_date))}${m.effective_date ? `<span class="small muted">（発効・開始：${esc(fmtDate(m.effective_date))}）</span>` : ''}${m.date_note && !m.signed_date ? `<br><span class="small muted">${esc(m.date_note)}</span>` : ''}`],
@@ -623,7 +619,7 @@ export function nationalPage(ctx) {
     ${stage3 ? `<div class="note"><b>調査範囲：</b>${esc(stage3.coverage || '')}（${esc(stage3.status_ja)}）。${esc(stage3.note || '')}</div>` : ''}
     ${scopeBarHTML()}
     ${validityTiles(vAll.filter(g => !g.planned), { planned: vAll.filter(g => g.planned).length })}
-    ${hiddenNote(db, { level: 'national' })}
+    ${hiddenNote(db, { level: 'national' }, '国・省庁の協定')}
     <div class="stats">${statTile('いまの数え方の件数', groups.length, '更新・改正は1件と数える', '件')}${statTile('相手国・地域', uniq(groups.flatMap(g => g.countries)).length, '', 'か国・地域')}</div>
     ${kinds.length ? '' : '<p class="muted">いまの数え方で表示する協定はありません。上の切り替えで数え方を変えてください。</p>'}
     ${kinds.map(k => {
@@ -643,37 +639,55 @@ export function nationalPage(ctx) {
 // =============== 協定・取決めの種類から探す ===============
 export function typesPage(ctx) {
   const { db, app } = ctx;
-  const cat = DOC_CATEGORY[ctx.params.get('c')] ? ctx.params.get('c') : '';
+  const cat0 = DOC_CATEGORY[ctx.params.get('c')] ? ctx.params.get('c') : '';
+  // MOU・MOCの中の詳しい区分（MOU／MOC／協定書・合意書など）。k だけ指定されたときは、その大きな分類も選んだことにする
+  const kind = DOC_KIND[ctx.params.get('k')] ? ctx.params.get('k') : '';
+  const cat = kind ? DOC_KIND[kind].cat : cat0;
   const rel = RELATION[ctx.params.get('r')] ? ctx.params.get('r') : '';
   const base = { ...baseFilter(), docScope: 'all' };
   // 文書の種類・受入れとの関係・有効性の条件は、ワーキング・ホリデーの表を含むすべての表に同じく当てはめる。
   // 1つの協定はどれか1つの表にだけ入れ、見出しの件数は表に出す件数と同じにする
-  const { inCat, groups, wh, byLevel } = typesTables(db, base, cat, rel);
+  const { inCat, groups, wh, byLevel } = typesTables(db, base, cat, rel, kind);
   const catN = c => filterGroups(db, { ...base, category: c, relation: rel || null }).length;
+  const kindN = k => filterGroups(db, { ...base, kind: k, relation: rel || null }).length;
   const relN = r => inCat.filter(g => g.relation === r).length;
   const nat = byLevel.national, pref = byLevel.prefecture, city = byLevel.municipality, org = byLevel.organization;
-  const go = patch => ctx.go('/types', Object.fromEntries(Object.entries({ c: cat, r: rel, ...patch }).filter(([, v]) => v)), { keepScroll: true });
-  app.innerHTML = `${head([['協定・取決めの種類から探す']], '協定・取決めの種類から探す', 'MOUのほかにも、外国人の来日・就労・留学に関係する国際的な合意文書があります。文書の種類と、外国人の受入れとの関係で絞り込めます。')}
+  const t3 = countTriple(groups);
+  const go = patch => ctx.go('/types', Object.fromEntries(Object.entries({ c: cat, k: kind, r: rel, ...patch }).filter(([, v]) => v)), { keepScroll: true });
+  const subKinds = DOC_KINDS.filter(k => k.cat === 'mou_moc');
+  // 文書の種類ごとの件数（いまの有効性の範囲で数える。協力関係ごとに最新の文書の種類で1件）
+  const kindRows = DOC_KINDS.map(k => ({ k, t: countTriple(filterGroups(db, { ...base, kind: k.code, relation: rel || null })) }));
+  app.innerHTML = `${head([['協定・取決めの種類から探す']], '協定・取決めの種類から探す', 'MOUのほかにも、外国人の来日・就労・留学に関係する国際的な合意文書があります。MOU（了解覚書）・MOC（協力覚書）・R/D（討議議事録）・EPA（経済連携協定）・交換公文・その他の国際取決め・共同声明を分けて数えています。')}
     ${scopeBarHTML({ docs: false })}
     <div class="control-group"><span class="label" id="cat-l">文書の種類</span>
       <div class="seg" role="group" aria-labelledby="cat-l">
         <button type="button" data-c="" aria-pressed="${!cat}">すべて</button>
-        ${DOC_CATEGORIES.map(c => `<button type="button" data-c="${c.code}" aria-pressed="${cat === c.code}" title="${esc(c.desc)}">${esc(c.ja)} ${catN(c.code)}</button>`).join('')}
+        ${DOC_CATEGORIES.map(c => `<button type="button" data-c="${c.code}" aria-pressed="${cat === c.code && !kind}" title="${esc(c.desc)}">${esc(c.ja)} ${catN(c.code)}</button>`).join('')}
       </div></div>
+    ${cat === 'mou_moc' ? `<div class="control-group"><span class="label" id="kind-l">MOU・MOCの内訳（文書の名前で分類）</span>
+      <div class="seg" role="group" aria-labelledby="kind-l">
+        <button type="button" data-k="" aria-pressed="${!kind}">MOU・MOCすべて</button>
+        ${subKinds.map(k => `<button type="button" data-k="${k.code}" aria-pressed="${kind === k.code}" title="${esc(k.desc)}">${esc(k.ja)} ${kindN(k.code)}</button>`).join('')}
+      </div></div>` : ''}
     <div class="control-group"><span class="label" id="rel-l">外国人の受入れとの関係</span>
       <div class="seg" role="group" aria-labelledby="rel-l">
         <button type="button" data-r="" aria-pressed="${!rel}">すべて</button>
         ${RELATIONS.map(r => `<button type="button" data-r="${r.code}" aria-pressed="${rel === r.code}" title="${esc(r.desc)}">${esc(r.ja)} ${relN(r.code)}</button>`).join('')}
       </div></div>
     <div class="result-bar"><div class="now">いま表示している条件</div><div class="chips">
-      <span class="chip chip-plain">文書の種類：${esc(cat ? DOC_CATEGORY[cat].ja : 'すべて')}</span>
-      <span class="chip chip-plain">受入れとの関係：${esc(rel ? RELATION[rel].ja : 'すべて')}</span>
+      ${cat ? `<span class="chip">文書の種類：${esc(DOC_CATEGORY[cat].ja)}<button type="button" data-rm-x="c" aria-label="文書の種類の条件を外す">×</button></span>` : '<span class="chip chip-plain">文書の種類：すべて</span>'}
+      ${kind ? `<span class="chip">内訳：${esc(DOC_KIND[kind].ja)}<button type="button" data-rm-x="k" aria-label="内訳の条件を外す">×</button></span>` : ''}
+      ${rel ? `<span class="chip">受入れとの関係：${esc(RELATION[rel].ja)}<button type="button" data-rm-x="r" aria-label="受入れとの関係の条件を外す">×</button></span>` : '<span class="chip chip-plain">受入れとの関係：すべて</span>'}
       <span class="chip chip-plain">有効性：${esc(VALIDITY_SCOPE[settings.validity].ja)}</span>
-      ${cat || rel ? '<button type="button" class="btn btn-small btn-outline" id="clear">条件を解除</button>' : ''}</div></div>
-    ${cat ? `<div class="info"><b>${esc(DOC_CATEGORY[cat].ja)}とは：</b>${esc(DOC_CATEGORY[cat].desc)}</div>` : `<details><summary>文書の種類ごとの性質（法的拘束力など）を見る</summary>
-      <div class="table-wrap"><table><thead><tr><th>種類</th><th>どんな文書か</th></tr></thead><tbody>${DOC_CATEGORIES.map(c => `<tr><th scope="row">${esc(c.ja)}</th><td>${esc(c.desc)}</td></tr>`).join('')}</tbody></table></div>
-      <p class="small muted">国内の法律や政府の方針（一方的に決めるもの）は、海外との協定として登録していません。下の「関連する国内制度」に分けて載せています。「受入れとの関係」は、合意内容の記載にもとづいてこのサイトが分類したものです。</p></details>`}
-    <p class="result-summary">該当：<b>${groups.length}件</b>（${wh.length ? `ワーキング・ホリデーの取決め ${wh.length}件／` : ''}国・省庁 ${nat.length}件／都道府県 ${pref.length}件${city.length ? `／市区町村 ${city.length}件` : ''}${org.length ? `／団体・企業など ${org.length}件` : ''}。締結主体ごとに別々に数え、1つの協定は1つの表にだけ表示）</p>
+      ${cat || rel ? '<button type="button" class="btn btn-small btn-outline" id="clear">条件をすべて解除</button>' : ''}</div></div>
+    ${scopeCountsHTML(db, { docScope: 'all', category: cat || null, kind: kind || null, relation: rel || null }, { label: 'この条件の文書' })}
+    ${cat ? `<div class="info"><b>${esc((kind ? DOC_KIND[kind] : DOC_CATEGORY[cat]).ja)}とは：</b>${esc((kind ? DOC_KIND[kind] : DOC_CATEGORY[cat]).desc)}${cat === 'record_of_discussions' ? '。R/DはMOU・MOCとは別に数えます。地図などの初期設定「MOUのみ」には含めず、「すべての国際文書」「外国人受入れに関する国際文書」で数えます。' : ''}</div>` : ''}
+    <details><summary>文書の種類ごとの件数と性質（法的拘束力など）を見る</summary>
+      <div class="table-wrap"><table><thead><tr><th>種類</th><th class="num">協定・協力関係</th><th class="num">登録文書</th><th class="num">現在有効と確認</th><th>どんな文書か</th></tr></thead><tbody>
+      ${kindRows.map(({ k, t }) => `<tr><th scope="row"><a href="#/types?${k.cat === 'mou_moc' ? 'k' : 'c'}=${k.code}">${esc(k.ja)}</a>${k.cat === 'mou_moc' ? '<br><span class="small muted">MOU・MOCの内訳</span>' : ''}</th><td class="num">${t.groups}件</td><td class="num">${t.docs}件</td><td class="num">${t.valid}件</td><td class="small">${esc(k.desc)}</td></tr>`).join('')}
+      </tbody></table></div>
+      <p class="small muted">件数は上の有効性の切り替え（${esc(VALIDITY_SCOPE[settings.validity].ja)}）で数えたもの。「協定・協力関係」は同じ協定の更新・再締結・後継をまとめて1件、「登録文書」は版ごとの文書の数、「現在有効と確認」は協力関係ごとに1件（更新前と更新後を同時に有効として数えません）。同じ協力関係の中で文書の種類が変わった場合（R/Dのあとに覚書を結んだなど）は、最新の文書の種類で数えます。国内の法律や政府の方針（一方的に決めるもの）は、海外との協定として登録していません。下の「関連する国内制度」に分けて載せています。「受入れとの関係」は、合意内容の記載にもとづいてこのサイトが分類したものです。</p></details>
+    <p class="result-summary">該当：<b>${groups.length}件</b>の協定・協力関係（登録文書 ${t3.docs}件、うち現在有効と確認 ${t3.valid}件）<br><span class="small">${wh.length ? `ワーキング・ホリデーの取決め ${wh.length}件／` : ''}国・省庁 ${nat.length}件／都道府県 ${pref.length}件${city.length ? `／市区町村 ${city.length}件` : ''}${org.length ? `／団体・企業など ${org.length}件` : ''}。締結主体ごとに別々に数え、1つの協定は1つの表にだけ表示</span></p>
     ${wh.length ? `<h2>ワーキング・ホリデーの取決め（国・省庁、${wh.length}か国・地域）</h2>
       <div class="table-wrap"><table><thead><tr><th>国・地域</th><th>開始</th><th>年間の発給枠（上限）</th><th>有効性</th></tr></thead><tbody>
       ${wh.sort((a, b) => (a.first.effective_date || a.first.signed_date || '').localeCompare(b.first.effective_date || b.first.signed_date || '')).map(g => {
@@ -690,13 +704,15 @@ export function typesPage(ctx) {
     ${org.length ? `<h2>団体・企業・公的機関などの文書（${org.length}件）</h2><p class="small muted">国・都道府県が締結したものではないため、国・都道府県の件数には含めていません。</p>${mouList(db, org)}` : ''}
     ${systemsSection(db)}
     <div class="btn-row"><button type="button" class="btn btn-outline" id="csv">この結果をCSVで保存</button></div>`;
-  app.querySelectorAll('[data-c]').forEach(b => b.addEventListener('click', () => go({ c: b.dataset.c })));
+  app.querySelectorAll('[data-c]').forEach(b => b.addEventListener('click', () => go({ c: b.dataset.c, k: '' })));
+  app.querySelectorAll('[data-k]').forEach(b => b.addEventListener('click', () => go({ c: 'mou_moc', k: b.dataset.k })));
   app.querySelectorAll('[data-r]').forEach(b => b.addEventListener('click', () => go({ r: b.dataset.r })));
+  app.querySelectorAll('[data-rm-x]').forEach(b => b.addEventListener('click', () => go(b.dataset.rmX === 'c' ? { c: '', k: '' } : { [b.dataset.rmX]: '' })));
   app.querySelector('#clear')?.addEventListener('click', () => ctx.go('/types', {}, { keepScroll: true }));
   bindNewsToggle(app, () => typesPage(ctx));
   // このページは文書の種類を問わず数えるので、「数える文書」ではなく種類・関係の条件を書く
-  app.querySelector('#csv').addEventListener('click', () => downloadMouCSV(db, groupsToMous(groups), `mou_types_${cat || 'all'}_${rel || 'all'}_${settings.validity}.csv`,
-    `件数の条件：${VALIDITY_SCOPE[settings.validity].ja}／文書の種類：${cat ? DOC_CATEGORY[cat].ja : 'すべて'}／受入れとの関係：${rel ? RELATION[rel].ja : 'すべて'}${settings.includeNews ? '／報道のみの情報を含む' : ''}`));
+  app.querySelector('#csv').addEventListener('click', () => downloadMouCSV(db, groupsToMous(groups), `mou_types_${kind || cat || 'all'}_${rel || 'all'}_${settings.validity}.csv`,
+    `件数の条件：${VALIDITY_SCOPE[settings.validity].ja}／文書の種類：${kind ? DOC_KIND[kind].ja : cat ? DOC_CATEGORY[cat].ja : 'すべて'}／受入れとの関係：${rel ? RELATION[rel].ja : 'すべて'}${settings.includeNews ? '／報道のみの情報を含む' : ''}`));
 }
 
 // 関連する国内制度（海外との協定ではない。日本が自ら決める制度）
@@ -722,6 +738,7 @@ export function comparePage(ctx) {
   const scope = `母集団：このサイトに登録された、公式資料で確認できた協定（数え方：${scopeLabel()}）${f ? `のうち「${FIELD[f].ja}」` : ''}。時点：${asOf}。`;
   app.innerHTML = `${head([['比較グラフ']], '比較グラフ', 'グラフの棒や点にマウスを重ねる（スマートフォンではタップする）と数値が表示されます。数え方を切り替えると、すべてのグラフと画像の数字が変わります。')}
     ${scopeBarHTML()}
+    ${scopeCountsHTML(db, { field: f || null, levels: ['national', 'prefecture'] }, { label: `グラフの対象（国・都道府県${f ? `、${FIELD[f].ja}` : ''}）` })}
     <div class="control-group"><label class="label" for="fsel">分野で絞り込む</label>
       <select id="fsel"><option value="">すべての分野</option>${FIELDS.map(x => `<option value="${x.code}" ${x.code === f ? 'selected' : ''}>${esc(x.ja)}</option>`).join('')}</select></div>
     <div class="note">件数は確認できた範囲のものです。外国人材・労働の分野は47都道府県を調査済みですが、ほかの分野は一部の調査です。グラフにない都道府県は「0件」ではなく、いまの数え方で表示されないもの、または「該当なし」「調査したが確認できず」「未調査」のいずれかです。
@@ -730,7 +747,7 @@ export function comparePage(ctx) {
     ${chartBlock('c1', '都道府県ごとの締結件数', scope + '国・省庁の締結は含みません。')}
     ${chartBlock('c2', '相手国・地域別の締結件数', scope + '国・省庁と都道府県の合計。')}
     ${chartBlock('c3', '外国人材・労働関係の件数（都道府県別）', `母集団：外国人材・労働の分野の協定（第1段階：47都道府県を調査済み。数え方：${scopeLabel()}）。時点：${asOf}。`)}
-    ${chartBlock('c4', '年ごとの締結件数の推移', scope + '国・都道府県の合計。更新・再締結は最初の締結年で1件。棒：その年の件数、線：累計。')}
+    ${chartBlock('c4', '年ごとの締結件数の推移', scope + '国・都道府県の合計。更新・再締結は最初の締結年で1件。棒：その年の件数、線：累計。締結年（1〜12月）で数えています（締結日が年だけ分かる協定があるため、年度（4月〜翌3月）では数えていません）。')}
     ${chartBlock('c5', '具体的な事業の実施が確認できた協定の割合（都道府県別）', scope + '「具体的な事業が実施中」または「事業は完了」の割合。分母はその都道府県の件数で、件数が少ない県は割合が大きく振れます（かっこ内の件数も見てください）。')}
     ${chartBlock('c6', '確認できた関連予算の比較（都道府県別）', `母集団：金額が公式資料で確認できた関連予算（計画予算。数え方：${scopeLabel()}）。未確認のものは含めていません（0円ではありません）。年度・事業の範囲は資料ごとに異なります。時点：${asOf}。`)}`;
   app.querySelector('#fsel').addEventListener('change', e => ctx.go('/compare', e.target.value ? { f: e.target.value } : {}));
@@ -917,37 +934,58 @@ export function aboutPage(ctx) {
 
 // CLAIR（自治体国際化協会）の一覧との照合結果（data/clair_check.json）
 const CLAIR_RESULTS = [
-  { code: 'match', ja: '① 登録済み・一致', desc: 'CLAIRの一覧の協定が、このサイトに同じ内容で登録されている' },
-  { code: 'differs', ja: '② 登録済みだが情報が異なる', desc: '登録はあるが、締結日・名称・相手機関などがCLAIRの一覧と違う（どちらが正しいかを自治体の資料で確認）' },
-  { code: 'unregistered', ja: '③ CLAIRに掲載・未登録', desc: 'CLAIRの一覧にあるが、このサイトに登録されていなかった（自治体の公式資料で確認できたものは今回追加）' },
-  { code: 'site_only', ja: '④ サイトに登録・CLAIRの一覧にない', desc: 'このサイトには登録しているが、CLAIRの一覧には載っていない（CLAIRの時点より後の締結、範囲外など。削除はしていない）' },
+  { code: 'match', ja: '照合一致', desc: 'CLAIRの一覧の協定が、このサイトに同じ内容で登録されている' },
+  { code: 'differs', ja: '登録内容に相違', desc: '登録はあるが、締結日・名称・相手機関などがCLAIRの一覧と違う（自治体の資料で確かめた結果を記録）' },
+  { code: 'added', ja: '当初未登録 → 新規登録済み', desc: '照合の時点ではこのサイトに登録がなかったが、自治体の公式資料で締結を確認して登録した' },
+  { code: 'unresolved', ja: '当初未登録 → 未解決', desc: '照合の時点で登録がなく、自治体の公式資料で締結を確認できないため、未登録のまま残している（協定が存在しないという意味ではない）' },
+  { code: 'site_only', ja: 'サイトに登録・CLAIRの一覧にない', desc: 'このサイトには登録しているが、CLAIRの一覧には載っていない（CLAIRの時点より後の締結、調査の対象外の分野など。削除はしていない）' },
 ];
 function clairSection(db) {
   const c = db.clair;
   if (!c) return '';
   const rows = c.rows || [];
   const site = c.site_only || [];
-  const by = code => code === 'site_only' ? site : rows.filter(r => r.result === code);
+  const n = clairCounts(db);
+  const ok = r => (r.site_ids || []).some(id => db.mouById.has(id));
+  const by = code => code === 'site_only' ? site : code === 'added' ? rows.filter(r => r.result === 'unregistered' && ok(r))
+    : code === 'unresolved' ? rows.filter(r => r.result === 'unregistered' && !ok(r)) : rows.filter(r => r.result === code);
   const idLinks = ids => (ids || []).filter(id => db.mouById.has(id)).map(id => `<a href="#/mou/${encodeURIComponent(id)}">${esc(id)}</a>`).join('<br>') || '—';
   const table = code => {
     const list = by(code);
     if (!list.length) return '<p class="muted">該当なし</p>';
     if (code === 'site_only') return `<div class="table-wrap"><table><thead><tr><th>登録した協定</th><th>CLAIRの一覧にない理由（推定）</th></tr></thead><tbody>
       ${list.map(r => `<tr><td>${db.mouById.has(r.id) ? `<a href="#/mou/${encodeURIComponent(r.id)}">${esc(db.mouById.get(r.id).title_ja)}</a>` : esc(r.title || r.id)}<br><span class="small muted">${esc(r.id)}</span></td><td>${esc(r.reason || '')}</td></tr>`).join('')}</tbody></table></div>`;
-    return `<div class="table-wrap"><table><thead><tr><th>自治体</th><th>CLAIRの一覧の記載</th><th>このサイト</th><th>説明</th></tr></thead><tbody>
-      ${list.map(r => `<tr><td class="nowrap">${esc(r.jurisdiction || '')}${r.jurisdiction_type === 'designated_city' ? '<br><span class="small muted">政令指定都市</span>' : ''}</td>
+    return `<div class="table-wrap"><table><thead><tr><th>自治体</th><th>CLAIRの一覧の記載（2020年）</th><th>このサイト（2026年の調査）</th><th>説明</th></tr></thead><tbody>
+      ${list.map(r => `<tr><td class="nowrap">${esc(r.jurisdiction || '')}${r.jurisdiction_type === 'designated_city' ? '<br><span class="small muted">政令指定都市</span>' : ''}<br><span class="small muted">Excel ${esc(r.row)}行目</span></td>
         <td>${esc(r.clair?.country || '')}・${esc(r.clair?.partner || '')}<br><span class="small">${esc(r.clair?.title || '')}</span>${r.clair?.signed ? `<br><span class="small muted">締結：${esc(r.clair.signed)}</span>` : ''}</td>
-        <td class="small">${idLinks(r.site_ids)}</td>
-        <td class="small">${(r.diffs || []).map(d => `<b>${esc(d.field)}</b>：CLAIR「${esc(d.clair ?? '')}」／サイト「${esc(d.site ?? '')}」${d.verified ? `<br>${esc(d.verified)}` : ''}`).join('<br>')}${r.note ? `${(r.diffs || []).length ? '<br>' : ''}${esc(r.note)}` : ''}</td></tr>`).join('')}</tbody></table></div>`;
+        <td class="small">${code === 'unresolved' ? `<b>${esc(CLAIR_UNRESOLVED[r.unresolved_reason]?.short || '未分類')}</b>` : idLinks(r.site_ids)}</td>
+        <td class="small">${(r.diffs || []).map(d => `<b>${esc(d.field)}</b>：CLAIR「${esc(d.clair ?? '')}」／サイト「${esc(d.site ?? '')}」${d.verified ? `<br>${esc(d.verified)}` : ''}`).join('<br>')}${r.note ? `${(r.diffs || []).length ? '<br>' : ''}${esc(r.note)}` : ''}${r.unresolved_note ? `<br><b>再確認（${esc(fmtDate(r.unresolved_checked || c.checked))}）：</b>${esc(r.unresolved_note)}` : ''}</td></tr>`).join('')}</tbody></table></div>`;
   };
+  const reasonList = Object.entries(n.reasons).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<li>${esc(CLAIR_UNRESOLVED[k]?.ja || '理由を分類していない')}：<b>${v}</b>行</li>`).join('');
   return `<h2 id="ab-clair">CLAIR（自治体国際化協会）の一覧との照合</h2>
-    <p>${c.source?.publisher ? esc(c.source.publisher) : '一般財団法人自治体国際化協会（CLAIR）'}が公開している「<a href="${esc(c.source?.page_url || 'https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/')}" target="_blank" rel="noopener">${esc(c.source?.title || '外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況')}</a>」（Excelファイル。${c.source?.as_of ? `${esc(fmtDate(c.source.as_of))}現在の自治体の回答、一部は3月末時点で修正` : '時点の記載なし'}）と、このサイトの登録データを1件ずつ照らし合わせました（確認日：${esc(fmtDate(c.source?.checked || c.checked))}）。</p>
-    ${c.source?.respondents_note ? `<p class="small muted">${esc(c.source.respondents_note)}。一覧の時点が古いため、それより後に結ばれた協定は一覧に載っていません（④が多いのはこのためです）。</p>` : ''}
-    <div class="note">CLAIRは調査資料の提供元で、一覧の協定の当事者ではありません（CLAIRを締結主体にはしていません）。また、CLAIRの一覧に載っていないことを理由に協定を削除することはしていません。新しく見つかった協定は、自治体の公式サイトや協定の原文で確かめてから登録しました。</div>
-    <div class="stats">${CLAIR_RESULTS.map(x => statTile(x.ja, by(x.code).length, x.desc, '件')).join('')}</div>
-    ${c.summary ? `<p class="small">③のうち、自治体の公式資料で締結を確認して今回登録したもの：${esc(c.summary.added_city_from_clair_rows ?? '—')}行（都道府県 ${esc(c.summary.added_pref ?? 0)}件・政令指定都市）／公式資料で確認できず未登録のまま残したもの：${esc(c.summary.unverified ?? '—')}行。
-      このほか、照合の中で見つけた政令指定都市の協定 ${esc(c.summary.added_city_not_in_clair ?? 0)}件も、市の公式資料で確認して登録しました（政令指定都市の登録は合計 ${esc(c.summary.added_city ?? '—')}件）。</p>` : ''}
-    ${CLAIR_RESULTS.map(x => `<details><summary>${esc(x.ja)}（${by(x.code).length}件）</summary>${table(x.code)}</details>`).join('')}`;
+    <div class="two-src">
+      <div class="src-box src-old"><p class="src-k">2020年の資料（CLAIRの調査）</p>
+        <p><b>${esc(c.source?.title || '外国人材、技能実習制度、特定技能に係る都道府県、政令市の協定等締結状況')}</b>（<a href="${esc(c.source?.page_url || 'https://www.clair.or.jp/tabunka/portal/efforts/koyo_rodo/')}" target="_blank" rel="noopener">CLAIRのページ</a>、Excelファイル）</p>
+        <p class="small">${c.source?.as_of ? `<b>${esc(fmtDate(c.source.as_of))}現在</b>の自治体の回答（一部は3月末時点で修正）` : '時点の記載なし'}。${esc(c.source?.respondents_note || '')}。協定（締結済み・予定）が書かれた行：${n.rows}行</p></div>
+      <div class="src-box src-new"><p class="src-k">2026年の独自調査（このサイト）</p>
+        <p><b>${esc(fmtDate(c.source?.checked || c.checked))}時点</b>で、47都道府県・20政令指定都市の公式資料（自治体の発表・議会資料・協定の原文など）を調べた結果です。</p>
+        <p class="small">CLAIRの一覧を出発点に、各自治体の公式資料で1行ずつ確かめ、CLAIRの時点より後に結ばれた協定も補っています。</p></div>
+    </div>
+    <div class="note"><b>CLAIRは、協定の締結主体ではありません。</b>一覧を作成・公表した情報源で、一覧の協定はそれぞれの都道府県・政令指定都市が結んだものとして登録しています。
+      また、<b>CLAIRの一覧に載っていない＝協定が存在しない、とは判断していません。</b>CLAIRの一覧は2020年1月時点の回答で、未回答の自治体（12団体）もあり、その後の協定も載っていないためです。CLAIRの一覧にあっても、自治体の公式資料で確認できないものは登録していません。</div>
+    <h3>照合の結果（CLAIRの一覧の協定 ${n.rows}行。${esc(fmtDate(c.recomputed || c.checked))}に最新の登録データで数え直し）</h3>
+    <ul class="clair-tree">
+      <li>照合一致：<b>${n.match}</b>件</li>
+      <li>登録内容に相違：<b>${n.differs}</b>件<span class="small muted">（自治体の資料で確かめた正しい内容で登録）</span></li>
+      <li>当初未登録：<b>${n.unregistered}</b>行<span class="small muted">（照合した時点で、このサイトに登録がなかった行。現在の未登録の数ではありません）</span>
+        <ul>
+          <li>新規登録済み：<b>${n.added}</b>行<span class="small muted">（自治体の公式資料で締結を確認して登録）</span></li>
+          <li>未解決：<b>${n.unresolved}</b>行<span class="small muted">（公式資料で確認できず、未登録のまま）</span>
+            ${reasonList ? `<ul class="small">${reasonList}</ul>` : ''}</li>
+        </ul></li>
+    </ul>
+    <p class="small">このほか、このサイトには登録しているがCLAIRの一覧には載っていない協定：<b>${n.site_only}</b>件（CLAIRの時点より後の締結、外国人材以外の分野など）。</p>
+    ${CLAIR_RESULTS.map(x => `<details><summary>${esc(x.ja)}（${by(x.code).length}${['added', 'unresolved'].includes(x.code) ? '行' : '件'}）</summary><p class="small muted">${esc(x.desc)}</p>${table(x.code)}</details>`).join('')}`;
 }
 
 // 政令指定都市・団体などの調査状況（survey.json の cities・organizations）
@@ -967,6 +1005,27 @@ function citySurveySection(db) {
     <p class="small muted">海外の相手機関との協定・覚書の締結が公式資料で確認できたものだけを登録しています。シンポジウムの開催、政策提言、後援、意見交換、会員への加盟などは、それだけでは協定の締結とみなしていません。</p>` : ''}`;
 }
 
+// 集計表（いまの数え方）。地図・一覧・グラフ・CSVと同じ filterGroups で数え、同じ協定を2回数えない
+function aggregatesHTML(db) {
+  const gs = filterGroups(db, baseFilter());
+  const t3 = countTriple(gs);
+  const tally = (list, key) => { const m = new Map(); for (const g of list) for (const k of [].concat(key(g))) m.set(k, (m.get(k) || 0) + 1); return [...m].sort((a, b) => b[1] - a[1]); };
+  const tbl = (title, rows, note) => `<div class="agg"><h3>${esc(title)}</h3>${rows.length ? `<div class="table-wrap"><table><tbody>${rows.map(([k, n]) => `<tr><th scope="row">${k}</th><td class="num">${n}件</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted small">いまの数え方では0件</p>'}${note ? `<p class="small muted">${esc(note)}</p>` : ''}</div>`;
+  const vc = validityCounts(filterGroups(db, { ...baseFilter(), validity: 'all', includePlanned: true }));
+  return `<h2 id="aggregates">集計表（いまの数え方：${esc(scopeLabel())}）</h2>
+    <p>協定・協力関係 <b>${t3.groups}</b>件（登録文書 ${t3.docs}件、うち現在有効と確認 ${t3.valid}件）。同じ協定の更新・再締結・後継は1件と数え、国・都道府県・市区町村・団体などは足さずに分けています。</p>
+    <div class="agg-grid">
+      ${tbl('締結主体の種類', tally(gs, g => esc(JAPAN_ORG_TYPE[g.orgType].ja)))}
+      ${tbl('文書の種類', tally(gs, g => esc(DOC_KIND[g.kind].ja)), '協力関係ごとに、最新の文書の種類で数えています')}
+      ${tbl('有効性（有効性の切り替えに関係なく5区分）', VALIDITIES.map(v => [esc(v.ja), vc[v.code]]))}
+      ${tbl('都道府県（都道府県が締結したもの）', tally(gs.filter(g => g.level === 'prefecture'), g => `<a href="#/pref/${g.pref_code}">${esc(prefName(db, g.pref_code))}</a>`))}
+      ${tbl('政令指定都市・市区町村', tally(gs.filter(g => g.level === 'municipality'), g => esc(g.latest.municipality_name || g.latest.japan_org)))}
+      ${tbl('団体・企業・公的機関など', tally(gs.filter(g => g.level === 'organization'), g => `<a href="#/actors?o=${encodeURIComponent(orgParts(g.latest.japan_org).key)}">${esc(g.latest.japan_org)}</a>`), '所在地の都道府県の件数には含めていません')}
+      ${tbl('相手国・地域', tally(gs, g => g.countries).map(([c, n]) => [`<a href="#/country/${c}">${esc(countryName(db, c))}</a>`, n]), '三者間などの協定は、それぞれの国で数えています（合計は協定の数より多くなります）')}
+      ${tbl('最初の締結年（1〜12月）', tally(gs, g => g.first_year || '不明').sort((a, b) => String(b[0]).localeCompare(String(a[0]))).map(([y, n]) => [esc(String(y)), n]), '締結日が年だけ分かる協定があるため、年度では数えていません')}
+    </div>`;
+}
+
 // =============== データ ===============
 export function dataPage(ctx) {
   const { db, app } = ctx;
@@ -981,7 +1040,8 @@ export function dataPage(ctx) {
       <button type="button" class="btn btn-outline" id="csv-all">登録したすべての文書（${db.mous.length}文書。終了・予定・報道のみを含む）</button>
     </div>
     <p class="small muted">CSVはExcelでそのまま開けます。更新・再締結は別の行になっており、「同一協定のグループ」列で同じ協定かどうかが分かります。「有効性」「有効性の根拠」「文書の種類」「外国人の受入れとの関係」「人数（種類別）」の列もあります。</p>
-    <p>元データ（JSON）：<a href="data/mous/index.json">data/mous/</a>（都道府県ごとのファイル、国のMOC：national.json、MOU以外の国際文書：agreements.json）、<a href="data/systems.json">systems.json</a>（関連する国内制度）、<a href="data/countries.json">countries.json</a>、<a href="data/survey.json">survey.json</a>、<a href="data/prefectures.json">prefectures.json</a></p>
+    <p>元データ（JSON）：<a href="data/mous/index.json">data/mous/</a>（都道府県ごとのファイル、国のMOC：national.json、MOU以外の国際文書：agreements.json、政令指定都市：city-*.json、団体・企業など：orgs.json）、<a href="data/systems.json">systems.json</a>（関連する国内制度）、<a href="data/countries.json">countries.json</a>、<a href="data/survey.json">survey.json</a>、<a href="data/prefectures.json">prefectures.json</a>、<a href="data/clair_check.json">clair_check.json</a>（CLAIRの一覧との照合）</p>
+    ${aggregatesHTML(db)}
     <h2>CSVの列</h2>
     <p class="small">${CSV_COLUMNS.map(esc).join('、')}</p>
     <h2>データ点検</h2>
@@ -1067,60 +1127,199 @@ export function listPage(ctx) {
 }
 
 // =============== 締結主体から探す ===============
-// 日本側の締結主体（国・都道府県・市区町村・公的機関・企業・団体・大学）ごとに件数と協定を見る。
+// ① 主体の種類から探す（国・都道府県・市区町村・公的機関・企業・団体・大学）
+// ② 組織名から探す（日本語・英語・略称・表記ゆれ。締結した組織と、出典の資料を出しただけの組織＝情報源を分ける）
+// 組織を選ぶと、その組織が結んだ協定を、相手国・文書の種類・締結日・有効性・原文のリンクとともに一覧にする。
 // 団体・企業などの協定は、国・都道府県の件数には含めず、ここで別に数える
-const ACTOR_LINKS = { national_gov: ['#/national', '国・省庁の協定の一覧'], prefecture: ['#/map', '日本地図（都道府県ごと）'] };
+const ACTOR_LINKS = { national_gov: ['#/national', '国・省庁の協定の一覧（制度ごと）'], prefecture: ['#/map', '日本地図（都道府県ごと）'] };
+const ORG_EXAMPLES = ['NAGOMi', 'JITCO', 'JICA', 'JETRO', 'OTIT', 'CLAIR', 'アイム・ジャパン', '外務省', '宮城県', '横浜市'];
 export function actorsPage(ctx) {
   const { db, app } = ctx;
   const t = JAPAN_ORG_TYPE[ctx.params.get('t')] ? ctx.params.get('t') : '';
+  const { list: orgList, byKey } = orgIndex(db);
+  const org = byKey.get(ctx.params.get('o') || '') || null;
+  const q = ctx.params.get('q') || '';
   const every = filterGroups(db, { ...baseFilter(), validity: 'all', docScope: 'all', includePlanned: true });
   const inScope = filterGroups(db, baseFilter());
   const shown = t ? sortGroups(inScope.filter(g => g.orgType === t)) : [];
-  const vcOf = gs => validityCounts(gs);
   const typeRow = x => {
-    const gs = every.filter(g => g.orgType === x.code), c = vcOf(gs);
+    const gs = every.filter(g => g.orgType === x.code), c = validityCounts(gs);
     return `<tr><th scope="row"><a href="#/actors?t=${x.code}">${esc(x.ja)}</a><br><span class="small muted">${esc(x.desc)}</span></th>
       <td class="num">${inScope.filter(g => g.orgType === x.code).length}件</td>
       ${['valid_confirmed', 'unconfirmed', 'ended_confirmed', 'signed_not_started', 'planned'].map(k => `<td class="num">${c[k]}</td>`).join('')}</tr>`;
   };
-  // 団体などは、締結した機関ごとにまとめる
-  const orgKey = g => g.level === 'municipality' ? (g.latest.municipality_name || g.latest.japan_org) : g.latest.japan_org;
-  const groupByOrg = gs => { const m = new Map(); for (const g of gs) { const k = orgKey(g); if (!m.has(k)) m.set(k, []); m.get(k).push(g); } return [...m]; };
-  const byOrg = groupByOrg(shown);
-  // いまの数え方に入らない締結済みの協定（有効性未確認など）も、開けば見られるようにする
-  const outside = t ? sortGroups(every.filter(g => g.orgType === t && !g.planned && !shown.includes(g) && (settings.includeNews || g.official))) : [];
   const allN = code => every.filter(g => g.orgType === code && !g.planned).length;
-  app.innerHTML = `${head([['締結主体から探す']], '締結主体から探す', '日本側で協定を結んだのは誰か（国・都道府県・市区町村・公的機関・企業・団体・大学）で分けて見られます。日本側と相手側の機関の種類は、それぞれ別に記録しています。')}
-    <div class="info"><b>数え方の約束</b>：団体・企業・公的機関などが結んだ協定は、日本政府や都道府県が直接締結した件数には含めません。
-      会社や団体の本部の所在地を理由に、その都道府県の件数へ加えることもしません。協定に関連する事業が行われた地域は「関連事業の地域」として別に記録し、都道府県のページに分けて表示します。
-      また、政府が署名・交換の場に立ち会ったこと（首脳会談の機会の交換式など）と、政府が当事者として締結したことは区別しています。</div>
-    ${scopeBarHTML()}
-    <div class="control-group"><span class="label" id="ot-l">日本側の締結主体</span>
-      <div class="seg" role="group" aria-labelledby="ot-l">
-        <button type="button" data-t="" aria-pressed="${!t}">一覧表</button>
-        ${JAPAN_ORG_TYPES.map(x => { const n = inScope.filter(g => g.orgType === x.code).length, a = allN(x.code); return `<button type="button" data-t="${x.code}" aria-pressed="${t === x.code}" title="いまの数え方 ${n}件／締結済みの登録 ${a}件">${esc(x.ja)} ${n}${a > n ? `<span class="small">（登録${a}）</span>` : ''}</button>`; }).join('')}
-      </div></div>
-    ${t ? `<h2>${esc(JAPAN_ORG_TYPE[t].ja)}が締結した協定（いまの数え方：${shown.length}件）</h2>
-      <p class="small muted">${esc(JAPAN_ORG_TYPE[t].desc)}</p>
-      ${hiddenNote(db, { orgType: t })}
-      ${ACTOR_LINKS[t] ? `<p>件数が多いため、一覧は「<a href="${ACTOR_LINKS[t][0]}">${esc(ACTOR_LINKS[t][1])}</a>」で見られます。</p>`
-        : `${shown.length ? byOrg.map(([k, gs]) => `<h3>${esc(k)}（${gs.length}件）</h3>${mouList(db, gs)}`).join('')
-          : `<p class="muted">いまの数え方で表示する協定はありません。${every.some(g => g.orgType === t) ? '' : 'この種類の締結主体の協定は、まだ登録していません（調査の範囲は「調査状況」のページを参照）。'}</p>`}
-          ${outside.length ? `<details${shown.length ? '' : ' open'}><summary>いまの数え方で表示していない締結済みの協定（${outside.length}件：有効性未確認・終了確認・MOU以外の文書など）</summary>
-            ${groupByOrg(outside).map(([k, gs]) => `<h3>${esc(k)}（${gs.length}件）</h3>${mouList(db, gs)}`).join('')}</details>` : ''}`}` : ''}
+  const link = (patch) => '#/actors?' + new URLSearchParams(Object.entries(patch).filter(([, v]) => v)).toString();
+  app.innerHTML = `${head([['締結主体から探す']], '締結主体から探す', '日本側で協定を結んだのは誰か（国・都道府県・市区町村・公的機関・企業・団体・大学）で探せます。種類から選ぶか、組織名を入力してください。')}
+    <section class="actor-step" aria-labelledby="as1-h">
+      <h2 id="as1-h"><span class="step-n" aria-hidden="true">①</span>主体の種類から探す</h2>
+      <div class="actor-types" role="group" aria-label="日本側の締結主体の種類">
+        ${JAPAN_ORG_TYPES.map(x => { const n = inScope.filter(g => g.orgType === x.code).length, a = allN(x.code); return `<button type="button" class="actor-type" data-t="${x.code}" aria-pressed="${t === x.code && !org}" title="${esc(x.desc)}"><b>${esc(x.ja)}</b><span>登録 <b>${a}</b>件<small>（いまの数え方 ${n}件）</small></span></button>`; }).join('')}
+      </div>
+    </section>
+    <section class="actor-step" aria-labelledby="as2-h">
+      <h2 id="as2-h"><span class="step-n" aria-hidden="true">②</span>組織名から探す</h2>
+      <form class="sr-form" id="org-form" role="search">
+        <label class="visually-hidden" for="org-q">組織名</label>
+        <input type="search" id="org-q" value="${esc(org && !q ? org.name : q)}" placeholder="例：NAGOMi／JITCO／国際協力機構／宮城県" autocomplete="off">
+        <button class="btn" type="submit">探す</button>
+      </form>
+      <p class="sr-examples"><span class="small muted">例：</span>${ORG_EXAMPLES.map(x => `<button type="button" class="chip-link" data-org-ex="${esc(x)}">${esc(x)}</button>`).join('')}</p>
+      <p class="small muted">日本語・英語・略称・表記ゆれ（例：「国際協力機構」「JICA」「ジャイカ」）のどれでも探せます。協定を結んだ組織（<b>締結主体</b>）と、出典の資料を出しただけの組織（<b>情報源</b>）は分けて表示します。</p>
+      <div id="org-res" aria-live="polite"></div>
+    </section>
+    <div id="actor-detail">${org ? orgDetailHTML(db, org, ctx.params) : t ? typeDetailHTML(db, t, shown, every, orgList) : ''}</div>
     <h2>締結主体ごとの件数（登録したすべての文書）</h2>
+    ${scopeBarHTML()}
     <div class="table-wrap"><table><thead><tr><th>日本側の締結主体</th><th class="num">いまの数え方</th><th class="num">有効確認</th><th class="num">有効性未確認</th><th class="num">終了確認</th><th class="num">開始前</th><th class="num">締結予定</th></tr></thead>
       <tbody>${JAPAN_ORG_TYPES.map(typeRow).join('')}</tbody></table></div>
     <p class="small muted">「いまの数え方」は上の切り替え（${esc(scopeLabel())}）で数えた件数。右の5列は、文書の種類・有効性を問わず登録したすべての協定の内訳です（同じ協定の更新・再締結は1件）。</p>
+    <div class="info"><b>数え方の約束</b>：団体・企業・公的機関などが結んだ協定は、日本政府や都道府県が直接締結した件数には含めません。
+      会社や団体の本部の所在地を理由に、その都道府県の件数へ加えることもしません。協定に関連する事業が行われた地域は「関連事業の地域」として別に記録し、都道府県のページに分けて表示します。
+      政府が署名・交換の場に立ち会ったこと（首脳会談の機会の交換式など）と、政府が当事者として締結したことも区別しています。資料を公表しただけの機関（CLAIRなど）を締結主体として数えることもしません。</div>
     <h2>当事者の組み合わせ</h2>
     <div class="table-wrap"><table><thead><tr><th>組み合わせ</th><th>意味</th><th class="num">いまの数え方</th><th class="num">登録したすべて</th></tr></thead><tbody>
       ${PAIR_KINDS.map(x => `<tr><th scope="row"><a href="#/search?pk=${x.code}">${esc(x.ja)}</a></th><td>${esc(x.desc)}</td><td class="num">${inScope.filter(g => g.pairKind === x.code).length}件</td><td class="num">${every.filter(g => g.pairKind === x.code).length}件</td></tr>`).join('')}
     </tbody></table></div>
-    <p class="small muted">組み合わせは、日本側の種別と相手側の種別（政府・省庁・州など／公的機関／大学／団体／企業）からこのサイトが自動で分類したものです。名前を押すと、検索のページでその組み合わせの協定を一覧できます。</p>
-    <div class="btn-row"><button type="button" class="btn btn-outline" id="csv">${t ? esc(JAPAN_ORG_TYPE[t].ja) + 'の協定' : '団体・企業・公的機関などの協定'}をCSVで保存（いまの数え方）</button></div>`;
+    <p class="small muted">組み合わせは、日本側の種別と相手側の種別（政府・省庁・州など／公的機関／大学／団体／企業）からこのサイトが自動で分類したものです。名前を押すと、検索のページでその組み合わせの協定を一覧できます。</p>`;
+
+  // ② 組織名の検索（入力するたびに結果を更新。選んだ組織・入力した言葉はアドレスに残す）
+  const input = app.querySelector('#org-q');
+  const res = app.querySelector('#org-res');
+  const showHits = () => {
+    const text = input.value.trim();
+    if (!text || (org && text === org.name)) { res.innerHTML = ''; return; }
+    const hits = findOrgs(db, text).slice(0, 12);
+    res.innerHTML = hits.length ? `<p class="small">「${esc(text)}」に一致する組織：<b>${hits.length}</b>件${hits.length === 12 ? '（上位12件）' : ''}</p><ul class="org-hits">${hits.map(e => orgHitHTML(db, e, text)).join('')}</ul>`
+      : `<div class="zero zero-unknown"><p class="zero-h">一致する組織は見つかりません</p><p>「${esc(text)}」という名前の組織は、このサイトの登録データ（締結主体・共同の締結者・情報源・調査した組織）にありません。<b>協定がないという意味ではありません。</b>正式名称・略称・英語名で試すか、<a href="#/search?q=${encodeURIComponent(text)}">サイト内検索で「${esc(text)}」を探す</a>と、協定の本文などから見つかることがあります。</p></div>`;
+  };
+  const live = debounce(() => { if (app.contains(input)) { history.replaceState(null, '', link({ t, o: org?.key, q: input.value.trim() })); showHits(); } }, 200);
+  input.addEventListener('input', e => { if (!e.isComposing) live(); });
+  input.addEventListener('compositionend', live);
+  app.querySelector('#org-form').addEventListener('submit', e => {
+    e.preventDefault();
+    const text = input.value.trim();
+    const hits = findOrgs(db, text);
+    // 1つに決まるときは、その組織の一覧を開く
+    if (hits.length === 1 || (hits.length && hits[0].aliasN.includes(prep(text).n))) ctx.go('/actors', { o: hits[0].key, q: text }, { keepScroll: true });
+    else showHits();
+  });
+  app.querySelectorAll('[data-org-ex]').forEach(b => b.addEventListener('click', () => { input.value = b.dataset.orgEx; showHits(); history.replaceState(null, '', link({ t, o: org?.key, q: b.dataset.orgEx })); }));
+  showHits();
   app.querySelectorAll('[data-t]').forEach(b => b.addEventListener('click', () => ctx.go('/actors', b.dataset.t ? { t: b.dataset.t } : {}, { keepScroll: true })));
+  app.querySelectorAll('[data-ov]').forEach(b => b.addEventListener('click', () => ctx.go('/actors', { o: org.key, q, ov: b.dataset.ov }, { keepScroll: true })));
   bindNewsToggle(app, () => actorsPage(ctx));
-  app.querySelector('#csv').addEventListener('click', () => downloadMouCSV(db, groupsToMous(t ? shown : inScope.filter(g => g.level === 'organization')), `mou_actors_${t || 'organization'}_${settings.validity}.csv`));
+  app.querySelector('#org-csv')?.addEventListener('click', () => {
+    const ov = VALIDITY[ctx.params.get('ov')] ? ctx.params.get('ov') : '';
+    const gs = org.sign.filter(g => !ov || g.validity === ov);
+    downloadMouCSV(db, groupsToMous(gs), `mou_org_${org.key.slice(0, 20)}${ov ? '_' + ov : ''}.csv`, `締結主体：${org.name}／${ov ? `有効性「${VALIDITY[ov].ja}」` : '有効性・文書の種類を問わず登録したすべての文書'}${org.co.length ? '（共同の締結者として名前のある協定は含まない）' : ''}`);
+  });
+  app.querySelector('#type-csv')?.addEventListener('click', () => downloadMouCSV(db, groupsToMous(shown), `mou_actors_${t}_${settings.validity}.csv`, `締結主体の種類：${JAPAN_ORG_TYPE[t].ja}／${scopeLabel()}`));
+  // 別の組織・種類を選んだときは、その一覧の位置まで移動する（有効性の絞り込みなど、同じ組織の中の操作では動かさない）
+  const shownKey = org ? 'o:' + org.key : t ? 't:' + t : '';
+  if (shownKey && shownKey !== lastActorShown) requestAnimationFrame(() => document.getElementById('org-detail')?.scrollIntoView({ block: 'start' }));
+  lastActorShown = shownKey;
+}
+let lastActorShown = '';
+
+// 組織名の検索結果の1行（締結した協定・共同の締結者・情報源の件数を分けて表示）
+function orgHitHTML(db, e, text) {
+  const t3 = countTriple(e.sign);
+  const parts = [];
+  if (e.sign.length) parts.push(`<span class="oh-sign">締結主体として：協定・協力関係 <b>${t3.groups}</b>件（文書 ${t3.docs}件・現在有効と確認 ${t3.valid}件）</span>`);
+  if (e.co.length) parts.push(`<span class="oh-co">共同の締結者として名前のある協定：${e.co.length}件</span>`);
+  if (e.src.length) parts.push(`<span class="oh-src">情報源（出典の資料を出した機関）として：${e.src.length}件の協定${e.sign.length ? '（自ら締結したものを除く）' : ''}。<b>締結主体ではありません</b></span>`);
+  if (!parts.length) parts.push(`<span class="oh-src">締結主体としての登録はありません（${esc(e.surveyed.map(s => s.result_ja || '').filter(Boolean).join('・') || '調査した組織')}）</span>`);
+  const alias = [e.abbr, e.en].filter(x => x && !e.name.includes(x));
+  return `<li><a class="oh-name" href="#/actors?${new URLSearchParams({ o: e.key, q: text })}">${esc(e.name)}</a> <span class="badge b-actor">${esc(orgTypeLabel(e))}</span>${alias.length ? `<span class="small muted">（${esc(alias.join('・'))}）</span>` : ''}
+    <span class="oh-parts">${parts.join('')}</span></li>`;
+}
+
+// ① 種類を選んだとき：その種類の組織の一覧（件数つき）と、団体などは協定の一覧
+function typeDetailHTML(db, t, shown, every, orgList) {
+  const x = JAPAN_ORG_TYPE[t];
+  const ents = orgList.filter(e => e.type === t && e.sign.length && !e.allNational).sort((a, b) => (t === 'prefecture' ? (a.pref || '').localeCompare(b.pref || '') : b.sign.length - a.sign.length || a.name.localeCompare(b.name, 'ja')));
+  const nat = orgList.find(e => e.allNational);
+  const byOrg = new Map();
+  const orgKey = g => g.level === 'municipality' ? (g.latest.municipality_name || g.latest.japan_org) : g.latest.japan_org;
+  for (const g of shown) { const k = orgKey(g); if (!byOrg.has(k)) byOrg.set(k, []); byOrg.get(k).push(g); }
+  const outside = sortGroups(every.filter(g => g.orgType === t && !g.planned && !shown.includes(g) && (settings.includeNews || g.official)));
+  const chip = e => `<a class="chip-link" href="#/actors?o=${encodeURIComponent(e.key)}">${esc(e.name)}<b>${e.sign.length}</b></a>`;
+  const lists = !ACTOR_LINKS[t];
+  return `<section class="actor-detail" id="org-detail" aria-labelledby="td-h">
+    <h2 id="td-h">${esc(x.ja)}が締結した協定</h2>
+    <p class="small muted">${esc(x.desc)}</p>
+    ${hiddenNote(db, { orgType: t }, `${x.ja}が締結した協定`)}
+    <h3>組織ごとの件数（${ents.length}${t === 'prefecture' ? '都道府県' : '組織'}。数字は登録したすべての協定・協力関係の数）</h3>
+    <div class="chip-links">${t === 'national_gov' && nat ? chip(nat) : ''}${ents.map(chip).join('')}</div>
+    <p class="small muted">名前を押すと、その組織が結んだ協定を、有効性を問わずすべて一覧にします。${t === 'national_gov' ? '国の協定は、日本国政府としての件数と、担当・署名した省庁ごとの件数を示しています（1つの協定に複数の省庁が関わるため、省庁の件数を足すと全体より多くなります）。' : ''}</p>
+    ${lists ? `<h3>いまの数え方（${esc(scopeLabel())}）の協定：${shown.length}件</h3>
+      ${shown.length ? [...byOrg].map(([k, gs]) => `<h4>${esc(k)}（${gs.length}件）</h4>${mouList(db, gs, { h: 'h5' })}`).join('')
+        : `<p class="muted">いまの数え方で表示する協定はありません。${every.some(g => g.orgType === t) ? '上の「表示する」ボタンで範囲を広げるか、組織名を押してください。' : 'この種類の締結主体の協定は、まだ登録していません（調査の範囲は「調査状況」のページを参照）。'}</p>`}
+      ${outside.length ? `<details${shown.length ? '' : ' open'}><summary>いまの数え方で表示していない締結済みの協定（${outside.length}件：有効性未確認・終了確認・MOU以外の文書など）</summary>
+        ${mouList(db, outside, { h: 'h4' })}</details>` : ''}
+      <div class="btn-row"><button type="button" class="btn btn-outline" id="type-csv">${esc(x.ja)}の協定をCSVで保存（いまの数え方）</button></div>`
+      : `<p>協定の一覧は「<a href="${ACTOR_LINKS[t][0]}">${esc(ACTOR_LINKS[t][1])}</a>」でも見られます。</p>`}
+  </section>`;
+}
+
+// ② 組織を選んだとき：その組織が締結した協定の一覧（有効性を問わず全件。有効性で絞り込める）
+function orgDetailHTML(db, e, params) {
+  const ov = VALIDITY[params.get('ov')] ? params.get('ov') : '';
+  const all = e.sign;
+  const vc = validityCounts(all);
+  const t3 = countTriple(all);
+  const rows = sortGroups(all.filter(g => !ov || g.validity === ov)).sort((a, b) => countryName(db, a.country_code).localeCompare(countryName(db, b.country_code), 'ja'));
+  const alias = [e.abbr, e.en, ...e.aliases.filter(a => /^[A-Za-z]/.test(a) && a.length > 4)].filter((x, i, arr) => x && arr.indexOf(x) === i && !e.name.includes(x));
+  const origin = g => {
+    const v = g.latest;
+    const s = v.sources.find(x => x.type === 'original_text') || v.sources.find(x => x.type !== 'news') || v.sources[0];
+    return s ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.type === 'original_text' ? '原文' : '公式資料')}</a><br><span class="small muted">${esc(s.publisher || '')}</span>` : '未確認';
+  };
+  const docCell = g => {
+    if (g.versions.length === 1) return `<a href="#/mou/${encodeURIComponent(g.latest.id)}">${esc(g.latest.title_ja)}</a>`;
+    return `<a href="#/mou/${encodeURIComponent(g.latest.id)}">${esc(g.latest.title_ja)}</a>
+      <ol class="ver-list">${g.versions.map((v, i) => `<li><a href="#/mou/${encodeURIComponent(v.id)}">${esc(fmtDate(v.signed_date))}　${esc(DOC_KIND[v._kind]?.ja || v.doc_type)}</a> ${validityBadge(v._validity, { prefix: false })}${i < g.versions.length - 1 ? '<span class="small muted"> → 次の文書に更新・引き継ぎ</span>' : '<span class="small muted">（最新）</span>'}</li>`).join('')}</ol>
+      <span class="small muted">同じ協力関係の更新・後継の文書（${g.versions.length}文書）。件数は1件</span>`;
+  };
+  const surveyed = e.surveyed.map(s => `<li><b>${esc(s.result_ja || '')}</b>（${esc(fmtDate(s.checked))}確認）：${esc(s.note || '')}</li>`).join('');
+  return `<section class="actor-detail org-detail" id="org-detail" aria-labelledby="od-h">
+    <h2 id="od-h">${esc(e.name)}</h2>
+    <p><span class="badge b-actor">${esc(orgTypeLabel(e))}</span>${alias.length ? ` <span class="small muted">別の呼び方：${esc(alias.join('・'))}</span>` : ''}</p>
+    ${e.clair ? `<div class="note"><b>CLAIR（自治体国際化協会）は、協定の締結主体ではありません。</b>CLAIRが公開した「協定等締結状況」（2020年1月29日時点の自治体の回答）は、このサイトが照合に使った<b>情報源</b>です。そこに載っている協定は、各都道府県・政令指定都市が結んだものとして登録しています（<a href="#/about?to=ab-clair">CLAIRの一覧との照合結果</a>）。</div>` : ''}
+    ${all.length ? `<div class="stats">
+        ${statTile('締結した協定・協力関係', t3.groups, '同じ協定の更新・再締結・後継は1件', '件')}
+        ${statTile('登録した文書', t3.docs, '更新・後継の版を1文書ずつ数えた数', '文書')}
+        ${statTile('現在有効と確認できる協定', t3.valid, '公式資料で今も有効と確認できたもの', '件')}
+      </div>
+      <p class="small">有効性の内訳：有効確認 ${vc.valid_confirmed}件／有効性未確認 ${vc.unconfirmed}件／終了確認 ${vc.ended_confirmed}件／締結済み・開始前 ${vc.signed_not_started}件${vc.planned ? `／締結予定 ${vc.planned}件（締結済みに含めない）` : ''}</p>
+      <div class="info">この組織の一覧は、見落としがないよう<b>有効性・文書の種類を問わず、登録したすべての協定</b>を表示しています（地図などの「有効確認のみ」の設定は使いません）。下のボタンで有効性ごとに絞り込めます。</div>
+      <div class="control-group"><span class="label" id="ov-l">有効性で絞り込む</span>
+        <div class="seg" role="group" aria-labelledby="ov-l">
+          <button type="button" data-ov="" aria-pressed="${!ov}">すべて ${all.length}</button>
+          ${VALIDITIES.filter(v => vc[v.code]).map(v => `<button type="button" data-ov="${v.code}" aria-pressed="${ov === v.code}">${esc(v.ja)} ${vc[v.code]}</button>`).join('')}
+        </div></div>
+      <p class="result-summary">表示：<b>${rows.length}件</b>の協定・協力関係${ov ? `（有効性「${esc(VALIDITY[ov].ja)}」のみ）` : ''}</p>
+      <div class="table-wrap"><table class="org-table"><thead><tr><th>相手国・相手機関</th><th>協定（文書）</th><th>文書の種類</th><th>締結日</th><th>有効性</th><th>原文・公式資料</th></tr></thead><tbody>
+        ${rows.map(g => `<tr><td><a href="#/country/${esc(g.country_code)}">${esc(countryName(db, g.country_code))}</a><br><span class="small">${esc(g.latest.partner_org)}</span></td>
+          <td>${docCell(g)}</td>
+          <td>${esc(DOC_KIND[g.kind]?.ja || '')}<br><span class="small muted">${esc(g.latest.doc_type)}</span></td>
+          <td class="nowrap">${esc(fmtDate(g.first.signed_date))}${g.versions.length > 1 ? `<br><span class="small muted">最新：${esc(fmtDate(g.latest.signed_date))}</span>` : ''}</td>
+          <td>${validityBadge(g.validity, { prefix: false })}</td>
+          <td class="small">${origin(g)}</td></tr>`).join('')}
+      </tbody></table></div>
+      <div class="btn-row"><button type="button" class="btn btn-outline" id="org-csv">この一覧をCSVで保存</button></div>`
+      : `<p><b>この組織が締結主体として結んだ協定は、登録されていません。</b>${e.src.length || e.co.length ? '下のように、ほかの役割で登場します。' : ''}</p>`}
+    ${e.co.length ? `<h3>共同の締結者として名前のある協定（${e.co.length}件）</h3><p class="small muted">都道府県などの協定に、日本側としてこの組織の名前も書かれているものです。協定の件数は主な締結主体（都道府県など）の側で数え、この組織の件数には足していません。</p>${mouList(db, e.co, { h: 'h4' })}` : ''}
+    ${e.src.length ? `<h3>情報源として登場する協定（${e.src.length}件・この組織が締結した協定ではありません）</h3>
+      <p class="small muted">出典の資料をこの組織が公表している協定${e.clair ? '、またはCLAIRの一覧と照合した協定' : ''}です。締結主体は各協定の「日本側」に書かれた機関です。</p>
+      <details${all.length ? '' : ' open'}><summary>${e.src.length}件を表示</summary>
+      <div class="table-wrap"><table><thead><tr><th>協定</th><th>締結主体（日本側 ⇄ 相手側）</th><th>有効性</th></tr></thead><tbody>
+        ${e.src.map(g => `<tr><td><a href="#/mou/${encodeURIComponent(g.latest.id)}">${esc(g.first.title_ja)}</a></td><td class="small">${whoLine(db, g.latest)}</td><td>${validityBadge(g.validity, { prefix: false })}</td></tr>`).join('')}
+      </tbody></table></div></details>` : ''}
+    ${surveyed ? `<h3>この組織の調査の記録</h3><ul class="small">${surveyed}</ul>` : ''}
+    <p class="small"><a href="#/actors">組織の選択を解除</a>　／　<a href="#/search?q=${encodeURIComponent(e.abbr || orgParts(e.name).core)}">サイト内検索で「${esc(e.abbr || orgParts(e.name).core)}」を探す（本文・出典などに名前が出てくる協定）</a></p>
+  </section>`;
 }
 
 export function notFound(ctx, msg) {
