@@ -4916,6 +4916,434 @@
    "end_reason": null,
    "successor_id": null,
    "validity_research_note": "経産省の一覧の注記では、政府機関間以外の文書は各企業・団体の間で作成されたもので、政府は名称や内容の正しさを保証しない。"
+  },
+  {
+   "id": "JP-ORG-097",
+   "group_key": "ORG:NBCC-JBBRA-BD-BMET",
+   "renewal_of": null,
+   "title_ja": "国営職業訓練センターの無償活用に関する覚書（バングラデシュ人材受入れの三者間覚書：人材雇用・訓練局（BMET）・全国ビジネスサポート協同組合連合会（NBCC）・Japan Bangla Bridge Recruiting Agency（JBBRA））",
+   "title_original": "",
+   "doc_type": "MOU",
+   "doc_type_note": "名称はNBCCの案内PDFの表記（『国営職業訓練センターの無償活用に関する覚書（MOU）』）。JBBRAの発表は『三者間覚書（MOU）』、報道は熟練労働者の日本への配置のための戦略的枠組み（strategic framework for the placement of skilled Bangladeshi workers）を定めるMoUと書き、2025年10月の報道には『MoI（意向表明書）』とするものもある。原文は公開されておらず正式名称は未確認。",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "全国ビジネスサポート協同組合連合会（NBCC）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "理事長 畩ケ山幹雄（NBCCの案内PDF・連合会概要。報道の英語表記は Mikio Kesagayama, Chairman of the Board of Directors）",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "海外居住者福利厚生・海外雇用省 人材雇用・訓練局（BMET）（署名者は局長 Saleh Ahmed Mujaffor：報道）",
+   "partner_org_en": "Bureau of Manpower, Employment and Training (BMET), Ministry of Expatriates' Welfare and Overseas Employment (signed by Director General Saleh Ahmed Mujaffor)",
+   "partner_type": "national_ministry",
+   "additional_partners": [
+    {
+     "country_code": "BD",
+     "partner_org": "Japan Bangla Bridge Recruiting Agency Ltd.（JBBRA。ダッカに本社を置くバングラデシュの人材送出機関、東京・新宿に駐在員事務所）（署名者は代表取締役 タハミド・モイヌル）",
+     "partner_org_en": "Japan Bangla Bridge Recruiting Agency Ltd. (JBBRA) (signed by Managing Director Moinul Tahmid)"
+    }
+   ],
+   "ceremony_note": "2025年5月29日、東京で駐日バングラデシュ大使館が主催した人材セミナーの場で、ムハマド・ユヌス暫定政権首席顧問の臨席のもと署名（NBCCの案内PDF・JBBRAの発表・報道）。NBCCの案内PDFの調印写真の説明には仁木博文衆議院議員と駐日バングラデシュ大使も記載。日本政府は当事者ではない。同じ式典でBMETとKaicom Dream Street BD Co. Ltd.（日本とバングラデシュの合弁のバングラデシュ法人）の覚書も署名されたが、日本側の当事者を公式資料で確認できないため登録していない。",
+   "signed_date": "2025-05-29",
+   "announced_date": "2025-05-29",
+   "date_note": "締結日はNBCCの案内PDF（『令和7年5月29日に…バングラデシュ政府と締結した』）による。報道（UNB、2025年5月29日）も同日に東京で署名と報道。JBBRAの自社サイトでの発表は2026年9月10日で、締結日の記載はない。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "技能実習",
+    "特定技能",
+    "職業訓練（国営の技術訓練センター TTC）",
+    "日本語教育"
+   ],
+   "purpose": "バングラデシュの国営技術訓練センター（TTC）を活用し、職業訓練から日本での就業までを支援して、5年間で10万人のバングラデシュ人材の日本での受入れを目指す（JBBRAの発表）。報道では、技能実習（TITP）・特定技能（SSW）による熟練労働者の日本への配置の枠組みづくりが目的とされる。",
+   "content": [
+    "BMETはバングラデシュ国内のTTC（技術訓練センター）を無償で提供する（JBBRAの発表。NBCCの案内PDFは覚書の名称を『国営職業訓練センターの無償活用に関する覚書』と記載）",
+    "NBCCはTTCでのトレーニングプログラムの開発・実施を行い、受入れ組合を通じてバングラデシュ人研修生の就職支援・職業紹介を進める（JBBRAの発表）",
+    "JBBRAは日本の人材ニーズに合わせ、バングラデシュでの人材募集・選考、日本語教育、職業訓練を通じて候補者を育成し、雇用目標の達成を担う（JBBRAの発表）",
+    "JBBRAが開発したモデル訓練センター（Bhalojob Training Centre）の訓練方式を、他のTTCに段階的に広げる（報道。センターの名称は報道により異なる）",
+    "受入れ目標は2026〜2030年の5年間で10万人（JBBRAの発表の年度別・分野別の計画表。下の『人数』を参照）"
+   ],
+   "validity": "未確認（報道では署名日から5年間、相互協議で延長可）",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "相互協議で延長可（報道。原文・当事者の発表では未確認）",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "in_progress",
+   "status_note": "NBCCは覚書を受けて、駐日バングラデシュ大使館の主催で日本の監理団体・受入れ企業向けのバングラデシュ訪問（2025年10月24〜28日。国営職業訓練センターと受入れ企業による現地選考の見学、政府表敬）を共催すると案内した（NBCCの案内PDF）。報道では、2025年10月27日にNBCCの23人の代表団がユヌス首席顧問と会い、2026年に2,000人を採用する見込みと説明した。実際に日本へ入国した人数は公式資料で確認できない。",
+   "projects": [
+    {
+     "name": "日本の受入れ側向けのバングラデシュ訪問（国営職業訓練センター・現地選考の見学）",
+     "fiscal_year": "2025",
+     "detail": "2025年10月24〜28日。主催は駐日バングラデシュ大使館、共催はNBCCとJBBRA、後援は一般財団法人外国人材共生支援全国協会（NAGOMi）。対象は監理団体・登録支援機関・受入れ企業（25団体予定）。覚書（MOU）を『受け』て企画したと記載。",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "name": "NBCC代表団とユヌス首席顧問の面会（報道）",
+     "fiscal_year": "2025",
+     "detail": "2025年10月27日、NBCCの23人の代表団がユヌス首席顧問と面会し、訓練の進み具合に満足していると述べ、2026年に2,000人、2027年に6,000人、2028年に18,000人を採用する予定と説明（報道）。",
+     "sources": [
+      "s7"
+     ]
+    }
+   ],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "バングラデシュ人材五年間10万人の日本受入れに向けた三者間MOUを締結（2026年9月10日）",
+     "publisher": "Japan Bangla Bridge Recruiting Agency Ltd.（JBBRA）",
+     "url": "https://jbbra.com/archives/1805",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表。BMET・NBCC・JBBRAが5年間で10万人のバングラデシュ人材の日本受入れを目指す三者間覚書（MOU）を締結し、ユヌス氏の臨席のもと調印式を行ったと記載（締結日の記載なし）。計画の対象期間（2026〜2030年）、年度別・分野別の候補者数、三者の役割、TTC・IMTの訓練施設数（104か所、うちTTC70か所）を掲載。調印写真の文字では日本側団体名を『全国ビジネスサポート合同組合』と表記。"
+    },
+    {
+     "id": "s2",
+     "title": "『即戦力』人材育成施設 バングラデシュ訪問のご案内（令和7年10月24日〜28日）",
+     "publisher": "全国ビジネスサポート協同組合連合会（NBCC）（主催：駐日バングラデシュ大使館）",
+     "url": "https://nbcc.or.jp/pdf/Bangladesh_site_visit.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者が自らのサイトに置いた案内PDF。『令和7年5月29日に全国ビジネスサポート協同組合連合会とジャパンバングラブリッジ株式会社…がバングラデシュ政府と締結した「国営職業訓練センターの無償活用に関する覚書（MOU）」』と記載し、三者調印の写真（『日本国内5年で10万人のバングラデシュ人材受入計画』）に畩ケ山幹雄理事長・タハミド・モイヌル代表取締役らの名前を記載。問い合わせ先は『バングラデシュ政府協定（MOU）に基づく人材受入促進実行委員会』。NBCCのトップページからこのPDFへのリンクは2026-10-28時点ではページのソース上で非表示（コメントアウト）になっているが、PDFはNBCCのサイト上に残っている。"
+    },
+    {
+     "id": "s3",
+     "title": "企業情報（会社概要）",
+     "publisher": "Japan Bangla Bridge Recruiting Agency Ltd.（JBBRA）",
+     "url": "https://jbbra.com/company/",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "JBBRAの所在地（バングラデシュ・ダッカの本社と東京・新宿の駐在員事務所）、設立2018年12月10日、代表取締役タハミド・モイヌル、海外人材送出機関ライセンス番号RL-1587、技能実習の送出機関番号BGD000019、日本法人Japan Bangla Bridge Ltd.はグループ会社、加盟団体にNBCCを記載。"
+    },
+    {
+     "id": "s4",
+     "title": "連合会概要",
+     "publisher": "全国ビジネスサポート協同組合連合会（NBCC）",
+     "url": "https://nbcc.or.jp/outline/outline.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "平成11年設立の協同組合の連合会で、会員65組合・法人（賛助会員含む、令和6年9月末）。外国人技能実習生受入事業・共同購買事業などを行う。会長 高山泰、理事長 畩ケ山幹雄（令和6年9月）。本部は東京都中央区日本橋。"
+    },
+    {
+     "title": "Bangladesh, Japan sign MoUs to boost skilled manpower migration（2025年5月29日）",
+     "publisher": "UNB（バングラデシュの通信社）",
+     "url": "https://unb.com.bd/category/Bangladesh/bangladesh-japan-sign-mous-to-boost-skilled-manpower-migration/160838",
+     "type": "news",
+     "checked": "2026-10-28",
+     "id": "s5",
+     "note": "報道。BMET局長・NBCC理事長（Mikio Kesagayama）・JBBRA代表取締役（Moinul Tahmid）が署名、TITPとSSWでの熟練労働者の配置の戦略的枠組み、署名日から5年間有効で相互協議により延長可、JBBRAが開発したモデル訓練センター（Bhalojob Training Centre）と記載。NBCCを『65社以上の受入れ企業からなる日本の事業者連合』と説明。"
+    },
+    {
+     "id": "s6",
+     "title": "Japan to recruit one lakh Bangladeshi workers in five years（2025年5月29日）",
+     "publisher": "UNB（バングラデシュの通信社）",
+     "url": "https://unb.com.bd/category/Bangladesh/japan-to-recruit-one-lakh-bangladeshi-workers-in-five-years/160832",
+     "type": "news",
+     "checked": "2026-10-28",
+     "note": "報道。NBCC理事長が『今後5年間で10万人を超えるバングラデシュ人労働者を迎える用意がある』と述べたと記載。見出しの『日本が10万人を採用』は日本政府の決定ではなく、民間の計画。"
+    },
+    {
+     "id": "s7",
+     "title": "Japanese delegation briefs Yunus on recruitment plan of 100,000 worker over five years（2025年10月27日）",
+     "publisher": "The Financial Express（バングラデシュ。bdnews24.comの記事）",
+     "url": "https://thefinancialexpress.com.bd/national/japanese-delegation-briefs-yunus-on-recruitment-plan-of-100000-worker-over-five-years",
+     "type": "news",
+     "checked": "2026-10-28",
+     "note": "報道。NBCCの23人の代表団がユヌス首席顧問と面会。採用予定は2026年2,000人、2027年6,000人、2028年18,000人（JBBRAの計画表の2028年12,000人と食い違う）。"
+    },
+    {
+     "id": "s8",
+     "title": "Project prepared for initially sending 0.1m workers to Japan（2025年9月17日）",
+     "publisher": "The Financial Express（バングラデシュ）",
+     "url": "https://thefinancialexpress.com.bd/national/project-prepared-for-initially-sending-01m-workers-to-japan",
+     "type": "news",
+     "checked": "2026-10-28",
+     "note": "報道。海外居住者福利厚生・海外雇用省が日本向けに約10万人を訓練する事業案を作成し、NBCCとJBBRAが特定技能での採用を共同で広げる、同省の『ジャパン・セル』『ジャパン・デスク』と記載。"
+    },
+    {
+     "id": "s9",
+     "title": "政府、日本への人材輸出を強化（2025年9月17日、The Daily Starの記事の日本語訳）",
+     "publisher": "BDD News（バングラデシュ デジタル ニュース）",
+     "url": "https://bddnews.com/post/20250917_213352/",
+     "type": "news",
+     "checked": "2026-10-28",
+     "note": "報道（日本語訳）。首席顧問の指示により、全国ビジネス支援協同組合連合会（NBCC）・日本バングラブリッジ人材紹介会社（JBBRA）・カイコムドリームストリートBD社との協定に基づく行動計画を作り、特定技能で労働者を日本に送ると記載。協定の締結日・人数の記載はない。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "日本側の締結主体は全国ビジネスサポート協同組合連合会（NBCC。中小企業の協同組合の連合会で、外国人技能実習生の受入事業を行う）。JBBRAはダッカに本社を置くバングラデシュの人材送出機関で、東京に駐在員事務所がある（JBBRAの会社概要）。NBCCの案内PDFはJBBRAを『ジャパンバングラブリッジ株式会社』と書くが、JBBRAの会社概要では日本法人『Japan Bangla Bridge Ltd.』はグループ会社として別に記載されている。団体名の表記はNBCCのサイト内でも『全国ビジネスサポート協同組合連合会』『全国ビジネスサポート協同連合会』があり、JBBRAの発表の画像は『全国ビジネスサポート合同組合』と書く。日本政府は当事者ではなく、『10万人』は日本政府の受入れ目標・受入れ枠ではない（覚書の当事者の計画）。バングラデシュ政府（BMET・海外居住者福利厚生・海外雇用省）と駐日バングラデシュ大使館の公式サイトにはこの覚書の発表は見つからなかった。",
+   "related_systems": [
+    "TITP",
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [
+    {
+     "kind": "target",
+     "label": "日本への受入れ目標（覚書の当事者の計画）",
+     "value": 100000,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "2026〜2030年の5年間",
+     "definition": "JBBRAの発表の計画表：合計候補者数 2026年2,000人、2027年6,000人、2028年12,000人、2029年30,000人、2030年50,000人（計100,000人）。分野別は建設業40％、工場作業員20％、介護職20％、農業・自動車整備・その他20％。",
+     "sources": [
+      "s1"
+     ],
+     "note": "当事者の目標で、法的な義務や日本政府の受入れ枠ではない（受入れは技能実習・特定技能・育成就労などの在留資格の審査による）。報道（s7）は2028年を18,000人としており、JBBRAの表（12,000人）と食い違う。"
+    }
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_state": "unconfirmed",
+   "validity_basis": "有効期間（署名日から5年間、相互協議で延長可）は報道でしか確認できず、当事者の発表に期間の記載がない。JBBRAの発表（2026年9月）は計画の対象期間を2026〜2030年と書くが、覚書の効力を示すものではないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s2",
+    "s5"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": "署名日から5年間、相互協議により延長可（報道。原文・当事者の発表では未確認）",
+   "renewal_text": "相互協議により延長可（報道）",
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "2026-10-28に、BMETのサイト（ニュース）、海外居住者福利厚生・海外雇用省のサイト（ニュース・覚書一覧。覚書一覧は2025年5月1日更新でそれ以降の分は未掲載）、駐日バングラデシュ大使館のサイト（ニュース・プレスリリース）を確認したが、この覚書の掲載は見つからなかった。同省の『Bangladesh 2 Japan』サイトは証明書の期限切れで開けなかった。国営通信BSSの記事は調査環境から開けなかった（HTTP 403）。"
+  },
+  {
+   "id": "JP-ORG-098",
+   "group_key": "ORG:OUR-BD-MOEWOE",
+   "renewal_of": null,
+   "title_ja": "バングラデシュ国内における質の高い人材育成に向けた包括的な連携に関するMOU（ONODERA USER RUN・海外居住者福利厚生・海外雇用省・人材雇用・訓練局）",
+   "title_original": "",
+   "doc_type": "MOU",
+   "doc_type_note": "名称はONODERA USER RUN（OUR）の発表の表現（見出しは『人材育成・送り出しに関するMOU』、本文は『三者間MOU』）。原文は公開されておらず正式名称は未確認。",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "株式会社ONODERA USER RUN（OUR）",
+   "japan_org_type": "company",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "代表取締役副社長 告野崇（OURの発表。バングラデシュの報道は海外事業部長 Takato Kawakami が署名と記載し食い違う）",
+   "other_japan_parties": [],
+   "country_code": "BD",
+   "partner_org": "海外居住者福利厚生・海外雇用省（MoEWOE）（署名者は次官 Neyamot Ullah Bhuiyan：OURの発表）",
+   "partner_org_en": "Ministry of Expatriates' Welfare and Overseas Employment (MoEWOE)",
+   "partner_type": "national_ministry",
+   "additional_partners": [
+    {
+     "country_code": "BD",
+     "partner_org": "海外居住者福利厚生・海外雇用省 人材雇用・訓練局（BMET）（署名者は局長 Saleh Ahmed Mojaffar：OURの発表）",
+     "partner_org_en": "Bureau of Manpower, Employment and Training (BMET)"
+    }
+   ],
+   "ceremony_note": "2025年4月10日、ダッカのProbashi Kalyan Bhaban（海外居住者福利厚生・海外雇用省）で締結式。Asif Nazrul暫定政権顧問（同省担当の閣僚）と在バングラデシュ日本国大使館の臨時代理大使が立ち会い（OURの発表）。日本政府は当事者ではない。",
+   "signed_date": "2025-04-10",
+   "announced_date": "2025-04-14",
+   "date_note": "締結日・場所はOURの発表（2025年4月14日）による。バングラデシュの報道（2025年4月11日付）も前日（木曜日）に同省の会議室で署名と報道。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "日本語教育"
+   ],
+   "purpose": "バングラデシュ国内で日本語教育と特定技能の専門教育を提供し、グローバルに通用する人材の育成と日本の人手不足の解消の両立を目指す（OURの発表）",
+   "content": [
+    "OURはバングラデシュ国内で特定技能に関する専門教育と日本語教育を無償で提供するため、自社の教育拠点『OUR BLOOMING ACADEMY』を2025年11月に開校する予定（OURの発表）",
+    "海外居住者福利厚生・海外雇用省は開校に向けた学生募集に協力し、BMETが保有する施設を活用する予定（OURの発表。条文は非公開）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "OURの発表では2025年11月に開校予定だったが、同社の2025年12月・2026年1月・4月・6月・8月の発表でもバングラデシュの教育拠点は『開校予定』のまま（2026年8月31日の記事で『今後はバングラデシュとモンゴルにおいても開校を予定』）。2026年10月28日時点で開校の発表は見つからない。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "バングラデシュ政府機関MoEWOEおよびBMETとの人材育成・送り出しに関するMOU締結（2025年4月14日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/7036/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表。2025年4月10日に締結、署名者（次官・BMET局長・OUR副社長）と立会人、教育拠点の開校予定（2025年11月）、学生募集への協力とBMETの施設の活用を記載。同社にとって5か国目の教育拠点と記載。"
+    },
+    {
+     "id": "s2",
+     "title": "ONODERA USER RUNの取り組みを紹介する記事（2026年6月30日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/27703/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "『モンゴルおよびバングラデシュにおいても既に現地政府関係機関とMOUを締結し、OUR BLOOMING ACADEMYの開校を予定』と記載（開校はまだ）。"
+    },
+    {
+     "id": "s3",
+     "title": "インドネシア・メダンでの教育拠点の開校の発表（2026年8月31日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/31255/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "教育拠点は計7校で、『今後はバングラデシュとモンゴルにおいても開校を予定』と記載。"
+    },
+    {
+     "id": "s4",
+     "title": "Move to expand overseas jobs in Japan, developed nations（2025年4月11日）",
+     "publisher": "The Financial Express（バングラデシュ）",
+     "url": "https://today.thefinancialexpress.com.bd/print/move-to-expand-overseas-jobs-in-japan-developed-nations-1744302321",
+     "type": "news",
+     "checked": "2026-10-28",
+     "note": "報道。同省の会議室で、次官とBMET局長、Onodera User Run の海外事業部長 Takato Kawakami が署名し、特定技能での訓練と資格取得に関するMoUと記載（OURの発表の署名者と食い違う）。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "日本側の締結主体は株式会社ONODERA USER RUN（東京都千代田区、法務省の登録支援機関）。日本政府は当事者ではない（大使館の臨時代理大使が立ち会っただけ）。人数の目標は発表に書かれていない。バングラデシュ側の公式サイト（同省・BMET）にはこの覚書の発表は見つからなかった（同省のニュースは2025年12月以降の分のみ掲載）。",
+   "related_systems": [
+    "SSW"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "work"
+   ],
+   "numbers": [],
+   "research": {
+    "budget": "not_found",
+    "numbers": "not_found"
+   },
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はOURの発表で確認したが、有効期間の記載がなく原文も非公開。OURは2026年6月・8月の発表でもMOUを締結済みとして開校予定と書いているが、効力の期間を示すものではないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "OURの公開記事581件（WordPressの公開API経由）を見出しと本文で確認し、2025年10月以降の記事でバングラデシュに触れるものを通読。終了・更新の記載は見つからない。"
+  },
+  {
+   "id": "JP-ORG-099",
+   "group_key": "ORG:IMJ-LK-ESD",
+   "renewal_of": null,
+   "title_ja": "スリランカ人材の日本における育成就労制度に関する協力覚書（スリランカ海外雇用局・アイム・ジャパン）",
+   "title_original": "",
+   "doc_type": "協力覚書",
+   "doc_type_note": "名称はアイム・ジャパンの発表による。原文は公開されていない。",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "japan_org": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+   "japan_org_type": "association",
+   "pref_code": null,
+   "related_regions": [],
+   "japan_signatory": "",
+   "other_japan_parties": [],
+   "country_code": "LK",
+   "partner_org": "スリランカ海外雇用局（SLBFE）",
+   "partner_org_en": "Sri Lanka Bureau of Foreign Employment (SLBFE)",
+   "partner_type": "public_agency",
+   "additional_partners": [],
+   "ceremony_note": "2026年10月7日、スリランカ海外雇用局で締結。調印式には外務・海外雇用・観光省の上級次官補と海外雇用局の職員が出席（アイム・ジャパンの発表）。",
+   "signed_date": "2026-10-07",
+   "announced_date": "2026-10-13",
+   "date_note": "アイム・ジャパンの記事（2026年10月13日）による。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "育成就労",
+    "日本語教育"
+   ],
+   "purpose": "2027年4月に始まる育成就労制度でのスリランカ人材の日本への送り出しの準備（アイム・ジャパンの発表）",
+   "content": [
+    "本覚書に基づく新たなプログラムの開始にあわせ、優秀な候補者の確保と日本語教育の強化を進めることを確認（アイム・ジャパンの発表。条文は非公開）"
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "status": "signed",
+   "status_note": "育成就労制度の運用開始（2027年4月1日）の前。アイム・ジャパンは今後も実務面の調整を重ねて準備を進めると発表。",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "スリランカ民主社会主義共和国 海外雇用局にて「スリランカ人材の日本における育成就労制度に関する協力覚書」を締結しました（2026年10月13日）",
+     "publisher": "公益財団法人国際人材育成機構（アイム・ジャパン）",
+     "url": "https://web.archive.org/web/20261013232749/https://imm.or.jp/cms/jp_news/20261013intl01/",
+     "archived_from": "https://imm.or.jp/cms/jp_news/20261013intl01/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2026年10月7日に海外雇用局で協力覚書を締結、出席者、優秀な候補者の確保と日本語教育の強化、2027年4月の育成就労制度への準備を記載。 アイム・ジャパンのサイトは2026-10-28時点でメンテナンス中（HTTP 503）のため、インターネットアーカイブの保存版にリンク。"
+    }
+   ],
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "notes": "日本政府とスリランカ政府の育成就労制度に関する協力覚書（JP-NAT-041、2026年7月23日コロンボで署名）とは別の、団体と相手国機関の覚書。アイム・ジャパンとスリランカ政府の技能実習の協定書（JP-ORG-083、2017年）・特定技能の合意書（JP-ORG-088、2023年）との関係（置き換えるものかどうか）は発表に書かれていない。スリランカ側の発表は未確認。",
+   "related_systems": [
+    "ESD"
+   ],
+   "foreign_relation": "direct",
+   "acceptance_types": [
+    "training",
+    "work"
+   ],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_basis": "締結はアイム・ジャパンの発表で確認したが、有効期間・開始日の記載がなく原文も非公開のため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。"
   }
  ]
 }
