@@ -660,6 +660,122 @@
    "foreign_relation": "direct",
    "validity_basis": "県の発表（2019年）で締結は確認できるが、有効期間・更新の記載がなく、現在の効力を示す公式資料も見つからない（県の令和8年度委託事業の質問回答では、現地の日本語学校は「現在６校と協定」とされるが、学校名は示されていない）。",
    "validity_research_note": "協定書の原文・有効期間条項は未確認。県の現行サイトで協定校の一覧は見つからなかった。"
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "",
+   "projects": [],
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "evidence_level": "official_list",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "related_systems": [],
+   "numbers": [],
+   "validity_state": "unconfirmed",
+   "validity_sources": [
+    "s1",
+    "s4"
+   ],
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "id": "JP-12-007",
+   "group_key": "12:12-VN-DongDuHanoi-labor",
+   "title_ja": "『千葉県留学生受入プログラム』に係る千葉県と日本語学校との事業協定（千葉県・ドンズーハノイ日本語センター）（県の資料の表現・正式名称未確認）",
+   "doc_type": "事業協定",
+   "doc_type_note": "県の募集資料の表現は「県が事業協定を締結した現地日本語学校」。2019年3月15日に同じプログラムで事業協定を結んだ5校（JP-12-002〜006）にあとから加わった6校目のため、名称の表現を5校にそろえた。協定書の原文・正式名称は未確認",
+   "japan_level": "prefecture",
+   "japan_org": "千葉県",
+   "japan_org_type": "prefecture",
+   "pref_code": "12",
+   "japan_signatory": "",
+   "country_code": "VN",
+   "partner_org": "ドンズーハノイ日本語センター（ベトナムの日本語学校。表記は県の募集資料による）",
+   "partner_org_en": "",
+   "partner_type": "university",
+   "signed_date": null,
+   "announced_date": "",
+   "date_note": "締結日は未確認（千葉県の公式ページで、締結の発表や締結日の記載は見つからなかった）。県の令和7年度の募集資料（日本語学校向け。国立国会図書館WARPの2025年4月12日の保存版）の協定校6校の一覧に「ドンズーハノイ日本語センター（令和７年度から）」とあり、令和7年度から協定校に加わったことを確認。2019年3月15日に締結した5校には入っていない（県の当時の発表の「協定締結校一覧」は5校）。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "介護",
+    "留学生"
+   ],
+   "purpose": "『千葉県留学生受入プログラム』（介護福祉士として県内介護施設で就労することを目指す外国人留学生の受入れ）に、ベトナムの現地日本語学校として参加してもらうこと（県の募集資料）",
+   "content": [
+    "県が事業協定を締結した現地日本語学校として、プログラムに参加する学生に、県内の日本語学校へ留学する前の日本語教育を行う（県の募集資料。協定の条文は未確認）",
+    "プログラムに参加する学生は、現地日本語学校が募集する（県の募集資料）"
+   ],
+   "status": "unknown",
+   "status_note": "県の令和7年度・令和8年度の募集資料に協定校として載っている。この学校からの参加・来日の実績は、県の公式資料で確認できていない。",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "留学生受入プログラム募集概要（日本語学校）（「令和8年度千葉県留学生受入プログラムへの参加施設等の募集について」、ページの更新日：令和8年3月19日）",
+     "publisher": "千葉県健康福祉部健康福祉指導課",
+     "url": "https://www.pref.chiba.lg.jp/kenshidou/jinzai/documents/nihongo-siryou.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "「県が事業協定を締結した現地日本語学校は、ベトナム社会主義共和国の以下６校です」の6校目に「ドンズーハノイ日本語センター」と記載。掲載ページ：https://www.pref.chiba.lg.jp/kenshidou/jinzai/2026kaigoryugaku.html"
+    },
+    {
+     "id": "s2",
+     "title": "留学生受入プログラム募集概要（日本語学校）（「令和7年度千葉県留学生受入プログラムへの参加施設等の募集について」、ページの更新日：令和7年3月18日）",
+     "publisher": "千葉県健康福祉部健康福祉指導課",
+     "url": "https://warp.ndl.go.jp/20250426/20250412062312/https://www.pref.chiba.lg.jp/kenshidou/jinzai/documents/nihongo-siryou.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "国立国会図書館WARPの保存版（2025年4月12日保存）。県サイトの同じURLは令和8年度版に差し替わっている。「ベトナム社会主義共和国ハノイ市内の以下６校」の6校目に「ドンズーハノイ日本語センター（令和７年度から）」と記載。"
+    },
+    {
+     "id": "s3",
+     "title": "ベトナム政府との覚書締結に向けた知事のベトナム出張の結果について（発表日：平成31年3月15日、健康福祉部健康福祉指導課・総合企画部国際課）",
+     "publisher": "千葉県",
+     "url": "https://web.archive.org/web/20190825064753/https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "archived_from": "https://www.pref.chiba.lg.jp/kenshidou/jinzai/310318vietnam.html",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "県サイトの元のページは削除済み（404）のため、インターネットアーカイブの保存版（2019年8月25日保存）。2019年3月15日に事業協定を結んだ「協定締結校一覧」は5校で、ドンズーハノイ日本語センターは入っていないことを確認。"
+    },
+    {
+     "id": "s4",
+     "title": "千葉県留学生受入プログラムに係るマッチング支援事業 企画提案に係る質問・回答（令和8年度事業の委託先の募集）",
+     "publisher": "千葉県健康福祉部健康福祉指導課",
+     "url": "https://www.pref.chiba.lg.jp/kenshidou/nyuu-kei/buppin-itaku/nyuusatsukoukoku/r7/documents/r8ryuugakusei_kaitou.pdf",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "回答1に「現地日本語学校は現在６校と協定を締結しており、追加・変更は介護施設の受入希望人数や留学生候補者数などの状況に応じて協議します」と記載（学校名の記載はない）。"
+    }
+   ],
+   "notes": "CLAIRの一覧（2020年1月時点）より後に協定校に加わった学校。2026-10-28、県の令和8年度の募集資料の協定校6校を確かめた際に、この学校だけ未登録だと分かり追加した。協定書の原文・締結日・署名者・有効期間は未確認。同じ学校は茨城県とも協力覚書を結んでいる（JP-08-013）。",
+   "acceptance_types": [
+    "study",
+    "work"
+   ],
+   "foreign_relation": "direct",
+   "validity_basis": "県の令和8年度の募集資料（2026年3月）に協定校として載り、委託事業の質問回答でも現地日本語学校は「現在６校と協定を締結」とされるが、協定の有効期間・更新の記載がないため、ほかの5校（JP-12-002〜006）と同じく有効性未確認とした。",
+   "validity_research_note": "協定書の原文・有効期間の条項は未確認。最近の公式資料が協定校として挙げていることを「有効確認」の根拠とみるかは、6校まとめて判断する必要があるため、今回は有効性未確認のままにした。"
   }
  ]
 }
