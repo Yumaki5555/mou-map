@@ -5,6 +5,8 @@
 //   core.json … 最初の画面・地図・一覧に必要な項目だけを集めたもの（全協定の索引）。詳しい内容（出典・合意内容・予算など）は
 //               協定のページを開いたときに data/mous/*.json から読み込みます。
 //   geo.json  … 日本地図の形（画面の座標に変換し、見た目が変わらない程度に点を減らしたもの）。
+//   summary.json … 都道府県・市区町村ごとの有効性別の件数のまとめ（総合入口サイトなど、ほかのサイトから使うためのもの）。
+//               有効性は作った日の日付で判定するので、データを直さなくても、ときどき作り直してください（node tools/test_site.mjs で古さを検出）。
 // あわせて index.html の「data:start〜data:end」の目印の間に、データの版番号を書き込みます（古いデータが使われ続けないように）。
 //
 // 正本は data/mous/*.json などの元のデータです。core.json は元のデータから毎回作り直します。
@@ -15,7 +17,8 @@ import { createHash } from 'node:crypto';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
-import { buildDB } from '../assets/js/data.js';
+import { buildDB, filterGroups, validityCounts, cityInfo, citiesInPref, LEVEL_ORDER, SURVEY_RESULT } from '../assets/js/data.js';
+import { today } from '../assets/js/util.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const argSrc = process.argv.indexOf('--src');
@@ -103,6 +106,11 @@ function main() {
   const geoText = JSON.stringify(buildGeo());
   writeFileSync(join(OUT, 'geo.json'), geoText);
 
+  // ---------- 4. summary.json ----------
+  const summary = buildSummary(db);
+  const summaryText = summaryJSON(summary);
+  writeFileSync(join(OUT, 'summary.json'), summaryText);
+
   // ---------- 3. index.html に版番号 ----------
   const ver = sha(coreText + geoText);
   const indexPath = join(ROOT, 'index.html');
@@ -121,8 +129,85 @@ function main() {
   if (html !== before) writeFileSync(indexPath, html);
 
   const groups = db.groups.length;
-  console.log(`作成しました：core.json（${mous.length}文書・${groups}協定、${Math.round(coreText.length / 1024)}KB）、geo.json（${Math.round(geoText.length / 1024)}KB）、データの版 ${ver}`);
+  console.log(`作成しました：core.json（${mous.length}文書・${groups}協定、${Math.round(coreText.length / 1024)}KB）、geo.json（${Math.round(geoText.length / 1024)}KB）、summary.json（${summary.generated}時点、${Math.round(summaryText.length / 1024)}KB）、データの版 ${ver}`);
   if (SRC !== ROOT) console.log(`元のデータ：${SRC}`);
+}
+
+// ---------- 件数のまとめ ----------
+// サイトの画面と同じ関数（filterGroups・validityCounts）で数えます。都道府県の件数は都道府県のページの「有効性の内訳」、
+// 市区町村の件数は市区町村のページ（#/city/コード）の「有効性の内訳」と同じ数です
+const SITE = 'https://yumaki5555.github.io/mou-map/';
+const COUNT_KEYS = ['valid_confirmed', 'unconfirmed', 'ended_confirmed', 'signed_not_started', 'planned', 'signed_total'];
+export function buildSummary(db) {
+  const counts = f => Object.fromEntries(['mou', 'all'].map(doc => {
+    const c = validityCounts(filterGroups(db, { ...f, validity: 'all', docScope: doc, includePlanned: true }));
+    return [doc, Object.fromEntries(COUNT_KEYS.map(k => [k, c[k]]))];
+  }));
+  const registered = f => filterGroups(db, { ...f, validity: 'all', docScope: 'all', includePlanned: true, includeNews: true });
+  const newsOnly = f => registered(f).filter(g => !g.official).length;
+  const P = db.survey.prefectures || {};
+  const prefectures = Object.fromEntries(db.prefs.map(p => {
+    const f = { level: 'prefecture', pref: p.code };
+    const s1 = P[p.code]?.stage1?.result || 'not_surveyed', s2 = P[p.code]?.stage2?.result || 'not_surveyed';
+    const surveyed = s1 !== 'not_surveyed' || s2 !== 'not_surveyed' || registered(f).length > 0;
+    return [p.code, {
+      name: p.name, url: `${SITE}#/pref/${p.code}`,
+      survey: { labor: s1, other_fields: s2 },
+      counts: surveyed ? counts(f) : null,
+      news_only: newsOnly(f),
+      municipalities: citiesInPref(db, p.code).map(c => c.code),
+    }];
+  }));
+  const cityCodes = new Set([...(db.survey.cities || []).map(c => c.code), ...db.groups.filter(g => g.level === 'municipality' && g.municipality_code).map(g => g.municipality_code)]);
+  const municipalities = {};
+  for (const code of [...cityCodes].sort()) {
+    const c = cityInfo(db, code);
+    if (!c) { console.error(`市区町村コード「${code}」の形が正しくないため、件数のまとめに入れませんでした`); continue; }
+    const f = { level: 'municipality', city: code };
+    const result = c.survey?.result || 'not_surveyed';
+    municipalities[code] = {
+      name: c.name, pref_code: c.pref_code, url: `${SITE}#/city/${code}`,
+      survey: result, checked: c.survey?.checked || null,
+      counts: result !== 'not_surveyed' || registered(f).length ? counts(f) : null,
+      news_only: newsOnly(f),
+    };
+  }
+  return {
+    _note: 'tools/build_data.mjs が作る件数のまとめです。手で直さないでください。',
+    generated: today(),
+    data_last_updated: db.config.last_updated || null,
+    site: SITE,
+    how_counted: [
+      '同じ協定の更新・再締結・後継の文書は1件として数える（group_key でまとめる）',
+      '有効性は generated の日付で、公式資料で確認した結果に期限・開始日・終了日を当てはめて判定し直したもの（期限を過ぎて更新を確認できないものは有効性未確認）',
+      '報道のみで公式資料を確認できていない情報は数えない（news_only に別に件数を示す）',
+      '締結予定（planned）は締結済み累計（signed_total）に含めない',
+      'counts.mou は MOU・MOC などの覚書類だけ（サイトの初期設定と同じ）、counts.all は R/D・EPA・交換公文・取決めなどを含むすべての国際文書',
+      '都道府県の件数は、その都道府県が締結したものだけ（県内の市区町村・団体などの協定は含まない）',
+      'counts が null の地域、municipalities にない市区町村は未調査（0件という意味ではない）',
+    ],
+    labels: {
+      valid_confirmed: '有効確認', unconfirmed: '有効性未確認', ended_confirmed: '終了確認', signed_not_started: '締結済み・開始前',
+      planned: '締結予定', signed_total: '締結済み累計（有効確認＋有効性未確認＋終了確認＋開始前）',
+      mou: 'MOUのみ（サイトの初期設定）', all: 'すべての国際文書',
+    },
+    survey_labels: SURVEY_RESULT,
+    totals: Object.fromEntries(LEVEL_ORDER.map(lv => [lv, counts({ level: lv })])),
+    prefectures,
+    municipalities,
+  };
+}
+// 書き出し：都道府県・市区町村はコード順に1行ずつ（ふつうに書き出すと "10" 以降が "01"〜"09" より前に並ぶため）
+export function summaryJSON(s) {
+  const { totals, prefectures, municipalities, ...rest } = s;
+  const rows = entries => '{\n' + entries.map(([k, v]) => `  ${JSON.stringify(k)}: ${JSON.stringify(v)}`).join(',\n') + '\n }';
+  const sorted = o => Object.entries(o).sort(([a], [b]) => a.localeCompare(b));
+  return '{\n' + [
+    ...Object.entries(rest).map(([k, v]) => ` ${JSON.stringify(k)}: ${JSON.stringify(v, null, 1).replace(/\n/g, '\n ')}`),
+    ` "totals": ${rows(Object.entries(totals))}`,
+    ` "prefectures": ${rows(sorted(prefectures))}`,
+    ` "municipalities": ${rows(sorted(municipalities))}`,
+  ].join(',\n') + '\n}\n';
 }
 
 // ---------- 日本地図 ----------

@@ -39,7 +39,8 @@ export function detailPage(ctx, id) {
   const s = STATUS[g.status] || STATUS.unknown;
   const jpName = japanSideName(db, m);
   const jpLink = m.japan_level === 'organization' ? `<a href="#/actors?o=${encodeURIComponent(orgKey)}">${esc(jpName)}</a>`
-    : m.japan_level === 'prefecture' ? `<a href="#/pref/${esc(m.pref_code)}">${esc(jpName)}</a>` : esc(jpName);
+    : m.japan_level === 'prefecture' ? `<a href="#/pref/${esc(m.pref_code)}">${esc(jpName)}</a>`
+      : m.japan_level === 'municipality' && m.municipality_code ? `<a href="#/city/${esc(m.municipality_code)}">${esc(jpName)}</a>` : esc(jpName);
   const partners = [{ country_code: m.country_code, partner_org: m.partner_org, partner_org_en: m.partner_org_en }, ...m.additional_partners];
   const primary = m.sources.filter(x => PRIMARY.includes(x.type)).sort((a, b) => PRIMARY.indexOf(a.type) - PRIMARY.indexOf(b.type));
   const impactSummary = IMPACTS.map(cat => {

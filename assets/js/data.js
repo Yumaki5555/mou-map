@@ -509,7 +509,7 @@ function blurbOf(r) {
 }
 
 // ---------- 絞り込み ----------
-// f = { level, levels:[], orgType, pairKind, pref, countries:[], field, status, impact, includeNews, includePlanned,
+// f = { level, levels:[], orgType, pairKind, pref, city（市区町村コード6けた）, countries:[], field, status, impact, includeNews, includePlanned,
 //       validity（有効性の範囲：valid / valid_unk / all）, docScope（mou / foreign / all）, category（文書の種類）, kind（詳しい区分）, relation（受入れとの関係） }
 // validity・docScope を省略したときは、締結済みのすべての文書が対象です。言葉での検索は search.js で行います。
 export function filterGroups(db, f = {}) {
@@ -528,6 +528,7 @@ export function filterGroups(db, f = {}) {
     if (f.orgType && g.orgType !== f.orgType) return false;
     if (f.pairKind && g.pairKind !== f.pairKind) return false;
     if (f.pref && g.pref_code !== f.pref) return false;
+    if (f.city && g.municipality_code !== f.city) return false;
     if (f.countries && f.countries.length && !f.countries.some(c => g.countries.includes(c))) return false;
     if (f.field && !g.fields.includes(f.field)) return false;
     if (f.status && g.status !== f.status) return false;
@@ -580,6 +581,28 @@ export function countByPref(groups) {
   const m = new Map();
   for (const g of groups) if (g.level === 'prefecture' && g.pref_code) m.set(g.pref_code, (m.get(g.pref_code) || 0) + 1);
   return m;
+}
+
+// 市区町村：全国地方公共団体コード（6けた＝都道府県2けた＋市区町村3けた＋検査用の数字1けた）
+// 6けた目は前の5けたから計算できる（打ち間違いを見つけるための数字）
+export function cityCheckDigit(code5) {
+  const s = [...code5].reduce((a, d, i) => a + Number(d) * (6 - i), 0);
+  return String((11 - (s % 11)) % 10);
+}
+// 名前・都道府県・調査の記録（data/survey.json の cities）。survey が null なら未調査。コードの形が正しくなければ null
+export function cityInfo(db, code) {
+  if (!/^\d{6}$/.test(code || '') || code.slice(2, 5) === '000' || cityCheckDigit(code.slice(0, 5)) !== code[5]) return null;
+  const pref = code.slice(0, 2);
+  if (!db.prefByCode.has(pref)) return null;
+  const survey = (db.survey.cities || []).find(c => c.code === code) || null;
+  const m = db.mous.find(x => x.municipality_code === code);
+  return { code, pref_code: pref, name: survey?.name || m?.municipality_name || '', survey };
+}
+// 都道府県の中で、調べた市区町村と協定が登録されている市区町村（コード順）
+export function citiesInPref(db, prefCode) {
+  const codes = new Set([...(db.survey.cities || []).filter(c => c.pref_code === prefCode).map(c => c.code),
+    ...db.mous.filter(m => m.japan_level === 'municipality' && m.municipality_code?.startsWith(prefCode)).map(m => m.municipality_code)]);
+  return [...codes].sort().map(c => cityInfo(db, c)).filter(Boolean);
 }
 
 // 0件のときに「該当なし」「調査したが確認できず」「未調査」のどれかを判定

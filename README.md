@@ -45,7 +45,8 @@ mou-map/
 │   ├─ geo/japan_prefectures.topojson … 都道府県の境界（地図の元データ）
 │   └─ build/                 … ★公開用の軽いデータ（tools/build_data.mjs が作る。手で直さない）
 │       ├─ core.json          … 全協定の索引（最初の画面・地図・一覧で使う項目だけ）
-│       └─ geo.json           … 画面用に変換・軽量化した地図の形
+│       ├─ geo.json           … 画面用に変換・軽量化した地図の形
+│       └─ summary.json       … 都道府県・市区町村ごとの有効性別の件数（ほかのサイトから使うためのまとめ。作った日付入り）
 ├─ docs/データの追加方法.md   … データの追加・修正のしかた
 └─ tools/
     ├─ serve.py               … 手元のパソコンで表示を確認するためのもの
@@ -113,7 +114,13 @@ python tools/set_version.py
 
 data フォルダの元のデータ（`data/mous/*.json`・`survey.json` など）を直したら、公開する前に mou-map フォルダで次を実行してください。
 最初の画面・地図・一覧は、元のデータから作った軽い索引（`data/build/core.json`）で表示しているため、**これを実行しないと地図と一覧に反映されません**（協定の詳細ページは元のデータを直接読みます）。
-実行すると `data/build/core.json`・`data/build/geo.json`・`index.html` が書き換わるので、元のデータと一緒に公開します。
+実行すると `data/build/core.json`・`data/build/geo.json`・`data/build/summary.json`・`index.html` が書き換わるので、元のデータと一緒に公開します。
+`summary.json` の有効性は作った日の日付で判定するため、データを直さなくても、期限を過ぎる協定があれば数が変わります（`node tools/test_site.mjs` の「件数のまとめが最新」で分かります）。
+
+ほかのサイトからは、次のアドレスで使えます。
+
+- 市区町村のページ：`#/city/141003`（全国地方公共団体コード6けた。`#/pref/14?city=141003` や5けたのコードでも開けます）。調べていない市区町村は「未調査」と表示します
+- 件数のまとめ：`data/build/summary.json`（都道府県・市区町村ごとの有効確認／有効性未確認／終了確認／開始前／締結予定。数え方はファイルの中の `how_counted` に記載）
 
 ```bash
 node tools/build_data.mjs
@@ -121,7 +128,7 @@ node tools/build_data.mjs
 
 作り直し忘れは `node tools/test_site.mjs` の「索引が最新」の項目で見つかります。
 
-- 方法A：変更したファイル（例：`data/mous/pref-08.json`）と、上で書き換わった3つのファイルを、GitHubの同じ場所に再度アップロードします。
+- 方法A：変更したファイル（例：`data/mous/pref-08.json`）と、上で書き換わった4つのファイルを、GitHubの同じ場所に再度アップロードします。
 - 方法B：`git add` → `git commit -m "データ更新"` → `git push` を実行します。
 
 数分で公開中のサイトにも反映されます（ブラウザに古い表示が残っていたら再読み込みしてください）。

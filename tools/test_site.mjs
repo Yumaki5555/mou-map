@@ -9,11 +9,12 @@ import {
   buildDB, filterGroups, validityInfo, validityCounts, countByPref, termEnd, validate, researchStatus,
   VALIDITY_SCOPES, VALIDITY_SCOPE, DOC_CATEGORIES, RELATIONS, FIELDS, surveySummary, zeroState,
   typesTables, isWorkingHoliday, levelCounts, pairKind, JAPAN_ORG_TYPE, DOC_KINDS, countTriple, clairCounts,
+  cityCheckDigit, cityInfo, citiesInPref,
 } from '../assets/js/data.js';
 import { mouCSV, groupsToMous } from '../assets/js/csv.js';
 import { searchGroups, applyFacets, facetCounts, tokenCounts, parseQuery, SEARCH_FIELD } from '../assets/js/search.js';
 import { findOrgs, orgTypeLabel } from '../assets/js/orgs.js';
-import { sourceHashes } from './build_data.mjs';
+import { sourceHashes, buildSummary, summaryJSON } from './build_data.mjs';
 import { readState, writeState, computeResults, facetCounts as exFacetCounts, conditionTags, removeTag, clearAll, V_PRESET, V_PRESETS } from '../assets/js/explore-state.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -405,6 +406,29 @@ for (const sc of VALIDITY_SCOPES) {
   ok('地図の形：どの県にも線と県名の位置がある', Object.values(geo.prefs).every(p => /^M[\d.]+ [\d.]+l/.test(p.d) && Number.isFinite(p.lx) && Number.isFinite(p.ly)));
   const html = readFileSync(join(ROOT, 'index.html'), 'utf8');
   ok('index.html に索引の版番号がある', html.includes(`core.json?v=`) && /<meta name="data-version" content="[0-9a-f]{12}">/.test(html));
+}
+
+// ---------- 18-2. 市区町村のページ（#/city/コード）と件数のまとめ（data/build/summary.json） ----------
+{
+  eq('検査用の数字（横浜市・札幌市・千代田区・北九州市）', ['14100', '01100', '13101', '40100'].map(cityCheckDigit), ['3', '2', '6', '5']);
+  ok('調査の記録の市区町村コードはすべて正しい形', (db.survey.cities || []).every(c => cityInfo(db, c.code)?.pref_code === c.pref_code));
+  ok('協定の市区町村コードはすべて正しい形', db.mous.filter(m => m.japan_level === 'municipality').every(m => cityInfo(db, m.municipality_code)?.pref_code === m.pref_code));
+  eq('打ち間違えたコード・都道府県のコードは市区町村として扱わない', ['141004', '140007', '14100', '991000'].map(c => cityInfo(db, c)), [null, null, null, null]);
+  eq('横浜市の名前と調査結果', [cityInfo(db, '141003').name, cityInfo(db, '141003').survey.result], ['横浜市', 'found']);
+  ok('調べていない市区町村は未調査（調査の記録なし）', cityInfo(db, '131016') && cityInfo(db, '131016').survey === null, '千代田区');
+  const yk = filterGroups(db, { ...B, validity: 'all', docScope: 'all', city: '141003' });
+  ok('市区町村で絞り込むと、その市区町村の協定だけ', yk.length > 0 && yk.every(g => g.level === 'municipality' && g.municipality_code === '141003'));
+  const inPref = filterGroups(db, { ...B, validity: 'all', docScope: 'all', level: 'municipality', pref: '14' }).length;
+  eq('県内の市区町村の協定＝市区町村ごとの協定の合計（神奈川県）', citiesInPref(db, '14').reduce((a, c) => a + filterGroups(db, { ...B, validity: 'all', docScope: 'all', level: 'municipality', city: c.code }).length, 0), inPref);
+  const sum = J('data/build/summary.json');
+  const now = JSON.parse(summaryJSON(buildSummary(db)));
+  const strip = s => JSON.stringify({ ...s, generated: null });
+  eq(`件数のまとめが最新（${sum.generated}作成。データを直したとき・有効性の判定が日付で変わったときは node tools/build_data.mjs を実行）`, strip(sum) === strip(now), true);
+  eq('件数のまとめに47都道府県', Object.keys(sum.prefectures).length, 47);
+  const c14 = validityCounts(filterGroups(db, { ...B, validity: 'all', docScope: 'mou', includePlanned: true, level: 'prefecture', pref: '14' }));
+  eq('件数のまとめ（神奈川県・MOUのみ）＝都道府県のページの数え方', sum.prefectures['14'].counts.mou.signed_total, c14.signed_total);
+  ok('件数のまとめで、締結済み累計＝4区分の合計', Object.values({ ...sum.prefectures, ...sum.municipalities }).every(r => !r.counts || Object.values(r.counts).every(c => c.signed_total === c.valid_confirmed + c.unconfirmed + c.ended_confirmed + c.signed_not_started)));
+  ok('件数のまとめに、調べた政令指定都市がすべて入る', (db.survey.cities || []).every(c => sum.municipalities[c.code]?.name === c.name));
 }
 
 // ---------- 19. 「協定を探す」の検索条件（地図・件数・一覧が同じ条件を使う） ----------

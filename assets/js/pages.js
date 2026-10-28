@@ -7,6 +7,7 @@ import {
   JAPAN_ORG_TYPES, JAPAN_ORG_TYPE, PAIR_KINDS, PAIR_KIND, LEVEL_ORDER, LEVEL_SHORT, LEVELS,
   filterGroups, sortGroups, countByPref, zeroState, residentChange, sswCount, validityCounts, termEnd, typesTables, levelCounts, levelBreakdown, countTriple,
   countryName, prefName, japanSideName, sideShort, validate, surveySummary, researchStatus, RESEARCH_STATES, VALIDITY_REASONS, CLAIR_UNRESOLVED, clairCounts, loadCore,
+  cityInfo, citiesInPref,
 } from './data.js';
 import { JapanMap, swatchStyle, PATTERNS } from './map.js';
 import { hbar, vbar } from './charts.js';
@@ -376,7 +377,8 @@ export function prefPage(ctx, code) {
       ${outside.map(g => prefMouBlock(db, g)).join('')}</details>` : ''}
     ${planned.length ? `<h2>締結予定・締結未確認（${planned.length}件、件数に含めていません）</h2>${planned.map(g => mouCard(db, g)).join('')}` : ''}
     ${citiesAll.length ? `<h2>県内の市区町村が締結した協定（いまの数え方：${cities.length}件、県の件数とは別）</h2>
-      ${mouList(db, sortGroups(cities), { empty: `いまの数え方では表示する協定はありません（締結済み ${citiesAll.filter(g => !g.planned).length}件は、有効性・文書の範囲を広げると表示されます）。` })}` : ''}
+      ${cityLinks(db, code)}
+      ${mouList(db, sortGroups(cities), { empty: `いまの数え方では表示する協定はありません（締結済み ${citiesAll.filter(g => !g.planned).length}件は、有効性・文書の範囲を広げると表示されます）。` })}` : citiesInPref(db, code).length ? `<h2>県内の市区町村</h2>${cityLinks(db, code)}` : ''}
     ${related.length ? `<h2>この地域に関連する事業（団体・企業などの協定、${related.length}件）</h2>
       <p class="small">${esc(p.name)}が締結した協定ではありません。団体・企業などが結んだ協定のうち、関連する事業が${esc(p.name)}で行われたと公式資料で確認できたものです。${esc(p.name)}の件数には含めていません。</p>
       ${related.map(g => mouCard(db, g, { extra: regionNote(db, g, code) })).join('')}` : ''}
@@ -402,6 +404,82 @@ export function prefPage(ctx, code) {
   app.querySelector('#csv').addEventListener('click', () => downloadMouCSV(db, groupsToMous(groups), `mou_pref_${code}_${settings.validity}.csv`));
 }
 function maxDate(ds) { return ds.filter(Boolean).sort().pop() || null; }
+
+// 県内の市区町村のページへのリンク（調べた市区町村と、協定が登録されている市区町村）
+function cityLinks(db, prefCode) {
+  const list = citiesInPref(db, prefCode);
+  if (!list.length) return '';
+  return `<p class="small">市区町村ごとのページ：${list.map(c => `<a href="#/city/${c.code}" class="chip chip-plain">${esc(c.name || c.code)}<span class="muted">（${esc(SURVEY_RESULT[c.survey?.result || 'not_surveyed'])}）</span></a>`).join(' ')}
+    <br><span class="muted">ここにない市区町村は、まだ調べていません（未調査）。</span></p>`;
+}
+
+// =============== 市区町村 ===============
+// #/city/141003（全国地方公共団体コード6けた）。その市区町村が締結した協定だけを表示します（県・県内のほかの市区町村の協定は含めない）。
+// 調べていない市区町村は「未調査」と表示し、0件とは書きません。件数の数え方は都道府県のページと同じです
+export function cityPage(ctx, code) {
+  const { db, app } = ctx;
+  const c = cityInfo(db, code);
+  if (!c) return notFound(ctx, `市区町村コード「${code}」は見つかりませんでした。全国地方公共団体コード（6けた）で指定してください。`);
+  const p = db.prefByCode.get(c.pref_code);
+  const name = c.name || `市区町村コード ${code}`;
+  const f0 = { city: code, level: 'municipality' };
+  const groups = sortGroups(filterGroups(db, baseFilter(f0)));
+  const signedAll = filterGroups(db, { ...baseFilter(f0), validity: 'all' });
+  const plannedN = filterGroups(db, { ...baseFilter(f0), validity: 'all', includePlanned: true }).filter(g => g.planned).length;
+  const everything = filterGroups(db, { ...baseFilter(f0), validity: 'all', docScope: 'all', includePlanned: true });
+  const outside = sortGroups(everything.filter(g => !g.planned && !groups.includes(g)));
+  const planned = sortGroups(everything.filter(g => g.planned));
+  const newsOnly = settings.includeNews ? [] : db.groups.filter(g => !g.official && g.municipality_code === code);
+  const sv = c.survey;
+  const result = sv?.result || 'not_surveyed';
+  const cov = (db.survey.coverage || []).find(x => x.target === '市区町村の協定');
+  const covText = cov ? `市区町村の協定は、${cov.done}を調べています。${cov.not_done}は、まだ調べていません。` : '';
+  const crumbs = head([['日本地図から探す', '#/map'], [p.name, `#/pref/${c.pref_code}`], [name]], `${name}の協定`);
+  const prefNote = `<p class="small">${esc(p.name)}が締結した協定や、県内のほかの市区町村の協定は、<a href="#/pref/${c.pref_code}">${esc(p.name)}のページ</a>にあります（この市区町村の件数には含めていません）。</p>`;
+  // 調べていない市区町村：件数の欄を出さずに「未調査」とだけ表示する
+  if (result === 'not_surveyed' && !everything.length && !newsOnly.length) {
+    app.innerHTML = `${crumbs}
+      <div class="chips" style="margin-bottom:10px"><span class="chip chip-plain">調査：${esc(SURVEY_RESULT.not_surveyed)}</span></div>
+      <div class="stats">${statTile('登録している協定', '未調査', '0件という意味ではありません', '')}</div>
+      <div class="info"><b>${esc(name)}の協定は、まだ調べていません（未調査）。</b>協定がないという意味ではありません。${esc(covText)}</div>
+      ${prefNote}`;
+    return;
+  }
+  const zs = ZERO_STATES[everything.length ? 'scope_zero' : { none_confirmed: 'none', not_surveyed: 'not_surveyed' }[result] || 'not_found'];
+  const countries = uniq(groups.flatMap(g => g.countries));
+  app.innerHTML = `${crumbs}
+    <div class="chips" style="margin-bottom:10px">
+      <span class="chip chip-plain">調査（外国人材・労働）：${esc(SURVEY_RESULT[result])}${sv?.checked ? `（${esc(fmtDate(sv.checked))}確認）` : ''}</span>
+    </div>
+    ${scopeBarHTML()}
+    <h2 class="h-sm">${esc(name)}が結んだ協定の有効性（${esc(signedAll.length ? '締結済みの内訳' : '登録なし')}）</h2>
+    ${signedAll.length ? validityTiles(signedAll, { planned: plannedN }) : `<div class="info">${esc(name)}の協定は、${esc(zs.ja)}。${esc(zs.desc)}。</div>`}
+    ${hiddenNote(db, f0, `${name}が締結した協定`)}
+    <div class="stats">
+      ${groups.length ? `
+      ${statTile('いまの数え方の件数', groups.length, scopeLabel(), '件')}
+      ${statTile('相手国・地域の数', countries.length, '', 'か国・地域')}` : `
+      ${statTile('いまの数え方の件数', '0', signedAll.length ? `${scopeLabel()}。このほか締結済み${signedAll.length}件（有効性未確認・終了など）` : `${zs.ja}（0件という意味ではありません）`, '件')}`}
+    </div>
+    ${countries.length ? `<p><b>相手国・地域：</b>${countries.map(x => `<a href="#/country/${x}" class="chip chip-plain">${esc(countryName(db, x))}</a>`).join(' ')}</p>` : ''}
+    <h2>協定の一覧（いまの数え方：${groups.length}件）</h2>
+    ${groups.map(g => prefMouBlock(db, g)).join('') || '<p class="muted">いまの数え方で表示する協定はありません。</p>'}
+    ${outside.length ? `<details><summary>いまの数え方で表示していない締結済みの協定（${outside.length}件：有効性未確認・終了確認・開始前・MOU以外の文書など）</summary>
+      ${outside.map(g => prefMouBlock(db, g)).join('')}</details>` : ''}
+    ${planned.length ? `<h2>締結予定・締結未確認（${planned.length}件、件数に含めていません）</h2>${planned.map(g => mouCard(db, g)).join('')}` : ''}
+    ${newsOnly.length ? `<div class="info">このほか、報道のみで公式資料を確認できていない情報が${newsOnly.length}件あります（上の「報道のみ…も含める」にチェックすると表示）。</div>` : ''}
+    ${prefNote}
+    <h2>調査の記録</h2>
+    <details><summary>${esc(name)}をどう調べたか</summary>
+      <p><b>外国人材・労働関係の協定：</b>${esc(SURVEY_RESULT[result])}（確認日：${esc(fmtDate(sv?.checked, '—'))}）${sv?.note ? `<br>${esc(sv.note)}` : ''}</p>
+      ${(sv?.searched || []).length ? `<p class="small">調べた資料・方法：</p><ul class="small">${sv.searched.map(s => `<li>${linkify(s)}</li>`).join('')}</ul>` : ''}
+      ${covText ? `<p class="small">${esc(covText)}</p>` : ''}
+      <p><b>有効性の確認：</b>${esc(fmtDate(maxDate(signedAll.flatMap(g => g.versions.map(v => v.validity_checked))), '未確認'))}時点（協定ごとの判定の根拠は、それぞれの協定のページにあります）</p>
+    </details>
+    <div class="btn-row"><button type="button" class="btn btn-outline" id="csv">${esc(name)}の協定をCSVで保存（いまの数え方）</button></div>`;
+  bindNewsToggle(app, () => cityPage(ctx, code));
+  app.querySelector('#csv').addEventListener('click', () => downloadMouCSV(db, groupsToMous(groups), `mou_city_${code}_${settings.validity}.csv`));
+}
 // 関連事業の地域の説明（その地域で何が行われたか）
 export function regionNote(db, g, code) {
   const items = g.versions.flatMap(v => v.related_regions.filter(r => r.pref_code === code).map(r => ({ r, v })));

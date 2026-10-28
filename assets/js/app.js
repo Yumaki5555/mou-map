@@ -2,7 +2,7 @@
 // ページごとのプログラムとデータは、そのページを開いたときに読み込みます（最初の画面を早く出すため）。
 //   ・トップ・協定を探す（地図と一覧）・協定の詳細・3分でわかる：索引（data/build/core.json）だけで表示
 //   ・分析・比較・資料などのページ：全データを読み込んでから表示
-import { loadCore, loadFull, loadGeo, loadParts, hasFull } from './data.js';
+import { loadCore, loadFull, loadGeo, loadParts, hasFull, cityCheckDigit } from './data.js';
 import { esc, fmtDate, toast } from './util.js';
 import { setScope } from './shared.js';
 
@@ -44,6 +44,7 @@ const ROUTES = [
   { re: /^\/list$/, mod: 'pages', fn: 'listPage', nav: 'list', full: true, title: '有効性の区分で探す' },
   { re: /^\/impact$/, mod: 'pages', fn: 'impactPage', nav: 'impact', full: true, geo: true, title: '地域への影響を調べる' },
   { re: /^\/pref\/(\d{2})$/, mod: 'pages', fn: 'prefPage', arg: m => m[1], nav: 'map', full: true, d3: true },
+  { re: /^\/city\/(\d{6})$/, mod: 'pages', fn: 'cityPage', arg: m => m[1], nav: 'map', full: true },
   { re: /^\/national$/, mod: 'pages', fn: 'nationalPage', nav: 'national', full: true, title: '国・省庁の協定' },
   { re: /^\/compare$/, mod: 'pages', fn: 'comparePage', nav: 'compare', full: true, d3: true, title: '比較グラフ' },
   { re: /^\/about$/, mod: 'pages', fn: 'aboutPage', nav: 'about', full: true, title: '調査状況・出典・使い方' },
@@ -68,6 +69,17 @@ export function go(path, params = {}, opts = {}) {
 function redirect(path, params) {
   if (path === '/' && params.get('to') === 'sanpun') return '#/guide';
   if (path === '/map' && params.get('mode') === 'impact') return '#/impact?' + new URLSearchParams({ ...(params.get('i') ? { i: params.get('i') } : {}), to: 'imp-map' });
+  // 市区町村：#/pref/14?city=141003 は #/city/141003 へ。5けたのコード（検査用の数字なし）は6けたに直す。
+  // 都道府県そのもののコード（140007 など）は都道府県のページへ
+  const city = path.match(/^\/city\/(\d{5,6})$/)?.[1] || (/^\/pref\/\d{2}$/.test(path) && /^\d{5,6}$/.test(params.get('city') || '') ? params.get('city') : null);
+  if (city) {
+    const rest = new URLSearchParams(params);
+    rest.delete('city');
+    const qs = rest.toString() ? '?' + rest : '';
+    if (city.slice(2, 5) === '000') return `#/pref/${city.slice(0, 2)}${qs}`;
+    if (city.length === 5) return `#/city/${city}${cityCheckDigit(city)}${qs}`;
+    if (path.startsWith('/pref/')) return `#/city/${city}${qs}`;
+  }
   return null;
 }
 
