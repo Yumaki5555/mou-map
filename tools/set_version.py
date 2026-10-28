@@ -7,6 +7,7 @@
 更新直後に開くと、新しい画面と古いプログラムが混ざることがあります。ファイル名のうしろに版番号（?v=…）を付けると、
 版番号が変わったときにブラウザが必ず新しいファイルを読み込みます。assets/js の中のファイルはすべて自動で一覧にします
 （index.html の importmap。プログラムどうしの読み込みにも同じ版番号が付きます）。
+最初の画面で必ず使うプログラム（PRELOAD）は、読み込みの順番待ちが起きないよう index.html で先に読み込みを始めます（modulepreload）。
 """
 import glob
 import json
@@ -17,6 +18,8 @@ from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDEX = os.path.join(ROOT, 'index.html')
+# どのページを開いても最初に必要になるプログラム（それ以外は、そのページを開いたときに読み込みます）
+PRELOAD = ['app.js', 'data.js', 'util.js', 'shared.js', 'components.js']
 
 
 def main():
@@ -26,7 +29,8 @@ def main():
     imports = {f'./assets/js/{f}': f'./assets/js/{f}?v={v}' for f in files}
     block = ('<!-- version:start（tools/set_version.py が書き換えます） -->\n'
              '<script type="importmap">\n' + json.dumps({'imports': imports}, ensure_ascii=False, indent=1) + '\n</script>\n'
-             f'<script type="module" src="assets/js/app.js?v={v}"></script>\n'
+             + ''.join(f'<link rel="modulepreload" href="assets/js/{f}?v={v}">\n' for f in PRELOAD if f in files)
+             + f'<script type="module" src="assets/js/app.js?v={v}"></script>\n'
              '<!-- version:end -->')
     with open(INDEX, encoding='utf-8') as f:
         s = f.read()

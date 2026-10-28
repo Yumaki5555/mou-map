@@ -233,60 +233,118 @@ export const ZERO_STATES = {
 };
 
 // ---------- 読み込み ----------
-async function getJSON(path) {
-  const res = await fetch(path, { cache: 'no-cache' });
-  if (!res.ok) throw new Error(`${path} を読み込めませんでした（${res.status}）`);
-  try {
-    return await res.json();
-  } catch (e) {
-    throw new Error(`${path} の書き方に誤りがあります（${e.message}）`);
-  }
-}
-
-export async function loadAll() {
-  const warnings = [];
-  const [config, prefs, countries, survey, index, topo] = await Promise.all([
-    getJSON('data/config.json'),
-    getJSON('data/prefectures.json'),
-    getJSON('data/countries.json'),
-    getJSON('data/survey.json'),
-    getJSON('data/mous/index.json'),
-    getJSON('data/geo/japan_prefectures.topojson'),
-  ]);
-  // MOUのファイルは1つずつ読み、壊れたファイルがあっても他は表示する
-  const results = await Promise.allSettled(index.files.map(f => getJSON('data/mous/' + f)));
-  const records = [];
-  results.forEach((r, i) => {
-    if (r.status === 'fulfilled') {
-      const list = Array.isArray(r.value) ? r.value : (r.value.mous || []);
-      for (const m of list) { m._file = index.files[i]; records.push(m); }
-    } else {
-      warnings.push(r.reason.message);
+// データは3段階で読み込みます（最初の画面を早く出すため）。
+//   1. 索引（data/build/core.json）：全協定の一覧・地図・件数に必要な項目だけ。最初に1回だけ読む
+//   2. 協定ごとの詳しい内容：協定のページを開いたときに、その協定が入っている data/mous/*.json だけを読む
+//   3. 全データ（data/mous/*.json すべてと統計など）：キーワード検索・分析・比較・データ点検のページを開いたときだけ読む
+// 同じファイルは2回読みません。読み込みに失敗したものは覚えずに、もう一度試せるようにします。
+const loaded = new Map();
+function getJSON(path, opts = {}) {
+  if (loaded.has(path)) return loaded.get(path);
+  const p = (async () => {
+    // 元のデータ（data/mous など）は、公開直後の更新がすぐ届くよう毎回サーバーに確かめる。版番号付きの索引は通常どおり
+    const res = await fetch(path, opts.versioned ? {} : { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`${path} を読み込めませんでした（${res.status}）`);
+    try {
+      return await res.json();
+    } catch (e) {
+      throw new Error(`${path} の書き方に誤りがあります（${e.message}）`);
     }
-  });
-  let stats = null, excluded = [], systems = [];
-  if (index.stats) {
-    try { stats = await getJSON(index.stats); } catch (e) { warnings.push(e.message); }
-  }
-  if (index.excluded) {
-    try { excluded = (await getJSON(index.excluded)).items || []; } catch (e) { warnings.push(e.message); }
-  }
-  if (index.systems) {
-    try { systems = (await getJSON(index.systems)).systems || []; } catch (e) { warnings.push(e.message); }
-  }
-  let clair = null;
-  if (index.clair) {
-    try { clair = await getJSON(index.clair); } catch (e) { warnings.push(e.message); }
-  }
-  const db = buildDB({ config, prefs: prefs.prefectures, countries: countries.countries, survey, records, stats, topo, warnings, systems });
-  db.excluded = excluded;
-  db.clair = clair;
+  })();
+  loaded.set(path, p);
+  p.catch(() => loaded.delete(path));
+  return p;
+}
+const dataVersion = () => (typeof document !== 'undefined' && document.querySelector('meta[name="data-version"]')?.content) || '';
+
+// 1. 索引
+let coreDB = null;
+export async function loadCore() {
+  if (coreDB) return coreDB;
+  const core = await getJSON(`data/build/core.json?v=${dataVersion()}`, { versioned: true });
+  const records = core.mous.map(m => ({ ...m, _file: core.files[m.file] }));
+  const db = buildDB({ config: core.config, prefs: core.prefs, countries: core.countries, survey: core.survey, records, stats: null, warnings: [], systems: core.systems });
+  db.lite = true;
+  db.files = core.files;
+  coreDB = db;
   return db;
 }
 
+// 地図の形（data/build/geo.json）
+export function loadGeo() {
+  return getJSON(`data/build/geo.json?v=${dataVersion()}`, { versioned: true });
+}
+
+// 2. 協定ごとの詳しい内容。files のファイルだけを元のデータから読み、索引と同じ方法で集計の土台を作る。
+// ほかのファイルの協定へのリンク（後継の文書・関連する文書など）は、索引の記録で名前を表示する
+export async function loadParts(files, opts = {}) {
+  if (fullDB) return fullDB;
+  const core = await loadCore();
+  const [lists, systems, stats] = await Promise.all([
+    Promise.all(files.map(f => getJSON('data/mous/' + f))),
+    getJSON('data/systems.json').then(x => x.systems || []),
+    opts.stats ? loadStats() : null,
+  ]);
+  const records = [];
+  lists.forEach((d, i) => { for (const m of (Array.isArray(d) ? d : d.mous || [])) records.push({ ...m, _file: files[i] }); });
+  const db = buildDB({ config: core.config, prefs: core.prefs, countries: core.countries, survey: core.survey, records, stats, warnings: [], systems });
+  db.partial = true;
+  for (const [k, v] of core.mouById) if (!db.mouById.has(k)) db.mouById.set(k, v);
+  return db;
+}
+export function loadStats() {
+  return getJSON('data/stats/foreign_residents.json');
+}
+
+// 3. 全データ。MOUのファイルは1つずつ読み、壊れたファイルがあっても他は表示する
+let fullDB = null, fullPromise = null;
+export function hasFull() { return !!fullDB; }
+export function loadFull() {
+  if (fullDB) return Promise.resolve(fullDB);
+  if (fullPromise) return fullPromise;
+  fullPromise = (async () => {
+    const warnings = [];
+    const [config, prefs, countries, survey, index] = await Promise.all([
+      getJSON('data/config.json'),
+      getJSON('data/prefectures.json'),
+      getJSON('data/countries.json'),
+      getJSON('data/survey.json'),
+      getJSON('data/mous/index.json'),
+    ]);
+    const opt = (path, f) => path ? getJSON(path).then(f, e => { warnings.push(e.message); return null; }) : Promise.resolve(null);
+    // 統計・登録しなかったもの・国内制度・CLAIRの照合も同時に読む（順番に待たない）
+    const [results, stats, excluded, systems, clair] = await Promise.all([
+      Promise.allSettled(index.files.map(f => getJSON('data/mous/' + f))),
+      opt(index.stats, x => x),
+      opt(index.excluded, x => x.items || []),
+      opt(index.systems, x => x.systems || []),
+      opt(index.clair, x => x),
+    ]);
+    const records = [];
+    results.forEach((r, i) => {
+      if (r.status === 'fulfilled') {
+        const list = Array.isArray(r.value) ? r.value : (r.value.mous || []);
+        for (const m of list) records.push({ ...m, _file: index.files[i] });
+      } else {
+        warnings.push(r.reason.message);
+      }
+    });
+    const db = buildDB({ config, prefs: prefs.prefectures, countries: countries.countries, survey, records, stats, warnings, systems: systems || [] });
+    db.excluded = excluded || [];
+    db.clair = clair;
+    db.full = true;
+    fullDB = db;
+    return db;
+  })();
+  fullPromise.catch(() => { fullPromise = null; });
+  return fullPromise;
+}
+// 以前の名前（ツールなどから使う場合のため）
+export const loadAll = loadFull;
+
 // ---------- 集計の土台 ----------
-export function buildDB({ config, prefs, countries, survey, records, stats, topo, warnings, systems = [] }) {
-  const db = { config, prefs, countries, survey, stats, topo, warnings };
+export function buildDB({ config, prefs, countries, survey, records, stats, warnings, systems = [] }) {
+  const db = { config, prefs, countries, survey, stats, warnings };
   db.prefByCode = new Map(prefs.map(p => [p.code, p]));
   db.countryByCode = new Map(countries.map(c => [c.code, c]));
   db.systems = systems;
@@ -420,13 +478,34 @@ function normalize(m) {
   r._orgType = JAPAN_ORG_TYPE[r.japan_org_type] ? r.japan_org_type : (DEFAULT_ORG_TYPE[r.japan_level] || 'association');
   r._pairKind = pairKind(r._orgType, r.partner_type);
   r._official = r.evidence_level !== 'news_only';
-  r._relation = deriveRelation(r);
+  const d = m._d;
+  if (d) {
+    // 索引（core.json）の記録：合意内容などの本文を持たないので、作成時に元のデータから決めた分類を使う
+    r._lite = true;
+    r._kind = d.kind || r._kind;
+    r._orgType = d.orgType || r._orgType;
+    r._pairKind = d.pairKind || r._pairKind;
+    r._relation = d.relation || 'unconfirmed';
+    r.impacts = (d.imp || []).map(([category, stage]) => ({ category, stage, sources: [] }));
+    r._autoImpacts = (d.aimp || []).map(category => ({ category, stage: 'agreed', sources: [], causality: 'n/a', _auto: true }));
+    r.blurb = m.blurb || '';
+  } else {
+    r._relation = deriveRelation(r);
+    r._autoImpacts = autoAgreed(r);
+    r.blurb = blurbOf(r);
+  }
   const vi = validityInfo(r);
   r._validity = vi.state;
   r._validityReason = vi.reason;
-  r._autoImpacts = autoAgreed(r);
   r._year = yearOf(r.signed_date);
   return r;
+}
+
+// 一覧のカードに出す「何についての協定か」の短い説明。目的の記載を優先し、なければ合意内容の最初の項目を短くして使う
+function blurbOf(r) {
+  if (r.purpose) return String(r.purpose).trim();
+  const t = String(r.summary[0] || r.content[0] || '').trim();
+  return t.length > 100 ? t.slice(0, 98) + '…' : t;
 }
 
 // ---------- 絞り込み ----------

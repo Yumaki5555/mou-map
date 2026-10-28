@@ -13,6 +13,8 @@ import {
 import { mouCSV, groupsToMous } from '../assets/js/csv.js';
 import { searchGroups, applyFacets, facetCounts, tokenCounts, parseQuery, SEARCH_FIELD } from '../assets/js/search.js';
 import { findOrgs, orgTypeLabel } from '../assets/js/orgs.js';
+import { sourceHashes } from './build_data.mjs';
+import { readState, writeState, computeResults, facetCounts as exFacetCounts, conditionTags, removeTag, clearAll, V_PRESET, V_PRESETS } from '../assets/js/explore-state.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const J = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
@@ -370,6 +372,121 @@ for (const sc of VALIDITY_SCOPES) {
   ok('未解決の行はすべて理由を分類済み', !c.reasons.unclassified, JSON.stringify(c.reasons));
   ok('照合で登録した協定のIDがすべて存在する', db.clair.rows.every(r => (r.site_ids || []).every(id => db.mouById.has(id))));
   ok('CLAIRが出典の協定でも、締結主体はCLAIRではない', db.mous.filter(m => m.sources.some(s => /自治体国際化協会/.test(s.publisher || ''))).every(m => !/自治体国際化協会|CLAIR/.test(m.japan_org || '')));
+}
+
+// ---------- 18. 公開用の索引（data/build/core.json）：元のデータと同じ結果になるか ----------
+// 最初の画面・地図・一覧は索引だけで表示するため、索引で数えた件数が全データで数えた件数と1件でも違えば不合格
+{
+  const core = J('data/build/core.json');
+  const src = sourceHashes(ROOT);
+  const stale = Object.keys({ ...src, ...core.src }).filter(k => src[k] !== core.src[k]);
+  eq('索引が最新（元のデータを直したら node tools/build_data.mjs を実行）', stale, []);
+  const lite = buildDB({ config: core.config, prefs: core.prefs, countries: core.countries, survey: core.survey, records: core.mous.map(m => ({ ...m, _file: core.files[m.file] })), stats: null, warnings: [], systems: core.systems });
+  eq('索引の文書数＝元のデータの文書数', lite.mous.length, db.mous.length);
+  eq('索引の協定数＝元のデータの協定数', lite.groups.length, db.groups.length);
+  const sig = g => [g.key, g.validity, g.kind, g.category, g.relation, g.level, g.orgType, g.pairKind, g.pref_code, g.status, g.official, g.planned, g.first_year, g.countries.join('+'), g.fields.join('+'), g.regions.join('+'), g.versions.length, g.latest.id, g.first.id].join('|');
+  const fullSig = new Map(db.groups.map(g => [g.key, sig(g)]));
+  const diff = lite.groups.filter(g => fullSig.get(g.key) !== sig(g)).map(g => g.key);
+  eq('索引の協定の分類・有効性・地域・相手国などが元のデータと一致', diff, []);
+  const impSig = g => [...new Set(g.impacts.map(i => `${i.category}:${i.stage}:${i._auto ? 1 : 0}`))].sort().join(',');
+  const impDiff = lite.groups.filter(g => impSig(g) !== impSig(db.groupByKey.get(g.key))).map(g => g.key);
+  eq('索引の地域への影響（分野×段階）が元のデータと一致', impDiff, []);
+  eq('索引の一覧の説明文が元のデータと一致', lite.mous.filter(m => m.blurb !== db.mouById.get(m.id).blurb).map(m => m.id), []);
+  // いろいろな条件で、索引と全データの件数が一致するか（地図・一覧・件数が同じ数になることの確認）
+  let bad = 0, n = 0;
+  for (const sc of [...VALIDITY_SCOPES.map(s => s.code)]) for (const doc of ['mou', 'foreign', 'all']) for (const lv of [null, 'prefecture', 'national', 'municipality', 'organization']) {
+    n++;
+    const f = { ...B, validity: sc, docScope: doc, ...(lv ? { level: lv } : {}) };
+    if (filterGroups(lite, f).length !== filterGroups(db, f).length) bad++;
+  }
+  eq(`条件の組み合わせ${n}通りで、索引と全データの件数が一致`, bad, 0);
+  const geo = J('data/build/geo.json');
+  eq('地図の形：47都道府県', Object.keys(geo.prefs).length, 47);
+  ok('地図の形：どの県にも線と県名の位置がある', Object.values(geo.prefs).every(p => /^M[\d.]+ [\d.]+l/.test(p.d) && Number.isFinite(p.lx) && Number.isFinite(p.ly)));
+  const html = readFileSync(join(ROOT, 'index.html'), 'utf8');
+  ok('index.html に索引の版番号がある', html.includes(`core.json?v=`) && /<meta name="data-version" content="[0-9a-f]{12}">/.test(html));
+}
+
+// ---------- 19. 「協定を探す」の検索条件（地図・件数・一覧が同じ条件を使う） ----------
+{
+  const P = s => new URLSearchParams(s);
+  const S0 = { validity: 'valid', docScope: 'mou', includeNews: false };
+  const st = readState(db, P(''), '/map', S0);
+  eq('初期設定：有効確認のみ・MOUのみ・公式資料のみ', [st.vs, st.doc, st.ev], [['valid_confirmed'], 'mou', ['official']]);
+  const sst = readState(db, P('q=NAGOMi'), '/search', S0);
+  eq('以前のサイト内検索のリンク：すべての有効性・すべての文書・報道を含む', [sst.vs.length, sst.doc, sst.ev, sst.sort], [5, 'all', [], 'rel']);
+  const old = readState(db, P('mode=field&p=04&v=valid_unk&doc=all'), '/map', S0);
+  eq('以前の地図のリンク（分野別・都道府県・数え方）を読める', [old.f, old.p, old.vs, old.doc], [['labor'], ['04'], ['valid_confirmed', 'unconfirmed'], 'all']);
+  const oc = readState(db, P('mode=country&c=VN,ID'), '/map', S0);
+  eq('以前の地図の「相手国別」2か国は相手国ごとの色分け', [oc.c, oc.color], [['VN', 'ID'], 'country']);
+  eq('以前のサイト内検索の cat=mou_moc は詳しい区分に読み替え', readState(db, P('cat=mou_moc'), '/search', S0).cat, ['mou', 'moc', 'mou_other']);
+  // 書いて読み直すと同じ条件になる
+  const full = { ...st, q: 'ベトナム', p: ['04'], c: ['VN'], f: ['labor'], s: ['in_progress'], vs: ['valid_confirmed', 'ended_confirmed'], doc: 'foreign', cat: ['moc'], ot: ['prefecture'], pk: ['local'], ev: [], y1: 2015, y2: 2025, lv: 'prefecture', sort: 'old', color: 'count', names: true };
+  const back = readState(db, writeState(full), '/map', S0);
+  eq('条件をアドレスに書いて読み直すと同じ', JSON.stringify(back), JSON.stringify(full));
+  // 地図の合計＝一覧の「都道府県」の件数。国・省庁は地域の件数に入らない
+  const any = { ...clearAll(st), vs: [...V_PRESET.any.states], ev: [] };
+  for (const s of [st, any, { ...any, c: ['VN'] }, { ...any, f: ['education'] }, { ...st, s: ['in_progress'] }]) {
+    const r = computeResults(db, s, null);
+    eq(`地図の合計＝一覧の都道府県の件数（${conditionTags(db, s, { pref: x => x, country: x => x }).map(t => t.label).join('・') || '条件なし'}）`, [...r.mapCounts.values()].reduce((a, b) => a + b, 0), r.byLevel.prefecture);
+    eq('締結主体ごとの件数の合計＝件数', Object.values(r.byLevel).reduce((a, b) => a + b, 0), r.scoped.length);
+    eq('一覧（すべて）＝件数', r.shown.length, r.scoped.length);
+  }
+  // 地域を選んだとき：県が締結・県内の市区町村・関連事業（団体など）を分け、国・省庁は入れない
+  const pr = computeResults(db, { ...any, p: ['04'] }, null);
+  ok('地域を選んだとき、国・省庁の協定は一覧に入らない', pr.scoped.every(g => g.level !== 'national'));
+  eq('地域を選んだとき、県が締結した件数＝地図のその県の数', pr.byLevel.prefecture, pr.mapCounts.get('04') || 0);
+  // 団体の協定（関連事業の地域）・市区町村・国が混ざった小さなデータで、地域の数え方を確かめる
+  const base2 = { title_ja: 'テスト', doc_type: '覚書', country_code: 'VN', partner_org: '相手', signed_date: '2021-03-01', fields: ['labor'], status: 'in_progress', validity_state: 'valid_confirmed', sources: [{ id: 's1', url: 'https://example.jp', checked: '2026-10-28' }] };
+  const t2 = buildDB({
+    config: { data_as_of: '2026-10-28' }, prefs: [{ code: '01', name: '北海道' }, { code: '02', name: '青森県' }], countries: [{ code: 'VN', ja: 'ベトナム', en: 'Viet Nam' }], survey: {}, stats: null, warnings: [],
+    records: [
+      { ...base2, id: 'P1', japan_level: 'prefecture', pref_code: '01' },
+      { ...base2, id: 'C1', japan_level: 'municipality', pref_code: '01', municipality_code: '011002', municipality_name: '札幌市' },
+      { ...base2, id: 'O1', japan_level: 'organization', japan_org_type: 'company', japan_org: '株式会社テスト', related_regions: [{ pref_code: '01', sources: ['s1'] }] },
+      { ...base2, id: 'O2', japan_level: 'organization', japan_org_type: 'company', japan_org: '株式会社テスト2' },
+      { ...base2, id: 'N1', japan_level: 'national', japan_org: '日本国政府（外務省）' },
+      { ...base2, id: 'P2', japan_level: 'prefecture', pref_code: '02' },
+    ],
+  });
+  const st2 = { ...clearAll(st), vs: [...V_PRESET.any.states], ev: [] };
+  const r2 = computeResults(t2, { ...st2, p: ['01'] }, null);
+  eq('地域を選んだとき：県・県内の市区町村・関連事業（団体）を分けて数え、国と他県は入れない', [r2.byLevel.prefecture, r2.byLevel.municipality, r2.byLevel.organization, r2.byLevel.national, r2.nationalOut], [1, 1, 1, 0, 1]);
+  const r3 = computeResults(t2, st2, null);
+  eq('地図は都道府県が締結したものだけを数える（市区町村・団体・国は色に入れない）', [...r3.mapCounts], [['01', 1], ['02', 1]]);
+  eq('地域を選ばないときは締結主体ごとに1回だけ数える', [r3.byLevel.prefecture, r3.byLevel.municipality, r3.byLevel.organization, r3.byLevel.national, r3.scoped.length], [2, 1, 2, 1, 6]);
+  const f2 = exFacetCounts(t2, st2, null);
+  eq('都道府県の選択肢の件数＝その県を選んだときの件数', [f2.p.get('01'), f2.p.get('02')], [3, 1]);
+  // 初期設定の件数＝これまでの地図の件数（有効確認のみ・MOUのみ・公式資料のみ）
+  eq('初期設定の件数＝これまでの数え方の件数', computeResults(db, st, null).scoped.length, filterGroups(db, { ...B, validity: 'valid', docScope: 'mou' }).length);
+  // すべて解除＝トップの「登録済み」
+  eq('すべて解除の件数＝トップの「登録済み」', computeResults(db, clearAll(st), null).scoped.length, validityCounts(db.groups.filter(g => g.official)).signed_total);
+  // 選択肢ごとの件数＝その選択肢を選んだときの件数
+  const fc = exFacetCounts(db, any, null);
+  let fbad = 0;
+  for (const [c, k] of fc.c) if (computeResults(db, { ...any, c: [c] }, null).scoped.length !== k) fbad++;
+  for (const [p, k] of fc.p) if (computeResults(db, { ...any, p: [p] }, null).scoped.length !== k) fbad++;
+  for (const [f, k] of fc.f) if (computeResults(db, { ...any, f: [f] }, null).scoped.length !== k) fbad++;
+  for (const pr2 of V_PRESETS) if (computeResults(db, { ...any, vs: pr2.states }, null).scoped.length !== fc.vPreset.get(pr2.code)) fbad++;
+  eq('選択肢に出す件数＝その選択肢を選んだときの件数（相手国・都道府県・分野・有効性）', fbad, 0);
+  // 初期設定（有効確認のみ・MOUのみ）や地域を選んだ状態でも、選択肢の件数＝選んだときの件数
+  let fbad2 = 0, fn = 0;
+  for (const base of [st, { ...st, p: ['04'] }, { ...any, c: ['VN'], f: ['labor'] }, { ...st, doc: 'foreign', ev: [] }]) {
+    const f2 = exFacetCounts(db, base, null);
+    const n = s => computeResults(db, s, null).scoped.length;
+    for (const d of ['mou', 'foreign', 'all']) { fn++; if (n({ ...base, doc: d }) !== (f2.doc.get(d) || 0)) fbad2++; }
+    for (const p2 of V_PRESETS) { fn++; if (n({ ...base, vs: p2.states }) !== f2.vPreset.get(p2.code)) fbad2++; }
+    for (const s2 of ['in_progress', 'signed', 'unknown', 'completed', 'expired']) { fn++; if (n({ ...base, s: [s2] }) !== (f2.s.get(s2) || 0)) fbad2++; }
+    for (const [c, k] of f2.c) { fn++; if (n({ ...base, c: [c] }) !== k) fbad2++; }
+    for (const [o, k] of f2.ot) { fn++; if (n({ ...base, ot: [o] }) !== k) fbad2++; }
+    for (const [o, k] of f2.ev) { fn++; if (n({ ...base, ev: [o] }) !== k) fbad2++; }
+  }
+  eq(`選択肢の件数（文書の種類・有効性・実施状況・相手国・締結主体・報道）${fn}通りが、選んだときの件数と一致`, fbad2, 0);
+  // タグを外す
+  eq('有効性のタグを外すと「締結済みすべて」', removeTag(st, 'vs').vs, V_PRESET.all.states);
+  // キーワード検索と同じ結果（以前のサイト内検索と同じ件数）
+  const kw = new Map(searchGroups(db, parseQuery(db, '宮城県 ベトナム')).map(r => [r.g.key, r]));
+  eq('キーワード「宮城県 ベトナム」の件数（すべての有効性・文書）', computeResults(db, sst, kw).scoped.length, kw.size);
 }
 
 // ---------- 実データの点検 ----------

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>日本と世界のMOU・協定マップ｜海外との約束と地域への影響</title>
-<meta name="description" content="日本政府や都道府県、団体などが海外と結んだ覚書（MOU）・協定を、地図と公式資料から調べられます。現在有効と確認できる協定・終了した協定・有効性が未確認の協定を分けて表示し、外国人材の受入れに関係するEPA・交換公文・ワーキング・ホリデーの取決めや、地域への影響も確認できます。">
+<meta name="description" content="日本政府や都道府県、団体などが海外と結んだ覚書（MOU）・協定を、地域や相手国から公式資料にもとづいて調べられます。現在有効と確認できる協定・終了した協定・有効性が未確認の協定を分けて表示し、事業の実施状況や地域への影響も確認できます。">
 <link rel="canonical" href="https://yumaki5555.github.io/mou-map/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="日本と世界のMOU・協定マップ">
@@ -15,8 +15,13 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="日本と世界のMOU・協定マップ">
 <meta name="twitter:description" content="国・都道府県が海外と結んだ覚書・協定を、公式資料にもとづいて地図で調べられます。">
+<meta name="theme-color" content="#1f7a4a">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f7a4a'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3EM%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/css/style.css?v=202610281813">
+<link rel="stylesheet" href="assets/css/style.css?v=202610281939">
+<!-- data:start（tools/build_data.mjs が書き換えます） -->
+<meta name="data-version" content="2c335c6b5921">
+<link rel="preload" href="data/build/core.json?v=2c335c6b5921" as="fetch" crossorigin>
+<!-- data:end -->
 </head>
 <body>
 <a class="skip" href="#app">本文へ移動</a>
@@ -26,7 +31,7 @@
       <span class="brand-mark" aria-hidden="true">M</span>
       <span class="brand-text">
         <span class="brand-title">日本と世界のMOU・協定マップ</span>
-        <span class="brand-sub">どの国と、何を約束した？ 私たちの地域に何が起こる？</span>
+        <span class="brand-sub">海外との協定を、地域・相手国から調べる</span>
       </span>
     </a>
     <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-nav">
@@ -34,69 +39,94 @@
       <span>メニュー</span>
     </button>
     <form class="header-search" role="search" id="global-search">
-      <label class="visually-hidden" for="global-q">サイト内を検索</label>
-      <input id="global-q" type="search" placeholder="例：宮城県 ベトナム／NAGOMi" autocomplete="off">
+      <label class="visually-hidden" for="global-q">協定をキーワードで探す</label>
+      <input id="global-q" type="search" placeholder="例：宮城県 ベトナム／NAGOMi" autocomplete="off" enterkeyhint="search">
       <button class="btn btn-small" type="submit">検索</button>
     </form>
   </div>
   <nav class="site-nav" id="site-nav" aria-label="メインメニュー">
     <div class="wrap nav-inner">
-      <a href="#/?to=sanpun" data-jump="sanpun" data-nav="home">3分でわかる</a>
-      <a href="#/map" data-nav="map">日本地図</a>
-      <a href="#/country" data-nav="country">相手国</a>
-      <a href="#/types" data-nav="types">協定の種類</a>
-      <a href="#/actors" data-nav="actors">締結主体</a>
-      <a href="#/field" data-nav="field">分野・省庁</a>
-      <a href="#/impact" data-nav="impact">地域への影響</a>
-      <a href="#/compare" data-nav="compare">比較</a>
-      <a href="#/search" data-nav="search">検索</a>
-      <a href="#/about" data-nav="about">調査状況</a>
+      <a href="#/map" data-nav="map" class="nav-main">協定を探す</a>
+      <a href="#/guide" data-nav="guide">3分でわかるMOU</a>
+      <details class="nav-group" data-group="more">
+        <summary data-nav-sum="more">詳しく調べる</summary>
+        <div class="nav-pop">
+          <a href="#/country" data-nav="country">相手国から探す</a>
+          <a href="#/actors" data-nav="actors">締結主体（国・自治体・団体）</a>
+          <a href="#/types" data-nav="types">協定の種類（MOU・EPAなど）</a>
+          <a href="#/field" data-nav="field">分野・省庁から探す</a>
+          <a href="#/national" data-nav="national">国・省庁の協定（全国対象）</a>
+          <a href="#/list" data-nav="list">有効性の区分で探す</a>
+        </div>
+      </details>
+      <details class="nav-group" data-group="stats">
+        <summary data-nav-sum="stats">統計・分析</summary>
+        <div class="nav-pop">
+          <a href="#/impact" data-nav="impact">地域への影響</a>
+          <a href="#/compare" data-nav="compare">比較グラフ・集計</a>
+          <a href="#/issues" data-nav="issues">制度の課題を考える</a>
+        </div>
+      </details>
+      <details class="nav-group" data-group="docs">
+        <summary data-nav-sum="docs">資料・出典</summary>
+        <div class="nav-pop">
+          <a href="#/about" data-nav="about">調査状況・出典・数え方</a>
+          <a href="#/about?to=ab-clair" data-nav="about-clair">CLAIRの一覧との照合</a>
+          <a href="#/data" data-nav="data">データのダウンロード（CSV）・点検</a>
+        </div>
+      </details>
     </div>
   </nav>
 </header>
 
 <main id="app" class="wrap" tabindex="-1">
-  <p class="loading">データを読み込んでいます…</p>
+  <p class="loading">読み込んでいます…</p>
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
     <p id="footer-updated"></p>
-    <p>このサイトは、公開された公式資料で確認できた範囲の情報を整理したものです。政治的な評価は行っていません。数字は「確認できたもの」のみで、不明な値を0として扱っていません。協定の件数は、このサイトに登録した協定の数で、全国の実際の総数ではありません。初期設定では「現在も有効だと公式資料で確認できたもの」だけを数えています。</p>
+    <p>このサイトは、公開された公式資料で確認できた範囲の情報を整理したものです。政治的な評価は行っていません。数字は「確認できたもの」のみで、不明な値を0として扱っていません。協定の件数は、このサイトに登録した協定の数で、全国の実際の総数ではありません。</p>
     <p>地図：「国土数値情報（行政区域データ）」（国土交通省）<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_0.html" target="_blank" rel="noopener">https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_0.html</a> をもとに、スマートニュース メディア研究所が簡略化したデータ（<a href="https://github.com/smartnews-smri/japan-topography" target="_blank" rel="noopener">japan-topography</a>）を加工して作成。</p>
-    <p class="footer-links"><a href="#/list">有効性の区分で探す</a><a href="#/about">出典・調査範囲・方法・注意点</a><a href="#/issues">制度の課題を考える</a><a href="#/data">データのダウンロード（CSV）</a></p>
+    <p class="footer-links"><a href="#/guide">3分でわかるMOU</a><a href="#/about">出典・調査範囲・数え方</a><a href="#/issues">制度の課題を考える</a><a href="#/data">データのダウンロード（CSV）</a></p>
   </div>
 </footer>
 
 <button type="button" id="to-top" class="to-top" aria-label="ページの上に戻る">↑ 上に戻る</button>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-<script src="assets/vendor/d3.min.js"></script>
-<script src="assets/vendor/topojson-client.min.js"></script>
 <!-- version:start（tools/set_version.py が書き換えます） -->
 <script type="importmap">
 {
  "imports": {
-  "./assets/js/app.js": "./assets/js/app.js?v=202610281813",
-  "./assets/js/charts.js": "./assets/js/charts.js?v=202610281813",
-  "./assets/js/components.js": "./assets/js/components.js?v=202610281813",
-  "./assets/js/csv.js": "./assets/js/csv.js?v=202610281813",
-  "./assets/js/data.js": "./assets/js/data.js?v=202610281813",
-  "./assets/js/export.js": "./assets/js/export.js?v=202610281813",
-  "./assets/js/home.js": "./assets/js/home.js?v=202610281813",
-  "./assets/js/icons.js": "./assets/js/icons.js?v=202610281813",
-  "./assets/js/map.js": "./assets/js/map.js?v=202610281813",
-  "./assets/js/orgs.js": "./assets/js/orgs.js?v=202610281813",
-  "./assets/js/page-map.js": "./assets/js/page-map.js?v=202610281813",
-  "./assets/js/page-search.js": "./assets/js/page-search.js?v=202610281813",
-  "./assets/js/pages.js": "./assets/js/pages.js?v=202610281813",
-  "./assets/js/search.js": "./assets/js/search.js?v=202610281813",
-  "./assets/js/shared.js": "./assets/js/shared.js?v=202610281813",
-  "./assets/js/util.js": "./assets/js/util.js?v=202610281813"
+  "./assets/js/app.js": "./assets/js/app.js?v=202610281939",
+  "./assets/js/charts.js": "./assets/js/charts.js?v=202610281939",
+  "./assets/js/components.js": "./assets/js/components.js?v=202610281939",
+  "./assets/js/csv.js": "./assets/js/csv.js?v=202610281939",
+  "./assets/js/data.js": "./assets/js/data.js?v=202610281939",
+  "./assets/js/detail.js": "./assets/js/detail.js?v=202610281939",
+  "./assets/js/explore-state.js": "./assets/js/explore-state.js?v=202610281939",
+  "./assets/js/explore.js": "./assets/js/explore.js?v=202610281939",
+  "./assets/js/export.js": "./assets/js/export.js?v=202610281939",
+  "./assets/js/guide.js": "./assets/js/guide.js?v=202610281939",
+  "./assets/js/home.js": "./assets/js/home.js?v=202610281939",
+  "./assets/js/icons.js": "./assets/js/icons.js?v=202610281939",
+  "./assets/js/map-model.js": "./assets/js/map-model.js?v=202610281939",
+  "./assets/js/map.js": "./assets/js/map.js?v=202610281939",
+  "./assets/js/orgs.js": "./assets/js/orgs.js?v=202610281939",
+  "./assets/js/pages.js": "./assets/js/pages.js?v=202610281939",
+  "./assets/js/search.js": "./assets/js/search.js?v=202610281939",
+  "./assets/js/shared.js": "./assets/js/shared.js?v=202610281939",
+  "./assets/js/util.js": "./assets/js/util.js?v=202610281939"
  }
 }
 </script>
-<script type="module" src="assets/js/app.js?v=202610281813"></script>
+<link rel="modulepreload" href="assets/js/app.js?v=202610281939">
+<link rel="modulepreload" href="assets/js/data.js?v=202610281939">
+<link rel="modulepreload" href="assets/js/util.js?v=202610281939">
+<link rel="modulepreload" href="assets/js/shared.js?v=202610281939">
+<link rel="modulepreload" href="assets/js/components.js?v=202610281939">
+<script type="module" src="assets/js/app.js?v=202610281939"></script>
 <!-- version:end -->
 </body>
 </html>

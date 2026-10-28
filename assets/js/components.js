@@ -167,31 +167,70 @@ export function whoLine(db, m) {
   return `${esc(jp)} ⇄ ${esc(partners.join(' ／ '))}`;
 }
 
+// ---------- 一覧のカード ----------
+// 一覧では「①地域・相手国 → ②協定の名称（正式名称）→ ③締結日 → ④有効性 → ⑤何についての協定か → ⑥事業の実施状況 → ⑦詳しく見る」
+// だけを出し、分野・関係機関・文書の表記などの補足は詳しいページに回す（バッジを並べない）。
+// 有効性と事業の実施状況は別のことなので、それぞれ見出しを付けて別の行に書く。
+const MINISTRY = /法務省|出入国在留管理庁|外務省|厚生労働省|警察庁|経済産業省|農林水産省|文部科学省|国土交通省|総務省|内閣府|内閣官房|環境省|防衛省|財務省/g;
+// 日本側の締結主体の短い名前（国は担当省庁、市区町村は都道府県名を添える、団体は略称）
+export function sideLabel(db, g) {
+  const m = g.latest;
+  if (g.level === 'national') {
+    const mins = [...new Set((m.japan_org || '').match(MINISTRY) || [])];
+    return mins.length ? mins.join('・') : '日本政府';
+  }
+  if (g.level === 'prefecture') return prefName(db, g.pref_code);
+  if (g.level === 'municipality') return `${m.municipality_name || m.japan_org || '市区町村'}（${prefName(db, g.pref_code)}）`;
+  const abbr = (m.japan_org || '').match(/[（(]([^）)]{2,16})[）)]\s*$/);
+  const name = (m.japan_org || '団体').replace(/^(?:公益|一般)?(?:財団|社団)法人|^独立行政法人|^株式会社/, '').replace(/[（(][^）)]*[）)]\s*$/, '');
+  return abbr && /^[A-Za-z]/.test(abbr[1]) ? abbr[1] : name.slice(0, 22);
+}
+const LEVEL_KIND = { national: '国・省庁', prefecture: '都道府県', municipality: '市区町村', organization: '団体・企業など' };
+function partnerLabel(db, m) {
+  const org = String(m.partner_org || '').replace(/[（(]署名[^）)]*[）)]/g, '').trim();
+  const cn = countryName(db, m.country_code);
+  const extra = (m.additional_partners || []).map(a => countryName(db, a.country_code)).filter(c => c !== cn);
+  // 相手の名前が国名で始まるときは、国名を重ねない（「バングラデシュ・バングラデシュ人民共和国…」にしない）
+  return `${org.startsWith(cn) ? org : `${cn}・${org}`}${extra.length ? `（ほかに${[...new Set(extra)].join('・')}）` : ''}`;
+}
+// 有効性と事業の実施状況の組み合わせについての、ひと言の補足（混同しないように）
+function stateNote(g) {
+  if (g.validity === 'valid_confirmed' && ['signed', 'unknown'].includes(g.status)) return '協定は有効と確認できていますが、協定に基づく具体的な事業はまだ確認できていません。';
+  if (g.validity === 'unconfirmed' && g.status === 'in_progress') return '関連する事業は確認できていますが、協定そのものが今も有効かは確認できていません。';
+  return '';
+}
+export function statusLabel(code) {
+  return (STATUS[code] || STATUS.unknown).ja;
+}
+
+// opts：h（見出しの要素）／role（地域を選んだときの関係の説明）／extra（キーワードの一致箇所など）／showSources（情報源の行）
 export function mouCard(db, g, opts = {}) {
   // 一覧では最初に結んだ協定の名前を見出しにし、更新・修正があればその日付を添える
   const m = g.first;
   const H = opts.h || 'h3';
-  const renewals = g.versions.length > 1 ? `<span class="badge b-level">更新・修正を含む（全${g.versions.length}文書）</span>` : '';
-  let signed = m.signed_date ? `締結日：${fmtDate(m.signed_date)}` : `締結日：不明${m.announced_date ? `（発表：${fmtDate(m.announced_date)}）` : m.effective_date ? `（開始：${fmtDate(m.effective_date)}）` : ''}`;
-  if (g.latest !== m && g.latest.signed_date) signed += `（最新の更新・修正：${fmtDate(g.latest.signed_date)}）`;
-  const impactCats = [...new Set(g.impacts.map(i => i.category))];
-  return `<article class="mou-card">
-    <div class="who">${whoLine(db, m)}</div>
-    <${H}><a href="#/mou/${encodeURIComponent(m.id)}">${esc(m.title_ja)}</a></${H}>
-    <div class="meta">
-      <span>${esc(signed)}</span>
-      ${validityBadge(g.validity)} ${kindBadge(g.kind)} ${statusBadge(g.status)} ${fieldBadges(g.fields)}
-      <span class="badge b-doc">${esc(m.doc_type)}</span>
-      ${opts.showActor || !['national', 'prefecture'].includes(g.level) ? actorBadges(g) : ''}
-      <span class="badge b-level">相手：${esc(PARTNER_TYPES[m.partner_type] || '種別不明')}</span>
-      ${renewals} ${evidenceBadge(m)}
-    </div>
-    ${m.purpose ? `<p class="purpose">${esc(m.purpose)}</p>` : ''}
-    ${(m.numbers || []).length ? `<p class="small" style="margin:6px 0 0"><b>人数の記載：</b>${m.numbers.slice(0, 3).map(n => `${esc(NUMBER_KIND[n.kind]?.ja || n.kind)} ${n.value == null ? '未確認' : esc(Number(n.value).toLocaleString('ja-JP') + (n.unit || '人'))}`).join('／')}${m.numbers.length > 3 ? ' ほか' : ''}（<a href="#/mou/${encodeURIComponent(m.id)}">数字の意味</a>）</p>` : ''}
-    ${impactCats.length ? `<p class="small muted" style="margin:6px 0 0">地域への影響の記録：${impactCats.map(c => esc(IMPACTS.find(i => i.code === c)?.ja || c)).join('、')}</p>` : ''}
-    ${g.level === 'organization' ? '<p class="small muted" style="margin:6px 0 0">団体・企業などが締結した協定です。日本政府・都道府県が締結した件数には含めていません。</p>' : ''}
+  const href = `#/mou/${encodeURIComponent(m.id)}`;
+  let date = m.signed_date ? fmtDate(m.signed_date) : `不明${m.announced_date ? `（発表：${fmtDate(m.announced_date)}）` : m.effective_date ? `（開始：${fmtDate(m.effective_date)}）` : ''}`;
+  if (g.latest !== m && g.latest.signed_date) date += `（最新の更新・修正：${fmtDate(g.latest.signed_date)}）`;
+  const v = VALIDITY[g.validity] || VALIDITY.unconfirmed;
+  const s = STATUS[g.status] || STATUS.unknown;
+  const note = stateNote(g);
+  return `<article class="mou-card rc">
+    <p class="rc-who"><span class="rc-side"><span class="rc-lv">${esc(LEVEL_KIND[g.level] || '')}</span>${esc(sideLabel(db, g))}</span><span class="rc-arrow" aria-label="と">⇄</span><span class="rc-partner">${esc(partnerLabel(db, m))}</span></p>
+    ${opts.role ? `<p class="rc-role">${esc(opts.role)}</p>` : ''}
+    <${H} class="rc-title"><a href="${href}">${esc(m.title_ja)}</a></${H}>
+    <dl class="rc-facts">
+      <div><dt>締結日</dt><dd>${esc(date)}</dd></div>
+      <div><dt>有効性</dt><dd><span class="vb vb-${esc(v.code)}" title="${esc(v.desc)}">${esc(v.ja)}</span></dd></div>
+    </dl>
+    ${m.blurb ? `<p class="rc-blurb">${esc(m.blurb)}</p>` : ''}
+    <dl class="rc-facts">
+      <div><dt>事業の実施状況</dt><dd><span class="st st-${esc(s.code)}" title="${esc(s.desc)}">${esc(s.ja)}</span></dd></div>
+    </dl>
+    ${note ? `<p class="rc-note">${esc(note)}</p>` : ''}
+    ${m.evidence_level === 'news_only' ? '<p class="rc-note rc-news">報道のみの情報です（公式資料では未確認）</p>' : ''}
     ${opts.showSources ? sourceLine(g) : ''}
     ${opts.extra || ''}
+    <p class="rc-go"><a class="rc-more" href="${href}">詳しく見る<span class="visually-hidden">：${esc(m.title_ja)}</span></a></p>
   </article>`;
 }
 
