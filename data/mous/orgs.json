@@ -5434,6 +5434,14 @@
      "sources": [
       "s2"
      ]
+    },
+    {
+     "name": "移民庁の学校での調理・日本語の講座（移民庁の発表）",
+     "fiscal_year": "2025",
+     "detail": "2025年11月、移民庁の国際語学・技能学校で講座を開始。募集に1,200名が登録し40名を選抜。6〜8か月学んだ後、2026年5月から日本で働ける見込み（移民庁の発表）。",
+     "sources": [
+      "s3"
+     ]
     }
    ],
    "evidence_level": "official_announcement",
@@ -5455,6 +5463,15 @@
      "type": "press_release",
      "checked": "2026-10-28",
      "note": "2025年6月11日にMOU（基本合意書）を締結したこと、11月3日のプレオープン（第一期生40名）を記載。"
+    },
+    {
+     "id": "s3",
+     "title": "Япония компанияси Ўзбекистонда ошпазлик ва тил курсларини йўлга қўйди（日本の会社がウズベキスタンで調理と語学の講座を開始、2025年11月10日）",
+     "publisher": "ウズベキスタン共和国内閣附属移民庁（公式Telegram）",
+     "url": "https://t.me/uzmigration/800",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "相手側の公式発表（ウズベク語）。Onodera User Runが移民庁の国際語学・技能学校で講座を始めた、6月の募集に1,200名が登録し40名を選抜、6〜8か月の日本語・調理の学習の後、翌年5月から日本で働ける見込みと記載。"
     }
    ],
    "notes": "日本側の締結主体は株式会社ONODERA USER RUN（法務省の登録支援機関）。日本政府は当事者ではない。2026年4月にはこの協力を基に、移民庁・ヴァタンパルヴァルとの三者MOU（JP-ORG-101）、WILLER EXPRESS・移民庁との三者MOU（JP-ORG-102）を結んでいる。",
@@ -6075,6 +6092,1027 @@
    "validity_basis": "署名は移民庁の発表で確認したが、日本側の発表がなく、有効期間の記載も原文もないため有効性未確認。",
    "validity_sources": [
     "s1"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "additional_partners": [
+    {
+     "country_code": "LA",
+     "partner_org": "ビエンチャン技能開発センター（ラオス労働社会福祉省が管轄する職業訓練施設）",
+     "partner_org_en": ""
+    }
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [
+    {
+     "kind": "actual_entry",
+     "label": "OURラオスアカデミーから日本への初めての入国",
+     "value": 2,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "2024年7月30日",
+     "definition": "OURの発表：外食分野の特定技能人材2名が入国",
+     "sources": [
+      "s2"
+     ],
+     "note": "その後の累計人数は公式資料で確認できない。"
+    }
+   ],
+   "projects": [
+    {
+     "name": "OURラオスアカデミーの開校と教育",
+     "fiscal_year": "2023",
+     "detail": "2023年5月中旬に開校し、1期生24名が外食分野の教育を開始。学生の受入れは2023年度300名、2024年度1,000名を計画（OURの発表）。",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "name": "ラオスから初めての特定技能人材の入国",
+     "fiscal_year": "2024",
+     "detail": "2024年7月30日、外食分野の2名が入国（特別養護老人ホームの厨房で就労予定）。同省のコメントでは、それまでに136名に教育し35名が特定技能試験に合格（OURの発表）。",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-106",
+   "group_key": "ORG:OUR-LA-MOLSW",
+   "title_ja": "特定技能人材の教育・送り出しに係る基本合意文書（ONODERA USER RUN・ラオス労働社会福祉省・ビエンチャン技能開発センター）",
+   "doc_type": "基本合意文書",
+   "doc_type_note": "名称はOURの発表の表現。原文は公開されていない。",
+   "japan_org": "株式会社ONODERA USER RUN（OUR）",
+   "japan_org_type": "company",
+   "japan_signatory": "代表取締役社長 加藤順（OURの発表の写真説明）",
+   "country_code": "LA",
+   "partner_org": "ラオス労働社会福祉省（署名者は雇用担当局長 Anousone：OURの発表の写真説明）",
+   "partner_org_en": "Ministry of Labour and Social Welfare, Lao PDR",
+   "partner_type": "national_ministry",
+   "ceremony_note": "2023年7月4日、ビエンチャンでOURラオスアカデミーの開校式とあわせて調印式。ポンサイサック・インタラート労働社会福祉副大臣、小林賢一在ラオス日本国大使らが出席（OURの発表）。日本政府は当事者ではない。",
+   "signed_date": "2023-06-06",
+   "announced_date": "2023-07-11",
+   "date_note": "文書の日付は『2023年6月6日付』、調印式は2023年7月4日（OURの発表。記事は7月4日を『水』曜日と書くが、2023年7月4日は火曜日）。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "外食",
+    "日本語教育"
+   ],
+   "purpose": "特定技能の外食などの分野でOURの無償教育プログラムを提供し、人手不足の日本の企業・団体へ送り出すこと（OURの発表）",
+   "content": [
+    "ラオス労働社会福祉省は、管轄するビエンチャン技能開発センターの一部施設を提供する（OURの発表）",
+    "OURは日本語の習得を軸にした独自のカリキュラムと特定技能分野の教育を無償で行い、日本の企業・団体へ送り出す（OURの発表）"
+   ],
+   "status": "in_progress",
+   "status_note": "ビエンチャン技能開発センター内のOURラオスアカデミー（定員160名）で2023年5月から外食分野の教育を開始。2024年7月30日、ラオスから初めての特定技能（外食）人材2名が入国。同省はそれまでに136名に教育し35名が特定技能試験に合格したと評価した（OURの2024年7月の発表）。",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ラオスに初進出、ラオス政府と「官民連携」 労働社会福祉省・ビエンチャン技能開発センターとの同国特定技能人材教育・送り出しに係る基本合意文書締結（2023年7月11日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/4397/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表。『2023年6月6日付で、ラオス労働社会福祉省およびビエンチャン技能開発センターとの間で』教育と送り出しに合意、7月4日の調印式、施設の提供、定員と受入れ計画を記載。"
+    },
+    {
+     "id": "s2",
+     "title": "ラオス政府との官民連携 “ラオス初”特定技能人材送り出し。OUR人材2名が入国（2024年7月31日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/6184/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "2名の入国と、労働社会福祉省・在ラオス日本国大使館・JETROビエンチャン事務所のコメントを掲載。同省は『両国政府が締結した覚書の実践』と述べている。"
+    }
+   ],
+   "notes": "日本側の締結主体は株式会社ONODERA USER RUN。日本政府は当事者ではない（大使は式典に出席しただけ）。同省のコメントにある『両国政府が締結した覚書』が、日本政府とラオス政府の特定技能の協力覚書を指すのか、この文書を指すのかははっきりしない。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_basis": "有効期間の記載がなく原文も非公開。2024年7月に同省が成果を評価しているが、現在の効力を示す資料ではないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "additional_partners": [
+    {
+     "country_code": "MN",
+     "partner_org": "モンゴル科学技術大学（国立大学。署名者は学長 Tumurpurev Namnan）",
+     "partner_org_en": "Mongolian University of Science and Technology"
+    }
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [],
+   "projects": [],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-107",
+   "group_key": "ORG:OUR-MN-KHANGAI",
+   "title_ja": "無償教育の提供によるグローバル人材の育成に関するMOU（ONODERA USER RUN・ハンガイ地域評議会・モンゴル科学技術大学）",
+   "doc_type": "MOU",
+   "doc_type_note": "名称はOURの発表の表現。発表の見出しは『モンゴル国 外務大臣・教科大臣との連携によるグローバル人材育成に関するMOU締結』だが、署名者は評議会議長・大学学長・OUR社長の3者。原文は公開されていない。",
+   "japan_org": "株式会社ONODERA USER RUN（OUR）",
+   "japan_org_type": "company",
+   "japan_signatory": "代表取締役社長 加藤順（OURの発表）",
+   "country_code": "MN",
+   "partner_org": "ハンガイ地域評議会（モンゴル政府が設けた地域開発評議会の一つ。アルハンガイ県・バヤンホンゴル県・ウブルハンガイ県の地域。署名者は議長 TSERENNADMID BYAMBADOO）",
+   "partner_org_en": "Khangai Regional Development Council (Mongolia)",
+   "partner_type": "public_agency",
+   "ceremony_note": "2025年4月14日、ウランバートルのARA ARENAで締結式。バトムンフ・バトツェツェグ外務大臣とナランバヤル・プルプスレン教育科学大臣が同席（署名者ではない）（OURの発表）。",
+   "signed_date": "2025-04-14",
+   "announced_date": "2025-04-16",
+   "date_note": "OURの発表（2025年4月16日）による。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "日本語教育"
+   ],
+   "purpose": "モンゴルで無償教育を提供し、グローバル人材を育成すること（OURの発表）",
+   "content": [
+    "OURは日本語と特定技能の専門教育を行う教育拠点 OUR BLOOMING ACADEMY（2025年9月開校予定）を運営する（OURの発表）",
+    "ハンガイ地域評議会は人材育成に向けた関係各所との調整と、教育拠点の学生募集を支援する（OURの発表）",
+    "モンゴル科学技術大学は、同大学またはその関連機関が持つ建物と教室の一部を無償で提供する（OURの発表）"
+   ],
+   "status": "signed",
+   "status_note": "2025年9月に開校予定とされていたが、OURの2026年8月31日の発表でも『今後はバングラデシュとモンゴルにおいても開校を予定』のままで、開校の発表は見つからない。",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "モンゴル国 外務大臣・教科大臣との連携によるグローバル人材育成に関するMOU締結（2025年4月16日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/7062/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表。2025年4月14日にハンガイ地域評議会・モンゴル科学技術大学とMOUを締結、署名者と同席者、役割分担、ハンガイ地域評議会の説明を記載。"
+    },
+    {
+     "id": "s2",
+     "title": "インドネシア・メダンでの教育拠点の開校の発表（2026年8月31日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/31255/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "教育拠点は計7校で、『今後はバングラデシュとモンゴルにおいても開校を予定』と記載。"
+    }
+   ],
+   "notes": "日本側の締結主体は株式会社ONODERA USER RUN。日本政府は当事者ではない。モンゴルの大臣2人は同席者で、モンゴル政府の省が署名したわけではない。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found",
+    "numbers": "not_found"
+   },
+   "validity_basis": "有効期間の記載がなく原文も非公開のため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [
+    "茨城県境町"
+   ],
+   "additional_partners": [
+    {
+     "country_code": "PH",
+     "partner_org": "マリキナ市立大学（Pamantasan ng Lungsod ng Marikina、PLMar。学長 Franklin E. Ayuson）",
+     "partner_org_en": "Pamantasan ng Lungsod ng Marikina (PLMar)"
+    }
+   ],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [],
+   "projects": [
+    {
+     "name": "OUR BLOOMING ACADEMYマリキナの開校",
+     "fiscal_year": "2025",
+     "detail": "2025年5月から学生募集を始め、選考を通過した約50名が日本語と専門教育を開始。2025年7月に開校式（OURの発表）。",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-108",
+   "group_key": "ORG:OUR-PH-MARIKINA",
+   "title_ja": "四者協力プロジェクトの実施に向けた四者間基本合意書（ONODERA USER RUN・マリキナ市・マリキナ市立大学・茨城県境町）",
+   "doc_type": "基本合意書",
+   "doc_type_note": "名称はOURの発表の表現。原文は公開されていない。",
+   "japan_org": "株式会社ONODERA USER RUN（OUR）",
+   "japan_org_type": "company",
+   "japan_signatory": "",
+   "country_code": "PH",
+   "partner_org": "マリキナ市（フィリピン。市長 Maan Teodoro）",
+   "partner_org_en": "City of Marikina",
+   "partner_type": "subnational_gov",
+   "ceremony_note": "締結の場所は発表に書かれていない。2025年7月の教育拠点の開校式には、マリキナ市長・PLMar学長・境町長・OUR社長が出席（OURの発表）。境町とマリキナ市は2017年から姉妹都市。",
+   "signed_date": "2024-10-21",
+   "announced_date": "2025-07-15",
+   "date_note": "締結日はOURの発表（2025年7月15日、開校の発表）による。締結時の単独の発表は見つからない。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "介護",
+    "日本語教育"
+   ],
+   "purpose": "特定技能人材の育成や新規事業に関する『四者協力プロジェクト』の実施（OURの発表）",
+   "content": [
+    "マリキナ市はPLMarの教室・事務所を無償で提供する（OURの発表）",
+    "OURは日本で働きたい若者を集め、日本語教育と介護教育を行い、日本での就労と定着を支援する（OURの発表）",
+    "境町は輩出された特定技能人材の一部を受け入れ、OURのグループ会社ONODERA LIFE SUPPORTと連携して町内の空き家を使った低コストの住居を提供する（OURの発表）"
+   ],
+   "status": "in_progress",
+   "status_note": "2025年7月にOUR BLOOMING ACADEMYマリキナを開校し、約50名の学生が日本語と専門教育を開始。今後、年間約1,000名の教育体制を整える予定（OURの発表）。境町での受入れの実績は公式資料で未確認。",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "フィリピン マリキナ市×市立大学PLMAR×茨城県境町との官民連携「四者協力プロジェクト」結実 OUR BLOOMING ACADEMYマリキナ開校（2025年7月15日）",
+     "publisher": "株式会社ONODERA USER RUN",
+     "url": "https://onodera-user-run.co.jp/news/9626/",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表。『2024年10月21日(月)に、マリキナ市、PLMar、境町との四者間基本合意書を締結』と記載し、四者の役割と開校の様子を掲載。"
+    }
+   ],
+   "notes": "日本側の締結主体はONODERA USER RUNと茨城県境町。このサイトは市区町村の協定を政令指定都市について別に集計しているが、境町は政令市ではないため、企業の協定として記録し、町や県の件数には数えていない。日本政府は当事者ではない。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_basis": "有効期間の記載がなく原文も非公開のため有効性未確認。",
+   "validity_sources": [
+    "s1"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [
+    {
+     "kind": "target",
+     "label": "特定技能人材の受入れ目標（団体の計画）",
+     "value": 10000,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "今後5年間",
+     "definition": "『今後5年間で、同国から日本国へ合計1万人の特定技能人材の受け入れ実現に向け』",
+     "sources": [
+      "s1"
+     ],
+     "note": "団体の目標で、法的な義務や日本政府の受入れ枠ではない。"
+    }
+   ],
+   "projects": [],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-109",
+   "group_key": "ORG:JCAEMCE-UZ-MIGRATION",
+   "title_ja": "「ウズベキスタンからの特定技能人材1万人受け入れプロジェクト」に関する覚書（MOU）（日中亜細亜教育医療文化交流機構・ウズベキスタン移民庁）",
+   "doc_type": "MOU",
+   "doc_type_note": "名称はJCAEMCEの発表の表現。移民庁の発表は『協力合意（ҳамкорлик келишуви）』と書く。原文は公開されていない。",
+   "japan_org": "一般財団法人日中亜細亜教育医療文化交流機構（JCAEMCE）",
+   "japan_org_type": "association",
+   "japan_signatory": "最高顧問 鳩山友紀夫（元内閣総理大臣）（JCAEMCEの発表。発表の中に『鳩山由紀夫』の表記もある）",
+   "country_code": "UZ",
+   "partner_org": "ウズベキスタン共和国内閣附属移民庁（署名者は長官 ムサエフ・ベクゾド：JCAEMCEの発表）",
+   "partner_org_en": "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan",
+   "partner_type": "public_agency",
+   "ceremony_note": "2025年5月29日、東京の日本記者クラブ（日本プレスセンタービル10階Aホール）で調印式。主催はJCAEMCE、協力は移民庁と駐日ウズベキスタン大使館（JCAEMCEの発表）。日本政府は当事者ではない。",
+   "signed_date": "2025-05-29",
+   "announced_date": "2025-06-02",
+   "date_note": "締結日はJCAEMCEの発表（共同通信PRワイヤー、2025年6月5日）による。移民庁の公式Telegramの投稿は2025年6月2日。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "日本語教育"
+   ],
+   "purpose": "今後5年間で、ウズベキスタンから日本へ合計1万人の特定技能人材の受入れを目指す（JCAEMCEの発表）",
+   "content": [
+    "今後5年間で、ウズベキスタンから日本へ合計1万人の特定技能人材の受入れの実現に向けて取り組む（JCAEMCEの発表）",
+    "ウズベキスタンの民間の協力先UniCapとの共同プロジェクトとして行う（JCAEMCEの発表）",
+    "タシケント市・サマルカンド州・ナマンガン州で、日本語・技能試験の準備・就職に必要な技能を学ぶ講座『Yapon Mahorat Nuri』を開く（移民庁の発表）",
+    "日本の求人を選び雇用主と直接つながるオンラインの仕組み『WiseBridge』を2025年6月に始める（移民庁の発表）"
+   ],
+   "status": "signed",
+   "status_note": "その後の講座の開講や日本への受入れの実績は、公式資料で確認できない。",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "ウズベキスタン×日本：1万人の特定技能人材受け入れへ向けて調印式を実施（2025年6月5日）",
+     "publisher": "一般財団法人日中亜細亜教育医療文化交流機構（JCAEMCE）（共同通信PRワイヤーで配信）",
+     "url": "https://kyodonewsprwire.jp/release/202506040006",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表。2025年5月29日に移民庁と『ウズベキスタンからの特定技能人材1万人受け入れプロジェクト』に関する覚書（MOU）を締結、調印式の日時・場所・署名者、UniCapとの共同プロジェクトを記載。"
+    },
+    {
+     "id": "s2",
+     "title": "Японияда муваффақият калити — япон тилида мулоқот қила олиш!（日本での成功の鍵は日本語、2025年6月2日）",
+     "publisher": "ウズベキスタン共和国内閣附属移民庁（公式Telegram）",
+     "url": "https://t.me/uzmigration/525",
+     "type": "partner_official",
+     "checked": "2026-10-28",
+     "note": "相手側の公式発表（ウズベク語）。移民庁とJCAEMCEが協力合意に署名し『日本へ1万人のウズベキスタンの専門家を呼ぶプロジェクト』を始めた、講座『Yapon Mahorat Nuri』とオンラインの仕組み『WiseBridge』を記載。"
+    }
+   ],
+   "notes": "日本側の締結主体は一般財団法人日中亜細亜教育医療文化交流機構（東京都港区）。日本政府は当事者ではない。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_basis": "締結は双方の発表で確認したが、有効期間の記載がなく原文も非公開のため有効性未確認（5年は受入れ目標の期間）。",
+   "validity_sources": [
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [],
+   "projects": [],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-110",
+   "group_key": "ORG:PLUSW-PK-OEC",
+   "title_ja": "パキスタン海外雇用公社（OEC）とPlus Wの覚書の拡大（特定技能の分野を加える追加の覚書、報道の表現）",
+   "doc_type": "MOU",
+   "doc_type_note": "報道の表現（extended MoU／addendum to the MoU）。約5年前にIT分野で結んだ覚書の対象を広げるものと報道。名称・原文は未確認。",
+   "japan_org": "Plus W株式会社",
+   "japan_org_type": "company",
+   "japan_signatory": "",
+   "country_code": "PK",
+   "partner_org": "パキスタン海外雇用公社（OEC。海外パキスタン人・人材開発省の傘下の国営の送り出し機関）",
+   "partner_org_en": "Overseas Employment Corporation (OEC), Pakistan",
+   "partner_type": "public_agency",
+   "ceremony_note": "2025年5月2日、イスラマバードの在パキスタン日本国大使公邸で開かれた『Pakistan-Japan Human Resources Stakeholders Meeting』の場で署名（報道）。大使館の発表は、出席したサリク・フセイン海外パキスタン人・人材開発大臣がOECとPlus Wの提携と、その特定技能分野への最近の拡大を評価したと記載しているが、覚書への署名には触れていない。",
+   "signed_date": "2025-05-02",
+   "announced_date": "2025-05-02",
+   "date_note": "報道（Dawn、2025年5月3日）の『金曜日』と、大使館の発表の会合の日（2025年5月2日）による。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "IT"
+   ],
+   "purpose": "IT分野が中心だったOECとPlus Wの提携を、特定技能の分野に広げる（報道・大使館の発表）",
+   "content": [
+    "IT分野が中心だった提携を、特定技能の介護・農業・建設・宿泊など14分野に広げる（報道）"
+   ],
+   "status": "signed",
+   "status_note": "その後の実施状況は公式資料で確認できない。",
+   "evidence_level": "news_only",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "His Excellency Mr. Akamatsu Shuichi, Ambassador of Japan to Pakistan hosted the “Pakistan-Japan Human Resources Stakeholders Meeting”（2025年5月2日）",
+     "publisher": "在パキスタン日本国大使館",
+     "url": "https://www.pk.emb-japan.go.jp/itpr_ja/11_000001_00551.html",
+     "type": "official_page",
+     "checked": "2026-10-28",
+     "note": "日本政府の在外公館の発表（英語）。約70の関係者が出席し、海外パキスタン人・人材開発大臣がOECとPlus Wの提携と、特定技能でIT以外（介護・建設・農業・製造）に広がったことを評価したと記載。覚書への署名は書かれていない。"
+    },
+    {
+     "id": "s2",
+     "title": "‘Pakistani professionals’ demand set to grow in Japan’（2025年5月3日）",
+     "publisher": "Dawn（パキスタンの新聞）",
+     "url": "https://www.dawn.com/news/1908020",
+     "type": "news",
+     "checked": "2026-10-28",
+     "note": "報道。会合の場で、OECとPlus Wが特定技能の14分野を加える覚書（extended MoU）に署名したと記載。プログラムからの取得はHTTP 403になる（ブラウザで開いて確認）。"
+    }
+   ],
+   "notes": "覚書への署名は報道でしか確認できないため『報道のみ』として記録した（初期設定では件数に含めない）。大使館の発表で、提携が特定技能へ広がったことは確認できる。Plus W自身の発表は見つからなかった。日本政府は当事者ではない（大使は会合の主催者）。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found",
+    "numbers": "not_found"
+   },
+   "validity_basis": "署名は報道のみで、有効期間の記載も原文もないため有効性未確認。",
+   "validity_sources": []
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "additional_partners": [
+    {
+     "country_code": "ID",
+     "partner_org": "LPK Bahana Inspirasi Muda（インドネシアの職業訓練機関。署名者は代表取締役 SONY DWI ARIYANDI）",
+     "partner_org_en": "LPK Bahana Inspirasi Muda"
+    }
+   ],
+   "validity": "有効（期間3年間）",
+   "validity_type": "fixed",
+   "valid_until": "2029-01-15",
+   "valid_until_note": "発表の『期間は3年間』を署名日（2026年1月15日）から数えた日（起算日は発表に書かれていない）",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [],
+   "projects": [],
+   "validity_state": "valid_confirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": "2026-01-15",
+   "term_text": "3年間（会社の発表。起算日の記載なし）",
+   "renewal_text": null,
+   "auto_renewal": "not_stated",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-111",
+   "group_key": "ORG:HNI-ID-MOH",
+   "title_ja": "インドネシア人医療人材の海外派遣および能力強化に関する三者覚書（ハンディネットワーク インターナショナル・インドネシア保健省保健人材活用総局・LPK Bahana Inspirasi Muda）",
+   "doc_type": "MOU",
+   "doc_type_note": "名称は会社の発表の表現（『三者覚書（Memorandum of Understanding：MOU）』）。原文は公開されていない。",
+   "japan_org": "株式会社ハンディネットワーク インターナショナル",
+   "japan_org_type": "company",
+   "japan_signatory": "代表取締役 春山哲朗（会社の発表）",
+   "country_code": "ID",
+   "partner_org": "インドネシア保健省 保健人材活用総局（署名者は局長 IKA TRISIA：会社の発表）",
+   "partner_org_en": "Ministry of Health of the Republic of Indonesia",
+   "partner_type": "national_ministry",
+   "ceremony_note": "2026年1月15日、ジャカルタで署名式（会社の発表）。",
+   "signed_date": "2026-01-15",
+   "announced_date": "2026-01-22",
+   "date_note": "会社の発表（2026年1月22日）による。",
+   "fields": [
+    "labor",
+    "medical"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "介護",
+    "医療"
+   ],
+   "purpose": "インドネシア人医療人材の海外派遣と能力強化に関する協力の枠組みを定める（会社の発表）",
+   "content": [
+    "医療・介護分野の人材育成と能力開発（会社の発表）",
+    "日本を含む海外での就労を見据えた教育・研修と国際資格の取得支援（会社の発表）",
+    "海外派遣に必要な体制・関連資源の整備（会社の発表）",
+    "期間は3年間で、毎年モニタリングと評価を行う（会社の発表）"
+   ],
+   "status": "signed",
+   "status_note": "署名後の意見交換で、保健省側から日本で働いた人材の帰国後のキャリアが重要な課題と示され、帰国人材の活用はこの覚書とは別に協議する予定（会社の発表）。その後の実施状況は公式資料で未確認。",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドネシア共和国保健省と三者覚書（MOU）を締結（2026年1月22日）",
+     "publisher": "株式会社ハンディネットワーク インターナショナル",
+     "url": "https://hni.co.jp/core/wp-content/uploads/2026/01/PressRelease20260122.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表（PDF）。2026年1月15日にジャカルタで保健省保健人材活用総局・LPK Bahana Inspirasi Mudaと三者覚書を締結し署名式、覚書の主な内容（期間3年）、署名者3名を記載。"
+    }
+   ],
+   "notes": "日本側の締結主体は株式会社ハンディネットワーク インターナショナル（大阪府箕面市。外国人医療・介護人材の教育・紹介）。日本政府は当事者ではない。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found",
+    "numbers": "not_found"
+   },
+   "validity_basis": "会社の発表で期間は3年間とされ、署名日（2026年1月15日）から数えて期間内。終了の情報は見つからない。",
+   "validity_sources": [
+    "s1"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "更新後のMOUに引き継がれた",
+   "validity_type": "fixed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [],
+   "projects": [],
+   "validity_state": "ended_confirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": "3年間（日の出医療福祉グループの発表の『３年から５年に延長』による）",
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": "2024-11-28",
+   "end_reason": "変更・更新により後継のMOU（JP-ORG-113）に引き継がれた",
+   "successor_id": "JP-ORG-113",
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-112",
+   "group_key": "ORG:HINODE-ID-KEMNAKER",
+   "title_ja": "人材育成事業に関するMOU（日の出医療福祉グループ・インドネシア労働省）",
+   "doc_type": "MOU",
+   "doc_type_note": "名称は日の出医療福祉グループの発表（2024年12月）の経緯欄の表現（『人材育成事業MOU』）。原文は公開されていない。",
+   "japan_org": "社会福祉連携推進法人日の出医療福祉グループ",
+   "japan_org_type": "association",
+   "japan_signatory": "",
+   "country_code": "ID",
+   "partner_org": "インドネシア労働省（Kemnaker）",
+   "partner_org_en": "Ministry of Manpower of the Republic of Indonesia",
+   "partner_type": "national_ministry",
+   "ceremony_note": "締結の場所・署名者は公式資料で未確認（インドネシアの報道は労働大臣が締結に立ち会ったと報道）。",
+   "signed_date": "2022-05-17",
+   "announced_date": null,
+   "date_note": "締結日は日の出医療福祉グループの発表（2024年12月5日）の経緯欄による。締結時の発表は見つからない。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "介護",
+    "職業訓練"
+   ],
+   "purpose": "インドネシア労働省の職業訓練校で特定技能（介護）人材を育成すること（日の出医療福祉グループの発表）",
+   "content": [
+    "インドネシア労働省の職業訓練校で介護の特定技能人材を育成する（当初は介護に限定。日の出医療福祉グループの発表）"
+   ],
+   "status": "in_progress",
+   "status_note": "2022年7月にメダン職業訓練校で育成を開始（日の出医療福祉グループの発表）。2024年11月28日の変更・更新（JP-ORG-113）で協定期間が5年に延び、介護以外の分野にも広がった。",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "title": "インドネシア労働省とMOU（協定書）更新 介護人材育成を連携拡大し、協定期間も５年へ延長へ（2024年12月5日）",
+     "publisher": "社会福祉連携推進法人日の出医療福祉グループ",
+     "url": "https://hinode.or.jp/cmswp/wp-content/uploads/2024/12/20241205.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "id": "s1",
+     "note": "当事者の発表（PDF）。経緯欄に『2022年5月17日 インドネシア労働省と当グループの人材育成事業MOU締結』『2022年7月 メダン職業訓練校にて育成事業開始』と記載。"
+    }
+   ],
+   "notes": "日本側の締結主体は社会福祉連携推進法人日の出医療福祉グループ（兵庫県加古川市。介護・保育・医療）。日本政府は当事者ではない。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_basis": "2024年11月28日にMOUを変更・更新し、協定期間を3年から5年に変更したと当事者が発表しており、当初の内容は更新後のMOU（JP-ORG-113）に引き継がれた。",
+   "validity_sources": [
+    "s1"
+   ]
+  },
+  {
+   "renewal_of": "JP-ORG-112",
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "有効（2029年11月まで）",
+   "validity_type": "fixed",
+   "valid_until": "2029-11",
+   "valid_until_note": "日の出医療福祉グループの発表『2029年11月まで有効となります』",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [
+    {
+     "kind": "exam_passed",
+     "label": "特定技能試験の合格者（累計）",
+     "value": 264,
+     "unit": "人",
+     "direction": "to_japan",
+     "period": "2022年〜2024年12月",
+     "definition": "『これまで累計313名受講、264名の特定技能合格者を輩出』",
+     "sources": [
+      "s1"
+     ],
+     "note": "合格者の数で、日本へ入国した人数ではない。"
+    }
+   ],
+   "projects": [
+    {
+     "name": "インドネシア労働省の職業訓練校での特定技能人材の育成",
+     "fiscal_year": "2024",
+     "detail": "メダン職業訓練校（2期）・スマラン職業訓練校（1期）・シドアルジョ職業訓練校（1期）で開講。2024年度は201名を育成、累計313名が受講し264名が特定技能試験に合格（日の出医療福祉グループの発表）。",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "validity_state": "valid_confirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": "2024-11-28",
+   "term_text": "5年（3年から変更。2029年11月まで有効）",
+   "renewal_text": null,
+   "auto_renewal": "not_stated",
+   "last_renewed": "2024-11-28",
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-113",
+   "group_key": "ORG:HINODE-ID-KEMNAKER",
+   "title_ja": "特定技能人材育成コースのMOU（協定書）の変更・更新（日の出医療福祉グループ・インドネシア労働省）",
+   "doc_type": "MOU",
+   "doc_type_note": "名称は日の出医療福祉グループの発表の表現（『特定技能人材育成コースのMOU（協定書）を変更・更新』）。原文は公開されていない。",
+   "japan_org": "社会福祉連携推進法人日の出医療福祉グループ",
+   "japan_org_type": "association",
+   "japan_signatory": "代表理事 大西奉文（出席者として記載）",
+   "country_code": "ID",
+   "partner_org": "インドネシア労働省（Kemnaker。出席者は『アグン総局長』）",
+   "partner_org_en": "Ministry of Manpower of the Republic of Indonesia",
+   "partner_type": "national_ministry",
+   "ceremony_note": "2024年11月28日、インドネシア労働省で変更・更新。出席者はアグン総局長と日の出医療福祉グループの代表理事ら（日の出医療福祉グループの発表）。",
+   "signed_date": "2024-11-28",
+   "announced_date": "2024-12-05",
+   "date_note": "日の出医療福祉グループの発表（2024年12月5日）による。",
+   "fields": [
+    "labor"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "介護",
+    "職業訓練"
+   ],
+   "purpose": "インドネシア労働省と日の出医療福祉グループが職業訓練校で特定技能人材を育成する（日の出医療福祉グループの発表）",
+   "content": [
+    "職業訓練校で特定技能人材を育成する。これまでは介護人材に限っていたが、更新により介護以外の分野も育成する（日の出医療福祉グループの発表）",
+    "日の出医療福祉グループは研修講師の派遣、カリキュラム・教科書の提供、アシスタントの教育、合格者の就職支援を行う（日の出医療福祉グループの発表）",
+    "インドネシア労働省は施設の提供、候補者の募集、アシスタントの採用を行う（日の出医療福祉グループの発表）",
+    "MOUの期間は5年（3年から変更）で、2029年11月まで有効（日の出医療福祉グループの発表）"
+   ],
+   "status": "in_progress",
+   "status_note": "2024年度はメダン・スマラン・シドアルジョの職業訓練校で201名を育成し、累計313名が受講、264名が特定技能試験に合格。合格者は来日して日本の介護施設で就業（日の出医療福祉グループの発表）。",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "title": "インドネシア労働省とMOU（協定書）更新 介護人材育成を連携拡大し、協定期間も５年へ延長へ（2024年12月5日）",
+     "publisher": "社会福祉連携推進法人日の出医療福祉グループ",
+     "url": "https://hinode.or.jp/cmswp/wp-content/uploads/2024/12/20241205.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "id": "s1",
+     "note": "当事者の発表（PDF）。2024年11月28日にインドネシア労働省でMOU（協定書）を変更・更新、期間を5年に延長し2029年11月まで有効、両者の役割、受講者・合格者数を記載。"
+    }
+   ],
+   "notes": "日本側の締結主体は社会福祉連携推進法人日の出医療福祉グループ。日本政府は当事者ではない。インドネシアの報道（tirto.id）は、労働省のメダン職業訓練センター（BBPVPメダン）での日本語研修を日の出と連携して行っていると報道。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found"
+   },
+   "validity_basis": "当事者の発表で、更新後のMOUは期間5年・2029年11月まで有効と明記されており、今日は期間内。終了の情報は見つからない。",
+   "validity_sources": [
+    "s1"
+   ]
+  },
+  {
+   "renewal_of": null,
+   "title_original": "",
+   "doc_category": "mou_moc",
+   "japan_level": "organization",
+   "pref_code": null,
+   "related_regions": [],
+   "other_japan_parties": [],
+   "additional_partners": [],
+   "validity": "未確認",
+   "validity_type": "unconfirmed",
+   "valid_until": null,
+   "valid_until_note": "",
+   "renewal_terms": "未確認",
+   "legal_binding": "unconfirmed",
+   "legal_binding_note": "原文は公開されておらず未確認",
+   "budgets": [],
+   "impacts": [],
+   "original_text": "unconfirmed",
+   "survey_stage": 1,
+   "last_checked": "2026-10-28",
+   "foreign_relation": "direct",
+   "numbers": [
+    {
+     "kind": "target",
+     "label": "毎年来日する修了生の目標",
+     "value": 80,
+     "unit": "人／年",
+     "direction": "to_japan",
+     "period": "将来",
+     "definition": "『将来的には、毎年、セブラスマレット大学から８０名の修了生が来日し』",
+     "sources": [
+      "s1"
+     ],
+     "note": "団体の目標で、法的な義務や日本政府の受入れ枠ではない。"
+    }
+   ],
+   "projects": [
+    {
+     "name": "特定技能（介護）人材養成コース第1期の開講",
+     "fiscal_year": "2024",
+     "detail": "2024年10月8日に開講式。期間は2024年9月17日〜2025年2月28日、受講者は医療系学部の卒業生を中心に13名。修了後は特定技能（介護）の試験を受け、日本の介護施設で働く予定（日の出医療福祉グループの発表）。",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "validity_state": "unconfirmed",
+   "validity_checked": "2026-10-28",
+   "effective_date": null,
+   "term_text": null,
+   "renewal_text": null,
+   "auto_renewal": "unconfirmed",
+   "last_renewed": null,
+   "ended_date": null,
+   "end_reason": null,
+   "successor_id": null,
+   "validity_research_note": "原文非公開。",
+   "id": "JP-ORG-114",
+   "group_key": "ORG:HINODE-ID-UNS",
+   "title_ja": "「特定技能（介護）人材養成コース」の設置に関する協定書（MOU）（日の出医療福祉グループ・国立セベラスマレット大学）",
+   "doc_type": "協定書（MOU）",
+   "doc_type_note": "名称は日の出医療福祉グループの発表（調印予定の案内）の表現。原文は公開されていない。",
+   "japan_org": "社会福祉連携推進法人日の出医療福祉グループ",
+   "japan_org_type": "association",
+   "japan_signatory": "",
+   "country_code": "ID",
+   "partner_org": "国立セベラスマレット大学（中部ジャワ州スラカルタ市。窓口は同大学の職業訓練校）",
+   "partner_org_en": "Universitas Sebelas Maret (UNS)",
+   "partner_type": "university",
+   "ceremony_note": "2024年2月29日に加古川商工会議所で調印式を行う予定と発表（出席者は同大学職業訓練校の副学部長と日の出医療福祉グループの代表理事ら）。調印したことを伝える発表は見つからない。",
+   "signed_date": null,
+   "announced_date": "2024-02-26",
+   "date_note": "2024年2月26日の発表は『2024年2月29日に…調印する予定』と書く。調印後の発表は見つからないため締結日は未確認とした。協定書で設置するとしていたコースは、2024年10月に同大学のプログラムとして開講した（日の出医療福祉グループの発表）。",
+   "fields": [
+    "labor",
+    "education"
+   ],
+   "labor_detail": [
+    "特定技能",
+    "介護",
+    "日本語教育"
+   ],
+   "purpose": "同大学の医療系学部（看護師・助産師・理学療法士）の卒業生を対象に、介護技術と日本語を教える半年間の『特定技能（介護）人材養成コース』を設ける（日の出医療福祉グループの発表）",
+   "content": [
+    "同大学付属の職業訓練校のプログラムとして、介護技術と日本語を学ぶ半年間のコースを設置する。授業料は無料（日の出医療福祉グループの発表）",
+    "将来は毎年、同大学から80名の修了生が来日し、日本の介護施設で働くことを目指す（日の出医療福祉グループの発表）"
+   ],
+   "status": "in_progress",
+   "status_note": "2024年10月8日に第1期の開講式。期間は2024年9月17日〜2025年2月28日、受講者13名（日の出医療福祉グループの発表）。当初の案内（第1期は2024年3〜8月に20名）より遅く、人数も少ない。",
+   "evidence_level": "official_announcement",
+   "sources": [
+    {
+     "id": "s1",
+     "title": "インドネシアの有名国立大学と「特定技能（介護）人材養成コース」の設置に関する協定書（MOU）の締結へ（2024年2月26日）",
+     "publisher": "社会福祉連携推進法人日の出医療福祉グループ",
+     "url": "https://hinode.or.jp/cmswp/wp-content/uploads/2024/02/0226_press.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表（PDF）。2024年2月29日に加古川商工会議所で協定書（MOU）に調印する予定、コースの内容、第1期の予定（3〜8月、20名）、将来は毎年80名が来日する目標を記載。"
+    },
+    {
+     "id": "s2",
+     "title": "インドネシアの有名国立大学にて「特定技能（介護）人材養成コース」を開講（2024年10月23日）",
+     "publisher": "社会福祉連携推進法人日の出医療福祉グループ",
+     "url": "https://hinode.or.jp/cmswp/wp-content/uploads/2024/10/20241023.pdf",
+     "type": "press_release",
+     "checked": "2026-10-28",
+     "note": "当事者の発表（PDF）。2024年10月8日に第1期の開講式、期間・受講者13名を記載（協定書への言及はない）。"
+    }
+   ],
+   "notes": "日本側の締結主体は社会福祉連携推進法人日の出医療福祉グループ。相手は国立大学で、政府の省庁ではない。日本政府は当事者ではない。",
+   "related_systems": [
+    "SSW"
+   ],
+   "acceptance_types": [
+    "work"
+   ],
+   "research": {
+    "budget": "not_found",
+    "signed": "not_found"
+   },
+   "validity_basis": "調印予定の発表とコースの開講の発表はあるが、調印・有効期間を示す資料がないため有効性未確認。",
+   "validity_sources": [
+    "s1",
+    "s2"
    ]
   }
  ]
