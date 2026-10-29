@@ -7,7 +7,8 @@ import { downloadBlob, toast } from './util.js';
 
 const W = 1600, H = 900;
 const FONT = '"BIZ UDPGothic","Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic","Meiryo",sans-serif';
-const GREEN = '#1d7347', TEXT = '#1c2621', MUTED = '#56655c';
+// 画像の帯・見出しの色はサイトのテーマの色（ターコイズ）
+const BRAND = '#007f93', TEXT = '#17262b', MUTED = '#4f646a';
 const FOOT_H = 186;
 
 function newCanvas() {
@@ -45,18 +46,18 @@ function text(ctx, s, x, y, { size = 32, bold = false, color = TEXT, align = 'le
 }
 
 function header(ctx, title, sub) {
-  ctx.fillStyle = GREEN; ctx.fillRect(0, 0, W, 14);
+  ctx.fillStyle = BRAND; ctx.fillRect(0, 0, W, 14);
   let y = text(ctx, title, 56, 38, { size: 54, bold: true, maxW: W - 112, maxLines: 2, lh: 1.25 });
-  if (sub) y = text(ctx, sub, 56, y + 6, { size: 32, color: GREEN, bold: true, maxW: W - 112, maxLines: 1 });
+  if (sub) y = text(ctx, sub, 56, y + 6, { size: 32, color: BRAND, bold: true, maxW: W - 112, maxLines: 1 });
   return y + 18;
 }
 
 function footer(ctx, meta) {
   const y0 = H - FOOT_H;
-  ctx.fillStyle = '#f3f7f4'; ctx.fillRect(0, y0, W, FOOT_H);
-  ctx.fillStyle = GREEN; ctx.fillRect(0, y0, W, 4);
+  ctx.fillStyle = '#f1f7f8'; ctx.fillRect(0, y0, W, FOOT_H);
+  ctx.fillStyle = BRAND; ctx.fillRect(0, y0, W, 4);
   text(ctx, `対象：${meta.region}`, 56, y0 + 12, { size: 26, bold: true, maxW: W - 112 });
-  if (meta.cond) text(ctx, `件数の条件：${meta.cond}`, 56, y0 + 46, { size: 23, bold: true, color: GREEN, maxW: W - 112, maxLines: 1 });
+  if (meta.cond) text(ctx, `件数の条件：${meta.cond}`, 56, y0 + 46, { size: 23, bold: true, color: BRAND, maxW: W - 112, maxLines: 1 });
   text(ctx, `対象時点：${meta.period}　確認日：${meta.checked}`, 56, y0 + 80, { size: 23, bold: true, maxW: W - 112 });
   text(ctx, `出典：${meta.source}`, 56, y0 + 114, { size: 22, color: TEXT, maxW: W - 112, maxLines: 1 });
   text(ctx, '日本と世界のMOU・協定マップ（登録済み協定の集計。全国の総数ではありません）　※不明・未調査を0件とはしていません', 56, y0 + 148, { size: 21, color: MUTED, maxW: W - 112, maxLines: 1 });
@@ -117,8 +118,8 @@ export function exportBars(opts) {
 // opts: { title, who, facts:[[見出し, 内容]], purpose, points:[], meta }
 export function exportMouSummary(opts) {
   const { c, ctx } = newCanvas();
-  ctx.fillStyle = GREEN; ctx.fillRect(0, 0, W, 14);
-  let y = text(ctx, opts.who, 56, 36, { size: 36, bold: true, color: GREEN, maxW: W - 112, maxLines: 1 });
+  ctx.fillStyle = BRAND; ctx.fillRect(0, 0, W, 14);
+  let y = text(ctx, opts.who, 56, 36, { size: 36, bold: true, color: BRAND, maxW: W - 112, maxLines: 1 });
   y = text(ctx, opts.title, 56, y + 8, { size: 46, bold: true, maxW: W - 112, maxLines: 2, lh: 1.25 }) + 22;
   const colW = 600;
   let ly = y;
@@ -128,7 +129,7 @@ export function exportMouSummary(opts) {
     ly = text(ctx, v, 56, ly + 34, { size: 32, bold: true, maxW: colW - 20, maxLines: 2 }) + 12;
   }
   const rx = 56 + colW + 30, rw = W - rx - 56;
-  ctx.fillStyle = '#f3f7f4'; ctx.fillRect(rx - 24, y - 8, rw + 48, H - FOOT_H - y - 12);
+  ctx.fillStyle = '#f1f7f8'; ctx.fillRect(rx - 24, y - 8, rw + 48, H - FOOT_H - y - 12);
   let ry = text(ctx, '目的', rx, y + 4, { size: 27, color: MUTED, bold: true });
   ry = text(ctx, opts.purpose || '（公式資料に記載なし）', rx, ry + 4, { size: 32, maxW: rw, maxLines: 3 }) + 14;
   if (opts.points?.length) {
@@ -158,7 +159,7 @@ export function exportImpactGrid(opts) {
   });
   opts.rows.forEach((r, ri) => {
     const y = top + headH + 6 + ri * rowH;
-    ctx.fillStyle = ri % 2 ? '#ffffff' : '#f7faf8'; ctx.fillRect(x0, y, W - 80, rowH - 4);
+    ctx.fillStyle = ri % 2 ? '#ffffff' : '#f5fafb'; ctx.fillRect(x0, y, W - 80, rowH - 4);
     text(ctx, r.label, x0 + 12, y + 10, { size: 30, bold: true, maxW: labelW - 24, maxLines: 2, lh: 1.2 });
     r.cells.forEach((cell, ci) => {
       const cx = x0 + labelW + ci * colW + 14;

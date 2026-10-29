@@ -50,4 +50,12 @@ export const ILL = {
   pin: svg('<path d="M24 44s14-13 14-24a14 14 0 0 0-28 0c0 11 14 24 14 24Z"/><circle cx="24" cy="20" r="5"/>'),
   // 疑問（問い）
   question: svg('<circle cx="24" cy="24" r="18"/><path d="M18 19a6 6 0 1 1 9 5c-2 1-3 2-3 5"/><path d="M24 35v.5"/>'),
+  // 折りたたんだ地図（地図から探す）
+  map: svg('<path d="M5 12l12-5 14 5 12-5v29l-12 5-14-5-12 5z"/><path d="M17 7v29M31 12v29"/>'),
+  // まち並み（地域）
+  town: svg('<path d="M4 42h40"/><path d="M7 42V24l8-6 8 6v18"/><path d="M23 42V12h16v30"/><path d="M12 30h6M12 36h6M28 18h6M28 25h6M28 32h6"/>'),
+  // 表（データ）
+  table: svg('<rect x="6" y="9" width="36" height="30" rx="3"/><path d="M6 18h36M6 26h36M6 33h36M18 9v30M30 9v30"/>'),
+  // 出典（文書と虫めがね）
+  source: svg('<path d="M10 5h16l7 7v12"/><path d="M26 5v7h7"/><path d="M10 5v34h12"/><path d="M15 17h12M15 23h8"/><circle cx="31" cy="32" r="7"/><path d="M36 37l6 6"/>'),
 };

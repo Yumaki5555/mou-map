@@ -275,6 +275,11 @@ export function loadGeo() {
   return getJSON(`data/build/geo.json?v=${dataVersion()}`, { versioned: true });
 }
 
+// 都道府県・市区町村ごとの件数のまとめ（data/build/summary.json）。トップの「地域から探す」で市区町村の名前を候補に出すのに使う
+export function loadSummary() {
+  return getJSON(`data/build/summary.json?v=${dataVersion()}`, { versioned: true });
+}
+
 // 2. 協定ごとの詳しい内容。files のファイルだけを元のデータから読み、索引と同じ方法で集計の土台を作る。
 // ほかのファイルの協定へのリンク（後継の文書・関連する文書など）は、索引の記録で名前を表示する
 export async function loadParts(files, opts = {}) {

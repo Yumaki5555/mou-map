@@ -16,6 +16,7 @@ import { searchGroups, applyFacets, facetCounts, tokenCounts, parseQuery, SEARCH
 import { findOrgs, orgTypeLabel } from '../assets/js/orgs.js';
 import { sourceHashes, buildSummary, summaryJSON } from './build_data.mjs';
 import { readState, writeState, computeResults, facetCounts as exFacetCounts, conditionTags, removeTag, clearAll, V_PRESET, V_PRESETS } from '../assets/js/explore-state.js';
+import { resolveRegion } from '../assets/js/home.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const J = p => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
@@ -511,6 +512,22 @@ for (const sc of VALIDITY_SCOPES) {
   // キーワード検索と同じ結果（以前のサイト内検索と同じ件数）
   const kw = new Map(searchGroups(db, parseQuery(db, '宮城県 ベトナム')).map(r => [r.g.key, r]));
   eq('キーワード「宮城県 ベトナム」の件数（すべての有効性・文書）', computeResults(db, sst, kw).scoped.length, kw.size);
+}
+
+// ---------- 20. トップの「日本の地域から探す」：入力した名前から行き先を決める ----------
+{
+  const cities = [{ code: '041009', name: '仙台市', pref_code: '04' }, { code: '132063', name: '府中市', pref_code: '13' }, { code: '342076', name: '府中市', pref_code: '34' }];
+  eq('都道府県名（宮城県）', resolveRegion(db, '宮城県', cities), { pref: '04' });
+  eq('都・道・府・県を省いた名前（宮城）', resolveRegion(db, ' 宮城 ', cities), { pref: '04' });
+  eq('「京都」は京都府（東京都ではない）', resolveRegion(db, '京都', cities), { pref: '26' });
+  eq('「東京」は東京都', resolveRegion(db, '東京', cities), { pref: '13' });
+  eq('「北海道」', resolveRegion(db, '北海道', cities), { pref: '01' });
+  eq('市区町村名（仙台市）', resolveRegion(db, '仙台市', cities), { city: '041009' });
+  eq('候補の形（仙台市（宮城県））', resolveRegion(db, '仙台市（宮城県）', cities), { city: '041009' });
+  eq('同じ名前の市は都道府県で見分ける', resolveRegion(db, '府中市（広島県）', cities), { city: '342076' });
+  eq('同じ名前の市が2つあり、都道府県がなければキーワード検索', resolveRegion(db, '府中市', cities), { q: '府中市' });
+  eq('知らない市区町村はキーワード検索', resolveRegion(db, '盛岡市', cities), { q: '盛岡市' });
+  eq('空欄は行き先なし', resolveRegion(db, '  ', cities), null);
 }
 
 // ---------- 実データの点検 ----------

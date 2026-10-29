@@ -3,7 +3,8 @@
 import { esc } from './util.js';
 
 const FONT = getComputedStyle(document.documentElement).getPropertyValue('--font') || 'sans-serif';
-const GREEN = '#1d7347';
+// 棒の色はサイトのテーマの色（有効性などの意味のある色は、各グラフの d.color で渡す）
+const BRAND = '#007f93';
 
 function setupTip(el) {
   el.classList.add('chart');
@@ -122,7 +123,7 @@ export function drawHBarCanvas(ctx, box, items, opts = {}) {
     ctx.font = `bold ${fs}px ${font}`;
     ctx.fillText(d.label, box.x + labelW - 12, y + rowH / 2);
     const bw = (box.w - labelW - valueW) * d.value / max;
-    ctx.fillStyle = d.color || GREEN;
+    ctx.fillStyle = d.color || BRAND;
     ctx.fillRect(box.x + labelW, y + rowH * 0.18, Math.max(d.value > 0 ? 3 : 0, bw), rowH * 0.64);
     ctx.fillStyle = '#1c2621'; ctx.textAlign = 'left';
     ctx.fillText(opts.format ? opts.format(d.value) : `${d.value}${opts.unit ?? '件'}`, box.x + labelW + bw + 10, y + rowH / 2);
