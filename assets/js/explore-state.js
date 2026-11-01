@@ -110,6 +110,11 @@ export function regionRole(g, prefs) {
   if (g.level === 'organization') return g.regions.some(r => prefs.includes(r)) ? 'organization' : null;
   return null;
 }
+// 協定の主な分野（1つ）。分野別の内訳で、協定を1件ずつどこかの分野に数えるために使う。
+// 外国人材・労働に関わるものはこのサイトの主題なので「外国人材・労働」、ほかは先頭の分野（データでは主な分野を先頭に書く）
+export function mainField(g) {
+  return g.fields.includes('labor') ? 'labor' : g.fields[0] || 'other';
+}
 export const ROLE_LABEL = {
   prefecture: n => `${n}が締結`,
   municipality: n => `${n}内の市区町村が締結`,
@@ -171,6 +176,8 @@ export function facetCounts(db, st, keyword) {
   const out = Object.fromEntries(Object.keys(VALUES).map(k => [k, new Map()]));
   const add = (m, v) => m.set(v, (m.get(v) || 0) + 1);
   const prefs = new Map(), docs = new Map();
+  // 主な分野ごとの件数（分野の条件だけを外して数える。合計は分野を問わない件数と同じ）
+  const main = new Map();
   const addDoc = g => { add(docs, 'all'); if (g.category === 'mou_moc') add(docs, 'mou'); if (g.relation === 'direct') add(docs, 'foreign'); };
   for (const g of db.groups) {
     if (keyword && !keyword.has(g.key)) continue;
@@ -184,14 +191,16 @@ export function facetCounts(db, st, keyword) {
       if (!inRegion) continue;
       for (const [k, f] of Object.entries(VALUES)) for (const v of new Set(f(g))) add(out[k], v);
       addDoc(g);
+      add(main, mainField(g));
     } else if (inRegion) {
       const k = miss[0];
+      if (k === 'f') add(main, mainField(g));
       if (k === 'doc') addDoc(g);
       else if (VALUES[k]) for (const v of new Set(VALUES[k](g))) add(out[k], v);
     }
   }
   const vPreset = new Map(V_PRESETS.map(p => [p.code, p.states.reduce((a, x) => a + (out.vs.get(x) || 0), 0)]));
-  return { p: prefs, ...out, vPreset, doc: docs };
+  return { p: prefs, ...out, vPreset, doc: docs, main };
 }
 // 当てはまらない条件（2つ見つかったら打ち切る）
 const CHECKS = ['vs', 'doc', 'cat', 'c', 'f', 's', 'ot', 'pk', 'ev', 'y'];

@@ -507,6 +507,16 @@ for (const sc of VALIDITY_SCOPES) {
     for (const [o, k] of f2.ev) { fn++; if (n({ ...base, ev: [o] }) !== k) fbad2++; }
   }
   eq(`選択肢の件数（文書の種類・有効性・実施状況・相手国・締結主体・報道）${fn}通りが、選んだときの件数と一致`, fbad2, 0);
+  // 分野別の内訳（地域を選んだとき）：主な分野で1件ずつ数えた合計＝分野を問わない件数、外国人材・労働＝その分野を選んだときの件数
+  let mbad = 0, mn = 0;
+  for (const base of [st, { ...st, p: ['39'] }, { ...any, p: ['39'] }, { ...any, p: ['39'], f: ['tourism'] }, { ...any, p: ['04'] }, { ...any, p: ['13'], doc: 'all' }]) {
+    const f3 = exFacetCounts(db, base, null);
+    const n = s => computeResults(db, s, null).scoped.length;
+    mn++; if ([...f3.main.values()].reduce((a, b) => a + b, 0) !== n({ ...base, f: [] })) mbad++;
+    mn++; if ((f3.main.get('labor') || 0) !== n({ ...base, f: ['labor'] })) mbad++;
+    for (const [f, k] of f3.main) { mn++; if (k > (f3.f.get(f) || 0)) mbad++; }
+  }
+  eq(`分野別の内訳（${mn}通り）：合計＝分野を問わない件数・外国人材＝絞り込んだ件数・各分野は絞り込んだ件数以下`, mbad, 0);
   // タグを外す
   eq('有効性のタグを外すと「締結済みすべて」', removeTag(st, 'vs').vs, V_PRESET.all.states);
   // キーワード検索と同じ結果（以前のサイト内検索と同じ件数）

@@ -1034,6 +1034,23 @@ mark { background: #ffe37a; color: inherit; padding: 0 1px; border-radius: 2px; 
 .ex-slist .linklike[aria-pressed="true"] { text-decoration: none; background: var(--brand); color: #fff; padding: 0 6px; border-radius: 6px; }
 .sc-s { margin-left: 6px; font-size: .8rem; color: var(--muted); }
 .ex-widen { margin: 6px 0; }
+/* 分野別の内訳（地域を選んだとき）。外国人材・労働の棒は橙（意味のある色なので変数を使わない） */
+.ex-fb { margin: 6px 0 8px; padding: 6px 14px 10px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; }
+.ex-fb > summary { cursor: pointer; font-weight: 700; color: var(--brand-dark); min-height: 44px; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 14px; }
+.ex-fb-sum { font-weight: 400; color: var(--text); font-size: .95rem; }
+.ex-fb-sum b { font-size: 1.1rem; }
+.ex-fb-list { list-style: none; margin: 4px 0; padding: 0; display: grid; gap: 2px; }
+.ex-fb-row { display: grid; grid-template-columns: 10.5em 1fr 3.8em; align-items: center; gap: 0 10px; }
+.ex-fb-name { text-align: left; font-weight: 700; font-size: .93rem; }
+.ex .ex-fb-row .ex-fb-name { min-height: 36px; }
+.ex-fb-name[aria-pressed="true"] { text-decoration: none; background: var(--brand); color: #fff; padding: 0 6px; border-radius: 6px; }
+.ex-fb-bar { height: 14px; border-radius: 7px; background: #eef2f3; overflow: hidden; }
+.ex-fb-bar > span { display: block; height: 100%; min-width: 4px; border-radius: 7px; background: var(--brand); }
+.ex-fb-row.is-labor .ex-fb-bar > span { background: #c4621a; }
+.ex-fb-n { text-align: right; font-size: .93rem; white-space: nowrap; }
+.ex-fb-n b { font-size: 1.05rem; }
+.ex-fb-multi { grid-column: 2 / -1; margin: -6px 0 4px; font-size: .8rem; color: var(--muted); }
+.ex-fb-sub { margin: 10px 0 2px; padding-top: 8px; border-top: 1px dashed var(--line); font-weight: 700; font-size: .93rem; }
 .ex-cover { margin: 6px 0; padding: 6px 10px; border-left: 4px solid #d6b46a; background: var(--warn-soft); }
 .ex-wait { padding: 14px 16px; border-radius: 12px; background: var(--info-soft); font-weight: 700; }
 .ex-wait .small { display: block; font-weight: 400; }
@@ -1066,6 +1083,9 @@ mark { background: #ffe37a; color: inherit; padding: 0 1px; border-radius: 2px; 
   .ex-wide { grid-column: auto; }
   .ex-vd-in { grid-template-columns: 1fr; }
   .ex-count-main b { font-size: 1.7rem; }
+  .ex-fb { padding: 4px 10px 8px; }
+  .ex-fb-row { grid-template-columns: 8.5em 1fr 3.4em; gap: 0 6px; }
+  .ex-fb-name { font-size: .88rem; }
 }
 
 /* ---------- 一覧のカード（簡潔版） ---------- */

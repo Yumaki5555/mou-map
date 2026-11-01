@@ -283,6 +283,7 @@ function renderSummary(db, st, res, keyword, fc) {
       <p class="ex-count-main"><span class="ex-count-k">${esc(one ? `${one}に関係する協定` : '条件に合う協定')}</span><b>${res.scoped.length}</b>件</p>
       <p class="ex-count-sub">${esc(parts.join('・'))}${st.p.length && res.nationalOut ? `<br><span class="small">このほか国・省庁の協定（全国が対象）${res.nationalOut}件は、地域の件数に含めていません。<button type="button" class="linklike" data-rm="p" data-rv="${esc(st.p[0])}" data-lv-after="national">国・省庁の協定を見る</button></span>` : ''}</p>
     </div>
+    ${st.p.length ? fieldBreakdownHTML(st, fc) : ''}
     ${vItems || sItems ? `<details class="ex-vd" id="ex-vd"${openVd ? ' open' : ''}><summary>有効性・事業の実施状況の内訳と、表示していない協定</summary>
       <div class="ex-vd-in"><div><p class="ex-vd-h">協定の有効性（同じ条件で、有効性を問わずに数えた件数）</p><ul class="ex-vlist">${vItems}</ul>
       ${docOut > 0 && st.doc !== 'all' ? `<p class="small">このほか「${esc(DOC_PRESETS.find(d => d.code === st.doc).ja)}」以外の文書（R/D・EPA・交換公文・取決めなど）${docOut}件は表示していません。</p>` : ''}</div>
@@ -290,6 +291,35 @@ function renderSummary(db, st, res, keyword, fc) {
       <p class="small muted">同じ協定の更新・再締結は1件と数えます。「有効性未確認」は、今も有効かを公式資料で確かめられていないもので、終了したという意味ではありません。「有効確認」の協定でも、具体的な事業が確認できていないものがあります。<a href="#/about?to=ab-read">件数の数え方</a></p></details>` : ''}
     ${btns ? `<div class="btn-row ex-widen">${btns}</div>` : ''}
     ${coverage && !keyword ? `<p class="ex-cover small">${esc(coverage)}</p>` : ''}`;
+}
+
+// 分野別の内訳（地域を選んだとき）。協定を主な分野で1件ずつ数え、「外国人材・労働」と「それ以外の国際交流」に分けて示す。
+// 分野の条件は外して数える（分野で絞り込んでも内訳は変わらず、選んだ分野に印が付く）
+function fieldBreakdownHTML(st, fc) {
+  const m = fc.main;
+  const total = [...m.values()].reduce((a, b) => a + b, 0);
+  if (!total) return '';
+  const labor = m.get('labor') || 0;
+  const max = Math.max(...m.values());
+  const others = FIELDS.filter(f => f.code !== 'labor' && m.get(f.code)).sort((a, b) => m.get(b.code) - m.get(a.code));
+  // 絞り込んだときの件数（ほかの分野を主とする協定も含む）が主な分野の件数より多いときは、それも示す
+  let overlap = false;
+  const row = f => {
+    const n = m.get(f.code) || 0, all = fc.f.get(f.code) || 0;
+    if (all > n) overlap = true;
+    return `<li class="ex-fb-row${f.code === 'labor' ? ' is-labor' : ''}">
+      <button type="button" class="linklike ex-fb-name" data-f1="${f.code}" aria-pressed="${st.f.length === 1 && st.f[0] === f.code}" title="${esc(f.desc)}">${esc(f.ja)}</button>
+      <span class="ex-fb-bar" aria-hidden="true"><span style="width:${(n / max * 100).toFixed(1)}%"></span></span>
+      <span class="ex-fb-n"><b>${n}</b>件</span>
+      ${all > n ? `<span class="ex-fb-multi">他の分野との重なりを含め${all}件</span>` : ''}</li>`;
+  };
+  const openFb = view.root.querySelector('#ex-fb')?.open ?? true;
+  return `<details class="ex-fb" id="ex-fb"${openFb ? ' open' : ''}>
+    <summary>分野別の内訳<span class="ex-fb-sum">外国人材・労働 <b>${labor}</b>件（${Math.round(labor / total * 100)}%）・それ以外の国際交流 <b>${total - labor}</b>件</span></summary>
+    <ul class="ex-fb-list">${row(FIELDS.find(f => f.code === 'labor'))}</ul>
+    ${others.length ? `<p class="ex-fb-sub">それ以外の国際交流 ${total - labor}件の内訳</p><ul class="ex-fb-list">${others.map(row).join('')}</ul>` : ''}
+    <p class="small muted">協定ごとに主な分野1つで数えています（外国人材・労働に関わる協定は「外国人材・労働」に入れています）。合計${total}件${st.f.length ? '（分野の絞り込みは外して数えています）' : ''}。分野名を押すと、その分野の協定に絞り込みます。${overlap ? '複数の分野にまたがる協定は、絞り込むとそれぞれの分野に表示されるため、件数が多くなることがあります。' : ''}</p>
+  </details>`;
 }
 
 // ---------- 地図 ----------
@@ -522,6 +552,7 @@ function onClick(e) {
   if (b.matches('[data-widen]')) return apply({ vs: [...new Set([...st.vs, ...V_PRESET[b.dataset.widen].states])].sort((x, y) => V_PRESET.any.states.indexOf(x) - V_PRESET.any.states.indexOf(y)) });
   if (b.matches('[data-doc]')) return apply({ doc: b.dataset.doc });
   if (b.matches('[data-s1]')) return apply({ s: st.s.length === 1 && st.s[0] === b.dataset.s1 ? [] : [b.dataset.s1] });
+  if (b.matches('[data-f1]')) return apply({ f: st.f.length === 1 && st.f[0] === b.dataset.f1 ? [] : [b.dataset.f1] });
   if (b.matches('[data-rm]')) {
     const n = removeTag(st, b.dataset.rm, b.dataset.rv);
     if (b.dataset.lvAfter) n.lv = b.dataset.lvAfter;

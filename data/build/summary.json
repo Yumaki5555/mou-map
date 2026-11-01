@@ -1,6 +1,6 @@
 {
  "_note": "tools/build_data.mjs が作る件数のまとめです。手で直さないでください。",
- "generated": "2026-10-30",
+ "generated": "2026-11-01",
  "data_last_updated": "2026-10-28",
  "site": "https://yumaki5555.github.io/mou-map/",
  "how_counted": [
@@ -32,7 +32,7 @@
  },
  "totals": {
   "national": {"mou":{"valid_confirmed":19,"unconfirmed":25,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":44},"all":{"valid_confirmed":56,"unconfirmed":25,"ended_confirmed":0,"signed_not_started":0,"planned":2,"signed_total":81}},
-  "prefecture": {"mou":{"valid_confirmed":77,"unconfirmed":282,"ended_confirmed":3,"signed_not_started":0,"planned":3,"signed_total":362},"all":{"valid_confirmed":77,"unconfirmed":282,"ended_confirmed":3,"signed_not_started":0,"planned":3,"signed_total":362}},
+  "prefecture": {"mou":{"valid_confirmed":76,"unconfirmed":283,"ended_confirmed":3,"signed_not_started":0,"planned":3,"signed_total":362},"all":{"valid_confirmed":76,"unconfirmed":283,"ended_confirmed":3,"signed_not_started":0,"planned":3,"signed_total":362}},
   "municipality": {"mou":{"valid_confirmed":0,"unconfirmed":28,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":28},"all":{"valid_confirmed":0,"unconfirmed":28,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":28}},
   "organization": {"mou":{"valid_confirmed":2,"unconfirmed":39,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":41},"all":{"valid_confirmed":2,"unconfirmed":55,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":57}}
  },
@@ -66,7 +66,7 @@
   "27": {"name":"大阪府","url":"https://yumaki5555.github.io/mou-map/#/pref/27","survey":{"labor":"found","other_fields":"list_checked"},"counts":{"mou":{"valid_confirmed":7,"unconfirmed":4,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":11},"all":{"valid_confirmed":7,"unconfirmed":4,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":11}},"news_only":0,"municipalities":["271004","271403"]},
   "28": {"name":"兵庫県","url":"https://yumaki5555.github.io/mou-map/#/pref/28","survey":{"labor":"not_found","other_fields":"partial"},"counts":{"mou":{"valid_confirmed":0,"unconfirmed":2,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":2},"all":{"valid_confirmed":0,"unconfirmed":2,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":2}},"news_only":0,"municipalities":["281000"]},
   "29": {"name":"奈良県","url":"https://yumaki5555.github.io/mou-map/#/pref/29","survey":{"labor":"found","other_fields":"partial"},"counts":{"mou":{"valid_confirmed":0,"unconfirmed":4,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":4},"all":{"valid_confirmed":0,"unconfirmed":4,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":4}},"news_only":0,"municipalities":[]},
-  "30": {"name":"和歌山県","url":"https://yumaki5555.github.io/mou-map/#/pref/30","survey":{"labor":"found","other_fields":"list_checked"},"counts":{"mou":{"valid_confirmed":17,"unconfirmed":2,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":19},"all":{"valid_confirmed":17,"unconfirmed":2,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":19}},"news_only":0,"municipalities":[]},
+  "30": {"name":"和歌山県","url":"https://yumaki5555.github.io/mou-map/#/pref/30","survey":{"labor":"found","other_fields":"list_checked"},"counts":{"mou":{"valid_confirmed":16,"unconfirmed":3,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":19},"all":{"valid_confirmed":16,"unconfirmed":3,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":19}},"news_only":0,"municipalities":[]},
   "31": {"name":"鳥取県","url":"https://yumaki5555.github.io/mou-map/#/pref/31","survey":{"labor":"not_found","other_fields":"list_checked"},"counts":{"mou":{"valid_confirmed":0,"unconfirmed":12,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":12},"all":{"valid_confirmed":0,"unconfirmed":12,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":12}},"news_only":0,"municipalities":[]},
   "32": {"name":"島根県","url":"https://yumaki5555.github.io/mou-map/#/pref/32","survey":{"labor":"not_found","other_fields":"partial"},"counts":{"mou":{"valid_confirmed":2,"unconfirmed":5,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":7},"all":{"valid_confirmed":2,"unconfirmed":5,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":7}},"news_only":0,"municipalities":[]},
   "33": {"name":"岡山県","url":"https://yumaki5555.github.io/mou-map/#/pref/33","survey":{"labor":"not_found","other_fields":"partial"},"counts":{"mou":{"valid_confirmed":0,"unconfirmed":0,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":0},"all":{"valid_confirmed":0,"unconfirmed":0,"ended_confirmed":0,"signed_not_started":0,"planned":0,"signed_total":0}},"news_only":0,"municipalities":["331007"]},
