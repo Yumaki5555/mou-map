@@ -15,6 +15,36 @@ import { orgParts } from './orgs.js';
 const SECTIONS = ['締結主体', '締結日', '正式名称・内容', '有効性', '原文・公式資料', '事業の実施状況', '人数・予算', '地域への影響', '出典・調査状況'];
 const PRIMARY = ['original_text', 'official_page', 'press_release', 'partner_official', 'assembly_minutes'];
 
+// 国の協定の主体 → 「声を届ける」の国の機関の窓口（1つの省庁と分かるものだけ。複数の省庁・「日本国」などは利用者に選んでもらう）
+const NATIONAL_AGENCY = {
+  '日本国政府（外務省）': 'mofa',
+  '日本国政府（署名者：玄葉光一郎外務大臣）': 'mofa',
+  '厚生労働省': 'mhlw',
+};
+
+// 「この協定について問い合わせる」。締結した主体に合わせて案内先を分ける（国・自治体・団体を取り違えない）
+function askBlock(m) {
+  const item = String(m.title_ja || '').slice(0, 60);
+  const q = (params) => esc(new URLSearchParams({ ...params, from: location.href, item }).toString());
+  const link = (params, label) => `<p class="btn-row"><a class="btn btn-outline btn-small" href="../todokeru/#/contacts?${q(params)}">${esc(label)}</a></p>`;
+  const note = (text) => `<p class="small muted">${esc(text)}</p>`;
+  if (m.japan_level === 'municipality' && m.municipality_code) {
+    return link({ tab: 'area', code: m.municipality_code }, 'この協定について問い合わせる') + note(`協定を結んだ自治体（${m.municipality_name || m.japan_org}）の問い合わせ先を探します。協定の担当部署とは限りません。`);
+  }
+  if (m.japan_level === 'prefecture' && m.pref_code) {
+    return link({ tab: 'area', code: m.pref_code }, 'この協定について問い合わせる') + note(`協定を結んだ自治体（${String(m.japan_org).replace(/（.*$/, '')}）の問い合わせ先を探します。協定の担当部署とは限りません。`);
+  }
+  if (m.japan_level === 'national') {
+    const id = NATIONAL_AGENCY[m.japan_org];
+    if (id) return link({ tab: 'agency', id }, 'この協定について問い合わせる') + note('国の協定です。協定を結んだ省庁の問い合わせ先を探します。協定の担当部署とは限りません。');
+    return link({ tab: 'agency' }, '国の機関の問い合わせ先を探す') + note('国の協定です。担当する省庁をこの協定の情報だけでは1つに決められないため、一覧から選んでください。');
+  }
+  if (m.japan_level === 'organization') {
+    return note(`この協定を結んだのは国や自治体ではなく、${m.japan_org}です。問い合わせは、この団体の公式の案内をご確認ください（国や自治体の窓口は案内していません）。`);
+  }
+  return '';
+}
+
 export function detailPage(ctx, id) {
   const { db, app } = ctx;
   const m = db.mouById.get(id);
@@ -89,6 +119,7 @@ export function detailPage(ctx, id) {
         m.related_regions.length ? ['関連事業の地域', `${m.related_regions.map(r => `<a href="#/map?p=${esc(r.pref_code)}">${esc(prefName(db, r.pref_code))}</a>：${esc(r.text || '内容未確認')}`).join('<br>')}<br><span class="small muted">事業が行われた地域です。締結した地域ではないため、その都道府県の件数には含めていません。</span>`] : null,
         ['情報源（出典の資料を出した機関）', `${esc(publishers.join('、') || '記録なし')}<br><span class="small muted">資料を公表した機関で、協定の当事者（締結主体）とは限りません。</span>`],
       ])}
+      ${askBlock(m)}
     </section>
 
     ${S(2)}
